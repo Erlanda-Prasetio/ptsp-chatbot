@@ -1,0 +1,13 @@
+requests
+numpy
+tqdm
+python-dotenv
+rank_bm25
+sentence-transformers
+psycopg[binary]
+beautifulsoup4
+lxml
+pandas
+openpyxl
+xlrd
+PyPDF2

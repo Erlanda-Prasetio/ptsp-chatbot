@@ -1,0 +1,14 @@
+# GPU-accelerated embeddings requirements
+# Add these to your existing requirements.txt
+
+# For CUDA GPU acceleration
+torch>=2.0.0
+sentence-transformers>=2.2.0
+
+# For better file processing
+PyPDF2>=3.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# For parallel processing
+concurrent.futures  # Usually built-in but good to specify

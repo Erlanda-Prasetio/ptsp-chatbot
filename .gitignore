@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (large files)
+data/scraped/
+data/scraped_dpmptsp/
+data/scraped_ptsp_indonesia/
+data/default_vector_store.npy
+*.npy
+*.pkl
+*.csv
+*.xls
+*.xlsx
+*.pdf
+
+# Logs
+*.log
+logs/
+
+# Node.js (for frontend)
+ptsp-chat/node_modules/
+ptsp-chat/.next/
+ptsp-chat/.env.local
+ptsp-chat/npm-debug.log*
+ptsp-chat/yarn-debug.log*
+ptsp-chat/yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Temporary files
+*.tmp
+*.temp
