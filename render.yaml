@@ -1,0 +1,27 @@
+# Render deployment configuration
+services:
+  # Backend API
+  - type: web
+    name: ptsp-backend
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn rag_api:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: "/health"
+    envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src
+      - key: PORT
+        value: 8000
+
+  # Frontend (if deploying together)
+  - type: web
+    name: ptsp-frontend
+    env: static
+    plan: free
+    buildCommand: "cd ptsp-chat && npm install && npm run build"
+    staticPublishPath: ptsp-chat/out
+    routes:
+      - type: rewrite
+        source: "/api/*"
+        destination: "https://ptsp-backend.onrender.com/*"

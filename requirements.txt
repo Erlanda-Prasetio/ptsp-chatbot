@@ -1,3 +1,5 @@
+fastapi
+uvicorn[standard]
 requests
 numpy
 tqdm
@@ -11,3 +13,6 @@ pandas
 openpyxl
 xlrd
 PyPDF2
+torch
+transformers
+scikit-learn

@@ -1,0 +1,14 @@
+# Railway Deployment Configuration
+# This file tells Railway how to deploy your FastAPI backend
+
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "uvicorn rag_api:app --host 0.0.0.0 --port $PORT"
+healthcheckPath = "/health"
+restartPolicyType = "ON_FAILURE"
+
+[env]
+PYTHONPATH = "/app"
+PORT = "8000"
