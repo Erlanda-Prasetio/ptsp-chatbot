@@ -1,0 +1,49 @@
+# Exclude large data files from Docker build
+data/scraped/
+data/scraped_dpmptsp/
+data/scraped_ptsp_indonesia/
+data/default_vector_store.npy
+data/default_docs_meta.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+src/__pycache__/
+
+# Virtual environments
+venv/
+env/
+
+# Environment files
+.env
+
+# Git
+.git/
+.gitignore
+
+# Node.js (for frontend builds)
+ptsp-chat/node_modules/
+ptsp-chat/.next/
+ptsp-chat/out/
+
+# Logs
+*.log
+logs/
+
+# Development files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Deployment files that aren't needed in container
+setup_vps.sh
+deploy.sh
+nginx.conf
+ecosystem.config.js
+DEPLOYMENT_GUIDE.md
+MIGRATION_CHECKLIST.md
+FREE_DEPLOYMENT_GUIDE.md
