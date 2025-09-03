@@ -22,59 +22,46 @@ wheels/
 MANIFEST
 
 # Virtual environments
-.env
-.venv
-env/
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Data files (large files)
-data/scraped/
-data/scraped_dpmptsp/
-data/scraped_ptsp_indonesia/
-data/default_vector_store.npy
-*.npy
-*.pkl
-*.csv
-*.xls
-*.xlsx
-*.pdf
-
-# Logs
-*.log
-logs/
-
-# Node.js (for frontend)
-ptsp-chat/node_modules/
-ptsp-chat/.next/
-ptsp-chat/.env.local
-ptsp-chat/npm-debug.log*
-ptsp-chat/yarn-debug.log*
-ptsp-chat/yarn-error.log*
 
 # Environment variables
 .env
 .env.local
-.env.production
-.env.staging
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Large data files (keep structure but not actual files)
+data/scraped/
+data/scraped_dpmptsp/
+data/scraped_ptsp_indonesia/
+data/default_vector_store.npy
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Temporary files
 *.tmp
