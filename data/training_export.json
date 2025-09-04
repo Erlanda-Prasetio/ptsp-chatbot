@@ -1,0 +1,1142 @@
+[
+  {
+    "id": 1,
+    "question": "Halo",
+    "response": "Halo! Selamat datang di chatbot DPMPTSP Jawa Tengah. Saya siap membantu Anda dengan informasi pelayanan perizinan dan investasi.",
+    "category": "greeting",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 2,
+    "question": "Selamat pagi",
+    "response": "Selamat pagi! Terima kasih telah menghubungi DPMPTSP Jawa Tengah. Ada yang bisa saya bantu hari ini?",
+    "category": "greeting",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 3,
+    "question": "Info",
+    "response": "Saya dapat membantu Anda dengan informasi tentang perizinan, investasi, dan layanan DPMPTSP Jawa Tengah.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 4,
+    "question": "Apa saja layanan yang ada di sini?",
+    "response": "Layanan DPMPTSP Jawa Tengah meliputi:\n1. Perizinan Berusaha (NIB, OSS-RBA)\n2. Perizinan Bangunan (PBG, SLF)\n3. Perizinan Lingkungan (AMDAL, UKL-UPL)\n4. Perizinan Usaha Khusus (Apotek, Konstruksi)\n5. Pelayanan Investasi dan Penanaman Modal\n6. Konsultasi dan Pendampingan Usaha",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 5,
+    "question": "Ini chatbot DPMPTSP ya?",
+    "response": "Ya benar, saya adalah chatbot resmi DPMPTSP (Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu) Jawa Tengah.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 6,
+    "question": "Alamat kantor DPMPTSP di mana?",
+    "response": "Kantor DPMPTSP Jawa Tengah berada di Jl. Menteri Supeno No. 2, Tegalsari, Candisari, Kota Semarang, Jawa Tengah 50614.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 7,
+    "question": "Jam operasional kantor kapan?",
+    "response": "Jam operasional DPMPTSP Jawa Tengah: Senin-Jumat pukul 07.30-16.00 WIB (istirahat 12.00-13.00 WIB).",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 8,
+    "question": "Nomor telepon yang bisa dihubungi?",
+    "response": "Anda dapat menghubungi DPMPTSP Jawa Tengah di nomor telepon (024) 3569988 atau hotline layanan 14000.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 9,
+    "question": "Saya mau tanya-tanya dulu",
+    "response": "Silakan! Saya siap menjawab pertanyaan Anda tentang perizinan, investasi, dan layanan DPMPTSP lainnya.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 10,
+    "question": "Bisa bantu saya?",
+    "response": "Tentu saja! Saya siap membantu Anda dengan informasi dan panduan layanan DPMPTSP. Silakan sampaikan kebutuhan Anda.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 11,
+    "question": "Bagaimana cara membuat NIB?",
+    "response": "Cara membuat NIB (Nomor Induk Berusaha):\n1. Daftar akun di portal OSS (oss.go.id)\n2. Login dan pilih 'Perizinan Berusaha'\n3. Isi data perusahaan dan penanggung jawab\n4. Upload dokumen persyaratan\n5. Pilih KBLI sesuai bidang usaha\n6. Submit permohonan\n7. NIB akan terbit otomatis jika data lengkap\n\nDokumen yang dibutuhkan: KTP, NPWP, akta pendirian (jika PT/CV).",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 12,
+    "question": "Saya mau daftar usaha baru, mulainya dari mana?",
+    "response": "Untuk mendaftar usaha baru:\n1. Tentukan bentuk usaha (UMKM, PT, CV, dll)\n2. Daftar NIB melalui OSS (oss.go.id)\n3. Dapatkan izin sektor/lokasi sesuai bidang usaha\n4. Urus izin operasional jika diperlukan\n5. Laporkan komitmen investasi\n\nUntuk konsultasi detail, silakan datang ke kantor DPMPTSP atau hubungi hotline 14000.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 13,
+    "question": "Prosedur membuat PT Perorangan.",
+    "response": "Prosedur PT Perorangan:\n1. Buat akta pendirian di notaris\n2. Daftar NPWP perusahaan\n3. Daftar NIB melalui OSS\n4. Dapatkan izin usaha sesuai KBLI\n5. Buat rekening bank atas nama PT\n6. Daftarkan ketenagakerjaan jika ada karyawan\n\nSyarat: Modal minimal Rp 50 juta, WNI, berusia minimal 17 tahun.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 14,
+    "question": "Syarat mendirikan CV apa saja?",
+    "response": "Syarat mendirikan CV:\n1. Minimal 2 orang (1 persero aktif, 1 persero pasif)\n2. Akta pendirian CV dari notaris\n3. NPWP perusahaan\n4. Domisili usaha\n5. NIB melalui OSS\n6. Modal sesuai kebutuhan (tidak ada minimal khusus)\n\nDokumen: KTP semua persero, NPWP, surat domisili.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 15,
+    "question": "Apa itu OSS RBA?",
+    "response": "OSS-RBA (Online Single Submission Risk Based Approach) adalah sistem perizinan berusaha berbasis risiko. Izin diberikan berdasarkan tingkat risiko usaha: Rendah (NIB), Menengah Rendah (NIB + komitmen), Menengah Tinggi (NIB + izin), Tinggi (izin penuh).",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 16,
+    "question": "Link untuk daftar OSS di mana?",
+    "response": "Anda dapat mendaftar OSS di website resmi: https://oss.go.id. Pastikan menggunakan link resmi untuk keamanan data Anda.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 17,
+    "question": "Saya mau buka toko kelontong, izinnya apa saja?",
+    "response": "Untuk toko kelontong dibutuhkan:\n1. NIB dengan KBLI 47191 (Perdagangan Eceran di Toko Kelontong)\n2. Izin usaha mikro kecil (jika omzet < 300 juta/tahun)\n3. PIRT jika menjual makanan kemasan\n4. Surat Keterangan Domisili Usaha\n\nProses melalui OSS dengan risiko rendah-menengah.",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 18,
+    "question": "Untuk usaha cafe, perlu izin apa?",
+    "response": "Untuk usaha cafe dibutuhkan:\n1. NIB dengan KBLI 56101 (Restoran)\n2. Izin Gangguan (HO)\n3. Sertifikat Laik Higiene Sanitasi\n4. Izin Edar MD untuk makanan olahan\n5. APAR dan izin kebakaran\n6. Izin musik/hiburan jika ada live music",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 19,
+    "question": "Dokumen yang dibutuhkan untuk daftar NIB UMKM?",
+    "response": "Dokumen NIB UMKM:\n1. KTP pemilik usaha\n2. NPWP pribadi\n3. Surat keterangan domisili usaha\n4. Pas foto\n5. Nomor handphone aktif\n6. Email aktif\n\nUntuk UMKM, proses lebih sederhana dan gratis melalui OSS.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 20,
+    "question": "Apa itu KBLI dan bagaimana cara menentukannya?",
+    "response": "KBLI (Klasifikasi Baku Lapangan Usaha Indonesia) adalah kode untuk mengklasifikasikan bidang usaha.\n\nCara menentukan:\n1. Buka website oss.go.id\n2. Gunakan fitur pencarian KBLI\n3. Masukkan kata kunci bidang usaha\n4. Pilih kode yang paling sesuai\n5. Perhatikan deskripsi dan batasan aktivitas\n\nContoh: 47191 untuk toko kelontong, 56101 untuk restoran.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 21,
+    "question": "Cara mengurus PBG (Persetujuan Bangunan Gedung).",
+    "response": "Prosedur PBG:\n1. Siapkan dokumen teknis (gambar, perhitungan struktur)\n2. Daftar di SIMBG atau datang ke DPMPTSP\n3. Upload/serahkan persyaratan lengkap\n4. Tim teknis melakukan review\n5. Lakukan pembayaran retribusi\n6. PBG terbit setelah semua persyaratan terpenuhi\n\nWaktu proses: 7-14 hari kerja tergantung kompleksitas bangunan.",
+    "category": "bangunan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 22,
+    "question": "Berapa biaya mengurus Izin Praktik Dokter?",
+    "response": "Biaya Izin Praktik Dokter:\n1. Retribusi daerah: sesuai Perda yang berlaku\n2. Biaya verifikasi dokumen\n3. Biaya administrasi\n\nUntuk informasi tarif terbaru, silakan hubungi DPMPTSP di (024) 3569988 atau datang langsung ke kantor.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 23,
+    "question": "Saya mau pasang reklame, bagaimana prosedurnya?",
+    "response": "Prosedur izin reklame:\n1. Isi formulir permohonan\n2. Lampirkan gambar/desain reklame\n3. Surat persetujuan pemilik lokasi\n4. Denah lokasi pemasangan\n5. NPWP perusahaan\n6. Survey lokasi oleh tim teknis\n7. Pembayaran retribusi\n8. Izin terbit\n\nMasa berlaku: 1 tahun, dapat diperpanjang.",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 24,
+    "question": "Syarat-syarat untuk mendapatkan SLF (Sertifikat Laik Fungsi)?",
+    "response": "Syarat SLF:\n1. Memiliki PBG atau IMB\n2. Bangunan sudah selesai 100%\n3. Dokumen as built drawing\n4. Laporan pengawasan berkala\n5. Hasil uji komisioning (untuk bangunan tertentu)\n6. Sertifikat keselamatan kebakaran\n7. Bukti pembayaran PBB\n\nSLF wajib untuk bangunan komersial dan publik.",
+    "category": "bangunan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 25,
+    "question": "Prosedur pengurusan izin lingkungan (AMDAL/UKL-UPL).",
+    "response": "Izin Lingkungan:\n\nAMDAL (untuk usaha berdampak besar):\n1. Penyusunan dokumen AMDAL\n2. Konsultasi publik\n3. Penilaian komisi AMDAL\n4. Persetujuan gubernur\n\nUKL-UPL (untuk usaha berdampak kecil):\n1. Isi formulir UKL-UPL\n2. Lampirkan dokumen pendukung\n3. Evaluasi teknis\n4. Rekomendasi/persetujuan\n\nProses melalui DPMPTSP atau online.",
+    "category": "lingkungan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 26,
+    "question": "Bagaimana cara mendapatkan Izin Apotek?",
+    "response": "Prosedur Izin Apotek:\n1. Sertifikat Apoteker Pengelola Apotek (APA)\n2. Surat keterangan lokasi\n3. Denah bangunan apotek\n4. Daftar alat dan perlengkapan\n5. Surat pernyataan kesiapan operasional\n6. NIB dengan KBLI apotek\n7. Izin gangguan\n\nProses melalui DPMPTSP dengan verifikasi lapangan.",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 27,
+    "question": "Informasi tentang Izin Usaha Jasa Konstruksi (IUJK).",
+    "response": "IUJK telah diintegrasikan ke dalam NIB melalui OSS. \n\nPersyaratan:\n1. Sertifikat Badan Usaha (SBU)\n2. NIB dengan KBLI konstruksi\n3. Tenaga kerja bersertifikat\n4. Peralatan konstruksi\n5. Modal sesuai klasifikasi\n\nKlasifikasi: Kecil, Menengah, Besar sesuai kemampuan finansial dan teknis.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 28,
+    "question": "Saya butuh Sertifikat Laik Higiene Sanitasi untuk rumah makan.",
+    "response": "Sertifikat Laik Higiene Sanitasi Rumah Makan:\n\nPersyaratan:\n1. Surat permohonan\n2. Fotokopi NIB/izin usaha\n3. Denah lokasi dan bangunan\n4. Daftar menu makanan\n5. Sertifikat pelatihan higiene penjamah makanan\n6. Hasil uji air bersih\n\nProses: Inspeksi lapangan oleh petugas kesehatan, kemudian sertifikat diterbitkan jika memenuhi standar.",
+    "category": "hygiene",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 29,
+    "question": "Bagaimana cara perpanjang izin usaha saya?",
+    "response": "Cara perpanjang izin usaha:\n1. Login ke akun OSS\n2. Pilih menu 'Perpanjangan Izin'\n3. Isi formulir perpanjangan\n4. Upload dokumen pendukung yang diperlukan\n5. Submit permohonan\n6. Monitor status di dashboard\n\nPerpanjang minimal 30 hari sebelum masa berlaku habis untuk menghindari denda.",
+    "category": "perpanjangan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 30,
+    "question": "Izin saya akan habis masa berlakunya, apa yang harus dilakukan?",
+    "response": "Jika izin akan habis:\n1. Segera ajukan perpanjangan maksimal 30 hari sebelum expired\n2. Siapkan dokumen yang diperlukan\n3. Bayar retribusi perpanjangan\n4. Jika terlambat, ada denda keterlambatan\n5. Jika sudah expired, harus mengurus izin baru\n\nPantau terus masa berlaku izin Anda di dashboard OSS.",
+    "category": "perpanjangan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 31,
+    "question": "Saya mau mengubah data NIB, bagaimana caranya?",
+    "response": "Perubahan data NIB:\n1. Login ke OSS\n2. Pilih 'Perubahan Data Perusahaan'\n3. Pilih jenis perubahan (alamat, penanggung jawab, dll)\n4. Upload dokumen pendukung\n5. Submit permohonan\n6. Tunggu verifikasi\n\nUntuk perubahan besar (modal, KBLI), mungkin perlu proses lebih detail.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 32,
+    "question": "Prosedur penambahan KBLI di OSS.",
+    "response": "Penambahan KBLI:\n1. Login ke akun OSS\n2. Pilih 'Perubahan/Penambahan KBLI'\n3. Cari dan pilih KBLI baru yang diinginkan\n4. Isi komitmen investasi untuk KBLI baru\n5. Upload dokumen persyaratan\n6. Submit permohonan\n7. NIB akan diperbarui dengan KBLI baru\n\nPastikan KBLI sesuai dengan aktivitas usaha yang akan dilakukan.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 33,
+    "question": "Saya pindah alamat usaha, apakah perlu lapor?",
+    "response": "Ya, wajib melaporkan perubahan alamat usaha:\n1. Update data di OSS untuk perubahan alamat\n2. Urus surat keterangan domisili baru\n3. Laporkan ke Dinas Perdagangan setempat\n4. Update data pajak di kantor pajak\n5. Beritahu bank untuk update data rekening\n\nTidak melaporkan dapat berakibat sanksi administratif.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 34,
+    "question": "Potensi investasi di sektor pariwisata apa saja?",
+    "response": "Potensi investasi pariwisata di Jawa Tengah:\n1. Hotel dan resort (Borobudur, Dieng, Karimunjawa)\n2. Wisata kuliner tradisional\n3. Wisata budaya dan sejarah\n4. Wisata alam dan adventure\n5. MICE (Meeting, Incentive, Convention, Exhibition)\n6. Transportasi wisata\n7. Souvenir dan kerajinan\n\nJateng memiliki insentif khusus untuk investor pariwisata.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 35,
+    "question": "Apakah ada insentif untuk investor?",
+    "response": "Insentif investasi di Jawa Tengah:\n1. Tax holiday/tax allowance\n2. Kemudahan perizinan (fast track)\n3. Fasilitas lahan industri\n4. Pelatihan tenaga kerja\n5. Insentif daerah sesuai sektor prioritas\n6. Pendampingan investasi\n\nDetail insentif tergantung nilai investasi dan sektor. Konsultasi dengan tim investasi DPMPTSP.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 36,
+    "question": "Prosedur untuk Penanaman Modal Asing (PMA).",
+    "response": "Prosedur PMA:\n1. Pastikan sektor terbuka untuk PMA\n2. Siapkan dokumen investor asing\n3. Buat akta pendirian PT PMA\n4. Daftar NIB melalui OSS\n5. Dapatkan izin prinsip\n6. Realisasi investasi sesuai komitmen\n7. Laporan berkala LKPM\n\nModal minimal PMA: USD 2,5 juta (kecuali sektor tertentu).",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 37,
+    "question": "Saya butuh data realisasi investasi tahun ini.",
+    "response": "Data realisasi investasi tersedia di website DPMPTSP Jawa Tengah atau dapat diminta langsung ke Bidang Investasi. Untuk data detail dan terkini, silakan hubungi (024) 3569988 ext. investasi.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 38,
+    "question": "What are the requirements for foreign direct investment?",
+    "response": "Foreign Direct Investment (FDI) Requirements in Central Java:\n1. Minimum investment: USD 2.5 million (except certain sectors)\n2. Sectors must be open to foreign investment\n3. Legal entity: PT PMA (Foreign Investment Company)\n4. Business license (NIB) through OSS\n5. Investment realization commitment\n6. Quarterly reporting (LKPM)\n\nContact DPMPTSP investment team for detailed consultation.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 39,
+    "question": "Informasi tentang Rencana Detail Tata Ruang (RDTR).",
+    "response": "RDTR (Rencana Detail Tata Ruang):\n- Dokumen perencanaan ruang skala detail\n- Mengatur blok peruntukan dan intensitas ruang\n- Dasar penerbitan advice planning\n- Tersedia di Dinas PUPR atau DPMPTSP\n- Penting untuk lokasi investasi dan perizinan bangunan\n\nKonsultasi RDTR penting sebelum investasi untuk memastikan kesesuaian lokasi.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 40,
+    "question": "Cara mengajukan Laporan Kegiatan Penanaman Modal (LKPM).",
+    "response": "Cara mengajukan LKPM:\n1. Login ke portal LKPM (lkpm.investingindonesia.go.id)\n2. Pilih jenis laporan (triwulan/tahunan)\n3. Isi data realisasi investasi\n4. Isi data ketenagakerjaan\n5. Upload dokumen pendukung\n6. Submit laporan sebelum deadline\n\nLKPM wajib dilaporkan setiap triwulan untuk semua perusahaan PMA/PMDN.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 41,
+    "question": "Kapan batas waktu pelaporan LKPM Triwulan 3?",
+    "response": "Batas waktu pelaporan LKPM Triwulan 3 (Juli-September) adalah tanggal 31 Oktober. Pastikan melaporkan tepat waktu untuk menghindari sanksi administratif.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 42,
+    "question": "Bagaimana cara melacak berkas perizinan?",
+    "response": "Cara melacak berkas perizinan:\n1. Login ke akun OSS (oss.go.id)\n2. Masuk ke dashboard 'Status Permohonan'\n3. Lihat status real-time permohonan Anda\n4. Atau hubungi call center 14000\n5. Datang langsung ke DPMPTSP dengan membawa nomor registrasi\n\nStatus akan menampilkan tahapan proses yang sedang berjalan.",
+    "category": "tracking",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 43,
+    "question": "Permohonan saya dengan nomor registrasi 123XYZ sudah sampai mana?",
+    "response": "Untuk mengecek status permohonan dengan nomor registrasi tertentu, silakan login ke dashboard OSS Anda atau hubungi call center 14000 dengan menyebutkan nomor registrasi. Petugas akan memberikan update status terkini.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 44,
+    "question": "Kenapa permohonan saya ditolak?",
+    "response": "Permohonan bisa ditolak karena:\n1. Dokumen tidak lengkap/tidak sesuai\n2. Data tidak valid\n3. Lokasi tidak sesuai tata ruang\n4. Tidak memenuhi persyaratan teknis\n5. Ada duplikasi data\n\nCek alasan penolakan di dashboard OSS atau hubungi petugas untuk klarifikasi dan perbaikan.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 45,
+    "question": "Berkas saya sudah diverifikasi atau belum?",
+    "response": "Status verifikasi dapat dilihat di dashboard OSS Anda. Jika statusnya 'Dalam Proses Verifikasi', berarti sedang ditinjau petugas. Jika 'Terverifikasi', proses berlanjut ke tahap berikutnya.",
+    "category": "tracking",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 46,
+    "question": "Berapa lama proses pengurusan PBG sampai terbit?",
+    "response": "Waktu proses PBG:\n- Bangunan sederhana: 3-7 hari kerja\n- Bangunan menengah: 7-14 hari kerja  \n- Bangunan kompleks: 14-21 hari kerja\n\nTergantung kelengkapan dokumen dan kompleksitas bangunan. Proses lebih cepat jika dokumen lengkap dan benar.",
+    "category": "bangunan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 47,
+    "question": "Sudah seminggu tapi belum ada kabar.",
+    "response": "Jika sudah lebih dari estimasi waktu proses, silakan: 1) Cek status di dashboard OSS, 2) Hubungi call center 14000, 3) Datang langsung ke DPMPTSP dengan membawa nomor registrasi. Petugas akan memberikan update status dan perkiraan penyelesaian.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 48,
+    "question": "Lupa password akun SICANTIK.",
+    "response": "Untuk reset password SICANTIK:\n1. Buka halaman login SICANTIK\n2. Klik 'Lupa Password'\n3. Masukkan email terdaftar\n4. Cek email untuk link reset password\n5. Ikuti instruksi reset password\n6. Jika masih bermasalah, hubungi admin SICANTIK di DPMPTSP",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 49,
+    "question": "Kenapa saya gagal upload dokumen? Ukuran maksimal berapa?",
+    "response": "Persyaratan upload dokumen:\n- Format: PDF, JPG, PNG\n- Ukuran maksimal: 2 MB per file\n- Resolusi: minimal 150 DPI\n- Pastikan dokumen tidak corrupt\n- Gunakan koneksi internet stabil\n\nJika masih gagal, coba compress file atau hubungi technical support.",
+    "category": "lingkungan",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 50,
+    "question": "Website DPMPTSP sedang error?",
+    "response": "Jika website DPMPTSP error, coba: 1) Refresh halaman, 2) Clear cache browser, 3) Gunakan browser lain, 4) Cek koneksi internet. Jika masih bermasalah, laporkan ke admin website atau hubungi (024) 3569988.",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 51,
+    "question": "Di mana saya bisa download formulir A?",
+    "response": "Formulir dapat didownload di: 1) Website resmi DPMPTSP Jawa Tengah, 2) Portal OSS (oss.go.id), 3) Datang langsung ke kantor DPMPTSP. Pastikan menggunakan formulir versi terbaru.",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 52,
+    "question": "Server OSS sedang down?",
+    "response": "Jika server OSS down: 1) Tunggu beberapa saat, 2) Coba akses kembali, 3) Hubungi call center OSS 14000, 4) Cek pengumuman di media sosial resmi OSS. Biasanya maintenance dijadwalkan di luar jam kerja.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 53,
+    "question": "Bagaimana prosedur komplain layanan?",
+    "response": "Prosedur komplain layanan:\n1. Sampaikan komplain melalui:\n   - Website DPMPTSP (form komplain)\n   - Email resmi\n   - Datang langsung ke bagian pengaduan\n   - Call center (024) 3569988\n2. Sertakan detail kronologi dan bukti\n3. Tunggu follow up dari petugas\n4. Evaluasi penyelesaian komplain\n\nSemua komplain akan ditindaklanjuti sesuai SOP.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 54,
+    "question": "Layanan di kantor sangat lambat.",
+    "response": "Terima kasih atas masukan Anda. Keluhan tentang kecepatan layanan akan kami sampaikan kepada manajemen untuk perbaikan. Silakan sampaikan detail pengalaman Anda melalui kotak saran atau form komplain di website kami.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 55,
+    "question": "Saya ingin konsultasi langsung dengan petugas.",
+    "response": "Untuk konsultasi langsung:\n1. Datang ke kantor DPMPTSP (Senin-Jumat, 07.30-16.00)\n2. Ambil nomor antrian di loket informasi\n3. Atau buat janji temu melalui:\n   - Telepon (024) 3569988\n   - Website DPMPTSP\n   - WhatsApp resmi (jika tersedia)\n\nBawa dokumen terkait untuk konsultasi yang efektif.",
+    "category": "komplain",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 56,
+    "question": "Bisa jadwalkan sesi konsultasi offline/online?",
+    "response": "Ya, DPMPTSP menyediakan layanan konsultasi terjadwal. Silakan hubungi (024) 3569988 atau kunjungi website resmi untuk booking konsultasi. Tersedia sesi offline di kantor atau online via video call sesuai kebutuhan.",
+    "category": "komplain",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 57,
+    "question": "Saya bingung mengisi formulir, bisa dibantu?",
+    "response": "Tentu! Anda bisa mendapat bantuan pengisian formulir dengan: 1) Datang ke help desk di kantor DPMPTSP, 2) Hubungi call center 14000, 3) Ikuti panduan video di website, 4) Minta pendampingan petugas saat di kantor. Kami siap membantu hingga formulir terisi dengan benar.",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:18.498385",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 58,
+    "question": "Halo",
+    "response": "Halo! Selamat datang di chatbot DPMPTSP Jawa Tengah. Saya siap membantu Anda dengan informasi pelayanan perizinan dan investasi.",
+    "category": "greeting",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 59,
+    "question": "Selamat pagi",
+    "response": "Selamat pagi! Terima kasih telah menghubungi DPMPTSP Jawa Tengah. Ada yang bisa saya bantu hari ini?",
+    "category": "greeting",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 60,
+    "question": "Info",
+    "response": "Saya dapat membantu Anda dengan informasi tentang perizinan, investasi, dan layanan DPMPTSP Jawa Tengah.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 61,
+    "question": "Apa saja layanan yang ada di sini?",
+    "response": "Layanan DPMPTSP Jawa Tengah meliputi:\n1. Perizinan Berusaha (NIB, OSS-RBA)\n2. Perizinan Bangunan (PBG, SLF)\n3. Perizinan Lingkungan (AMDAL, UKL-UPL)\n4. Perizinan Usaha Khusus (Apotek, Konstruksi)\n5. Pelayanan Investasi dan Penanaman Modal\n6. Konsultasi dan Pendampingan Usaha",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 62,
+    "question": "Ini chatbot DPMPTSP ya?",
+    "response": "Ya benar, saya adalah chatbot resmi DPMPTSP (Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu) Jawa Tengah.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 63,
+    "question": "Alamat kantor DPMPTSP di mana?",
+    "response": "Kantor DPMPTSP Jawa Tengah berada di Jl. Menteri Supeno No. 2, Tegalsari, Candisari, Kota Semarang, Jawa Tengah 50614.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 64,
+    "question": "Jam operasional kantor kapan?",
+    "response": "Jam operasional DPMPTSP Jawa Tengah: Senin-Jumat pukul 07.30-16.00 WIB (istirahat 12.00-13.00 WIB).",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 65,
+    "question": "Nomor telepon yang bisa dihubungi?",
+    "response": "Anda dapat menghubungi DPMPTSP Jawa Tengah di nomor telepon (024) 3569988 atau hotline layanan 14000.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 66,
+    "question": "Saya mau tanya-tanya dulu",
+    "response": "Silakan! Saya siap menjawab pertanyaan Anda tentang perizinan, investasi, dan layanan DPMPTSP lainnya.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 67,
+    "question": "Bisa bantu saya?",
+    "response": "Tentu saja! Saya siap membantu Anda dengan informasi dan panduan layanan DPMPTSP. Silakan sampaikan kebutuhan Anda.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 68,
+    "question": "Bagaimana cara membuat NIB?",
+    "response": "Cara membuat NIB (Nomor Induk Berusaha):\n1. Daftar akun di portal OSS (oss.go.id)\n2. Login dan pilih 'Perizinan Berusaha'\n3. Isi data perusahaan dan penanggung jawab\n4. Upload dokumen persyaratan\n5. Pilih KBLI sesuai bidang usaha\n6. Submit permohonan\n7. NIB akan terbit otomatis jika data lengkap\n\nDokumen yang dibutuhkan: KTP, NPWP, akta pendirian (jika PT/CV).",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 69,
+    "question": "Saya mau daftar usaha baru, mulainya dari mana?",
+    "response": "Untuk mendaftar usaha baru:\n1. Tentukan bentuk usaha (UMKM, PT, CV, dll)\n2. Daftar NIB melalui OSS (oss.go.id)\n3. Dapatkan izin sektor/lokasi sesuai bidang usaha\n4. Urus izin operasional jika diperlukan\n5. Laporkan komitmen investasi\n\nUntuk konsultasi detail, silakan datang ke kantor DPMPTSP atau hubungi hotline 14000.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 70,
+    "question": "Prosedur membuat PT Perorangan.",
+    "response": "Prosedur PT Perorangan:\n1. Buat akta pendirian di notaris\n2. Daftar NPWP perusahaan\n3. Daftar NIB melalui OSS\n4. Dapatkan izin usaha sesuai KBLI\n5. Buat rekening bank atas nama PT\n6. Daftarkan ketenagakerjaan jika ada karyawan\n\nSyarat: Modal minimal Rp 50 juta, WNI, berusia minimal 17 tahun.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 71,
+    "question": "Syarat mendirikan CV apa saja?",
+    "response": "Syarat mendirikan CV:\n1. Minimal 2 orang (1 persero aktif, 1 persero pasif)\n2. Akta pendirian CV dari notaris\n3. NPWP perusahaan\n4. Domisili usaha\n5. NIB melalui OSS\n6. Modal sesuai kebutuhan (tidak ada minimal khusus)\n\nDokumen: KTP semua persero, NPWP, surat domisili.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 72,
+    "question": "Apa itu OSS RBA?",
+    "response": "OSS-RBA (Online Single Submission Risk Based Approach) adalah sistem perizinan berusaha berbasis risiko. Izin diberikan berdasarkan tingkat risiko usaha: Rendah (NIB), Menengah Rendah (NIB + komitmen), Menengah Tinggi (NIB + izin), Tinggi (izin penuh).",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 73,
+    "question": "Link untuk daftar OSS di mana?",
+    "response": "Anda dapat mendaftar OSS di website resmi: https://oss.go.id. Pastikan menggunakan link resmi untuk keamanan data Anda.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 74,
+    "question": "Saya mau buka toko kelontong, izinnya apa saja?",
+    "response": "Untuk toko kelontong dibutuhkan:\n1. NIB dengan KBLI 47191 (Perdagangan Eceran di Toko Kelontong)\n2. Izin usaha mikro kecil (jika omzet < 300 juta/tahun)\n3. PIRT jika menjual makanan kemasan\n4. Surat Keterangan Domisili Usaha\n\nProses melalui OSS dengan risiko rendah-menengah.",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 75,
+    "question": "Untuk usaha cafe, perlu izin apa?",
+    "response": "Untuk usaha cafe dibutuhkan:\n1. NIB dengan KBLI 56101 (Restoran)\n2. Izin Gangguan (HO)\n3. Sertifikat Laik Higiene Sanitasi\n4. Izin Edar MD untuk makanan olahan\n5. APAR dan izin kebakaran\n6. Izin musik/hiburan jika ada live music",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 76,
+    "question": "Dokumen yang dibutuhkan untuk daftar NIB UMKM?",
+    "response": "Dokumen NIB UMKM:\n1. KTP pemilik usaha\n2. NPWP pribadi\n3. Surat keterangan domisili usaha\n4. Pas foto\n5. Nomor handphone aktif\n6. Email aktif\n\nUntuk UMKM, proses lebih sederhana dan gratis melalui OSS.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 77,
+    "question": "Apa itu KBLI dan bagaimana cara menentukannya?",
+    "response": "KBLI (Klasifikasi Baku Lapangan Usaha Indonesia) adalah kode untuk mengklasifikasikan bidang usaha.\n\nCara menentukan:\n1. Buka website oss.go.id\n2. Gunakan fitur pencarian KBLI\n3. Masukkan kata kunci bidang usaha\n4. Pilih kode yang paling sesuai\n5. Perhatikan deskripsi dan batasan aktivitas\n\nContoh: 47191 untuk toko kelontong, 56101 untuk restoran.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 78,
+    "question": "Cara mengurus PBG (Persetujuan Bangunan Gedung).",
+    "response": "Prosedur PBG:\n1. Siapkan dokumen teknis (gambar, perhitungan struktur)\n2. Daftar di SIMBG atau datang ke DPMPTSP\n3. Upload/serahkan persyaratan lengkap\n4. Tim teknis melakukan review\n5. Lakukan pembayaran retribusi\n6. PBG terbit setelah semua persyaratan terpenuhi\n\nWaktu proses: 7-14 hari kerja tergantung kompleksitas bangunan.",
+    "category": "bangunan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 79,
+    "question": "Berapa biaya mengurus Izin Praktik Dokter?",
+    "response": "Biaya Izin Praktik Dokter:\n1. Retribusi daerah: sesuai Perda yang berlaku\n2. Biaya verifikasi dokumen\n3. Biaya administrasi\n\nUntuk informasi tarif terbaru, silakan hubungi DPMPTSP di (024) 3569988 atau datang langsung ke kantor.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 80,
+    "question": "Saya mau pasang reklame, bagaimana prosedurnya?",
+    "response": "Prosedur izin reklame:\n1. Isi formulir permohonan\n2. Lampirkan gambar/desain reklame\n3. Surat persetujuan pemilik lokasi\n4. Denah lokasi pemasangan\n5. NPWP perusahaan\n6. Survey lokasi oleh tim teknis\n7. Pembayaran retribusi\n8. Izin terbit\n\nMasa berlaku: 1 tahun, dapat diperpanjang.",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 81,
+    "question": "Syarat-syarat untuk mendapatkan SLF (Sertifikat Laik Fungsi)?",
+    "response": "Syarat SLF:\n1. Memiliki PBG atau IMB\n2. Bangunan sudah selesai 100%\n3. Dokumen as built drawing\n4. Laporan pengawasan berkala\n5. Hasil uji komisioning (untuk bangunan tertentu)\n6. Sertifikat keselamatan kebakaran\n7. Bukti pembayaran PBB\n\nSLF wajib untuk bangunan komersial dan publik.",
+    "category": "bangunan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 82,
+    "question": "Prosedur pengurusan izin lingkungan (AMDAL/UKL-UPL).",
+    "response": "Izin Lingkungan:\n\nAMDAL (untuk usaha berdampak besar):\n1. Penyusunan dokumen AMDAL\n2. Konsultasi publik\n3. Penilaian komisi AMDAL\n4. Persetujuan gubernur\n\nUKL-UPL (untuk usaha berdampak kecil):\n1. Isi formulir UKL-UPL\n2. Lampirkan dokumen pendukung\n3. Evaluasi teknis\n4. Rekomendasi/persetujuan\n\nProses melalui DPMPTSP atau online.",
+    "category": "lingkungan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 83,
+    "question": "Bagaimana cara mendapatkan Izin Apotek?",
+    "response": "Prosedur Izin Apotek:\n1. Sertifikat Apoteker Pengelola Apotek (APA)\n2. Surat keterangan lokasi\n3. Denah bangunan apotek\n4. Daftar alat dan perlengkapan\n5. Surat pernyataan kesiapan operasional\n6. NIB dengan KBLI apotek\n7. Izin gangguan\n\nProses melalui DPMPTSP dengan verifikasi lapangan.",
+    "category": "izin_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 84,
+    "question": "Informasi tentang Izin Usaha Jasa Konstruksi (IUJK).",
+    "response": "IUJK telah diintegrasikan ke dalam NIB melalui OSS. \n\nPersyaratan:\n1. Sertifikat Badan Usaha (SBU)\n2. NIB dengan KBLI konstruksi\n3. Tenaga kerja bersertifikat\n4. Peralatan konstruksi\n5. Modal sesuai klasifikasi\n\nKlasifikasi: Kecil, Menengah, Besar sesuai kemampuan finansial dan teknis.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 85,
+    "question": "Saya butuh Sertifikat Laik Higiene Sanitasi untuk rumah makan.",
+    "response": "Sertifikat Laik Higiene Sanitasi Rumah Makan:\n\nPersyaratan:\n1. Surat permohonan\n2. Fotokopi NIB/izin usaha\n3. Denah lokasi dan bangunan\n4. Daftar menu makanan\n5. Sertifikat pelatihan higiene penjamah makanan\n6. Hasil uji air bersih\n\nProses: Inspeksi lapangan oleh petugas kesehatan, kemudian sertifikat diterbitkan jika memenuhi standar.",
+    "category": "hygiene",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 86,
+    "question": "Bagaimana cara perpanjang izin usaha saya?",
+    "response": "Cara perpanjang izin usaha:\n1. Login ke akun OSS\n2. Pilih menu 'Perpanjangan Izin'\n3. Isi formulir perpanjangan\n4. Upload dokumen pendukung yang diperlukan\n5. Submit permohonan\n6. Monitor status di dashboard\n\nPerpanjang minimal 30 hari sebelum masa berlaku habis untuk menghindari denda.",
+    "category": "perpanjangan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 87,
+    "question": "Izin saya akan habis masa berlakunya, apa yang harus dilakukan?",
+    "response": "Jika izin akan habis:\n1. Segera ajukan perpanjangan maksimal 30 hari sebelum expired\n2. Siapkan dokumen yang diperlukan\n3. Bayar retribusi perpanjangan\n4. Jika terlambat, ada denda keterlambatan\n5. Jika sudah expired, harus mengurus izin baru\n\nPantau terus masa berlaku izin Anda di dashboard OSS.",
+    "category": "perpanjangan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 88,
+    "question": "Saya mau mengubah data NIB, bagaimana caranya?",
+    "response": "Perubahan data NIB:\n1. Login ke OSS\n2. Pilih 'Perubahan Data Perusahaan'\n3. Pilih jenis perubahan (alamat, penanggung jawab, dll)\n4. Upload dokumen pendukung\n5. Submit permohonan\n6. Tunggu verifikasi\n\nUntuk perubahan besar (modal, KBLI), mungkin perlu proses lebih detail.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 89,
+    "question": "Prosedur penambahan KBLI di OSS.",
+    "response": "Penambahan KBLI:\n1. Login ke akun OSS\n2. Pilih 'Perubahan/Penambahan KBLI'\n3. Cari dan pilih KBLI baru yang diinginkan\n4. Isi komitmen investasi untuk KBLI baru\n5. Upload dokumen persyaratan\n6. Submit permohonan\n7. NIB akan diperbarui dengan KBLI baru\n\nPastikan KBLI sesuai dengan aktivitas usaha yang akan dilakukan.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 90,
+    "question": "Saya pindah alamat usaha, apakah perlu lapor?",
+    "response": "Ya, wajib melaporkan perubahan alamat usaha:\n1. Update data di OSS untuk perubahan alamat\n2. Urus surat keterangan domisili baru\n3. Laporkan ke Dinas Perdagangan setempat\n4. Update data pajak di kantor pajak\n5. Beritahu bank untuk update data rekening\n\nTidak melaporkan dapat berakibat sanksi administratif.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 91,
+    "question": "Potensi investasi di sektor pariwisata apa saja?",
+    "response": "Potensi investasi pariwisata di Jawa Tengah:\n1. Hotel dan resort (Borobudur, Dieng, Karimunjawa)\n2. Wisata kuliner tradisional\n3. Wisata budaya dan sejarah\n4. Wisata alam dan adventure\n5. MICE (Meeting, Incentive, Convention, Exhibition)\n6. Transportasi wisata\n7. Souvenir dan kerajinan\n\nJateng memiliki insentif khusus untuk investor pariwisata.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 92,
+    "question": "Apakah ada insentif untuk investor?",
+    "response": "Insentif investasi di Jawa Tengah:\n1. Tax holiday/tax allowance\n2. Kemudahan perizinan (fast track)\n3. Fasilitas lahan industri\n4. Pelatihan tenaga kerja\n5. Insentif daerah sesuai sektor prioritas\n6. Pendampingan investasi\n\nDetail insentif tergantung nilai investasi dan sektor. Konsultasi dengan tim investasi DPMPTSP.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 93,
+    "question": "Prosedur untuk Penanaman Modal Asing (PMA).",
+    "response": "Prosedur PMA:\n1. Pastikan sektor terbuka untuk PMA\n2. Siapkan dokumen investor asing\n3. Buat akta pendirian PT PMA\n4. Daftar NIB melalui OSS\n5. Dapatkan izin prinsip\n6. Realisasi investasi sesuai komitmen\n7. Laporan berkala LKPM\n\nModal minimal PMA: USD 2,5 juta (kecuali sektor tertentu).",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 94,
+    "question": "Saya butuh data realisasi investasi tahun ini.",
+    "response": "Data realisasi investasi tersedia di website DPMPTSP Jawa Tengah atau dapat diminta langsung ke Bidang Investasi. Untuk data detail dan terkini, silakan hubungi (024) 3569988 ext. investasi.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 95,
+    "question": "What are the requirements for foreign direct investment?",
+    "response": "Foreign Direct Investment (FDI) Requirements in Central Java:\n1. Minimum investment: USD 2.5 million (except certain sectors)\n2. Sectors must be open to foreign investment\n3. Legal entity: PT PMA (Foreign Investment Company)\n4. Business license (NIB) through OSS\n5. Investment realization commitment\n6. Quarterly reporting (LKPM)\n\nContact DPMPTSP investment team for detailed consultation.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 96,
+    "question": "Informasi tentang Rencana Detail Tata Ruang (RDTR).",
+    "response": "RDTR (Rencana Detail Tata Ruang):\n- Dokumen perencanaan ruang skala detail\n- Mengatur blok peruntukan dan intensitas ruang\n- Dasar penerbitan advice planning\n- Tersedia di Dinas PUPR atau DPMPTSP\n- Penting untuk lokasi investasi dan perizinan bangunan\n\nKonsultasi RDTR penting sebelum investasi untuk memastikan kesesuaian lokasi.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 97,
+    "question": "Cara mengajukan Laporan Kegiatan Penanaman Modal (LKPM).",
+    "response": "Cara mengajukan LKPM:\n1. Login ke portal LKPM (lkpm.investingindonesia.go.id)\n2. Pilih jenis laporan (triwulan/tahunan)\n3. Isi data realisasi investasi\n4. Isi data ketenagakerjaan\n5. Upload dokumen pendukung\n6. Submit laporan sebelum deadline\n\nLKPM wajib dilaporkan setiap triwulan untuk semua perusahaan PMA/PMDN.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 98,
+    "question": "Kapan batas waktu pelaporan LKPM Triwulan 3?",
+    "response": "Batas waktu pelaporan LKPM Triwulan 3 (Juli-September) adalah tanggal 31 Oktober. Pastikan melaporkan tepat waktu untuk menghindari sanksi administratif.",
+    "category": "investasi",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 99,
+    "question": "Bagaimana cara melacak berkas perizinan?",
+    "response": "Cara melacak berkas perizinan:\n1. Login ke akun OSS (oss.go.id)\n2. Masuk ke dashboard 'Status Permohonan'\n3. Lihat status real-time permohonan Anda\n4. Atau hubungi call center 14000\n5. Datang langsung ke DPMPTSP dengan membawa nomor registrasi\n\nStatus akan menampilkan tahapan proses yang sedang berjalan.",
+    "category": "tracking",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 100,
+    "question": "Permohonan saya dengan nomor registrasi 123XYZ sudah sampai mana?",
+    "response": "Untuk mengecek status permohonan dengan nomor registrasi tertentu, silakan login ke dashboard OSS Anda atau hubungi call center 14000 dengan menyebutkan nomor registrasi. Petugas akan memberikan update status terkini.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 101,
+    "question": "Kenapa permohonan saya ditolak?",
+    "response": "Permohonan bisa ditolak karena:\n1. Dokumen tidak lengkap/tidak sesuai\n2. Data tidak valid\n3. Lokasi tidak sesuai tata ruang\n4. Tidak memenuhi persyaratan teknis\n5. Ada duplikasi data\n\nCek alasan penolakan di dashboard OSS atau hubungi petugas untuk klarifikasi dan perbaikan.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 102,
+    "question": "Berkas saya sudah diverifikasi atau belum?",
+    "response": "Status verifikasi dapat dilihat di dashboard OSS Anda. Jika statusnya 'Dalam Proses Verifikasi', berarti sedang ditinjau petugas. Jika 'Terverifikasi', proses berlanjut ke tahap berikutnya.",
+    "category": "tracking",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 103,
+    "question": "Berapa lama proses pengurusan PBG sampai terbit?",
+    "response": "Waktu proses PBG:\n- Bangunan sederhana: 3-7 hari kerja\n- Bangunan menengah: 7-14 hari kerja  \n- Bangunan kompleks: 14-21 hari kerja\n\nTergantung kelengkapan dokumen dan kompleksitas bangunan. Proses lebih cepat jika dokumen lengkap dan benar.",
+    "category": "bangunan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 104,
+    "question": "Sudah seminggu tapi belum ada kabar.",
+    "response": "Jika sudah lebih dari estimasi waktu proses, silakan: 1) Cek status di dashboard OSS, 2) Hubungi call center 14000, 3) Datang langsung ke DPMPTSP dengan membawa nomor registrasi. Petugas akan memberikan update status dan perkiraan penyelesaian.",
+    "category": "umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 105,
+    "question": "Lupa password akun SICANTIK.",
+    "response": "Untuk reset password SICANTIK:\n1. Buka halaman login SICANTIK\n2. Klik 'Lupa Password'\n3. Masukkan email terdaftar\n4. Cek email untuk link reset password\n5. Ikuti instruksi reset password\n6. Jika masih bermasalah, hubungi admin SICANTIK di DPMPTSP",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 106,
+    "question": "Kenapa saya gagal upload dokumen? Ukuran maksimal berapa?",
+    "response": "Persyaratan upload dokumen:\n- Format: PDF, JPG, PNG\n- Ukuran maksimal: 2 MB per file\n- Resolusi: minimal 150 DPI\n- Pastikan dokumen tidak corrupt\n- Gunakan koneksi internet stabil\n\nJika masih gagal, coba compress file atau hubungi technical support.",
+    "category": "lingkungan",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 107,
+    "question": "Website DPMPTSP sedang error?",
+    "response": "Jika website DPMPTSP error, coba: 1) Refresh halaman, 2) Clear cache browser, 3) Gunakan browser lain, 4) Cek koneksi internet. Jika masih bermasalah, laporkan ke admin website atau hubungi (024) 3569988.",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 108,
+    "question": "Di mana saya bisa download formulir A?",
+    "response": "Formulir dapat didownload di: 1) Website resmi DPMPTSP Jawa Tengah, 2) Portal OSS (oss.go.id), 3) Datang langsung ke kantor DPMPTSP. Pastikan menggunakan formulir versi terbaru.",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 109,
+    "question": "Server OSS sedang down?",
+    "response": "Jika server OSS down: 1) Tunggu beberapa saat, 2) Coba akses kembali, 3) Hubungi call center OSS 14000, 4) Cek pengumuman di media sosial resmi OSS. Biasanya maintenance dijadwalkan di luar jam kerja.",
+    "category": "nib_usaha",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 110,
+    "question": "Bagaimana prosedur komplain layanan?",
+    "response": "Prosedur komplain layanan:\n1. Sampaikan komplain melalui:\n   - Website DPMPTSP (form komplain)\n   - Email resmi\n   - Datang langsung ke bagian pengaduan\n   - Call center (024) 3569988\n2. Sertakan detail kronologi dan bukti\n3. Tunggu follow up dari petugas\n4. Evaluasi penyelesaian komplain\n\nSemua komplain akan ditindaklanjuti sesuai SOP.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 111,
+    "question": "Layanan di kantor sangat lambat.",
+    "response": "Terima kasih atas masukan Anda. Keluhan tentang kecepatan layanan akan kami sampaikan kepada manajemen untuk perbaikan. Silakan sampaikan detail pengalaman Anda melalui kotak saran atau form komplain di website kami.",
+    "category": "info_umum",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 112,
+    "question": "Saya ingin konsultasi langsung dengan petugas.",
+    "response": "Untuk konsultasi langsung:\n1. Datang ke kantor DPMPTSP (Senin-Jumat, 07.30-16.00)\n2. Ambil nomor antrian di loket informasi\n3. Atau buat janji temu melalui:\n   - Telepon (024) 3569988\n   - Website DPMPTSP\n   - WhatsApp resmi (jika tersedia)\n\nBawa dokumen terkait untuk konsultasi yang efektif.",
+    "category": "komplain",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 113,
+    "question": "Bisa jadwalkan sesi konsultasi offline/online?",
+    "response": "Ya, DPMPTSP menyediakan layanan konsultasi terjadwal. Silakan hubungi (024) 3569988 atau kunjungi website resmi untuk booking konsultasi. Tersedia sesi offline di kantor atau online via video call sesuai kebutuhan.",
+    "category": "komplain",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  },
+  {
+    "id": 114,
+    "question": "Saya bingung mengisi formulir, bisa dibantu?",
+    "response": "Tentu! Anda bisa mendapat bantuan pengisian formulir dengan: 1) Datang ke help desk di kantor DPMPTSP, 2) Hubungi call center 14000, 3) Ikuti panduan video di website, 4) Minta pendampingan petugas saat di kantor. Kami siap membantu hingga formulir terisi dengan benar.",
+    "category": "teknis",
+    "timestamp": "2025-09-03T14:12:38.351737",
+    "quality_score": 0.8,
+    "user_feedback": null,
+    "source": "training_payload"
+  }
+]
