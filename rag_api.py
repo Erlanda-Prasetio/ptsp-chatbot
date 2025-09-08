@@ -15,15 +15,16 @@ import uvicorn
 sys.path.append('src')
 
 from smart_enhanced_rag import SmartEnhancedRAG
+from config import VECTOR_BACKEND
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Initialize and cleanup the RAG system"""
     global rag_system
     try:
-        print("🚀 Initializing Smart Enhanced Central Java RAG system...")
+        print(" Initializing Smart Enhanced Central Java RAG system...")
         rag_system = SmartEnhancedRAG()
-        print("✅ Smart Enhanced RAG system initialized successfully!")
+        print(" Smart Enhanced RAG system initialized successfully!")
     except Exception as e:
         print(f"❌ Failed to initialize RAG system: {e}")
         rag_system = None
@@ -81,10 +82,19 @@ async def health_check():
         raise HTTPException(status_code=503, detail="RAG system not initialized")
     
     try:
-        count = len(rag_system.store.texts) if hasattr(rag_system, 'store') else 0
+        # Try to get chunk count, handle both local and Supabase backends
+        count = 0
+        if hasattr(rag_system, 'store'):
+            if hasattr(rag_system.store, 'texts'):
+                count = len(rag_system.store.texts)
+            else:
+                # For Supabase, we don't have a direct count, so use a placeholder
+                count = "Connected to Supabase"
+        
         return {
             "status": "healthy",
             "database_chunks": count,
+            "backend": "supabase" if VECTOR_BACKEND == "supabase" else "local",
             "smart_features": True,
             "features": {
                 "domain_detection": True,

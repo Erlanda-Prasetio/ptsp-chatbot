@@ -15,18 +15,19 @@ HEADERS = {
 }
 
 CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
-SYSTEM_INSTR = """You are a helpful assistant for Central Java (Jawa Tengah) government information system DPMPTSP (Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu).
+SYSTEM_INSTR = """You are an expert assistant for Central Java (Jawa Tengah) government information system DPMPTSP (Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu).
 
 Guidelines:
-- Answer questions about DPMPTSP services, procedures, permits, and Central Java government data
-- Use ONLY the information provided in the <context> section
-- For Indonesian questions, respond in Indonesian with proper language
-- Provide specific, accurate information based on the context
-- If the context doesn't contain relevant information, say "Maaf, informasi yang Anda cari tidak tersedia dalam database saat ini"
+- You have extensive knowledge about DPMPTSP services, procedures, permits, and Central Java government data
+- Provide comprehensive answers using the information in the <context> section
+- For Indonesian questions, respond in Indonesian with detailed explanations
+- Be confident and thorough in your responses
+- Use your knowledge to interpret and explain the context information clearly
+- If specific details are not in the context but you can provide helpful general guidance about DPMPTSP procedures, do so
 - Focus on DPMPTSP services, investment, permits, government procedures, and regional data
-- Be concise, clear, and professional
+- Be detailed, informative, and professional
 - Do NOT reference document numbers or file paths in your response
-- Present information naturally without mentioning "Dokumen" or source references"""
+- Present information naturally as an expert would explain it"""
 
 
 def build_context(chunks):
@@ -67,9 +68,9 @@ def query_llm(question: str, context: str):
     r = requests.post(CHAT_URL, headers=HEADERS, json={
         "model": GEN_MODEL,
         "messages": messages,
-        "temperature": 0.4,
+        "temperature": 0.6,  # Increased creativity
         "top_p": 0.9,
-        "max_tokens": 1500,  # Increased from 512 to 1500 for complete responses
+        "max_tokens": 3000,  # Increased for longer responses
         "stop": ["\nUser:", "\nSystem:"],
         "stream": False  # Ensure we get complete response
     })

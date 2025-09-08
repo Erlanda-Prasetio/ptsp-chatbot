@@ -5,24 +5,42 @@ import sys
 import os
 sys.path.append('src')
 
-from vector_store import store
 from embed import embed_texts
 from ask import build_context, query_llm
 from config import VECTOR_BACKEND
 import time
 import re
 
+# Import the appropriate vector store based on backend
+if VECTOR_BACKEND == 'supabase':
+    from vector_store_supabase_rest import SupabaseRestVectorStore
+    store = None  # Will be initialized in __init__
+else:
+    from vector_store import store
+    SupabaseRestVectorStore = None  # type: ignore
+
 class SmartEnhancedRAG:
     def __init__(self):
         """Initialize the enhanced RAG system with smart domain detection"""
-        # Force local backend
-        if VECTOR_BACKEND != 'local':
-            raise RuntimeError(f"Expected local backend, got {VECTOR_BACKEND}. Please set VECTOR_BACKEND=local in .env")
+        print(f"🔧 Initializing Smart Enhanced RAG with {VECTOR_BACKEND} backend...")
         
-        self.store = store
-        self.store.load()
-        if self.store.embeddings is None:
-            raise RuntimeError("Vector store is empty. Please run ingest first.")
+        if VECTOR_BACKEND == 'supabase':
+            self.store = SupabaseRestVectorStore()
+            # Check if we have data in Supabase
+            try:
+                test_results = self.store.search(embed_texts(["test"])[0], top_k=1)
+                if not test_results:
+                    print("⚠️  Supabase vector store appears empty. You may need to run ingestion.")
+                else:
+                    print(f"✅ Supabase vector store connected with existing data")
+            except Exception as e:
+                print(f"⚠️  Supabase connection issue: {e}")
+        else:
+            self.store = store
+            self.store.load()
+            if self.store.embeddings is None:
+                raise RuntimeError("Vector store is empty. Please run ingest first.")
+            print(f"✅ Local vector store loaded with {len(self.store.texts)} chunks")
         
         # Define relevant keywords for our domain
         self.domain_keywords = {
@@ -33,7 +51,7 @@ class SmartEnhancedRAG:
             'usaha', 'bisnis', 'perusahaan', 'cv', 'pt', 'umkm', 'startup'
         }
         
-        print(f"✅ Smart Enhanced RAG initialized with {len(self.store.texts)} chunks")
+        print(f"✅ Smart Enhanced RAG initialized with {VECTOR_BACKEND} backend")
     
     def is_domain_relevant(self, query: str) -> bool:
         """Check if query is relevant to our domain"""
@@ -73,8 +91,22 @@ class SmartEnhancedRAG:
         # Embed the query
         q_emb = embed_texts([expanded_question])[0]
         
-        # Search for similar chunks
-        hits = self.store.search(q_emb, k=k*2)
+        # Search for similar chunks with compatible API
+        if VECTOR_BACKEND == 'supabase':
+            hits = self.store.search(q_emb, top_k=k*2)
+            # Normalize Supabase data format to match local format
+            normalized_hits = []
+            for hit in hits:
+                normalized_hit = {
+                    'text': hit.get('content', ''),  # Map 'content' to 'text'
+                    'score': hit.get('similarity', 0),  # Map 'similarity' to 'score'
+                    'metadata': hit.get('metadata', {}),
+                    'source': hit.get('metadata', {}).get('source', 'Unknown')
+                }
+                normalized_hits.append(normalized_hit)
+            hits = normalized_hits
+        else:
+            hits = self.store.search(q_emb, k=k*2)
         
         if not hits:
             return self._no_results_response(start_time)
