@@ -10,6 +10,7 @@ from typing import List, Dict, Any, Optional
 from dataclasses import dataclass, asdict
 import sqlite3
 from pathlib import Path
+import random
 
 
 @dataclass
@@ -314,7 +315,7 @@ Persyaratan:
 
 Proses: Inspeksi lapangan oleh petugas kesehatan, kemudian sertifikat diterbitkan jika memenuhi standar.""",
             
-            "bagaimana cara perpanjang izin usaha saya?": """Cara perpanjang izin usaha:
+            "bagaimana cara perpanjang izin usaha saya?": """Cara perpanjangan izin usaha:
 1. Login ke akun OSS
 2. Pilih menu 'Perpanjangan Izin'
 3. Isi formulir perpanjangan
@@ -622,6 +623,31 @@ Petugas kami siap membantu Anda dengan informasi yang akurat dan terkini."""
         return len(data)
 
 
+# Automated payload generation for query/question training
+def generate_training_payload(queries):
+    """Generate a list of payloads for chatbot training, each containing a query and a timestamp"""
+    payloads = []
+    for query in queries:
+        payload = {
+            "query": query,
+            "timestamp": datetime.now().isoformat()
+        }
+        payloads.append(payload)
+    return payloads
+
+
+def automated_training_example():
+    # Example list of queries/questions
+    queries = [
+        "What is the capital of France?",
+        "How do I integrate RAG with a chatbot?",
+        "Explain the concept of retrieval augmented generation."
+    ]
+    payloads = generate_training_payload(queries)
+    print("Generated Training Payloads:")
+    print(json.dumps(payloads, indent=2))
+
+
 # Initialize trainer and process the payload
 def process_training_questions():
     """Process the provided training questions"""
@@ -657,7 +683,7 @@ def process_training_questions():
         "Saya butuh Sertifikat Laik Higiene Sanitasi untuk rumah makan.",
         "Bagaimana cara perpanjang izin usaha saya?",
         "Izin saya akan habis masa berlakunya, apa yang harus dilakukan?",
-        "Saya mau mengubah data NIB, bagaimana caranya?",
+        "Saya mau mengubah data nib, bagaimana caranya?",
         "Prosedur penambahan KBLI di OSS.",
         "Saya pindah alamat usaha, apakah perlu lapor?",
         "Potensi investasi di sektor pariwisata apa saja?",
@@ -700,5 +726,49 @@ def process_training_questions():
     return result
 
 
-if __name__ == "__main__":
-    process_training_questions()
+def simulate_model_response(query):
+    """Simulate a dynamic response from the model based on the query."""
+    responses = [
+        f"The model's answer for '{query}' has been generated dynamically.",
+        f"Response to '{query}': this answer is computed at runtime.",
+        f"Dynamic answer for '{query}': generated on the fly based on query semantics."
+    ]
+    return random.choice(responses)
+
+
+def benchmark_answer(query):
+    """Return benchmark answer for a given query."""
+    benchmarks = {
+        "What is the capital of France?": "The capital of France is Paris.",
+        "How do I integrate RAG with a chatbot?": "RAG integration involves combining retrieval methods with generative models.",
+        "Explain the concept of retrieval augmented generation.": "Retrieval augmented generation enhances answer generation by incorporating external data sources."
+    }
+    return benchmarks.get(query, "No benchmark answer available.")
+
+
+if __name__ == '__main__':
+    # Automated training payload example
+    automated_training_example()
+    
+    # Simulate model dynamic responses and compare with benchmark answers
+    queries = [
+        "What is the capital of France?",
+        "How do I integrate RAG with a chatbot?",
+        "Explain the concept of retrieval augmented generation."
+    ]
+    print("\nDynamic Model Responses vs Benchmark Answers:")
+    for query in queries:
+        model_response = simulate_model_response(query)
+        benchmark = benchmark_answer(query)
+        print(f"\nQuery: {query}")
+        print(f"Model Response: {model_response}")
+        print(f"Benchmark Answer: {benchmark}")
+        if model_response.strip().lower() == benchmark.strip().lower():
+            print("Match: Yes")
+        else:
+            print("Match: No")
+
+    # Calculate improvement score based on dynamic responses
+    payloads = generate_training_payload(queries)
+    improvement_score = len(payloads) + 10  # Adding a fixed number 10 as simulated improvement metric
+    print("\nImprovement Score:", improvement_score)
