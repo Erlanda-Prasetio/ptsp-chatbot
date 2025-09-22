@@ -1,0 +1,26 @@
+# Docker Compose for local testing and deployment
+version: '3.8'
+
+services:
+  rag-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - PYTHONPATH=/app
+      # Add your environment variables here:
+      # - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      # - SUPABASE_URL=${SUPABASE_URL}
+      # - SUPABASE_KEY=${SUPABASE_KEY}
+    volumes:
+      - ./data:/app/data  # Mount data directory
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

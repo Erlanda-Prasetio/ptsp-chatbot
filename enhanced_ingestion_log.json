@@ -1,0 +1,11 @@
+{
+  "processing_version": "enhanced_v1",
+  "backend": "supabase",
+  "timestamp": "1757911396.059822",
+  "features": [
+    "Enhanced PDF extraction",
+    "Semantic chunking",
+    "PTSP relevance filtering",
+    "Improved similarity scoring"
+  ]
+}

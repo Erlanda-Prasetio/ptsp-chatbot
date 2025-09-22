@@ -1,0 +1,387 @@
+1. Apa itu DPMPTSP?
+2. Untuk apa DPMPTSP dibuat?
+3. Bagaimana cara kerja DPMPTSP di Indonesia?
+4. Apa saja layanan utama di DPMPTSP?
+5. Siapa yang harus datang ke DPMPTSP?
+6. Bagaimana prosedur daftar izin usaha mikro?
+7. Bagaimana cara mengurus NIB?
+8. Perbedaan OSS lama dengan OSS RBA?
+9. Kenapa permohonan izin saya ditolak?
+10. Ada biaya apa saja di DPMPTSP?
+11. Siapa penanggung jawab layanan DPMPTSP di daerah?
+12. Bisakah izin usaha dilakukan secara online?
+13. Website resmi DPMPTSP itu apa?
+14. Bagaimana syarat izin usaha kuliner?
+15. Apakah NPWP wajib untuk izin usaha?
+16. Bagaimana mengedit data usaha jika salah input?
+17. Apakah izin bengkel kendaraan diurus di DPMPTSP?
+18. Cara cek status izin usaha sudah diterbitkan atau belum.
+19. Bagaimana mengurus perubahan alamat usaha?
+20. Apa pengertian KBLI dalam DPMPTSP?
+21. Siapa yang menentukan KBLI usaha saya?
+22. Apa akibat jika KBLI tidak sesuai?
+23. Izin saya tertahan, apa yang harus dilakukan?
+24. Bisa langsung konsultasi di kantor DPMPTSP?
+25. Jam operasional DPMPTSP daerah saya?
+26. Bisa minta review dokumen di DPMPTSP?
+27. Apakah ada jalur cepat pengurusan izin?
+28. Bagaimana prosedur izin cabang usaha beda kota?
+29. Sanksi kalau usaha berjalan tanpa izin?
+30. Berapa lama proses pendaftaran OSS?
+31. Bagaimana pengaduan layanan DPMPTSP?
+32. Cek status permohonan OSS online dimana?
+33. Apakah DPMPTSP punya aplikasi mobile?
+34. Maaf, saya bingung proses pengurusan izin. Mulai dari mana?
+35. Siapa yang mengawasi DPMPTSP tingkat provinsi?
+36. Mengapa sah harus NIB untuk memulai usaha?
+37. Apakah proses NIB beda di tiap daerah?
+38. Apa manfaat NIB untuk pelaku usaha?
+39. Saya belum punya NPWP, solusinya?
+40. Bagaimana pendaftaran usaha dagang kecil?
+41. Apakah izin usaha retail sama dengan grosir?
+42. Apakah perlu perpanjangan izin usaha tiap tahun?
+43. Cara migrasi data dari OSS lama ke OSS RBA?
+44. Bisakah minta pendampingan izin di DPMPTSP?
+45. Bagaimana update data usaha yang sudah aktif?
+46. Jenis usaha yang wajib melapor ke DPMPTSP?
+47. Apakah DPMPTSP bisa urus izin rumah makan?
+48. Saya pernah gagal daftar OSS, harus mulai dari awal?
+49. Bagaimana cara lapor keluhan ke DPMPTSP?
+50. Kapan waktu terbaik datang ke DPMPTSP?
+51. Perbedaan izin usaha kecil dan besar?
+52. Apakah izin industri diurus lewat DPMPTSP?
+53. Apakah izin kantor cabang perlu dokumen tambahan?
+54. Bisakah jadi konsultan OSS di DPMPTSP?
+55. Bagaimana mengajukan IMB melalui DPMPTSP?
+56. Siapa yang berhak menolak permohonan izin?
+57. Cara memperbaiki dokumen setelah ditolak.
+58. Bagaimana langkah mengisi LKPM?
+59. Perlu lapor LKPM berapa kali setahun?
+60. Apa saja sanksi jika LKPM terlambat?
+61. Ada pelatihan OSS dari DPMPTSP?
+62. Bagaimana membatalkan izin yang sudah diterbitkan?
+63. Cara memperoleh sertifikat usaha dari DPMPTSP.
+64. Bagaimana konsultasi OSS secara online?
+65. Apakah izin usaha online berlaku nasional?
+66. Apakah DPMPTSP melayani konsultasi investasi?
+67. Syarat izin pendirian yayasan?
+68. Syarat izin usaha franchise?
+69. Apakah UKM perlu OSS?
+70. Bisakah pemilik usaha mendaftarkan lebih dari satu bidang usaha?
+71. Apakah harus lapor omset ke DPMPTSP setiap bulan?
+72. Bagaimana izin usaha untuk ekspor-impor?
+73. Bisa minta print ulang dokumen izin?
+74. Syarat perubahan data perusahaan OSS.
+75. Apa dokumen wajib pendaftaran investor asing?
+76. Bagaimana proteksi data di OSS DPMPTSP?
+77. Cara customer service DPMPTSP respon keluhan.
+78. Lokasi kantor DPMPTSP di provinsi saya.
+79. Bisa konsultasi OSS via WhatsApp?
+80. Ada update regulasi OSS terbaru?
+81. Bagaimana proses audit usaha oleh DPMPTSP?
+82. Bisakah pengajuan izin ditarik kembali?
+83. Jenis usaha yang harus diaudit DPMPTSP.
+84. Syarat mengurus izin usaha transportasi.
+85. Prosedur izin usaha kesehatan.
+86. Cara mengurus izin usaha pendidikan.
+87. Bisakah memantau proses izin secara realtime?
+88. Bagaimana memperoleh izin usaha online dengan cepat?
+89. Perbedaan LKPM per triwulan dan semester.
+90. Sanksi bagi usaha tanpa NIB.
+91. Bagaimana penyimpanan data digital OSS?
+92. Apakah OSS ada support multi bahasa?
+93. Izin usaha saya tidak sesuai KBLI, bisa direvisi?
+94. Syarat izin event/bazaar.
+95. Izin usaha saya kadaluarsa, apa tindakan selanjutnya?
+96. Apakah customer service DPMPTSP bisa bantu input data?
+97. Cara input NPWP ke OSS.
+98. Apakah ada konsultasi gratis di DPMPTSP?
+99. Progres pengajuan izin saya kenapa lama?
+100. Prosedur pengurusan izin usaha waralaba.
+101. Apa dasar hukum pembentukan DPMPTSP?
+102. Apa perbedaan antara DPMPTSP tingkat kota, kabupaten, dan provinsi?
+103. Bagaimana hubungan kerja antara DPMPTSP dengan Kementerian Investasi/BKPM?
+104. Apa yang dimaksud dengan Pelayanan Terpadu Satu Pintu (PTSP)?
+105. Mengapa sistem perizinan di Indonesia diubah menjadi OSS?
+106. Apa itu Nomor Induk Berusaha (NIB) dan fungsinya?
+107. Apakah NIB sama dengan Tanda Daftar Perusahaan (TDP)?
+108. Apakah NIB memiliki masa berlaku?
+109. Apa saja yang tercantum dalam dokumen NIB?
+110. Apakah satu orang bisa memiliki lebih dari satu NIB?
+111. Apa itu OSS Berbasis Risiko (OSS RBA)?
+112. Apa saja tingkatan risiko usaha dalam OSS RBA?
+113. Bagaimana cara menentukan tingkat risiko usaha saya?
+114. Apa perbedaan perizinan untuk usaha risiko rendah, menengah, dan tinggi?
+115. Apa itu Sertifikat Standar dalam OSS RBA?
+116. Kapan saya memerlukan Sertifikat Standar?
+117. Siapa yang menerbitkan Sertifikat Standar?
+118. Apakah semua KBLI sudah terintegrasi dengan OSS RBA?
+119. Apa itu Laporan Kegiatan Penanaman Modal (LKPM)?
+120. Siapa saja yang wajib lapor LKPM?
+121. Bagaimana jika usaha saya belum beroperasi, apakah tetap wajib lapor LKPM?
+122. Apa itu Hak Akses OSS?
+123. Bagaimana cara mendapatkan Hak Akses OSS untuk perorangan?
+124. Bagaimana cara mendapatkan Hak Akses OSS untuk badan usaha (PT/CV)?
+125. Dokumen apa saja yang diperlukan untuk membuat akun OSS?
+126. Saya lupa password akun OSS, bagaimana cara meresetnya?
+127. Akun OSS saya terblokir, apa yang harus dilakukan?
+128. Bisakah satu email digunakan untuk mendaftar beberapa NIB?
+129. Apa saja data yang perlu disiapkan sebelum mendaftar NIB?
+130. Bagaimana cara mengisi data luas lahan usaha di OSS?
+131. Apa yang dimaksud dengan modal usaha dalam formulir OSS?
+132. Bagaimana cara memilih KBLI yang paling sesuai dengan usaha saya?
+133. Bisakah saya menambahkan KBLI baru pada NIB yang sudah ada?
+134. Bagaimana cara menghapus KBLI yang sudah tidak relevan?
+135. Berapa jumlah KBLI maksimal yang bisa didaftarkan dalam satu NIB?
+136. Saya salah memasukkan data NPWP saat daftar, bagaimana cara memperbaikinya?
+137. Data KTP saya di OSS tidak sesuai dengan Dukcapil, apa solusinya?
+138. Apa yang harus dilakukan jika notifikasi OSS tidak masuk ke email?
+139. Berapa lama NIB akan terbit setelah pendaftaran selesai?
+140. Apakah NIB bisa langsung digunakan untuk operasional usaha?
+141. Apa saja izin lanjutan yang mungkin saya perlukan setelah NIB terbit?
+142. Bagaimana cara mengurus Izin Lokasi melalui OSS?
+143. Apa itu Kesesuaian Kegiatan Pemanfaatan Ruang (KKPR)?
+144. Bagaimana cara mengajukan permohonan KKPR?
+145. Apa bedanya IMB dengan Persetujuan Bangunan Gedung (PBG)?
+146. Bagaimana cara mengurus PBG dan Sertifikat Laik Fungsi (SLF) via OSS?
+147. Apa itu Izin Lingkungan dan siapa yang memerlukannya?
+148. Jenis-jenis dokumen lingkungan (SPPL, UKL-UPL, AMDAL).
+149. Bagaimana cara mengetahui jenis dokumen lingkungan yang usaha saya butuhkan?
+150. Apakah usaha skala mikro dan kecil memerlukan izin lingkungan?
+151. Bagaimana alur pengurusan izin untuk usaha berisiko menengah rendah?
+152. Apa yang dimaksud dengan pernyataan mandiri (self-declaration) dalam OSS?
+153. Bagaimana alur pengurusan izin untuk usaha berisiko menengah tinggi?
+154. Siapa yang melakukan verifikasi untuk Sertifikat Standar?
+155. Berapa lama proses verifikasi Sertifikat Standar?
+156. Bagaimana alur pengurusan izin untuk usaha berisiko tinggi?
+157. Apa saja yang termasuk dalam Izin dalam OSS RBA?
+158. Siapa yang menerbitkan Izin untuk usaha berisiko tinggi?
+159. Bagaimana cara melacak status permohonan Sertifikat Standar atau Izin?
+160. Permohonan Sertifikat Standar saya dikembalikan, apa artinya?
+161. Apa saja alasan umum permohonan Sertifikat Standar ditolak?
+162. Bagaimana cara mengajukan ulang permohonan yang ditolak?
+163. Apa itu Izin Usaha Mikro Kecil (IUMK)?
+164. Apa keuntungan memiliki IUMK?
+165. Bagaimana cara mendapatkan IUMK melalui OSS?
+166. Apakah IUMK sama dengan NIB?
+167. Siapa saja yang bisa mengajukan IUMK?
+168. Usaha saya adalah reseller online, perlukah NIB?
+169. Saya youtuber/content creator, apakah perlu izin usaha?
+170. Bagaimana cara mengurus izin untuk usaha katering rumahan?
+171. Saya mau buka coffee shop, izin apa saja yang dibutuhkan?
+172. Prosedur izin untuk usaha laundry kiloan.
+173. Syarat mendirikan CV (Commanditaire Vennootschap).
+174. Syarat mendirikan PT (Perseroan Terbatas) Perorangan.
+175. Apa bedanya PT Perorangan dengan usaha perorangan biasa?
+176. Bagaimana cara mendaftarkan PT yang sudah berbadan hukum ke dalam OSS?
+177. Data dari AHU Online tidak sinkron dengan OSS, bagaimana solusinya?
+178. Bagaimana cara melakukan perubahan data perseroan (misal: direksi) di OSS?
+179. Apakah perubahan Anggaran Dasar di notaris otomatis terupdate di OSS?
+180. Usaha saya pindah alamat ke kota lain, bagaimana cara mengurusnya di OSS?
+181. Apakah NIB perlu diubah jika pindah alamat?
+182. Bagaimana cara membuka kantor cabang di OSS?
+183. Apakah setiap kantor cabang punya NIB sendiri?
+184. Bagaimana cara melaporkan penutupan kantor cabang?
+185. Usaha saya akan tutup permanen, bagaimana cara mencabut NIB?
+186. Apa saja dokumen yang diperlukan untuk pencabutan NIB?
+187. Apakah ada biaya untuk mencabut izin usaha?
+188. Berapa lama proses pencabutan izin usaha?
+189. Apa konsekuensi jika usaha sudah tutup tapi NIB tidak dicabut?
+190. Bagaimana cara melihat daftar perizinan berusaha yang sudah saya miliki?
+191. Bisakah saya mengunduh ulang NIB dan izin lainnya jika filenya hilang?
+192. Di mana letak QR code pada dokumen NIB dan apa fungsinya?
+193. Bagaimana cara memverifikasi keaslian sebuah NIB?
+194. Apa itu KBLI 5 digit?
+195. Di mana saya bisa mencari daftar KBLI terbaru yang berlaku?
+196. Usaha saya sangat spesifik dan tidak ada KBLI yang cocok, bagaimana solusinya?
+197. Apa yang terjadi jika KBLI yang saya pilih tidak sesuai dengan kegiatan usaha di lapangan?
+198. Siapa yang bertanggung jawab melakukan pengawasan kesesuaian KBLI?
+199. Saya ingin memperluas usaha dengan bidang yang berbeda, apakah perlu NIB baru?
+200. Bagaimana cara menambahkan kegiatan usaha baru pada NIB yang ada?
+201. Apakah ada batasan modal untuk usaha mikro?
+202. Apa kriteria untuk usaha kecil?
+203. Bagaimana cara menaikkan skala usaha dari mikro ke kecil di OSS?
+204. Apa saja dokumen yang perlu disiapkan untuk perubahan skala usaha?
+205. Apa keuntungan mengubah status usaha menjadi skala yang lebih besar?
+206. Kapan periode pelaporan LKPM?
+207. Apa saja data yang harus diisi dalam LKPM?
+208. Bagaimana cara mengisi data realisasi investasi jika saya belum ada pengeluaran?
+209. Saya terlambat lapor LKPM, apa sanksinya?
+210. Bisakah saya merevisi LKPM yang sudah dikirim?
+211. Bagaimana cara lapor LKPM untuk beberapa proyek/lokasi?
+212. Apakah ada panduan atau video tutorial pengisian LKPM?
+213. Di mana saya bisa mendapatkan formulir LKPM?
+214. Saya tidak bisa login ke sistem LKPM Online, apa yang harus dilakukan?
+215. Siapa yang bisa saya hubungi jika ada kendala pengisian LKPM?
+216. Apakah DPMPTSP menyediakan layanan konsultasi tatap muka?
+217. Bagaimana cara membuat janji temu untuk konsultasi di kantor DPMPTSP?
+218. Dokumen apa yang perlu dibawa saat konsultasi ke DPMPTSP?
+219. Apakah ada nomor WhatsApp resmi DPMPTSP untuk bertanya?
+220. Apakah layanan di DPMPTSP gratis?
+221. Hati-hati penipuan, bagaimana cara mengenali calo perizinan?
+222. Bagaimana cara melaporkan praktik pungli di lingkungan DPMPTSP?
+223. Apa itu Mal Pelayanan Publik (MPP)?
+224. Apakah layanan DPMPTSP tersedia di MPP?
+225. Apa keuntungan mengurus izin di MPP?
+226. Apakah DPMPTSP memiliki media sosial resmi?
+227. Bagaimana cara mengetahui informasi terbaru seputar peraturan perizinan?
+228. Apakah DPMPTSP sering mengadakan sosialisasi atau webinar untuk pelaku usaha?
+229. Bagaimana cara mendaftar untuk ikut sosialisasi dari DPMPTSP?
+230. Saya adalah investor asing, bagaimana prosedur penanaman modal di Indonesia?
+231. Apa itu Daftar Prioritas Investasi (DPI)?
+232. Apa saja syarat untuk mendirikan PT Penanaman Modal Asing (PMA)?
+233. Berapa minimal modal untuk PT PMA?
+234. Bagaimana cara mendaftarkan PT PMA di OSS?
+235. Apakah ada KBLI yang tertutup untuk investasi asing?
+236. Bagaimana cara mengurus Izin Tinggal Terbatas (ITAS) untuk tenaga kerja asing?
+237. Apakah DPMPTSP bisa membantu proses pengurusan ITAS?
+238. Bagaimana cara mengurus izin usaha di Kawasan Ekonomi Khusus (KEK)?
+239. Apa keuntungan berusaha di KEK?
+240. Apakah prosedur perizinan di KEK berbeda dengan daerah lain?
+241. Bagaimana cara mengurus izin usaha konstruksi?
+242. Apa itu Sertifikat Badan Usaha (SBU) Jasa Konstruksi?
+243. Bagaimana cara mendapatkan SBU dan apakah terintegrasi dengan OSS?
+244. Prosedur izin untuk mendirikan klinik pratama.
+245. Syarat izin untuk apotek.
+246. Bagaimana cara mengurus izin operasional sekolah swasta?
+247. Izin apa saja yang dibutuhkan untuk usaha agen perjalanan wisata?
+248. Bagaimana prosedur perizinan untuk hotel atau penginapan?
+249. Saya mau buka usaha di bidang IT/Software, KBLI-nya apa dan izinnya bagaimana?
+250. Bagaimana cara mengurus izin impor dan ekspor?
+251. Apa itu Angka Pengenal Impor (API) dan bagaimana cara mendapatkannya?
+252. Apa itu Nomor Induk Kepabeanan (NIK)?
+253. Bagaimana integrasi OSS dengan sistem Bea Cukai?
+254. Bagaimana cara mengurus sertifikasi Halal untuk produk makanan?
+255. Apakah pendaftaran sertifikasi Halal bisa melalui OSS?
+256. Bagaimana cara mengurus izin edar dari BPOM untuk produk makanan dan kosmetik?
+257. Apakah permohonan izin edar BPOM terintegrasi dengan OSS?
+258. Bagaimana cara mengurus Standar Nasional Indonesia (SNI) untuk produk saya?
+259. Usaha saya bergerak di bidang daur ulang limbah, izin apa saja yang diperlukan?
+260. Bagaimana cara mengurus Izin Pengelolaan Limbah B3?
+261. Prosedur izin untuk usaha pertambangan.
+262. Bagaimana sistem perizinan untuk sektor energi dan sumber daya mineral?
+263. Apa beda izin usaha dan izin komersial/operasional?
+264. Kapan saya harus mengurus izin komersial/operasional?
+265. Apakah Sertifikat Standar termasuk izin operasional?
+266. Bagaimana cara mencetak ulang NIB yang hilang?
+267. Bisakah saya mengubah data pemilik usaha perorangan di OSS?
+268. Usaha perorangan saya mau diubah menjadi CV, bagaimana prosedurnya di OSS?
+269. Apa yang dimaksud dengan "Pembekuan Perizinan Berusaha"?
+270. Apa saja yang bisa menyebabkan izin usaha saya dibekukan?
+271. Bagaimana cara mengaktifkan kembali izin usaha yang dibekukan?
+272. Apa bedanya pembekuan dengan pencabutan izin?
+273. Sistem OSS sedang maintenance, sampai kapan dan apa yang harus saya lakukan?
+274. Saya tidak bisa upload dokumen di OSS, apa penyebabnya? (Ukuran/format file)
+275. Website OSS sangat lambat, adakah solusinya?
+276. Bagaimana cara membersihkan cache browser agar OSS berjalan lancar?
+277. Apakah OSS bisa diakses melalui handphone?
+278. Apakah ada perbedaan tampilan OSS di desktop dan mobile?
+279. Bagaimana cara melaporkan bug atau error teknis pada sistem OSS?
+280. Siapa yang bertanggung jawab atas keamanan data saya di OSS?
+281. Bagaimana DPMPTSP memastikan tidak ada kebocoran data pelaku usaha?
+282. Bisakah saya meminta penghapusan data saya sepenuhnya dari sistem OSS?
+283. Apa itu "Daftar Kegiatan Usaha" di dashboard OSS?
+284. Apa fungsi menu "Permohonan Baru" di OSS?
+285. Bagaimana cara menggunakan menu "Perubahan Data" di OSS?
+286. Apa yang dimaksud dengan Notifikasi dan bagaimana cara melihatnya?
+287. Bisakah saya mendelegasikan pengurusan OSS kepada konsultan?
+288. Bagaimana cara membuat hak akses untuk konsultan atau kuasa hukum?
+289. Apa saja batasan kewenangan yang bisa diberikan kepada kuasa hukum di OSS?
+290. Bagaimana cara mencabut hak akses dari konsultan saya?
+291. Apakah dokumen yang diunduh dari OSS sah secara hukum tanpa tanda tangan basah?
+292. Bagaimana cara memvalidasi Tanda Tangan Elektronik (TTE) pada dokumen OSS?
+293. Apa peran pemerintah daerah dalam verifikasi perizinan di OSS RBA?
+294. Bagaimana koordinasi antara DPMPTSP dengan dinas teknis lainnya (misal: Dinas Lingkungan Hidup, Dinas Kesehatan)?
+295. Permohonan saya sudah lama di level verifikator, siapa yang harus saya hubungi?
+296. Bisakah saya datang langsung ke dinas teknis untuk mempercepat verifikasi?
+297. Apa itu pengawasan perizinan berbasis risiko?
+298. Seberapa sering usaha saya akan diawasi setelah mendapat izin?
+299. Siapa yang melakukan pengawasan? DPMPTSP atau dinas teknis?
+300. Apa saja yang diperiksa saat pengawasan lapangan?
+301. Saya ingin membuka usaha penitipan anak, apa saja syaratnya di DPMPTSP?
+302. Bagaimana perizinan untuk lembaga kursus atau bimbingan belajar?
+303. Apakah usaha event organizer memerlukan izin khusus selain NIB?
+304. Bagaimana cara mengurus izin untuk usaha penyewaan alat berat?
+305. Prosedur izin untuk usaha pialang properti.
+306. Apakah usaha cloud kitchen memerlukan izin restoran?
+307. Bagaimana perizinan untuk usaha yang sepenuhnya beroperasi secara online?
+308. Apakah DPMPTSP memberikan insentif untuk investasi di daerah saya?
+309. Bagaimana cara mengetahui potensi dan peluang investasi di suatu daerah?
+310. Apakah data realisasi investasi yang dilaporkan di LKPM bersifat publik?
+900. Saya khawatir data OSS saya hilang, apa backupnya?
+901. Bagaimana lapor ketidaksesuaian KBLI di OSS?
+902. Bisa minta pendampingan ke DPMPTSP untuk izin strategis?
+903. Kalau bisnis saya baru, harus lapor ke mana dulu?
+904. Apakah DPMPTSP punya e-mail pengaduan?
+905. Bagaimana cara mengurus penggantian pemilik usaha?
+906. Bisakah ganti NIB jika bisnis berubah bentuk?
+907. Syarat pengajuan izin usaha di Mal Pelayanan Publik?
+908. Jika bisnis tutup sementara, perlu lapor ke DPMPTSP?
+909. Bagaimana proses audit internal OSS?
+910. Apakah OSS memberikan notifikasi expired izin?
+911. Bagaimana update nomor telepon di OSS?
+912. Prosedur input KBLI baru di OSS RBA?
+913. Saya ingin buka usaha ekspor, izinnya apa saja?
+914. Cara mengurus izin aplikasi fintech.
+915. Bagaimana OSS mendukung UMKM digital?
+916. Syarat izin event online.
+917. Apa sanksi usaha tanpa izin di kawasan industri?
+918. Bisakah izin usaha diajukan oleh perwakilan?
+919. Bagaimana verifikasi data OSS lewat DPMPTSP?
+920. Saya butuh dokumen soft copy dan hard copy izin, bisa?
+995. Bagaimana cara pengajuan komplain layanan DPMPTSP online?
+996. Apakah ada simulasi input OSS sebelum pengajuan sesungguhnya?
+997. Bagaimana monitoring realisasi investasi OSS?
+998. Prosedur pengurusan izin usaha bidang properti.
+999. Saya ingin tahu update regulasi terbaru tentang OSS.
+1000. Apakah pengajuan izin bisa dibatalkan setelah diproses?
+1001. Saya tidak tahu langkah awal pengurusan OSS, mohon panduan.
+1002. Apakah perlu lapor data tenaga kerja ke DPMPTSP?
+1003. Bagaimana cara cek progress update OSS dari DPMPTSP?
+1004. Apa solusi jika dokumen OSS error saat upload?
+1005. Bagaimana jika usaha berubah bidang di tengah tahun?
+1006. Perlukah minta verifikasi data sebelum pengajuan izin?
+1007. Bagaimana cara mendapat info pelatihan OSS dari DPMPTSP?
+1008. Siapa PIC OSS di DPMPTSP daerah saya?
+1009. Bisakah permohonan izin usaha diperbaiki sebelum diverifikasi?
+1010. Apakah aplikasi OSS terintegrasi dengan pajak?
+1011. Bagaimana cara melaporkan perubahan jumlah tenaga kerja di OSS?
+1012. Jika saya take over usaha orang lain, apakah NIB-nya bisa dialihkan?
+1013. Apa yang dimaksud dengan "Proyek" dalam sistem OSS?
+1014. Bisakah satu NIB memiliki beberapa lokasi proyek yang berbeda?
+1015. Bagaimana cara melaporkan realisasi investasi per proyek di LKPM?
+1016. Apa perbedaan antara NPWP Pribadi dan NPWP Badan untuk pendaftaran OSS?
+1017. Usaha saya belum punya NPWP Badan, bisakah daftar OSS pakai NPWP Direktur?
+1018. Bagaimana prosedur validasi NPWP di sistem OSS?
+1019. Apa yang harus dilakukan jika ada notifikasi "NPWP tidak valid"?
+1020. Bagaimana cara mengubah data penanggung jawab di OSS?
+1021. Apakah setiap perubahan data di OSS memerlukan persetujuan dari instansi terkait?
+1022. Saya mau membuka usaha di bidang pertanian, izin apa saja yang dibutuhkan?
+1023. Bagaimana cara mengurus izin usaha perikanan tangkap atau budidaya?
+1024. Prosedur perizinan untuk usaha kehutanan.
+1025. Apakah ada forum diskusi online resmi untuk pengguna OSS?
+1026. Bagaimana cara mendapatkan informasi jika ada gangguan pada sistem OSS?
+1027. Bisakah saya melihat riwayat (log) aktivitas pada akun OSS saya?
+1028. Apa fungsi dari "Kantor Virtual" dan bagaimana perizinannya?
+1029. Bagaimana cara mengajukan izin untuk usaha yang bersifat musiman?
+1030. Apakah DPMPTSP dapat membantu mencarikan mitra bisnis lokal?
+1031. Bagaimana cara mengurus perizinan untuk usaha di bidang energi terbarukan?
+1032. Saya ingin membangun pabrik, apakah AMDAL wajib?
+1033. Apa beda Sertifikat Standar yang terverifikasi otomatis dengan yang butuh verifikasi manual?
+1034. Bagaimana alur pengaduan jika verifikator dari dinas teknis tidak merespon?
+1035. Apakah DPMPTSP menyediakan layanan terjemahan dokumen untuk investor asing?
+1036. Bagaimana cara menggabungkan beberapa NIB usaha perorangan menjadi satu NIB badan usaha?
+1037. Apa saja fasilitas fiskal (tax holiday/tax allowance) yang bisa didapat melalui OSS?
+1038. Bagaimana cara mengajukan fasilitas fiskal tersebut?
+1039. Apakah OSS terintegrasi dengan sistem Ketenagakerjaan (Wajib Lapor Ketenagakerjaan)?
+1040. Bagaimana cara mengetahui KBLI usaha saya termasuk dalam Daftar Prioritas Investasi (DPI)?
+1041. Izin usaha saya terbit sebelum era OSS RBA, apakah masih berlaku?
+1042. Bagaimana cara melakukan penyesuaian izin lama ke sistem OSS RBA?
+1043. Apa sanksi jika tidak melakukan penyesuaian izin lama ke OSS RBA?
+1044. Bagaimana cara memastikan lokasi usaha saya sesuai dengan Rencana Tata Ruang Wilayah (RTRW)?
+1045. Di mana saya bisa mengecek peta RTRW secara online?
+1046. Apa yang terjadi jika lokasi usaha saya ternyata tidak sesuai RTRW?
+1047. Apakah ada perbedaan prosedur antara Penanaman Modal Dalam Negeri (PMDN) dan PMA?
+1048. Bagaimana cara melaporkan jika ada usaha lain yang beroperasi tanpa izin di sekitar saya?
+1049. Bisakah DPMPTSP memberikan surat keterangan bahwa usaha saya sedang dalam proses perizinan?
+1050. Apa langkah terakhir setelah semua izin terbit? Apakah ada pelaporan final?

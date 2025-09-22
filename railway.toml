@@ -1,14 +1,22 @@
-# Railway Deployment Configuration (Lightweight)
+# Railway Deployment Configuration
 # This file tells Railway how to deploy your FastAPI backend
 
 [build]
-builder = "NIXPACKS"
+builder = "DOCKERFILE"
 
 [deploy]
-startCommand = "uvicorn rag_api_light:app --host 0.0.0.0 --port $PORT"
+startCommand = "python rag_api_production.py"
 healthcheckPath = "/health"
+healthcheckTimeout = 120  # Reduced timeout since health check is simpler
 restartPolicyType = "ON_FAILURE"
 
 [env]
 PYTHONPATH = "/app"
-PORT = "8000"
+PORT = "8001"
+VECTOR_BACKEND = "supabase"
+EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+USE_LOCAL_EMBEDDINGS = "true"
+GEN_MODEL = "mistralai/mistral-small-3.2-24b-instruct:free"
+MAX_CONTEXT_TOKENS = "8000"
+CHUNK_SIZE = "1200"
+CHUNK_OVERLAP = "200"

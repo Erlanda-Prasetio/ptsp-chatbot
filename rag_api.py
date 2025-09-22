@@ -14,19 +14,19 @@ import uvicorn
 # Add the src directory to path
 sys.path.append('src')
 
-from smart_enhanced_rag import SmartEnhancedRAG
+from hybrid_rag import HybridRAGSystem
 from config import VECTOR_BACKEND
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Initialize and cleanup the RAG system"""
+    """Initialize and cleanup the Hybrid RAG system"""
     global rag_system
     try:
-        print(" Initializing Smart Enhanced Central Java RAG system...")
-        rag_system = SmartEnhancedRAG()
-        print(" Smart Enhanced RAG system initialized successfully!")
+        print("🚀 Initializing Hybrid RAG system with Internet Search fallback...")
+        rag_system = HybridRAGSystem()
+        print("✅ Hybrid RAG system initialized successfully!")
     except Exception as e:
-        print(f"❌ Failed to initialize RAG system: {e}")
+        print(f"❌ Failed to initialize Hybrid RAG system: {e}")
         rag_system = None
     
     yield
@@ -39,13 +39,11 @@ app = FastAPI(title="Central Java RAG API", version="1.0.0", lifespan=lifespan)
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "http://127.0.0.1:3000",
-        "http://127.0.0.1:3001",
-    ],
-    allow_credentials=True,
+    # During development allow all origins so the Flutter web/dev server or any local client
+    # can reach this API. In production, restrict this to your frontend origins and
+    # set `allow_credentials=True` only when using cookies/auth that require it.
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -64,7 +62,7 @@ class ChatResponse(BaseModel):
     message: str
     sources: List[Dict[str, Any]]
     total_sources: int
-    enhanced_features: Dict[str, Union[str, bool, int, float]]
+    enhanced_features: Dict[str, Any]  # Changed to Any to handle complex nested structures
 
 @app.get("/")
 async def root():
@@ -84,9 +82,9 @@ async def health_check():
     try:
         # Try to get chunk count, handle both local and Supabase backends
         count = 0
-        if hasattr(rag_system, 'store'):
-            if hasattr(rag_system.store, 'texts'):
-                count = len(rag_system.store.texts)
+        if hasattr(rag_system, 'rag_system') and hasattr(rag_system.rag_system, 'store'):
+            if hasattr(rag_system.rag_system.store, 'texts'):
+                count = len(rag_system.rag_system.store.texts)
             else:
                 # For Supabase, we don't have a direct count, so use a placeholder
                 count = "Connected to Supabase"
@@ -96,11 +94,16 @@ async def health_check():
             "database_chunks": count,
             "backend": "supabase" if VECTOR_BACKEND == "supabase" else "local",
             "smart_features": True,
+            "hybrid_search": True,
+            "internet_fallback": True,
             "features": {
                 "domain_detection": True,
                 "query_expansion": True,
                 "enhanced_prompting": True,
-                "out_of_scope_handling": True
+                "out_of_scope_handling": True,
+                "progressive_timeout": "20s (5s vector + 10s enhanced + 5s internet)",
+                "quality_assessment": True,
+                "internet_engines": ["duckduckgo", "serper"]
             }
         }
     except Exception as e:
@@ -128,13 +131,18 @@ async def chat(request: ChatRequest):
     try:
         print(f"🔍 Processing query: {user_message[:100]}...")
         
-        # Get enhanced RAG response with timeout protection
-        result = rag_system.ask(user_message.strip())
+        # Get hybrid RAG response with progressive fallback
+        result = rag_system.ask_with_fallback(user_message.strip())
         
         if "error" in result:
             raise HTTPException(status_code=500, detail=result["error"])
         
-        print(f"✅ Query processed successfully in {result.get('enhanced_features', {}).get('response_time', 'unknown')} seconds")
+        # Get timing info
+        enhanced_features = result.get("enhanced_features", {})
+        response_time = enhanced_features.get("response_time", "unknown")
+        search_method = enhanced_features.get("search_method", "unknown")
+        
+        print(f"✅ Query processed using {search_method} in {response_time}")
         
         return ChatResponse(
             message=result["answer"],

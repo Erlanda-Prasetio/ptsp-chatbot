@@ -1,5 +1,6 @@
 """
 Enhanced RAG system with better query handling and domain detection
+Includes improved PDF processing, semantic chunking, and content filtering
 """
 import sys
 import os
@@ -10,6 +11,20 @@ from ask import build_context, query_llm
 from config import VECTOR_BACKEND
 import time
 import re
+
+# Import enhanced utilities
+try:
+    from enhanced_utils import calculate_relevance_score
+    ENHANCED_UTILS_AVAILABLE = True
+    print("✅ Full enhanced utils loaded")
+except ImportError:
+    try:
+        from lightweight_utils import calculate_relevance_score
+        ENHANCED_UTILS_AVAILABLE = True
+        print("✅ Lightweight enhanced utils loaded")
+    except ImportError:
+        print("⚠️ Enhanced utils not available, using basic functionality")
+        ENHANCED_UTILS_AVAILABLE = False
 
 # Import the appropriate vector store based on backend
 if VECTOR_BACKEND == 'supabase':
@@ -77,7 +92,7 @@ class SmartEnhancedRAG:
     
     def ask(self, question: str, k: int = 8):
         """
-        Ask a question with smart domain detection
+        Ask a question with smart domain detection and enhanced retrieval
         """
         start_time = time.time()
         
@@ -91,9 +106,9 @@ class SmartEnhancedRAG:
         # Embed the query
         q_emb = embed_texts([expanded_question])[0]
         
-        # Search for similar chunks with compatible API
+        # Search for similar chunks with enhanced filtering
         if VECTOR_BACKEND == 'supabase':
-            hits = self.store.search(q_emb, top_k=k*2)
+            hits = self.store.search(q_emb, top_k=k*3)  # Get more candidates
             # Normalize Supabase data format to match local format
             normalized_hits = []
             for hit in hits:
@@ -103,24 +118,47 @@ class SmartEnhancedRAG:
                     'metadata': hit.get('metadata', {}),
                     'source': hit.get('metadata', {}).get('source', 'Unknown')
                 }
+                # Add enhanced relevance scoring if available
+                if ENHANCED_UTILS_AVAILABLE and normalized_hit['text']:
+                    relevance_score = calculate_relevance_score(question, normalized_hit['text'])
+                    # Combine semantic similarity with keyword relevance
+                    normalized_hit['combined_score'] = (normalized_hit['score'] * 0.7) + (relevance_score * 0.3)
+                else:
+                    normalized_hit['combined_score'] = normalized_hit['score']
                 normalized_hits.append(normalized_hit)
             hits = normalized_hits
         else:
-            hits = self.store.search(q_emb, k=k*2)
+            hits = self.store.search(q_emb, k=k*3)  # Get more candidates
+            # Add enhanced relevance scoring for local store too
+            if ENHANCED_UTILS_AVAILABLE:
+                for hit in hits:
+                    if hit.get('text'):
+                        relevance_score = calculate_relevance_score(question, hit['text'])
+                        hit['combined_score'] = (hit.get('score', 0) * 0.7) + (relevance_score * 0.3)
+                    else:
+                        hit['combined_score'] = hit.get('score', 0)
         
         if not hits:
             return self._no_results_response(start_time)
         
-        # Filter for relevance with adaptive threshold
-        base_threshold = 0.25
-        relevant_hits = [hit for hit in hits if hit.get('score', 0) >= base_threshold]
+        # Enhanced filtering with adaptive threshold
+        base_threshold = 0.35  # Increased from 0.25 for better quality
+        
+        # Sort by combined score if available, otherwise by original score
+        sort_key = 'combined_score' if ENHANCED_UTILS_AVAILABLE else 'score'
+        hits_sorted = sorted(hits, key=lambda x: x.get(sort_key, 0), reverse=True)
+        
+        relevant_hits = [hit for hit in hits_sorted if hit.get(sort_key, 0) >= base_threshold]
         
         if not relevant_hits:
-            # Lower threshold for domain-relevant queries
-            relevant_hits = hits[:3]
+            # Lower threshold for domain-relevant queries but still maintain quality
+            relevant_hits = hits_sorted[:3]
+        
+        # Take top results after enhanced scoring
+        final_hits = relevant_hits[:k]
         
         # Build context and query LLM
-        context = build_context(relevant_hits[:k])
+        context = build_context(final_hits)
         if not context.strip():
             return self._no_results_response(start_time)
             
@@ -145,10 +183,14 @@ class SmartEnhancedRAG:
         answer = query_llm(enhanced_prompt, context)
         answer = self._clean_answer(answer)
         
-        # Process sources
-        sources = self._process_sources(relevant_hits[:5])
+        # Process sources with enhanced scoring info
+        sources = self._process_sources_enhanced(final_hits[:5])
         
         response_time = time.time() - start_time
+        
+        # Calculate confidence based on top result score
+        top_score = final_hits[0].get(sort_key, 0) if final_hits else 0
+        confidence = "high" if top_score > 0.6 else "medium" if top_score > 0.4 else "low"
         
         return {
             "answer": answer,
@@ -158,7 +200,9 @@ class SmartEnhancedRAG:
                 "query_expansion": expanded_question != question,
                 "domain_relevant": True,
                 "response_time": f"{response_time:.2f}s",
-                "confidence": "high" if relevant_hits and relevant_hits[0].get('score', 0) > 0.5 else "medium"
+                "confidence": confidence,
+                "top_similarity": round(top_score, 3),
+                "enhanced_scoring": ENHANCED_UTILS_AVAILABLE
             }
         }
     
@@ -257,6 +301,36 @@ class SmartEnhancedRAG:
                 "score": hit.get('score', 0),
                 "content_preview": hit.get('text', '')[:200] + "...",
                 "path": source_path
+            })
+        
+        return sources
+    
+    def _process_sources_enhanced(self, hits):
+        """Process source information with enhanced scoring details"""
+        sources = []
+        for i, hit in enumerate(hits):
+            source_info = hit.get('meta', {}) or hit.get('metadata', {})
+            source_path = source_info.get('source', f'chunk_{i}')
+            
+            # Extract filename from path
+            if '\\' in source_path:
+                filename = source_path.split('\\')[-1]
+            elif '/' in source_path:
+                filename = source_path.split('/')[-1]
+            else:
+                filename = source_path
+            
+            # Get the appropriate score
+            score = hit.get('combined_score', hit.get('score', 0))
+            original_score = hit.get('score', 0)
+            
+            sources.append({
+                "filename": filename,
+                "score": round(score, 3),
+                "original_similarity": round(original_score, 3),
+                "content_preview": hit.get('text', '')[:200] + "...",
+                "path": source_path,
+                "enhanced": ENHANCED_UTILS_AVAILABLE
             })
         
         return sources

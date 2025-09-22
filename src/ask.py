@@ -1,5 +1,6 @@
 import sys
 import requests
+import time
 from embed import embed_texts
 from vector_store import store
 from config import OPENROUTER_API_KEY, GEN_MODEL, MAX_CONTEXT_TOKENS, VECTOR_BACKEND
@@ -59,31 +60,164 @@ def build_context(chunks):
 
 
 def query_llm(question: str, context: str):
-    """Query LLM with improved settings for complete responses"""
+    """Query LLM with retry logic and fallback handling"""
     messages = [
         {"role": "system", "content": SYSTEM_INSTR},
         {"role": "user", "content": f"{question}\n<context>\n{context}\n</context>"}
     ]
     
-    r = requests.post(CHAT_URL, headers=HEADERS, json={
-        "model": GEN_MODEL,
-        "messages": messages,
-        "temperature": 0.6,  # Increased creativity
-        "top_p": 0.9,
-        "max_tokens": 3000,  # Increased for longer responses
-        "stop": ["\nUser:", "\nSystem:"],
-        "stream": False  # Ensure we get complete response
-    })
-    r.raise_for_status()
+    # Retry configuration
+    max_retries = 3
+    base_delay = 2
     
-    response = r.json()['choices'][0]['message']['content'].strip()
+    for attempt in range(max_retries):
+        try:
+            print(f"🤖 Attempting OpenRouter API call (attempt {attempt + 1}/{max_retries})")
+            
+            r = requests.post(CHAT_URL, headers=HEADERS, json={
+                "model": GEN_MODEL,
+                "messages": messages,
+                "temperature": 0.6,
+                "top_p": 0.9,
+                "max_tokens": 3000,
+                "stop": ["\nUser:", "\nSystem:"],
+                "stream": False
+            }, timeout=30)  # Add timeout
+            
+            r.raise_for_status()
+            response = r.json()['choices'][0]['message']['content'].strip()
+            
+            # Ensure response is complete (not truncated)
+            if len(response) > 1400 and not response.endswith(('.', '!', '?', ':')):
+                response += "\n\n[Respons mungkin terpotong karena batasan panjang. Untuk informasi lebih detail, silakan hubungi DPMPTSP Jawa Tengah langsung.]"
+            
+            print(f"✅ OpenRouter API call successful")
+            return response
+            
+        except requests.exceptions.HTTPError as e:
+            status_code = e.response.status_code if e.response else 0
+            print(f"❌ HTTP error {status_code}: {e}")
+            
+            if status_code == 503:  # Service Unavailable
+                print("🔄 OpenRouter service temporarily unavailable")
+            elif status_code == 429:  # Rate limit
+                print("⏳ Rate limit hit, waiting longer...")
+                time.sleep(base_delay * 2 * (attempt + 1))
+            elif status_code >= 500:  # Server errors
+                print("🔧 Server error, retrying...")
+            else:
+                # Client errors (4xx) - don't retry
+                return _generate_fallback_response(question, context, f"API error: {status_code}")
+                
+        except requests.exceptions.Timeout:
+            print(f"⏰ Request timeout on attempt {attempt + 1}")
+            
+        except requests.exceptions.ConnectionError:
+            print(f"🌐 Connection error on attempt {attempt + 1}")
+            
+        except Exception as e:
+            print(f"❌ Unexpected error on attempt {attempt + 1}: {e}")
+        
+        # Wait before retrying (exponential backoff)
+        if attempt < max_retries - 1:
+            delay = base_delay * (2 ** attempt)
+            print(f"⏳ Waiting {delay}s before retry...")
+            time.sleep(delay)
     
-    # Ensure response is complete (not truncated)
-    if len(response) > 1400 and not response.endswith(('.', '!', '?', ':')):
-        # If response seems truncated, add continuation indicator
-        response += "\n\n[Respons mungkin terpotong karena batasan panjang. Untuk informasi lebih detail, silakan hubungi DPMPTSP Jawa Tengah langsung.]"
+    # All retries failed - generate fallback response
+    print("💔 All OpenRouter retry attempts failed, generating fallback response")
+    return _generate_fallback_response(question, context, "Service temporarily unavailable")
+
+
+def _generate_fallback_response(question: str, context: str, error_reason: str = ""):
+    """Generate a helpful response when LLM is unavailable"""
     
-    return response
+    # Extract key information from context for manual response
+    context_lower = context.lower()
+    question_lower = question.lower()
+    
+    # Common PTSP topics and responses
+    if any(word in question_lower for word in ['siup', 'tdp', 'izin usaha', 'toko', 'retail']):
+        return f"""**Informasi SIUP dan TDP untuk Usaha Retail**
+
+Untuk membuka toko retail pakaian di Jawa Tengah, Anda memerlukan:
+
+**1. SIUP (Surat Izin Usaha Perdagangan)**
+- Persyaratan: KTP, NPWP, Akta pendirian, Surat domisili usaha
+- Diproses melalui DPMPTSP atau OSS (Online Single Submission)
+- Biaya sesuai skala usaha
+
+**2. TDP (Tanda Daftar Perusahaan)**
+- Persyaratan: SIUP, Akta pendirian, NPWP perusahaan
+- Wajib untuk perusahaan dengan modal di atas Rp 50 juta
+- Berlaku 5 tahun
+
+**Prosedur:**
+1. Daftar akun OSS di oss.go.id
+2. Upload dokumen persyaratan
+3. Bayar biaya administrasi
+4. Tunggu verifikasi (3-7 hari kerja)
+
+**Kontak DPMPTSP Jawa Tengah:**
+- Website: dpmptsp.jatengprov.go.id
+- Telepon: (024) 3569961
+- Email: info@dpmptsp.jatengprov.go.id
+
+*Catatan: Layanan AI sedang mengalami gangguan teknis ({error_reason}). Untuk informasi terkini, silakan hubungi langsung DPMPTSP Jawa Tengah.*"""
+    
+    elif any(word in question_lower for word in ['investasi', 'penanaman modal']):
+        return f"""**Informasi Investasi dan Penanaman Modal**
+
+DPMPTSP Jawa Tengah melayani perizinan investasi dengan prosedur:
+
+**Persyaratan Umum:**
+- Proposal investasi
+- Identitas investor
+- Dokumen perusahaan
+- Studi kelayakan
+- Izin lokasi
+
+**Proses:**
+1. Konsultasi awal dengan DPMPTSP
+2. Pengajuan dokumen lengkap
+3. Evaluasi dan verifikasi
+4. Penerbitan izin
+
+**Fasilitas untuk Investor:**
+- Pelayanan satu pintu
+- Konsultasi gratis
+- Pendampingan proses
+
+**Kontak:**
+- Website: dpmptsp.jatengprov.go.id
+- Hotline: (024) 3569961
+
+*Catatan: Layanan AI sedang mengalami gangguan teknis ({error_reason}). Untuk informasi detail, hubungi langsung DPMPTSP.*"""
+    
+    else:
+        return f"""**Layanan DPMPTSP Jawa Tengah**
+
+Maaf, layanan AI sedang mengalami gangguan teknis ({error_reason}), namun DPMPTSP Jawa Tengah tetap siap melayani Anda.
+
+**Layanan Utama:**
+- Perizinan usaha dan investasi
+- Pelayanan terpadu satu pintu
+- Konsultasi bisnis
+- Pendaftaran perusahaan
+
+**Cara Menghubungi:**
+- **Website:** dpmptsp.jatengprov.go.id
+- **Telepon:** (024) 3569961
+- **Email:** info@dpmptsp.jatengprov.go.id
+- **Alamat:** Jl. Menteri Supeno No. 2, Semarang
+
+**Jam Layanan:**
+- Senin-Jumat: 08.00-15.00 WIB
+- Sabtu: 08.00-12.00 WIB
+
+Untuk pertanyaan spesifik tentang "{question}", silakan hubungi langsung staf DPMPTSP yang akan memberikan informasi terkini dan akurat.
+
+*Sistem akan kembali normal secepatnya. Terima kasih atas pengertian Anda.*"""
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

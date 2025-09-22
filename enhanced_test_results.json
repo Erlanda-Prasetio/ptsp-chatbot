@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-09-16 09:57:28",
+  "avg_similarity": 0.69475,
+  "high_quality_percentage": 50.0,
+  "improvement_achieved": true,
+  "target_similarity": 0.65,
+  "test_results": [
+    {
+      "query": "cara mengurus izin usaha di PTSP",
+      "similarity": 0.556,
+      "confidence": "medium",
+      "sources": 12,
+      "response_time": 6.894194841384888,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "6.89s",
+        "confidence": "medium",
+        "top_similarity": 0.556,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "persyaratan permohonan izin investasi",
+      "similarity": 0.594,
+      "confidence": "medium",
+      "sources": 24,
+      "response_time": 6.385300636291504,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "6.39s",
+        "confidence": "medium",
+        "top_similarity": 0.594,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "prosedur DPMPTSP untuk penanaman modal",
+      "similarity": 0.844,
+      "confidence": "high",
+      "sources": 24,
+      "response_time": 6.565586805343628,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "6.57s",
+        "confidence": "high",
+        "top_similarity": 0.844,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "syarat izin mendirikan bangunan",
+      "similarity": 0.628,
+      "confidence": "high",
+      "sources": 14,
+      "response_time": 6.996761083602905,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "7.00s",
+        "confidence": "high",
+        "top_similarity": 0.628,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "pelayanan terpadu satu pintu jawa tengah",
+      "similarity": 0.851,
+      "confidence": "high",
+      "sources": 24,
+      "response_time": 9.177360773086548,
+      "enhanced_features": {
+        "query_expansion": false,
+        "domain_relevant": true,
+        "response_time": "9.18s",
+        "confidence": "high",
+        "top_similarity": 0.851,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "biaya pengurusan izin usaha",
+      "similarity": 0.58,
+      "confidence": "medium",
+      "sources": 15,
+      "response_time": 6.754533767700195,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "6.75s",
+        "confidence": "medium",
+        "top_similarity": 0.58,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "dokumen yang diperlukan untuk izin",
+      "similarity": 0.584,
+      "confidence": "medium",
+      "sources": 16,
+      "response_time": 10.441225528717041,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "10.44s",
+        "confidence": "medium",
+        "top_similarity": 0.584,
+        "enhanced_scoring": true
+      }
+    },
+    {
+      "query": "kontak DPMPTSP Jawa Tengah",
+      "similarity": 0.921,
+      "confidence": "high",
+      "sources": 24,
+      "response_time": 9.136717319488525,
+      "enhanced_features": {
+        "query_expansion": true,
+        "domain_relevant": true,
+        "response_time": "9.14s",
+        "confidence": "high",
+        "top_similarity": 0.921,
+        "enhanced_scoring": true
+      }
+    }
+  ]
+}
