@@ -20,8 +20,9 @@ if USE_LOCAL_EMBEDDINGS:
             model_name = model_name.replace("sentence-transformers/", "")
             
             # Initialize model with CUDA if available
-            device = 'cuda' if torch.cuda.is_available() else 'cpu'
-            print(f"🔥 Loading embedding model on: {device}")
+            # Force CPU mode for stability (CUDA error workaround)
+            device = 'cpu'  # 'cuda' if torch.cuda.is_available() else 'cpu'
+            print(f"🔥 Loading embedding model on: {device} (forced CPU mode)")
             
             _model = SentenceTransformer(model_name, device=device)
             

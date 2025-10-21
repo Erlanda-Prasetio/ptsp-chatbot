@@ -1,0 +1,39 @@
+{
+  "test_date": "2025-10-21T20:57:45.194906",
+  "api_url": "http://localhost:8001",
+  "total_tests": 2,
+  "passed_tests": 2,
+  "average_metrics": {
+    "response_time": 13.101109862327576,
+    "confidence": 0.6799999999999999,
+    "tokens_per_query": 2884.5
+  },
+  "results": [
+    {
+      "test_id": "TEST_001",
+      "query": "Apa itu DPMPTSP?",
+      "source_type": "OLD",
+      "category": "General",
+      "answer": "DPMPTSP Provinsi Jawa Tengah, atau Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Provinsi Jawa Tengah, adalah sebuah dinas pemerintah yang bertanggung jawab untuk memfasilitasi dan menyederhanakan proses penanaman modal serta pelayanan terpadu satu pintu di Provinsi Jawa Tengah. Berikut adalah penjelasan lengkap tentang DPMPTSP Jawa Tengah:\n\n### Fungsi Utama DPMPTSP Jawa Tengah\nDPMPTSP Jawa Tengah memiliki beberapa fungsi utama, termasuk:\n1. **Penanaman Modal**: Memfasilitasi dan mempromosikan investasi di Jawa Tengah, baik dari dalam negeri maupun luar negeri.\n2. **Pelayanan Terpadu Satu Pintu**: Menyediakan layanan terpadu untuk berbagai kebutuhan perizinan dan pelayanan yang terkait dengan penanaman modal.\n3. **Informasi Publik**: Menyediakan informasi publik terkait penanaman modal dan pelayanan terpadu satu pintu, sesuai dengan Undang-Undang Nomor 14 tahun 2014 tentang Keterbukaan Informasi Publik.\n4. **Fasilitasi Keberatan Informasi Publik**: Menyediakan mekanisme untuk pemohon informasi yang merasa tidak puas dengan informasi yang diberikan.\n\n### Prosedur dan Layanan\n\n#### 1. **Permohonan Informasi Publik**\nUntuk meminta informasi publik dari DPMPTSP Jawa Tengah, Anda dapat mengikuti langkah-langkah berikut:\n- **Persyaratan**:\n  - Pendidikan minimal SLTA.\n  - Memiliki pengetahuan tentang kepegawaian dan surat menyurat.\n- **Prosedur**:\n  - Isi form permohonan informasi yang tersedia di DPMPTSP.\n  - Serahkan form permohonan ke PPID (Pejabat Pengelola Informasi dan Dokumentasi) DPMPTSP.\n  - PPID akan memproses permohonan dan memberikan informasi yang diminta sesuai dengan ketentuan yang berlaku.\n\n#### 2. **Pelayanan Terpadu Satu Pintu**\nDPMPTSP Jawa Tengah menyediakan layanan terpadu satu pintu untuk berbagai kebutuhan perizinan dan pelayanan, seperti:\n- **Perizinan Berusaha**: Memudahkan proses pengajuan dan pengelolaan izin usaha.\n- **Fasilitasi Investasi**: Memfasilitasi investasi dengan menyediakan informasi dan dukungan yang diperlukan.\n- **Konsultasi**: Menyediakan konsultasi terkait penanaman modal dan pelayanan terkait.\n\n#### 3. **Fasilitasi Keberatan Informasi Publik**\nJika Anda merasa tidak puas dengan informasi yang diberikan oleh DPMPTSP, Anda dapat mengajukan keberatan melalui langkah-langkah berikut:\n- **Persyaratan**:\n  - Pendidikan minimal SLTA.\n  - Memiliki pengetahuan tentang kepegawaian dan surat menyurat.\n- **Prosedur**:\n  - Isi form keberatan informasi publik yang tersedia di DPMPTSP.\n  - Serahkan form keberatan ke PPID DPMPTSP.\n  - PPID akan memproses keberatan dan memberikan tanggapan sesuai dengan ketentuan yang berlaku.\n\n### Dasar Hukum\nDPMPTSP Jawa Tengah beroperasi berdasarkan berbagai peraturan, termasuk:\n- **Undang-Undang Nomor 10 Tahun 1950 tentang Pembentukan Provinsi Jawa Tengah**.\n- **Undang-Undang Nomor 25 Tahun 2007 tentang Penanaman Modal**.\n- **Undang-Undang Nomor 14 Tahun 2014 tentang Keterbukaan Informasi Publik**.\n- **Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik**.\n- **Peraturan Presiden Nomor 97 Tahun 2012 tentang Pelayanan Terpadu Satu Pintu Di Bidang Penanaman Modal**.\n- **Peraturan Daerah Provinsi Jawa Tengah Nomor 9 Tahun 2016 tentang Pembentukan Dan Susunan Perangkat Daerah**.\n- **Peraturan Gubernur Jawa Tengah Nomor 74 Tahun 2012 Organisasi dan Tata Kerja Unit Pelaksana Teknis Pelayanan Terpadu Satu Pintu Pada Badan Penanaman Modal Daerah Provinsi Jawa Tengah**.\n- **Peraturan Gubernur Jawa Tengah Nomor 4 Tahun 2021 tentang Penyelenggara Perizinan Berusaha dan Pelayanan Terpadu Satu Pintu di Provinsi Jawa Tengah**.\n\n### Kontak DPMPTSP Jawa Tengah\n- **Alamat**: Jl. Mgr. Sugiyopranoto No. 1, Semarang, Kode Pos 50131.\n- **Telepon**: 024-3547091, 3547438, 3541487.\n- **Faksimile**: 024-3549560.\n- **Email**: dpmptsp@jatengprov.go.id.\n- **Website**: http://www.jatengprov.go.id.\n\nDPMPTSP Jawa Tengah berkomitmen untuk menyediakan layanan yang efisien dan transparan bagi masyarakat dan investor. Jika Anda memiliki pertanyaan lebih lanjut atau membutuhkan bantuan, Anda dapat menghubungi DPMPTSP Jawa Tengah melalui saluran yang tersedia.",
+      "response_time": 11.001367568969727,
+      "model": "mistralai/mistral-small-3.2-24b-instruct:free",
+      "confidence": 0.86,
+      "num_sources": 5,
+      "total_tokens": 4944,
+      "timestamp": "2025-10-21T20:57:29.992052"
+    },
+    {
+      "test_id": "TEST_002",
+      "query": "Bagaimana cara mengurus NIB melalui sistem OSS?",
+      "source_type": "NEW",
+      "category": "Procedure",
+      "answer": "Untuk mengurus Nomor Induk Berusaha (NIB) melalui sistem Online Single Submission (OSS) di Jawa Tengah, Anda dapat mengikuti langkah-langkah berikut:\n\n1. **Akses Website Resmi DPMPTSP Jawa Tengah**: Kunjungi website resmi DPMPTSP Jawa Tengah di [dpmptsp.jatengprov.go.id](https://dpmptsp.jatengprov.go.id).\n\n2. **Pendaftaran Akun OSS**: Jika Anda belum memiliki akun, Anda perlu melakukan pendaftaran terlebih dahulu. Ikuti petunjuk pada website untuk membuat akun baru.\n\n3. **Masuk ke Sistem OSS**: Setelah memiliki akun, masuk ke sistem OSS menggunakan username dan password yang telah Anda daftarkan.\n\n4. **Pemilihan Layanan**: Pilih layanan pengurusan NIB dari menu yang tersedia. Pastikan Anda memilih jenis usaha yang sesuai dengan aktivitas bisnis Anda.\n\n5. **Isi Formulir**: Isi formulir pengajuan NIB dengan lengkap dan benar. Pastikan semua data yang Anda masukkan sesuai dengan data resmi Anda.\n\n6. **Upload Dokumen**: Upload semua dokumen yang diperlukan sesuai dengan persyaratan yang ditetapkan. Pastikan dokumen yang Anda unggah jelas dan lengkap.\n\n7. **Verifikasi dan Pengajuan**: Setelah mengisi formulir dan mengupload dokumen, lakukan verifikasi data Anda. Pastikan semua informasi benar sebelum mengajukan permohonan.\n\n8. **Pembayaran**: Lakukan pembayaran biaya pengurusan NIB melalui sistem yang tersedia. Pastikan Anda menyimpan bukti pembayaran.\n\n9. **Pemeriksaan dan Persetujuan**: Tim DPMPTSP akan memeriksa permohonan Anda. Jika ada keterangan tambahan atau koreksi yang diperlukan, Anda akan diberi tahu melalui sistem.\n\n10. **Pencetakan NIB**: Setelah permohonan disetujui, Anda dapat mencetak NIB melalui sistem OSS.\n\nJika Anda memiliki pertanyaan lebih lanjut atau mengalami kesulitan, Anda dapat menghubungi DPMPTSP Jawa Tengah langsung di (024) 3569961 untuk bantuan lebih lanjut.",
+      "response_time": 15.200852155685425,
+      "model": "mistralai/mistral-small-3.2-24b-instruct:free",
+      "confidence": 0.5,
+      "num_sources": 1,
+      "total_tokens": 825,
+      "timestamp": "2025-10-21T20:57:45.193903"
+    }
+  ]
+}

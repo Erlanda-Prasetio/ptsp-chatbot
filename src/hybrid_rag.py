@@ -220,7 +220,8 @@ class HybridRAGSystem:
                 internet_context = self.internet_search.format_internet_context(internet_results)
                 
                 # Generate response using LLM with internet context
-                internet_answer = query_llm(question, internet_context)
+                llm_result = query_llm(question, internet_context)
+                internet_answer = llm_result['text'] if isinstance(llm_result, dict) else llm_result
                 
                 phase3_time = time.time() - phase3_start
                 phase_times['internet'] = phase3_time
@@ -246,9 +247,12 @@ class HybridRAGSystem:
                     "enhanced_features": {
                         "search_method": "internet_fallback",
                         "quality_score": 0.7,  # Base score for internet results
+                        "confidence_score": 0.50,  # Lower confidence for internet results
                         "phase_times": phase_times,
                         "internet_engines": ["duckduckgo"] + (["serper"] if self.internet_search.serper_key else []),
-                        "response_time": f"{time.time() - start_time:.2f}s"
+                        "response_time": f"{time.time() - start_time:.2f}s",
+                        "model": llm_result.get('model', 'unknown') if isinstance(llm_result, dict) else 'unknown',
+                        "usage": llm_result.get('usage', {}) if isinstance(llm_result, dict) else {}
                     }
                 }
                 

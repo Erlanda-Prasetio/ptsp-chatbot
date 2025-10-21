@@ -180,7 +180,8 @@ class SmartEnhancedRAG:
         PENTING: Berikan jawaban yang UTUH dan TIDAK TERPOTONG sampai selesai.
         """
         
-        answer = query_llm(enhanced_prompt, context)
+        llm_result = query_llm(enhanced_prompt, context)
+        answer = llm_result['text'] if isinstance(llm_result, dict) else llm_result
         answer = self._clean_answer(answer)
         
         # Process sources with enhanced scoring info
@@ -191,6 +192,7 @@ class SmartEnhancedRAG:
         # Calculate confidence based on top result score
         top_score = final_hits[0].get(sort_key, 0) if final_hits else 0
         confidence = "high" if top_score > 0.6 else "medium" if top_score > 0.4 else "low"
+        confidence_score = round(top_score, 2)  # Numeric confidence
         
         return {
             "answer": answer,
@@ -201,8 +203,11 @@ class SmartEnhancedRAG:
                 "domain_relevant": True,
                 "response_time": f"{response_time:.2f}s",
                 "confidence": confidence,
+                "confidence_score": confidence_score,  # Add numeric confidence
                 "top_similarity": round(top_score, 3),
-                "enhanced_scoring": ENHANCED_UTILS_AVAILABLE
+                "enhanced_scoring": ENHANCED_UTILS_AVAILABLE,
+                "model": llm_result.get('model', 'unknown') if isinstance(llm_result, dict) else 'unknown',
+                "usage": llm_result.get('usage', {}) if isinstance(llm_result, dict) else {}
             }
         }
     

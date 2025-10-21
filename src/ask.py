@@ -85,14 +85,25 @@ def query_llm(question: str, context: str):
             }, timeout=30)  # Add timeout
             
             r.raise_for_status()
-            response = r.json()['choices'][0]['message']['content'].strip()
+            response_json = r.json()
+            response_text = response_json['choices'][0]['message']['content'].strip()
             
             # Ensure response is complete (not truncated)
-            if len(response) > 1400 and not response.endswith(('.', '!', '?', ':')):
-                response += "\n\n[Respons mungkin terpotong karena batasan panjang. Untuk informasi lebih detail, silakan hubungi DPMPTSP Jawa Tengah langsung.]"
+            if len(response_text) > 1400 and not response_text.endswith(('.', '!', '?', ':')):
+                response_text += "\n\n[Respons mungkin terpotong karena batasan panjang. Untuk informasi lebih detail, silakan hubungi DPMPTSP Jawa Tengah langsung.]"
+            
+            # Extract usage metadata
+            usage = response_json.get('usage', {})
+            model_used = response_json.get('model', GEN_MODEL)
             
             print(f"✅ OpenRouter API call successful")
-            return response
+            print(f"📊 Tokens: {usage.get('total_tokens', 0)} (prompt: {usage.get('prompt_tokens', 0)}, completion: {usage.get('completion_tokens', 0)})")
+            
+            return {
+                'text': response_text,
+                'model': model_used,
+                'usage': usage
+            }
             
         except requests.exceptions.HTTPError as e:
             status_code = e.response.status_code if e.response else 0

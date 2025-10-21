@@ -91,6 +91,11 @@ class EnhancedInternetSearch:
                         'relevance_score': 0.6
                     })
             
+            # If no results, try fallback
+            if not results:
+                print(f"⚠️  DuckDuckGo returned 0 results, trying fallback...")
+                return self.search_simple_web(query)
+            
             return results
             
         except Exception as e:

@@ -1,0 +1,3 @@
+eval_id,dataset_source,category,query,answer_preview,is_correct,confidence_score,response_time_seconds,total_tokens,prompt_tokens,completion_tokens,num_sources,model_name,notes,scored_at,scorer
+TEST_001,OLD,General,Apa itu DPMPTSP?,"DPMPTSP Provinsi Jawa Tengah, atau Dinas Penanaman Modal dan Pelayanan...",1,0.86,11.001367568969727,4944,0,0,5,mistralai/mistral-small-3.2-24b-instruct:free,Enter,2025-10-21T21:10:56.480251,user
+TEST_002,NEW,Procedure,Bagaimana cara mengurus NIB melalui sistem OSS?,Untuk mengurus Nomor Induk Berusaha (NIB) melalui sistem Online Single...,1,0.5,15.200852155685425,825,0,0,1,mistralai/mistral-small-3.2-24b-instruct:free,Enter,2025-10-21T21:11:11.471332,user
