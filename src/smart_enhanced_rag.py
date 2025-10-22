@@ -113,6 +113,7 @@ class SmartEnhancedRAG:
             normalized_hits = []
             for hit in hits:
                 normalized_hit = {
+                    'id': hit.get('id'),  # Preserve chunk ID from Supabase
                     'text': hit.get('content', ''),  # Map 'content' to 'text'
                     'score': hit.get('similarity', 0),  # Map 'similarity' to 'score'
                     'metadata': hit.get('metadata', {}),
@@ -302,6 +303,7 @@ class SmartEnhancedRAG:
                 filename = source_path
             
             sources.append({
+                "chunk_id": hit.get('id'),  # Include chunk ID
                 "filename": filename,
                 "score": hit.get('score', 0),
                 "content_preview": hit.get('text', '')[:200] + "...",
@@ -330,6 +332,7 @@ class SmartEnhancedRAG:
             original_score = hit.get('score', 0)
             
             sources.append({
+                "chunk_id": hit.get('id'),  # Include chunk ID
                 "filename": filename,
                 "score": round(score, 3),
                 "original_similarity": round(original_score, 3),

@@ -188,6 +188,14 @@ class MetricsLogger:
         # Reset for next query
         self.current_query_data = {}
         self.start_time = None
+    
+    def save(self):
+        """
+        Save current query data and reset.
+        Alias for _write_log() for external use.
+        """
+        if self.current_query_data:
+            self._write_log()
         
     def load_logs(self) -> List[Dict]:
         """

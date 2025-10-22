@@ -169,14 +169,20 @@ class BalancedEvaluator:
         # Extract chunk IDs from sources
         retrieved_chunks = []
         for src in sources:
-            chunk_id = (
-                src.get('chunk_id') or 
-                src.get('id') or 
-                src.get('filename') or 
-                src.get('url', '')
-            )
-            if chunk_id:
-                retrieved_chunks.append(str(chunk_id))
+            # Try to get chunk_id first (integer from Supabase)
+            chunk_id = src.get('chunk_id') or src.get('id')
+            
+            if chunk_id is not None:
+                # Convert to integer if it's a valid chunk ID
+                try:
+                    retrieved_chunks.append(int(chunk_id))
+                except (ValueError, TypeError):
+                    # If conversion fails, it might be a filename for internet sources
+                    if src.get('filename'):
+                        retrieved_chunks.append(src['filename'])
+            elif src.get('filename'):
+                # Fallback to filename for internet/external sources
+                retrieved_chunks.append(src['filename'])
         
         # Calculate precision if ground truth available
         relevant_chunks = query_data.get('relevant_chunk_ids', [])
@@ -262,11 +268,30 @@ class BalancedEvaluator:
             print("❌ Aborting evaluation - API not available")
             return None
         
-        # Run evaluation
+        # Checkpoint file setup
+        output_dir = Path("evaluation/raw_results")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        checkpoint_path = output_dir / f"{output_name}_checkpoint.json"
+        
+        # Try to resume from checkpoint
         results = []
+        start_index = 0
+        if checkpoint_path.exists():
+            print(f"\n🔄 Found checkpoint file, resuming from previous run...")
+            with open(checkpoint_path, 'r', encoding='utf-8') as f:
+                checkpoint_data = json.load(f)
+                results = checkpoint_data.get('results', [])
+                start_index = len(results)
+            print(f"   ✅ Resuming from question {start_index + 1}/{len(self.queries)}")
+        
+        # Run evaluation
         start_time = time.time()
         
         for i, query_data in enumerate(self.queries, 1):
+            # Skip already processed queries
+            if i <= start_index:
+                continue
+                
             query_text = query_data['query']
             eval_id = query_data.get('eval_id', f'Q{i:03d}')
             source = query_data.get('dataset_source', '?')
@@ -274,26 +299,52 @@ class BalancedEvaluator:
             if verbose:
                 print(f"[{i}/{len(self.queries)}] {eval_id} ({source}): {query_text[:50]}...")
             
-            # Measure response time (pure system, no human delay)
-            query_start = time.time()
-            response = self.query_rag_system(query_text)
-            response_time = time.time() - query_start
-            
-            # Extract metrics
-            result = self.extract_metrics(response, query_data)
-            result['response_time_seconds'] = response_time
-            
-            if "error" in result:
-                if verbose:
-                    print(f"   ❌ Error: {result['error']}")
-            else:
-                if verbose:
-                    method = result.get('search_method', '?')
-                    confidence = result.get('confidence_score', 0)
-                    precision = result.get('precision')
-                    print(f"   ✅ {response_time:.2f}s | {method} | conf={confidence:.2f} | prec={precision}")
-            
-            results.append(result)
+            try:
+                # Measure response time (pure system, no human delay)
+                query_start = time.time()
+                response = self.query_rag_system(query_text)
+                response_time = time.time() - query_start
+                
+                # Extract metrics
+                result = self.extract_metrics(response, query_data)
+                result['response_time_seconds'] = response_time
+                
+                if "error" in result:
+                    if verbose:
+                        print(f"   ❌ Error: {result['error']}")
+                else:
+                    if verbose:
+                        method = result.get('search_method', '?')
+                        confidence = result.get('confidence_score', 0)
+                        precision = result.get('precision')
+                        print(f"   ✅ {response_time:.2f}s | {method} | conf={confidence:.2f} | prec={precision}")
+                
+                results.append(result)
+                
+                # Save checkpoint after each query
+                checkpoint_data = {
+                    'results': results,
+                    'last_index': i,
+                    'timestamp': datetime.now().isoformat()
+                }
+                with open(checkpoint_path, 'w', encoding='utf-8') as f:
+                    json.dump(checkpoint_data, f, ensure_ascii=False, indent=2)
+                
+            except KeyboardInterrupt:
+                print(f"\n\n⚠️  Interrupted by user at question {i}/{len(self.queries)}")
+                print(f"💾 Progress saved to checkpoint: {checkpoint_path}")
+                print(f"   Run again to resume from question {i + 1}")
+                return None
+            except Exception as e:
+                print(f"   ❌ Unexpected error: {str(e)}")
+                result = {
+                    'eval_id': eval_id,
+                    'query': query_text,
+                    'dataset_source': source,
+                    'error': str(e),
+                    'response_time_seconds': 0
+                }
+                results.append(result)
             
             # Rate limiting (don't delay after last query)
             if i < len(self.queries):
@@ -345,6 +396,11 @@ class BalancedEvaluator:
         output_path = output_dir / f"{output_name}.json"
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
+        
+        # Clean up checkpoint file on successful completion
+        if checkpoint_path.exists():
+            checkpoint_path.unlink()
+            print(f"🗑️  Removed checkpoint file (evaluation complete)")
         
         # Print summary
         print("\n" + "="*70)
