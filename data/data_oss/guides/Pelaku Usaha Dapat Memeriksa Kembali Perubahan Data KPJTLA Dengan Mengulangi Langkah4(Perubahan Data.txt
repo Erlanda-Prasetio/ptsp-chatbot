@@ -1,0 +1,51 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha Dapat Memeriksa Kembali Perubahan Data KPJTLA Dengan Mengulangi Langkah4(Perubahan Data Perwakilan).
+Source: https://oss.go.id/panduan/65027dce048d98beafdc27ff
+Scraped: 2025-10-20T15:35:14.180922
+Total Steps: 17
+Total Images: 21
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuKantor Perwakilan,PilihPerubahan,Lalu PilihData Usaha
+5. 5. Data Usaha KPJPTLA
+6. 6. Berhasil Ubah Data Usaha
+7. 7. Baca, Pahami, DanCentangPada KotakCheckbox,Lalu Klik TombolLanjut
+8. 8. Proses Perizinan Berusaha
+9. 9. Pernyataan Mandiri
+10. 10. Periksa DrafPerizinan Berusaha
+11. 11. Lakukan Pemenuhan Persyaratan
+12. 12. Lengkapi Formulir Pemenuhan
+13. 13. Periksa Daftar Kegiatan Usaha Secara Berkala
+14. 14. Izin KPJPTLA/Sertifikat StandarTelah Terbit
+15. 4. Klik MenuKantor Perwakilan,PilihPerubahan,Lalu PilihData Perwakilan
+16. 5. Data Kantor Perwakilan
+17. 6.BerhasilUpdate Data KPJPTLA
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (21 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid95-3d890221d4164eedb6e301786f94b957.png
+2. https://s3.oss.go.id/oss/cms/3-menu-PB-KP---Perubahan-Data-Perwakilan-72e2a1ae6d71a3973935a46e67c7edd5.png
+3. https://s3.oss.go.id/oss/cms/blobid98-06eae3bffcd73714e7a63c93a8642260.png
+4. https://s3.oss.go.id/oss/cms/blobid101-13d1fe86fc4505d47ef85a00d949e4a1.png
+5. https://s3.oss.go.id/oss/cms/blobid91-9623020d772093024be8703adcc7d665.png
+6. https://s3.oss.go.id/oss/cms/blobid94-fedbf5e0ef56c8ef9dc690b9d9e3f4e5.png
+7. https://s3.oss.go.id/oss/cms/blobid96-21cefd3691b8bfabb914d0d32617e61d.png
+8. https://s3.oss.go.id/oss/cms/blobid92-c9a1bf4ee39907c3180821968e149981.png
+9. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-8a2f600f3cba7393fc58891cd35251bb.png
+10. https://s3.oss.go.id/oss/cms/blobid105-7da47a8eebde08bb1a350e6fd8ade0a1.png
+11. https://s3.oss.go.id/oss/cms/blobid106-7a5955960f31593bbfd2b19e7a9fbbcc.png
+12. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-data-usaha-bbefafe5e651e464bd1edba859383ff3.png
+13. https://s3.oss.go.id/oss/cms/blobid97-2a9297f89978555afb24da66d5b4f6c8.png
+14. https://s3.oss.go.id/oss/cms/blobid100-d0d84b2295a3943006f45ab066d5c40f.png
+15. https://s3.oss.go.id/oss/cms/blobid93-08e4a8414a5f57d3d6ab526488fa5f9c.png
+16. https://s3.oss.go.id/oss/cms/blobid103-d3507012c95aed4de88ec44d71324466.png
+17. https://s3.oss.go.id/oss/cms/blobid99-33a02b01960349b6147b23ca4b1f8571.png
+18. https://s3.oss.go.id/oss/cms/blobid107-6a88180d94ae363c0e27fdce5534dbb8.png
+19. https://s3.oss.go.id/oss/cms/1-portal-masuk-12bed3486022a5e364b5280e72243f3b.png
+20. https://s3.oss.go.id/oss/cms/blobid88-faf72cc4acd5e5e1bc1fcd9fa32c4192.png
+21. https://s3.oss.go.id/oss/cms/blobid104-90e1d4b61cbf9a82e5731349b13e3ee1.png

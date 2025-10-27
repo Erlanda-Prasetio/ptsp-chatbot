@@ -1,0 +1,13 @@
+================================================================================
+Title: Apakah API bisa diubah?
+Source: https://oss.go.id/id/faq/kategori?id=68e4888a711547977a0df2c9
+Scraped: 2025-10-21T15:10:35.570885
+================================================================================
+
+QUESTION:
+Apakah API bisa diubah?
+
+ANSWER:
+API hanya dapat dilakukan perubahan dari API-U menjadi API-P dengan syarat NIB yang berlaku sebagai API-U. Hal tersebut diatur pada Pasal 8 Ayat (1) Peraturan Menteri Perdagangan (Permendag) Nomor 16 Tahun 2025.
+
+================================================================================

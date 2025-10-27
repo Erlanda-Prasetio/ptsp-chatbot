@@ -1,0 +1,95 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Panduan Pengawasan Insidental - Koordinator (Keminvest/BKPM dan DPMPTSP)
+Source: https://oss.go.id/panduan/6406ee274ae4569a3af2bd9c
+Scraped: 2025-10-20T15:35:58.698718
+Total Steps: 37
+Total Images: 45
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPENJADWALAN, lalu klikPENGAWASAN INSIDENTAL
+4. 4. Setelah masuk ke dalam laman Pengawasan Insidental, klikTAMBAH DATA INSIDENTALuntuk menambah Data Pengawasan Insidental
+5. 5. Lakukan pencarian data untuk penambahan data Pengawasan Insidental menggunakan fitur pencarian yang telah disediakan. Lalu, Klik tanda‘v’pada data kegiatan usaha pengawasan Insidental yang dipilih dan klikPROSESuntuk melanjutkan pada proses pengisian data Formulir Pengawasan Insidental. Jika Anda ingin mengecek Data Perizinan Berusaha kegiatan usaha yang akan menjadi objek pengawasan, Anda dapat klik tombolPELACAKAN PERIZINAN BERUSAHA.
+6. 6. Jika Anda klik tombolPELACAKAN PERIZINAN BERUSAHApada langkah 5, akan muncul pop-up tampilan yang berisi informasi Perizinan Berusaha kegiatan usaha yang akan diawasi. Anda dapat mengklik tombolCETAKjika Anda ingin melihat produk perizinannya. KlikTUTUPuntuk menutup tampilan.
+7. 7. Jika Anda klik tombolPROSESpada langkah 5 , sistem akan menampilkan formulir Petugas Inspeksi Lapangan. Selanjutnya, periksaData Kegiatan Usaha.
+8. 8. Lengkapi Data Pelaksana Pengawasan. Anda dapatmenambahkan lebih dari satu pengisian. Setelah mengisi data, klikTAMBAH DATAuntuk menyimpan data Pelaksana Pengawasan. Unggah Surat Tugas resmi yang ditandatangani Pimpinan instansi pelaksana pengawasan. Pada Pengawasan Insidental, Data Pelaksana Pengawasan dapat diisisetelah pengawasan selesai dilaksanakan.
+9. 9. Setelah klik tombolTAMBAH DATA, Data Profil Pelaksana Pengawasan akan tersimpan pada tabel Daftar Pelaksana. Selain itu, Anda juga dapat melakukan beberapa aksi dengan mengklik tombol, yaitu:
+10. 10. LengkapiData Maksud dan Tujuan Inspeksi Lapangan Insidental,lalu klikLANJUTKAN.
+11. 11. Ketika klikLANJUTKAN, akan ada notifikasi pemberitahuan bahwa Data Inspeksi Lapangan Pengawasan Insidental berhasil disimpan. Klik OK untuk kembali ke laman utama Pengawasan Insidental.
+12. 12. Setelah melengkapi formulir Data Pengawasan Insidental,sistem secara otomatis akan menampilkan Daftar Inspeksi Lapangan Insidental pada laman utama Pengawasan Insidental. Pada daftar, Anda dapat melihat Status Pengisian BAP. Anda juga dapat melihat Data Maksud dan Tujuan dengan klik tautanLihat Detailpada kolom Detail Pengawasan.
+13. 13. Setelah klik Lihat Detail, berikut adalah tampilanMaksud dan Tujuan Inspeksi Lapangan yang telah dilengkapi oleh Koordinator dan Pengawas. Klik tombolTUTUPjika Anda ingin menutup tampilan.
+14. 1. Masuk ke menuPENJADWALAN, lalu klikPENGAWASAN INSIDENTAL
+15. 2. Setelah masuk ke dalam laman Pengawasan Insidental, klik tanda‘v’pada data Pengawasan Insidental yang dipilih. Klik tombolASSIGN PELAKSANAjika Anda akan melakukan perubahan pengisian formulir data Pengawasan Insidental sebelumnya.
+16. 3. PeriksaData Kegiatan Usaha
+17. 4. Lengkapi Data Pelaksana Pengawasan. Anda dapatmenambahkan lebih dari satu pengisian. Setelah mengisi data, klikTAMBAH DATAuntuk menyimpan data Pelaksana Pengawasan. Unggah Surat Tugas resmi yang ditandatangani Pimpinan instansi pelaksana pengawasan.
+18. 5. Setelah klik tombolTAMBAH DATA, Data Profil Pelaksana akan tersimpan pada tabel Daftar Pelaksana. Selain itu, Anda juga dapat melakukan beberapa aksi dengan mengklik tombol, yaitu:
+19. 6. LengkapiData Maksud dan Tujuan Pengawasan Insidental,lalu klikLANJUTKAN.
+20. 7. Ketika klikLANJUTKAN, akan ada notifikasi pemberitahuan bahwa Data Inspeksi Lapangan Pengawasan Insidental berhasil tersimpan. Klik OK untuk kembali ke laman utama Pengawasan Insidental.
+21. 3. Pada bagian ini, sistem akan menampilkan daftar hadir pelaksana Inspeksi Lapangan Pengawasan Insidental. KlikCETAKjika ingin melihat Surat Tugas atau mengunduh Surat Tugas Inspeksi Lapangan Pengawas. KlikTUTUPjika ingin menutup tampilan Daftar Hadir Inspeksi Lapangan Pengawasan Insidental.
+22. 3. Periksa kembaliData Profil Perusahaan
+23. 4.Sistemakan menampilkandata Kepemilikan Perizinan Berusaha atas Kegiatan Usaha.Koordinator tidak diperkenankan untuk mengisi data Kepemilikan Perizinan Berusaha atas Kegiatan Usaha,tetapi Anda dapat melihat Skor Nilai Pengawasan Kepemilikan Perizinan Berusaha atas Kegiatan Usaha yang telah dilengkapi oleh Pengawas.
+24. 5.Sistemakan menampilkandata Penilaian Kepatuhan Teknis.Koordinator tidak diperkenankan untuk mengisi Penilaian Kepatuhan Teknis, tetapi Anda dapat melihat data Penilaian Kepatuhan Teknis yang telah dilengkapi oleh Pengawas.
+25. 6. SebagaiKoordinator, Andadiwajibkan mengisi Skor Nilai Hasil Pengawasan (dengan rentang 1 s/d 100)dengan kriteria penilaian sebagai berikut:
+26. 7. Data Nilai Riwayat Pengenaan Sanksi akan ditampilkan secara otomatis oleh sistem berdasarkan pengenaan hasil riwayat pengenaan sanksi Pelaku Usaha.
+27. 8. Lengkapi Data Permasalahan yang dihadapi Pelaku Usaha. KlikTAMBAH PERMASALAHANuntuk menyimpan data permasalahan. Anda dapat menyimpan lebih dari satu permasalahan. Penghapusan data permasalahan dapat dilakukan dengan mengklik tombolHAPUSpada Permasalahan yang dipilih.
+28. 9. Anda dapat mengunggah dokumen pendukung pelaksanaan Pengawasan Insidental (seperti foto-foto kegiatan Inspeksi Lapangan Insidental dan lain sebagainya) disertai denganNama Dokumendari unggahan tersebut.
+29. 10. Anda wajib menjelaskanHasil Inspeksi Lapanganselama periode Pengawasan pada kolomHasil Pengawasan Koordinator. Anda dapat memilihRekomendasi Koordinatoratas hasil pengawasan dan mengisi keterangan pada kolom yang tertera di bawahnya.
+30. 11. Sebagai Koordinator, Anda diwajibkan melengkapiData Nilai Rencana dan Realisasi Investasi, serta memilih Kesesuaian Nilai Realisasi Investasi di Lapangan.
+31. 12. Sebagai Koordinator, Anda diwajibkan melengkapiData Penyerapan Tenaga Kerja.
+32. 13. Lengkapi Data Penanggung Jawab Inspeksi Lapangan. Jika data tersebut telah dilengkapi oleh Pengawas, Koordinator tidak perlu mengisi kembali data tersebut. Periksa kembali data Hasil Pengawasan yang telah dilengkapi dan jika sudah benar klikKIRIM DATAuntuk memproses data Hasil Pengawasan. Jika Anda ingin menyimpan data hasil pengawasan sebagai draf, klikSIMPAN SEBAGAI DRAF.
+33. 14. Setelah Anda mengirimkan data Hasil Pengawasan maka akan muncul notifikasipemberitahuan Hasil Pengawasan berhasil terkirim. Anda dapat melihat hasil pengawasan yang sudah terkirim dengan klik tombolCETAKAN.
+34. 15. Anda dapatmengunduhCetakan Hasil Pengawasan dan melakukan penandatangan secara manual sebelum kembali mengunggah Cetakan Hasil Pengawasanpada sistem OSS.
+35. 16. Setelah Anda melakukan proses pengisian data Hasil Pengawasan, Anda dapat mengunggah Dokumen Berita Acara Pemeriksaan (BAP) yang sudah ditandatangani dengan klik tombolUPLOAD BAP. Untuk unggahan BAP hanya dapat dilakukan oleh satu instansi saja. Sebagai contoh, jika Pengawas sudah mengunggah dokumen BAP maka Koordinator nantinya tidak perlu mengunggah dokumen BAP lagi.
+36. 17. Anda dapat mengunggah dokumen BAP dengan klik Pilih Dokumen. File BAP yang diunggah dalam bentukPDF. KlikUNGGAHuntuk menyimpan data
+37. 18. Jika file BAP sudah terunggah maka tampilan akan berubah seperti gambar dibawah ini. Untuk melihat BAP, klik Lihat File.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (45 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid55-16b7059601aeb96f1c02d5a90b7c5a41.png
+2. https://s3.oss.go.id/oss/cms/portal-masuk-cafca95dc366b0be6def4687da69527e.jpg
+3. https://s3.oss.go.id/oss/cms/7a-(1)-b0d8346fb4742ab3df5e408e3c138510.png
+4. https://s3.oss.go.id/oss/cms/4.6a-(2)-a85b3802f6b94c99b1ed7abae9557abf.png
+5. https://s3.oss.go.id/oss/cms/4-(7)-c07abd6b1d24300d0383711ff0e46247.png
+6. https://s3.oss.go.id/oss/cms/3.4-(1)-5377d573414a0491b4b3f2af949ffffc.png
+7. https://s3.oss.go.id/oss/cms/2.7a-(2)-3f0849233966e819555e534c04b8f6c7.png
+8. https://s3.oss.go.id/oss/cms/blobid57-25dbbc7d0442f69d837e61875edfc486.png
+9. https://s3.oss.go.id/oss/cms/4.5c-(1)-83448c3c9a572f2e39124c4591792505.png
+10. https://s3.oss.go.id/oss/cms/2.6-(2)-270f695884969f631b967c8dcc1d81f2.png
+11. https://s3.oss.go.id/oss/cms/blobid51-5bf8311ead60fba10e96f69fe989e888.png
+12. https://s3.oss.go.id/oss/cms/blobid53-1c6843cb27b5eb5b5aad2054a7946cde.png
+13. https://s3.oss.go.id/oss/cms/blobid56-139a5bdf077bbffe81b09856eb43d12b.png
+14. https://s3.oss.go.id/oss/cms/4.3-(1)-d75823614bbac5a24a00548cc9ef6144.png
+15. https://s3.oss.go.id/oss/cms/9b-(8)-5efc9bc51c5205782ca49f7b6e8d3628.png
+16. https://s3.oss.go.id/oss/cms/4.5d-(1)-e35fac9acd4930b21baeae142ec48533.png
+17. https://s3.oss.go.id/oss/cms/4.5e-(1)-698f1dbcc296e9d7680b1ca2859cf4c8.png
+18. https://s3.oss.go.id/oss/cms/4.5b-(1)-92b52aca388901b5a7d3965216ca48fd.png
+19. https://s3.oss.go.id/oss/cms/3.3-(1)-25950764d8e57e3b5494b55c1bfda00a.png
+20. https://s3.oss.go.id/oss/cms/4.5f-(1)-ea2e088a44ac8e202bbaf405e519e9e0.png
+21. https://s3.oss.go.id/oss/cms/4.5j-(2)-89648692d0acdf90c77d7df1e3f1923c.png
+22. https://s3.oss.go.id/oss/cms/4.5h-(1)-6827609be6a8dabcc98af7fa60c5e754.png
+23. https://s3.oss.go.id/oss/cms/imgeee2-61f25c569a9611b637e6cf4928331370.jpg
+24. https://s3.oss.go.id/oss/cms/2.4-(5)-9f824141d973a160033d7fe92133d52d.png
+25. https://s3.oss.go.id/oss/cms/2.8a-(1)-4931d4a7e3d93271b975a14af9609825.png
+26. https://s3.oss.go.id/oss/cms/6-(6)-d53298bfe56d6c16a550dec93942a8f1.png
+27. https://s3.oss.go.id/oss/cms/8a-(4)-23279be63cf0cf95da0591755e4dcba0.png
+28. https://s3.oss.go.id/oss/cms/4.5a-(1)-2159bbcbfa923ec5a07150000076ce1d.png
+29. https://s3.oss.go.id/oss/cms/4.5k-(2)-401610878130dd5e9683d2df6314b595.png
+30. https://s3.oss.go.id/oss/cms/8b-(4)-4b14a9f06bdc777dc020a68e65c08a83.png
+31. https://s3.oss.go.id/oss/cms/2.8b-(1)-ab7009b497dbca7f1d63346afcf79a6f.png
+32. https://s3.oss.go.id/oss/cms/4.5k2-(2)-8bf48e6138c68502ec559cc27df1ec7a.png
+33. https://s3.oss.go.id/oss/cms/7b-(1)-70bb3e6eee552b81c73b0a47c1f62a69.png
+34. https://s3.oss.go.id/oss/cms/4.5l-(2)-a6fc176c5a3bdecfc88b136c4e0ce3f8.png
+35. https://s3.oss.go.id/oss/cms/blobid52-b76a22371fcf36a59ea7df6ddfa1ce32.png
+36. https://s3.oss.go.id/oss/cms/5-(5)-87dc151b4744c3941a9168ca91cd22f9.png
+37. https://s3.oss.go.id/oss/cms/imgeee1-e1d703308b7b001a4bfda18ffd947c69.jpg
+38. https://s3.oss.go.id/oss/cms/2.3-(2)-83be47d5a609b8a1c002204da19cf198.png
+39. https://s3.oss.go.id/oss/cms/2.7b-(1)-75287dc84d16c4042f12c4dc20b4864c.png
+40. https://s3.oss.go.id/oss/cms/3.5-(1)-cc28446375eb46c8e613ee15edf7a61a.png
+41. https://s3.oss.go.id/oss/cms/3-(6)-38bc7f79a21f378c47435a49d18ffaea.png
+42. https://s3.oss.go.id/oss/cms/4.5g-(1)-4682c2f28b3853a1a9645cdc7ddd68ef.png
+43. https://s3.oss.go.id/oss/cms/4.5i-(1)-a61e3dd330af893e2fdf7da27e55ad54.png
+44. https://s3.oss.go.id/oss/cms/4.4-(1)-7f7cfe324059be7a8fab7dd91be2624a.png
+45. https://s3.oss.go.id/oss/cms/blobid54-20c5f35bf355ca943fdbd696c1e3238e.png

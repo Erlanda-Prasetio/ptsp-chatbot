@@ -1,0 +1,13 @@
+================================================================================
+Title: 1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP
+Source: https://oss.go.id/id/faq/kategori?id=68e486907795640efd3eefbc
+Scraped: 2025-10-21T15:17:54.528114
+================================================================================
+
+QUESTION:
+1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP
+
+ANSWER:
+NPWP dapat dilakukan perubahan dengan cara: 1. Masuk ke website OSS; 2. Klik "Perizinan Berusaha"; 3. Pilih "Kelola Usaha"; 4. Pilih "Perubahan"; 5. Pilih "Perubahan Badan Usaha"; 6. Atau bisa melalui tautan: https://ui-login.oss.go.id/login. Panduan umum perubahan data badan usaha/pelaku usaha dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/635970086345c7d71a8144aa (Badan Usaha) https://oss.go.id/panduan/635970086345c7d71a8144a9 (Orang Perorangan)
+
+================================================================================

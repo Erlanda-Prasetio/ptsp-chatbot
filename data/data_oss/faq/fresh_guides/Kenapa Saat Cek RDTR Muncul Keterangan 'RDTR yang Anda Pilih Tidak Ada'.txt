@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'?
+Source: https://oss.go.id/id/faq/kategori?id=68e48745711547977a0df219
+Scraped: 2025-10-21T15:14:33.981045
+================================================================================
+
+QUESTION:
+Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'?
+
+ANSWER:
+Keterangan tersebut muncul karena RDTR belum tersedia di wilayah yang dimohonkan atau RDTR belum terintegrasi dengan sistem OSS sehingga permohonan PKKPR akan diteruskan ke Kementerian ATR/BPN atau Organisasi Perangkat Daerah Bidang Tata Ruang. Untuk mengecek wilayah yang telah memiliki RDTR, Bapak/Ibu dapat mengakses tautan berikut: https://oss.go.id/informasi/lokasi-usaha?tab=rtr&page=1
+
+================================================================================

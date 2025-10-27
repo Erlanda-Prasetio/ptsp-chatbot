@@ -1,0 +1,13 @@
+================================================================================
+Title: Saya Tidak Bisa Ubah Email lewat Profil karena Kode Verifikasi Dikirim ke Email Lama
+Source: https://oss.go.id/id/faq/kategori?id=68e485337795640efd3eef50
+Scraped: 2025-10-21T15:21:37.887993
+================================================================================
+
+QUESTION:
+Saya Tidak Bisa Ubah Email lewat Profil karena Kode Verifikasi Dikirim ke Email Lama
+
+ANSWER:
+Jika email terdaftar sudah tidak dapat diakses, maka Bapak/ibu dapat melakukan perubahan email melalui fitur Butuh Bantuan dan pilih Email Sudah Tidak Aktif. Panduan lengkap perubahan email sudah tidak aktif dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/63a58b94c406b3c60dc5c5ea (Orang Perorangan) https://oss.go.id/panduan/63a5bf21c406b3c60dc5c7c5 (Badan Usaha)
+
+================================================================================

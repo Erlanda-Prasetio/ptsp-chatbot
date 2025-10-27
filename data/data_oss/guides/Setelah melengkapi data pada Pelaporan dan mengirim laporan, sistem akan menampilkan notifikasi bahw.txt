@@ -1,0 +1,27 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Setelah melengkapi data pada Pelaporan dan mengirim laporan, sistem akan menampilkan notifikasi bahwa laporan telah berhasil dikirim
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e5
+Scraped: 2025-10-20T15:29:57.304371
+Total Steps: 7
+Total Images: 7
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungi Lamanhttps://oss.go.id/, klikMASUK
+2. 2. MasukkanUsernamedanPasswordbesertaKode CAPTCHAyang tertera, lalu klik tombolMASUK
+3. 3. Masuk ke MenuPELAPORAN, pilihREALISASI IMPOR
+4. 4. Sistem menampilkanPemberitahuan tentang Realisasi Impor
+5. 5.Memilih Nomor Keputusan Menteri Keuangan (KMK)yang akan dilaporkan
+6. 6. KlikSUBMITpadaLAPORAN REKAPITULASI REALISASI IMPOR MESIN/PERALATAN
+7. 7.Laporan Realisasi Imporberhasil dikirim
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (7 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/2-1c963da91cbaf1d30d1adc15e8f85dc8.png
+2. https://s3.oss.go.id/oss/cms/Picture5-2910e96bd4255ae77928aba0e115b272.png
+3. https://s3.oss.go.id/oss/cms/7-d037db3256597e468176c1c04a8cbe0a.png
+4. https://s3.oss.go.id/oss/cms/Picture8-d8fc862d32f37fb12da3e9082c22a3e7.png
+5. https://s3.oss.go.id/oss/cms/Picture7-71c2b925f90c1b33299cd3fb2c389a40.png
+6. https://s3.oss.go.id/oss/cms/5---Laporan-Realisasi-Impor-Mesin-dan-Barang-(No.3)-84a10f6164612c8f0e74a580ea93a84c.png
+7. https://s3.oss.go.id/oss/cms/Picture6-c4c74dfe8395613fe4ab3a856a4e8839.png

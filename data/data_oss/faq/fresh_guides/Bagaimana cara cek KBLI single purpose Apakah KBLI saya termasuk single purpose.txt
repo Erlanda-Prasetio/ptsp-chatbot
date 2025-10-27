@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara cek KBLI single purpose? Apakah KBLI saya termasuk single purpose?
+Source: https://oss.go.id/id/faq/kategori?id=68e48842711547977a0df2a1
+Scraped: 2025-10-21T15:11:39.508355
+================================================================================
+
+QUESTION:
+Bagaimana cara cek KBLI single purpose? Apakah KBLI saya termasuk single purpose?
+
+ANSWER:
+Tidak semua KBLI dapat digabung dalam satu NIB atau disebut juga KBLI Single Purpose. Artinya, dalam satu NIB hanya boleh memiliki satu KBLI dan tidak dapat dijalankan dengan KBLI lain. Untuk mengetahui KBLI Single Purpose, Bapak/Ibu dapat melakukan pengecekan secara mandiri dengan mengikuti langkah berikut: 1. Kunjungi oss.go.id 2. Lihat menu Informasi » Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2020 3. Tulis kata kunci sesuai dengan kegiatan usaha yang akan dijalankan atau input KBLI (misalnya KBLI 52291) 4. Jika termasuk KBLI Single Purpose, maka akan muncul notifikasi seperti berikut: "Seluruh Bidang Usaha dalam Ruang Lingkup Kegiatan KBLI ini, berlaku ketentuan kegiatan dilakukan oleh Badan Usaha yang didirikan khusus (single purpose)."
+
+================================================================================

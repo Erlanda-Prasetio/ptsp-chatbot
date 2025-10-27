@@ -1,0 +1,76 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik TombolOKDan Perubahan Skala Usaha Telah Berhasil.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144d1
+Scraped: 2025-10-20T15:41:00.454215
+Total Steps: 32
+Total Images: 31
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda Telah MemilikiHak Akses
+2. 2. KunjungiHttps://Oss.Go.Id/
+3. 3.PilihMASUK
+4. 4.MasukkanUsername Dan Password, Lalu Klik Tombol MASUK
+5. 5. Kliktanda V disaming nama Akun Anda
+6. 6. Pilih Info Akun
+7. 7.A PeriksaData Pengguna (WNI)
+8. 7.B PeriksaData Pengguna (WNA)
+9. 8.A Lengkapi Form Perbarui Data Diri (WNI)
+10. 8.B Lengkapi Form Perbarui Data Diri (WNA)
+11. 9.Data Berhasil Diubah
+12. 10. Ubah Email Atau Nomor Telepon
+13. 11. KonfirmasiPassword
+14. 12. Simpan PerubahanData Pengguna
+15. 13. PerubahanData Telah Berhasil
+16. 14. PilihUBAH PASSWORD
+17. 15. LengkapiFormulir Penggantian Password
+18. 16. Password Berhasil Diubah
+19. 17. Cek Email Yang Terdaftar (Penggantian Password)
+20. 18. PilihUBAH PENANGGUNG JAWAB
+21. 19. PeriksaData Profil Penanggung Jawab
+22. 20. Lengkapi Data Profil Penanggung Jawab
+23. 21. Penanggung Jawab Berhasil Diubah
+24. 22. CekEmail Yang Terdaftar (Perubahan Data Hak Akses)
+25. 23. PilihUBAH STATUS USAHA
+26. 24. LengkapiData Skala Usaha
+27. 1.Nama Perusahaan
+28. 2.Jenis Perusahaan
+29. 3.Jumlah Total Investasi
+30. 4.Jumlah Total Modal
+31. 5.Skala Usaha Saat Ini
+32. 25. Skala UsahaBerhasilDiubah
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (31 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture9-5ab60ed6e769afd9c2b3380b37e2fe0d.webp
+2. https://s3.oss.go.id/oss/cms/Picture16-7b63943568617880ddc5c9ba0e77c16a.webp
+3. https://s3.oss.go.id/oss/cms/Picture17-f05e0412fa75fa87fedb23d2747b33ec.webp
+4. https://s3.oss.go.id/oss/cms/Picture30-bcd23fb468674a13b9e07db43ddb715a.webp
+5. https://s3.oss.go.id/oss/cms/Picture26-5d930274eefca9adf643d41d87f31956.webp
+6. https://s3.oss.go.id/oss/cms/Picture14-data-bc4e53509c03c411aeb8c3a96f5bfa3d.webp
+7. https://s3.oss.go.id/oss/cms/Picture20-af0c06f3506021f173aff2dc80847273.webp
+8. https://s3.oss.go.id/oss/cms/7-b0fb19c26fae4bf2c7cf3c3bce7b0869.png
+9. https://s3.oss.go.id/oss/cms/Picture29-stts-5e80a1f8f5fc31c32e063b90f19c7c52.webp
+10. https://s3.oss.go.id/oss/cms/Picture18-pw-855fae78b32dcc6a1fe445425c369421.webp
+11. https://s3.oss.go.id/oss/cms/Picture24-76a30258f050cd7ca141fe29d2ba44d1.webp
+12. https://s3.oss.go.id/oss/cms/Picture27-ab8c74712918987ee25587af479e57f2.webp
+13. https://s3.oss.go.id/oss/cms/ubah-profil-2-b390d3ea718310031ecd109ac87c6a33.png
+14. https://s3.oss.go.id/oss/cms/Picture31-acd32001145d757aff8c232ac09cf9d7.webp
+15. https://s3.oss.go.id/oss/cms/Picture7-profil-b4cb2e2c00c6dfdef832b7451bcf95dd.webp
+16. https://s3.oss.go.id/oss/cms/Picture12-e91214693c8684fc7338e3800ae76067.webp
+17. https://s3.oss.go.id/oss/cms/Picture8-c7de74fd60163798ef416b2c414666de.webp
+18. https://s3.oss.go.id/oss/cms/Picture1-280cd4d78c3e0f8c0a6610b3827b5107.webp
+19. https://s3.oss.go.id/oss/cms/Picture4-1f965e6a7d25282b2ee60e3d6f54efef.webp
+20. https://s3.oss.go.id/oss/cms/Picture28-c3f9bee797d1a6f24b81c188aaa13a7d.webp
+21. https://s3.oss.go.id/oss/cms/Picture22-pj-0261ca592b46b674ef1d16904c8b9e82.webp
+22. https://s3.oss.go.id/oss/cms/Picture10-247ab4c7f4ec0ec8677bd0f102ae60fc.webp
+23. https://s3.oss.go.id/oss/cms/Picture19-884dda44a5e25a860c3fd4390ea40286.webp
+24. https://s3.oss.go.id/oss/cms/Picture21-240fc7a2871f8ffe17b9399d98ef9279.webp
+25. https://s3.oss.go.id/oss/cms/ubah-profil---1-b85c371d6ce8e3b30158529bff1e6984.png
+26. https://s3.oss.go.id/oss/cms/Picture25-0ae32f61ea2bcea17ffcba81c054295c.webp
+27. https://s3.oss.go.id/oss/cms/Picture23-7e1ba52a2b18a9c2d4c11645e50ff7e3.webp
+28. https://s3.oss.go.id/oss/cms/Picture13-9a9e594385b04abf0673030706409701.webp
+29. https://s3.oss.go.id/oss/cms/Picture11-b92eea99ecadfd3712a29d2017d6bccd.webp
+30. https://s3.oss.go.id/oss/cms/Picture15-82044a14ae63803065eea5329752128f.webp
+31. https://s3.oss.go.id/oss/cms/1-portal-76a0bbf4615f8ca3777c01be9db223d5.png

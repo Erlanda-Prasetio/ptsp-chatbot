@@ -1,0 +1,13 @@
+================================================================================
+Title: Haruskah KBLI 10763 ditambahkan bersamaan dengan KBLI 01270 karena terintegrasi?
+Source: https://oss.go.id/id/faq/kategori?id=68e48884711547977a0df2c5
+Scraped: 2025-10-21T15:10:32.554681
+================================================================================
+
+QUESTION:
+Haruskah KBLI 10763 ditambahkan bersamaan dengan KBLI 01270 karena terintegrasi?
+
+ANSWER:
+Kedua KBLI tersebut wajib ditambahkan secara bersamaan karena KBLI 10763 merupakan kegiatan usaha industri pengolahan teh yang wajib terintegrasi dengan kegiatan usaha pertanian tanaman untuk bahan minuman dalam KBLI 01270. Ketentuan ini juga berlaku untuk KBLI terintegrasi lainnya, seperti: KBLI 10721 wajib terintegrasi dengan KBLI 01140 (Perkebunan Tebu) KBLI 10431 wajib terintegrasi dengan KBLI 01262 (Perkebunan Buah Kelapa Sawit) Setelah berhasil login akun OSS, Bapak/Ibu dapat menambahkan kedua KBLI tersebut secara bersamaan pada menu Pengembangan. Ketentuan tersebut diatur pada Lampiran II Salinan PP Nomor 5 Tahun 2021 Sektor Pertanian. Untuk PP Nomor 5 Tahun 2021 dapat diunduh pada tautan berikut: https://oss.go.id/regulasi/6936b7af-89b4-4e8b-bddd-a1550bd27cbe
+
+================================================================================

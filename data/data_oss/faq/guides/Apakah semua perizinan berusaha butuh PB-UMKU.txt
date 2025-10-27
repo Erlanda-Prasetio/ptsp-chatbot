@@ -1,0 +1,13 @@
+================================================================================
+Title: Apakah semua perizinan berusaha butuh PB-UMKU?
+Source: https://oss.go.id/id/faq/kategori?id=68e487a7711547977a0df257
+Scraped: 2025-10-21T15:13:15.411646
+================================================================================
+
+QUESTION:
+Apakah semua perizinan berusaha butuh PB-UMKU?
+
+ANSWER:
+Tidak semua perizinan berusaha membutuhkan PB-UMKU. Untuk melihat jenis PB-UMKU yang dapat diajukan di sistem OSS, Pelaku Usaha dapat mengakses tautan berikut: https://oss.go.id/informasi/pb-umku Pada tautan tersebut: 1. Jika ditemukan informasi mengenai "KBLI terkait: Semua KBLI", maka semua kegiatan dapat mengajukan PB-UMKU tersebut. Sebagai contoh, Aktivitas Penyediaan Sertifikat Elektronik dan Layanan yang Menggunakan Sertifikat Elektronik. 2. Jika ditemukan informasi mengenai "KBLI terkait: muncul beberapa KBLI", maka hanya kegiatan usaha dengan KBLI tersebut yang dapat mengajukan PB-UMKU. Sebagai contoh, Sertifikat laik sehat - di wilayah yang hanya dapat diajukan untuk KBLI 90011, 93219, 55194, 55192, 93294, 93113, 93114, 55110, 55120, 93292, 68120, 56302, 93291, 55191, 55199, 55900, 55130, 93211, 93293, dan 55193. PB-UMKU diajukan hanya jika diperlukan oleh Pelaku Usaha untuk menunjang kegiatan usaha pada tahap operasional dan/atau komersial.
+
+================================================================================

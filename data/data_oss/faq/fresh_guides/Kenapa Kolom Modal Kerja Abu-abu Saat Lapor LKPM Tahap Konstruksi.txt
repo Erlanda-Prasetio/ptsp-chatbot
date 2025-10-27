@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Kolom Modal Kerja Abu-abu Saat Lapor LKPM Tahap Konstruksi?
+Source: https://oss.go.id/id/faq/kategori?id=68e485d8711547977a0df1b5
+Scraped: 2025-10-21T15:20:15.163548
+================================================================================
+
+QUESTION:
+Kenapa Kolom Modal Kerja Abu-abu Saat Lapor LKPM Tahap Konstruksi?
+
+ANSWER:
+Kolom modal kerja tidak dapat diisi (berwarna abu-abu) saat masih dalam tahap konstruksi karena masih dalam persiapan usaha. Kolom modal kerja hanya dapat diisi saat kegiatan usaha sudah siap beroperasi (tahap operasional/komersial, ditandai dengan dipenuhinya persyaratan dasar dan terbitnya perizinan berusaha) dan persentase realisasi modal tetap sudah mencapai 90% dari rencana. Panduan lebih lengkap dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/635970086345c7d71a8144e3
+
+================================================================================

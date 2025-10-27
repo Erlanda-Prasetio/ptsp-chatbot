@@ -1,0 +1,13 @@
+================================================================================
+Title: 1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?
+Source: https://oss.go.id/id/faq/kategori?id=68e4873c7795640efd3ef020
+Scraped: 2025-10-21T15:14:28.013259
+================================================================================
+
+QUESTION:
+1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?
+
+ANSWER:
+Notifikasi tersebut muncul karena kegiatan usaha yang diajukan tidak sesuai dengan Rencana Detail Tata Ruang di wilayah tersebut. Untuk informasi lebih lanjut, Bapak/Ibu dapat melakukan pengecekan secara mandiri terkait RDTR melalui: https://oss.go.id/rdtr-interaktif
+
+================================================================================

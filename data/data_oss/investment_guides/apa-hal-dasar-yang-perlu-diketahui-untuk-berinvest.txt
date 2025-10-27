@@ -1,0 +1,7 @@
+QUESTION: Apa hal dasar yang perlu diketahui untuk berinvestasi di Jawa Tengah?
+
+ANSWER:
+Untuk mendirikan perusahaan investasi asing langsung di Indonesia, Anda harus menentukan terlebih dahulu akan berinvestasi di sektor bisnis apa sesuai dengan Klasifikasi Baku Lapangan Usaha Indonesia (KBLI). Kemudian, Anda perlu memeriksa apakan sektor bisnis tersebut terbuka dengan persyaratan atau tertutup atas investasi asing langsung berdasarkan Peraturan Presiden tentang Daftar Negatif Investasi (DNI). Jika sektor bisnis terkait tidak dikenakan regulasi dan tidak dibatasi oleh kementerian teknis terkait, maka sektor bisnis tersebut terbuka untuk investasi asing langsung dengan kepemilikan asing maksimum 100%. Badan hukum penanaman modal asing langsung atau perusahaan investasi asing langsung harus merupakan Perseroan Terbatas atau PT (Persero). Perusahaan Perseroan Terbatas harus dimiliki oleh minimal dua pemegang saham. Para pemegang saham dapat berupa individu, perusahaan, atau kombinasi dari keduanya.
+
+SOURCE: https://cjip.jatengprov.go.id/panduan-investasi
+SCRAPED: 2025-10-21T15:46:36.797301

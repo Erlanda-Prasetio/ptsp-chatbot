@@ -1,0 +1,44 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Notifikasi Hasil Final KKPR Akan Dikirim Ke Pelaku Usaha
+Source: https://oss.go.id/panduan/635970086345c7d71a8144ea
+Scraped: 2025-10-20T15:35:49.352461
+Total Steps: 10
+Total Images: 21
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, PilihMasuk
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.Dashboard OPD Tata Ruang
+4. 4. Pilih MenuPemrosesan Perizinan | Verifikasi Pemenuhan Persyaratan
+5. 5. Pilih Pelaku Usaha YangAkan Diverifikasi, Lalu KlikPROSES VERIFIKASI ATR/BPN
+6. 6. Pemroses Akan Tersambung Ke SistemGistaru-KKPR, Pilih Permohonan PKKPR Yang Akan Diproses Lalu KlikIcon AksiUntuk Validasi
+7. 7.Dashboard DPMPTSP
+8. 8. Pilih MenuPemrosesan Perizinan | Persetujuan Permohonan
+9. 9. Pilih Pelaku Usaha Yang Akan Diverifikasi, Lalu KlikPROSES VERIFIKASI ATR/BPN
+10. 10. Pemroses Akan Tersambung Ke SistemGistaru-KKPR, Pilih Permohonan PKKPR Yang Akan Diproses Lalu KlikIcon Aksi Aksi Ke Halaman Detail Permohonan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (21 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid15-5a4bbf23e56976735ebb4929b3540228.png
+2. https://s3.oss.go.id/oss/cms/1-portal-masuk-64e3ed63484609ea879d9ec60ced9670.png
+3. https://s3.oss.go.id/oss/cms/blobid8-2fd2299fe9cbb0b99cac698eb09b2039.png
+4. https://s3.oss.go.id/oss/cms/blobid14-bc1e18cc0569fcb776b0acd33d187929.png
+5. https://s3.oss.go.id/oss/cms/blobid18-801291948779c9292efeabfd25d0864f.png
+6. https://s3.oss.go.id/oss/cms/blobid9-b74f1c8835fc52b56f4c67a6b6562a36.png
+7. https://s3.oss.go.id/oss/cms/blobid3-dad33da34e82ecc632d243f73182d4ef.png
+8. https://s3.oss.go.id/oss/cms/blobid17-3b26058eb56efcbce680064f72be557f.png
+9. https://s3.oss.go.id/oss/cms/blobid20-12663d9f4bdf643555d06640bc3b965e.png
+10. https://s3.oss.go.id/oss/cms/blobid7-08cd2263288a666b00b93b3d86fdb861.png
+11. https://s3.oss.go.id/oss/cms/blobid5-e06a5fdb6a91dc0b423444f4ebb21dde.png
+12. https://s3.oss.go.id/oss/cms/blobid12-2f5b8fe63ce704a80a2bce566c1052c6.png
+13. https://s3.oss.go.id/oss/cms/blobid11-ede14b4e815e2bc103000b849700e93a.png
+14. https://s3.oss.go.id/oss/cms/blobid13-6c74455057f7e1c296859b2b6ffc2028.png
+15. https://s3.oss.go.id/oss/cms/blobid4-4f03ba51a76d40ef055042025d5fb6a6.png
+16. https://s3.oss.go.id/oss/cms/blobid2-9100596517667f02a593258badbafc39.png
+17. https://s3.oss.go.id/oss/cms/blobid1-20f37516c4dca7042868fcdf31824fdf.png
+18. https://s3.oss.go.id/oss/cms/blobid16-842e43a19401eea5cf471269ecac9919.png
+19. https://s3.oss.go.id/oss/cms/blobid10-113103bacc23fe2bf26af1ddc2943b7b.png
+20. https://s3.oss.go.id/oss/cms/blobid19-47a4e0238ad446d043649cecadf3662f.png
+21. https://s3.oss.go.id/oss/cms/blobid6-bcad7d4a424b1bdedd937cb4283fba8e.png

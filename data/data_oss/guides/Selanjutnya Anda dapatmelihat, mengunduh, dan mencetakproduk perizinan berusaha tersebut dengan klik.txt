@@ -1,0 +1,80 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut dengan kliktombol CETAK NIB.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144d9
+Scraped: 2025-10-20T15:41:34.167125
+Total Steps: 51
+Total Images: 16
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. Masukkanusernamedanpassword, lalu klik tombolMASUK
+5. 5. Klik MenuKantor Perwakilandan pilihPermohonan
+6. 6. LengkapiData Kantor Prinsipal (KPPA)
+7. 1.Apakah Anda sudah memiliki KPPA (SPIPISE) sebelumnya?
+8. 2.Data Kantor Prinsipalyang berisi:
+9. 7. LengkapiData Kantor Perwakilan di Indonesia
+10. 1.Nama Kepala Perwakilan
+11. 2.Kewarganegaraan Kepala Perwakilan
+12. 3.Alamat di Negara Asal
+13. 4.Alamat di Indonesia
+14. 5.Alamat Kantor Perwakilan
+15. 9.Nomor Telepon
+16. 8. LengkapiData Kegiatan Kantor Perwakilan di Indonesia
+17. 1.Kegiatan KPPA
+18. 2.Jumlah Tenaga Kerja Indonesia (Orang)
+19. 3.Jumlah Tenaga Kerja Asing (Orang)
+20. 9. LengkapiData AoA dan LoA
+21. 1.Tempat Dokumen diterbitkan
+22. 2.Tanggal Terbit
+23. 3.Unggah Dokumen
+24. 1.Nomor LoA
+25. 2.Tanggal LoA
+26. 3.Nama Penandatanganan LoA
+27. 4.Nama Pejabat yang melegalisir LoA
+28. 5.Masa Berlaku LoA (opsional)
+29. 6.Jabatan Pejabat yang melegalisir LoA
+30. 7.Tanggal Legalisir LoA
+31. 8.Unggah Dokumen
+32. 10. LengkapiData LoI dan LoR
+33. 1.Nomor LoI
+34. 2.Tanggal LoI
+35. 3.Nama Pejabat yang melegalisir LoI
+36. 4.Jabatan Pejabat yang melegalisir LoI
+37. 5.Unggah Dokumen
+38. 1.Nomor LoR
+39. 2.Tanggal LoR
+40. 3.Nama Penandatangan LoR
+41. 4.Jabatan Penandatangan LoR
+42. 11. LengkapiData LoS
+43. 1.Nomor LoS
+44. 2.Tanggal LoS
+45. 3.Nama Penandatangan LoS
+46. 4.Apakah LoS ini dibuat di Indonesia?
+47. 12. Pahami dan CentangPernyataan Mandiri
+48. 13. KonfirmasiDraf NIB
+49. 14.a Perizinan Berusaha (NIB) telah terbit - Sumber KPPA Lama (SPIPISE)
+50. 14.b Perizinan Berusaha (NIB) telah terbit - Sumber KPPA Baru
+51. 14.c Perizinan Berusaha (NIB) telah terbit - Contoh Cetakan NIB
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (16 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/4-(5)-9a67ca2a814ace4d098a62c322ceb274.png
+2. https://s3.oss.go.id/oss/cms/11-(4)-dd4de31ad5c15e6f67562cebc3564e2f.png
+3. https://s3.oss.go.id/oss/cms/12-(4)-af63242d587888ad08b1ee16733a98d2.png
+4. https://s3.oss.go.id/oss/cms/7-(5)-3269ecc1e8d37e6d88f35ee07a777f52.png
+5. https://s3.oss.go.id/oss/cms/1-(8)-820dec5c4080b91200deb621397a4849.png
+6. https://s3.oss.go.id/oss/cms/6-(8)-e09949791c297eeec02b575f0efb57a5.png
+7. https://s3.oss.go.id/oss/cms/8-(3)-c6ba3a6f51d2a5ede45bddec19c14e16.png
+8. https://s3.oss.go.id/oss/cms/13-(4)-4d20bbfd56cd2e1d455de2d4a5c58542.png
+9. https://s3.oss.go.id/oss/cms/14a-(2)-a8cacc9472f15f6ca74c25a358a8ca25.png
+10. https://s3.oss.go.id/oss/cms/1-portal-d2bd968fa011db24a52266131547125e.png
+11. https://s3.oss.go.id/oss/cms/1-portal-a375dcd7897f7238477c1a7d8536eff1.png
+12. https://s3.oss.go.id/oss/cms/14c-(1)-ebf1f415ac821993718188b9e54dc579.png
+13. https://s3.oss.go.id/oss/cms/10-(5)-556fc40adf1219bd79ccf101165fb73d.png
+14. https://s3.oss.go.id/oss/cms/9-(3)-189a6c94ae6cad5654cccaa0470187a0.png
+15. https://s3.oss.go.id/oss/cms/14b-(2)-c65462a55c0232cacd683b9b6423c78c.png
+16. https://s3.oss.go.id/oss/cms/Permohonan-Baru-KP-dan-BULN-8a98f78f4d184061ef6507a134b66f0f.png

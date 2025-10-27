@@ -1,0 +1,39 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Berhasil Masuk,Sistem akan menampilkanDashboard Useryang berarti Akun K/L/D sudah dapat digunakan setelah melakukan aktivasi 2FA
+Source: https://oss.go.id/panduan/6548aea13f50be2c8c9a0b66
+Scraped: 2025-10-20T15:38:25.392572
+Total Steps: 9
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3.DashboardUser K/L/D
+4. 4. PilihNama Useranda, lalu pilihUbah Profile
+5. 5. Ubah Data Profil
+6. 6.a Aktifkan Verifikasi 2 Langkah (melaluiEmail)
+7. 6.b Aktifkan Verifikasi 2 Langkah (melaluiWhatsapp)
+8. 7. Verifikasi 2 Langkah telahAktif
+9. 8. Setelah verifikasi 2 langkah berstatusAktifmaka setiap melakukan login pada akun K/L/D, akan diminta untuk mengisikode verifikasiyang terkirim melalui email atau whatsapp terdaftar
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image3-e59d8364a94de08b62068b7d222b7e67.webp
+2. https://s3.oss.go.id/oss/cms/image7-273b853168c733df1c019d839d4d7ccf.webp
+3. https://s3.oss.go.id/oss/cms/image2-14766f42cf6a7b53f0497458a906c2b0.webp
+4. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-09-at-12.24.38_ea5dafa6-c186214a34b08b37ffcef25e5a57b213.jpg
+5. https://s3.oss.go.id/oss/cms/image12-69ee6735fa59f45633e5bed07c1363da.webp
+6. https://s3.oss.go.id/oss/cms/image9-438717d48d3451b0d81c77ef70a498aa.webp
+7. https://s3.oss.go.id/oss/cms/image16-48bac7e6555e5b65cb77fab9fd1a29d6.webp
+8. https://s3.oss.go.id/oss/cms/image14-d5f55dc509fea9fcfaff82d73b85758f.webp
+9. https://s3.oss.go.id/oss/cms/image1-62b6db068a7d95b1cf9be3d4184daf9f.webp
+10. https://s3.oss.go.id/oss/cms/image6-0a7f0b246af48f37077ce1793b3affa4.webp
+11. https://s3.oss.go.id/oss/cms/image11-3c781046896767f0ccd927eb5bf2dac1.webp
+12. https://s3.oss.go.id/oss/cms/image1-92f3bcf489bbf25426cd9e7a718601c9.webp
+13. https://s3.oss.go.id/oss/cms/image13-b774563b6a24b8f7ecbc260e0f72743d.webp
+14. https://s3.oss.go.id/oss/cms/image15-ed595603b8240b75f44c451a37a7b786.webp
+15. https://s3.oss.go.id/oss/cms/image8-81b74b4521737c44e36a329dd6843288.webp
+16. https://s3.oss.go.id/oss/cms/image4-5037115e2d93fdf02c8beb88b7e237d0.webp
+17. https://s3.oss.go.id/oss/cms/image3-129753ca8a7c194627baf9d3f115063c.webp

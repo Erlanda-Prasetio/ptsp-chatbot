@@ -1,0 +1,81 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Pencabutan PB-UMKU (klikCETAKANPENCABUTAN PB-UMKU).
+Source: https://oss.go.id/panduan/65b245ee98f8907e5aa98922
+Scraped: 2025-10-20T15:23:19.913283
+Total Steps: 34
+Total Images: 34
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, klikMASUK.
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK.
+3. 3. Masuk ke menuPENCABUTANdan klikUSULAN PENCABUTAN PB-UMKU.
+4. 4. Setelah itu sistem akan menampilkan halaman Daftar Pelaku Usaha yang akan dilakukan Permohonan Usulan Pencabutan PB-UMKU. Andadapat menggunakan fitur Pencarian yang telah disediakanuntuk mencari Data Pelaku Usaha yang Anda inginkan. Setelah melakukan pencarian, klik tanda‘v’pada Data Pelaku Usaha yang Anda pilih dan klikPROSES.
+5. 5. PilihData Kegiatan Usahayang dimiliki Pelaku Usaha yang akan diusulkan Pencabutan PB-UMKU dengan mencentang pada kotak centang, lalu klikPROSES.
+6. 6. Setelah itu sistem akan menampilkan Formulir Usulan Pencabutan PB-UMKU. Silakan PeriksaData Pelaku Usahaterlebih dahulu.
+7. 7. Mohon untuk melengkapiData Pemohon Usulan Pencabutan. Pengisian data ini berdasarkan dengan identitas pemohon yang memberikan surat permohonan usulan pencabutan PB-UMKU.
+8. 8. Mohon untuk melengkapiData Pengisi Data Usulan Pencabutan. Data ini diisi dengan identitas Anda yang mencatatkan permohonan usulan Pencabutan PB-UMKU.
+9. 9. LengkapiData Riwayat Sanksi (apabila ada). Setelah melengkapi Data Riwayat Sanksi, klikTAMBAH SANKSIuntuk menyimpan data yang baru saja diisi pada tabel di bawah. Anda juga dapat menghapus Data Riwayat Sanksi yang sudah disimpan denganklik ikon‘Tong Sampah’ pada data yang Anda pilih. Pengisian Daftar Riwayat Sanksi inibersifat tidak mandatory atau tidak wajib diisidan hanya dilengkapi apabila kegiatan usaha yang Anda usulkan dikenakan sanksi sebelumnya.
+10. 10. Mohon lengkapiData Detail Aksi Pencabutan. Anda dapat memilih latar belakang pengenaan sanksi Pencabutan PB-UMKU dan menggunggah dokumen pendukung usulan Pencabutan PB-UMKU.
+11. 11. LengkapiData Aksi yang Dilakukan. Setelah melengkapi Data Aksi yang Dilakukan, klikTAMBAH AKSIuntuk menyimpan data yang baru saja diisi pada tabel di bawah. Anda juga dapat menghapus Data Aksi yang Dilakukan yang sudah disimpan denganklik ikon‘Tong Sampah’ pada data yang Anda pilih.
+12. 12. LengkapiData Aksi yang Dilakukan. Setelah melengkapi Data Aksi yang Dilakukan, klikTAMBAH AKSIuntuk menyimpan data yang baru saja diisi pada tabel di bawah. Anda juga dapat menghapus Data Aksi yang Dilakukan yang sudah disimpan denganklik ikon‘Tong Sampah’ pada data yang Anda pilih.
+13. 13. Pop-up konfirmasi akan muncul ketika Anda mengirim form permohonan usulan Pencabutan PB-UMKU. Jika Anda sudah yakin ingin mengajukan permohonan Pencabutan PB-UMKU, klik tombolYA.
+14. 14. Status Permohonan Usulan Pencabutan PB-UMKU telah‘Terkirim’dan akan diperiksa oleh verifikator terlebih dahulu sebelum diteruskan oleh Penyetuju. Mohon agar Anda dapat menunggu hasil verifikasi dan melakukan pengecekan secara berkala.
+15. 15. Apabila keperluan dokumen yang disampaikan belum lengkap atau belum sesuai dengan ketentuan maka verifikator akan mengembalikan permohonan. Status permohonan Anda akan menjadi“Perlu Perbaikan”. Klik ikon‘v’dan klikLIHAT DETAILuntuk memperbaiki form permohonan usulan Pencabutan PB-UMKU.
+16. 16. Lihat kolom catatan untuk mengetahui catatan perbaikan dari verifikator yang berwenang. Lengkapi/perbaiki dokumen pada formulir permohonan sesuai dengan catatan perbaikan.
+17. 17. Setelah permohonan/dokumen diperbaiki, klikcentangpada checkboxDISCLAIMERdan klikKIRIMuntuk mengirimkan perbaikan permohonan usulan Pencabutan PB-UMKU.
+18. 18. Jika verifikator menyetujui permohonan usulan Pencabutan PB-UMKU, status permohonan akan berubah menjadi“Disetujui oleh Verifikator”dan permohonan ini akan diteruskan ke Penyetuju untuk diproses lebih lanjut. Mohon agar Anda dapat menunggu hasil persetujuan dan melakukan pengecekan secara berkala.
+19. 19. Jika Penyetuju telah menyetujui permohonan usulan Pencabutan PB-UMKU, status permohonan akan berubah menjadi“Disetujui oleh Penyetuju”. Setelah disetujui oleh Penyetuju, tanggal Pencabutan juga akan tampil seperti gambar di bawah. Anda dapat klik ikon‘v’untuk menampilkan:
+20. 20. Berikut adalah tampilan cetakanPencabutan PB-UMKU.
+21. 3. Masuk ke menuPENCABUTANdan klikPELACAKAN USULAN.
+22. 4. Setelah itu sistem akan menampilkan halaman Daftar Kegiatan Usaha yang sedang diajukan Permohonan Usulan Pencabutan PB-UMKU. Andadapat menggunakan fitur Pencarian yang telah disediakanuntuk mencari Data Kegiatan Usaha yang akan Anda periksa. Setelah melakukan pencarian, klik tanda‘v’pada Data Pelaku Usaha yang Anda pilih dan klikLIHAT DETAIL. Anda juga dapat melihat draf cetakan Pencabutan PB-UMKU dengan mengklik tombolDRAF CETAKAN PENCABUTAN PB-UMKU.
+23. 5. Setelah itu, sistem akan menampilkan formulir Usulan Pencabutan PB-UMKU. Silakan PeriksaData Pelaku Usahaterlebih dahulu.
+24. 6. PeriksaData Detail Pemohon Usulan Pencabutan PB-UMKU.
+25. 7. PeriksaData Detail Pengisi Data Usulan Pencabutan PB-UMKU.
+26. 8. PeriksaData Riwayat Sanksisebelumnyajika ada.
+27. 9. PeriksaData Detail Aksi Pencabutan PB-UMKU.
+28. 10. PeriksaData Detail Aksi yang telah dilakukanoleh Pemohon.
+29. 11. Setelah memeriksa formulir Permohonan Usulan Pencabutan PB-UMKU dengan benar dan teliti,berikan hasil evaluasi dari pemeriksaan Permohonan Usulan Pencabutan PB-UMKUpada kolom keterangan. Apabila formulir permohonan belum benar atau lampiran dokumen belum lengkap, Anda dapat mengembalikan permohonan dengan klik tombolPERLU PERBAIKAN. Anda dapat klik tombolSETUJUI DOKUMENapabila permohonan sudah lengkap dan benar.
+30. 12. Jika Permohonan Usulan Pencabutan PB-UMKU masih memerlukan perbaikan, maka Status Permohonan akan menunjukkan“Perlu Perbaikan”seperti pada gambar di bawah ini. Mohon untuk menunggu hasil perbaikan yang akan dilakukan oleh Pengusul dan melakukan pengecekan secara berkala.
+31. 13. Jika Permohonan Usulan Pencabutan PB-UMKU sudah disetujui oleh verifikator, maka Status Permohonan akan menunjukkan“Disetujui oleh Verifikator”seperti pada gambar di bawah ini. Sistem akan meneruskan Permohonan Usulan Pencabutan PB UMKU yang telah disetujui verifikator untuk diperiksa dan disetujui oleh Penyetuju.
+32. 11. Anda juga dapat memeriksa hasil evaluasi atas Permohonan Usulan Pencabutan PB-UMKU. Setelah memeriksa formulir Permohonan Usulan Pencabutan PB-UMKU dengan benar dan teliti, silakan klik tombolSETUJUI USULANuntuk menyetujui permohonan.
+33. 12. Jika Permohonan Usulan Pencabutan PB-UMKU telah disetujui maka Status Permohonan akan menunjukkan“Disetujui oleh Penyetuju”seperti yang terlihat pada gambar di bawah ini. Ketika usulan disetujui oleh Penyetuju,Tanggal Pencabutan dan Cetakan Pencabutan PB-UMKU terbit.Anda dapat klik ikon‘v’untuk menampilkan:
+34. 13. Berikut Adalah Tampilan CetakanPencabutan PB-UMKU.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (34 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/7-714e42c037dfaa549761c6db838768f9.webp
+2. https://s3.oss.go.id/oss/cms/13-dd7981f44566c459b7e1a2fcf8d424e4.webp
+3. https://s3.oss.go.id/oss/cms/0-edef6961b7edb60757112c6a26066d35.webp
+4. https://s3.oss.go.id/oss/cms/11-c9ecfccc0deff40900ae359ab458c49b.webp
+5. https://s3.oss.go.id/oss/cms/10-6d00e2ab9b886a7902b98ad399445e2a.webp
+6. https://s3.oss.go.id/oss/cms/8-148af9b3af5f783b054dd633ae437a5b.webp
+7. https://s3.oss.go.id/oss/cms/5-693710a99528df0b7c63cd8fbd6d92ff.webp
+8. https://s3.oss.go.id/oss/cms/0-1-7de733a5165e3538880efb56a9ec4037.webp
+9. https://s3.oss.go.id/oss/cms/12---ID-64ce2390c8bee3c184a2f5c96eabab6b.webp
+10. https://s3.oss.go.id/oss/cms/11-b32aa428e252d006e9a4c7c66b61ad04.webp
+11. https://s3.oss.go.id/oss/cms/23-cc71f588175d77045c9378996f9f589a.webp
+12. https://s3.oss.go.id/oss/cms/6-60552d3d6d9ab839b539c78bc1b2c1c7.webp
+13. https://s3.oss.go.id/oss/cms/13-544d685f1f0bc7441c0df0aaa2c216ef.webp
+14. https://s3.oss.go.id/oss/cms/1-0ae9a9fd564b99f0091e215c132e2893.webp
+15. https://s3.oss.go.id/oss/cms/9-5ff42773b6bcdfc5010b4fa928cadcfd.webp
+16. https://s3.oss.go.id/oss/cms/7-f2d970a188b8e39082375d3d07f076ba.webp
+17. https://s3.oss.go.id/oss/cms/5-36ff4a7cca3250fa7c2909672d3ed226.webp
+18. https://s3.oss.go.id/oss/cms/8-69580dfc51113db67c36dad1ebd6b5c2.webp
+19. https://s3.oss.go.id/oss/cms/9-db0ade61caeca2cad9401bddbd06770e.webp
+20. https://s3.oss.go.id/oss/cms/Picture1-39e5284683f5d3a3dd3687de03b2b06d.webp
+21. https://s3.oss.go.id/oss/cms/22-1f5469be0f3c230b4203f1dcd2555fa7.webp
+22. https://s3.oss.go.id/oss/cms/4-8e01365a4d24c8170a6dde18c483b2e9.webp
+23. https://s3.oss.go.id/oss/cms/20---2-305b261019ec4bcc27193030b7d03742.webp
+24. https://s3.oss.go.id/oss/cms/16-adf7c12737a41a6ab4fa0ccc127fc11c.webp
+25. https://s3.oss.go.id/oss/cms/0---2-796d26a0c35e4cb753dc7ca05839752d.webp
+26. https://s3.oss.go.id/oss/cms/15-5b40e4b932bd7e3236bba81163ae6041.webp
+27. https://s3.oss.go.id/oss/cms/Penyetuju-ac27fcca944ac06b2bc990ee290d9979.webp
+28. https://s3.oss.go.id/oss/cms/2-200d873d7f7a99865329a1734dbae8ee.webp
+29. https://s3.oss.go.id/oss/cms/3-873456834cf57ebc8cd80fe0f0053e76.webp
+30. https://s3.oss.go.id/oss/cms/10-6952c82d17d8c5ede0fb02aa3dc51120.webp
+31. https://s3.oss.go.id/oss/cms/4-93f192cce233e81fda5a9eef425d0fd2.webp
+32. https://s3.oss.go.id/oss/cms/14-2-4e3080254217a7344a87f5adfb05f116.webp
+33. https://s3.oss.go.id/oss/cms/3-8f97d066fafc7af29bac0245f5325c5d.webp
+34. https://s3.oss.go.id/oss/cms/17-f6e7c7cfc987b4036299360271854bc8.webp

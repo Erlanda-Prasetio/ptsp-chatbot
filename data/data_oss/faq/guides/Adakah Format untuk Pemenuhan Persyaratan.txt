@@ -1,0 +1,13 @@
+================================================================================
+Title: Adakah Format untuk Pemenuhan Persyaratan?
+Source: https://oss.go.id/id/faq/kategori?id=68e486d27795640efd3eefde
+Scraped: 2025-10-21T15:17:25.521155
+================================================================================
+
+QUESTION:
+Adakah Format untuk Pemenuhan Persyaratan?
+
+ANSWER:
+Untuk mengetahui format pemenuhan persyaratan, Bapak/Ibu dapat berkoordinasi dengan kementerian, lembaga, atau pemerintah daerah yang memiliki kewenangan untuk melakukan verifikasi. Informasi mengenai pihak yang berwenang dapat dilihat melalui menu Perizinan Berusaha >> Kelola Usaha > Pelacakan Perizinan Berusaha di akun OSS Bapak/Ibu.
+
+================================================================================

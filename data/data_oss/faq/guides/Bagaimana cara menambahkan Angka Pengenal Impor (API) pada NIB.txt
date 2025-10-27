@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara menambahkan Angka Pengenal Impor (API) pada NIB?
+Source: https://oss.go.id/id/faq/kategori?id=68e4860d7795640efd3eefa4
+Scraped: 2025-10-21T15:19:27.213020
+================================================================================
+
+QUESTION:
+Bagaimana cara menambahkan Angka Pengenal Impor (API) pada NIB?
+
+ANSWER:
+Untuk melakukan penambahan atau perubahan Angka Pengenal Importir (API) dapat dilakukan dengan cara berikut: 1. Pilih menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Perubahan dan pilih Perubahan Data Usaha 2. Pada bagian Aktivitas Impor, klik kolom Jenis Angka Pengenal Importir (API). Pilih sesuai jenis API yang diinginkan 3. Centang disclaimer kemudian klik tombol Selanjutnya Sebagai informasi: Perubahan jenis API hanya dapat dilakukan pada akun Badan Usaha. Akun perorangan hanya dapat mengajukan jenis API-P sehingga tidak dapat mengubah jenis API. Perubahan jenis API hanya dapat dilakukan dari API-U ke API-P.
+
+================================================================================

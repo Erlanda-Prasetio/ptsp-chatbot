@@ -1,0 +1,53 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku usaha dapat memeriksa melalui Menu Permohonan Baru, lalu pilih Pratinjau Data Badan Usaha pada Formulir Badan Usaha, kemudian periksa pada bagian Data Pengurus dan Pemegang Saham.
+Source: https://oss.go.id/panduan/66ea7a96e09d998f717cb9f0
+Scraped: 2025-10-20T15:27:59.703550
+Total Steps: 10
+Total Images: 30
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Pilih Menu Perizinan Berusaha, selanjutnya pilih Permohonan Baru
+5. 5. Ubah Data Formulir Badan Usaha
+6. 6. Pelaku usaha sudah bisa melanjutkan untuk lengkapi Detail Usaha
+7. 7. Pilih Menu Perizinan Berusaha, pilih Perubahan, lalu pilih Perubahan Badan Usaha
+8. 8. Lengkapi Form Konfirmasi Perubahan Data Badan Usaha
+9. 9. Lengkapi Form Perubahan
+10. 10. Data Badan Usaha berhasil diubah
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (30 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/Picture16-ac84fb096d7ddad1a50558d3a6627818.png
+2. https://s3-stg.oss.go.id/oss/cms/Picture19-b80dd7b7e7b00549f59f5794b5e31176.png
+3. https://s3-stg.oss.go.id/oss/cms/Picture24-ea2a37eb39bc0163644a5fbea5953f58.png
+4. https://s3.oss.go.id/oss/cms/7-958dacbbc2d784b9fc4b17d63b2cd3b6.png
+5. https://s3.oss.go.id/oss/cms/9-F-9d12dea7242a302c6401062c6c18c761.png
+6. https://s3.oss.go.id/oss/cms/9-B-2ec41978564f41fa862ab7f550cf0ed5.png
+7. https://s3.oss.go.id/oss/cms/9-H-d62228ee1143a4c77258baa2b2651f97.png
+8. https://s3.oss.go.id/oss/cms/4-1dba1598d85ae3471d5544bf07e21a89.png
+9. https://s3.oss.go.id/oss/cms/9-E-bd6d9ff85bc7ddca225030dd14fded8b.png
+10. https://s3.oss.go.id/oss/cms/5-D.-eebc1de6f942bd49260da75c8bc64b52.png
+11. https://s3-stg.oss.go.id/oss/cms/Picture12-13199ae1fd431fe15d1fc0c427b7ea1d.png
+12. https://s3.oss.go.id/oss/cms/2-e084078b3e65bacb04d828d9e9c4d7db.png
+13. https://s3.oss.go.id/oss/cms/6---Menu-Perubahan-87c485f36f1e1ec5cdbc542cbe284689.png
+14. https://s3-stg.oss.go.id/oss/cms/Picture14-4d32dd6e2d4dcfa465676d76b0c162f5.png
+15. https://s3.oss.go.id/oss/cms/9-I-ccf2c34915fd737a1edaf871c89f4372.png
+16. https://s3.oss.go.id/oss/cms/5-G-ffc2e634b3c232f8fc0d935558696b46.png
+17. https://s3.oss.go.id/oss/cms/8-5b7788d7c42105ca36f177305374ae57.png
+18. https://s3.oss.go.id/oss/cms/9-A-bfd6bc50d6a1d815efe476ff37d6735c.png
+19. https://s3.oss.go.id/oss/cms/5-E-f5785d92ac9683913e034d62669431a0.png
+20. https://s3.oss.go.id/oss/cms/9-C-7fd709d7011c2402beb458781dae67ce.png
+21. https://s3.oss.go.id/oss/cms/5-F-85513c0048150471dd846046652dbed4.png
+22. https://s3.oss.go.id/oss/cms/1-fcb24c78de2dd2a4a7be5cecb0e40af8.png
+23. https://s3.oss.go.id/oss/cms/9-D-3d9a6938d26e066f6b55d7db0cffdd38.png
+24. https://s3.oss.go.id/oss/cms/5-A-862bedc6d76e24b903ee1979f30bc83c.png
+25. https://s3.oss.go.id/oss/cms/5-B-cf16650aaf94026b52e134485332d6ed.png
+26. https://s3.oss.go.id/oss/cms/6-5b850dfb7408f298b539117c3a562409.png
+27. https://s3.oss.go.id/oss/cms/3-7f34108783721b6c09f9bf11c1952906.png
+28. https://s3.oss.go.id/oss/cms/9-G-9b26582051c6047500752e0fb5691426.png
+29. https://s3-stg.oss.go.id/oss/cms/Picture20-6f95035a061283f1944e433150319a3b.png
+30. https://s3.oss.go.id/oss/cms/5-C-6d084ea8c53d8f26f2a0e92e7fc85c96.png

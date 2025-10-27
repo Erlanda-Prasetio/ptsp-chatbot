@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melakukan migrasi kegiatan data usaha?
+Source: https://oss.go.id/id/faq/kategori?id=68e48603711547977a0df1b7
+Scraped: 2025-10-21T15:19:43.724952
+================================================================================
+
+QUESTION:
+Bagaimana cara melakukan migrasi kegiatan data usaha?
+
+ANSWER:
+Bapak/Ibu dapat melakukan migrasi data usaha yang sudah dimiliki pada OSS 1.1 melalui menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Pengembangan. Lalu pilih data usaha yang dimiliki pada OSS 1.1, kemudian tambah bidang usaha dan lengkapi data pelaku usaha atau data badan usaha. Lanjutkan pengisian data usaha hingga selesai. Panduan lebih lanjut mengenai migrasi data usaha dapat dilihat pada oss.go.id, kemudian pilih menu Panduan dan lakukan pencarian "Panduan Migrasi OSS 1.1 (UMK/Non UMK). Panduan Migrasi OSS 1.1 (UMK) https://oss.go.id/panduan/635970086345c7d71a814497 Panduan Migrasi OSS 1.1 (NON UMK) https://oss.go.id/panduan/635970086345c7d71a8144b6
+
+================================================================================

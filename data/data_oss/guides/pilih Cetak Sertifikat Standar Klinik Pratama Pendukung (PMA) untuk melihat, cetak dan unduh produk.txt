@@ -1,0 +1,67 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: pilih Cetak Sertifikat Standar Klinik Pratama Pendukung (PMA) untuk melihat, cetak dan unduh produk
+Source: https://oss.go.id/panduan/640ebf30e34906bcdee041bc
+Scraped: 2025-10-20T15:30:51.469397
+Total Steps: 25
+Total Images: 29
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuPerizinan Berusahadan pilihPengembangan
+5. 5. KlikTambah Bidang Usaha
+6. 6. Selanjutnya, klikPilih Bidang Usahauntuk mengisi data Bidang Usaha
+7. 7. Lengkapi Data Bidang Usaha, lalu klik tombolSIMPAN
+8. 8. Lengkapi Formulir Detail Usaha sesuai dengan keberadaan lokasi kegiatan usaha Anda
+9. 9. LengkapiData Investasi untuk Bidang Usaha
+10. 10. LengkapiKegiatan UsahadanTenaga Kerja
+11. 11.Daftar Produk/Jasa
+12. 12. Lengkapi FormulirTambah Produk/Jasa
+13. 13. Periksa Kembali Daftar Produk/Jasa yang berhasil ditambahkan
+14. 14. Pemberitahuan Pengisian Proyek
+15. 15. Periksa Kembali keseluruhan Formulir Perekaman Data
+16. 16. Daftar Data Usaha
+17. 17. PeriksaDaftar Kegiatan Usahasecara berkala
+18. 18. LengkapiDokumen Persetujuan Lingkungan
+19. 19. Pahami dan CentangPernyataan Mandiri
+20. 20. PeriksaDraf Perizinan Berusaha (NIB)
+21. 21. Lengkapi Pemenuhan Persyaratan
+22. 22. Proses Pemenuhan Standar Usaha
+23. 23. Lengkapi Formulir Pemenuhan
+24. 24. Periksa Status Pemenuhan secara berkala
+25. 25. Pelaku Usaha dapat mencetak / Unduh Sertifikat Standar Klinik Pratama Pendukung (PMA)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (29 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid75-ddd56484f2e1dabf9a9eef5f967d70a0.png
+2. https://s3.oss.go.id/oss/cms/blobid70-68277264ea0b7d2e3d829ac38309477b.png
+3. https://s3.oss.go.id/oss/cms/blobid83-545878cf4d212663142382dee7df2da6.png
+4. https://s3.oss.go.id/oss/cms/blobid64-0c01265027f3537481e15cca28ff8bda.png
+5. https://s3.oss.go.id/oss/cms/blobid65-ba5f923f14a5cf25f399952ff97f8e49.png
+6. https://s3.oss.go.id/oss/cms/blobid82-e000147f84549224cd396bf301a53c40.png
+7. https://s3.oss.go.id/oss/cms/blobid60-38c4e8e6d9136e3de5b5674e45bf8a3f.png
+8. https://s3.oss.go.id/oss/cms/blobid63-0ad3c3f5fe93afd5758e32b8ee751929.png
+9. https://s3.oss.go.id/oss/cms/blobid77-4acfa55e7c138de32364bee9f5d8b812.png
+10. https://s3.oss.go.id/oss/cms/blobid61-be1c569bc10818b49b23ca75866eadd3.png
+11. https://s3.oss.go.id/oss/cms/blobid81-d0b1f98c4d77766e6618b2b784560274.png
+12. https://s3.oss.go.id/oss/cms/blobid62-a952d2d2540196ccdf88b9b4667a835b.png
+13. https://s3.oss.go.id/oss/cms/blobid73-e75af1d3b83b4db03ab7c9bd55630a50.png
+14. https://s3.oss.go.id/oss/cms/blobid84-b83c2882f7ef8f5038f80408ac4b7215.png
+15. https://s3.oss.go.id/oss/cms/blobid71-c8914ed4888e690e2547c41e7b92166c.png
+16. https://s3.oss.go.id/oss/cms/3-menu-PB---pengembangan-f228348a70057e1d79f143ae099a8190.png
+17. https://s3.oss.go.id/oss/cms/blobid69-822575a140387e46927ea1dd05f648cd.png
+18. https://s3.oss.go.id/oss/cms/blobid76-29fc228aea1de7da61955d59f016d0b3.png
+19. https://s3.oss.go.id/oss/cms/blobid72-28d2e5d780ed8d32abb44360ad676b3a.png
+20. https://s3.oss.go.id/oss/cms/blobid67-69e4e8bdab7c54eecc3b6dbe15a47b8c.png
+21. https://s3.oss.go.id/oss/cms/blobid78-6643b9a2dc1cff11828c6c6e498fe488.png
+22. https://s3.oss.go.id/oss/cms/blobid80-08ef7ff67753c47cf1222d4a7b39f64c.png
+23. https://s3.oss.go.id/oss/cms/blobid79-4d8c57c250ac37be386148ab976b4faa.png
+24. https://s3.oss.go.id/oss/cms/blobid68-b1c47420837136deb16a9bd5a3b5d822.png
+25. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-407428edfe7c686de0e0c961981794df.png
+26. https://s3.oss.go.id/oss/cms/blobid57-bef2540ff8397bee8cb60fb6ec37ce07.png
+27. https://s3.oss.go.id/oss/cms/1-portal-masuk-f4b86ceba36dd8180fdc3856659d0d29.png
+28. https://s3.oss.go.id/oss/cms/blobid74-720596af324239ae05f0e5a8852c5de1.png
+29. https://s3.oss.go.id/oss/cms/blobid66-90557c5af5309e6bbc65f5da28232d00.png

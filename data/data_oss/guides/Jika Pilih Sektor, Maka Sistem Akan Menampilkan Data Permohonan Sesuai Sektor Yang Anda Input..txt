@@ -1,0 +1,41 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Jika Pilih Sektor, Maka Sistem Akan Menampilkan Data Permohonan Sesuai Sektor Yang Anda Input.
+Source: https://oss.go.id/panduan/64d1c44e5d12499c3b9a82df
+Scraped: 2025-10-20T15:34:06.827956
+Total Steps: 12
+Total Images: 16
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardVerifikator / Persetujuan
+4. 4. Pilih Menu Tembusan
+5. 5.A Pilih KolomCariUntuk Memberikan Filter Data Yang Ingin Dilihat
+6. 6.A Tampilan Daftar Tembusan Sesuai Filter
+7. 5.B Pilih KolomCariUntuk Memberikan Filter Data Yang Ingin Dilihat
+8. 6.B Tampilan Daftar Tembusan Sesuai Filter
+9. 5.C Pilih KolomCariUntuk Memberikan Filter Data Yang Ingin Dilihat
+10. 6.C Tampilan Daftar Tembusan Sesuai Filter
+11. 5.D Pilih KolomCariUntuk Memberikan Filter Data Yang Ingin Dilihat
+12. 6.D Tampilan Daftar Tembusan Sesuai Filter
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (16 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture7-db5797a65b4fe7cba1fc74aa50c0593c.png
+2. https://s3.oss.go.id/oss/cms/Picture12-PTSP-OPD-91129c2923b9399bc5a5eb2ddc3cd463.png
+3. https://s3.oss.go.id/oss/cms/2-dashboard-verif-approv-bde40e372ec6053464c47d52480055dc.png
+4. https://s3.oss.go.id/oss/cms/Picture5-PTSP-OPD-cc73db987ef1a398e614c73abd065c99.png
+5. https://s3.oss.go.id/oss/cms/Picture2-427d002621e71b612e3cff3b4a987cf9.png
+6. https://s3.oss.go.id/oss/cms/Picture11-5bf0e69a680f08d8c478e27261006882.png
+7. https://s3.oss.go.id/oss/cms/Picture14-37a6373f6c97d8202787870e3d3498a6.png
+8. https://s3.oss.go.id/oss/cms/Picture15-PTSP-Prov-Izin-c356dad5df3b43c78dc855872233697b.png
+9. https://s3.oss.go.id/oss/cms/Picture9-PTSP-Izin-b10cf0f3825df74a14a359e1e9e6569c.png
+10. https://s3.oss.go.id/oss/cms/Picture10-d262e11e8aee429e1f7e74e0cd8a9c61.png
+11. https://s3.oss.go.id/oss/cms/Picture16-7243d786d79eb9b20f27f1cd4a4d38c9.png
+12. https://s3.oss.go.id/oss/cms/Picture6-0af698c5bb273623ceafcfc7600378f0.png
+13. https://s3.oss.go.id/oss/cms/Picture4-b2925ee3c63b684e975e66ec62511a69.png
+14. https://s3.oss.go.id/oss/cms/Picture13-84aba53e98c21d21446d139a04ba6cae.png
+15. https://s3.oss.go.id/oss/cms/portal-masuk-9066e5a1d3477140c122ca714b6c1f25.jpg
+16. https://s3.oss.go.id/oss/cms/Picture17-135f0eb62227af4ee63495d11edc3772.png

@@ -1,0 +1,77 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pencabutan Likuidasi Non RBA Berbasis Risiko Bagi Pelaku Usaha Dengan NIB OSS 1.0/OSS 1.1 (UMK)
+Source: https://oss.go.id/panduan/64915644d033753dd77d8b20
+Scraped: 2025-10-20T15:39:24.432718
+Total Steps: 27
+Total Images: 37
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, Lalu KlikMASUK
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK.
+3. 3. Setelah Anda Melakukan Login, Sistem Akan Menampilkan Halaman Penggantian Hak Akses Dari OSS 1.1 Ke OSS Berbasis Risiko. Pilih NIB Yang Akan Dilakukan Pencabutan Likuidasi Dan Klik TombolAjukan Pembubaran/Likuidasi.
+4. 4. Lengkapi Data Usaha Pada Formulir Pengisian Penggantian Hak Akses OSS.
+5. 5. Selanjutnya, lengkapiData Penanggung Jawab/Kuasa.Jabatan pada form ini akan terisi secara otomatis sesuai dengan jenis badan usaha dari Pelaku Usaha. Sementara itu, pengisian pada formulir ini akan dipisah menjadi dua bagian berdasarkan dengan Kewarganegaraan Penanggung Jawab, yang diantara lain adalah jika Penanggung Jawab berasalWarga Negara Indonesia (WNI)danWarga Negara Asing (WNA). Pastikan Anda memilih salah satu dari asal Warga Negara Penanggung Jawab.
+6. 6. Setelah Anda Melengkapi Formulir Isian Penggantian Hak Akses, Baca Dan Pahami Pernyataan Dengan Teliti, Lalu Berikan Tanda Centang Pada Kotak Centang.KlikPROSESUntuk Memproses Data Penggantian Hak Akses.
+7. 7. Setelah Itu, Akan Muncul Notifikasi Pemberitahuan Bahwa Anda Telah Berhasil Melakukan Penggantian Hak Akses
+8. 1. Pastikan Anda Memiliki Hak Akses OSS Terbaru Setelah Melakukan Penggantian Hak Akses.Silakan Cek Email Anda Untuk Mengetahui Username Dan Password Hak Akses Terbaru.
+9. 2. KunjungiHttps://Oss.Go.Id/, Lalu KlikMASUK.
+10. 3. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK.
+11. 4. Masuk Ke MenuPERIZINAN BERUSAHA, Lalu KlikLIKUIDASI.
+12. 5. Sistem Akan Melakukan Pengecekan Apakah NPWP Anda Valid Atau Tidak. Setelah NPWP Dinyatakan Valid, KlikPROSESUntuk Melanjutkan Permohonan. Apabila NPWP Dinyatakan Tidak Valid, Silakan MenghubungiKantor Pelayanan Pajak Terdekat Atau Kring Pajak 1500200.
+13. 6. KlikPROSES PERMOHONANUntuk Memproses Permohonan Pencabutan Likuidasi.
+14. 7. PeriksaData Pelaku UsahaDan Pastikan Data Yang Ditampilkan Oleh Sistem Sudah Benar.
+15. 8. LengkapiData Akta PembubaranSesuai Dengan Jenis Pemohon Likuidasi (Likuidator, Kurator, Atau Tim Penyelesai)
+16. 9. PeriksaData Penanggung Jawab, Pastikan Data Yang Ditampilkan Oleh Sistem Sudah Benar. Jika Kolom Pengisian Data Tidak Lengkap, Harap Lengkapi Sesuai Dengan Jabatan Penanggung Jawab.
+17. 10. PeriksaData Proyek. Data Proyek Pada Formulir Permohonan Akan Muncul Berdasarkan Kewenangan K/L/D Per Masing-Masing Proyek. Klik PadaTAB DATA PENANAMAN MODAL RISIKOAtau Klik Ikon“V”Untuk Menampilkan Data Kegiatan Usaha.Jika Sumber Data Kegiatan Usaha Anda Adalah SPIPISE,Anda Diwajibkan Melengkapi Pengisian Data Perizinan Berusaha Yang Terbit Sebelum Sistem OSS. Klik Ikon“V”Pada Kegiatan Usaha SPIPISE Untuk Menampilkan Form Pengisian Tersebut, Lalu KlikSUBMITSetelah Melakukan Pengisian.
+18. 11. Baca Dan Pahami Pernyataan Dengan Teliti. Untuk Mengirim Permohonan, Centang KotakDISCLAIMER, KlikSAYA SUDAH MEMBACA DAN MENYETUJUI, Dan KlikKIRIM PERMOHONANJika Anda Ingin Mengirimkan Permohonan. Akan Tetapi, Jika Anda Ingin Menyimpan Sebagai Draf, Anda Dapat Klik TombolSIMPAN SEBAGAI DRAF.
+19. 12. Setelah Anda Mengirim Permohonan Pencabutan Likuidasi, Akan Ada Notifikasi Konfirmasi Untuk Melakukan Pencabutan Likuidasi. KlikYAUntuk Melanjutkan Proses Permohonan Pencabutan Likuidasi.
+20. 13. Lalu, Akan Muncul Notifikasi Penerimaan Permohonan Pencabutan Likuidasi. KlikOKUntuk Menyelesaikan Proses Permohonan Pencabutan Likuidasi. Selanjutnya, Sistem Secara Otomatis Akan Menampilkan Halaman Tracking Permohonan Pencabutan Likuidasi.
+21. 14. Setelah Menyelesaikan Permohonan Pencabutan Likuidasi Maka Status Permohonan Akan Menunjukkan“Terkirim”Dengan Mengklik Tautan“Lihat Detail”Pada Kolom Status Permohonan. Koordinator Akan Melakukan Verifikasi Atas Permohonan Pencabutan Likuidasi.
+22. 15. Apabila Dokumen Yang Disampaikan Belum Lengkap Atau Belum Sesuai Dengan Ketentuan Maka Verifikator Akan Mengembalikan Permohonan. Status Permohonan Anda Akan Menjadi“Perlu Perbaikan”, Seperti Contoh Di Bawah Ini:
+23. 16. Lihat Daftar Permohonan Pencabutan Likuidasi Per Kewenangan, Kemudian Identifikasi Kolom Status Permohonan“Perlu Perbaikan”Dan Klik Ikon“V”Pada Baris Permohonan Pencabutan Likuidasi Dengan Status “Perlu Perbaikan”. Lalu, KlikLIHAT DETAILKemudian Sistem Akan Menampilkan Halaman Permohonan Likuidasi.
+24. 17. Lihat Kolom Catatan Untuk Mengetahui Catatan Perbaikan Dari Verifikator K/L/D. Lengkapi/Perbaiki Dokumen Pada Formulir Permohonan Sesuai Dengan Catatan Perbaikan Dan Berikan Tanggapan Setelah Anda Melakukan Perbaikan.
+25. 18. Setelah Permohonan/Dokumen Diperbaiki, KlikSAYA SUDAH MEMBACA DAN MENYETUJUIDan KlikKIRIM PERMOHONANUntuk Mengirimkan Perbaikan Permohonan Pencabutan Likuidasi.
+26. 19. Jika K/L/D Menyetujui Pencabutan Likuidasi, Status Permohonan Akan Berubah Menjadi“Disetujui” Contoh Seperti Gambar Dibawah. Klik Ikon “V” Untuk Menampilkan:
+27. 20. Setelah Permohonan Pencabutan Likuidasi Disetujui,Cetakan Pencabutan Likuidasi Pun Akan Terbit. Pencabutan Likuidasi Untuk Kegiatan Usaha Tingkat Risiko Rendah Hanya Dilakukan Dengan Pemutakhiran NIB. Surat Pencabutan Sertifikat Standar Tercetak Untuk Kegiatan Usaha Tingkat Risiko Menengah Rendah, Tingkat Risiko Menengah Tinggi, Dan Tingkat Risiko Tinggi Yang Memiliki Sertifikat Standar Terverifikasi. Surat Pencabutan Izin Tercetak Untuk Kegiatan Usaha Tingkat Risiko Tinggi Terverifikasi. Berikut Dibawah Ini Adalah Tampilan Dari Surat Pernyataan Likuidasi Dan Cetakan Surat Pencabutan Likuidasi Yang Akan Didapatkan Setelah Permohonan Pencabutan Disetujui:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (37 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/0-3356a6b3063bfed8449cb9aa330086ad.png
+2. https://s3.oss.go.id/oss/cms/9-(1)-00a64e6f04876226ebc59cfa1fb6de16.png
+3. https://s3.oss.go.id/oss/cms/13-(3)-9ad4a630f463761e8ef8e863aeec6b4f.png
+4. https://s3.oss.go.id/oss/cms/14-1-0fad8286d7e7240ee89a4d85a817392c.png
+5. https://s3.oss.go.id/oss/cms/8---Likuidator-8c455368b36eaa982a6fa504ea37b579.png
+6. https://s3.oss.go.id/oss/cms/17-(1)-c9ba33e6628a1569ae6378c627e03b39.png
+7. https://s3.oss.go.id/oss/cms/3-(3)-3426ca9447543f67656ecac166e1e75b.png
+8. https://s3.oss.go.id/oss/cms/Pencabutan-Likuidasi-1.1-ddf6b1bd8c10080f523e3b4754331156.png
+9. https://s3.oss.go.id/oss/cms/19-1-cc354f6acdbd1ed59055b2155347db94.png
+10. https://s3.oss.go.id/oss/cms/19-2-f24fab8b9fd05da578b148eb7a21d80d.png
+11. https://s3.oss.go.id/oss/cms/1-portal-masuk-3ff6474c227ebdb4783a9a0e90a32519.png
+12. https://s3.oss.go.id/oss/cms/5-ID-a23b690b2c1d2aa2f0698db7a3554204.png
+13. https://s3.oss.go.id/oss/cms/15-2-47c478b5e5d00952c7608ec547582332.png
+14. https://s3.oss.go.id/oss/cms/6-(2)-3c63fad5fccf3fdccab30d3db0e218c3.png
+15. https://s3.oss.go.id/oss/cms/14-2-6b9a8516a0fe8c01d01117e35bd30285.png
+16. https://s3.oss.go.id/oss/cms/7-(2)-145bdabc9079d67b260437122c8c32a0.png
+17. https://s3.oss.go.id/oss/cms/20---Pencabutan-NIB-cd83526b6f1f5c03a440b2377783181e.png
+18. https://s3.oss.go.id/oss/cms/8---Tim-Penyelesai-288993e73b83b89641fc25ef7546b3a8.png
+19. https://s3.oss.go.id/oss/cms/8---Kurator-5e6c57e1949a78130afb9ad1a0f91e1a.png
+20. https://s3.oss.go.id/oss/cms/11-(ID)-944886ff837f3c5e19c6a091fb48675e.png
+21. https://s3.oss.go.id/oss/cms/16-(2)-78ae036b6b6394cba0296853f209679f.png
+22. https://s3.oss.go.id/oss/cms/12-(3)-544d9d738932e77ab0343640169869ae.png
+23. https://s3.oss.go.id/oss/cms/1-(3)-9671947d7e1638ccba9685f21846ab32.png
+24. https://s3.oss.go.id/oss/cms/10-(3)-571196f020f5bfd839669cfbda9df6f4.png
+25. https://s3.oss.go.id/oss/cms/20---Pencabutan-Izin-Usaha---1-b6fdf1869561476f4a61bcefae6fe40c.png
+26. https://s3.oss.go.id/oss/cms/5-(2)-7a105bfa757729764f93f0396d193c62.png
+27. https://s3.oss.go.id/oss/cms/20---Pencabutan-Izin-Usaha---2-e65aa04405e5e131d8d585972a7e9c7d.png
+28. https://s3.oss.go.id/oss/cms/18-(1)-d6dfe5676ff19f3535a83c39daca7b68.png
+29. https://s3.oss.go.id/oss/cms/20---Surat-Pernyataan-58831b3a73237a4bf14e0a12edae4104.png
+30. https://s3.oss.go.id/oss/cms/1-portal-masuk-de411cd8bc0c8e34206a27f9822d205f.png
+31. https://s3.oss.go.id/oss/cms/0-(1)-69f8a8b0fd289136bf883f9dba039396.png
+32. https://s3.oss.go.id/oss/cms/15-1-e5d76ca42569b38aff137f46ccd9b050.png
+33. https://s3.oss.go.id/oss/cms/6-(3)-5fcabb26d0f21105255bd1566e6df126.png
+34. https://s3.oss.go.id/oss/cms/3-(3)-ba21387a6e6b3c6506e32a7addb49954.png
+35. https://s3.oss.go.id/oss/cms/3-(4)-9ad0c6d4aab7ff37abe44f17c9725bc2.png
+36. https://s3.oss.go.id/oss/cms/7-(3)-b93fae3244dbce3aaed9488157fa14bf.png
+37. https://s3.oss.go.id/oss/cms/4-(3)-01412732feb6d6bb4f48a816ec5ceac2.png

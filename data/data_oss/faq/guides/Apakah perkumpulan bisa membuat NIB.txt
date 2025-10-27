@@ -1,0 +1,13 @@
+================================================================================
+Title: Apakah perkumpulan bisa membuat NIB?
+Source: https://oss.go.id/id/faq/kategori?id=68e4852c711547977a0df171
+Scraped: 2025-10-21T15:21:31.356170
+================================================================================
+
+QUESTION:
+Apakah perkumpulan bisa membuat NIB?
+
+ANSWER:
+Badan usaha perkumpulan dapat mendaftarkan akun OSS dan menerbitkan NIB. Silakan melakukan pendaftaran dengan memilih jenis badan usaha Persekutuan dan Perkumpulan. Panduan pendaftaran dapat dilihat melalui tautan berikut: Panduan Pendaftaran Hak Akses UMK: https://oss.go.id/panduan/635970086345c7d71a814496 Panduan Pendaftaran Hak Akses Non-UMK: https://oss.go.id/panduan/635970086345c7d71a8144b5
+
+================================================================================

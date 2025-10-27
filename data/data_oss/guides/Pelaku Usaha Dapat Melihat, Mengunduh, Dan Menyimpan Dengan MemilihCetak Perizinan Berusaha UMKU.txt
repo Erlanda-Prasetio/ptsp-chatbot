@@ -1,0 +1,45 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha Dapat Melihat, Mengunduh, Dan Menyimpan Dengan MemilihCetak Perizinan Berusaha UMKU
+Source: https://oss.go.id/panduan/64a27d22558597eba57ea550
+Scraped: 2025-10-20T15:31:06.806441
+Total Steps: 15
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/
+2. 2. PilihMASUK
+3. 3. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+4. 4.DashboardPelaku Usaha
+5. 5. Klik MenuPB UMKUDan PilihPerubahan
+6. 6. PilihKegiatan UsahaYang Akan Dilakukan Perubahan PB-UMKU
+7. 7. Pengajuan Perubahan Perizinan UMKU
+8. 8. NotifikasiKonfirmasiUntuk Melanjutkan Perubahan PB UMKU
+9. 9. Periksa Formulir Perizinan Berusaha UMKU
+10. 10. Lakukan Pemenuhan Persyaratan
+11. 11. PilihKegiatan UsahaYang Akan Dilakukan Perubahan PB-UMKU
+12. 12. Pengajuan Perubahan Perizinan UMKU
+13. 13. NotifikasiKonfirmasiUntuk Melanjutkan Perubahan PB UMKU
+14. 14. Periksa Formulir Perizinan Berusaha UMKU
+15. 15. Periksa Secara BerkalaStatus PermohonanPada Daftar PB UMKU
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid23-f1c8b8ff70e39159a152b807c53ec953.png
+2. https://s3.oss.go.id/oss/cms/1-portal-masuk-389052c5e2073b1753576f11aa8a855b.png
+3. https://s3.oss.go.id/oss/cms/blobid20-7a6d9ad916ce7539b3045e2633afa4f6.png
+4. https://s3.oss.go.id/oss/cms/blobid24-593447908838ffd468c92ff39d6bcfb6.png
+5. https://s3.oss.go.id/oss/cms/blobid26-e7f44ee1f466f24960367055dc1c9994.png
+6. https://s3.oss.go.id/oss/cms/1-portal-1debb4b2f40872e981b7357908afc97b.png
+7. https://s3.oss.go.id/oss/cms/blobid14-b95500e250ca3ac51b9a1dda44d11f1c.png
+8. https://s3.oss.go.id/oss/cms/blobid21-ac9c5ea41b4da25c1f8cccc452482fd3.png
+9. https://s3.oss.go.id/oss/cms/blobid25-624176c6e296e8eee97d3292ca10d81d.png
+10. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-PB-UMKU-8ca6cfa086aa1ca32acf4a072a67e7c8.png
+11. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-afd1f5bb69255995d1b088787c8839f0.png
+12. https://s3.oss.go.id/oss/cms/blobid19-f3eadf117e7983073378731a805c3ad9.png
+13. https://s3.oss.go.id/oss/cms/blobid22-72b547e798d4e9c6c480c9f4be25aa97.png
+14. https://s3.oss.go.id/oss/cms/blobid27-c92890f6b044545a6825350b05932112.png
+15. https://s3.oss.go.id/oss/cms/blobid28-3d5088d74ebe822a23c0a23277f670f0.png
+16. https://s3.oss.go.id/oss/cms/blobid18-39575b3065cfc2396b749eabe6c4742f.png
+17. https://s3.oss.go.id/oss/cms/blobid17-8a2114d62cdec64563cf901ab9c765fd.png

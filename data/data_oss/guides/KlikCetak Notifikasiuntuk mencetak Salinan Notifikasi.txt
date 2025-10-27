@@ -1,0 +1,100 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: KlikCetak Notifikasiuntuk mencetak Salinan Notifikasi
+Source: https://oss.go.id/panduan/635970086345c7d71a8144c4
+Scraped: 2025-10-20T15:37:06.024320
+Total Steps: 31
+Total Images: 56
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 1. Masuk ke Menu Perizinan Berusaha >> Fasilitas >> Litbang >> Permohonan
+6. 2. Pilih Permohonan Fasilitas Penelitian dan Pengembangan yang akan diproses
+7. 3.a Lengkapi data Dokumen Persyaratan yang dibutuhkan
+8. 3.b Lengkapi dataDokumen Persyaratanyang dibutuhkan
+9. 3.c Lengkapi dataDokumen Persyaratanyang dibutuhkan
+10. 4. PengirimanPermohonan Fasilitas Penelitian dan PengembangankePemroses (BRIN)
+11. 5. PilihDaftar Permohonan Fasilitas Penelitian dan Pengembanganagar dapat melihat status dari permohonan tersebut
+12. 6. Pemrosesan Fasilitas Penelitian dan Pengembangan oleh BRIN s/dNotifikasi Persetujuan
+13. 7. Pelaku Usaha Notifikasi Persetujuan Keputusan
+14. 1. Masuk ke Menu Perizinan Berusaha >> Fasilitas >> Litbang >> Laporan Biaya
+15. 2. PilihKegiatan Usahayang akan diproses
+16. 3. Lengkapi dataDokumen Persyaratanyang dibutuhkan
+17. 4. PengirimanLaporan Biaya Penelitian dan PengembangankeBRIN
+18. 5. PilihDaftar Laporan Biaya Penelitian dan Pengembanganagar dapat melihat status dari permohonan tersebut
+19. 6.Pelaku usaha berhasil melakukan PelaporanBiayaPenelitian dan Pengembangan ke BRIN
+20. 1. Masuk ke Menu Perizinan Berusaha >> Fasilitas >> Litbang >> Pemanfaatan
+21. 3.a Lengkapi dataDokumen Persyaratanyang dibutuhkan
+22. 3.cLengkapi data Dokumen Persyaratan yang dibutuhkan
+23. 4. PengirimanPemanfaatan Penelitian dan PengembangankePemroses BRIN
+24. 5. PilihDaftar Pemanfaatan Penelitian dan Pengembanganagar dapat melihat status dari permohonan tersebut
+25. 7. Pelaku Usaha Menerima Surat Keputusan
+26. 1. Masuk ke MenuPerizinan Berusaha >> Fasilitas >> Litbang >> Laporan Pemanfaatan
+27. 2. Pilih Kegiatan Usaha yang akan diproses
+28. 3.c Lengkapi data Dokumen Persyaratan yang dibutuhkan
+29. 4. Pengiriman Pemanfaatan Penelitian dan Pengembangan ke Pemroses BRIN
+30. 5. Pilih Daftar Pemanfaatan Penelitian dan Pengembangan agar dapat melihat status dari permohonan tersebut
+31. 6. Pemrosesan Fasilitas Penelitian dan Pengembangan oleh BRIN s/d Notifikasi Persetujuan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (56 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/3-7B-747b3829668e5d5b0fdaf9d3ac65cc66.png
+2. https://s3.oss.go.id/oss/cms/2.2-77157a69460a26e5ec001d7f6e3578b5.png
+3. https://s3.oss.go.id/oss/cms/2-B-(1)-3fd2768c1159c641db9259ccb71c2eec.png
+4. https://s3.oss.go.id/oss/cms/3-3B-2e61f545026940d9a2efa3ab255256ac.png
+5. https://s3.oss.go.id/oss/cms/3-D-2-c9f3273b64d48fb0d054717d4d0fd04d.png
+6. https://s3.oss.go.id/oss/cms/2025-09-01_155010-655072674ff0150bd6e23cb7a4b90005.png
+7. https://s3.oss.go.id/oss/cms/3.2-(1)-42beb5018967469b79cabbdc128116a0.png
+8. https://s3.oss.go.id/oss/cms/4.2-(1)-0b3fa76a3dfe5e48ca7459561c43c50b.png
+9. https://s3.oss.go.id/oss/cms/1-5B-79ce82f9299433de033f53aff16970ba.png
+10. https://s3.oss.go.id/oss/cms/2-B-ff4d67266896fba8d361ce3eda176f40.png
+11. https://s3.oss.go.id/oss/cms/2-5A-297c4ecdae5723268a72a4cda000fb24.png
+12. https://s3.oss.go.id/oss/cms/1-2-1f752d1374f8f8f27d09f1011b6dcea2.png
+13. https://s3.oss.go.id/oss/cms/1-6-b7f84aefc0c58b24a884b5923a869422.png
+14. https://s3.oss.go.id/oss/cms/4-f8e5cf8c65aae431b9f2439ec6df9d24.png
+15. https://s3.oss.go.id/oss/cms/3.3-e221c41bd79995ec693a7dc0b048fffe.png
+16. https://s3.oss.go.id/oss/cms/3.4-169e3262d207ca105a1c89b20844472e.png
+17. https://s3.oss.go.id/oss/cms/7.2-1ea2a5741f0145797348fc3d58d3aae7.png
+18. https://s3.oss.go.id/oss/cms/4-1-a4afb1908118d4b1a091ec210ef7d150.png
+19. https://s3.oss.go.id/oss/cms/3-6-cdce5ceaf95b7b795386e16b03eb0e00.png
+20. https://s3.oss.go.id/oss/cms/3-2-cbb3436aff4de18ecec60ab6e45e56a0.png
+21. https://s3.oss.go.id/oss/cms/3.3-(1)-878f04b3dc592d871a66dc8d7d6d0b11.png
+22. https://s3.oss.go.id/oss/cms/4.1-d6475e4d3e34a8c1a1b54c907f3526b8.png
+23. https://s3.oss.go.id/oss/cms/3.1-(1)-1c25692e17938cd5c2651a8f60dd26fa.png
+24. https://s3.oss.go.id/oss/cms/4-2-6d9a470f1c3b46bfa6b2fa5b80343156.png
+25. https://s3.oss.go.id/oss/cms/4.2-16cfddfa1532248181430f85420b72fb.png
+26. https://s3.oss.go.id/oss/cms/4-A-(1)-f0634ae9622c4e1a77661df1f78c33f6.png
+27. https://s3.oss.go.id/oss/cms/4-5A-cbdc646177042fd387f0dba72b7d3592.png
+28. https://s3.oss.go.id/oss/cms/3-5B-7a8a453d7c846861db1bdf672f1363aa.png
+29. https://s3.oss.go.id/oss/cms/4-7B-1667ed669b9a8d45039a2b477779c1b0.png
+30. https://s3.oss.go.id/oss/cms/7.2-(1)-79781632171e66186bd97ac3d55e50cb.png
+31. https://s3.oss.go.id/oss/cms/1-36d284c8c1a20d4753e6c1edaccc4219.png
+32. https://s3.oss.go.id/oss/cms/7-2-c849128e27bc11e42938533bad48511d.png
+33. https://s3.oss.go.id/oss/cms/3-D-1-f5493c0fb93996a4cd53fe5e39656053.png
+34. https://s3.oss.go.id/oss/cms/7-893ff64396d0d40027b2ddcd154d8422.png
+35. https://s3.oss.go.id/oss/cms/1-portal-96c25780d9c28d2f734cb9861072f5f2.png
+36. https://s3.oss.go.id/oss/cms/2-5B-66e9100669550eef501b918479a00677.png
+37. https://s3.oss.go.id/oss/cms/2-6-5c48419488f914ba4bf4f8355bda5ff7.png
+38. https://s3.oss.go.id/oss/cms/4-B-ef5604ae5eea06add2eab6eb39a23b98.png
+39. https://s3.oss.go.id/oss/cms/2-1-18a8703baa60d7e409dee45b36d0dd67.png
+40. https://s3.oss.go.id/oss/cms/1-5A-2978fc56d91fa7a81b419f96d683c9f8.png
+41. https://s3.oss.go.id/oss/cms/3-C-b921b2bdba8b19bf6db3be406aa1845d.png
+42. https://s3.oss.go.id/oss/cms/3-1-60ac910956f462c2c02ad68d31f51bfe.png
+43. https://s3.oss.go.id/oss/cms/3.4-(1)-86b475e9b5de815f643b94352058e3be.png
+44. https://s3.oss.go.id/oss/cms/4-2-25d7c73358e6fba98f93844107d98727.png
+45. https://s3.oss.go.id/oss/cms/4-1-ffa9c03be591dd4ae5a5dfb8ba7bdeb2.png
+46. https://s3.oss.go.id/oss/cms/1-7B-86174b010fc4beeaec407851d665782c.png
+47. https://s3.oss.go.id/oss/cms/1---1-ccb39952645eb6b001803bb4556dc1d7.png
+48. https://s3.oss.go.id/oss/cms/1-3B-b7b4cbb80b25dddc92c129129786823a.png
+49. https://s3.oss.go.id/oss/cms/2-2-eaf27e06c6ecd8bca04a45340481f6e3.png
+50. https://s3.oss.go.id/oss/cms/3-3A-3ba6e339f75ac64daf4f656915bc26ef.png
+51. https://s3.oss.go.id/oss/cms/3-5A-1d00b695d44798dcd74e8002c6da6f7c.png
+52. https://s3.oss.go.id/oss/cms/4-6-602ba5454e7880f377174bd95ae3b436.png
+53. https://s3.oss.go.id/oss/cms/1-3-f00d8a0f5e2a13fc65a2aace32401282.png
+54. https://s3.oss.go.id/oss/cms/2.2-(1)-b1b2d351affd3c189bbe1822135c57f1.png
+55. https://s3.oss.go.id/oss/cms/4-5B-6f6e1deeaabce4a667870779d6b09f4a.png
+56. https://s3.oss.go.id/oss/cms/2-3A-913e9fa2c335a2988db65d66646d9531.png

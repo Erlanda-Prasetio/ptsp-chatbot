@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana Cara Mengubah Jenis API?
+Source: https://oss.go.id/id/faq/kategori?id=68e486a17795640efd3eefc8
+Scraped: 2025-10-21T15:17:40.781943
+================================================================================
+
+QUESTION:
+Bagaimana Cara Mengubah Jenis API?
+
+ANSWER:
+Untuk melakukan perubahan jenis Angka Pengenal Importir (API) secara mandiri dapat mengikuti langkah-langkah berikut: 1. Kunjungi oss.go.id 2. Masuk menggunakan username dan password 3. Pilih menu Perizinan Berusaha » Kelola Usaha » Perubahan » Perubahan Data Usaha 4. Pada bagian Aktivitas Impor, klik kolom Jenis Angka Pengenal Importir (API). Pilih jenis API sesuai dengan kegiatan yang dilakukan 5. Centang disclaimer kemudian klik tombol Selanjutnya. Catatan: Perubahan jenis API hanya dapat dilakukan pada akun Badan Usaha. Akun perorangan hanya dapat mengajukan jenis API-P sehingga tidak dapat mengubah jenis API.
+
+================================================================================

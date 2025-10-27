@@ -1,0 +1,13 @@
+================================================================================
+Title: Saya terkendala pendaftaran akun OSS muncul notifikasi 'Sudah melewati Batas Registrasi NIK harian
+Source: https://oss.go.id/id/faq/kategori?id=68e485077795640efd3eef44
+Scraped: 2025-10-21T15:22:17.949873
+================================================================================
+
+QUESTION:
+Saya terkendala pendaftaran akun OSS muncul notifikasi 'Sudah melewati Batas Registrasi NIK harian
+
+ANSWER:
+Pendaftaran akun OSS dibatasi hingga lima kali percobaan per satu NIK dalam satu hari. Silakan melakukan pendaftaran kembali setelah 1x24 jam.
+
+================================================================================

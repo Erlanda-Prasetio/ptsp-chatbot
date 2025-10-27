@@ -1,0 +1,55 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk Pencabutan KPJPTLA tersebut.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e0
+Scraped: 2025-10-20T15:31:35.345486
+Total Steps: 20
+Total Images: 22
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungi Lamanhttps://oss.go.id/, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPERIZINAN BERUSAHA, dan klikPENCABUTAN.
+4. 4. Setelah masuk ke halaman Daftar Permohonan Pencabutan, klikAJUKAN PERMOHONAN
+5. 5. PeriksaData Kantor Perusahaan di Luar Negeri (Prinsipal)
+6. 6. PeriksaArticle of Association (AOA) / Registrasi Pendirian
+7. 7. PeriksaData Kantor Perwakilan di Indonesia
+8. 8. PeriksaData Kegiatan Usaha
+9. 9.a LengkapiSURAT PERNYATAAN DARI KEPALA KANTOR PERWAKILAN ATAU DIREKSI PERUSAHAAN DI NEGARA ASAL YANG MENYATAKAN TIDAK MEMILIKI HUTANG PIUTANG(Jika Surat Pernyataan dibuat di Indonesia)
+10. 9.b LengkapiSURAT PERNYATAAN DARI KEPALA KANTOR PERWAKILAN ATAU DIREKSI PERUSAHAAN DI NEGARA ASAL YANG MENYATAKAN TIDAK MEMILIKI HUTANG PIUTANG(Jika Surat Pernyataan tidak dibuat di Indonesia)
+11. 10. LengkapiSURAT PERINTAH ATAU PERNYATAAN DARI DIREKSI PERUSAHAAN DI NEGARA ASAL TENTANG PENUTUPAN KPJPTLA
+12. 11. LengkapiLAPORAN KEGIATAN KANTOR PERWAKILAN PERIODE TERAKHIR
+13. 12. MenyetujuiPernyataan Pencabutan Kantor Perwakilan Jasa Penunjang Tenaga Listrik Asing (KPJPTLA)
+14. 13. ValidasiNPWP
+15. 14. Permohonan Pencabutan Perizinan KPJPTLA telah Terkirim
+16. 15. Verifikasi Kementerian/Lembagaatas Pemenuhan Persyaratan
+17. 16. Verifikasi Kementerian/Lembagaatas Pemenuhan Persyaratan setelah Perbaikan
+18. 17. Permohonan Pencabutan Perizinan KPJPTLA telah Disetujui
+19. 18. Permohonan Pencabutan Perizinan KPJPTLA telah Disetujui(Cetakan Pencabutan KPJPTLA)
+20. 19. Permohonan Pencabutan Perizinan KPJPTLA telah Disetujui(Surat Pernyataan)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (22 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Panduan-Menu-kppa-0a1253261d0fd49a1fb5e8122f72888e.png
+2. https://s3.oss.go.id/oss/cms/15-(2)-ea995c7133b17b45f8802e59194c0839.png
+3. https://s3.oss.go.id/oss/cms/14-(4)-90d848ba3d0b3f8f2220dbec4c9a7f74.png
+4. https://s3.oss.go.id/oss/cms/7-8ef937cca6e518f5462a26c7c59db2c3.png
+5. https://s3.oss.go.id/oss/cms/16-1-f267d6db1a2bcb0413f2a9de682e0016.png
+6. https://s3.oss.go.id/oss/cms/9a-(1)-8bd0b0699c6ac132522c277eac951752.png
+7. https://s3.oss.go.id/oss/cms/5-(12)-665071ae9e008492c1dc2b703b78dd32.png
+8. https://s3.oss.go.id/oss/cms/16-2-08f6acd417580494a28d512b772c41ca.png
+9. https://s3.oss.go.id/oss/cms/19-fc063e336298f22eb64b5040e20a1cae.png
+10. https://s3.oss.go.id/oss/cms/13-(5)-bc3a1ee5c3092af463c67e47fcbfdd83.png
+11. https://s3.oss.go.id/oss/cms/2-(7)-0b687e65cdcb370ba2173d91d296aa1a.png
+12. https://s3.oss.go.id/oss/cms/4-(7)-c2285677ab241bdcc4489074f372b807.png
+13. https://s3.oss.go.id/oss/cms/18-1-1c143331f1e9eff7ef82ab1367a2ee75.png
+14. https://s3.oss.go.id/oss/cms/18-2-913d25c363d93c45383aba89074527b7.png
+15. https://s3.oss.go.id/oss/cms/12-(3)-8da240d161be2e4d4a90f18c11594eca.png
+16. https://s3.oss.go.id/oss/cms/11-(6)-632f9139489dd68ff018cc2358d01ade.png
+17. https://s3.oss.go.id/oss/cms/7-(5)-4425ecc83ee168f359af820259e1d109.png
+18. https://s3.oss.go.id/oss/cms/8-(6)-9ebe4e25be36e130ac2ba9aa27a23ad5.png
+19. https://s3.oss.go.id/oss/cms/17-(3)-f172170642316271db7a110ce9977574.png
+20. https://s3.oss.go.id/oss/cms/10-(5)-7a7d03b3bc5d1178c0008e4abbc4a9be.png
+21. https://s3.oss.go.id/oss/cms/6-(15)-6b9e0be75bc23c4565294b7d5a3655ee.png
+22. https://s3.oss.go.id/oss/cms/9b-(1)-3fa0b0e75a18bfba87829bd87753cda7.png

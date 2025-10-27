@@ -1,0 +1,66 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha dikatakan telah menyampaikan LKPM apabilastatus LKPMDisetujui
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e3
+Scraped: 2025-10-20T15:28:22.003246
+Total Steps: 26
+Total Images: 27
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke MenuPELAPORAN,dan klikLAPORAN KEGIATAN PENANAMAN MODAL
+4. 4. Setelah masuk ke menu Laporan LKPM, klikBUAT LAPORAN
+5. 5. PilihKegiatan Usaha Tahap Konstruksi yang akan dilaporkan
+6. 6. MenolakPerpindahan Laporan Tahap Konstruksi/Persiapan ke Laporan Tahap Operasional dan/atau Komersial
+7. 7. PeriksaData Proyek
+8. 8.a LengkapiRealisasi Penanaman Modal(Modal Tetap)
+9. 8.b LengkapiRealisasi Penanaman Modal(Modal Kerja)
+10. 9.a LengkapiPerubahan Data Nilai Total Akumulasi (Apabila Diperlukan) - Form Perubahan Data Nilai Total Akumulasi
+11. 9.b LengkapiPerubahan Data Nilai Total Akumulasi (Apabila diperlukan) - Form Surat Pernyataan Penyesuaian Nilai Total Akumulasi Realisasi Penanaman Modal
+12. 9.c LengkapiPerubahan Data Nilai Total Akumulasi (Apabila diperlukan) - Form Surat Pernyataan Penyesuaian Nilai Total Akumulasi Realisasi Penanaman Modal
+13. 9.d LengkapiPerubahan Data Nilai Total Akumulasi (Apabila diperlukan) - Form Surat Pernyataan Penyesuaian Nilai Total Akumulasi Realisasi Penanaman Modal
+14. 9.e LengkapiPerubahan Data Nilai Total Akumulasi (Apabila diperlukan) - Surat Pernyataan Penyesuaian Nilai Total Akumulasi Realisasi Penanaman Modal
+15. 10. LengkapiRealisasi Tenaga Kerja
+16. 11. LengkapiPermasalahan yang dihadapi Pelaku Usaha
+17. 12. LengkapiPetugas Penanggung Jawab LKPM dari Pelaku UsahadanMenyetujuiPernyataan Pelaporan LKPM
+18. 13. NotifikasiLaporan Outward Investment (OI)(Khusus Pelaku Usaha PMDN)
+19. 14.a Laporan LKPM Tahap Konstruksi/Persiapan Terkirim
+20. 14.b Laporan LKPM Tahap Konstruksi/Persiapan Terkirim
+21. 15. Verifikasi K/L/D atas Laporan LKPM Tahap Konstruksi/Persiapan
+22. 16.a Menanggapi Catatan Perbaikan Laporan LKPM Konstruksi/Persiapan dari Verifikator
+23. 16.b Menanggapi Catatan Perbaikan Laporan LKPM Tahap Konstruksi/Persiapan dari Verifikator
+24. 17.a Laporan LKPM Non UMK Tahap Konstruksi/Persiapan Disetujui
+25. 17.b Laporan LKPM Non UMK Tahap Konstruksi/Persiapan Disetujui (Cetakan LKPM)
+26. 17.c Laporan LKPM Non UMK Tahap Konstruksi/Persiapan Disetujui (Tanda Terima)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (27 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid18-b0436066cf8c4e1dc1e5dcbc4878729f.png
+2. https://s3.oss.go.id/oss/cms/blobid13-c864713d1b88d0a64fe7647f7c9e9286.png
+3. https://s3.oss.go.id/oss/cms/blobid22-a52ce15a8f3918440803d0877846974e.png
+4. https://s3.oss.go.id/oss/cms/blobid26-3fe91be3331c7bd63d5a6f135b4a8515.png
+5. https://s3.oss.go.id/oss/cms/blobid14-3bd5ed62f56973f385984f6d5b1b8506.png
+6. https://s3.oss.go.id/oss/cms/blobid32-fb3b01082120d23b2800701815ac8de2.png
+7. https://s3.oss.go.id/oss/cms/blobid20-ceaa425c41dd837a230b14e284f42526.png
+8. https://s3.oss.go.id/oss/cms/blobid9-1b2f2935b7a366d25d13b6dae5373d1b.png
+9. https://s3.oss.go.id/oss/cms/7-9e6d2d963ff58b4b75f102ea9e438d18.png
+10. https://s3.oss.go.id/oss/cms/blobid29-a8486678df91c4f5da1de8effc6b81b7.png
+11. https://s3.oss.go.id/oss/cms/blobid16-8c74984dc46c3263d61b00991c6a5878.png
+12. https://s3.oss.go.id/oss/cms/blobid27-ecf3f8499bae93c6e68f1592f2fd9993.png
+13. https://s3.oss.go.id/oss/cms/blobid25-57a220dd4e624ed60e08a624b863e531.png
+14. https://s3.oss.go.id/oss/cms/blobid11-2f028ebb039f963137a549e0dc68f8b3.png
+15. https://s3.oss.go.id/oss/cms/blobid23-ca19fe86f1b58a728a8761074ca3f02d.png
+16. https://s3.oss.go.id/oss/cms/blobid15-22eb8dd959f40ad4f8992beadf64963f.png
+17. https://s3.oss.go.id/oss/cms/blobid7-8ffc4576ea9829a4c3407793965b9efb.png
+18. https://s3.oss.go.id/oss/cms/blobid12-95cdb20bdb5d6ece2775ed5bfe3f977f.png
+19. https://s3.oss.go.id/oss/cms/8-a2641cc0fc275c7e1e210f74b7a2f097.png
+20. https://s3.oss.go.id/oss/cms/blobid31-b437c8960dac03cb1d8841cf86ae238f.png
+21. https://s3.oss.go.id/oss/cms/blobid28-9ca1d5941c55584a331a16742f151f4f.png
+22. https://s3.oss.go.id/oss/cms/blobid24-8d2aacc63e45f929df6ecef2f80b37a3.png
+23. https://s3.oss.go.id/oss/cms/blobid21-aa3296fff89a2495068a3517409af390.png
+24. https://s3.oss.go.id/oss/cms/blobid30-c1cb2b0c37c34472019373a094a38817.png
+25. https://s3.oss.go.id/oss/cms/blobid19-0839a653977074126e0050cd13423602.png
+26. https://s3.oss.go.id/oss/cms/blobid17-bdd809e40dc50692df0bdaddf66d7373.png
+27. https://s3.oss.go.id/oss/cms/blobid10-d1e9f4144ef3f47abd9921fca0aad6bb.png

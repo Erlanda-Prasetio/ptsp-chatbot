@@ -1,0 +1,96 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Anda dapatmelihat,mengunduh,danmencetakproduk perizinan berusaha tersebut.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144ae
+Scraped: 2025-10-20T15:26:42.286257
+Total Steps: 35
+Total Images: 48
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 5. Klik MenuPerizinan Berusahadan pilihPengembangan
+6. 6. Klik tombolTambah Bidang Usaha
+7. 7. Klik tombolPilih Bidang Usaha
+8. 8.a LengkapiData Pemilihan Bidang Usaha (Orang Perseorangan)
+9. 8.b LengkapiData Pemilihan Bidang Usaha (Badan Usaha)
+10. 9.a LengkapiData Detail Usaha (UMK)
+11. 9.b LengkapiData Detail Usaha (UMK)
+12. 10. LengkapiData Produk/Jasa
+13. 11. PeriksaDaftar Produk/Jasa
+14. 12. PeriksaData Usaha
+15. 13.a PeriksaDaftar Kegiatan Usaha
+16. 13.b PeriksaDaftar Kegiatan Usaha (untuk Lokasi Usaha yang perlu verifikasi KKPR)
+17. 14. Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu)
+18. 14.a Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+19. 14.b Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+20. 15. Pahami dan CentangPernyataan Mandiri
+21. 16. PeriksaDraf Perizinan Berusaha (NIB)
+22. 17.aNIB telah terbit(untuk Sertifikat Standar belum terverifikasi)
+23. 17.bNIB telah terbit(untuk Izin belum terbit)
+24. 18. Buka Menu Permohonan, pilih Pemenuhan Persyaratan
+25. 19.a Klik tombol Proses Pemenuhan Standar Usaha/Persyaratan (risiko Menengah Tinggi)
+26. 20.a Lengkapi Dokumen Pemenuhan (risiko Menengah Tinggi)
+27. 21.aTungguperubahanstatus pemenuhandalamproses verifikasiperizinan berusaha (risiko Menengah Tinggi)
+28. 21.aTunggu perubahanstatus pemenuhandalamproses verifikasiperizinan berusaha (risiko Menengah Tinggi) - Lanjutan
+29. 19.b Klik tombolProses Pemenuhan Standar Usaha/Persyaratan(risiko Tinggi)
+30. 21.bTungguperubahanstatus pemenuhandalamproses verifikasiperizinan berusaha (risiko Tinggi)
+31. 22.a Perizinan Berusaha telah terbit otomatis (untuk risiko Rendah dan Menengah Rendah)
+32. 22.bPerizinan Berusaha telah terbit dan perlu pemenuhan persyaratan(untuk risiko Menengah Tinggi dan Tinggi)
+33. 22.cPerizinan Berusaha telah terbit (Contoh Cetakan NIB)
+34. 22.dPerizinan Berusaha telah terbit (Contoh Cetakan SS)
+35. 22.ePerizinan Berusaha telah terbit (Contoh Cetakan Izin)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (48 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-0b2c3254bf691b60ccded75a9a727ba1.png
+2. https://s3.oss.go.id/oss/cms/9b-6-bc0f7709ab912021db6e30616935e461.png
+3. https://s3.oss.go.id/oss/cms/3-e27e20af006d5658b582ae632261795e.png
+4. https://s3.oss.go.id/oss/cms/22a-e99fda1b86df8ad4e3e39e253c19deb2.jpg
+5. https://s3.oss.go.id/oss/cms/21b-3-4c183317b8b64eb64ca08ef003f6296d.png
+6. https://s3.oss.go.id/oss/cms/9a-2-337a8e6d36de0fb782f171c1fdf77ffc.png
+7. https://s3.oss.go.id/oss/cms/17b-1fcc907b076b3e257cef31e645177e68.png
+8. https://s3.oss.go.id/oss/cms/9a-1-fa9597c645df4238c29add44bf5bdaef.png
+9. https://s3.oss.go.id/oss/cms/22c-a622da5bd0814b1171c6f54480dff819.png
+10. https://s3.oss.go.id/oss/cms/20a-9ea58eef56a082d6babd9ef9a2c4ef96.png
+11. https://s3.oss.go.id/oss/cms/14-581c8bf1de219824e8438f71d827e299.png
+12. https://s3.oss.go.id/oss/cms/12-386e71c9461ae4ed13cdb314d446aa3e.png
+13. https://s3.oss.go.id/oss/cms/4-(1)-b2662125e5047a01d8760881ebbbbe64.png
+14. https://s3.oss.go.id/oss/cms/15-c437ce65e6b080b2afe5136f4b89ff86.png
+15. https://s3.oss.go.id/oss/cms/21a-3-b35a1f46eb4b0f32d30e95aee1aafd20.png
+16. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-03-at-12.36.08_bd984956-c47a6e9ecce28dd2e2434b2b59bc546e.jpg
+17. https://s3.oss.go.id/oss/cms/7-2-92335a9aa577f7444df438427ca6515e.png
+18. https://s3.oss.go.id/oss/cms/22b-ee6fcf4058c6dbdc38f3da371ed92d3a.png
+19. https://s3.oss.go.id/oss/cms/16-3a6cdfa1d1e86fdf53c4a11029564a96.png
+20. https://s3.oss.go.id/oss/cms/5-3f0c089108526413d7e4f1ad2aade413.png
+21. https://s3.oss.go.id/oss/cms/21b-2-1943cb2ed82a48c3509f34c645bf2c61.png
+22. https://s3.oss.go.id/oss/cms/17a-284eb24c792a3260337e5c7812bf4247.png
+23. https://s3.oss.go.id/oss/cms/19b-1-407cc57e0a4a510bf185f483607ce815.png
+24. https://s3.oss.go.id/oss/cms/4-c958dd4401ab74e102629c1327c1436c.png
+25. https://s3.oss.go.id/oss/cms/21a-1-bec20563e77a8f68b740331c7d3cbadc.png
+26. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-03-at-12.36.37_f2f2b004-56197ca0eff7d3ff10e8f5605c990bf1.jpg
+27. https://s3.oss.go.id/oss/cms/8b-7f3d24cc3051a3d0dba09f3c8e7e9b08.png
+28. https://s3.oss.go.id/oss/cms/8a-97bde6e0e6d28e35a22c8b430283d212.png
+29. https://s3.oss.go.id/oss/cms/9b-3-2-1b026f756e32d5eae842b76bae16ae4c.png
+30. https://s3.oss.go.id/oss/cms/13a-4fe062651767d1a3364b090a96217a86.png
+31. https://s3.oss.go.id/oss/cms/6-9eacb535414c94edd7436af10e110e20.png
+32. https://s3.oss.go.id/oss/cms/18-2dbac2adec7e4744b70497720c65ead9.png
+33. https://s3.oss.go.id/oss/cms/9b-5-19962396814fca6cdc6a6342a6036700.png
+34. https://s3.oss.go.id/oss/cms/11-fe412e64316d7cb389b272568b3c3cc8.png
+35. https://s3.oss.go.id/oss/cms/19a-39783eb28ef2226cf5941db03ccb7454.png
+36. https://s3.oss.go.id/oss/cms/10-ec11633c2adbf15360463d399e0cf33a.png
+37. https://s3.oss.go.id/oss/cms/21b-1-ed8f21419ff797ba923285e9e2f1cb8c.png
+38. https://s3.oss.go.id/oss/cms/14-b-1-(1)-fc439420881cd980c63515d802607a39.png
+39. https://s3.oss.go.id/oss/cms/9b-4-(1)-76334b2f6674535ae19e7309588a3422.png
+40. https://s3.oss.go.id/oss/cms/14a-3365adcb31bffddded6c0f88f53fd774.png
+41. https://s3.oss.go.id/oss/cms/9b-3-1-669bb9bbb65b5fd455e22ee6da4cf270.png
+42. https://s3.oss.go.id/oss/cms/14-b-2-(1)-0d911b3cd24ee25e7ead50d4ef4d7f62.png
+43. https://s3.oss.go.id/oss/cms/9b-1-fd5bfadba85fd396e020ed86c7ad0d97.png
+44. https://s3.oss.go.id/oss/cms/21a-2-6acef92202eb1031148181538a644f86.png
+45. https://s3.oss.go.id/oss/cms/7-1-6402378038ceee8a009c134f2f3e3402.png
+46. https://s3.oss.go.id/oss/cms/13b-1b625f316157b7b9f0cc359a86125cd0.png
+47. https://s3.oss.go.id/oss/cms/19b-2-(1)-1451a8976afda640c4194af1c5bde2cb.png
+48. https://s3.oss.go.id/oss/cms/9b-2-893568be9cbcfc8478a0ffeb0a1d16d9.png

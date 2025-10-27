@@ -1,0 +1,13 @@
+================================================================================
+Title: Mengapa NIB saya belum terbit?
+Source: https://oss.go.id/id/faq/kategori?id=68e4864d711547977a0df1db
+Scraped: 2025-10-21T15:18:18.519823
+================================================================================
+
+QUESTION:
+Mengapa NIB saya belum terbit?
+
+ANSWER:
+NIB yang belum terbit dapat disebabkan oleh beberapa faktor berikut: 1. Data bidang usaha masih kosong. Pastikan Bapak/Ibu sudah menambahkan KBLI pada akun OSS terdaftar saat permohonan baru. Penambahan KBLI dapat dilakukan melalui menu Perizinan Berusaha, Pilih Kelola Usaha lalu Permohonan Baru, kemudian lanjutkan dengan melengkapi formulir data usaha. 2. Jika data bidang usaha sudah ada namun NIB belum kunjung terbit, pastikan Bapak/Ibu sudah melakukan pernyataan mandiri. Kolom pernyataan mandiri dapat dilakukan melalui menu beranda - NIB lalu klik proses perizinan berusaha. Silakan centang kolom pernyataan mandiri yang muncul dan lengkapi seluruh langkah hingga selesai. 3. Untuk akun NON UMK, pastikan proses pengajuan PKKPR sudah terbit/disetujui. Jika PKKPR sudah terbit/disetujui, Bapak/Ibu dapat melanjutkan proses perizinan berusaha dengan melengkapi seluruh langkah hingga selesai.
+
+================================================================================

@@ -1,0 +1,55 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik tombolCETAK SIUP3Auntuk mendapatkan dokumen SIUP3A.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144df
+Scraped: 2025-10-20T15:37:30.672081
+Total Steps: 21
+Total Images: 21
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. Masukkanusernamedanpassword, lalu klik tombolMASUK
+5. 5. Klik MenuKantor Perwakilandan pilihPerubahan Kantor Perwakilan
+6. 6. UbahData Kantor Prinsipal (KP3A)
+7. 7. UbahData Kantor Perwakilan di Indonesia
+8. 8. Ubah isianData Kantor Perwakilan di IndonesiadanKegiatan Usahanya
+9. 9. Ubah isiandata AoA dan LoIserta periksadata LoA
+10. 10. Ubah isiandata LoRdan periksadata LoS
+11. 11. Periksa isiandata yang dilakukan perubahan
+12. 12. Perizinan Berusaha Kantor Perwakilan berhasil diubah
+13. 13. PilihUBAH KEPALA KP3A
+14. 14. UbahData Kepala Kantor Perwakilan
+15. 15.a LengkapiData Profil Kepala Kantor Perwakilan (jika WNI)
+16. 15.b LengkapiData Profil Kepala Kantor Perwakilan (jika WNA)
+17. 16. LengkapiData LoA dan LoS Kepala Kantor Perwakilan
+18. 17. Kepala Kantor Perwakilan berhasil diubah
+19. 18.a PeriksaPerubahan Data pada Perizinan Berusaha
+20. 18.b PeriksaPerubahan Data pada Perizinan Berusaha(Contoh Cetakan NIB)
+21. 18.c PeriksaPerubahan Data pada Perizinan Berusaha(Contoh Cetakan SIUP3A)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (21 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/6-(13)-eaaa79c6d14e4489d8a0c7420a685b18.png
+2. https://s3.oss.go.id/oss/cms/9-(5)-6ce8fb898e68d4bd1f51b456b643185d.png
+3. https://s3.oss.go.id/oss/cms/17-(2)-8947651a45de1b3edf1c79bb1fa731e3.png
+4. https://s3.oss.go.id/oss/cms/15a-1b0e3e6f320d5a1c7447ad578367ccb1.png
+5. https://s3.oss.go.id/oss/cms/18b-ddb06d4b7bb3b5e61c7bdd32bddd819f.png
+6. https://s3.oss.go.id/oss/cms/8-(4)-ca111719bda7e945df74987c00e59074.png
+7. https://s3.oss.go.id/oss/cms/1-portal-masuk-93aaad9b997ee9b96d3a35e3c83fa3cb.png
+8. https://s3.oss.go.id/oss/cms/Perubahan-KP-dan-BULN-66cfe2dd6070ca2289afbf03e05f1685.png
+9. https://s3.oss.go.id/oss/cms/7-(3)-ebb5e30a10d4e9d750ebb1c4f29c0824.png
+10. https://s3.oss.go.id/oss/cms/4-(5)-4eaf8642ad1e07bb177b8136b801a562.png
+11. https://s3.oss.go.id/oss/cms/15b-e5e190f7d7fdf0fb11a2fc46d57911d6.png
+12. https://s3.oss.go.id/oss/cms/1-portal-851dd21cf6a49776a4c74ed7e43cbe50.png
+13. https://s3.oss.go.id/oss/cms/10-(4)-1ea72e9484a53e4615dd7c3a3ac8ca4e.png
+14. https://s3.oss.go.id/oss/cms/18a-84e17de6c77ec91ce6136bb3aab944de.png
+15. https://s3.oss.go.id/oss/cms/11-(4)-0a4fd44952204b6b4252cb4a23492c71.png
+16. https://s3.oss.go.id/oss/cms/1-(18)-0788f03fdacb03dc01643bd6e4645a89.png
+17. https://s3.oss.go.id/oss/cms/16-(1)-9e5d5343c32229cc9c10fdda2e614f5d.png
+18. https://s3.oss.go.id/oss/cms/14-(3)-0a48a1af38e8cfa7253cd5449f34431f.png
+19. https://s3.oss.go.id/oss/cms/13-(3)-f3bb4b4fdda6417115ee4b072eebd1d7.png
+20. https://s3.oss.go.id/oss/cms/18c-b38786ac5aceb56452d806356bbf7728.png
+21. https://s3.oss.go.id/oss/cms/12-(2)-e4edfe1ad69da332c0e5c98511f77f44.png

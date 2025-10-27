@@ -1,0 +1,49 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Perizinan Usaha Badan Usaha Luar Negeri - Surat Tanda Pendaftaran Waralaba (STPW) bagi: Pemberi Waralaba Berasal dari Luar Negeri
+Source: https://oss.go.id/panduan/635970086345c7d71a8144bd
+Scraped: 2025-10-20T15:40:31.975095
+Total Steps: 17
+Total Images: 19
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki Hak Akses
+2. 2. Kunjungihttps://oss.go.id/,pilih“Masuk”
+3. 3. Masukkan Username dan Password, lalu klik tombolMASUK
+4. 4. Klik menuPerizinan Berusahadan pilihPermohonan
+5. 5. Lengkapi FormData Penanggung Jawab
+6. 6. Lengkapi FormData Domisil Penanggung Jawab. Jika Adana mengisiYapada pertanyaan“Apakah Data Domisili saat ini sama dengan Data Alamat saat Registrasi?”maka data Negara Domisili akan terisi otomatis dan tidak bisa diubah dan jika Anda memilih Negara Domisil“Indonesia”maka muncul isian data terkaitProvinsi Domisili, Kabupaten/Kota Domisili, Kecamatan Domisili, Kelurahan/Desa Domisili
+7. 7. Lengkapi formData Perusahaan Luar Negeri
+8. 8. Lengkapi form Data Kegiatan Usaha. Klik tombolTAMBAH DATA, untuk menambahkan data seluruh kegiatan usaha yang akan diwaralabakan beserta persyaratannya pada saat pengajuan permohonan ini (Data ini bisa ditambahkan lebih dari 1 (satu) kegiatan usaha dalam 1 (satu) pengajuan permohonan sekaligus.)
+9. 9. Lengkapi formData Usaha.Anda dapat mengecek nomor KBLI melalui:https:/oss.go.id/informasi/kbli-berbasis-risiko
+10. 10. Mohon periksa kembali Data Kegiatan Usaha dan baca, pahami, lalu klikkotak centang/checkboxpada disclaimer yang tertera. KlikPROSES PERIZINAN BERUSAHA.
+11. 11. Sistem akan menampilkan draf NIB Perizinan Berusaha. Anda dapat melakukan pemeriksaan kembali, lalu klik kotak centang/checkbox pada disclaimer yang tertera. KlikTERBITKAN PERIZINAN BERUSAHA.
+12. 12. Perizinan Berusaha NIB telah terbit, Anda dapat melihat, mengunduh, dan mencetak produk perizinan berusaha tersebut dengan klik tombolCETAK NIB. Sedangkan penerbitan Perizinan Berusaha STPW perlu melalui proses verifikasi oleh instansi yang berwenang berdasarkan isian Data Usaha yang sudah diajukan.
+13. 13. Tunggu dan Periksa Perubahan Status Permohonan secara berkala (Jika statusnya ‘Perbaikan Persyaratan ke Pelaku Usaha’), lalu klik tombolPEMENUHAN PERSARATAN.
+14. 14. Sistem akan menampilkan Formulir Pemenuhanyang harus Anda lengkapi/perbaiki untuk mendapatkan STPW yang diajukan. Perhatikan kolomCatatansebagai tambahan keteranganyang berasal dari Kewenangan Instansi terkait (jika ada). Klik tombolUBAH DOKUMENuntuk memperbaiki dokumen yang berstatus‘Perbaikan Persyaratan’(jika ada). Jika Anda inginmemberikan catatan tambahan, isilah pada kolomCatatan(opsional). Klik kotakcentang/checkboxpada disclaimer. Klik tombolLANJUT.
+15. 15. Perubahan Status Permohonan menjadi‘Belum Diproses’kembali, setelah Anda memperbaiki dokumen persyaratan yang dibutuhkan.
+16. 16. Perubahan Status Permohonan menjadi‘Persetujuan Persyaratan’, setelah semua persyaratan yang diunggahtelah disetujuioleh Kewenangan Instansi terkait.
+17. 17. Jika Status Permohonan sudah menjadi‘Telah terverifikasi’, maka Perizinan Berusaha (STPW) telah terbit. Selanjutnya Anda dapat melihat, mengunduh, dan mencetak produk perizinan berusaha tersebut dengan klik tombol Cetak STPW.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (19 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid164-741601b7c0da2a4e120680f94b754c5e.png
+2. https://s3.oss.go.id/oss/cms/blobid157-4e5ad6d4feefab45b0764e9dafec1d41.png
+3. https://s3.oss.go.id/oss/cms/blobid165-26bf41ba4bb1a69bcb44fbb36ac7527e.png
+4. https://s3.oss.go.id/oss/cms/blobid167-8631f49a2ad0b3ce2579e887bc7b9ce2.png
+5. https://s3.oss.go.id/oss/cms/blobid163-60fc219d3d9159628c490d475ce35149.png
+6. https://s3.oss.go.id/oss/cms/blobid169-9471170158d9d99f83a8cfd5fb8c5850.png
+7. https://s3.oss.go.id/oss/cms/Permohonan-Baru-KP-dan-BULN-c33eed30a88cb2a174e99c0c8a2b60f0.png
+8. https://s3.oss.go.id/oss/cms/blobid171-3b007afa648f2360f8fa0b7e3a0ac3f4.png
+9. https://s3.oss.go.id/oss/cms/blobid168-5062254dcc9d18e1c29fdfece6da87c4.png
+10. https://s3.oss.go.id/oss/cms/blobid170-edcb719fe603c5d49553733ad34fa429.png
+11. https://s3.oss.go.id/oss/cms/blobid162-5538cf727ef9f3a5575396fde708d810.png
+12. https://s3.oss.go.id/oss/cms/1-portal-masuk-0cc18785536d29a908e7bcb092462af3.png
+13. https://s3.oss.go.id/oss/cms/blobid172-8f765c1c0707ebd85611d0087e2cab09.png
+14. https://s3.oss.go.id/oss/cms/blobid161-50f484b622738df80f15125dd694457d.png
+15. https://s3.oss.go.id/oss/cms/blobid155-a28bd98f4d7f2684ad85a4333ffd4932.png
+16. https://s3.oss.go.id/oss/cms/blobid166-057318736f879f545d9eac73e149f933.png
+17. https://s3.oss.go.id/oss/cms/blobid173-6bdc8563ea9ca2759abe70d4a439eaf3.png
+18. https://s3.oss.go.id/oss/cms/blobid159-cf0b59000bc680454e397a243cd0db14.png
+19. https://s3.oss.go.id/oss/cms/blobid160-12694a102905ddb906ede33059e17929.png

@@ -1,0 +1,13 @@
+================================================================================
+Title: Bisakah satu NIK memiliki lebih dari satu akun OSS?
+Source: https://oss.go.id/id/faq/kategori?id=68e487177795640efd3ef00a
+Scraped: 2025-10-21T15:15:22.637202
+================================================================================
+
+QUESTION:
+Bisakah satu NIK memiliki lebih dari satu akun OSS?
+
+ANSWER:
+Satu NIK dapat digunakan untuk mendaftar: - Satu akun OSS perorangan - Badan usaha bisa lebih dari satu akun OSS dengan email/nomor ponsel hak akses yang berbeda. Khusus badan usaha PT Perorangan, satu NIK tidak dapat digunakan untuk mendaftar lebih dari satu akun OSS. Satu NIK hanya bisa untuk satu akun OSS PT Perorangan.
+
+================================================================================

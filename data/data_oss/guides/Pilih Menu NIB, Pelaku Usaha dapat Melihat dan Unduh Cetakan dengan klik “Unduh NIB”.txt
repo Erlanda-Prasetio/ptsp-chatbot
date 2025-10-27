@@ -1,0 +1,50 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pilih Menu NIB, Pelaku Usaha dapat Melihat dan Unduh Cetakan dengan klik “Unduh NIB”
+Source: https://oss.go.id/panduan/66becb1430ebc9a53660a91d
+Scraped: 2025-10-20T15:27:36.349704
+Total Steps: 12
+Total Images: 25
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Klik MenuPerizinan Berusaha, laluPengembangan
+5. 5.Tambah Bidang Usaha
+6. 6. LengkapiPemilihan Bidang Usaha
+7. 7. LengkapiFormulir Perekaman Data Pelaku Usaha
+8. 8. Baca, Pahami, dan Centang pada kotak Checkbox, lalu klik tombolSelanjutnya.
+9. 9. Periksasecara berkala Status KKPRpada Daftar Kegiatan Usaha
+10. 10. Pahami dan Centang Pernyataan Mandiri
+11. 11. Periksa Draf Perizinan Berusaha (NIB)
+12. 13. Izin Terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (25 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture19-050fdb9369d81394b853de3fd37fc751.png
+2. https://s3.oss.go.id/oss/cms/Picture25-a486e6351c9e6a9cf4cf4ecdcb8fa39f.png
+3. https://s3.oss.go.id/oss/cms/Picture2-e1c48305c6d46b89fa5d4342db48492c.png
+4. https://s3.oss.go.id/oss/cms/Picture10-a94f26c3b2bb13d308d98c9b734d3e93.png
+5. https://s3.oss.go.id/oss/cms/Picture23-fb0660e1790b0609e339be5ef7c49df6.png
+6. https://s3.oss.go.id/oss/cms/Picture16-cb4ae64fe2d6c8d5b87fba61564b2555.png
+7. https://s3.oss.go.id/oss/cms/Picture9-f9e9462b359f4f37aa2136a8fab29a7b.png
+8. https://s3.oss.go.id/oss/cms/Picture18-18c7b0a7a15c6408bbe61367c828f97f.png
+9. https://s3.oss.go.id/oss/cms/Picture4-6ac3bac21b84818a87b6a4a11580b143.png
+10. https://s3.oss.go.id/oss/cms/Picture20-5b418a88fe9719a861c018c99c668083.png
+11. https://s3.oss.go.id/oss/cms/Picture11-aabebdac5af12468d36b2b856c5ab6c8.png
+12. https://s3.oss.go.id/oss/cms/Picture22-56cc65d13e9973632c69a3eba5293d1d.png
+13. https://s3.oss.go.id/oss/cms/Picture7-34ce61948c25ec7649a4eeb27a87b1be.png
+14. https://s3.oss.go.id/oss/cms/Picture8-cd89b5c7b83a26e40bc4de14fbd76808.png
+15. https://s3.oss.go.id/oss/cms/Picture24-2d08ac70dcabdae4250bffdf3cff85b9.png
+16. https://s3.oss.go.id/oss/cms/Picture14-e40c21ff1dc79eec5ae9c3a650dce132.png
+17. https://s3.oss.go.id/oss/cms/Picture6-f63e92bd3f3affb13491bf989d364b0a.png
+18. https://s3.oss.go.id/oss/cms/Picture15-e4009388eb60bb61d3dabbc6d12d7961.png
+19. https://s3.oss.go.id/oss/cms/3-f22b1581749701d75110e060fe948059.png
+20. https://s3.oss.go.id/oss/cms/Picture26-3e3203e1cd154c880754b4872534d66a.png
+21. https://s3.oss.go.id/oss/cms/Picture17-c4aab6a593c100fcd1f974ea9bbdedc0.png
+22. https://s3.oss.go.id/oss/cms/Picture21-fb50c1e92ae628efae6d7a744e9b41f6.png
+23. https://s3.oss.go.id/oss/cms/Picture5-c571ea9a2791a99bf9720209fec51bae.png
+24. https://s3.oss.go.id/oss/cms/Picture13-042061d6f9465623a2020ad98df1f4ae.png
+25. https://s3.oss.go.id/oss/cms/Picture12-4e9e677aede85f1f8afcf4c2bd9128aa.png

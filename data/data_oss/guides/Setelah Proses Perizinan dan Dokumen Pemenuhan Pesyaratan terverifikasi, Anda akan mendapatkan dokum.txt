@@ -1,0 +1,69 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Setelah Proses Perizinan dan Dokumen Pemenuhan Pesyaratan terverifikasi, Anda akan mendapatkan dokumenNIB dan Izin
+Source: https://oss.go.id/panduan/635970086345c7d71a8144ba
+Scraped: 2025-10-20T15:39:57.070158
+Total Steps: 19
+Total Images: 37
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki Hak Akses
+2. 2. Kunjungihttps://oss.go.id/,pilih“Masuk”
+3. 3. Masukkan Username dan Password, lalu klik tombolMASUK
+4. 4. Klik MenuPerizinan Berusahadan pilihPermohonan Baru
+5. 5. Lengkapi Data Pelaku Usaha lalu klikSIMPAN DATAuntuk menyimpan data Pelaku Usaha. Selanjutnya, klikISI BIDANG USAHAuntuk mengisi data Bidang Usaha
+6. 6. Lengkapi Data Bidang Usaha, lalu klik tombolSIMPAN
+7. 7.a Lengkapi Formulir Detail Usaha (Jika pilih "Lokasi Kegiatan Usaha" di DARAT)
+8. 7.b Lengkapi Formulir Detail Usaha (Jika pilih "Lokasi Kegiatan Usaha" di HUTAN)
+9. 7.c Lengkapi Formulir Detail Usaha (Jika pilih "Lokasi Kegiatan Usaha" di LAUT)
+10. 8. Lengkapi Data Produk/Jasa, lalu klik tombolSIMPAN
+11. 9. Periksa Daftar Produk/Jasa, lalu klik tombolSELESAI
+12. 10. Periksa Data Usaha dan klik tombolSELANJUTNYA
+13. 11. PeriksaDaftar Kegiatan Usaha. Kegiatan Usaha yang diajukan mempunyai dua kondisi yang dapat dijelaskan sebagai berikut:
+14. 12. Periksa dan LengkapiDokumen Persetujuan Lingkunganberdasarkan KBLI/Bidang Usaha Tertentu.
+15. 13. Baca, pahami, dan klik kotak centang/checkbox pada setiap Pernyataan Mandiri yang tertera. Selanjutnya klik tombolLANJUT
+16. 14. PeriksaDraf Perizinan Berusaha (NIB), lalu kliktombol TERBITKAN PERIZINAN BERUSAHA
+17. 15.Perizinan Berusaha Telah Terbit
+18. 1. Pilih MenuPerizinan Berusaha, lalu klikPemenuhan Persyaratan
+19. 2. Untuk proses Dokumen Persayaratan dibagi berdasarkan Tingkat Risiko bisnis yang Anda miliki, silakan ikuti langkah sebagai berikut:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (37 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid36-f3aafc8bfc7541937cdf70011053730a.png
+2. https://s3.oss.go.id/oss/cms/blobid56-8851a8356c4bd71899829c590dabb0e8.png
+3. https://s3.oss.go.id/oss/cms/blobid34-dbc20338c623b3fe6e53542946f0f7e5.png
+4. https://s3.oss.go.id/oss/cms/blobid53-97ebf2ddafa63de56273f2272f80b0ae.png
+5. https://s3.oss.go.id/oss/cms/blobid63-eadd0b232c18b777ebbae7f8041fa186.png
+6. https://s3.oss.go.id/oss/cms/blobid57-bb88d52c5e592afdcb886e1965f2022e.png
+7. https://s3.oss.go.id/oss/cms/blobid61-a3b56781227e2e195f0617ca88735258.png
+8. https://s3.oss.go.id/oss/cms/blobid66-ad4f2094605cf04e0fdb20030968f51a.png
+9. https://s3.oss.go.id/oss/cms/blobid51-f70c153ae20cd1e49542437e0100d691.png
+10. https://s3.oss.go.id/oss/cms/blobid69-d5d63f2c9e122f1574caabf982f1cc25.png
+11. https://s3.oss.go.id/oss/cms/blobid64-74bbc23f5441ba64bd92307692f77a7f.png
+12. https://s3.oss.go.id/oss/cms/1-portal-masuk-db2e9b3a893555e49ea893457ce39405.png
+13. https://s3.oss.go.id/oss/cms/blobid41-3e3a4a6ae182216ea4bd98f48d5e8836.png
+14. https://s3.oss.go.id/oss/cms/blobid38-4277d31285cd5fc2e204fb5f9249aa48.png
+15. https://s3.oss.go.id/oss/cms/blobid67-1be84caff96f909978f2709180e97532.png
+16. https://s3.oss.go.id/oss/cms/blobid46-6b3a62ae49df4dbdfb3722c04db74b1d.png
+17. https://s3.oss.go.id/oss/cms/blobid48-96b769249e5bf426d3e49d8181cf9218.png
+18. https://s3.oss.go.id/oss/cms/blobid65-b07a6cc782c2ae1f1dcdb13cedbd3e4d.png
+19. https://s3.oss.go.id/oss/cms/blobid62-b0aab17b252803fee23463e2ee451f21.png
+20. https://s3.oss.go.id/oss/cms/blobid59-41cc59b776ffe38039e42b079bbee28b.png
+21. https://s3.oss.go.id/oss/cms/3-menu-PB---permohonan-baru-2faf6b011c1d853fff01d697a494e2ce.png
+22. https://s3.oss.go.id/oss/cms/blobid52-b66390edbed31341a4bc6dd5a2fd4a49.png
+23. https://s3.oss.go.id/oss/cms/blobid50-06cdf347c78ca8f793980124456e03e1.png
+24. https://s3.oss.go.id/oss/cms/blobid44-342f200e57cccdb2e7e7edbec5f8cc91.png
+25. https://s3.oss.go.id/oss/cms/blobid49-a98434c2d71bcbac6394b543468b22bd.png
+26. https://s3.oss.go.id/oss/cms/blobid40-e1881198ead56c8a9645c8b33a8e2ff3.png
+27. https://s3.oss.go.id/oss/cms/blobid55-b456a0314b533f80589deff039b09dd3.png
+28. https://s3.oss.go.id/oss/cms/blobid60-7956cedc4476d24f69592d27bba6289d.png
+29. https://s3.oss.go.id/oss/cms/blobid42-3557c615e9f3118d6bf289dff4e0071a.png
+30. https://s3.oss.go.id/oss/cms/blobid39-11ab8631f54fef9e6aa17919596430b4.png
+31. https://s3.oss.go.id/oss/cms/blobid70-83212daf549daf3c12de9c83769548d1.png
+32. https://s3.oss.go.id/oss/cms/blobid68-50a54f84c5a1fab61ea7c2a629a9d9aa.png
+33. https://s3.oss.go.id/oss/cms/blobid47-eed89a9cfc6ffe55b881c49a65e40d0a.png
+34. https://s3.oss.go.id/oss/cms/blobid54-e7799bc3467af52a726fa5793570dbca.png
+35. https://s3.oss.go.id/oss/cms/blobid58-9e556954b37a32f65a49520c94d4e919.png
+36. https://s3.oss.go.id/oss/cms/blobid45-8ce3f36dbcb9d7ce9cd2ebc1cc9581af.png
+37. https://s3.oss.go.id/oss/cms/blobid43-cd3b82fe5c431f66fef0ca04776a3998.png

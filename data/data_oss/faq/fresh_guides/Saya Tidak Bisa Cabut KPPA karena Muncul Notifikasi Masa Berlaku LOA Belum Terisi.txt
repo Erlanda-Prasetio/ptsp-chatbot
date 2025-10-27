@@ -1,0 +1,13 @@
+================================================================================
+Title: Saya Tidak Bisa Cabut KPPA karena Muncul Notifikasi Masa Berlaku LOA Belum Terisi
+Source: https://oss.go.id/id/faq/kategori?id=68e488fa7795640efd3ef07e
+Scraped: 2025-10-21T15:08:36.637852
+================================================================================
+
+QUESTION:
+Saya Tidak Bisa Cabut KPPA karena Muncul Notifikasi Masa Berlaku LOA Belum Terisi
+
+ANSWER:
+Jika terkendala tidak bisa melakukan pencabutan Kantor Perwakilan Perusahaan Asing (KPPA) karena masa berlaku dokumen Letter of Appoinment (LoA) belum terisi, silakan mengikuti langkah-langkah berikut: 1. Klik nama perusahaan di kanan atas lalu klik tombol Lihat Profil. 2. Pilih sub-menu Ubah Kepala Kantor Perwakilan kemudian klik tombol Ubah. 3. Lengkapi data profil kepala kantor perwakilan lalu klik tombol Selanjutnya. 4. Selanjutnya, isi data LOA dan masa berlaku LoA kemudian simpan. Pastikan masa berlaku telah terisi agar tidak muncul notifikasi serupa saat hendak mencabut KPPA.
+
+================================================================================

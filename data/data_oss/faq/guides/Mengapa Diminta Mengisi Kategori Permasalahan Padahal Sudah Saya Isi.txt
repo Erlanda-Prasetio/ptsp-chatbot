@@ -1,0 +1,13 @@
+================================================================================
+Title: Mengapa Diminta Mengisi Kategori Permasalahan Padahal Sudah Saya Isi?
+Source: https://oss.go.id/id/faq/kategori?id=68e485c07795640efd3eef7a
+Scraped: 2025-10-21T15:20:40.991443
+================================================================================
+
+QUESTION:
+Mengapa Diminta Mengisi Kategori Permasalahan Padahal Sudah Saya Isi?
+
+ANSWER:
+Pastikan Bapak/Ibu sudah mengisi lengkap kolom permasalahan yang dihadapi pelaku usaha mulai dari kategori permasalahan, detail permasalahan dan keterangan masalah. Jangan lupa untuk klik Simpan Permasalahan sampai permasalahan yang disampaikan muncul di tabel permasalahan.
+
+================================================================================

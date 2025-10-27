@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa muncul notifikasi KKPR Tumpang Tindih saat unggah file polygon?
+Source: https://oss.go.id/id/faq/kategori?id=68e48748711547977a0df21b
+Scraped: 2025-10-21T15:14:30.931366
+================================================================================
+
+QUESTION:
+Kenapa muncul notifikasi KKPR Tumpang Tindih saat unggah file polygon?
+
+ANSWER:
+Notifikasi tersebut muncul karena poligon tumpang tindih dengan KKPR lain yang telah terbit. Silakan perbaiki poligon atau meneruskan dengan konsekuensi permohonan akan ditolak seluruhnya (jika tumpang tindih persis dengan KKPR lain yang telah terbit) atau disetujui sebagian (jika tumpang tindih sebagian dengan KKPR lain yang telah terbit).
+
+================================================================================

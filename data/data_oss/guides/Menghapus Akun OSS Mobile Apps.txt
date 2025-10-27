@@ -1,0 +1,15 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Menghapus Akun OSS Mobile Apps
+Source: https://oss.go.id/panduan/65ae7da798f8907e5aa988de
+Scraped: 2025-10-20T15:23:10.643059
+Total Steps: 7
+Total Images: 0
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Buka Aplikasi OSS Indonesia
+2. 2. Masuk Ke Akun Anda
+3. 3. Pilih Nama Akun Untuk Membuka Profil
+4. 4. Pada Tab Data Pribadi, Gulir Ke Bawah Ke Tombol Hapus Akun
+5. 5. Pilih Hapus Akun
+6. 6. Konfirmasi Penghapusan Akun
+7. 7. Berhasil Menghapus Akun

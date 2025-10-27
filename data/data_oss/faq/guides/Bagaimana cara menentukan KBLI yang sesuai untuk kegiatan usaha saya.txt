@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara menentukan KBLI yang sesuai untuk kegiatan usaha saya?
+Source: https://oss.go.id/id/faq/kategori?id=68e48806711547977a0df28f
+Scraped: 2025-10-21T15:12:34.857666
+================================================================================
+
+QUESTION:
+Bagaimana cara menentukan KBLI yang sesuai untuk kegiatan usaha saya?
+
+ANSWER:
+Untuk melakukan pengecekan KBLI yang tepat untuk kegiatan usaha, Bapak/Ibu dapat cek "secara mandiri" dengan cara: 1. Kunjungi https://oss.go.id/ 2. Klik Informasi > klik Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2020. 3. Tuliskan kata kunci sesuai kegiatan usaha pada kolom Pencarian Berdasarkan Semua KBLI. 4. Sistem akan menampilkan KBLI yang sesuai atau paling mendekati dengan kata kunci.
+
+================================================================================

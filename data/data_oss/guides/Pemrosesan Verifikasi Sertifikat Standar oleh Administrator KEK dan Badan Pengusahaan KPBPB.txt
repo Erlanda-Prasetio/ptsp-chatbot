@@ -1,0 +1,41 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pemrosesan Verifikasi Sertifikat Standar oleh Administrator KEK dan Badan Pengusahaan KPBPB
+Source: https://oss.go.id/panduan/635970086345c7d71a8144f7
+Scraped: 2025-10-20T15:23:39.979943
+Total Steps: 14
+Total Images: 14
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungi https://oss.go.id/
+2. 2. Pilih Masuk SebagaiKAWASAN
+3. 3. Masukkan Username dan Password beserta CAPTCHA, lalu klik Masuk
+4. 4. Muncul laman Dasbor Administrator KEK/Badan Pengusahaan KPBPB
+5. 5. Pilih Menu Pemrosesan Perizinan, Lalu Pemenuhan Persyaratan
+6. 6. Pilih data Pelaku Usaha yang ingin diverifikasi, lalu klik Proses Verifikasi seperti pada gambar berikut ini
+7. 7. Cek Data Pelaku Usaha, meliputi Data Pelaku Usaha, Data Kegiatan Usaha, dan Dokumen yang diunggah
+8. 8. Jika sudah lengkap, ubah status dokumen, lalu isi catatan, Centang Disclaimer, dan klik Proses Permohonan
+9. 9. Status Pelaku Usaha berubah menjadi Persetujuan Persyaratan oleh Administrator KEK/Badan Pengusahaan KPBPB
+10. 10. Klik Menu Pemrosesan Perizinan | Disetujui dan pilih pelaku usaha yang akan diverifikasi
+11. 11. Klik Proses Verifikasi seperti pada gambar berikut ini
+12. 12. Cek Data Pelaku Usaha, meliputi Data Pelaku Usaha, Data Kegiatan Usaha, dan Dokumen yang diunggah
+13. 13. Jika sudah lengkap, lihat dokumen, lalu ubah status, Centang Disclaimer, dan klik Proses Permohonan
+14. 14. Klik menu Permohonan Perizinan | Diterbitkan dan Status Pelaku Usaha berubah menjadi Telah Terverifikasi oleh Administrator KEK/Badan Pengusahaan KPBPB
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (14 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/5-a3802e0ba378584cc17ad6ad25cdebc3.webp
+2. https://s3-stg.oss.go.id/oss/cms/3-3a7b9d125e502d4caf52c458b6155e86.webp
+3. https://s3-stg.oss.go.id/oss/cms/8-d726b6538a5c0667993bd8a40fb1b3af.webp
+4. https://s3-stg.oss.go.id/oss/cms/6-6eefeb4b30ddaf95a317b285cec55eb1.webp
+5. https://s3-stg.oss.go.id/oss/cms/11-16fbc4eceba971ea6663bed721c2facf.webp
+6. https://s3-stg.oss.go.id/oss/cms/10-d38300fc42450218849c10afb803ef01.webp
+7. https://s3-stg.oss.go.id/oss/cms/14-1fa1934c5d41136ee26aa59c35352be5.webp
+8. https://s3-stg.oss.go.id/oss/cms/9-ea773a4e987abac9e083d07eefa7b486.webp
+9. https://s3-stg.oss.go.id/oss/cms/1-a89ff923f075bc4f42a24c574b87d9bb.webp
+10. https://s3-stg.oss.go.id/oss/cms/2-b4f6eb949026c02e0642d06055ac0a46.webp
+11. https://s3-stg.oss.go.id/oss/cms/12-799f5e7296ba7471af4cc97ad9435672.webp
+12. https://s3-stg.oss.go.id/oss/cms/4-9da5066e7a9653a4ae258788c3679460.webp
+13. https://s3-stg.oss.go.id/oss/cms/7-0cacdc25b4ad032938b95ee36d291b51.webp
+14. https://s3-stg.oss.go.id/oss/cms/13-88aaa69c03f7593cd12619734519a836.webp

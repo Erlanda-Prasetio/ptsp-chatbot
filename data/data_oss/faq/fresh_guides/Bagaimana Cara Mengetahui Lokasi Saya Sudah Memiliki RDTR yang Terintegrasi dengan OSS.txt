@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana Cara Mengetahui Lokasi Saya Sudah Memiliki RDTR yang Terintegrasi dengan OSS?
+Source: https://oss.go.id/id/faq/kategori?id=68e4884b711547977a0df2a5
+Scraped: 2025-10-21T15:11:33.956130
+================================================================================
+
+QUESTION:
+Bagaimana Cara Mengetahui Lokasi Saya Sudah Memiliki RDTR yang Terintegrasi dengan OSS?
+
+ANSWER:
+Untuk mengetahui apakah lokasi usaha sudah memiliki Rencana Detail Tata Ruang (RDTR) yang terintegrasi dengan sistem OSS, silakan mengikuti langkah-langkah berikut: 1. Kunjungi https://oss.go.id lalu pilih menu Informasi lalu klik Informasi Lokasi Usaha 2. Pilih Rencana Tata Ruang (RTR) kemudian klik RDTR Interaktif untuk dapat melihat lokasi usaha yang sudah memiliki RDTR. Masukkan detail lokasi seperti nama kabupaten/kota untuk memeriksa apakah lokasi tersebut sudah memiliki RDTR yang terintegrasi dengan sistem OSS 3. Bapak/Ibu juga dapat melakukan pengecekan RDTR berdasarkan peta polygon wilayah kegiatan usaha yang dimiliki dengan mengklik tombol RDTR Interaktif di bagian bawah yang berwarna biru 4. Jika lokasi usaha berada di wilayah RDTR yang telah terintegrasi dengan sistem OSS, maka diberikan kemudahan Kesesuaian Kegiatan Pemanfaatan Ruang (KKPR) menggunakan mekanisme Konfirmasi Kesesuaian Kegiatan Pemanfaatan Ruang (KKKPR) yang diterbitkan secara otomatis melalui sistem OSS.
+
+================================================================================

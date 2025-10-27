@@ -3,19 +3,26 @@ import requests
 import time
 from embed import embed_texts
 from vector_store import store
-from config import OPENROUTER_API_KEY, GEN_MODEL, MAX_CONTEXT_TOKENS, VECTOR_BACKEND
+from config import GROQ_API_KEY, OPENROUTER_API_KEY, GEN_MODEL, MAX_CONTEXT_TOKENS, VECTOR_BACKEND, USE_GROQ
 if VECTOR_BACKEND == 'supabase':
     from vector_store_supabase import SupabaseVectorStore
 else:
     SupabaseVectorStore = None  # type: ignore
 
-HEADERS = {
-    "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-    "HTTP-Referer": "http://localhost",
-    "X-Title": "ptspRag"
-}
-
-CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
+# Configure API based on which key is available
+if USE_GROQ:
+    HEADERS = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
+else:
+    HEADERS = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "HTTP-Referer": "http://localhost",
+        "X-Title": "ptspRag"
+    }
+    CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 SYSTEM_INSTR = """You are an expert assistant for Central Java (Jawa Tengah) government information system DPMPTSP (Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu).
 
 Guidelines:
@@ -72,7 +79,8 @@ def query_llm(question: str, context: str):
     
     for attempt in range(max_retries):
         try:
-            print(f"🤖 Attempting OpenRouter API call (attempt {attempt + 1}/{max_retries})")
+            api_name = "Groq" if USE_GROQ else "OpenRouter"
+            print(f"🤖 Attempting {api_name} API call (attempt {attempt + 1}/{max_retries})")
             
             r = requests.post(CHAT_URL, headers=HEADERS, json={
                 "model": GEN_MODEL,
@@ -96,7 +104,7 @@ def query_llm(question: str, context: str):
             usage = response_json.get('usage', {})
             model_used = response_json.get('model', GEN_MODEL)
             
-            print(f"✅ OpenRouter API call successful")
+            print(f"✅ {api_name} API call successful")
             print(f"📊 Tokens: {usage.get('total_tokens', 0)} (prompt: {usage.get('prompt_tokens', 0)}, completion: {usage.get('completion_tokens', 0)})")
             
             return {
@@ -107,10 +115,11 @@ def query_llm(question: str, context: str):
             
         except requests.exceptions.HTTPError as e:
             status_code = e.response.status_code if e.response else 0
+            api_name = "Groq" if USE_GROQ else "OpenRouter"
             print(f"❌ HTTP error {status_code}: {e}")
             
             if status_code == 503:  # Service Unavailable
-                print("🔄 OpenRouter service temporarily unavailable")
+                print(f"🔄 {api_name} service temporarily unavailable")
             elif status_code == 429:  # Rate limit
                 print("⏳ Rate limit hit, waiting longer...")
                 time.sleep(base_delay * 2 * (attempt + 1))
@@ -136,7 +145,8 @@ def query_llm(question: str, context: str):
             time.sleep(delay)
     
     # All retries failed - generate fallback response
-    print("💔 All OpenRouter retry attempts failed, generating fallback response")
+    api_name = "Groq" if USE_GROQ else "OpenRouter"
+    print(f"💔 All {api_name} retry attempts failed, generating fallback response")
     return _generate_fallback_response(question, context, "Service temporarily unavailable")
 
 

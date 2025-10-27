@@ -1,0 +1,26 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Panduan Perubahan Penanggung Jawab untuk Mengelola Hak Akses (BKPM/DPMPTSP)
+Source: https://oss.go.id/panduan/654e0385032c731ec545a180
+Scraped: 2025-10-20T15:22:57.705304
+Total Steps: 6
+Total Images: 7
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“MASUK”.
+2. 2. Masukkan Username dan Password Anda sebagai pengelola, lalu klik tombolMASUK.
+3. 3. Setelah Anda memasuki Dashboard OSS, klik menuPROFIL
+4. 4. Sistem akan menampilkan Data Profil pengelola. Untuk merubah data penanggung jawab, silakan klik tab ‘PENANGGUNG JAWAB’
+5. 5. Data Penanggung Jawab akan ditampilkan secara otomati oleh sistem. Silakan klikEDIT FORMuntuk merubah data Penanggung Jawab.
+6. 6. Lengkapi Data Penanggung Jawab terbaru, lalu klikSIMPANuntuk menyimpan Data Penanggung Jawab.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (7 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Awal-menu-65043a28a012a344d496f10750158fb3.webp
+2. https://s3.oss.go.id/oss/cms/4-6db7da4b45d537d02107f1e927f129fa.webp
+3. https://s3.oss.go.id/oss/cms/3-2e2a0da7fa321ba155dad676702d5a90.webp
+4. https://s3.oss.go.id/oss/cms/2-52229671470ffeb37cc09da7e1ad9b19.webp
+5. https://s3.oss.go.id/oss/cms/6-51d45ff30d394a9eeb3201ffcf1709b0.webp
+6. https://s3.oss.go.id/oss/cms/5-14e20cb01fa8ef08a67b971aa16dfad7.webp
+7. https://s3.oss.go.id/oss/cms/0-e3c46270706d4228e90754ac3fb60cb5.webp

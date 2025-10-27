@@ -1,0 +1,13 @@
+================================================================================
+Title: Jika saya tidak menyampaikan LKPM pada periode sebelumnya, apakah saya bisa menggabungkan nilai realisasi periode tersebut dengan periode yang sedang berjalan?
+Source: https://oss.go.id/id/faq/kategori?id=68e485d0711547977a0df1b1
+Scraped: 2025-10-21T15:20:53.139916
+================================================================================
+
+QUESTION:
+Jika saya tidak menyampaikan LKPM pada periode sebelumnya, apakah saya bisa menggabungkan nilai realisasi periode tersebut dengan periode yang sedang berjalan?
+
+ANSWER:
+Ya, realisasi penanaman modal pada periode sebelumnya dapat digabung dengan periode berjalan. Penggabungan masih dapat dilakukan selama masih dalam satu tahun berjalan. Contoh: Realisasi penanaman modal pada Triwulan I masih bisa digabung dengan Triwulan II, begitu juga dengan realisasi penanaman modal pada Triwulan II masih bisa digabung dengan Triwulan III. Tidak bisa dilakukan ketika realisasi penanaman modal pada Triwulan IV digabung dengan Triwulan I tahun berikutnya.
+
+================================================================================

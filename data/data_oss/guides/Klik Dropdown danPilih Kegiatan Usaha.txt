@@ -1,0 +1,35 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik Dropdown danPilih Kegiatan Usaha
+Source: https://oss.go.id/panduan/66b058df30ebc9a53660a8ef
+Scraped: 2025-10-20T15:26:52.970855
+Total Steps: 11
+Total Images: 11
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki hak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 5. Pada Halaman Awal OSS, untuk memulai Permohonan Fasilitas Impor Mesin Baru IKN ikuti langkah berikut:
+6. 6. Pada Halaman Fasilitas Impor Mesin Baru, halaman akan menampilkan Data detail Kegiatan Usaha. lalu:
+7. 7. PastikanData Badan Usahasudahsesuai. Anda dapat melihat Data Usaha dan Cetakan NIB dengan klikLIHAT DATA. Jika sudah benar, klikSELANJUTNYA
+8. 8. Lengkapi Dokumen Persyaratan yang dibutuhkan, sepertiData Pemohon,Dokumen Persyaratan&Data Aktiva. KlikCEK SKF PEMEGANG SAHAMUntuk Mengecek Surat Keterangan Fiskal, klikUBAH DOKUMENjika Anda ingin merubah Dokumen dan klikUNDUH DOKUMENjika Anda ingin mengunduh Dokumen.
+9. 9. Periksa kembali dokumen permohonan jika diperlukan pada halaman preview Dokumen Persyaratan. lalu klikSelanjutnya.
+10. 10. Pilih seluruh pernyataan/disclaimer untuk dapat melanjutkan ke proses permohonan dan bahwa data yang dimasukkan sudah benar. Berikan Catatan jika diperlukan. KlikPROSES PERMOHONANuntuk mengirim permohonan ke Kementerian Investasi/BKPM
+11. 11. Setelah Permohonan sudah diajukan, kembali pada halaman awal OSS. Pilih MenuFasilitaslaluIbu Kota Nusantaradan klikTax Holidayagar dapat melihat status dari permohonan tersebut. Jika status Permohonan sudah berubah menjadiBKPM - Dokumen Diterima, maka Permohonan anda sudah selesai di submit.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (11 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image1-2c194db9f1d8e0087e2266a3714fe146.png
+2. https://s3.oss.go.id/oss/cms/5-4078ddd264066791af516cc8e2b58406.png
+3. https://s3.oss.go.id/oss/cms/image2-016c0757ca04352cab4ba15891b22e68.png
+4. https://s3.oss.go.id/oss/cms/6-401657d83e21d30c0698ab3c14b3769b.png
+5. https://s3.oss.go.id/oss/cms/7-35a44ae7fca36790fbc4e6e0cd716516.png
+6. https://s3.oss.go.id/oss/cms/image9-76c6920cebe29e83eb80c049c4fa19bc.png
+7. https://s3.oss.go.id/oss/cms/image5-a61feaaf4c91b3a176dbed7186d5c0f1.png
+8. https://s3.oss.go.id/oss/cms/9-e62b4d02554712ea458ff8066405310e.png
+9. https://s3.oss.go.id/oss/cms/11-d65481965918c9bc542da3c02a2b2b53.png
+10. https://s3.oss.go.id/oss/cms/image4-83816e17820cafd46f39a9a3703e7492.png
+11. https://s3.oss.go.id/oss/cms/image11-9463adc95f2be2fd28d881120e3dc2da.png

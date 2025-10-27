@@ -1,0 +1,59 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pilih Unduh Perizinan Berusaha UMKU jika pelaku Usaha ingin melihat, mengunduh, dan menyimpan cetakan perizinan berusaha UMKU
+Source: https://oss.go.id/panduan/65b0910d98f8907e5aa9891a
+Scraped: 2025-10-20T15:26:19.919724
+Total Steps: 17
+Total Images: 29
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuPB UMKU, laluPermohonan Baru
+5. 5. PilihKBLI untuk pengajuan Pendukung PB-UMKU
+6. 6. Klik tombolAjukan Perizinan Berusaha UMKU
+7. 7. LengkapiFormulir Perizinan Berusaha UMKU
+8. 8. Lengkapi FormulirPengajuan UMKU di Lokasi berbeda
+9. 9. LengkapiFormulir Perekaman Data Pelaku Usaha
+10. 10. Periksa secara berkalaStatus PKKPRpadaDaftar Kegiatan Usaha
+11. 11. Lengkapi Dokumen Lingkungan
+12. 12. Pahami dan CentangPernyataan Mandiri
+13. 13. PeriksaDraf Perizinan Berusaha (NIB)
+14. 14. PemberitahuanPengajuan Perizinan Berusaha UMKU
+15. 15. Lengkapi Data Teknis dan Persyaratan Pendukung UMKU
+16. 16. Periksa Status Permohonan Daftar PB-UMKU secara berkala
+17. 17.Pendukung Perizinan Berusaha UMKU Terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (29 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image14-846c011a19bd1559a8baa746c9dc4e11.webp
+2. https://s3.oss.go.id/oss/cms/image19-b0e13b395a3dabd4d6633badc7503d16.webp
+3. https://s3.oss.go.id/oss/cms/image26-5761bf3ed05dff6971fce9d5786444fe.webp
+4. https://s3.oss.go.id/oss/cms/image10-3eed158ce977a0a82677c6eb8e829c3b.webp
+5. https://s3.oss.go.id/oss/cms/image3-a8505f1aca0948063bef4ff748ce061e.webp
+6. https://s3.oss.go.id/oss/cms/image20-c67de63198a47d1e111720299bc3e640.webp
+7. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-09-at-12.24.38_ea5dafa6-15429e61197a31ca150df638e18efe7c.jpg
+8. https://s3.oss.go.id/oss/cms/image29-cfe2d0554ef50fc2dc4e6c7d0b79a961.webp
+9. https://s3.oss.go.id/oss/cms/image8-a6c373564a3872c94044f5f55e6b9fbc.webp
+10. https://s3.oss.go.id/oss/cms/image9-ca0e9569438454d1ccb8b16510e81de8.webp
+11. https://s3.oss.go.id/oss/cms/image15-3cee291ec0f4bd55f6002a691a791557.webp
+12. https://s3.oss.go.id/oss/cms/image7-e91086bd5dd02b5d1be214e2ad998f84.webp
+13. https://s3.oss.go.id/oss/cms/image5-bbb2efc0cd2e0c9121ce696a511d0384.webp
+14. https://s3.oss.go.id/oss/cms/image28-b7c56b65c3e61b0f1c308ac76203f292.webp
+15. https://s3.oss.go.id/oss/cms/image11-e7fdf276411706dc468198d59b380f4a.webp
+16. https://s3.oss.go.id/oss/cms/image23-acbbe59632e77adeeb5215218f65fa3f.webp
+17. https://s3.oss.go.id/oss/cms/image4-da7162fe8b180d229a712a579f07b799.webp
+18. https://s3.oss.go.id/oss/cms/image2-30d9a267333aa38d0f42d05702444e87.webp
+19. https://s3.oss.go.id/oss/cms/image27-dc7b8cadad11336ea239cea6765ccd42.webp
+20. https://s3.oss.go.id/oss/cms/image13-e7a55c8f14e20d74c7c23c05fa6e0465.webp
+21. https://s3.oss.go.id/oss/cms/image24-178d3611305a58ec7ea65031b884eec9.webp
+22. https://s3.oss.go.id/oss/cms/image16-ac1be7b1844570ec872a632b870a734f.webp
+23. https://s3.oss.go.id/oss/cms/image21-8bc5c6993a979e3471ba3b2fa691b675.webp
+24. https://s3.oss.go.id/oss/cms/image6-48edb46a4826b4b7b9d3861c769796c9.webp
+25. https://s3.oss.go.id/oss/cms/image22-14fcbb3ab1a70278377b82140d4e116e.webp
+26. https://s3.oss.go.id/oss/cms/image17-f5b83e6a5d3d3be5b53adff2baacc63f.webp
+27. https://s3.oss.go.id/oss/cms/image25-ae53c73a7fdc4c436f860f89c15dbd2e.webp
+28. https://s3.oss.go.id/oss/cms/image1-4f3940b4f891c5f6e582bc484e62574e.webp
+29. https://s3.oss.go.id/oss/cms/image12-7a6ced221d32cc75eeeebe10f519b9ff.webp

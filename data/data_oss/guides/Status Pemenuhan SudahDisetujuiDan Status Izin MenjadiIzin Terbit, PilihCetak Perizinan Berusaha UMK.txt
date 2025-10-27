@@ -1,0 +1,34 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Status Pemenuhan SudahDisetujuiDan Status Izin MenjadiIzin Terbit, PilihCetak Perizinan Berusaha UMKUUntuk Dapat Melihat, Mencetak Dan Mengunduh Cetakan PB-UMKU
+Source: https://oss.go.id/panduan/6470842dd033753dd77d89e0
+Scraped: 2025-10-20T15:35:28.975135
+Total Steps: 9
+Total Images: 12
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, Lalu PilihMasuk
+2. 2. MasukkanUsernameDanPasswordBeserta, Lalu KlikMasuk
+3. 3.DashboardPelaku Usaha
+4. 4. Pilih MenuPB UMKULalu PilihPermohonan Baru
+5. 5.PIlih Bidang UsahaAtauKBLIYang Akan Diajukan
+6. 6. Klik TombolAjukan Perizinan Berusaha UMKU
+7. 7.PilihPerizinan Berusaha UMKU
+8. 8.Lengkapi FormulirPerizinan Berusaha UMKU (Jika Ada Unggah Dokumen Persyaratan)
+9. 9.PeriksaDaftar PB-UMKUSecara Berkala
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (12 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-813cbf2e105fd7ccf48399361e94ab26.png
+2. https://s3.oss.go.id/oss/cms/blobid0-28b8954106885fba869bf8a1e70c939e.png
+3. https://s3.oss.go.id/oss/cms/blobid5-47e03109204777cd276320edc632a994.png
+4. https://s3.oss.go.id/oss/cms/blobid4-5b3e10efb0b4339af1b551148a9862d3.png
+5. https://s3.oss.go.id/oss/cms/3-menu-PB-KP---Permohonan-Baru-e5136e04ff517212b5f7f9b8c1e2dfd0.png
+6. https://s3.oss.go.id/oss/cms/blobid6-62e8557fb84978f43b3b6ba4cf5e693e.png
+7. https://s3.oss.go.id/oss/cms/blobid2-f4125b4f0a73f6ae975e056f5a0798ab.png
+8. https://s3.oss.go.id/oss/cms/blobid3-f21b1c2619e7f8145328e128233c2298.png
+9. https://s3.oss.go.id/oss/cms/blobid8-8ab95a0e576c196e22134248f0dab232.png
+10. https://s3.oss.go.id/oss/cms/1-portal-masuk-31b9112d493dc146bc6ca080434a3b4f.png
+11. https://s3.oss.go.id/oss/cms/blobid7-57e2990be5057e27d8a85cb5f600d183.png
+12. https://s3.oss.go.id/oss/cms/blobid1-71aafc8e0decff20e763af5017634bd5.png

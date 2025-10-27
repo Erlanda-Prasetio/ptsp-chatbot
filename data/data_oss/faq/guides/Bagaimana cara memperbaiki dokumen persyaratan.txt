@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara memperbaiki dokumen persyaratan?
+Source: https://oss.go.id/id/faq/kategori?id=68e48656711547977a0df1e1
+Scraped: 2025-10-21T15:18:31.373907
+================================================================================
+
+QUESTION:
+Bagaimana cara memperbaiki dokumen persyaratan?
+
+ANSWER:
+Perbaikan dokumen persyaratan dapat dilakukan melalui menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Pemenuhan Persyaratan lalu perbaiki sesuai catatan dari verifikator.
+
+================================================================================

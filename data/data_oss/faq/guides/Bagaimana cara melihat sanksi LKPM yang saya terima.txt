@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melihat sanksi LKPM yang saya terima?
+Source: https://oss.go.id/id/faq/kategori?id=68e488f57795640efd3ef07a
+Scraped: 2025-10-21T15:09:03.889942
+================================================================================
+
+QUESTION:
+Bagaimana cara melihat sanksi LKPM yang saya terima?
+
+ANSWER:
+Untuk melihat jenis sanksi dan status sanksi, silakan mengikuti langkah-langkah berikut: 1. Buka situs web resmi 2. Masuk menggunakan email/username dan password 3. Lihat menu SANKSI di barisan kanan pada akun OSS 4. Klik tombol DAFTAR SANKSI LKPM
+
+================================================================================

@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melakukan pemenuhan persyaratan pada OSS?
+Source: https://oss.go.id/id/faq/kategori?id=68e48620711547977a0df1c1
+Scraped: 2025-10-21T15:18:51.278630
+================================================================================
+
+QUESTION:
+Bagaimana cara melakukan pemenuhan persyaratan pada OSS?
+
+ANSWER:
+Untuk melakukan pemenuhan persyaratan perizinan berusaha, silakan pilih menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Pemenuhan Persyaratan. Klik tombol Proses Pemenuhan Persyaratan Izin untuk tingkat risiko tinggi. Klik tombol Proses Pemenuhan Persyaratan SS untuk tingkat risiko menengah tinggi. Klik tombol Proses Pemenuhan Persyaratan di Sistem K/L untuk pemenuhan persyaratan pada sistem K/L yang terintegrasi dengan OSS. Setelah melengkapi dokumen pemenuhan persyaratan, status akan berubah menjadi Menunggu Verifikasi Persyaratan. Dokumen Pemenuhan Persyaratan akan diverifikasi oleh Kementerian/Lembaga/Pemerintah Daerah yang berwenang.
+
+================================================================================

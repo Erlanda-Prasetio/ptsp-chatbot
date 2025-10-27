@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Data Tidak Ditemukan Saat Ingin Ubah Penanggung Jawab?
+Source: https://oss.go.id/id/faq/kategori?id=68e4854f711547977a0df185
+Scraped: 2025-10-21T15:21:15.779743
+================================================================================
+
+QUESTION:
+Kenapa Data Tidak Ditemukan Saat Ingin Ubah Penanggung Jawab?
+
+ANSWER:
+Munculnya notifikasi Data tidak ditemukan saat ingin mengubah penanggung jawab bisa disebabkan oleh kesalahan penginputan nomor SK pengesahaan terakhir atau ketidaksesuaian penginputan data identitas penanggung jawab. Mohon pastikan kembali nomor SK pengesahan terakhir yang diinput sudah sesuai dan data identitas penanggung jawab diisi dengan lengkap dan benar sesuai yang tercantum pada data AHU terbaru. Perhatikan ketepatan dalam penginputan nama, NIK/nomor paspor, alamat, dan data lainnya. Jika terdapat ketidaksesuaian pada data AHU, silakan menghubungi kembali notaris.
+
+================================================================================

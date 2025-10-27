@@ -1,0 +1,62 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: KlikCetak SK Pemanfaatanuntuk mencetak Salinan Pemanfaatan
+Source: https://oss.go.id/panduan/635970086345c7d71a8144c2
+Scraped: 2025-10-20T15:36:38.922057
+Total Steps: 17
+Total Images: 32
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 1. Masuk ke Menu Perizinan Berusaha >> Fasilitas >> Investment Allowance >> Permohonan
+6. 2. Pilih Kegiatan Usaha yang akan diproses
+7. 3.a Lengkapi data Dokumen Persyaratan yang dibutuhkan
+8. 3.b Lengkapi data Dokumen Persyaratan yang dibutuhkan
+9. 4. Pengiriman Permohonan Investment Allowance ke Pemroses (DJP)
+10. 5. Pilih Daftar Permohonan Investment Allowance agar dapat melihat status dari permohonan tersebut
+11. 6. Pemrosesan Investment Allowance oleh DJP s/d Terbit Surat Keputusan
+12. 7. Pelaku Usaha Menerima Surat Keputusan
+13. 4. Pengiriman Pemanfaatan Investment Allowance ke Pemroses (DJP)
+14. 5. Pilih Daftar Pemanfaatan Investment Allowance agar dapat melihat status dari permohonan tersebut
+15. 6. Pemrosesan Pemanfaatan Investment Allowance oleh DJP s/d Terbit Surat Keputusan
+16. 1.Realisasi Aktiva
+17. 2.Faktur Penjualan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (32 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1---7A-aeb97c11b24554b6c1959455635fc040.png
+2. https://s3.oss.go.id/oss/cms/1-portal-07aa2d403d7447f46a74fe7a8481c386.png
+3. https://s3.oss.go.id/oss/cms/blobid32-109efba9d4492e8360496446b66c2a75.png
+4. https://s3.oss.go.id/oss/cms/2---2-e2194948ca6eccd8aab371cb37b49174.png
+5. https://s3.oss.go.id/oss/cms/blobid47-7331ab7f100f1d5918ed9854b65ef340.png
+6. https://s3.oss.go.id/oss/cms/2---6-adcc3ded388a8a53ac2a454790bb6790.png
+7. https://s3.oss.go.id/oss/cms/1-portal-masuk-efd5d97904d63c973c6a134f5bd041a5.png
+8. https://s3.oss.go.id/oss/cms/1---2-310e67447e6b1c855c92888154a98650.png
+9. https://s3.oss.go.id/oss/cms/2---7A-a591223650edccb6217a11e48121f0fc.png
+10. https://s3.oss.go.id/oss/cms/blobid56-7934f2ca37716da60bf7be9ee7061fe1.png
+11. https://s3.oss.go.id/oss/cms/2---3B-08718d3a718fd766cacea076949b9186.png
+12. https://s3.oss.go.id/oss/cms/1---3B-fe23caa535d8bbd0bac2c2ed67176231.png
+13. https://s3.oss.go.id/oss/cms/2---7B-954c2c6e70e901bd5b3d32e84d33cc31.png
+14. https://s3.oss.go.id/oss/cms/1---5A-b9199488b47b4d4f8ba278fd89e82cd7.png
+15. https://s3.oss.go.id/oss/cms/blobid90-79efa812daa174b83b1c5645bfe437c1.png
+16. https://s3.oss.go.id/oss/cms/blobid40-f29790797eb811dfba23bc31bf37ee96.png
+17. https://s3.oss.go.id/oss/cms/blobid35-06585830487b3cacbd542d14e5a0259a.png
+18. https://s3.oss.go.id/oss/cms/1---6-79e601edc6bf03079ce85a33ffb44a8e.png
+19. https://s3.oss.go.id/oss/cms/1---3A-15bb1c0a26ffb9937830c169ad6ccfc2.png
+20. https://s3.oss.go.id/oss/cms/2---3A-ee381f315b4335199575536840095966.png
+21. https://s3.oss.go.id/oss/cms/2---5A-2655c11ada16b4e12e0c4d87e3018890.png
+22. https://s3.oss.go.id/oss/cms/blobid37-d258517c003ac1cfba5a2a74202fff28.png
+23. https://s3.oss.go.id/oss/cms/1---7B-b5c3a9550ad50be44d316414673af78d.png
+24. https://s3.oss.go.id/oss/cms/2---1-05243d88804685cf60fd355360e3a7a8.png
+25. https://s3.oss.go.id/oss/cms/1---1-62b71fac000e0228dfc200bbd99ebf88.png
+26. https://s3.oss.go.id/oss/cms/blobid44-d46183b95191999711e3d59f5ebf31dd.png
+27. https://s3.oss.go.id/oss/cms/blobid49-80a138aad27eef7c9fdd0a19bb3b19b7.png
+28. https://s3.oss.go.id/oss/cms/blobid52-6ec842fd914b03c5c9987ab758119a16.png
+29. https://s3.oss.go.id/oss/cms/2---5B-29f9fa33f9c66ed9b41ef98dee80938a.png
+30. https://s3.oss.go.id/oss/cms/blobid29-d6f68071e2ed80625a447cfb4877bdab.png
+31. https://s3.oss.go.id/oss/cms/1---5B-c07c8887b307aa79993500c35059a8e4.png
+32. https://s3.oss.go.id/oss/cms/blobid39-471e4209c6728685fc1fac60bad94784.png

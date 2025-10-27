@@ -1,0 +1,13 @@
+================================================================================
+Title: Apa saja persetujuan lingkungan yang harus saya miliki untuk kegiatan usaha yang saya jalankan?
+Source: https://oss.go.id/id/faq/kategori?id=68e4872f711547977a0df213
+Scraped: 2025-10-21T15:14:42.482992
+================================================================================
+
+QUESTION:
+Apa saja persetujuan lingkungan yang harus saya miliki untuk kegiatan usaha yang saya jalankan?
+
+ANSWER:
+Sistem OSS akan melakukan pemeriksaan ketentuan lingkungan hidup dan dokumen yang harus diproses oleh pelaku usaha berdasarkan kegiatan usaha atau Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) dan parameter lingkungan. Setiap rencana usaha dan/atau kegiatan yang berdampak terhadap lingkungan wajib memiliki dokumen lingkungan hidup berupa: 1. Analisis dampak lingkungan (Amdal); 2. Upaya Pengelolaan Lingkungan-Upaya Pemantauan Lingkungan (UKL-UPL); atau Surat Pernyataan Pengelolaan Lingkungan (SPPL). Pelaku usaha dapat mengetahui parameter lingkungan dan dokumen lingkungan apa yang wajib dimiliki pada KBLI yang akan dipilih yaitu melalui oss.go.id, kemudian pilih menu Informasi, lalu pilih Persyaratan Dasar, dan pilih Persetujuan Lingkungan. Informasi mengenai parameter lingkungan dan dokumen lingkungan untuk suatu KBLI: https://oss.go.id/informasi/persyaratan-dasar?tab=persetujuan-lingkungan&page=1
+
+================================================================================

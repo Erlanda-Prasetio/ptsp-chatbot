@@ -3,11 +3,24 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Try Groq first, fallback to OpenRouter
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-if not OPENROUTER_API_KEY:
-    raise RuntimeError("Missing OPENROUTER_API_KEY in environment (.env)")
 
-GEN_MODEL = os.getenv("GEN_MODEL", "mistral-7b-instruct")
+# Determine which API to use - check env variable explicitly
+_use_groq_env = os.getenv("USE_GROQ", "").lower()
+USE_GROQ = _use_groq_env == "true" if _use_groq_env else bool(GROQ_API_KEY)
+
+if not GROQ_API_KEY and not OPENROUTER_API_KEY:
+    raise RuntimeError("Missing API key: Set either GROQ_API_KEY or OPENROUTER_API_KEY in .env")
+
+# Model selection - use MODEL from .env for Groq, GEN_MODEL for OpenRouter
+if USE_GROQ:
+    GEN_MODEL = os.getenv("MODEL", "llama-3.3-70b-versatile")
+    print(f"✅ Using Groq API with model: {GEN_MODEL}")
+else:
+    GEN_MODEL = os.getenv("GEN_MODEL", "mistral-7b-instruct")
+    print(f"✅ Using OpenRouter API with model: {GEN_MODEL}")
 EMB_MODEL = os.getenv("EMB_MODEL", "nomic-embed-text")
 MAX_CONTEXT_TOKENS = int(os.getenv("MAX_CONTEXT_TOKENS", "1600"))
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "800"))

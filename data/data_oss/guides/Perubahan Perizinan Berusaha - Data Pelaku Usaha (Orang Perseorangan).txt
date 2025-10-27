@@ -1,0 +1,36 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Perubahan Perizinan Berusaha - Data Pelaku Usaha (Orang Perseorangan)
+Source: https://oss.go.id/panduan/635970086345c7d71a8144a9
+Scraped: 2025-10-20T15:30:36.501028
+Total Steps: 16
+Total Images: 7
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikiHak Akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. Masukkanusernamedanpassword, lalu klik tombolMASUK
+5. 5. Akses menuPerizinan Berusaha,pilihperizinan, klikpermohonan baru.
+6. 6. PeriksaData Pelaku Usaha
+7. 1.Nomor Induk Kependudukan (NIK)
+8. 3.Jenis Kelamin
+9. 4.Tempat/Tanggal Lahir
+10. 5.Nomor Telepon (bisa diubah dalam menu Profil)
+11. 6.Alamat KTP
+12. 7.Email (bisa diubah dalam menu Profil)
+13. 7. UbahData Pelaku Usaha
+14. 1.Nomor Pokok Wajib Pajak (NPWP) Pribadi
+15. 2.Apakah Anda sudah memiliki BPJS Ketenagakerjaan?
+16. 3.Apakah Anda sudah memiliki BPJS Kesehatan?
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (7 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid46-e4f78a95a70fecc761f915640cc2f48c.png
+2. https://s3.oss.go.id/oss/cms/blobid44-8610657e121ff8eee50ef0ee34e1ec63.png
+3. https://s3.oss.go.id/oss/cms/3-menu-PB---permohonan-baru-a835bd57aecc5f17117f846d7299d721.png
+4. https://s3.oss.go.id/oss/cms/1-portal-masuk-02fc8419dda7078015f62158418e3e10.png
+5. https://s3.oss.go.id/oss/cms/blobid47-d9ec173d74796801928657f7220cc47d.png
+6. https://s3.oss.go.id/oss/cms/1-portal-b5e3619016a7b53be9c3269fcf399a33.png
+7. https://s3.oss.go.id/oss/cms/blobid41-a4f0eeae4b67f45bf69291037684b1ee.png

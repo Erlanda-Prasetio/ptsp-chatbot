@@ -1,0 +1,31 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Tax Holiday merupakan Fasilitas Pengurangan Pajak Penghasilan Badan yang dapat diajukan maksimal 1 (satu) tahun sejak tanggal pengajuan kegiatan usaha.
+Source: https://oss.go.id/panduan/6656d4e4c317a42349b179d0
+Scraped: 2025-10-20T15:26:57.473209
+Total Steps: 9
+Total Images: 9
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1.Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3.Masuk ke menuFasilitas, pilihIbu Kota Nusantara, laluTax Holiday Pembuatan/Pemindahan Kantor Pusatdan pilihPermohonan.
+4. 4.Klik tanda ‘v’ pada Kegiatan Usaha yang akan dipilih, lalu klikPILIH KEGIATAN USAHA.
+5. 5.Pastikan Data Badan Usaha sudah sesuai. Anda dapat melihat Data Usaha dan Cetakan NIB dengan klikLIHAT DATA. Jika sudah benar, klikSELANJUTNYA.
+6. 6.Lengkapi Dokumen Persyaratan yang dibutuhkan, sepertiData Aktiva, Surat Pernyataan Komitmen Memenuhi Substansi Ekonomi di IKN&Bukti Dokumen Memiliki 2 Affiliasi di Luar Negeri. KlikCEK SKF PEMEGANG SAHAMUntuk Mengecek Surat Keterangan Fiskal, klikUBAH DOKUMENjika Anda ingin merubah Dokumen dan klikUNDUH DOKUMENjika Anda ingin mengunduh Dokumen. lalu klik Selanjutnya.
+7. 7.Periksa kembali dokumen permohonan jika diperlukan pada halaman preview Dokumen Persyaratan.
+8. 8.Pilih seluruh pernyataan/disclaimer untuk dapat melanjutkan ke proses permohonan dan bahwa data yang dimasukkan sudah benar. Berikan Catatan jika diperlukan. KlikPROSES PERMOHONANuntuk mengirim permohonan ke Kementerian Investasi/BKPM
+9. 9.Masuk kembali ke menuFasilitas, pilihIbu Kota Nusantara, laluTax Holiday Pembuatan/Pemindahan Kantor Pusatdan pilihPermohonan. Jika status Permohonan sudah berubah menjadiBKPM - Dokumen Diterima, maka Permohonan anda sudah selesai di submit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (9 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image4-82bbeb42dc8f33f05668bc8bbfc08f65.png
+2. https://s3.oss.go.id/oss/cms/image11-5b4e166c0049cd8312034c1a1a7ab59c.png
+3. https://s3.oss.go.id/oss/cms/image1-7e860dcbe226a5b1acaa6562547394eb.png
+4. https://s3.oss.go.id/oss/cms/image7-2be80e82c0e08d12befebd554cad4fc3.png
+5. https://s3.oss.go.id/oss/cms/image3-b372f330ece0ff93f3786869e13fd01d.png
+6. https://s3.oss.go.id/oss/cms/image2-47117e85327c114a50e1ed7980788b4f.png
+7. https://s3.oss.go.id/oss/cms/image10-2e516b02244b9fc2b7798c77f4deec80.png
+8. https://s3.oss.go.id/oss/cms/3-f2f1a72114e3e8744096284b4d0a6545.png
+9. https://s3.oss.go.id/oss/cms/image8-70549f81fb973ce104fd6fa32976b25b.png

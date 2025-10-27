@@ -1,0 +1,104 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: NIB Terbit dan Sertifikat Standar Terbit Otomatis
+Source: https://oss.go.id/panduan/67c7d741199a2e26318cd299
+Scraped: 2025-10-20T15:24:44.377937
+Total Steps: 12
+Total Images: 79
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Klik Menu Perizinan Berusaha, pilih Perubahan, lalu pilih Perubahan Data Usaha
+5. 5. Pilih Data Usaha yang Ingin Dilakukan Perubahan
+6. 6.A Pilih Ubah Data Bidang Usaha pada Form Perubahan Dilakukan
+7. 6.C Pilih Ubah Data Rencana Investasi pada Form Perubahan Dilakukan
+8. 6.D Pilih Ubah Data Produk/Jasa pada Form Perubahan Dilakukan
+9. 6.E Pilih Ubah Data Persetujuan Lingkungan pada Form Perubahan Dilakukan
+10. 6.F Pilih Ubah Data Tenaga Kerja pada Form Perubahan Dilakukan
+11. 6.G Pilih Ubah Data Usaha pada Form Perubahan Dilakukan
+12. 6.H Pilih Semua Ubah Data pada Form Perubahan Dilakukan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (79 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture65-333f2c40341981341f43d7254699faa8.png
+2. https://s3.oss.go.id/oss/cms/Picture8-334e65e1bd29571fab305efcc11323f3.png
+3. https://s3.oss.go.id/oss/cms/Picture37-a15206c572e90a8c2bdc8a2f2e05c206.png
+4. https://s3.oss.go.id/oss/cms/Picture33-e2c9a51451b7aac5831416ba94c6a382.png
+5. https://s3.oss.go.id/oss/cms/Picture3-d52cf74636098f9bab8948bcdb16288a.png
+6. https://s3.oss.go.id/oss/cms/Picture35-d7b3531fc14dadd4a0c6b1a63012e46a.png
+7. https://s3.oss.go.id/oss/cms/Picture57-91debc63b8c29ee3f576cbaf67121d8e.png
+8. https://s3.oss.go.id/oss/cms/Picture42-5bf01c2c4a4b14fb609de556394cd467.png
+9. https://s3.oss.go.id/oss/cms/Picture5-57cbf8d247a0f66d4be73d03fbce427a.png
+10. https://s3.oss.go.id/oss/cms/Picture64-a1183db52be29b646fea8bd5df1097eb.png
+11. https://s3.oss.go.id/oss/cms/Picture76-ddb9c91e3d45031a8091c55521d9e495.png
+12. https://s3.oss.go.id/oss/cms/Picture1-05f052a61fa85b1c158deda2587cb231.png
+13. https://s3.oss.go.id/oss/cms/Picture28-752219e970aa8f2df9a2b13a35c25f25.png
+14. https://s3.oss.go.id/oss/cms/Picture22-6ecb842bde1b47158f3881f9dfd4a834.png
+15. https://s3.oss.go.id/oss/cms/Picture16-230401f0ff7a647f300cc22b70282c82.png
+16. https://s3.oss.go.id/oss/cms/Picture61-c27450f78cc221769e7c9abddb63c75f.png
+17. https://s3.oss.go.id/oss/cms/Picture69-9568775651965d89fa68ec5ad837be7c.png
+18. https://s3.oss.go.id/oss/cms/Picture48-b01478c22c9456fdea4f5c6b9ba95a52.png
+19. https://s3.oss.go.id/oss/cms/Picture9-f51755d6176f25b9f51cd8c0c72fbe09.png
+20. https://s3.oss.go.id/oss/cms/Picture34-8de83307e029edfc3971af7b1b8467db.png
+21. https://s3.oss.go.id/oss/cms/Picture53-8febdc4428c049380a1709dc1c2d0f0a.png
+22. https://s3.oss.go.id/oss/cms/Picture68-f6eab1d5d49676a111fe084e6ee0f766.png
+23. https://s3.oss.go.id/oss/cms/Picture71-c8638f27e9de8522cd0cc65b91c05be2.png
+24. https://s3.oss.go.id/oss/cms/Picture75-875ac9c4377a9a396d6d387a28e93877.png
+25. https://s3.oss.go.id/oss/cms/Picture59-244c457db4f043cb768c723719f2bb2e.png
+26. https://s3.oss.go.id/oss/cms/Picture32-0225e296a88abed56a2bff98fcd1c298.png
+27. https://s3.oss.go.id/oss/cms/Picture44-a92d9d1f0800185b9ffc968298e03fee.png
+28. https://s3.oss.go.id/oss/cms/Picture77-3062afbf3020bb188dc3610e11196887.png
+29. https://s3.oss.go.id/oss/cms/Picture46-51933c7085d11b3aecd200d83e0cb0f1.png
+30. https://s3.oss.go.id/oss/cms/Picture63-a0211ed3db6473208beb9a92293ef0a0.png
+31. https://s3.oss.go.id/oss/cms/Picture19-91d9d2d1cd9461a05db68dadb0ff8128.png
+32. https://s3.oss.go.id/oss/cms/Picture70-b6fb4f739ea9fe9b1c2245c798c51dbb.png
+33. https://s3.oss.go.id/oss/cms/Picture62-3650dd10231c8d22e44f798b16e5ea35.png
+34. https://s3.oss.go.id/oss/cms/Picture14-f96dccac7f008da03121046cf5e08daf.png
+35. https://s3.oss.go.id/oss/cms/Picture54-c3ad5edb1988d0b137922f3bebb45815.png
+36. https://s3.oss.go.id/oss/cms/Picture27-07ab434d485cf741ab945e119a97cebb.png
+37. https://s3.oss.go.id/oss/cms/Picture41-14f1d21eeb4834cc51f452e2538d314d.png
+38. https://s3.oss.go.id/oss/cms/Picture52-2d407ae255b7bdfe9263a5f84976764e.png
+39. https://s3.oss.go.id/oss/cms/Picture17-2e01a1165c694e1b1a69400ffeda5f69.png
+40. https://s3.oss.go.id/oss/cms/Picture40-9daec5f129e5859b4325dcd17becfb03.png
+41. https://s3.oss.go.id/oss/cms/Picture6-f26263c0b791401e4ee93aa04a8b2f0b.png
+42. https://s3.oss.go.id/oss/cms/Picture74-24ec661ce7d97a99bd3d41d1cc4a24cd.png
+43. https://s3.oss.go.id/oss/cms/Picture30-25c44812b2acbe697967c916cc11f195.png
+44. https://s3.oss.go.id/oss/cms/Picture26-8054b7895c3c638da9a4e3c8faf2e1cd.png
+45. https://s3.oss.go.id/oss/cms/Picture60-d6ffc8c34f95cc2ec1c714f8bb6acdf2.png
+46. https://s3.oss.go.id/oss/cms/Picture43-ae8f9694e4647edbaec4da8031905b4c.png
+47. https://s3.oss.go.id/oss/cms/Picture47-78ae55cac8a81ddc2c96de6d0ea0843f.png
+48. https://s3.oss.go.id/oss/cms/Picture39-ad899d89bc4c727bd7657fdd97ed40d2.png
+49. https://s3.oss.go.id/oss/cms/Picture38-e4a46f27a3f227f9b40f69442c04b94a.png
+50. https://s3.oss.go.id/oss/cms/Picture66-3d64bbb1841107d95ab5e5fbb15b4516.png
+51. https://s3.oss.go.id/oss/cms/Picture12-6d401935a6a053a3fee2b4c788c1f1dd.png
+52. https://s3.oss.go.id/oss/cms/Picture21-77350e6a7fbb0930f2c0de86cc606af5.png
+53. https://s3.oss.go.id/oss/cms/Picture2-cf2fe2b0788e9da2b5ec4452a15b12a8.png
+54. https://s3.oss.go.id/oss/cms/Picture10-dc4bbfeb77df829ee4247ef6c906ce7c.png
+55. https://s3.oss.go.id/oss/cms/Picture20-e07067ef6b5968ca80bb8a1fd35eaf36.png
+56. https://s3.oss.go.id/oss/cms/Picture45-07d32fc0241c6782d44bc4c4d653c80d.png
+57. https://s3.oss.go.id/oss/cms/Picture7-ffe5b17e5b8fa4d98faf7b9e91fedc9e.png
+58. https://s3.oss.go.id/oss/cms/Picture23-0cc4332e19c80c63752e4bd6c8bc16bc.png
+59. https://s3.oss.go.id/oss/cms/Picture58-ae9b3d3fd8acd7860a4f07c6fbcccddf.png
+60. https://s3.oss.go.id/oss/cms/Picture31-944098c90ce2ab36808b942c6a6ea0b1.png
+61. https://s3.oss.go.id/oss/cms/Picture49-4cf72141641142b3fe97a74b3ebdb0ed.png
+62. https://s3.oss.go.id/oss/cms/Picture50-ce4fadb9a3da25defb4f4127a06ccfd4.png
+63. https://s3.oss.go.id/oss/cms/Picture51-816464167e1454f872b0e1c2e164d69e.png
+64. https://s3.oss.go.id/oss/cms/Picture15-802691ced5f295ac88d489c050eb701b.png
+65. https://s3.oss.go.id/oss/cms/Picture79-99884ce960643fd0f02cf14883f52c76.png
+66. https://s3.oss.go.id/oss/cms/Picture24-ec9f559faa7885cbb9efd04959b8d60c.png
+67. https://s3.oss.go.id/oss/cms/Picture73-51940a263014dad0644d486c66475921.png
+68. https://s3.oss.go.id/oss/cms/Picture11-6147a64037db12760e8589241d2b620c.png
+69. https://s3.oss.go.id/oss/cms/Picture13-2fc7ec8f28f8c28e57809589e9605cde.png
+70. https://s3.oss.go.id/oss/cms/Picture78-d83bc643759d52a3ad465c1d1dae365a.png
+71. https://s3.oss.go.id/oss/cms/Picture55-b00ba4632d0ca91d4822e5f92ed8e15a.png
+72. https://s3.oss.go.id/oss/cms/Picture72-31ec72b85babe170764c296338296627.png
+73. https://s3.oss.go.id/oss/cms/Picture29-bc7def9b44835f0bc6583da9c276e6bf.png
+74. https://s3.oss.go.id/oss/cms/Picture25-7e445a1ee1014010cc7ccc4df101b882.png
+75. https://s3.oss.go.id/oss/cms/Picture56-746a5ef79d7caac771fed0174722aed8.png
+76. https://s3.oss.go.id/oss/cms/Picture18-b2b77987ab5205d296d812f1d7d74e4c.png
+77. https://s3.oss.go.id/oss/cms/Picture36-347f844ebc24efeb69b258c550129a33.png
+78. https://s3.oss.go.id/oss/cms/Picture4-ee2001cf3857e9b0e9c90ec73ba7a758.png
+79. https://s3.oss.go.id/oss/cms/Picture67-d30b854536492cda14b9ec6cf1e14950.png

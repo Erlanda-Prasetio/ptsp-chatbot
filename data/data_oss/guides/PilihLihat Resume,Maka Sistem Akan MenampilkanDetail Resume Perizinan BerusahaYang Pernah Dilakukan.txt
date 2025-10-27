@@ -1,0 +1,44 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: PilihLihat Resume,Maka Sistem Akan MenampilkanDetail Resume Perizinan BerusahaYang Pernah Dilakukan
+Source: https://oss.go.id/panduan/64829f8ad033753dd77d8a72
+Scraped: 2025-10-20T15:33:49.475844
+Total Steps: 12
+Total Images: 19
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuPerizinan Berusaha,PilihPerubahan,Lalu PilihPerubahan Data Usaha
+5. 5. Pilih Data Usaha Yang Akan Diubah
+6. 6. Pemberitahuan Perubahan Data
+7. 7.Ubah Alamat Usaha
+8. 8.Lanjutkan KoreksiAlamat Usaha
+9. 9. Periksa Koreksi Alamat Usaha
+10. 10. Informasi Dan Pemberitahuan Perubahan Data Usaha
+11. 11.Periksa Status PermohonanPada MenuPelacakan
+12. 12. Lacak Status Permohonan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (19 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid53-acacdb6264066db77473b276c8886197.png
+2. https://s3.oss.go.id/oss/cms/blobid52-65d371e6980b7e18ce39960a3fb789ea.png
+3. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-data-usaha-(1)-ede6b7babbbaddaec5470061db20c107.png
+4. https://s3.oss.go.id/oss/cms/blobid38-58164383899b5e0c0f29150c59019260.png
+5. https://s3.oss.go.id/oss/cms/blobid43-14f48c61758ca49bb98a014b6608cde9.png
+6. https://s3.oss.go.id/oss/cms/blobid54-482c307f01148a24357c492fb134a130.png
+7. https://s3.oss.go.id/oss/cms/blobid55-b58f04e49855ba7de1cea106521603cc.png
+8. https://s3.oss.go.id/oss/cms/blobid44-28f36a06ac5a03bbc7af9b4389f5f97f.png
+9. https://s3.oss.go.id/oss/cms/blobid46-ce78a52c6c930fd987cc76454529d204.png
+10. https://s3.oss.go.id/oss/cms/blobid48-d2429f5623f32aa18c183d85352105df.png
+11. https://s3.oss.go.id/oss/cms/1-portal-masuk-6cb5b3d84d3392c1fd76f42542a57e7b.png
+12. https://s3.oss.go.id/oss/cms/blobid41-f8642b4090266eefc644ac17f4946591.png
+13. https://s3.oss.go.id/oss/cms/blobid49-14e7617f665b0a7d66c37f3019d92376.png
+14. https://s3.oss.go.id/oss/cms/blobid47-9ba9daccf4c3ce702c5a0668b2a6ee30.png
+15. https://s3.oss.go.id/oss/cms/blobid42-d136dc8c434fd14b3573fb8ba43803e1.png
+16. https://s3.oss.go.id/oss/cms/blobid50-9f8f7aa5e2785df4aa4d80f750431b24.png
+17. https://s3.oss.go.id/oss/cms/blobid51-6136bdad2adf1ecb6ad39f49383148cb.png
+18. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-(1)-3e3fae2fd01decac9f29abbc7ade292d.png
+19. https://s3.oss.go.id/oss/cms/blobid45-15882422a60468f9c8007860e6ed8b2f.png

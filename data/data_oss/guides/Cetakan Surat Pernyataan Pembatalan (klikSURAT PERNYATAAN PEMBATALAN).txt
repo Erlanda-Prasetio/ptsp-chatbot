@@ -1,0 +1,45 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Surat Pernyataan Pembatalan (klikSURAT PERNYATAAN PEMBATALAN)
+Source: https://oss.go.id/panduan/635970086345c7d71a8144c9
+Scraped: 2025-10-20T15:29:48.228210
+Total Steps: 15
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK
+3. 3. Masuk ke menuPERIZINAN BERUSAHAdan klikPERMOHONANPEMBATALAN
+4. 4. Sistem akan melakukan pengecekan apakah NPWP Anda valid atau tidak. Setelah NPWP dinyatakan valid, klikPROSESuntuk melanjutkan permohonan. Apabila NPWP dinyatakan tidak valid, silakan menghubungiKantor Pelayanan Pajak terdekat atau Kring Pajak 1500200
+5. 5. KlikPROSES PERMOHONANuntuk memproses permohonan Pembatalan
+6. 6. Pastikan LKPM kegiatan usaha atas seluruh Kegiatan Usaha Anda telahvalid (disetujui). Setelah LKPM kegiatan usaha dinyatakan valid, klikPROSESuntuk melanjutkan permohonan
+7. 7. PeriksaData Proyek. Data Proyek pada formulir permohonan akan munculberdasarkan tingkat risiko usaha yang Anda pilih. Klik padaTAB DATA PENANAMAN MODAL RISIKOatau klik ikon“V”untuk menampilkan data Kegiatan.
+8. 8. PeriksaData Pelaku Usaha, pastikan data yang ditampilkan oleh sistem sudah benar.
+9. 9. PeriksaData Akta (Khusus Status Penanaman Modal Asing).Data Akta akan ditampilkan olehsistem secara otomatis (khusus PMA jika kegiatan usaha tidak tercantum lagi dalam maksud dan tujuan atas akta Pelaku Usaha tersebut),
+10. 10. Lengkapi Data Pemohon. Jika Jabatan Pemohontidak tampil secara otomatismaka Andawajibmengisi Jabatan Pemohon.
+11. 11. Baca dan Pahami Pernyataan dengan teliti, lalu centang kotakDISCLAIMER(format surat pernyataan dapat dilihat pada menuPRATINJAU SURAT PERNYATAAN) dan klikSAYA SUDAH MEMBACA DAN MENYETUJUI.Lalu,klikKIRIM PERMOHONANuntuk mengirimkan permohonan Pembatalan
+12. 12. Setelah melengkapi data pada permohonan dan klikPROSES, akan ada notifikasi konfirmasi untuk melakukan Pembatalan. KlikYAuntuk melanjutkan proses permohonan Pembatalan. Lalu, klikOKuntuk menyelesaikan proses permohonan pembatalan selanjutnya sistem secara otomatis akan menampilkan halaman tracking Permohonan Pembatalan
+13. 13.Permohonan Pembatalan-secara otomatis akan disetujui oleh sistem. Klik tanda“V”untuk menampilkan tombol lihat detail. Lalu, KlikLIHAT DETAILuntuk melihat daftar cetakan pembatalan yang sudah disetujui
+14. 14. Permohonan Pembatalan yang telah disetujui akan menampilkan:
+15. 15. Setelah Permohonan Pembatalan“Disetujui”Surat Permohonan Pembatalan pun akan terbit. Pelaku Usaha akan mendapatkan Surat Pembatalan Sertifikat Standar belum terverifikasi tercetak khusus pada kegiatan usaha Tingkat Risiko Menengah Tinggi dan Surat Pembatalan Izin Percepatan belum terverifikasi tercetak khusus pada kegiatan usaha tingkat risiko tinggi.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/6-99f89eafdd2289336322ec75a7b2bb15.png
+2. https://s3.oss.go.id/oss/cms/15-2-e97339e424aa30b1bcede9b7d7b0705c.png
+3. https://s3.oss.go.id/oss/cms/9-46053c3d787a268534500a2ff1b0bee7.png
+4. https://s3.oss.go.id/oss/cms/11-d3fb45dd6202fe3d779adcdd35720402.png
+5. https://s3.oss.go.id/oss/cms/14-2c8876efe6722b5892f1b5e2ce970acb.png
+6. https://s3.oss.go.id/oss/cms/7-54fa56df645dacf16471c9be15a630f9.png
+7. https://s3.oss.go.id/oss/cms/5-58bc8a9f1059aeeb863f6a481be43f5b.png
+8. https://s3.oss.go.id/oss/cms/2-b2e6a28054f9bc835e0dbc1a309f5192.png
+9. https://s3.oss.go.id/oss/cms/4-95407fdfb15d42acca9b7f6f1fdc7329.png
+10. https://s3.oss.go.id/oss/cms/7-2a86d4962c3834dc3fe5cffa2ef91dfa.png
+11. https://s3.oss.go.id/oss/cms/8-868123a2c40f9ab1da6ea6fb42c483f0.png
+12. https://s3.oss.go.id/oss/cms/10-4f82d1fabdeda936de0c020788cdc1ad.png
+13. https://s3.oss.go.id/oss/cms/15-1-351c72fc9e7e2791410c54495623c0c1.png
+14. https://s3.oss.go.id/oss/cms/12-ea0280abab8225a05a9bdaf8cdb79555.png
+15. https://s3.oss.go.id/oss/cms/15-3-77b936b971e8d7a54cec6e9f266733aa.png
+16. https://s3.oss.go.id/oss/cms/3---Menu-Pembatalan-Perizinan-Berusaha-(UMK-dan-Non-UMK-(No,3))-2f230db6e80566f72992863adbd4ea49.png
+17. https://s3.oss.go.id/oss/cms/13-8ed6962899e241d332a5d2776fbd19cd.png

@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Panduan Ubah Email Akun OSS yang Tidak Aktif untuk Badan Usaha
+Source: https://oss.go.id/panduan/63a5bf21c406b3c60dc5c7c5
+Scraped: 2025-10-20T15:38:13.271485
+Total Steps: 12
+Total Images: 12
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Masuk ke akun anda melaluihttps://oss.go.id/dengan cara klikMASUKdi pojok kanan atas.
+2. 2. KlikButuh Bantuan?
+3. 3. KlikEmail Sudah Tidak Aktif.Jika anda lupa email mana yang digunakan untuk akun OSS, kami sarankan untuk menggunakan fiturLupa Akunterlabih dahulu. Setelah Anda mengingat email mana yang digunakan, anda dapat melakuan atur ulang password secara mandiri. Sehingga anda tidak perlu menunggu untuk dapat masuk ke dalam akun OSS anda.
+4. 4. Pilih jenis pelaku usaha.Kemudian, berikan alasan permohonan ubah email yangTidak bisa akses email terdaftaratau alasanLainnya.Lalu klikLANJUT.
+5. 5.Lengkapi formulir. Mulai dariEmail Terdaftar di OSS(boleh tidak diisi),Jenis Badan Usaha, Nama Badan Usaha, NIK / No. Paspor Penanggung Jawab. Harap diingat, bahwa hanya Penanggung Jawab akun yang bisa mengajukan perubahan email atau pihak lain dengan dilengkapi surat kuasa. Bagi permohonan yang dikuasakan kepada pihak lain, harus mengupload KTP penerima kuasa dan surat kuasa dengan materai.
+6. 6. Lakukan swafoto (selfie).Penting! Harap baca panduan swafoto dengan benar. Karena permohonan anda bisa ditolak apabila swafoto dilakukan tidak sesuai dengan ketentuan.Lalu, klikLANJUT.
+7. 7. Lakukan swafoto dengan menuliskan kode permohonan yang tertulis pada layar komputer anda di atas sebuah kertas putih.
+8. 8. KlikLANJUT
+9. 9. Selanjutnya, anda akan diminta untuk mengisi alamat email baru. Email yang anda masukkan akan menjadi alamat email baru Anda untuk mengakses OSS.Ingat! Email yang bisa dimasukkan hanya email yang belum pernah terdaftar pada sistem OSS.KlikVERIFIKASI EMAILuntuk melanjutkan.
+10. 10. Anda akan menerima kode verifikasi pada alamat email yang sebelumnya anda masukkan.
+11. 11. Setelah memeriksa kode verifikasi di dalam kotak masukemailAnda. Masukkan kode verifikasi tersebut pada halaman OSS yang telah disediakan.
+12. 12. Terakhir,periksa kembali ringkasan dataatas permohonan perubahan email yang sudah Anda isi. Jika telah sesuai, klikKIRIM PERMOHONAN.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (12 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid192-bd52542fc2581d8318adcd677237ecd9.png
+2. https://s3.oss.go.id/oss/cms/blobid185-50269ff0a4c562ec77b65a0d5e7d29af.png
+3. https://s3.oss.go.id/oss/cms/blobid189-709e30eb6773a346f68202ac5ae5d970.png
+4. https://s3.oss.go.id/oss/cms/blobid184-4e1755ea4033ff6e30f8b88da5fc6b49.png
+5. https://s3.oss.go.id/oss/cms/blobid183-be3f5e7d659b5a81abe7930fbe33fa15.png
+6. https://s3.oss.go.id/oss/cms/blobid182-4bdab3b6ba799db609939d2b04eb820c.png
+7. https://s3.oss.go.id/oss/cms/blobid191-0d5e3d233ca2f34b1c98214da9c0df0f.png
+8. https://s3.oss.go.id/oss/cms/blobid187-4bcb51e2ab0d60d5b189d666fb69ef26.png
+9. https://s3.oss.go.id/oss/cms/blobid193-c122bf3ce1ae0e0f1ee8fa63c8bcf2d0.png
+10. https://s3.oss.go.id/oss/cms/blobid188-6bd61295439e55f21b42766add5ee9f5.png
+11. https://s3.oss.go.id/oss/cms/7-b49da19e9c481b4205853ce03dc6bf14.png
+12. https://s3.oss.go.id/oss/cms/blobid190-02060324ac00b95a58bbbe4bb8c3e2d4.png

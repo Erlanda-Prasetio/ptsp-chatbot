@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melakukan perpanjangan perizinan berusaha pada OSS?
+Source: https://oss.go.id/id/faq/kategori?id=68e4861b711547977a0df1bd
+Scraped: 2025-10-21T15:19:22.559437
+================================================================================
+
+QUESTION:
+Bagaimana cara melakukan perpanjangan perizinan berusaha pada OSS?
+
+ANSWER:
+Menu perpanjangan perizinan berusaha digunakan untuk memperbarui masa berlaku perizinan berusaha yang akan berakhir. Untuk melakukan perpanjangan, silakan pilih menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Tambah Bidang Usaha jika bidang usaha tidak muncul pada table data usaha. Jika perizinan berusaha yang masa berlakunya sudah habis merupakan produk yang diterbitkan pada sistem OSS, silakan klik Ajukan Perpanjangan untuk melakukan perpanjangan. Panduan Perpanjangan perizinan berusaha: https://oss.go.id/panduan/635970086345c7d71a8144b0
+
+================================================================================

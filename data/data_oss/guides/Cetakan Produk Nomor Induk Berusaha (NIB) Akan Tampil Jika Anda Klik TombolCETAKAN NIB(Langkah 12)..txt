@@ -1,0 +1,40 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan produk Nomor Induk Berusaha (NIB) akan tampil jika Anda klik tombolCETAKAN NIB(langkah 12).
+Source: https://oss.go.id/panduan/66602a09c317a42349b179d4
+Scraped: 2025-10-20T15:23:29.778913
+Total Steps: 0
+Total Images: 27
+════════════════════════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (27 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/14-1-aa3adeb50be9bf44c759cf89e5ced5f2.png
+2. https://s3.oss.go.id/oss/cms/12-ce714192cad93f47bcd100fbc93c8fd2.png
+3. https://s3.oss.go.id/oss/cms/18-2-8817cd60a4d5b078be24c7cfe14d55a1.png
+4. https://s3.oss.go.id/oss/cms/4-fae7b6d69b8bf94828a5270053784b93.png
+5. https://s3.oss.go.id/oss/cms/5-0074d52a608c2ba845c62a74b77e3a09.png
+6. https://s3.oss.go.id/oss/cms/1-76bb30855593df6cfd01a84204a73085.png
+7. https://s3.oss.go.id/oss/cms/7-d2576068c1c4b2a1101f6494d954a806.png
+8. https://s3.oss.go.id/oss/cms/3-bc77e38eb14521887d7eda29fafb0ce8.png
+9. https://s3.oss.go.id/oss/cms/16-5-352a7834afe03e80eba5970a7c2986fd.png
+10. https://s3.oss.go.id/oss/cms/16-3-d6d3c694f476f73f45a72ad45ecc447d.png
+11. https://s3.oss.go.id/oss/cms/16-2-26f5d2c0d1c0df14638194a217686054.png
+12. https://s3.oss.go.id/oss/cms/11-ef529f18aafb73288332ee3326c4a817.png
+13. https://s3.oss.go.id/oss/cms/15-2-450af4e5d8b144ec6c65ec00b2bfbf8e.png
+14. https://s3.oss.go.id/oss/cms/17-1-b020e05721b6719d70ea0c82baf53b2c.png
+15. https://s3.oss.go.id/oss/cms/17-2-f081e4a48edb82587099e39e65506e3f.png
+16. https://s3.oss.go.id/oss/cms/6-94999c4d0c9cf2cf81b5fe5e6b3c642d.png
+17. https://s3.oss.go.id/oss/cms/10-925f6f3c58d512a6b953130f0ac30021.png
+18. https://s3.oss.go.id/oss/cms/8-b18c2c029699f5447fe970d51fc44213.png
+19. https://s3.oss.go.id/oss/cms/18-4425f49436e2ee53c763e76728eade9c.png
+20. https://s3.oss.go.id/oss/cms/16-1-dae310d09fab7c7027158fb720400e7d.png
+21. https://s3.oss.go.id/oss/cms/Rumah-Sanksi-DPMPTSP.drawio-2d5a4422b3b2d7668d76c7413a2f24a8.png
+22. https://s3.oss.go.id/oss/cms/15-1-47022269746d3ac833ddb370a8976cdf.png
+23. https://s3.oss.go.id/oss/cms/2-1df7b6da802f15350371bfdbc0afc7c8.png
+24. https://s3.oss.go.id/oss/cms/8-1-aa86b477eb7570ae2098d0bfbfd5f610.png
+25. https://s3.oss.go.id/oss/cms/13-52c378a347c053263b4ad8b62ecb6e91.png
+26. https://s3.oss.go.id/oss/cms/9-32da0d37f1ddd15774abf5e5f156d9d1.png
+27. https://s3.oss.go.id/oss/cms/16-4-e2176655860098bed0be6699313fe225.png

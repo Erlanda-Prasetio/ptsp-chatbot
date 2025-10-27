@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana Cara Pembuatan Peta Polygon?
+Source: https://oss.go.id/id/faq/kategori?id=68e4873f7795640efd3ef022
+Scraped: 2025-10-21T15:14:25.233458
+================================================================================
+
+QUESTION:
+Bagaimana Cara Pembuatan Peta Polygon?
+
+ANSWER:
+Berikut adalah langkah-langkah pembuatan peta polygon: 1. Kunjungi https://earth.google.com/web/ lalu pilih Search 2. Selanjutnya, pilih Project kemudian klik Create lalu pilih Create KMS File kemudian klik New Feature 3. Pilih Draw Line or Shape untuk mulai menandai area lokasi usaha dan membentuk polygon sesuai dengan lokasi usaha 4. Klik icon titik tiga untuk mengunduh file polygon format KML 5. Lakukan konversi file polygon format KML menjadi file dengan format SHP. Kunjungi https://products.aspose.app/gis/en/conversion/kml-to-shapefile untuk melakukan konversi secara online Ketentuan upload peta polygon: 1. Saat dibuka, pastikan file zip berisi minimal lima file SHP (CPG, SHP, SHX, DBF, dan PRJ) dan tidak perlu disatukan dalam folder, dengan ukuran maksimal lima MB 2. Periksa seluruh file SHP dan pastikan semua jenis extention file sudah lengkap 3. Pastikan file SHP hanya memuat data untuk satu lokasi 4. Pastikan luas lahan pada file polygon sesuai dengan luas yang dimohonkan
+
+================================================================================

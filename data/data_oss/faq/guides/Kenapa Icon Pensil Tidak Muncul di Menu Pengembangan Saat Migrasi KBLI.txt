@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Icon Pensil Tidak Muncul di Menu Pengembangan Saat Migrasi KBLI?
+Source: https://oss.go.id/id/faq/kategori?id=68e486067795640efd3eefa2
+Scraped: 2025-10-21T15:19:52.437375
+================================================================================
+
+QUESTION:
+Kenapa Icon Pensil Tidak Muncul di Menu Pengembangan Saat Migrasi KBLI?
+
+ANSWER:
+Ikon pensil tidak muncul pada menu pengembangan karena Bapak/Ibu memiliki cetakan izin lama dari OSS versi 1.1 yang sudah efektif. Untuk melakukan migrasi kegiatan usaha dengan cetakan izin lama OSS versi 1.1, silakan masuk ke menu Perizinan Berusaha > Kelola Usaha > Perubahan > Perubahan Data Usaha dan klik Icon Pensil pada KBLI yang ingin dimigrasikan.
+
+================================================================================

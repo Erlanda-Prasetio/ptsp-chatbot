@@ -1,0 +1,51 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Tampilan Form Ketenagakerjaan JikaManajer Berasal Warga Negara Asing (WNA)
+Source: https://oss.go.id/panduan/6569647f5e48a2cdc6961f10
+Scraped: 2025-10-20T15:32:07.846868
+Total Steps: 16
+Total Images: 22
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, KlikMASUK.
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK.
+3. 3. Masuk Ke MenuPELAPORAN, Dan KlikBUJKA.
+4. 4. Setelah Itu Sistem Akan Menampilkan Halaman Daftar Laporan BUJKA. Klik TombolBUAT LAPORANUntuk Melaporkan Kegiatan Usaha BUJKA OSS 1.1.
+5. 5. Ketika Klik TombolBUAT LAPORAN(Langkah 4), Sistem Akan Menampilkan Form Pelaporan Yang Wajib Anda Lengkapi. Terdapat Dua Bagian Form, YaituForm Data UmumDanForm Data Proyek. Pada Form Data Umum, Periksa Kembali Data Pelaku Usaha Dan Data Bidang Kegiatan OSS 1.1 Yang Akan Dilaporkan.
+6. 6. Lalu, Silakan Lengkapi Data Laporan Kepersonilan. Periksa Kembali Data Yang Anda Lengkapi, Lalu KlikSELANJUTNYA.
+7. 7. Selanjutnya Sistem Akan Menampilkan Form Data Proyek, Silakan Pilih Salah Satu Jenis Proyek.
+8. 8. Silakan LengkapiData Umum Proyek.
+9. 9. Silakan LengkapiData Ketenagakerjaan. Terdapat Dua Tampilan Form Ketenagekerjaan Jika Manajer Proyek WNI Dan Manajer Proyek WNA:
+10. 10.Silakan LengkapiData Kerja Sama Operasi. Anda Juga Bisa Menambah Kolom Pengisian Pada Pertanyaan Yang Memiliki TombolTAMBAH KOLOM.
+11. 11. Silakan LengkapiData Sub-Penyedia Data. Jika Anda Mempunyai Lebih Dari Satu Data Sub-Penyedia Jasa, Anda Dapat KlikTAMBAH PENYEDIA JASAUntuk Mengisikan Sub-Penyedia Jasa Yang Anda Miliki Dan Anda Juga Bisa Menambah Kolom Pengisian Pada Pertanyaan Yang Memiliki TombolTAMBAH KOLOM.
+12. 12. Silakan LengkapiData Realisasi Penanaman Modal. Anda Dapat Mengisi Nilai Tambahan Pada BagianTambahan Realisasi Pada Periode Pelaporan, Sementara Sistem Akan Melakukan Total Akumulasi Sampai Dengan Periode Pelaporan Dan Menampilkan Nilai Pada BagianTotal Akumulasi S/D Periode Pelaporan.
+13. 13. Silakan LengkapiData Penanggung Jawab. Anda Juga Bisa Mengisikan Email Lebih Dari Satu, Klik Tombol+Untuk Menyimpan Email.
+14. 14. Baca Dan Pahami Pernyataan Dengan Teliti, Centang Pada CheckboxDISCLAIMER. Pastikan Kelengkapan Data Laporan Sudah Sesuai, Lalu KlikKIRIM LAPORAN
+15. 15.Pelaporan Kegiatan Usaha BUJKA Akan Langsung Diterima. Anda Dapat Klik TombolCETAK LAPORANUntuk Melihat Ataupun Mengunduh Laporan BUJKA. Sementara Jika Anda Ingin Melihat Detail Laporan Yang Dilaporkan, KlikLIHAT DETAIL..
+16. 16. Berikut Adalah Hasil Produk Cetakan Laporan BUJKA OSS 1.1.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (22 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/10-WNI-551a8a6eed7adb888c7190941433246a.webp
+2. https://s3.oss.go.id/oss/cms/13-1583c4d0a87f1ab076665a86738bfa8f.webp
+3. https://s3.oss.go.id/oss/cms/5-82b52a0a8b3333e7268d7e7acd52a87d.webp
+4. https://s3.oss.go.id/oss/cms/0-aeaaaf2378b87d66283c13deb2ad4a32.webp
+5. https://s3.oss.go.id/oss/cms/11-2-a5863c532d29c9fcd379ceb371c65ecc.webp
+6. https://s3.oss.go.id/oss/cms/4-16a498524d6781dd33f793b6f4f6c82e.webp
+7. https://s3.oss.go.id/oss/cms/17-1-5c5b185dbbfa5bce4fbb79936e40d889.webp
+8. https://s3.oss.go.id/oss/cms/17-2-4b4c0efccfd58caffce0d604dfd1f60f.webp
+9. https://s3.oss.go.id/oss/cms/17-5-34d0512c30ff92421b036b804031c40a.webp
+10. https://s3.oss.go.id/oss/cms/7-38caaa3e5c1d7bcb2fa132688bd141c2.png
+11. https://s3.oss.go.id/oss/cms/12-45ad7b671e873449fb9e2216b148875f.webp
+12. https://s3.oss.go.id/oss/cms/17-3-ef30ed938985c383d507f88a051e6a18.webp
+13. https://s3.oss.go.id/oss/cms/14-59bc266c279f03538885b0ce0cd454cf.webp
+14. https://s3.oss.go.id/oss/cms/lapor-bujka-87d5d78d4a3f0f4ce8b96c05b489709b.png
+15. https://s3.oss.go.id/oss/cms/11-1-ee9f5c69b787a2481d63cba22bec1de5.webp
+16. https://s3.oss.go.id/oss/cms/10-WNA-00735ff807867923adb8bf3f3c1fa314.webp
+17. https://s3.oss.go.id/oss/cms/8-cd4721853220e25c12941c045781af34.webp
+18. https://s3.oss.go.id/oss/cms/16-c33bc3a42cd46292f99a63db05ffaf88.webp
+19. https://s3.oss.go.id/oss/cms/7-a6abdd1e6c93363c3c2de7c9ca87a4c3.webp
+20. https://s3.oss.go.id/oss/cms/15-ID-5816d8bf6be8154b262854c255667669.webp
+21. https://s3.oss.go.id/oss/cms/9-dfd0be7a2e3c4e97eccb7e1d7dcdb60b.webp
+22. https://s3.oss.go.id/oss/cms/2-b196b70ffaf1a79af334c67ddf98e565.webp

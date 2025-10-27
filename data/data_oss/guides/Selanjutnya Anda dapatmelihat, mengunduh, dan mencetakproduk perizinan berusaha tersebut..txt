@@ -1,0 +1,90 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda DapatMelihat, Mengunduh, Dan MencetakProduk Perizinan Berusaha Tersebut.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144cf
+Scraped: 2025-10-20T15:33:13.315443
+Total Steps: 33
+Total Images: 44
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardOSS RBA Lalu Klik MenuPerizinan BerusahaDan PilihPermohonan Baru
+4. 4.Menu Perubahan Data Usaha IniTidak BisaDilakukan UntukPerubahan KBLI.:
+5. 5. UbahData Detail Usaha
+6. 5.A. UbahData Detail Usaha(UMK)
+7. 5.B. UbahData Detail Usaha (Non UMK)
+8. 1.Apakah Lokasi Usaha Berada Dalam Lintas Provinsi/Kabupaten/Kota?
+9. 2.Alamat Usaha
+10. 4.Kabupaten / Kota
+11. 5.Kecamatan
+12. 6.Kelurahan / Desa
+13. 8.Tipe Gambar Peta
+14. 6. Ubah Daftar Produk/Jasa
+15. 6.A.Ubah Daftar Produk/Jasa - Lanjutan
+16. 7.A PeriksaDaftar Kegiatan Usaha
+17. 7.B.PeriksaDaftar Kegiatan Usaha(Untuk Lokasi Usaha Yang Perlu Verifikasi KKPR)
+18. 8.Periksa Dan LengkapiDokumen Persetujuan Lingkungan(KBLI/Bidang Usaha Tertentu)
+19. 8.A.Periksa Dan LengkapiDokumen Persetujuan Lingkungan(KBLI/Bidang Usaha Tertentu) - Lanjutan
+20. 8.B.Periksa Dan LengkapiDokumen Persetujuan Lingkungan(KBLI/Bidang Usaha Tertentu) - Lanjutan
+21. 9. Pahami Dan Centang Pernyataan Mandiri
+22. 10. Periksa Draf Perizinan Berusaha
+23. 11.PEMENUHANPERSYARATAN (Khusus Risiko Menengah Tinggi Dan Tinggi)
+24. 12. PEMENUHANPERSYARATAN Risiko Menengah Tinggi
+25. 13.LengkapiDokumen Pemenuhan (Risiko Menengah Tinggi)
+26. 13.A.TungguPerubahanStatus PemenuhanDalamProses VerifikasiPerizinan Berusaha(Risiko Menengah Tinggi)
+27. 14. PEMENUHANPERSYARATAN Risiko Tinggi
+28. 15.A.LengkapiDokumen Pemenuhan (Risiko Tinggi)
+29. 15.B.TungguPerubahanStatus PemenuhanDalamProses VerifikasiPerizinan Berusaha (Risiko Tinggi)
+30. 16.Perizinan Berusaha Telah Terbit (Risiko Rendah)
+31. 16.Perizinan Berusaha Telah Terbit (Risiko Menengah Rendah)
+32. 16.Perizinan Berusaha Telah Terbit (Risiko Menengah Tinggi)
+33. 17.Perizinan Berusaha Telah Terbit (Risiko Tinggi)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (44 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid22-2c443f5c3721380c9bc3ecdabd75c66e.png
+2. https://s3.oss.go.id/oss/cms/blobid6-6b4ef1c10640be6e8ff640245510d581.png
+3. https://s3.oss.go.id/oss/cms/blobid38-caa78aed06bbb1d6496c567c6b3204c8.png
+4. https://s3.oss.go.id/oss/cms/blobid0-6cb55ab50e0844b3d41edcd9b1b74bae.png
+5. https://s3.oss.go.id/oss/cms/blobid7-dd596e65e67ece8620ccad1232ce6cdb.png
+6. https://s3.oss.go.id/oss/cms/blobid8-90f1db864557b65cc855d6d7d3899a26.png
+7. https://s3.oss.go.id/oss/cms/blobid14-5b0f356dfa303859158705a5edc0d076.png
+8. https://s3.oss.go.id/oss/cms/blobid37-881da72372644c31a687c453e69591a2.png
+9. https://s3.oss.go.id/oss/cms/blobid39-7e4cb06a37378d592713464ae1182971.png
+10. https://s3.oss.go.id/oss/cms/blobid5-cd130174647f49989319e3ab9e4fdc5c.png
+11. https://s3.oss.go.id/oss/cms/blobid27-ac9ad08d863afb78d508c3de0cdfc807.png
+12. https://s3.oss.go.id/oss/cms/blobid17-75db52e86d6806ff9a36ee0920a58abd.png
+13. https://s3.oss.go.id/oss/cms/blobid41-7e0a63aa81f0207f77cf924f5bdf1cb4.png
+14. https://s3.oss.go.id/oss/cms/blobid43-23a54068d7a020e76bcb99a70a5f3c6b.png
+15. https://s3.oss.go.id/oss/cms/blobid13-24d22a690dfbf94b3a27ccdf2de8bd40.png
+16. https://s3.oss.go.id/oss/cms/blobid9-8d3399793a358bb45a938ebc8af7a224.png
+17. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-data-usaha-2f9f8a5a2e9dde2b80547363a0abf09c.png
+18. https://s3.oss.go.id/oss/cms/1-portal-masuk-34f16c9a29ebea40bc6c1ac99ca939cb.png
+19. https://s3.oss.go.id/oss/cms/blobid4-26d1d712414c01b5ef020fdf292b20a7.png
+20. https://s3.oss.go.id/oss/cms/blobid40-ba61437f6175bb90025f9d022914c6b9.png
+21. https://s3.oss.go.id/oss/cms/blobid3-7baf5eddc69d9379f0294b2c9965034a.png
+22. https://s3.oss.go.id/oss/cms/blobid36-3ecfb92ee92ab6685d3aee82a48346de.png
+23. https://s3.oss.go.id/oss/cms/blobid32-0b22589a7ac26920ee09d37a4ab491bd.png
+24. https://s3.oss.go.id/oss/cms/blobid18-5e1406e767f622bc912c51e9a5d749c2.png
+25. https://s3.oss.go.id/oss/cms/blobid23-b32df0b23163fcaa2b14c16dbeafd254.png
+26. https://s3.oss.go.id/oss/cms/blobid20-7f8b5e9a9b5083eba88b40f259afbfae.png
+27. https://s3.oss.go.id/oss/cms/blobid34-b4187d938792ea36ac1445590559e859.png
+28. https://s3.oss.go.id/oss/cms/blobid2-8c6633eebfa88d18d5d74d05dd07f54a.png
+29. https://s3.oss.go.id/oss/cms/blobid30-75c4e306d0f34ff94543b8a0c96317eb.png
+30. https://s3.oss.go.id/oss/cms/blobid33-b15668490824b47d7cdacbcc5d3282cd.png
+31. https://s3.oss.go.id/oss/cms/blobid15-5a97f6252d9542d8eb3e7f7ecf121748.png
+32. https://s3.oss.go.id/oss/cms/blobid24-06ef7dd478be1d767b1afb42595498aa.png
+33. https://s3.oss.go.id/oss/cms/blobid21-1bf6c6d4f7be05d06021733958e6f9ea.png
+34. https://s3.oss.go.id/oss/cms/blobid31-2c6cf3ff509a69ee2030a3b31f59f75a.png
+35. https://s3.oss.go.id/oss/cms/blobid42-d2340ccb0048c4e0da1d49d1047957e7.png
+36. https://s3.oss.go.id/oss/cms/x-0f2f9d4dd4785b4c12406c6916247ea2.png
+37. https://s3.oss.go.id/oss/cms/blobid12-fa1e6fdd3cef495c7864d4043b3bbdd2.png
+38. https://s3.oss.go.id/oss/cms/blobid26-dd011699e06365374e44522485641b9a.png
+39. https://s3.oss.go.id/oss/cms/blobid35-d79be95fe355b11de4715900e8d4cee2.png
+40. https://s3.oss.go.id/oss/cms/blobid44-35434c4cd7d20ba26b8692034db30d25.png
+41. https://s3.oss.go.id/oss/cms/blobid29-69a9a15ffd6eccd0fb3ab088a5b1c3af.png
+42. https://s3.oss.go.id/oss/cms/blobid28-82d91884f9b9e0086938ec127de60835.png
+43. https://s3.oss.go.id/oss/cms/blobid19-fd330c6d4af403b9a030a6cfae541940.png
+44. https://s3.oss.go.id/oss/cms/blobid25-8f5236dfea0369281ac123c0b9725472.png

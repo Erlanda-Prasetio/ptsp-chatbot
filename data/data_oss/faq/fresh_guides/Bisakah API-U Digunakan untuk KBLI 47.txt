@@ -1,0 +1,13 @@
+================================================================================
+Title: Bisakah API-U Digunakan untuk KBLI 47?
+Source: https://oss.go.id/id/faq/kategori?id=68e48834711547977a0df299
+Scraped: 2025-10-21T15:11:45.374392
+================================================================================
+
+QUESTION:
+Bisakah API-U Digunakan untuk KBLI 47?
+
+ANSWER:
+Berdasarkan Peraturan Menteri Perdagangan Nomor 8 Tahun 2024 tentang Perubahan Ketiga Atas Peraturan Menteri Perdagangan Nomor 36 Tahun 2023 Tentang Kebijakan Dan Pengaturan Impor, pengajuan API-U hanya diperbolehkan untuk KBLI dengan kegiatan usaha perdagangan besar yang memiliki kode 45xxx dan 46xxx. KBLI yang dapat memilih API-U, yaitu: 1. Semua KBLI 46xxx 2. 45101: Perdagangan Besar Mobil Baru 3. 45102: Perdagangan Besar Mobil Bekas 4. 45301: Perdagangan Besar Suku Cadang dan Aksesori Mobil 5. 45401: Perdagangan Besar Sepeda Motor Baru 6. 45402: Perdagangan Besar Sepeda Motor Bekas 7. 45405: Perdagangan Besar Suku Cadang Sepeda Motor dan Aksesorinya KBLI yang tidak dapat memilih API (API-U/API-P), yaitu: 1. Semua KBLI 47xxx 2. 45104: Perdagangan Eceran Mobil Bekas 3. 45302: Perdagangan Eceran Suku Cadang dan Aksesori Mobil 4. 45403: Perdagangan Eceran Sepeda Motor Baru 5. 45404: Perdagangan Eceran Sepeda Motor Bekas 6. 45406: Perdagangan Eceran Suku Cadang Sepeda Motor dan Aksesorinya Selain yang tercantum di atas, maka KBLI tersebut dapat memilih API-P.
+
+================================================================================

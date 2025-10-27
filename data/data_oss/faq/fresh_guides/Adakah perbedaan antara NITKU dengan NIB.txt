@@ -1,0 +1,13 @@
+================================================================================
+Title: Adakah perbedaan antara NITKU dengan NIB?
+Source: https://oss.go.id/id/faq/kategori?id=68e488947795640efd3ef044
+Scraped: 2025-10-21T15:10:44.104390
+================================================================================
+
+QUESTION:
+Adakah perbedaan antara NITKU dengan NIB?
+
+ANSWER:
+Nomor Identitas Tempat Kegiatan Usaha (NITKU) adalah nomor identitas wajib pajak cabang yang diterbitkan oleh Ditjen Pajak. NITKU diberikan untuk tempat kegiatan usaha wajib pajak yang terpisah dari tempat tinggal atau tempat kedudukan wajib pajak. Sedangkan, Nomor Induk Berusaha (NIB) adalah identitas bagi pelaku usaha dalam melaksanakan kegiatan usahanya sekaligus bukti registrasi/pendaftaran yang diterbitkan oleh lembaga OSS.
+
+================================================================================

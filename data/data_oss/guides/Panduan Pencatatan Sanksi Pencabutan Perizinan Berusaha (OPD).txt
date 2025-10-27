@@ -1,0 +1,43 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Panduan Pencatatan Sanksi Pencabutan Perizinan Berusaha (OPD)
+Source: https://oss.go.id/panduan/65016d67048d98beafdab209
+Scraped: 2025-10-20T15:22:53.832808
+Total Steps: 13
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, KlikMASUK.
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK.
+3. 3. Masuk Ke MenuSANKSI, Lalu PilihPENCABUTAN, Dan KlikPENCATATAN
+4. 4. Pilih Kegiatan Usaha Yang Akan Dikenakan Sanksi Pencabutan, Lalu Klik Ikon‘V’.Anda Juga Dapat Menggunakan Fitur PencarianUntuk Mencari Kegiatan Usaha Yang Terkena Sanksi Pencabutan. Sistem Akan Menampilkan Detail Dari Kegiatan Usaha Yang Dipilih Dan Akan Menampilkan Dua Tombol Aksi. Silakan Klik TombolPROSESJika Anda InginMemproses Kegiatan UsahaAtau Klik TombolCETAKAN NIBUntukMelihat Cetakan NIBYang Dimiliki Pelaku Usaha.
+5. 5. Selanjutnya, Sistem Akan Menampilkan Formulir Pengenaan Sanksi Yang Wajib Anda Isi. Pertama-Tama, PeriksaData Kegiatan Usaha. Anda Dapat Klik Ikon‘V’Untuk Melihat Data Kegiatan Usaha Secara Mendetail.
+6. 6. PeriksaData Pelaku Usaha.
+7. 7. PeriksaData Pemberi SanksiDan Isi Nomor NIP Anda.
+8. 8. LengkapiData Form SanksiDanUnggah Data Lampiran Surat Pencabutan Sanksi. Tampilan Form Sanksi Akan Berbeda Berdasarkan Dengan Isian Anda Mengenai Izin Kegiatan Usaha Apakah Sudah Terbit Atau Belum. Jika“Sudah Terbit”, Anda Dapat MengunggahSurat Pencabutan Sanksi Dari K/L/D.Sementara Jika“Belum Terbit”, Anda Dapat MengunggahSurat Pengenaan Sanksi Dari K/L/D.
+9. 9. LengkapiDetail Daftar Sanksi Yang Telah Dilakukan Sebelumnya (Riwayat Sanksi Sebelumnya).Setelah Anda Melengkapi Form Ini, Klik TombolTAMBAH AKSI
+10. 10.BacaPernyataanSecara Teliti DanPeriksa Kembali Data Formulir Pengenaan SanksiYang Telah Anda Isi. Jika Sudah Sesuai, Klik TombolPROSES.
+11. 11. Setelah Anda Klik Tombol Proses, Pop-Up Konfirmasi Pencatatan Sanksi Akan Muncul. Jika Anda Sudah Yakin Ingin Memproses Pencatatan Sanksi, Klik TombolYA.
+12. 12. Form Pengenaan Sanksi Pencabutan Berhasil Terkirim Ke Pelaku Usaha. Klik Ikon‘V’Jika Anda Ingin Melihat Detail Formulir Pengenaan Sanksi Pencabutan Dan KlikDETAIL. Sementara Itu, Anda Dapat Klik TombolCETAKAN SANKSIUntuk Melihat Ataupun Mengunduh Cetakan Sanksi Dan Juga Anda Dapat Melihat Cetakan NIB Dengan KlikCETAKAN NIB.
+13. 13. Berikut Adalah Tampilan Dari Produk Pencatatan Sanksi Pencabutan:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/2023-08-21_141042-b99b7e45611d30da20286860f3d55f28.webp
+2. https://s3-stg.oss.go.id/oss/cms/8-7bd94a7966f96d297f13410ca74b91cf.webp
+3. https://s3-stg.oss.go.id/oss/cms/3-56aa80f88697b23ff63ede7c59f7c3cd.webp
+4. https://s3-stg.oss.go.id/oss/cms/Awal-menu-5c1d4b814b75da98ffe0d88d2c0a7a5d.webp
+5. https://s3-stg.oss.go.id/oss/cms/11-9802e101a7cbee02bbbcbe02f3e479c5.webp
+6. https://s3-stg.oss.go.id/oss/cms/1-c234e3a7756e0658434112b26d7203b3.webp
+7. https://s3.oss.go.id/oss/cms/Login-8f96d8b473bc63e2d72196520e782f7c.webp
+8. https://s3-stg.oss.go.id/oss/cms/4-94df9be11cabeb50f2e53745f238f9ce.webp
+9. https://s3-stg.oss.go.id/oss/cms/5-72aa978cfdf84e95de48ad67b7c6a366.webp
+10. https://s3-stg.oss.go.id/oss/cms/Picture2-f22ac579d13fb0fb0fcc3a4a80c9710a.webp
+11. https://s3-stg.oss.go.id/oss/cms/2023-08-22_145006-6b049f520db89ed82db9309b941405de.webp
+12. https://s3-stg.oss.go.id/oss/cms/10-25dd182852ad3933c8df0a18e36f2768.webp
+13. https://s3-stg.oss.go.id/oss/cms/12-4629edb86e8226833f50f837445ce108.webp
+14. https://s3-stg.oss.go.id/oss/cms/9-1a2fd8851c61d8ef76ca663b9dc8482f.webp
+15. https://s3-stg.oss.go.id/oss/cms/6-5697b0d25e09bf60e01b23fc0ec8cb8f.webp
+16. https://s3-stg.oss.go.id/oss/cms/7-5f622fbdbb96ef5633a02035edc2307f.webp
+17. https://s3-stg.oss.go.id/oss/cms/2-d6cb2fd39d919579617fc1a1b22ea043.webp

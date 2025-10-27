@@ -1,0 +1,59 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk laporan Kantor Perwakilan Perusahaan Perdagangan Asing (KP3A) Non PMSE
+Source: https://oss.go.id/panduan/635970086345c7d71a8144d6
+Scraped: 2025-10-20T15:39:38.211925
+Total Steps: 33
+Total Images: 13
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPELAPORAN, pilihPELAPORAN KANTOR PERWAKILANdan klikKP3A NON PMSE
+4. 4. Setelah masuk ke menu Pelaporan, klikBUAT LAPORAN
+5. 5. PilihKantoryang akan dilaporkan dan klikPROSES
+6. 6. LengkapiData Pelaku Usaha
+7. 1.Nomor Induk Berusaha
+8. 2.Nama Kepala Perwakilan
+9. 3.Negara Asal Perwakilan
+10. 4.Alamat Kantor Perwakilan
+11. 5.Nomor Telepon Kantor Perwakilan
+12. 6.Email Kantor Perwakilan
+13. 7.Nama Pelaku Usaha/Perusahaan Di Luar Negeri Yang Menunjuk (Prinsipal)
+14. 8.Alamat Prinsipal
+15. 9.Nomor Telepon Prinsipal
+16. 10.Email Prinsipal
+17. 11.Bidang Kegiatan
+18. 1.NPWP Badan Usaha
+19. 2.Realisasi Kegiatan
+20. 7.a LengkapiData Tenaga Kerja(Jumlah TKI dan TKA)
+21. 1.Tenaga Kerja Indonesia (TKI)
+22. 2.Tenaga Kerja Asing (TKA)
+23. 1.Nomor Izin Kerja
+24. 2.Tanggal Terbit
+25. 3.Masa Berlaku*
+26. 8. LengkapiData Penanggung Jawab Laporan Kegiatan KP3A Non PMSE
+27. 1.Nama Pelapor
+28. 2.Nomor Handphone
+29. 4.Email (Anda dapat mengisi email lebih dari satu dengan klik tombol ‘+’)
+30. 9. MenyetujuiPernyataan Pelaporan KP3A Non PMSE
+31. 10. Melakukankonfirmasi Laporan Kegiatan KP3A Non PMSE
+32. 11.a Laporan Kegiatan KP3A Non PMSEtelah diterima
+33. 11.b Laporan Kegiatan KP3A Non PMSE telah diterima(Cetakan Laporan KP3A Non PMSE)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (13 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid13-0ca70ec9088d1b4e65456b8cef551a6a.png
+2. https://s3.oss.go.id/oss/cms/blobid22-6cfc9343099eb76f5dab92177d15576f.png
+3. https://s3.oss.go.id/oss/cms/blobid15-22cb530f3c583aefde2fbb7032374361.png
+4. https://s3.oss.go.id/oss/cms/blobid19-81207ecb54321f10fc4449d973c83a87.png
+5. https://s3.oss.go.id/oss/cms/Pelaporan-KP3A-NON-PMSE-39c6fe6c51c74c09afbee535c8079a28.png
+6. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-591d8a37efa18cbc6eb072cdafa51c44.png
+7. https://s3.oss.go.id/oss/cms/blobid16-575bf314397ac6afbaf0f18827e47046.png
+8. https://s3.oss.go.id/oss/cms/blobid23-14d9a05262bc30e6c54a00f981574c95.png
+9. https://s3.oss.go.id/oss/cms/blobid17-f3a4228c9f3c7a1fbfd562ada048048f.png
+10. https://s3.oss.go.id/oss/cms/blobid24-e71923effb8a71f83000e8beaee82f5c.png
+11. https://s3.oss.go.id/oss/cms/blobid21-05328cd319fac62703ae88d39f0a2f5c.png
+12. https://s3.oss.go.id/oss/cms/blobid20-4fb88724dac62ae8b132f3128adc3c64.png
+13. https://s3.oss.go.id/oss/cms/blobid18-e9d485fabc11419ed07ab397fe493b4f.png

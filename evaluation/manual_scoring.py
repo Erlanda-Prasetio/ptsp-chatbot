@@ -242,9 +242,17 @@ class ManualScorer:
         
         # Calculate metrics
         accuracy = sum(1 for r in scored_results if r['is_correct']) / len(scored_results)
-        avg_precision = sum(r.get('precision', 0) for r in scored_results if r.get('precision')) / len([r for r in scored_results if r.get('precision')])
-        avg_recall = sum(r.get('recall', 0) for r in scored_results if r.get('recall')) / len([r for r in scored_results if r.get('recall')])
-        avg_f1 = sum(r.get('f1_score', 0) for r in scored_results if r.get('f1_score')) / len([r for r in scored_results if r.get('f1_score')])
+        
+        # Safe average calculations with zero checks
+        precision_list = [r for r in scored_results if r.get('precision') is not None]
+        avg_precision = sum(r.get('precision', 0) for r in precision_list) / len(precision_list) if precision_list else 0.0
+        
+        recall_list = [r for r in scored_results if r.get('recall') is not None]
+        avg_recall = sum(r.get('recall', 0) for r in recall_list) / len(recall_list) if recall_list else 0.0
+        
+        f1_list = [r for r in scored_results if r.get('f1_score') is not None]
+        avg_f1 = sum(r.get('f1_score', 0) for r in f1_list) / len(f1_list) if f1_list else 0.0
+        
         confident_wrong_rate = sum(1 for r in scored_results if r.get('confident_wrong')) / len(scored_results)
         avg_response_time = sum(r.get('response_time_seconds', 0) for r in scored_results) / len(scored_results)
         avg_tokens = sum(r.get('total_tokens', 0) for r in scored_results) / len(scored_results)

@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa saat ubah email akun perorangan muncul notifikasi 'Terjadi kesalahan dalam mengirim notifikasi email'?
+Source: https://oss.go.id/id/faq/kategori?id=68e48538711547977a0df175
+Scraped: 2025-10-21T15:21:50.396881
+================================================================================
+
+QUESTION:
+Kenapa saat ubah email akun perorangan muncul notifikasi 'Terjadi kesalahan dalam mengirim notifikasi email'?
+
+ANSWER:
+Notifikasi tersebut muncul karena pada akun OSS Bapak/Ibu tidak memiliki email yang terdaftar dalam sistem OSS. Silakan melakukan tahapan berikut: 1. Perubahan nomor telepon melalui fitur Butuh Bantuan lalu pilih Nomor Ponsel Sudah Tidak Aktif. Panduan lebih lengkap perubahan nomor ponsel dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/63a5a891c406b3c60dc5c71d 2. Setelah nomor ponsel berhasil diubah, silakan login akun OSS dan melakukan perubahan email melalui menu Lihat Profil. Panduan perubahan email pada Profil dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/635970086345c7d71a8144ac
+
+================================================================================

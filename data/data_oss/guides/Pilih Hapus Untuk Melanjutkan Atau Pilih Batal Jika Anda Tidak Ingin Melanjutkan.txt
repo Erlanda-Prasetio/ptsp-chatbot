@@ -1,0 +1,43 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pilih Hapus Untuk Melanjutkan Atau Pilih Batal Jika Anda Tidak Ingin Melanjutkan
+Source: https://oss.go.id/panduan/64708241d033753dd77d8955
+Scraped: 2025-10-20T15:35:19.632461
+Total Steps: 14
+Total Images: 16
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, Lalu PilihMasuk
+2. 2. MasukkanUsernameDanPasswordBeserta, Lalu KlikMasuk
+3. 3. Dashboard Administrator
+4. 4. Pilih MenuHak Akses Turunan
+5. 5.Daftar Hak Akses Turunan
+6. 6. Hak Akses Turunan Berhasil Ditambahkan
+7. 7. Pilih Data Pengguna Hak Akses Turunan Yang Akan Diubah
+8. 8. Lengkapi Formulir Edit Hak Akses Turunan
+9. 9. Data Hak Akses Turunan Berhasil Diubah
+10. 10. Pilih Data Pengguna Hak Akses Turunan Yang Akan Dikirim Ulang Emailnya
+11. 11. Notifikasi Berhasil Mengirim Ulang Email
+12. 12. Pilih Data Pengguna Hak Akses Turunan Yang Akan Di Non-Aktifkan
+13. 13. Konfirmasi Non Aktif
+14. 14.User Berhasil Dihapus
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (16 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid4-51f700d2860915de00967b2c4d786f05.png
+2. https://s3.oss.go.id/oss/cms/blobid0-b55f0c010373d8746304610d29e298a1.png
+3. https://s3.oss.go.id/oss/cms/blobid7-f05804a3d1744d13fc85fb2f927c5281.png
+4. https://s3.oss.go.id/oss/cms/blobid8-a19770d20d72be0a9a88b57e30f98f6a.png
+5. https://s3.oss.go.id/oss/cms/blobid10-bc505a0d31d8af7e1f8b5ae447fe8700.png
+6. https://s3.oss.go.id/oss/cms/blobid2-cf0b642ae7ac5722291679ff21047fe2.png
+7. https://s3.oss.go.id/oss/cms/blobid11-d54ce0249718d4917f8cd35bc37dcf4a.png
+8. https://s3.oss.go.id/oss/cms/blobid12-8ec4724eceb927e874851a23a48e1ce0.png
+9. https://s3.oss.go.id/oss/cms/blobid1-8799d64e0eb25e32f9220b3f32ff8528.png
+10. https://s3.oss.go.id/oss/cms/blobid13-5d2cdb5c1b47efb6e57c87eb100f5ae1.png
+11. https://s3.oss.go.id/oss/cms/blobid5-37dedd1577d418c6a93610bb9f66e57a.png
+12. https://s3.oss.go.id/oss/cms/1-portal-1bbe29193fc4c21e3bbc9e105d71b349.png
+13. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-90b063625207fd1c8f15cfa885c16234.png
+14. https://s3.oss.go.id/oss/cms/blobid3-2974a1e29ab7b9b65adaf58150480aef.png
+15. https://s3.oss.go.id/oss/cms/blobid6-db9e1344547fe37a660247e48cc0b5eb.png
+16. https://s3.oss.go.id/oss/cms/blobid14-5e7ee7bed7d2918a0f856d9890c53808.png

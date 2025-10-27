@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana Cara Validasi Risiko Ulang?
+Source: https://oss.go.id/id/faq/kategori?id=68e48653711547977a0df1df
+Scraped: 2025-10-21T15:18:21.754232
+================================================================================
+
+QUESTION:
+Bagaimana Cara Validasi Risiko Ulang?
+
+ANSWER:
+Bapak/Ibu dapat melakukan validasi risiko ulang melalui menu Perizinan Berusaha - pilih Kelola Usaha lalu pilih Perubahan - Perubahan Data Usaha kemudian klik tombol pensil pada KBLI yang ingin diubah. Selanjutnya, lengkapi formulir Data Usaha lalu klik validasi risiko. Panduan lengkap terkait perubahan data usaha dapat dicek melalui link berikut:: https://oss.go.id/panduan/67c7d741199a2e26318cd299
+
+================================================================================

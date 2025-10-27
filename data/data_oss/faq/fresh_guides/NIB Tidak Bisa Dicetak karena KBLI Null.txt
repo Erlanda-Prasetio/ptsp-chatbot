@@ -1,0 +1,13 @@
+================================================================================
+Title: NIB Tidak Bisa Dicetak karena KBLI Null
+Source: https://oss.go.id/id/faq/kategori?id=68e486bb7795640efd3eefd4
+Scraped: 2025-10-21T15:17:22.658230
+================================================================================
+
+QUESTION:
+NIB Tidak Bisa Dicetak karena KBLI Null
+
+ANSWER:
+Munculnya notifikasi "Harap validasi kembali data proyek Bapak/Ibu, data proyek dengan KBLI null tidak ditemukan risikonya" disebabkan karena adanya kegiatan usaha yang belum memiliki KBLI. Silakan melakukan pengecekan kegiatan usaha yang belum memiliki KBLI di menu Perizinan Berusaha >> Kelola Usaha >> Pengembangan. Jika kegiatan usaha tersebut ingin dihapus, silakan klik ikon hapus/tempat sampah di bagian paling kanan pada kegiatan usaha. Jika kegiatan usaha tersebut ingin dilanjutkan, silakan klik ikon pensil/edit.
+
+================================================================================

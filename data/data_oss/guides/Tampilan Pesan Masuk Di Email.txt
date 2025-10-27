@@ -1,0 +1,29 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Tampilan Pesan Masuk di Email
+Source: https://oss.go.id/panduan/63a5aedec406b3c60dc5c778
+Scraped: 2025-10-20T15:30:10.191967
+Total Steps: 7
+Total Images: 9
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Masuk ke akun anda melaluihttps://oss.go.id/dengan cara klikMASUKdi pojok kanan atas.
+2. 2. KlikButuh Bantuan?
+3. 3. KlikLupa Kata Sandi.
+4. 4. Masukan Nomor Ponsel/Email/Username akun OSS Anda. Kemudian masukkan kode captcha yang muncul. KlikLANJUT
+5. 5. Jika pada saat pendaftaranakun OSS menggunakan nomor Whatsapp, maka tautan reset password akan dikirim melalui nomor Whatsapp Anda. Namun, jika pada saat pendaftaranakun OSS menggunakan email, maka tautan reset password akan dikirim melalui email Anda.Cek email atau pesan Whatsappdari OSS Indonesia yang berisi tautan untuk melakukan reset password. Klik tautan yang Anda Terima.
+6. 6. Ketik katasandi baru minimal 8 karakter yang terdiri dari kombinasi huruf, angka dan karakter spesial. KlikSIMPAN
+7. 7. Notifikasi akan muncul ketika Anda berhasil melakukan perubahan Password. Silakan masuk ke akun OSS menggunakan nomor ponsel/email/username danKata Sandi Baru.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (9 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image10-ce5c831117d17b6c3da4e270e533a50a.png
+2. https://s3.oss.go.id/oss/cms/image6-6740fca9bd6c4c4dd52521a063692d5e.webp
+3. https://s3.oss.go.id/oss/cms/image1-d3a4c0b2d53410a032bc2a1b57df3f58.webp
+4. https://s3.oss.go.id/oss/cms/image12-de105071056d0ec239e607c9cac2ced0.png
+5. https://s3.oss.go.id/oss/cms/image8-df7e5a5785e482832967d43b88a0a5cc.png
+6. https://s3.oss.go.id/oss/cms/image9-3f84ea004e1e7f9cb67766ddd70fa445.png
+7. https://s3.oss.go.id/oss/cms/image11-dd9763500f63d588dbd6fc9d15aecc0d.webp
+8. https://s3.oss.go.id/oss/cms/7-b49da19e9c481b4205853ce03dc6bf14.png
+9. https://s3.oss.go.id/oss/cms/image4-b5985dbe169cce28135d6b0e10baad76.png

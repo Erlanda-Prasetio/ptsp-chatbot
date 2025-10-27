@@ -1,0 +1,13 @@
+================================================================================
+Title: Apakah saya harus menambahkan KBLI Perdagangan untuk distribusi jika sudah memiliki KBLI Industri?
+Source: https://oss.go.id/id/faq/kategori?id=68e487ef711547977a0df283
+Scraped: 2025-10-21T15:12:50.554633
+================================================================================
+
+QUESTION:
+Apakah saya harus menambahkan KBLI Perdagangan untuk distribusi jika sudah memiliki KBLI Industri?
+
+ANSWER:
+Bapak/Ibu "tidak perlu" menambahkan KBLI Perdagangan untuk melakukan distribusi produk, apabila produk tersebut adalah hasil dari produksi sendiri.
+
+================================================================================

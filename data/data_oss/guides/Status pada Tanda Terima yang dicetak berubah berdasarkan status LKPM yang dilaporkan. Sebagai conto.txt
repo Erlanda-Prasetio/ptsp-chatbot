@@ -1,0 +1,54 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Status pada Tanda Terima yang dicetak berubah berdasarkan status LKPM yang dilaporkan. Sebagai contoh, jika status LKPM saat ini sudah disetujui maka status pada Tanda Terima akan “Disetujui”.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144b2
+Scraped: 2025-10-20T15:28:56.579113
+Total Steps: 20
+Total Images: 21
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/danPilihMASUK
+3. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+4. 5. Masuk ke MenuPELAPORAN,dan klikLAPORAN KEGIATAN PENANAMAN MODAL (LKPM)
+5. 6. Setelah masuk ke menu Laporan LKPM, klikBUAT LAPORAN
+6. 7. PilihData Kegiatan Usahayang akan dilaporkan
+7. 8. PeriksaData Kegiatan Usaha
+8. 9. LengkapiData Realisasi Penanaman Modal(Sesuai Nilai Perolehan Awal)
+9. 10.LengkapiData Penggunaan Tenaga Kerja
+10. 11. LengkapiData Produksi Barang/Jasa dan Pemasaran
+11. 12.LengkapiData Permasalahan yang Dihadapi Pelaku Usaha
+12. 13.LengkapiData Pimpinan/Penanggung Jawab LKPM
+13. 14. MenyetujuiPernyataan Pelaporan LKPM
+14. 15. Setelah data dilengkapi, akan muncul tampilanPemberitahuan Laporan Diterima
+15. 16.Laporan LKPM UMK telah terkirim
+16. 17.aVeriﬁkasi Kementerian/Lembagaatas LKPM UMK
+17. 18.Menanggapi Catatan Perbaikan LKPM UMK dari Veriﬁkator
+18. 19.aPelaporan LKPM UMK Telah Disetujui
+19. 19.bPelaporan LKPM UMK Telah Disetujui (Contoh Cetakan LKPM)
+20. 20.Pelaporan LKPM UMK Telah Disetujui (Contoh Tanda Terima)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (21 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-20e0c1c46824d6e273e6d7122edf0104.png
+2. https://s3.oss.go.id/oss/cms/14-12-6c92a25466561af700591009df17ab02.png
+3. https://s3.oss.go.id/oss/cms/19-17b-1-aa5267e38c3529ff2a9d5cb2a03574ca.png
+4. https://s3.oss.go.id/oss/cms/12-10-c1997450a1cf330c83d60b2c44b4c77c.png
+5. https://s3.oss.go.id/oss/cms/15-13-7ce3c7a13e53b9df0b4e9d4f556fc5dc.png
+6. https://s3.oss.go.id/oss/cms/7-0a50885f8b7cac92ea685d96ca9c0491.png
+7. https://s3.oss.go.id/oss/cms/8-6-d4963e3d126152f686265783e0f0819a.png
+8. https://s3.oss.go.id/oss/cms/6-4-eefa87d0fd8c8d0f7c90029d78b56f43.png
+9. https://s3.oss.go.id/oss/cms/20-18-344c93a21a38875b672a5425838c8375.png
+10. https://s3.oss.go.id/oss/cms/19-17b-2-f8dd7d47db9b1a20489c1c0cf8948560.png
+11. https://s3.oss.go.id/oss/cms/4-a6012ed9bf31604fd9af21a30dac7a42.png
+12. https://s3.oss.go.id/oss/cms/7-5-b0838247b2d57323b734c9d39d5ef4eb.png
+13. https://s3.oss.go.id/oss/cms/8-24f280dddec3069d8daa3d7551bf88b5.png
+14. https://s3.oss.go.id/oss/cms/9-7-73a315b81bb6aa31e2a756209fa03380.png
+15. https://s3.oss.go.id/oss/cms/11-9-a9f8cc1c4bfc47f7aa63ea5f58c5fca6.png
+16. https://s3.oss.go.id/oss/cms/10-8-856e76538cd73e71bff25f0683121f52.png
+17. https://s3.oss.go.id/oss/cms/17-15a-debf34891dc2caefa530b40db3fe5e9b.png
+18. https://s3.oss.go.id/oss/cms/16-14-a28cb55a36644e665d43be3df957db5e.png
+19. https://s3.oss.go.id/oss/cms/13-11-aea0f9c7ffb2c9a45665ea31f5f219c5.png
+20. https://s3.oss.go.id/oss/cms/18-16-142f10f572a23c5444fc561f0434532b.png
+21. https://s3.oss.go.id/oss/cms/19-17a-3198a4b6be687acbabfb08475d565caf.png

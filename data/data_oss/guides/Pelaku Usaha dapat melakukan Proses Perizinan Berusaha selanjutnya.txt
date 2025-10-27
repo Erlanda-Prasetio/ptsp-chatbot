@@ -1,0 +1,52 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha dapat melakukan Proses Perizinan Berusaha selanjutnya
+Source: https://oss.go.id/panduan/687875c51e8bd58a8c3116ab
+Scraped: 2025-10-20T15:24:48.713826
+Total Steps: 12
+Total Images: 27
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih “Masuk”
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Pilih MenuPerizinan Berusaha, PilihPerubahan, lalu pilihPerubahan Data Usaha
+5. 5. Pilih Data Usaha yang Ingin Dilakukan Perubahan
+6. 6. PilihUbah Data Bidang Usahapada Form Perubahan Dilakukan
+7. 7. Lanjutkan Perubahan
+8. 8. Pelaku Usaha dapat melanjutkan langkah selanjutnya,Proses Perizinan Berusaha
+9. 9. Lengkapi Dokumen Lingkungan seluruh KBLI
+10. 11. Pahami dan Centang Pernyataan Mandiri
+11. 12. Periksa Draf Perizinan Berusaha (NIB)
+12. 13. Lakukan Pemenuhan Persyaratan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (27 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture3-a4e70132533212b1ce5b6fc58a0c3e62.png
+2. https://s3.oss.go.id/oss/cms/Picture15-1a58614ee894be39b7e684db42ba957a.png
+3. https://s3.oss.go.id/oss/cms/Picture4-f3b0b2134715a6d5f86c08984bd97d6e.png
+4. https://s3.oss.go.id/oss/cms/Picture17-e47355a6c091ce7c2f4dc54f8f048853.png
+5. https://s3.oss.go.id/oss/cms/Picture11-3fc92f31cd56f37dcbb3ddead33f81f9.png
+6. https://s3.oss.go.id/oss/cms/Picture13-1a19447c7c015d8c2948527f698996c7.png
+7. https://s3.oss.go.id/oss/cms/Picture21-8aaeba4a0c72dbc78c6f843b1afb7fd0.png
+8. https://s3.oss.go.id/oss/cms/Picture22-f2315118b84f46c7461100eafa82af1a.png
+9. https://s3.oss.go.id/oss/cms/Picture28-928afd16058b227ec40f9d41fcd4b873.png
+10. https://s3.oss.go.id/oss/cms/Picture10-5ac1f890fa6651a22f1e2d38d43c1f84.png
+11. https://s3.oss.go.id/oss/cms/Picture19-3bb763c3e9f16ed9ec310cb15c42c5d5.png
+12. https://s3.oss.go.id/oss/cms/Picture16-685a54a2b551bbf298abef42f22a78df.png
+13. https://s3.oss.go.id/oss/cms/Picture20-8b1d29c0cbec7ade6f462575abd1b7d2.png
+14. https://s3.oss.go.id/oss/cms/Picture25-83c77ed7afd14802d2ba2a2ceedc5f1e.png
+15. https://s3.oss.go.id/oss/cms/Picture5-c82a3d98b5cb50b6d46145c8cf207c69.png
+16. https://s3.oss.go.id/oss/cms/Picture2-1750676070d0ab281b7b351b94a25559.png
+17. https://s3.oss.go.id/oss/cms/Picture24-1fa15e880bbeb4f78b113d696b44afc1.png
+18. https://s3.oss.go.id/oss/cms/Picture12-32c427e2028b3464225cdd0a0bf53011.png
+19. https://s3.oss.go.id/oss/cms/Picture6-9b2e2d66e9864373000e977a43ab60de.png
+20. https://s3.oss.go.id/oss/cms/Picture14-3df497969a30f95f4c0686b0d61f2ce7.png
+21. https://s3.oss.go.id/oss/cms/Picture23-1f047192db27035d565ef125c13e1c35.png
+22. https://s3.oss.go.id/oss/cms/Picture27-c64e138625e80ae857c15ffcb5407974.png
+23. https://s3.oss.go.id/oss/cms/Picture8-f70dfeca4c38ae75f908c452db49262f.png
+24. https://s3.oss.go.id/oss/cms/Picture26-eb6db07f09f3714c2af61e09951bed9c.png
+25. https://s3.oss.go.id/oss/cms/Picture7-90d1b8cfee30f81f294efc55d594bfd4.png
+26. https://s3.oss.go.id/oss/cms/Picture18-6a171c95bb6844d7d27ed521ede0ebdf.png
+27. https://s3.oss.go.id/oss/cms/Picture9-d55c969139339769c56cba44ef436fa9.png

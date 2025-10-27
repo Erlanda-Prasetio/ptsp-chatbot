@@ -1,0 +1,13 @@
+================================================================================
+Title: Mengapa muncul Nomor Izin Penanaman Modal (NIPM )di akun PT PMA saat akses menu Permohonan Baru?
+Source: https://oss.go.id/id/faq/kategori?id=68e488487795640efd3ef03a
+Scraped: 2025-10-21T15:11:36.697925
+================================================================================
+
+QUESTION:
+Mengapa muncul Nomor Izin Penanaman Modal (NIPM )di akun PT PMA saat akses menu Permohonan Baru?
+
+ANSWER:
+Nomor Izin Penanaman Modal (NIPM) yang muncul saat PT PMA mengakses menu Permohonan Baru, pada umumnya disebabkan oleh ketidaksesuaian data permodalan asing pada badan usaha tersebut yang saat ini pengaturannya harus paling sedikit Rp 10 miliar untuk modal disetor/ditempatkan. Jika perusahaan Bapak/Ibu adalah PT PMA baru dan belum memiliki perizinan berusaha sebelum diberlakukannya OSS RBA, silakan melakukan penyesuaian modal ditempatkan atau disetor pada akta perusahaan dan data AHU sesuai dengan ketentuan permodalan asing yang berlaku yaitu modal disetor/ditempatkan paling sedikit 10 miliar rupiah sebagaimana diatur pada Peraturan BKPM Nomor 4 Tahun 2021. Jika perusahaan Bapak/Ibu adalah PT PMA lama yang didirikan sebelum berlakunya PP 5 Tahun 2021 dan sudah memiliki perizinan berusaha sebelum diberlakukannya OSS RBA, silakan mengajukan surat resmi terkait pemeriksaan dan pembukaan Grandfather Clause terlebih dahulu ke pihak Deregulasi Kementerian Investasi dan Hilirisasi/BKPM melalui alamat email info@bkpm.go.id.
+
+================================================================================

@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melakukan perubahan email yang ada pada cetakan NIB?
+Source: https://oss.go.id/id/faq/kategori?id=68e4860a711547977a0df1b9
+Scraped: 2025-10-21T15:19:30.235055
+================================================================================
+
+QUESTION:
+Bagaimana cara melakukan perubahan email yang ada pada cetakan NIB?
+
+ANSWER:
+Perubahan alamat email pada cetakan NIB dapat dilakukan pada menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Perubahan, lalu pilih Perubahan Badan Usaha (untuk akun badan usaha) atau Perubahan Data Pelaku Usaha (untuk akun perorangan) Untuk perubahan email akses OSS badan usaha, pilih Perubahan pada Profil, lalu klik tombol Ubah Sekarang kemudian tuliskan alamat email terbaru pada kolom Email Perusahaan. Untuk perorangan, silakan melakukan perubahan pada kolom email kemudian klik tombol SIMPAN DATA. Panduan lebih lanjut dapat dilihat melalui oss.go.id, kemudian pilih menu Panduan dan lakukan pencarian "Perubahan Perizinan Berusaha".
+
+================================================================================

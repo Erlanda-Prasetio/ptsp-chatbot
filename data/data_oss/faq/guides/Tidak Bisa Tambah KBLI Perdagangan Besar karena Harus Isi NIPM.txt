@@ -1,0 +1,13 @@
+================================================================================
+Title: Tidak Bisa Tambah KBLI Perdagangan Besar karena Harus Isi NIPM
+Source: https://oss.go.id/id/faq/kategori?id=68e486e37795640efd3eefe8
+Scraped: 2025-10-21T15:16:41.483657
+================================================================================
+
+QUESTION:
+Tidak Bisa Tambah KBLI Perdagangan Besar karena Harus Isi NIPM
+
+ANSWER:
+Nomor Izin Penanaman Modal (NIPM) akan muncul saat menambahkan KBLI Perdagangan Besar sedangkan Bapak/Ibu memiliki KBLI Perdagangan Eceran pada akun OSS ataupun sebaliknya. Bidang usaha Perdagangan Besar tidak dapat digabung/dijalankan bersamaan dengan Perdagangan Eceran sesuai dengan Peraturan Menteri Perdagangan RI Nomor 66 Tahun 2019, Pasal 19 Ayat 1. Silakan menghapus KBLI Perdagangan Eceran sebelum menambahkan KBLI Perdagangan Besar.
+
+================================================================================

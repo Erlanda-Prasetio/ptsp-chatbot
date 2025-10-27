@@ -1,0 +1,7 @@
+QUESTION: Berapa nilai minimal investasi untuk perusahan penanaman modal asing (PMA) langsung
+
+ANSWER:
+Investasi minimum bagi perusahaan PMA adalah di atas Rp 10.000.000.000 (sepuluh milyar) (tidak termasuk biaya lahan dan bangunan), sementara nilai minimal modal disetor dan modal ditempatkan adalah Rp 2.500.000.000 (2,5 milyar). Bagi setiap pemegang saham, setidaknya diperlukan Rp 10.000.000 (sepuluh juta) atau ekuivalennya dalam Dollar AS.
+
+SOURCE: https://cjip.jatengprov.go.id/panduan-investasi
+SCRAPED: 2025-10-21T15:46:37.718118

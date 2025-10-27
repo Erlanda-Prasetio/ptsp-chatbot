@@ -1,0 +1,71 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Sistem secara otomatis akan menghapus user Badan Pengusahaan KPBPB yang dipilih
+Source: https://oss.go.id/panduan/635970086345c7d71a8144f6
+Scraped: 2025-10-20T15:24:02.030516
+Total Steps: 24
+Total Images: 34
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1.Kunjungi Lamanhttps://oss.go.id, pilihMasuk Sebagai KAWASAN
+2. 2.MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3.Jika Login berhasil, sistem akan menampilkanHalaman Dashboard Administrator KEK/Badan Pengusahaan KPBPB
+4. 1.Pilih menuADMINISTRATOR,lalu klikHAK AKSES TURUNAN
+5. 2.KlikTambah Datauntuk menambah data Hak Akses Turunan
+6. 3.LengkapiFormulir Tambah Hak Akses Turunan Administrator KEK
+7. 4.Sistem akan menampilkan data baru yang sudah ditambahkan
+8. 1. Pilih menuADMINISTRATOR,lalu klikHAK AKSES TURUNAN
+9. 2.Pilih User yang akan diubah datanya, lalu klikEDIT
+10. 3.LengkapiFormulir Edit Hak Akses Turunan Administrator KEK
+11. 2.Pilih user yang akan dihapus, lalu klikNON AKTIF
+12. 3.Konfirmasi untukmenghapususer yang dipilih
+13. 1.Pilih menuAdministrator, lalu klikHak Akses Turunan
+14. 2.PadaDaftar Hak Akses Turunan, pilih pengguna yang ingin dilakukan kirim ulang Hak Aksesnya, lalu klikKIRIM ULANG EMAIL
+15. 3.Sistem akan menampilkannotifikasi berhasil kirim email
+16. 4.Pengguna mendapatkan email berupausernamedanpassworduntuk login ke dalam sistem
+17. 1.Kunjungi Lamanhttps://oss.go.id/, pilihMasuk Sebagai KAWASAN
+18. 3.Jika Login berhasil, sistem akan menampilkanlamanDasbor Badan Pengusahaan KPBPB
+19. 3.LengkapiFormulir Tambah Hak Akses Turunan
+20. 2.Pilih User yang akan diubah datanya, lalu klik tombol“V”dan KlikEDIT
+21. 3.LengkapiForm Edit Hak Akses Turunan Badan Pengusahaan KPBPB
+22. 1. Pilih menu ADMINISTRATOR, lalu klik HAK AKSES TURUNAN
+23. 2. Pilih user yang akan dihapus, lalu klik NON AKTIF
+24. 3.Konfirmasi untuk menghapus user yang dipilih
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (34 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/KEK-b-3-b2c096062a76794264d250b53805c2a4.webp
+2. https://s3-stg.oss.go.id/oss/cms/KEK-d-3-f715623b124cd85e3288946aac2ac0ec.webp
+3. https://s3-stg.oss.go.id/oss/cms/KPBPB-e-4-d52f0a518fac83065fefd16724adf149.webp
+4. https://s3-stg.oss.go.id/oss/cms/KPBPB-c-2-ae1134068e873d32f8b2ea826ce5fb3e.webp
+5. https://s3-stg.oss.go.id/oss/cms/KPBPB-b-4-a5aabccc883b6d6dd9c8b4bc223eaf84.webp
+6. https://s3-stg.oss.go.id/oss/cms/KPBPB-a-1-ed29fe2e695085a78a75a6276a6dcf67.webp
+7. https://s3-stg.oss.go.id/oss/cms/KPBPB-e-1-0f86e6bfa2abd0b7d05b3b06e8b78f6f.webp
+8. https://s3-stg.oss.go.id/oss/cms/KEK-e-2-df0fb35748b69ffddc30d3f1766039fd.webp
+9. https://s3-stg.oss.go.id/oss/cms/KPBPB-e-2-d667e84ccb4bca843bcd35d74c4c50fa.webp
+10. https://s3-stg.oss.go.id/oss/cms/KEK-e-3-96048759fdf083bfeb646a07221e2236.webp
+11. https://s3-stg.oss.go.id/oss/cms/KEK-e-4-9d832d449ea48fb7f54870dc19e766e0.webp
+12. https://s3-stg.oss.go.id/oss/cms/KEK-a-1-9177a03a4af4d961eb3b1bdd3fb6777e.webp
+13. https://s3-stg.oss.go.id/oss/cms/KPBPB-c-1-f7cd6791319c3038f075f5f6b4b897a4.webp
+14. https://s3-stg.oss.go.id/oss/cms/KEK-a-2-88564f758054ab6372d3f4bf4e45a5d9.webp
+15. https://s3-stg.oss.go.id/oss/cms/KEK-c-1-bb4715be454140d0d1249718676af163.webp
+16. https://s3-stg.oss.go.id/oss/cms/KEK-c-2-ae4dc90608460f1c5d0eeecb3f21d9c8.webp
+17. https://s3-stg.oss.go.id/oss/cms/KEK-e-1-dd1c24d3815dc3bc1322fca099a1983c.webp
+18. https://s3-stg.oss.go.id/oss/cms/KPBPB-b-3-16f368b6f3008f2442d237283dee8495.webp
+19. https://s3-stg.oss.go.id/oss/cms/KEK-b-4-eba3cee1cb2dd1f4444f59ea5d5a390d.webp
+20. https://s3-stg.oss.go.id/oss/cms/KPBPB-e-3-a3e81d682e96355ed102d2e95c12812f.webp
+21. https://s3-stg.oss.go.id/oss/cms/KEK-d-1-d2a399e69c987d488e20ab5346eeeb56.webp
+22. https://s3-stg.oss.go.id/oss/cms/KPBPB-c-3-2d56f73bc9aba196f5e2d428171f2e46.webp
+23. https://s3-stg.oss.go.id/oss/cms/KPBPB-a-2-fa429844890a0570b73cd02e70e484d9.webp
+24. https://s3-stg.oss.go.id/oss/cms/KEK-a-3-9dd3c308c191030f5f60b5f9ef49cd8d.webp
+25. https://s3-stg.oss.go.id/oss/cms/KEK-b-2-3c6ba213a100868dba101c167e3c968a.webp
+26. https://s3-stg.oss.go.id/oss/cms/KPBPB-b-1-8506a489a05aa1897f3cf4d505395f32.webp
+27. https://s3-stg.oss.go.id/oss/cms/KEK-b-1-6e8fd005f0463d00d8a265e46403f214.webp
+28. https://s3-stg.oss.go.id/oss/cms/KEK-c-3-fa75f380bb3bcf902eee01b2ca4f46fb.webp
+29. https://s3-stg.oss.go.id/oss/cms/KPBPB-d-2-eeaea8f1909822b865f5fa00b9d752e2.webp
+30. https://s3-stg.oss.go.id/oss/cms/KPBPB-b-2-b56b49f3863aca419c1af868d391b1a7.webp
+31. https://s3-stg.oss.go.id/oss/cms/KPBPB-d-3-25061c10bc28741d7d1276c0a1532451.webp
+32. https://s3-stg.oss.go.id/oss/cms/KEK-d-2-9f25ab23d0ed587905a4501b57c17971.webp
+33. https://s3-stg.oss.go.id/oss/cms/KPBPB-a-3-85bb8eae5901bf90d394d05418a94314.webp
+34. https://s3-stg.oss.go.id/oss/cms/KPBPB-d-1-f7849c116b1eba0b6f15b7be03625fcd.webp

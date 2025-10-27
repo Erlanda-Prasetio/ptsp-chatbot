@@ -1,0 +1,44 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda DapatMelihat, Mengunduh, Dan MencetakProduk Perizinan Berusaha UMKU Tersebut.
+Source: https://oss.go.id/panduan/646d8ae7d033753dd77d86e6
+Scraped: 2025-10-20T15:34:53.548751
+Total Steps: 14
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda Telah MemilikiHak Akses
+2. 2. KunjungiHttps://Oss.Go.IdLalu PilihMASUK
+3. 3. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+4. 4. Klik MenuPB-UMKUDan PilihPermohonan Baru
+5. 5. PilihKBLI Untuk Pengajuan PB-UMKU
+6. 6. Klik TombolAjukan Perizinan Berusaha UMKU
+7. 7. LengkapiFormulir Perizinan Berusaha UMKU
+8. 8. PilihPerizinan Berusaha UMKU Tanda Daftar Gudang
+9. 9. LengkapiFormulir Perizinan Berusaha UMKU (Tanda Daftar Gudang)
+10. 10. PeriksaDaftar Kegiatan Usaha Untuk Menunjang Kegiatan Usaha
+11. 11. Tunggu Dan PeriksaPerubahan Status Permohonan(JikaAda Perbaikan Persyaratan)
+12. 12. Periksa Daftar Kegiatan Usaha Untuk Menunjang Kegiatan UsahaTelah Terverifikasi
+13. 13.Perizinan Berusaha UMKU Telah Terbit
+14. 14.Contoh Produk PB-UMKU Tanda Daftar Gudang
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-portal-masuk-0b3550a4374f27f1d4f71829f85b0413.png
+2. https://s3.oss.go.id/oss/cms/blobid52-104df9b75946de76e5a7efb02482131c.png
+3. https://s3.oss.go.id/oss/cms/blobid63-8aa31ddfc26fd63a8ab69083e56c90b0.png
+4. https://s3.oss.go.id/oss/cms/3-menu-PB---permohonan-baru-(1)-8c83f778b0bc332ab3209acf65811519.png
+5. https://s3.oss.go.id/oss/cms/blobid60-3e5a7c3bd1810c3e2c18700e8fe2060e.png
+6. https://s3.oss.go.id/oss/cms/blobid56-42e855aaf2354d2dba83305339b2885d.png
+7. https://s3.oss.go.id/oss/cms/blobid59-b635b326741cb9f227a6425c20f7c811.png
+8. https://s3.oss.go.id/oss/cms/blobid54-c4db0e6a00fc2742d496334f323790cf.png
+9. https://s3.oss.go.id/oss/cms/Picture1-0e32ac1a6d078811348ca6b72a2173b3.webp
+10. https://s3.oss.go.id/oss/cms/blobid65-3ca08e5ccda36ea93d4f5dc0fcb410b6.png
+11. https://s3.oss.go.id/oss/cms/blobid62-1d05a3cebe41eff41b308dd0fb2422f3.png
+12. https://s3.oss.go.id/oss/cms/blobid50-ef4ea209422bfc75dcfbf3612210e2e3.png
+13. https://s3.oss.go.id/oss/cms/blobid64-558e76d0209bbf5ba12bcc9d632c36c6.png
+14. https://s3.oss.go.id/oss/cms/blobid55-d42e1e1bae090322f033c6516abbc684.png
+15. https://s3.oss.go.id/oss/cms/blobid61-c88dee65bc347ee2a68c93fbba30d871.png
+16. https://s3.oss.go.id/oss/cms/blobid57-d8ceae8f372f716f83087b82aaa7ee76.png
+17. https://s3.oss.go.id/oss/cms/blobid58-590afbb9c0e95fa05651143613c21f9c.png

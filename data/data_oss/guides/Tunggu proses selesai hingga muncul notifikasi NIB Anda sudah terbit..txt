@@ -1,0 +1,28 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Tunggu proses selesai hingga muncul notifikasi "NIB Anda sudah terbit".
+Source: https://oss.go.id/panduan/68cd0cb8cc59ddbd394dcb3b
+Scraped: 2025-10-20T15:27:12.745042
+Total Steps: 0
+Total Images: 15
+════════════════════════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (15 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid1-5b8cebf44c338b2f691dfd35f639b2c7.png
+2. https://s3.oss.go.id/oss/cms/blobid11-1464b00f9d7b5070afc261d9bfd70300.png
+3. https://s3.oss.go.id/oss/cms/blobid4-88eb84c841f3c9c2cd16738e9c0d88d3.png
+4. https://s3.oss.go.id/oss/cms/blobid3-7e08057b9077cf6ffe388207f83996e8.png
+5. https://s3.oss.go.id/oss/cms/blobid12-f4fcf93626d9493bd25a1c273ceccbf0.png
+6. https://s3.oss.go.id/oss/cms/blobid7-2d53c768f5d3d90a1926e7b3eba30082.png
+7. https://s3.oss.go.id/oss/cms/blobid9-d70dc7e131c9c9c58692ed936b534454.png
+8. https://s3.oss.go.id/oss/cms/blobid14-818ac045ccd54e3bbcc59819792c4eb8.png
+9. https://s3.oss.go.id/oss/cms/blobid8-bd16273daa49bb7d830e27824bda98ca.png
+10. https://s3.oss.go.id/oss/cms/blobid13-7b481b0c895965b4928b1211f26ff18c.png
+11. https://s3.oss.go.id/oss/cms/blobid5-c952ba7548efdfc67cbc6bfc77e8ca31.png
+12. https://s3.oss.go.id/oss/cms/blobid6-fb5a8d76a77bc1d8589887177bba4606.png
+13. https://s3.oss.go.id/oss/cms/blobid2-e4c0ee367708787794ad47f8c8f590b8.png
+14. https://s3.oss.go.id/oss/cms/blobid0-c1b659319345ef8d5bb57cd908a341bd.png
+15. https://s3.oss.go.id/oss/cms/blobid10-37840f68558f68b6750dd14b30fe78b3.png

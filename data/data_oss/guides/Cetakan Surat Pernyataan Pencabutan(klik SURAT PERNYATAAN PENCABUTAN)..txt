@@ -1,0 +1,55 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Surat Pernyataan Pencabutan(klik SURAT PERNYATAAN PENCABUTAN).
+Source: https://oss.go.id/panduan/635970086345c7d71a8144f4
+Scraped: 2025-10-20T15:31:53.922261
+Total Steps: 18
+Total Images: 24
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, klikMASUK.
+2. 2. MasukkanUsernamedanPassword,lalu klik tombolMASUK.
+3. 3.Masuk ke menuSANKSI,pilihPENCABUTANdan klikUSULAN K/L/D.
+4. 4. Setelah itu sistem akan menampilkan halaman Daftar Pelaku Usaha yang akan dilakukan Permohonan Usulan Pencabutan.Anda dapat menggunakan fitur Pencarian yang telah disediakanuntuk mencari Data Pelaku Usaha yang Anda inginkan. Setelah melakukan pencarian, klik tanda‘v’pada Data Pelaku Usaha yang Anda pilih dan klikPROSES.
+5. 5. PilihData Kegiatan Usahayang dimiliki Pelaku Usaha yang akan diusulkan Pencabutan dengan mencentang pada kotak centang, lalu klikPROSES.
+6. 6. Setelah Anda memilih proyek, sistem akan menampilkan Formulir Pencabutan Periznan Berusaha Usulan Kementerian/Lembaga/Daerah. Silakan periksaData Pelaku Usaha yang terkena Sanksiterlebih dahulu.
+7. 7. PeriksaData Detail Pelaku Usaha
+8. 8. PeriksaData Pemohon Pencabutan
+9. 9. LengkapiData Riwayat Sanksi (apabila ada).Setelah melengkapi Data Riwayat Sanksi, klikTAMBAH SANKSI untuk menyimpan data yang baru saja diisi pada tabel di bawah. Anda juga dapat menghapus Data Riwayat Sanksi yang sudah disimpan denganklik ikon ‘Tong Sampah’ pada data yang Anda pilih.Pengisian Daftar Riwayat Sanksi ini bersifattidak mandatory atau tidak wajib diisidan hanya dilengkapi apabila kegiatan usaha yang Anda usulkan dikenakan sanksi sebelumnya.
+10. 10. LengkapiData Detail Aksi Pencabutan/Alasan Pencabutan
+11. 11.LengkapiData Aksi yang Dilakukan.Setelah melengkapi Data Aksi yang Dilakukan, klikTAMBAH AKSIuntuk menyimpan data yang baru saja diisi pada tabel di bawah. Anda juga dapat menghapus Data Aksi yang Dilakukan yang sudah disimpan denganklik ikon ‘Tong Sampah’ pada data yang Anda pilih.
+12. 12. LengkapiData Penanggung Jawab Usulan Pencabutan
+13. 13. Baca dan pahami Pernyataan dengan teliti, centang pada checkboxDISCLAIMERdan Pastikan kelengkapan data pada form pencabutan sudah sesuai, lalu klikKIRIM.Anda juga dapat menyimpan form permohonan usulan Pencabutan PB-UMKU sebagai draf dengan klik tombolSIMPAN DRAF.
+14. 14. Status Permohonan Usulan Pencabutan telah‘Terkirim’dan akan diperiksa oleh verifikator terlebih dahulu sebelum diteruskan oleh Penyetuju. Mohon agar Anda dapat menunggu hasil verifikasi dan melakukan pengecekan secara berkala.
+15. 15. Apabila keperluan dokumen yang disampaikan belum lengkap atau belum sesuai dengan ketentuan maka verifikator akan mengembalikan permohonan. Status permohonan Anda akan menjadi“Perlu Perbaikan”. Klik ikon‘v’dan klikLIHAT DETAILuntuk memperbaiki form permohonan usulan Pencabutan.
+16. 16. Lihat kolom catatan untuk mengetahui catatan perbaikan dari verifikator yang berwenang. Lengkapi/perbaiki dokumen pada formulir permohonan sesuai dengan catatan perbaikan.
+17. 17. Setelah permohonan/dokumen diperbaiki, klikcentangpada checkboxDISCLAIMERdan klikKIRIM untuk mengirimkan perbaikan permohonan usulan Pencabutan.
+18. 18.Jika Verifikator telah menyetujui permohonan Sanksi Usulan Pencabutan, status permohonan akan berubah menjadi“Disetujui”.Setelah disetujui oleh Penyetuju, tanggal Pencabutan juga akan tampil seperti gambar di bawah. Anda dapat klik ikon‘v’untuk menampilkan:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (24 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/16-87b04a00a8f4629e1585409b15c1d6a6.png
+2. https://s3.oss.go.id/oss/cms/15-75bc57ed44ee6e35284385c45d69093c.png
+3. https://s3.oss.go.id/oss/cms/13-dc1bfff586a60fa0355268a25cab0018.png
+4. https://s3.oss.go.id/oss/cms/2.png-c7e4a850387c07acdd8e0dc324f3367e.jpg
+5. https://s3.oss.go.id/oss/cms/19-1-5727c60abecc713b083608c35dc523fa.png
+6. https://s3.oss.go.id/oss/cms/3-e306dcdb35a94bc952a88a56f79d4d81.png
+7. https://s3.oss.go.id/oss/cms/4-c8d6aa2bdd2394bc67dca57f5c7f47f3.png
+8. https://s3.oss.go.id/oss/cms/17-108c20ae206aaec80f1424ced20d9065.png
+9. https://s3.oss.go.id/oss/cms/12-cb2e0c28a97527129ec579074d48b50d.png
+10. https://s3.oss.go.id/oss/cms/0-311e41cc52409e562298df46bc8684bb.png
+11. https://s3.oss.go.id/oss/cms/14-1-d2baf74cd72aa7bf610afbe897ba8bc5.png
+12. https://s3.oss.go.id/oss/cms/18-f83b74a0d4afa5c572832bb7e979e98c.png
+13. https://s3.oss.go.id/oss/cms/7-38c694ad243a4f807189832a13544551.png
+14. https://s3.oss.go.id/oss/cms/8-b78095d8339f2e85df2ea229432ace82.png
+15. https://s3.oss.go.id/oss/cms/19-3-ba92b0d68d812bc8299e1342e62575ac.png
+16. https://s3.oss.go.id/oss/cms/19-2-602872a1bc5c104abe54d205e60490b4.png
+17. https://s3.oss.go.id/oss/cms/14-2-3d5c5d2edd98c73511856ed13611b46a.png
+18. https://s3.oss.go.id/oss/cms/10-bce0e4c5d6aadc7285dd05f9da6907a0.png
+19. https://s3.oss.go.id/oss/cms/6-3a2c4c4d5c7cd62c32403d643ef7f5cd.png
+20. https://s3.oss.go.id/oss/cms/9-11591b91cc3c9e60cf8e8991540385ea.png
+21. https://s3.oss.go.id/oss/cms/7-44210e599c2391da0da76509466145cd.png
+22. https://s3.oss.go.id/oss/cms/19-4-8fc0bf25a8857934e238bfa924ae1f30.png
+23. https://s3.oss.go.id/oss/cms/5-d7123ae778b9831f638d5a2505acbfe5.png
+24. https://s3.oss.go.id/oss/cms/11-0fc563bea1ec8ab443232245f82a3185.png

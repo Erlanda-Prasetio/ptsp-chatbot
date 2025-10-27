@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa saat validasi risiko muncul notifikasi 'Skala usaha Anda adalah mikro, Anda tidak dapat melanjutkan pengisian data usaha ini'?
+Source: https://oss.go.id/id/faq/kategori?id=68e486927795640efd3eefbe
+Scraped: 2025-10-21T15:17:34.977280
+================================================================================
+
+QUESTION:
+Kenapa saat validasi risiko muncul notifikasi 'Skala usaha Anda adalah mikro, Anda tidak dapat melanjutkan pengisian data usaha ini'?
+
+ANSWER:
+Notifikasi 'Skala usaha Bapak/Ibu adalah mikro, Bapak/Ibu tidak dapat melanjutkan pengisian data usaha ini' muncul karena modal yang Bapak/Ibu isikan termasuk skala usaha mikro. Sedangkan, KBLI yang diajukan tidak diperuntukkan bagi pelaku usaha dengan skala usaha mikro. Bapak/Ibu harus menyesuaikan modal usaha menjadi di atas 1 miliar rupiah untuk skala usaha kecil dan modal usaha di atas 5 miliar (di luar nilai tanah dan bangunan) untuk skala usaha menengah agar dapat melanjutkan permohonan perizinan berusaha pada KBLI yang dimaksud. Silakan melakukan pengecekan informasi skala usaha yang dapat diajukan oleh KBLI yang Bapak/Ibu pilih melalui tautan berikut dan lihat pada Ruang Lingkup >> Skala Usaha: https://oss.go.id/informasi/kbli-berbasis-risiko
+
+================================================================================

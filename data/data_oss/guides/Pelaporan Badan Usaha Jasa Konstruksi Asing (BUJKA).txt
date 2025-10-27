@@ -1,0 +1,53 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaporan Badan Usaha Jasa Konstruksi Asing (BUJKA)
+Source: https://oss.go.id/panduan/65277afb048d98beaf131184
+Scraped: 2025-10-20T15:32:12.201480
+Total Steps: 17
+Total Images: 23
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, KlikMASUK.
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK.
+3. 3. Masuk Ke MenuPELAPORAN, Dan KlikBUJKA.
+4. 4. Setelah Itu Sistem Akan Menampilkan Halaman Daftar Laporan BUJKA. Klik TombolBUAT LAPORANUntuk Melaporkan Kegiatan Usaha BUJKA.
+5. 5. Ketika Klik TombolBUAT LAPORAN(Langkah 4), Sistem Akan Menampilkan Form Pelaporan Yang Wajib Anda Lengkapi. Terdapat Dua Bagian Form, YaituForm Data UmumDanForm Data Proyek. Pada Form Data Umum, Periksa Kembali Data Pelaku Usaha.
+6. 6. Silakan Periksa Data Bidang Usaha Yang Akan Dilaporkan.
+7. 7. Lalu, Silakan Lengkapi Data Laporan Kepersonilan. Periksa Kembali Data Yang Anda Lengkapi, Lalu KlikSELANJUTNYA.
+8. 8. Selanjutnya Sistem Akan Menampilkan Form Data Proyek, Silakan Pilih Salah Satu Jenis Proyek.
+9. 9. Silakan LengkapiData Umum Proyek.
+10. 10. Silakan LengkapiData Ketenagakerjaan. Terdapat Dua Tampilan Form Ketenagekerjaan Jika Manajer Proyek WNI Dan Manajer Proyek WNA:
+11. 11. Silakan LengkapiData Kerja Sama Operasi. Anda Juga Bisa Menambah Kolom Pengisian Pada Pertanyaan Yang Memiliki TombolTAMBAH KOLOM.
+12. 12. Silakan LengkapiData Sub-Penyedia Data. Jika Anda Mempunyai Lebih Dari Satu Data Sub-Penyedia Jasa, Anda Dapat KlikTAMBAH PENYEDIA JASAUntuk Mengisikan Sub-Penyedia Jasa Yang Anda Miliki Dan Anda Juga Bisa Menambah Kolom Pengisian Pada Pertanyaan Yang Memiliki TombolTAMBAH KOLOM.
+13. 13. Silakan LengkapiData Realisasi Penanaman Modal. Anda Dapat Mengisi Nilai Tambahan Pada BagianTambahan Realisasi Pada Periode Pelaporan, Sementara Sistem Akan Melakukan Total Akumulasi Sampai Dengan Periode Pelaporan Dan Menampilkan Nilai Pada BagianTotal Akumulusasi S/D Periode Pelaporan.
+14. 14. Silakan LengkapiData Penanggung Jawab. Anda Juga Bisa Mengisikan Email Lebih Dari Satu, Klik Tombol+Untuk Menyimpan Email.
+15. 15. Baca Dan Pahami Pernyataan Dengan Teliti, Centang Pada CheckboxDISCLAIMER. Pastikan Kelengkapan Data Laporan Sudah Sesuai, Lalu KlikKIRIM LAPORAN.
+16. 16. Pelaporan Kegiatan Usaha BUJKA Akan Langsung Disetujui. Anda Dapat Klik TombolCETAK LAPORANUntuk Melihat Ataupun Mengunduh Laporan BUJKA Sementara Jika Anda Ingin Melihat Detail Laporan Yang Dilaporkan Anda Dapat KlikLIHAT DETAIL.
+17. 17. Berikut Adalah Hasil Produk Cetakan Laporan BUJKA.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (23 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/17-3-2872536e170372249c53eb5f00a57762.webp
+2. https://s3.oss.go.id/oss/cms/6-866b1cf42a08fce36fc1b6419390e71e.webp
+3. https://s3.oss.go.id/oss/cms/7-eca8e85ac38d99f8ab1424cabc1706f2.webp
+4. https://s3.oss.go.id/oss/cms/13-804df1017ec0e60ca284a122d4ab7e93.webp
+5. https://s3.oss.go.id/oss/cms/17-1-e8f0a5015f8f835626293f35ef3293f9.webp
+6. https://s3.oss.go.id/oss/cms/17-4-cdd71905ceb91924fcc40536b66c2931.webp
+7. https://s3.oss.go.id/oss/cms/14-e27d3fd2cb977dff8440631ba50f5482.webp
+8. https://s3.oss.go.id/oss/cms/11-1-1623654e07677db8bd8ba9260ba36f90.webp
+9. https://s3.oss.go.id/oss/cms/15-ID-a7c061da92566ff7ed87077586739baf.webp
+10. https://s3.oss.go.id/oss/cms/10-WNI-66de82a58bf4142e08567d798cfc11b4.webp
+11. https://s3.oss.go.id/oss/cms/16-91e8218275e303cffe21f0257ae108b4.webp
+12. https://s3.oss.go.id/oss/cms/8-04f68216833e261f78c7b41677b8afde.webp
+13. https://s3.oss.go.id/oss/cms/17-2-fbdeee50bb9e2012ce2cf7ef9d1cb107.webp
+14. https://s3.oss.go.id/oss/cms/5-25b3a663bcf57688c5d71244e7f1044d.webp
+15. https://s3.oss.go.id/oss/cms/12-e682e47993eeaa9d900af55e70e86375.webp
+16. https://s3.oss.go.id/oss/cms/10-WNA-a326f5c54a76a0b4a12a11962a0e3252.webp
+17. https://s3.oss.go.id/oss/cms/0-f9511be713df3762d34ae9099933801e.webp
+18. https://s3.oss.go.id/oss/cms/Login-c2ba8c6836880084ef4879368e2aa935.webp
+19. https://s3.oss.go.id/oss/cms/lapor-bujka-4562ecfa59a29a93adfe43bd484f7fb1.png
+20. https://s3.oss.go.id/oss/cms/11-2-4dd960de8d2813c3cc52661708274f84.webp
+21. https://s3.oss.go.id/oss/cms/7-1931bf91bf176169e1e16e133e7feead.png
+22. https://s3.oss.go.id/oss/cms/9-c722668fe82087b8e2ae487ff4a0e481.webp
+23. https://s3.oss.go.id/oss/cms/4-7515e1d86f78c5ce6ee5652c22161e29.webp

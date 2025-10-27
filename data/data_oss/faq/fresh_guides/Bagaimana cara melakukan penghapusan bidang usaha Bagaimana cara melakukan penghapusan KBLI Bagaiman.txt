@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melakukan penghapusan bidang usaha? Bagaimana cara melakukan penghapusan KBLI? Bagaimana cara mencabut KBLI? Bagaimana cara mencabut izin?
+Source: https://oss.go.id/id/faq/kategori?id=68e4861e711547977a0df1bf
+Scraped: 2025-10-21T15:18:54.370384
+================================================================================
+
+QUESTION:
+Bagaimana cara melakukan penghapusan bidang usaha? Bagaimana cara melakukan penghapusan KBLI? Bagaimana cara mencabut KBLI? Bagaimana cara mencabut izin?
+
+ANSWER:
+Untuk KBLI dengan status draft atau belum menyelesaikan pengisian form data usaha, pelaku usaha dapat melakukan penghapusan melalui menu Perizinan Berusaha, Pilih Kelola Usaha kemudian pilih Pengembangan, lalu pilih ikon Tempat Sampah pada KBLI yang akan dilakukan penghapusan. Untuk KBLI dengan risiko menengah tinggi dan tinggi yang belum terverifikasi atau KBLI dengan status SS/izin terbit dalam rangka percepatan yang belum memenuhi persyaratan, pelaku usaha dapat melakukan penghapusan KBLI melalui menu Perizinan Berusaha, kemudian pilih Pembatalan. Untuk KBLI risiko rendah, risiko menengah rendah, risiko menengah tinggi dengan Sertifikat Standar sudah terverifikasi, dan risiko tinggi dengan izin yang sudah terverifikasi, pelaku usaha dapat melakukan penghapusan melalui menu Perizinan Berusaha, kemudian pilih Pencabutan dan pilih Non Likuidasi Panduan Pembatalan Perizinan Berusaha (UMK) https://oss.go.id/panduan/635970086345c7d71a8144a6 Panduan Pembatalan Perizinan Berusaha (NON UMK) https://oss.go.id/panduan/635970086345c7d71a8144c9 Panduan Pencabutan Non Likuidasi Perizinan Berusaha (UMK) https://oss.go.id/panduan/635970086345c7d71a8144a7 Panduan Pencabutan Non Likuidasi Perizinan Berusaha (NON UMK) https://oss.go.id/panduan/635970086345c7d71a8144ca
+
+================================================================================

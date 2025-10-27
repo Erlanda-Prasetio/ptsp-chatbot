@@ -1,0 +1,24 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya, masukkan kode captcha yang muncul, klik LANJUT
+Source: https://oss.go.id/panduan/63a57fce758775dcf7164cd8
+Scraped: 2025-10-20T15:30:14.285581
+Total Steps: 5
+Total Images: 6
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Masuk ke akun anda melaluihttps://oss.go.id/dengan cara klikMASUKdi pinggir kanan atas.
+2. 2. KlikButuh Bantuan?
+3. 3. KlikLupa Akun.
+4. 4. Pada pertanyaan “Sudah punya NIB?”, jika sudah memiliki NIB maka klikSudah, jika belum memiliki maka klikBelum.Isi NIK pemilik akun yang terdaftar di OSS. Masukkan kode captcha yang muncul, klikLANJUT
+5. 5. Selanjutnya,akan muncul petunjuk data akun yang terdaftar di OSSmulai dari NIK, Email dan Nomor Ponsel.Silakan masuk dengan email atau nomor ponsel yang terdaftar
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (6 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid64-d3afd2e5611f2879561d5413769d1c70.png
+2. https://s3.oss.go.id/oss/cms/blobid65-dde6d8331105ebe00c1b90b23e7a7fb9.png
+3. https://s3.oss.go.id/oss/cms/blobid67-d412f4cf9965c2a19a262be6b7557bcc.png
+4. https://s3.oss.go.id/oss/cms/blobid66-8e6983c472da709d55e96b65d1dbeb5a.png
+5. https://s3.oss.go.id/oss/cms/7-b49da19e9c481b4205853ce03dc6bf14.png
+6. https://s3.oss.go.id/oss/cms/blobid68-d1dde227581a81180554c3bfb83f616f.png

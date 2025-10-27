@@ -1,0 +1,13 @@
+================================================================================
+Title: Mengapa Muncul Notifikasi 'Kesalahan Sistem' Saat Akses Menu Permohonan Baru?
+Source: https://oss.go.id/id/faq/kategori?id=68e486d87795640efd3eefe0
+Scraped: 2025-10-21T15:16:44.406606
+================================================================================
+
+QUESTION:
+Mengapa Muncul Notifikasi 'Kesalahan Sistem' Saat Akses Menu Permohonan Baru?
+
+ANSWER:
+Notifikasi tersebut muncul dikarenakan jaringan internet tidak stabil sehingga sistem gagal mengambil data. Silakan mencoba kembali dengan memastikan jaringan internet stabil agar sistem dapat berjalan dengan lancar.
+
+================================================================================

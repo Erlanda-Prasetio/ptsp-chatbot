@@ -1,0 +1,13 @@
+================================================================================
+Title: Apakah kantor perwakilan wajib memiliki NPWP?
+Source: https://oss.go.id/id/faq/kategori?id=68e4854c711547977a0df183
+Scraped: 2025-10-21T15:21:18.949864
+================================================================================
+
+QUESTION:
+Apakah kantor perwakilan wajib memiliki NPWP?
+
+ANSWER:
+Pada saat pendaftaran akun OSS, Pelaku usaha dengan jenis akun Kantor Perwakilan dan Badan Usaha Luar Negeri tidak wajib menginput NPWP
+
+================================================================================

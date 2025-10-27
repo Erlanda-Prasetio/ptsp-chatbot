@@ -1,0 +1,59 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: KlikCETAKAN NIBUntuk Melihat Cetakan Nomor Induk Berusaha (NIB) Pelaku Usaha.
+Source: https://oss.go.id/panduan/654b0b5d5233742fd606278c
+Scraped: 2025-10-20T15:32:03.209835
+Total Steps: 19
+Total Images: 27
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“MASUK”.
+2. 2. Masukkan Username Dan Password, Lalu Klik TombolMASUK.
+3. 3. Masuk Ke MenuSANKSIDan KlikPENCATATAN SANKSI.
+4. 4.Pilih Kegiatan Usaha Yang Akan DiprosesDengan Mengklik Tanda‘V’, Lalu KlikPROSES.
+5. 5. Setelah Itu, Sistem Akan MenampilkanFormulir Pencatatan Sanksi. Periksa KembaliData Kegiatan Usaha Yang Akan Dikenakan Sanksi.
+6. 6. PeriksaData Pelaku UsahaYang Telah Ditampilkan Secara Otomatis Oleh Sistem
+7. 7. PeriksaDetail Pemberi SanksiYang Telah Ditampilkan Secara Otomatis Oleh Sistem Dan Berikan NomorNIPAnda.
+8. 8. LengkapiData Form Sanksi. Anda Dapat MenentukanScoreDanDurasi (Hari Kerja)Berdasarkan Dengan Norma, Standar, Prosedur, Dan Kriteria (NSPK) Masing-Masing Instansi.
+9. 9. Pernyataan Pencatatan Sanksi Akan Otomatis Tercentang. Terdapat Beberapa Tombol Yang Dapat Anda Gunakan. Anda Dapat Memilih Aksi Yang Dilakukan Ketika:
+10. 10. Sistem Akan Menampilkan Pemberitahuan Setelah Anda Memproses Data Pencatatan Sanksi. Jika Anda Yakin UntukMelanjutkan Proses Pencatatan Sanksi, Klik YA. Akan Tetapi, Jika Anda InginMembatalkan, Klik TIDAK.
+11. 11. Setelah Anda Memproses Form Pencatatan Sanksi, Anda AkanDialihkan Ke Daftar List Sanksi. Anda JugaDapat Mengakses Menu Daftar List SanksiPada Menu Dashboard Dengan Masuk Ke MenuSANKSIDan KlikDAFTAR SANKSI.
+12. 12. Ketika Anda Berada Dalam Halaman Daftar List Sanksi, Anda Dapat Menggunakan Fitur Pencarian Untuk Mencari Data Sanksi Yang Baru Saja Diproses. Selama Pelaku Usaha Belum Menanggapi Sanksi Yang Dikenakan, Status Sanksi Adalah“Terkirim Ke Pelaku Usaha”. Anda Juga Dapat Melihat Tenggat Waktu Dan Masa Berlaku Perhitungan Hari Dari Sanksi Yang Dikenakan.
+13. 13. Setelah Pelaku Usaha Menanggapi Sanksi, Status Sanksi Akan Berubah Menjadi“Menunggu Tanggapan Verifikator”.Tenggat Waktu Dan Masa BerlakuAkanDiberhentikan SementaraSelama Periode IniSampai Pengawas Menanggapi Sanksi. Anda Dapat Melakukan Pengecekan Dengan Mengklik Pada Tanda“V”Dan Klik TombolMENANGGAPI.
+14. 14. Setelah Itu Sistem Akan MenampilkanFormulir Pencatatan Sanksi. Anda Dapat Melihat Tanggapan Dari Pelaku Usaha Pada KolomLog CatatanDan Dapat Membuka Dokumen Lampiran Dengan Mengklik Tautan‘Lihat’. Anda Dapat Memberikan Tanggapan Kembali Kepada Pelaku Usaha Dengan Mengisi Form Tanggapan Sanksi.
+15. 15. Selanjutnya, Anda Dapat Memilih Beberapa Aksi Untuk Menindaklanjuti Pencatatan Sanksi Dengan;
+16. 16. Jika Anda Memutuskan UntukMencabut Sanksi Yang Dikenakan, KlikSANKSI DICABUT(Pada Langkah 15). Pop-Up Konfirmasi Pencabutan Sanksi Akan Tampil. Anda Dapat KlikYAJika Ingin Melanjutkan Pencabutan Sanksi.
+17. 17. Jika Anda Memutuskan UntukMemberikan Sanksi Lanjutan Pada Pelaku Usaha, KlikSANKSI LANJUTAN(Pada Langkah 15). Pop-Up Konfirmasi Memberikan Sanksi Lanjutan Akan Tampil. Anda Dapat KlikYAJika Ingin Melanjutkan Pemberian Sanksi Lanjutan.
+18. 18. ApabilaTenggat Waktu Atau Masa Berlaku Sudah Selesai Dan Pengawas Tidak Mendapatkan Tanggapan Dari Pelaku Usaha, Status Sanksi Akan Berubah Menjadi“Tidak Ditanggapi Pelaku Usaha”.Pengawas DapatMengajukan Sanksi LanjutanDengan Klik‘V’Dan KlikDETAIL.
+19. 19. Berikut Adalah Tampilan Dari Produk Pencatatan Sanksi:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (27 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/3-40dac4bf0890abe32afb91563be06ac0.webp
+2. https://s3.oss.go.id/oss/cms/14-c84ab793ffa683344b5a3c92adbf3d16.webp
+3. https://s3.oss.go.id/oss/cms/12-d3512ee76f39982ddc093d3308c0016b.webp
+4. https://s3.oss.go.id/oss/cms/7-ec0695f535b335c328fe344d3619827e.png
+5. https://s3.oss.go.id/oss/cms/17-5-827e4b992504d9d82acf6638ce040209.webp
+6. https://s3.oss.go.id/oss/cms/13-37c233e0b50fa35d743e4fc6e545f507.webp
+7. https://s3.oss.go.id/oss/cms/19-1-8a18e83d5503c3a31755c4f30af5a668.webp
+8. https://s3.oss.go.id/oss/cms/17-1-03d9b5d1c6d057b59366adb3d2894b39.webp
+9. https://s3.oss.go.id/oss/cms/9-ca7bb1514b8949b2d847b459ee95d2b9.webp
+10. https://s3.oss.go.id/oss/cms/5-ed8fc595304dbeade12277dfc71f0354.webp
+11. https://s3.oss.go.id/oss/cms/10-83b9dd59cca73ec5024f3046065b846e.webp
+12. https://s3.oss.go.id/oss/cms/0-2a0ce79d663d522eb1c1edaeb215f488.webp
+13. https://s3.oss.go.id/oss/cms/7-0d2be16e1fae36a6233df0f893204c88.webp
+14. https://s3.oss.go.id/oss/cms/6-55f32d70dfb7b5095d04d748173ebf0b.webp
+15. https://s3.oss.go.id/oss/cms/19-3-ec11273e74d095e89074264bef7681cf.webp
+16. https://s3.oss.go.id/oss/cms/18-2-3653959c817df806b9f6bfa609768888.webp
+17. https://s3.oss.go.id/oss/cms/16-1-a98e94b117dc2218202b5d873b9bafd4.webp
+18. https://s3.oss.go.id/oss/cms/19-2-167d4a3e00231edff311e05a870cb2ea.webp
+19. https://s3.oss.go.id/oss/cms/18-1-76057f3607d94afb738f673889be0a08.webp
+20. https://s3.oss.go.id/oss/cms/15-bd2b09c19bd9249be1bd135cc455fd13.webp
+21. https://s3.oss.go.id/oss/cms/16-2-1a106b9ab5ea683a57dfe5c37acce667.webp
+22. https://s3.oss.go.id/oss/cms/17-2-d4aedc25e41436a09ba92f4f315b4726.webp
+23. https://s3.oss.go.id/oss/cms/17-3-c24f56c068e7d48a113b3d6904914682.webp
+24. https://s3.oss.go.id/oss/cms/4-e2725fa28a1f12675b1f12cefca1ef71.webp
+25. https://s3.oss.go.id/oss/cms/11-b2e72da3b5e692ac801f9c6d3be1cee1.webp
+26. https://s3.oss.go.id/oss/cms/8-c80c03750faaa650bc227242d9464fc8.webp
+27. https://s3.oss.go.id/oss/cms/2-8b4292b1f90cd5bfd68edf97d0bcf50a.webp

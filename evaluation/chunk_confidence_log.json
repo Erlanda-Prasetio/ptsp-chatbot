@@ -1,0 +1,2381 @@
+{
+  "analysis_name": "chunk_confidence_analysis",
+  "timestamp": "2025-10-27T12:22:47.260933",
+  "sample_file": "evaluation\\sample_50_balanced.json",
+  "total_queries": 50,
+  "statistics": {
+    "avg_top_score": 0.675,
+    "avg_avg_score": 0.649,
+    "confidence_distribution": {
+      "moderate": 8,
+      "good": 26,
+      "high": 15,
+      "low": 1
+    },
+    "dataset_breakdown": {
+      "OLD": {
+        "moderate": 6,
+        "good": 16,
+        "low": 1,
+        "high": 4
+      },
+      "NEW": {
+        "good": 10,
+        "high": 11,
+        "moderate": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "query_id": "old_51",
+      "question": "Perbedaan izin usaha kecil dan besar?",
+      "dataset_source": "OLD",
+      "category": "Licensing",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.559,
+      "avg_similarity_score": 0.555,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.559,
+          "text_preview": "Berapa lama masa berlaku PKKPR? Masa berlaku PKKPR adalah 3 tahun sejak diterbitkan.",
+          "chunk_id": 8688
+        },
+        {
+          "rank": 2,
+          "score": 0.559,
+          "text_preview": "Berapa lama masa berlaku PKKPR? Masa berlaku PKKPR adalah 3 tahun sejak diterbitkan.",
+          "chunk_id": 8855
+        },
+        {
+          "rank": 3,
+          "score": 0.557,
+          "text_preview": "Tidak Bisa Tambah KBLI Perdagangan Besar karena Harus Isi NIPM Nomor Izin Penanaman Modal (NIPM) aka...",
+          "chunk_id": 8744
+        },
+        {
+          "rank": 4,
+          "score": 0.557,
+          "text_preview": "Tidak Bisa Tambah KBLI Perdagangan Besar karena Harus Isi NIPM Nomor Izin Penanaman Modal (NIPM) aka...",
+          "chunk_id": 8911
+        },
+        {
+          "rank": 5,
+          "score": 0.543,
+          "text_preview": "Di mana alamat Kementerian Investasi dan Hilirisasi/BKPM? Berikut adalah alamat Kementerian Investas...",
+          "chunk_id": 8698
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_180",
+      "question": "Apakah KSO atau JO Bisa Memiliki NIB?",
+      "dataset_source": "NEW",
+      "category": "NIB",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.674,
+      "avg_similarity_score": 0.668,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.674,
+          "text_preview": "Apakah perkumpulan bisa membuat NIB? Badan usaha perkumpulan dapat mendaftarkan akun OSS dan menerbi...",
+          "chunk_id": 8619
+        },
+        {
+          "rank": 2,
+          "score": 0.674,
+          "text_preview": "Apakah perkumpulan bisa membuat NIB? Badan usaha perkumpulan dapat mendaftarkan akun OSS dan menerbi...",
+          "chunk_id": 8786
+        },
+        {
+          "rank": 3,
+          "score": 0.67,
+          "text_preview": "Bisakah satu NIK memiliki lebih dari satu akun OSS? Satu NIK dapat digunakan untuk mendaftar: - Satu...",
+          "chunk_id": 8694
+        },
+        {
+          "rank": 4,
+          "score": 0.67,
+          "text_preview": "Bisakah satu NIK memiliki lebih dari satu akun OSS? Satu NIK dapat digunakan untuk mendaftar: - Satu...",
+          "chunk_id": 8861
+        },
+        {
+          "rank": 5,
+          "score": 0.651,
+          "text_preview": "Berapa lama masa berlaku PKKPR? Masa berlaku PKKPR adalah 3 tahun sejak diterbitkan.",
+          "chunk_id": 8688
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_207",
+      "question": "Apa Saja KBLI yang Diwajibkan Bermitra dengan UMKM?",
+      "dataset_source": "NEW",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.811,
+      "avg_similarity_score": 0.728,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.811,
+          "text_preview": "Apa Saja KBLI yang Diwajibkan Bermitra dengan UMKM? KBLI yang diwajibkan bermitra dengan Koperasi da...",
+          "chunk_id": 8591
+        },
+        {
+          "rank": 2,
+          "score": 0.811,
+          "text_preview": "Apa Saja KBLI yang Diwajibkan Bermitra dengan UMKM? KBLI yang diwajibkan bermitra dengan Koperasi da...",
+          "chunk_id": 8758
+        },
+        {
+          "rank": 3,
+          "score": 0.678,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8802
+        },
+        {
+          "rank": 4,
+          "score": 0.678,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8635
+        },
+        {
+          "rank": 5,
+          "score": 0.662,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8719
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_297",
+      "question": "Apa itu pengawasan perizinan berbasis risiko?",
+      "dataset_source": "OLD",
+      "category": "Licensing",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.654,
+      "avg_similarity_score": 0.649,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.654,
+          "text_preview": "Haruskah Memiliki NPWP untuk Daftar Akun OSS? Wajib tidaknya memiliki Nomor Pokok Wajib Pajak (NPWP)...",
+          "chunk_id": 8702
+        },
+        {
+          "rank": 2,
+          "score": 0.654,
+          "text_preview": "Haruskah Memiliki NPWP untuk Daftar Akun OSS? Wajib tidaknya memiliki Nomor Pokok Wajib Pajak (NPWP)...",
+          "chunk_id": 8869
+        },
+        {
+          "rank": 3,
+          "score": 0.649,
+          "text_preview": "Apakah Jangka Waktu Perkiraan Beroperasi/Produksi dapat diubah? Sesuai Pasal 38 ayat (4) Peraturan M...",
+          "chunk_id": 8603
+        },
+        {
+          "rank": 4,
+          "score": 0.649,
+          "text_preview": "Apakah Jangka Waktu Perkiraan Beroperasi/Produksi dapat diubah? Sesuai Pasal 38 ayat (4) Peraturan M...",
+          "chunk_id": 8770
+        },
+        {
+          "rank": 5,
+          "score": 0.639,
+          "text_preview": "9. Status Pelaku Usaha berubah menjadi Persetujuan Persyaratan oleh Administrator KEK/Badan Pengusah...",
+          "chunk_id": 9377
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_60",
+      "question": "Bagaimana prosedur: surat pernyataan pencabutan likuidasi?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.695,
+      "avg_similarity_score": 0.689,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.695,
+          "text_preview": "Berapa lama proses pencabutan Likuidasi? Pencabutan likuidasi akan diproses dalam 5 (lima) hari kerj...",
+          "chunk_id": 8689
+        },
+        {
+          "rank": 2,
+          "score": 0.695,
+          "text_preview": "Berapa lama proses pencabutan Likuidasi? Pencabutan likuidasi akan diproses dalam 5 (lima) hari kerj...",
+          "chunk_id": 8856
+        },
+        {
+          "rank": 3,
+          "score": 0.691,
+          "text_preview": "18. 11. Baca Dan Pahami Pernyataan Dengan Teliti. Untuk Mengirim Permohonan, Centang Kotak DISCLAIME...",
+          "chunk_id": 9387
+        },
+        {
+          "rank": 4,
+          "score": 0.691,
+          "text_preview": "18. 11. Baca Dan Pahami Pernyataan Dengan Teliti. Untuk Mengirim Permohonan, Centang Kotak DISCLAIME...",
+          "chunk_id": 9400
+        },
+        {
+          "rank": 5,
+          "score": 0.672,
+          "text_preview": "Bagaimana cara memperbaiki dokumen persyaratan? Perbaikan dokumen persyaratan dapat dilakukan melalu...",
+          "chunk_id": 8657
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_291",
+      "question": "Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tetap wajib menyampaikan LKPM?",
+      "dataset_source": "NEW",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.96,
+      "avg_similarity_score": 0.842,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.96,
+          "text_preview": "Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tet...",
+          "chunk_id": 8706
+        },
+        {
+          "rank": 2,
+          "score": 0.96,
+          "text_preview": "Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tet...",
+          "chunk_id": 8873
+        },
+        {
+          "rank": 3,
+          "score": 0.775,
+          "text_preview": "Kalau usaha belum berjalan atau tidak ada tambahan realisasi investasi, apakah tetap wajib menyampai...",
+          "chunk_id": 8705
+        },
+        {
+          "rank": 4,
+          "score": 0.775,
+          "text_preview": "Kalau usaha belum berjalan atau tidak ada tambahan realisasi investasi, apakah tetap wajib menyampai...",
+          "chunk_id": 8872
+        },
+        {
+          "rank": 5,
+          "score": 0.741,
+          "text_preview": "Apakah saat ini jenis kegiatan usaha pendukung dapat digunakan untuk kegiatan yang menghasilkan prof...",
+          "chunk_id": 8625
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_263",
+      "question": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.843,
+      "avg_similarity_score": 0.768,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.843,
+          "text_preview": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan? Penapisan adalah proses untuk menent...",
+          "chunk_id": 8594
+        },
+        {
+          "rank": 2,
+          "score": 0.843,
+          "text_preview": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan? Penapisan adalah proses untuk menent...",
+          "chunk_id": 8761
+        },
+        {
+          "rank": 3,
+          "score": 0.767,
+          "text_preview": "Bagaimana cara melakukan penapisan perizinan lingkungan? Proses penapisan lingkungan dapat dilakukan...",
+          "chunk_id": 8647
+        },
+        {
+          "rank": 4,
+          "score": 0.767,
+          "text_preview": "Bagaimana cara melakukan penapisan perizinan lingkungan? Proses penapisan lingkungan dapat dilakukan...",
+          "chunk_id": 8814
+        },
+        {
+          "rank": 5,
+          "score": 0.62,
+          "text_preview": "26. 10.a Periksa dan Lengkapi Dokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu)\n\n27. 10.b ...",
+          "chunk_id": 9308
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_268",
+      "question": "Usaha perorangan saya mau diubah menjadi CV, bagaimana prosedurnya di OSS?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.65,
+      "avg_similarity_score": 0.64,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.65,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8828
+        },
+        {
+          "rank": 2,
+          "score": 0.65,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8661
+        },
+        {
+          "rank": 3,
+          "score": 0.636,
+          "text_preview": "Apakah PMA bisa mendirikan CV/Yayasan/Koperasi di Indonesia? Penanaman modal asing / PMA \"wajib\" dal...",
+          "chunk_id": 8623
+        },
+        {
+          "rank": 4,
+          "score": 0.636,
+          "text_preview": "Apakah PMA bisa mendirikan CV/Yayasan/Koperasi di Indonesia? Penanaman modal asing / PMA \"wajib\" dal...",
+          "chunk_id": 8790
+        },
+        {
+          "rank": 5,
+          "score": 0.629,
+          "text_preview": "Bagaimana cara melakukan perubahan status usaha saya? Untuk melakukan perubahan skala usaha dari UMK...",
+          "chunk_id": 8655
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_311",
+      "question": "Bagaimana prosedur: berapa nilai minimal investasi untuk perusahan penanaman modal asing (pma) langsung?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.753,
+      "avg_similarity_score": 0.724,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.753,
+          "text_preview": "QUESTION: Berapa nilai minimal investasi untuk perusahan penanaman modal asing (PMA) langsung Invest...",
+          "chunk_id": 8918
+        },
+        {
+          "rank": 2,
+          "score": 0.746,
+          "text_preview": "Di mana diatur mengenai syarat investasi dan besaran modal untuk PMA? Ketentuan tersebut diatur di d...",
+          "chunk_id": 8699
+        },
+        {
+          "rank": 3,
+          "score": 0.746,
+          "text_preview": "Di mana diatur mengenai syarat investasi dan besaran modal untuk PMA? Ketentuan tersebut diatur di d...",
+          "chunk_id": 8866
+        },
+        {
+          "rank": 4,
+          "score": 0.689,
+          "text_preview": "Berapa Ketentuan Persentase Modal Asing dalam Akta Pendirian Perusahaan? Informasi mengenai persenta...",
+          "chunk_id": 8686
+        },
+        {
+          "rank": 5,
+          "score": 0.689,
+          "text_preview": "Berapa Ketentuan Persentase Modal Asing dalam Akta Pendirian Perusahaan? Informasi mengenai persenta...",
+          "chunk_id": 8853
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_311",
+      "question": "Saya khawatir data OSS saya hilang, apa backupnya?",
+      "dataset_source": "OLD",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.618,
+      "avg_similarity_score": 0.604,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.618,
+          "text_preview": "Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan Pastikan Bapak/Ibu telah...",
+          "chunk_id": 8738
+        },
+        {
+          "rank": 2,
+          "score": 0.618,
+          "text_preview": "Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan Pastikan Bapak/Ibu telah...",
+          "chunk_id": 8905
+        },
+        {
+          "rank": 3,
+          "score": 0.594,
+          "text_preview": "Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP? Data akta dan pengesahan yang dikirim dari si...",
+          "chunk_id": 8709
+        },
+        {
+          "rank": 4,
+          "score": 0.594,
+          "text_preview": "Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP? Data akta dan pengesahan yang dikirim dari si...",
+          "chunk_id": 8876
+        },
+        {
+          "rank": 5,
+          "score": 0.593,
+          "text_preview": "Apakah Perubahan Data Usaha Menyebabkan PB-UMKU yang Telah Terbit Hilang? PB-UMKU yang telah terbit ...",
+          "chunk_id": 8620
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_85",
+      "question": "Bagaimana cara melihat dokumen persyaratan dasar dan pernyataan mandiri dalam data usaha?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.778,
+      "avg_similarity_score": 0.749,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.778,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8828
+        },
+        {
+          "rank": 2,
+          "score": 0.778,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8661
+        },
+        {
+          "rank": 3,
+          "score": 0.734,
+          "text_preview": "Bagaimana mengisi data negara asal yang kosong dari data AHU? Panduan lengkap pengisian data negara ...",
+          "chunk_id": 8682
+        },
+        {
+          "rank": 4,
+          "score": 0.734,
+          "text_preview": "Bagaimana mengisi data negara asal yang kosong dari data AHU? Panduan lengkap pengisian data negara ...",
+          "chunk_id": 8849
+        },
+        {
+          "rank": 5,
+          "score": 0.722,
+          "text_preview": "Bagaimana cara memperbaiki dokumen persyaratan? Perbaikan dokumen persyaratan dapat dilakukan melalu...",
+          "chunk_id": 8657
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_304",
+      "question": "Bagaimana cara mengurus izin untuk usaha penyewaan alat berat?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.657,
+      "avg_similarity_score": 0.642,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.657,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8831
+        },
+        {
+          "rank": 2,
+          "score": 0.657,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8664
+        },
+        {
+          "rank": 3,
+          "score": 0.633,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 4,
+          "score": 0.633,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 5,
+          "score": 0.631,
+          "text_preview": "Bagaimana cara memperbaiki dokumen persyaratan? Perbaikan dokumen persyaratan dapat dilakukan melalu...",
+          "chunk_id": 8657
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_182",
+      "question": "Bagaimana cara membuka kantor cabang di OSS?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.608,
+      "avg_similarity_score": 0.597,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.608,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 2,
+          "score": 0.608,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 3,
+          "score": 0.599,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8831
+        },
+        {
+          "rank": 4,
+          "score": 0.599,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8664
+        },
+        {
+          "rank": 5,
+          "score": 0.573,
+          "text_preview": "Bagaimana cara memperbaiki dokumen persyaratan? Perbaikan dokumen persyaratan dapat dilakukan melalu...",
+          "chunk_id": 8657
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_164",
+      "question": "Apa keuntungan memiliki IUMK?",
+      "dataset_source": "OLD",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.618,
+      "avg_similarity_score": 0.614,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.618,
+          "text_preview": "Bagaimana cara memperoleh Rekomendasi Alih Status ITAS ke ITAP? Prosedur pengajuan alih status izin ...",
+          "chunk_id": 8825
+        },
+        {
+          "rank": 2,
+          "score": 0.618,
+          "text_preview": "Bagaimana cara memperoleh Rekomendasi Alih Status ITAS ke ITAP? Prosedur pengajuan alih status izin ...",
+          "chunk_id": 8658
+        },
+        {
+          "rank": 3,
+          "score": 0.614,
+          "text_preview": "Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tet...",
+          "chunk_id": 8706
+        },
+        {
+          "rank": 4,
+          "score": 0.614,
+          "text_preview": "Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tet...",
+          "chunk_id": 8873
+        },
+        {
+          "rank": 5,
+          "score": 0.607,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8802
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_11",
+      "question": "Siapa penanggung jawab layanan DPMPTSP di daerah?",
+      "dataset_source": "OLD",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.648,
+      "avg_similarity_score": 0.62,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.648,
+          "text_preview": "33. 13. Anda wajib melengkapi nama penanggung jawab di lokasi kegiatan usaha dan kontak penanggung j...",
+          "chunk_id": 9528
+        },
+        {
+          "rank": 2,
+          "score": 0.629,
+          "text_preview": "5. Selanjutnya, Lengkapi Data Penanggung Jawab/Kuasa.Jabatan Pada Form Ini Akan Terisi Secara Otomat...",
+          "chunk_id": 9383
+        },
+        {
+          "rank": 3,
+          "score": 0.629,
+          "text_preview": "5. Selanjutnya, lengkapi Data Penanggung Jawab/Kuasa.Jabatan pada form ini akan terisi secara otomat...",
+          "chunk_id": 9396
+        },
+        {
+          "rank": 4,
+          "score": 0.604,
+          "text_preview": "════════════════════════════════════════════════════════════════════════════════\n\nTotal Steps: 6\nTot...",
+          "chunk_id": 9288
+        },
+        {
+          "rank": 5,
+          "score": 0.59,
+          "text_preview": "Apakah perubahan penanggung jawab teknis mempengaruhi persyaratan dasar yang sudah terbit? Perubahan...",
+          "chunk_id": 8788
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_140",
+      "question": "Bagaimana prosedur perubahan skala usaha di sistem OSS?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.614,
+      "avg_similarity_score": 0.608,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.614,
+          "text_preview": "Bagaimana Cara Ubah Nama Perusahaan? Pelaku usaha dapat melakukan perubahan nama perusahaan secara m...",
+          "chunk_id": 8678
+        },
+        {
+          "rank": 2,
+          "score": 0.614,
+          "text_preview": "Bagaimana Cara Ubah Nama Perusahaan? Pelaku usaha dapat melakukan perubahan nama perusahaan secara m...",
+          "chunk_id": 8845
+        },
+        {
+          "rank": 3,
+          "score": 0.608,
+          "text_preview": "Bagaimana cara melakukan perubahan status usaha saya? Untuk melakukan perubahan skala usaha dari UMK...",
+          "chunk_id": 8655
+        },
+        {
+          "rank": 4,
+          "score": 0.608,
+          "text_preview": "Bagaimana cara melakukan perubahan status usaha saya? Untuk melakukan perubahan skala usaha dari UMK...",
+          "chunk_id": 8822
+        },
+        {
+          "rank": 5,
+          "score": 0.596,
+          "text_preview": "Mengapa Muncul Notifikasi 'Kesalahan Sistem' Saat Akses Menu Permohonan Baru? Notifikasi tersebut mu...",
+          "chunk_id": 8897
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_80",
+      "question": "Ada update regulasi OSS terbaru?",
+      "dataset_source": "OLD",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.431,
+      "avg_similarity_score": 0.422,
+      "confidence_level": "low",
+      "confidence_label": "Low Confidence",
+      "confidence_emoji": "🔴",
+      "confidence_description": "Weak chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.431,
+          "text_preview": "Kenapa Akta Lama Masih Muncul di SIKaP Padahal Sudah Punya Akta Terbaru? Data akta terbaru belum mun...",
+          "chunk_id": 8708
+        },
+        {
+          "rank": 2,
+          "score": 0.431,
+          "text_preview": "Kenapa Akta Lama Masih Muncul di SIKaP Padahal Sudah Punya Akta Terbaru? Data akta terbaru belum mun...",
+          "chunk_id": 8875
+        },
+        {
+          "rank": 3,
+          "score": 0.419,
+          "text_preview": "Kenapa Saat Daftar Akun OSS Muncul Notifikasi Gagal Update ke Database? Notifikasi Gagal update ke d...",
+          "chunk_id": 8720
+        },
+        {
+          "rank": 4,
+          "score": 0.419,
+          "text_preview": "Kenapa Saat Daftar Akun OSS Muncul Notifikasi Gagal Update ke Database? Notifikasi Gagal update ke d...",
+          "chunk_id": 8887
+        },
+        {
+          "rank": 5,
+          "score": 0.412,
+          "text_preview": "Adakah Format untuk Pemenuhan Persyaratan? Untuk mengetahui format pemenuhan persyaratan, Bapak/Ibu ...",
+          "chunk_id": 8583
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_228",
+      "question": "Bisakah satu NIK memiliki lebih dari satu akun OSS?",
+      "dataset_source": "NEW",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.814,
+      "avg_similarity_score": 0.708,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.814,
+          "text_preview": "Bisakah satu NIK memiliki lebih dari satu akun OSS? Satu NIK dapat digunakan untuk mendaftar: - Satu...",
+          "chunk_id": 8694
+        },
+        {
+          "rank": 2,
+          "score": 0.814,
+          "text_preview": "Bisakah satu NIK memiliki lebih dari satu akun OSS? Satu NIK dapat digunakan untuk mendaftar: - Satu...",
+          "chunk_id": 8861
+        },
+        {
+          "rank": 3,
+          "score": 0.652,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8802
+        },
+        {
+          "rank": 4,
+          "score": 0.652,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8635
+        },
+        {
+          "rank": 5,
+          "score": 0.608,
+          "text_preview": "Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tet...",
+          "chunk_id": 8706
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_22",
+      "question": "Apa akibat jika KBLI tidak sesuai?",
+      "dataset_source": "OLD",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.68,
+      "avg_similarity_score": 0.677,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.68,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8635
+        },
+        {
+          "rank": 2,
+          "score": 0.68,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8802
+        },
+        {
+          "rank": 3,
+          "score": 0.675,
+          "text_preview": "Apakah semua KBLI 2017 wajib diubah menjadi 2020? \"Tidak semua\" KBLI 2017 \"perlu diubah\" menjadi KBL...",
+          "chunk_id": 8794
+        },
+        {
+          "rank": 4,
+          "score": 0.675,
+          "text_preview": "Apakah semua KBLI 2017 wajib diubah menjadi 2020? \"Tidak semua\" KBLI 2017 \"perlu diubah\" menjadi KBL...",
+          "chunk_id": 8627
+        },
+        {
+          "rank": 5,
+          "score": 0.673,
+          "text_preview": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KB...",
+          "chunk_id": 8580
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_90",
+      "question": "Sanksi bagi usaha tanpa NIB.",
+      "dataset_source": "OLD",
+      "category": "NIB",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.692,
+      "avg_similarity_score": 0.648,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.692,
+          "text_preview": "Bagaimana cara melihat sanksi LKPM yang saya terima? Untuk melihat jenis sanksi dan status sanksi, s...",
+          "chunk_id": 8823
+        },
+        {
+          "rank": 2,
+          "score": 0.692,
+          "text_preview": "Bagaimana cara melihat sanksi LKPM yang saya terima? Untuk melihat jenis sanksi dan status sanksi, s...",
+          "chunk_id": 8656
+        },
+        {
+          "rank": 3,
+          "score": 0.634,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8640
+        },
+        {
+          "rank": 4,
+          "score": 0.634,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8807
+        },
+        {
+          "rank": 5,
+          "score": 0.587,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8661
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_23",
+      "question": "Apa proses perizinan berusaha selanjutnya setelah mendapat NIB?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.679,
+      "avg_similarity_score": 0.649,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.679,
+          "text_preview": "13. Perizinan Berusaha berupa Nomor Induk Berusaha (NIB).Untuk mendapatkan Sertifikat Standar yang t...",
+          "chunk_id": 9478
+        },
+        {
+          "rank": 2,
+          "score": 0.655,
+          "text_preview": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan? Penapisan adalah proses untuk menent...",
+          "chunk_id": 8594
+        },
+        {
+          "rank": 3,
+          "score": 0.655,
+          "text_preview": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan? Penapisan adalah proses untuk menent...",
+          "chunk_id": 8761
+        },
+        {
+          "rank": 4,
+          "score": 0.632,
+          "text_preview": "QUESTION: Izin apa yang dibutuhkan untuk memulai usaha? Pada umumnya, izin - izin yang diperlukan un...",
+          "chunk_id": 8920
+        },
+        {
+          "rank": 5,
+          "score": 0.623,
+          "text_preview": "Bagaimana cara melakukan penapisan perizinan lingkungan? Proses penapisan lingkungan dapat dilakukan...",
+          "chunk_id": 8814
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_290",
+      "question": "Kenapa Kolom Perubahan Nilai Total Akumulasi LKPM Berwarna Abu-abu?",
+      "dataset_source": "NEW",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.792,
+      "avg_similarity_score": 0.67,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.792,
+          "text_preview": "Kenapa Kolom Perubahan Nilai Total Akumulasi LKPM Berwarna Abu-abu? Kolom Perubahan Data Nilai Total...",
+          "chunk_id": 8715
+        },
+        {
+          "rank": 2,
+          "score": 0.792,
+          "text_preview": "Kenapa Kolom Perubahan Nilai Total Akumulasi LKPM Berwarna Abu-abu? Kolom Perubahan Data Nilai Total...",
+          "chunk_id": 8882
+        },
+        {
+          "rank": 3,
+          "score": 0.591,
+          "text_preview": "Kenapa Kolom Modal Kerja Abu-abu Saat Lapor LKPM Tahap Konstruksi? Kolom modal kerja tidak dapat dii...",
+          "chunk_id": 8714
+        },
+        {
+          "rank": 4,
+          "score": 0.591,
+          "text_preview": "Kenapa Kolom Modal Kerja Abu-abu Saat Lapor LKPM Tahap Konstruksi? Kolom modal kerja tidak dapat dii...",
+          "chunk_id": 8881
+        },
+        {
+          "rank": 5,
+          "score": 0.584,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8802
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_97",
+      "question": "Bagaimana cara mengunduh cetakan PKKPR, persetujuan RKL-RPL, dan izin dari dashboard NIB?",
+      "dataset_source": "NEW",
+      "category": "NIB",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.663,
+      "avg_similarity_score": 0.658,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.663,
+          "text_preview": "Bagaimana cara lihat cetakan izin lama KBLI data migrasi? Untuk melihat cetakan izin lama silakan me...",
+          "chunk_id": 8642
+        },
+        {
+          "rank": 2,
+          "score": 0.663,
+          "text_preview": "Bagaimana cara lihat cetakan izin lama KBLI data migrasi? Untuk melihat cetakan izin lama silakan me...",
+          "chunk_id": 8809
+        },
+        {
+          "rank": 3,
+          "score": 0.659,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8640
+        },
+        {
+          "rank": 4,
+          "score": 0.659,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8807
+        },
+        {
+          "rank": 5,
+          "score": 0.648,
+          "text_preview": "Bagaimana cara cabut NIB karena sudah tidak menjalankan kegiatan usaha? Bagaimana cara hapus NIB say...",
+          "chunk_id": 8638
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_236",
+      "question": "Apa yang terjadi jika tidak melakukan pemenuhan persyaratan dalam 90 hari?",
+      "dataset_source": "NEW",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.756,
+      "avg_similarity_score": 0.702,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.756,
+          "text_preview": "Apa yang terjadi jika tidak melakukan pemenuhan persyaratan dalam 90 hari? Pelaku Usaha wajib melaku...",
+          "chunk_id": 8595
+        },
+        {
+          "rank": 2,
+          "score": 0.756,
+          "text_preview": "Apa yang terjadi jika tidak melakukan pemenuhan persyaratan dalam 90 hari? Pelaku Usaha wajib melaku...",
+          "chunk_id": 8762
+        },
+        {
+          "rank": 3,
+          "score": 0.672,
+          "text_preview": "13. Isi luas lahan dan modal usaha, lalu klik“Validasi risiko”\n\n14. Sistem menunjukkan skala usaha d...",
+          "chunk_id": 9449
+        },
+        {
+          "rank": 4,
+          "score": 0.671,
+          "text_preview": "9. 9.a Lengkapi SURAT PERNYATAAN DARI KEPALA KANTOR PERWAKILAN ATAU DIREKSI PERUSAHAAN DI NEGARA ASA...",
+          "chunk_id": 9556
+        },
+        {
+          "rank": 5,
+          "score": 0.654,
+          "text_preview": "Kenapa KBLI pada Cetakan NIB Tidak Muncul Tingkat Risiko? Tingkat risiko pada cetakan NIB hanya akan...",
+          "chunk_id": 8712
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_83",
+      "question": "Bagaimana prosedur: pelaporan badan usaha jasa konstruksi asing (bujka)?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.654,
+      "avg_similarity_score": 0.643,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.654,
+          "text_preview": "Bagaimana cara melakukan perluasan pada OSS? Untuk saat ini perluasan kegiatan usaha hanya dapat dil...",
+          "chunk_id": 8650
+        },
+        {
+          "rank": 2,
+          "score": 0.654,
+          "text_preview": "Bagaimana cara melakukan perluasan pada OSS? Untuk saat ini perluasan kegiatan usaha hanya dapat dil...",
+          "chunk_id": 8817
+        },
+        {
+          "rank": 3,
+          "score": 0.636,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8828
+        },
+        {
+          "rank": 4,
+          "score": 0.636,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8661
+        },
+        {
+          "rank": 5,
+          "score": 0.636,
+          "text_preview": "Bagaimana Cara Melakukan Perpanjangan Surat Izin Operasional Badan Usaha Jasa Pengamanan (SIO BUJP)?...",
+          "chunk_id": 8652
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_136",
+      "question": "Saya salah memasukkan data NPWP saat daftar, bagaimana cara memperbaikinya?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.753,
+      "avg_similarity_score": 0.726,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.753,
+          "text_preview": "Bagaimana mengisi data negara asal yang kosong dari data AHU? Panduan lengkap pengisian data negara ...",
+          "chunk_id": 8682
+        },
+        {
+          "rank": 2,
+          "score": 0.753,
+          "text_preview": "Bagaimana mengisi data negara asal yang kosong dari data AHU? Panduan lengkap pengisian data negara ...",
+          "chunk_id": 8849
+        },
+        {
+          "rank": 3,
+          "score": 0.713,
+          "text_preview": "Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan Pastikan Bapak/Ibu telah...",
+          "chunk_id": 8738
+        },
+        {
+          "rank": 4,
+          "score": 0.713,
+          "text_preview": "Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan Pastikan Bapak/Ibu telah...",
+          "chunk_id": 8905
+        },
+        {
+          "rank": 5,
+          "score": 0.698,
+          "text_preview": "15. Lengkapi Surat Pernyataan dari Kepala Kantor Perwakilan atau Direksi Perusahaan di Negara Asal y...",
+          "chunk_id": 9010
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_372",
+      "question": "Apakah DPMPTSP menyediakan layanan terjemahan dokumen untuk investor asing?",
+      "dataset_source": "OLD",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.687,
+      "avg_similarity_score": 0.681,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.687,
+          "text_preview": "QUESTION: Disamping fasilitas fiskal, apakah ada fasilitas lain yang diberikan? GREEN LANE Mulai dar...",
+          "chunk_id": 8919
+        },
+        {
+          "rank": 2,
+          "score": 0.683,
+          "text_preview": "QUESTION: Apakah ada fasilitas fiskal yang diberikan oleh Pemerintah bagi investor asing? Ya. Pemeri...",
+          "chunk_id": 8913
+        },
+        {
+          "rank": 3,
+          "score": 0.678,
+          "text_preview": "Apakah saat ini jenis kegiatan usaha pendukung dapat digunakan untuk kegiatan yang menghasilkan prof...",
+          "chunk_id": 8625
+        },
+        {
+          "rank": 4,
+          "score": 0.678,
+          "text_preview": "Apakah saat ini jenis kegiatan usaha pendukung dapat digunakan untuk kegiatan yang menghasilkan prof...",
+          "chunk_id": 8792
+        },
+        {
+          "rank": 5,
+          "score": 0.678,
+          "text_preview": "Apakah terdapat ketentuan nilai investasi bagi PMA untuk kegiatan usaha pembangunan dan pengusahaan ...",
+          "chunk_id": 8799
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_336",
+      "question": "Saya ingin tahu update regulasi terbaru tentang OSS.",
+      "dataset_source": "OLD",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.592,
+      "avg_similarity_score": 0.585,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.592,
+          "text_preview": "Kenapa KBLI pada Cetakan NIB Tidak Muncul Tingkat Risiko? Tingkat risiko pada cetakan NIB hanya akan...",
+          "chunk_id": 8712
+        },
+        {
+          "rank": 2,
+          "score": 0.592,
+          "text_preview": "Kenapa KBLI pada Cetakan NIB Tidak Muncul Tingkat Risiko? Tingkat risiko pada cetakan NIB hanya akan...",
+          "chunk_id": 8879
+        },
+        {
+          "rank": 3,
+          "score": 0.581,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8719
+        },
+        {
+          "rank": 4,
+          "score": 0.581,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8886
+        },
+        {
+          "rank": 5,
+          "score": 0.579,
+          "text_preview": "Apakah terdapat sanksi apabila pelaku usaha memindahkan modal ditempatkan/disetor sebelum 12 (dua be...",
+          "chunk_id": 8800
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_271",
+      "question": "Bagaimana cara mengaktifkan kembali izin usaha yang dibekukan?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.712,
+      "avg_similarity_score": 0.705,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.712,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 2,
+          "score": 0.712,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 3,
+          "score": 0.712,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8831
+        },
+        {
+          "rank": 4,
+          "score": 0.712,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8664
+        },
+        {
+          "rank": 5,
+          "score": 0.676,
+          "text_preview": "Bagaimana cara melihat sanksi LKPM yang saya terima? Untuk melihat jenis sanksi dan status sanksi, s...",
+          "chunk_id": 8656
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_225",
+      "question": "Apa keuntungan mengurus izin di MPP?",
+      "dataset_source": "OLD",
+      "category": "Licensing",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.591,
+      "avg_similarity_score": 0.581,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.591,
+          "text_preview": "Apakah kantor perwakilan wajib memiliki NPWP? Pada saat pendaftaran akun OSS, Pelaku usaha dengan je...",
+          "chunk_id": 8604
+        },
+        {
+          "rank": 2,
+          "score": 0.591,
+          "text_preview": "Apakah kantor perwakilan wajib memiliki NPWP? Pada saat pendaftaran akun OSS, Pelaku usaha dengan je...",
+          "chunk_id": 8771
+        },
+        {
+          "rank": 3,
+          "score": 0.575,
+          "text_preview": "Bagaimana cara perpanjangan PKKPR 181? Saat ini fitur perpanjangan PKKPR masih dalam tahap pengemban...",
+          "chunk_id": 8675
+        },
+        {
+          "rank": 4,
+          "score": 0.575,
+          "text_preview": "Bagaimana cara perpanjangan PKKPR 181? Saat ini fitur perpanjangan PKKPR masih dalam tahap pengemban...",
+          "chunk_id": 8842
+        },
+        {
+          "rank": 5,
+          "score": 0.571,
+          "text_preview": "15. Lengkapi Surat Pernyataan dari Kepala Kantor Perwakilan atau Direksi Perusahaan di Negara Asal y...",
+          "chunk_id": 9010
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_165",
+      "question": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar?",
+      "dataset_source": "NEW",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.871,
+      "avg_similarity_score": 0.74,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.871,
+          "text_preview": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? Pe...",
+          "chunk_id": 8582
+        },
+        {
+          "rank": 2,
+          "score": 0.871,
+          "text_preview": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? Pe...",
+          "chunk_id": 8749
+        },
+        {
+          "rank": 3,
+          "score": 0.659,
+          "text_preview": "Apakah saya harus menambahkan KBLI Perdagangan untuk distribusi jika sudah memiliki KBLI Industri? B...",
+          "chunk_id": 8626
+        },
+        {
+          "rank": 4,
+          "score": 0.659,
+          "text_preview": "Apakah saya harus menambahkan KBLI Perdagangan untuk distribusi jika sudah memiliki KBLI Industri? B...",
+          "chunk_id": 8793
+        },
+        {
+          "rank": 5,
+          "score": 0.64,
+          "text_preview": "Tidak Bisa Mengirimkan LKPM Jika Bapak/Ibu mengalami kendala dalam pengisian LKPM: 1. Pastikan Bapak...",
+          "chunk_id": 8910
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_326",
+      "question": "Bagaimana OSS mendukung UMKM digital?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.634,
+      "avg_similarity_score": 0.607,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.634,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8831
+        },
+        {
+          "rank": 2,
+          "score": 0.634,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8664
+        },
+        {
+          "rank": 3,
+          "score": 0.591,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8640
+        },
+        {
+          "rank": 4,
+          "score": 0.591,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8807
+        },
+        {
+          "rank": 5,
+          "score": 0.583,
+          "text_preview": "Sudah Ubah di Akta, Bagaimana Cara Ubah Data Maksud dan Tujuan di OSS? Setelah dilakukan pembaruan p...",
+          "chunk_id": 8742
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_229",
+      "question": "Bagaimana cara mendaftar untuk ikut sosialisasi dari DPMPTSP?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.633,
+      "avg_similarity_score": 0.626,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.633,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8831
+        },
+        {
+          "rank": 2,
+          "score": 0.633,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8664
+        },
+        {
+          "rank": 3,
+          "score": 0.626,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 4,
+          "score": 0.626,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 5,
+          "score": 0.614,
+          "text_preview": "Bagaimana cara memperbaiki dokumen persyaratan? Perbaikan dokumen persyaratan dapat dilakukan melalu...",
+          "chunk_id": 8657
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_85",
+      "question": "Prosedur izin usaha kesehatan.",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.568,
+      "avg_similarity_score": 0.55,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.568,
+          "text_preview": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan? Penapisan adalah proses untuk menent...",
+          "chunk_id": 8594
+        },
+        {
+          "rank": 2,
+          "score": 0.568,
+          "text_preview": "Apa yang dimaksud dengan proses penapisan perizinan lingkungan? Penapisan adalah proses untuk menent...",
+          "chunk_id": 8761
+        },
+        {
+          "rank": 3,
+          "score": 0.542,
+          "text_preview": "Apakah kantor perwakilan wajib memiliki NPWP? Pada saat pendaftaran akun OSS, Pelaku usaha dengan je...",
+          "chunk_id": 8604
+        },
+        {
+          "rank": 4,
+          "score": 0.542,
+          "text_preview": "Apakah kantor perwakilan wajib memiliki NPWP? Pada saat pendaftaran akun OSS, Pelaku usaha dengan je...",
+          "chunk_id": 8771
+        },
+        {
+          "rank": 5,
+          "score": 0.528,
+          "text_preview": "Bagaimana cara perpanjangan izin KPPA? Khusus bagi Kantor Perwakilan Perusahaan Asing (KPPA), NIB ti...",
+          "chunk_id": 8674
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_119",
+      "question": "Apa itu Laporan Kegiatan Penanaman Modal (LKPM)?",
+      "dataset_source": "OLD",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.686,
+      "avg_similarity_score": 0.669,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.686,
+          "text_preview": "════════════════════════════════════════════════════════════════════════════════\n\nTotal Steps: 26\nTo...",
+          "chunk_id": 9342
+        },
+        {
+          "rank": 2,
+          "score": 0.677,
+          "text_preview": "Berapa Ketentuan Persentase Modal Asing dalam Akta Pendirian Perusahaan? Informasi mengenai persenta...",
+          "chunk_id": 8686
+        },
+        {
+          "rank": 3,
+          "score": 0.677,
+          "text_preview": "Berapa Ketentuan Persentase Modal Asing dalam Akta Pendirian Perusahaan? Informasi mengenai persenta...",
+          "chunk_id": 8853
+        },
+        {
+          "rank": 4,
+          "score": 0.653,
+          "text_preview": "Apakah pengisian realisasi modal tetap dan modal kerja harus sama dengan rencana nilai penanaman mod...",
+          "chunk_id": 8614
+        },
+        {
+          "rank": 5,
+          "score": 0.653,
+          "text_preview": "Apakah pengisian realisasi modal tetap dan modal kerja harus sama dengan rencana nilai penanaman mod...",
+          "chunk_id": 8781
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_26",
+      "question": "Bisa minta review dokumen di DPMPTSP?",
+      "dataset_source": "OLD",
+      "category": "General",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.579,
+      "avg_similarity_score": 0.556,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.579,
+          "text_preview": "Bagaimana cara perpanjangan PKKPR 181? Saat ini fitur perpanjangan PKKPR masih dalam tahap pengemban...",
+          "chunk_id": 8675
+        },
+        {
+          "rank": 2,
+          "score": 0.579,
+          "text_preview": "Bagaimana cara perpanjangan PKKPR 181? Saat ini fitur perpanjangan PKKPR masih dalam tahap pengemban...",
+          "chunk_id": 8842
+        },
+        {
+          "rank": 3,
+          "score": 0.544,
+          "text_preview": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim...",
+          "chunk_id": 8581
+        },
+        {
+          "rank": 4,
+          "score": 0.544,
+          "text_preview": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim...",
+          "chunk_id": 8748
+        },
+        {
+          "rank": 5,
+          "score": 0.537,
+          "text_preview": "Kenapa Status Izin UMKU Saya Terbit Sementara? Status PB-UMKU Terbit Sementara muncul pada sektor ob...",
+          "chunk_id": 8726
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_114",
+      "question": "Bagaimana prosedur merger untuk lebih dari satu perusahaan di sistem OSS?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.531,
+      "avg_similarity_score": 0.528,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.531,
+          "text_preview": "12. 11.b Periksa Daftar Perusahaan(Jikalebih dari 1perusahaan yang menggabungkan diri)\n\n13. 12. Peri...",
+          "chunk_id": 9069
+        },
+        {
+          "rank": 2,
+          "score": 0.529,
+          "text_preview": "Bagaimana cara melakukan perluasan pada OSS? Untuk saat ini perluasan kegiatan usaha hanya dapat dil...",
+          "chunk_id": 8650
+        },
+        {
+          "rank": 3,
+          "score": 0.529,
+          "text_preview": "Bagaimana cara melakukan perluasan pada OSS? Untuk saat ini perluasan kegiatan usaha hanya dapat dil...",
+          "chunk_id": 8817
+        },
+        {
+          "rank": 4,
+          "score": 0.527,
+          "text_preview": "QUESTION: Bagaimana cara saya mendirikan perusahaan di Indonesia? Proses pendirian perusahaan di Ind...",
+          "chunk_id": 8915
+        },
+        {
+          "rank": 5,
+          "score": 0.524,
+          "text_preview": "Bagaimana mengisi data negara asal yang kosong dari data AHU? Panduan lengkap pengisian data negara ...",
+          "chunk_id": 8682
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_19",
+      "question": "Bagaimana prosedur: panduan penambahan kbli?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.646,
+      "avg_similarity_score": 0.639,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.646,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 2,
+          "score": 0.646,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 3,
+          "score": 0.636,
+          "text_preview": "QUESTION: Bagaimana cara saya mendirikan perusahaan di Indonesia? Proses pendirian perusahaan di Ind...",
+          "chunk_id": 8915
+        },
+        {
+          "rank": 4,
+          "score": 0.634,
+          "text_preview": "Bagaimana Cara Ubah Nama Perusahaan? Pelaku usaha dapat melakukan perubahan nama perusahaan secara m...",
+          "chunk_id": 8678
+        },
+        {
+          "rank": 5,
+          "score": 0.634,
+          "text_preview": "Bagaimana Cara Ubah Nama Perusahaan? Pelaku usaha dapat melakukan perubahan nama perusahaan secara m...",
+          "chunk_id": 8845
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_281",
+      "question": "Bagaimana DPMPTSP memastikan tidak ada kebocoran data pelaku usaha?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.752,
+      "avg_similarity_score": 0.749,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.752,
+          "text_preview": "Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan Pastikan Bapak/Ibu telah...",
+          "chunk_id": 8738
+        },
+        {
+          "rank": 2,
+          "score": 0.752,
+          "text_preview": "Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan Pastikan Bapak/Ibu telah...",
+          "chunk_id": 8905
+        },
+        {
+          "rank": 3,
+          "score": 0.747,
+          "text_preview": "Kenapa Saat Isi Form Data Usaha Muncul Keterangan 'Error dalam memproses data proyek'? Munculnya not...",
+          "chunk_id": 8888
+        },
+        {
+          "rank": 4,
+          "score": 0.747,
+          "text_preview": "Kenapa Saat Isi Form Data Usaha Muncul Keterangan 'Error dalam memproses data proyek'? Munculnya not...",
+          "chunk_id": 8721
+        },
+        {
+          "rank": 5,
+          "score": 0.747,
+          "text_preview": "Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif? Untuk pengecekan NIB d...",
+          "chunk_id": 8640
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_260",
+      "question": "Bagaimana cara mengurus Izin Pengelolaan Limbah B3?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.616,
+      "avg_similarity_score": 0.61,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.616,
+          "text_preview": "Bagaimana cara menghapus PB UMKU? Penghapusan PB UMKU hanya dapat dilakukan jika PB UMKU yang diajuk...",
+          "chunk_id": 8834
+        },
+        {
+          "rank": 2,
+          "score": 0.616,
+          "text_preview": "Bagaimana cara menghapus PB UMKU? Penghapusan PB UMKU hanya dapat dilakukan jika PB UMKU yang diajuk...",
+          "chunk_id": 8667
+        },
+        {
+          "rank": 3,
+          "score": 0.615,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 4,
+          "score": 0.615,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 5,
+          "score": 0.586,
+          "text_preview": "Bagaimana cara melihat sanksi LKPM yang saya terima? Untuk melihat jenis sanksi dan status sanksi, s...",
+          "chunk_id": 8656
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_67",
+      "question": "Syarat izin pendirian yayasan?",
+      "dataset_source": "OLD",
+      "category": "Licensing",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.515,
+      "avg_similarity_score": 0.51,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.515,
+          "text_preview": "Apakah Yayasan bisa memiliki API-U? Yayasan tidak dapat mengajukan API-U karena yayasan tidak dapat ...",
+          "chunk_id": 8801
+        },
+        {
+          "rank": 2,
+          "score": 0.515,
+          "text_preview": "Apakah Yayasan bisa memiliki API-U? Yayasan tidak dapat mengajukan API-U karena yayasan tidak dapat ...",
+          "chunk_id": 8634
+        },
+        {
+          "rank": 3,
+          "score": 0.513,
+          "text_preview": "Bagaimana cara melakukan pemenuhan persyaratan pada OSS? Untuk melakukan pemenuhan persyaratan periz...",
+          "chunk_id": 8645
+        },
+        {
+          "rank": 4,
+          "score": 0.513,
+          "text_preview": "Bagaimana cara melakukan pemenuhan persyaratan pada OSS? Untuk melakukan pemenuhan persyaratan periz...",
+          "chunk_id": 8812
+        },
+        {
+          "rank": 5,
+          "score": 0.494,
+          "text_preview": "════════════════════════════════════════════════════════════════════════════════\n\nTotal Steps: 18\nTo...",
+          "chunk_id": 9037
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_216",
+      "question": "Apakah DPMPTSP menyediakan layanan konsultasi tatap muka?",
+      "dataset_source": "OLD",
+      "category": "Support",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.731,
+      "avg_similarity_score": 0.718,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.731,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8719
+        },
+        {
+          "rank": 2,
+          "score": 0.731,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8886
+        },
+        {
+          "rank": 3,
+          "score": 0.718,
+          "text_preview": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KB...",
+          "chunk_id": 8580
+        },
+        {
+          "rank": 4,
+          "score": 0.718,
+          "text_preview": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KB...",
+          "chunk_id": 8747
+        },
+        {
+          "rank": 5,
+          "score": 0.695,
+          "text_preview": "Kenapa KBLI pada Cetakan NIB Tidak Muncul Tingkat Risiko? Tingkat risiko pada cetakan NIB hanya akan...",
+          "chunk_id": 8712
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_201",
+      "question": "Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda?",
+      "dataset_source": "NEW",
+      "category": "Technical",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.808,
+      "avg_similarity_score": 0.748,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.808,
+          "text_preview": "Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda? Sertifikat...",
+          "chunk_id": 8695
+        },
+        {
+          "rank": 2,
+          "score": 0.808,
+          "text_preview": "Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda? Sertifikat...",
+          "chunk_id": 8862
+        },
+        {
+          "rank": 3,
+          "score": 0.717,
+          "text_preview": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? Pe...",
+          "chunk_id": 8582
+        },
+        {
+          "rank": 4,
+          "score": 0.717,
+          "text_preview": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? Pe...",
+          "chunk_id": 8749
+        },
+        {
+          "rank": 5,
+          "score": 0.689,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8719
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_99",
+      "question": "Bagaimana melanjutkan proses permohonan yang tertunda di OSS?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.641,
+      "avg_similarity_score": 0.636,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.641,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8828
+        },
+        {
+          "rank": 2,
+          "score": 0.641,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8661
+        },
+        {
+          "rank": 3,
+          "score": 0.633,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8719
+        },
+        {
+          "rank": 4,
+          "score": 0.633,
+          "text_preview": "Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'? Keterangan tersebut muncul ...",
+          "chunk_id": 8886
+        },
+        {
+          "rank": 5,
+          "score": 0.631,
+          "text_preview": "16. 17.Bila Permohonan Anda Disetujui,Namun Terdapat Keterangan Bahwa “Permohonan - Perbaikan Permoh...",
+          "chunk_id": 9198
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_98",
+      "question": "Bagaimana cara mengunduh dan mencetak produk perizinan berusaha UMKU?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.677,
+      "avg_similarity_score": 0.676,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.677,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8659
+        },
+        {
+          "rank": 2,
+          "score": 0.677,
+          "text_preview": "Bagaimana cara menambah KBLI pendukung? Penambahan KBLI pendukung dapat dilakukan melalui menu Periz...",
+          "chunk_id": 8826
+        },
+        {
+          "rank": 3,
+          "score": 0.676,
+          "text_preview": "16. Perubahan Status Permohonan menjadi‘Persetujuan Persyaratan’, setelah semua persyaratan yang diu...",
+          "chunk_id": 9462
+        },
+        {
+          "rank": 4,
+          "score": 0.675,
+          "text_preview": "Apakah pada peraturan terbaru kegiatan usaha pendukung harus tercantum pada Akta? Bagi kegiatan usah...",
+          "chunk_id": 8778
+        },
+        {
+          "rank": 5,
+          "score": 0.675,
+          "text_preview": "Apakah pada peraturan terbaru kegiatan usaha pendukung harus tercantum pada Akta? Bagi kegiatan usah...",
+          "chunk_id": 8611
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_166",
+      "question": "Apakah IUMK sama dengan NIB?",
+      "dataset_source": "OLD",
+      "category": "NIB",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.641,
+      "avg_similarity_score": 0.633,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.641,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8802
+        },
+        {
+          "rank": 2,
+          "score": 0.641,
+          "text_preview": "Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta? Jika Bapak/Ibu ingin menambah ...",
+          "chunk_id": 8635
+        },
+        {
+          "rank": 3,
+          "score": 0.636,
+          "text_preview": "Apakah perkumpulan bisa membuat NIB? Badan usaha perkumpulan dapat mendaftarkan akun OSS dan menerbi...",
+          "chunk_id": 8619
+        },
+        {
+          "rank": 4,
+          "score": 0.636,
+          "text_preview": "Apakah perkumpulan bisa membuat NIB? Badan usaha perkumpulan dapat mendaftarkan akun OSS dan menerbi...",
+          "chunk_id": 8786
+        },
+        {
+          "rank": 5,
+          "score": 0.612,
+          "text_preview": "Bisakah satu NIK memiliki lebih dari satu akun OSS? Satu NIK dapat digunakan untuk mendaftar: - Satu...",
+          "chunk_id": 8694
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_11",
+      "question": "Bagaimana prosedur: pemrosesan persetujuan izin oleh administrator kek dan badan pengusahaan kpbpb?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.74,
+      "avg_similarity_score": 0.706,
+      "confidence_level": "high",
+      "confidence_label": "High Confidence",
+      "confidence_emoji": "🟢",
+      "confidence_description": "Excellent chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.74,
+          "text_preview": "9. Status Pelaku Usaha berubah menjadi Persetujuan Persyaratan oleh Administrator KEK/Badan Pengusah...",
+          "chunk_id": 9377
+        },
+        {
+          "rank": 2,
+          "score": 0.721,
+          "text_preview": "9. Status Pelaku Usaha berubah menjadi Persetujuan Persyaratan oleh Administrator KEK/Badan Pengusah...",
+          "chunk_id": 9373
+        },
+        {
+          "rank": 3,
+          "score": 0.695,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8661
+        },
+        {
+          "rank": 4,
+          "score": 0.695,
+          "text_preview": "Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK? Terdapat pengecualian bagi pelaku UMK yang d...",
+          "chunk_id": 8828
+        },
+        {
+          "rank": 5,
+          "score": 0.68,
+          "text_preview": "Bagaimana cara perpanjangan PKKPR 181? Saat ini fitur perpanjangan PKKPR masih dalam tahap pengemban...",
+          "chunk_id": 8675
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_111",
+      "question": "Apa langkah-langkah memproses permohonan izin di OSS?",
+      "dataset_source": "NEW",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.562,
+      "avg_similarity_score": 0.552,
+      "confidence_level": "moderate",
+      "confidence_label": "Moderate Confidence",
+      "confidence_emoji": "🟠",
+      "confidence_description": "Acceptable chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.562,
+          "text_preview": "Apakah kantor perwakilan wajib memiliki NPWP? Pada saat pendaftaran akun OSS, Pelaku usaha dengan je...",
+          "chunk_id": 8604
+        },
+        {
+          "rank": 2,
+          "score": 0.562,
+          "text_preview": "Apakah kantor perwakilan wajib memiliki NPWP? Pada saat pendaftaran akun OSS, Pelaku usaha dengan je...",
+          "chunk_id": 8771
+        },
+        {
+          "rank": 3,
+          "score": 0.554,
+          "text_preview": "QUESTION: Izin apa yang dibutuhkan untuk memulai usaha? Pada umumnya, izin - izin yang diperlukan un...",
+          "chunk_id": 8920
+        },
+        {
+          "rank": 4,
+          "score": 0.549,
+          "text_preview": "13. Perizinan Berusaha berupa Nomor Induk Berusaha (NIB).Untuk mendapatkan Sertifikat Standar yang t...",
+          "chunk_id": 9478
+        },
+        {
+          "rank": 5,
+          "score": 0.532,
+          "text_preview": "Bisakah satu NIK memiliki lebih dari satu akun OSS? Satu NIK dapat digunakan untuk mendaftar: - Satu...",
+          "chunk_id": 8694
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "new_52",
+      "question": "Apa arti status SKPBKI telah disetujui pada sistem OSS?",
+      "dataset_source": "NEW",
+      "category": "Licensing",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.683,
+      "avg_similarity_score": 0.667,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.683,
+          "text_preview": "Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP? Data akta dan pengesahan yang dikirim dari si...",
+          "chunk_id": 8709
+        },
+        {
+          "rank": 2,
+          "score": 0.683,
+          "text_preview": "Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP? Data akta dan pengesahan yang dikirim dari si...",
+          "chunk_id": 8876
+        },
+        {
+          "rank": 3,
+          "score": 0.661,
+          "text_preview": "Apakah ada penyesuaian form isian di Sistem OSS? Pada awal launching di 5 Oktober 2025, akan ada pen...",
+          "chunk_id": 8597
+        },
+        {
+          "rank": 4,
+          "score": 0.661,
+          "text_preview": "Apakah ada penyesuaian form isian di Sistem OSS? Pada awal launching di 5 Oktober 2025, akan ada pen...",
+          "chunk_id": 8764
+        },
+        {
+          "rank": 5,
+          "score": 0.648,
+          "text_preview": "Mengapa Muncul Notifikasi 'Kesalahan Sistem' Saat Akses Menu Permohonan Baru? Notifikasi tersebut mu...",
+          "chunk_id": 8897
+        }
+      ],
+      "error": null
+    },
+    {
+      "query_id": "old_170",
+      "question": "Bagaimana cara mengurus izin untuk usaha katering rumahan?",
+      "dataset_source": "OLD",
+      "category": "Procedure",
+      "search_method": "vector_only",
+      "chunks_retrieved": 5,
+      "top_similarity_score": 0.615,
+      "avg_similarity_score": 0.596,
+      "confidence_level": "good",
+      "confidence_label": "Good Confidence",
+      "confidence_emoji": "🟡",
+      "confidence_description": "Good chunk coverage",
+      "top_chunks": [
+        {
+          "rank": 1,
+          "score": 0.615,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8831
+        },
+        {
+          "rank": 2,
+          "score": 0.615,
+          "text_preview": "Bagaimana cara mengajukan bantuan UMKM? Bantuan dana untuk UMKM tidak dapat diajukan melalui OSS. Si...",
+          "chunk_id": 8664
+        },
+        {
+          "rank": 3,
+          "score": 0.584,
+          "text_preview": "Bagaimana Cara Ubah Nama Perusahaan? Pelaku usaha dapat melakukan perubahan nama perusahaan secara m...",
+          "chunk_id": 8678
+        },
+        {
+          "rank": 4,
+          "score": 0.584,
+          "text_preview": "Bagaimana Cara Ubah Nama Perusahaan? Pelaku usaha dapat melakukan perubahan nama perusahaan secara m...",
+          "chunk_id": 8845
+        },
+        {
+          "rank": 5,
+          "score": 0.581,
+          "text_preview": "1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP NPWP dapat dilakukan perubahan d...",
+          "chunk_id": 8578
+        }
+      ],
+      "error": null
+    }
+  ]
+}

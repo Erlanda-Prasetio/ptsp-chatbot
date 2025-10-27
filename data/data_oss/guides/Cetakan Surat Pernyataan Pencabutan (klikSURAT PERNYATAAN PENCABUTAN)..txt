@@ -1,0 +1,50 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Surat Pernyataan Pencabutan (klikSURAT PERNYATAAN PENCABUTAN).
+Source: https://oss.go.id/panduan/65796eb85e48a2cdc6962560
+Scraped: 2025-10-20T15:31:48.678197
+Total Steps: 17
+Total Images: 20
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“MASUK”.
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK.
+3. 3. Masuk ke menuPERIZINAN BERUSAHA, dan klikPENCABUTAN.
+4. 4. Setelah Anda masuk ke dalam menu Pencabutan, klikAJUKAN PERMOHONANuntuk melakukan proses Pencabutan Perizinan KP3A PMSE.
+5. 5. PeriksaSumber Data KP3A PMSEdan pilih kegiatan KP3A PMSE yang merujuk pada Kegiatan TDPSE akan dicabut dengan mencentang pada kotak centang yang tersedia. Anda juga dapat memilih semua kegiatan KP3A PMSE untuk melakukan penutupan Kantor Perwakilan.
+6. 6. PeriksaData Kantor Prinsipal.
+7. 7. Periksadan lengkapiData Kantor Perwakilan di Indonesia.
+8. 8. PeriksaData Kegiatan Usaha.
+9. 9. PeriksaData Dokumen Persyaratan. Anda dapat melihat Dokumen Persyaratan dengan mengklik tautan‘Lihat Detail’.
+10. 10. LengkapiSurat Pernyataan dari Kepala Kantor Perwakilan atau Direksi Perusahaan di Negara Asal yang Menyatakan Tidak Memiliki Hutang Piutang.Untuk tampilan form pengisian pada bagian ini terdapat dua kondisi, yaitu jikaSurat Pernyataan dibuat di Indonesia dan tidak dibuat di Indonesia.
+11. 11. LengkapiData Surat Perintah/Pernyataan dari Direksi Perusahaan di Negara Asal tentang Penutupan KP3A PMSE.
+12. 12. LengkapiData Laporan Kegiatan Kantor Perwakilan Periode Terakhir.
+13. 13. LengkapiData NPWPyang Anda miliki. Jika Andatidak memiliki NPWP, Anda wajibmengunggah Surat Bebas NPWP dari KPP setempat.
+14. 14. Baca dan pahami pernyataan dengan teliti, lalu centang kotakDISCLAIMER. KlikSAYA SUDAH MEMBACA DAN MENYETUJUI, lalu klikPROSESuntuk mengirimkan Permohonan Pencabutan Perizinan KP3A PMSE. Anda juga dapat menyimpan formulir sebagai draf dengan klik tombolSIMPAN SEBAGAI DRAFatau melihat pratinjau cetakan pencabutan dengan klik tombolPRATINJAU CETAKAN PENCABUTAN.
+15. 15. Pop-up konfirmasi akan muncul ketika Anda proses form pencabutan. Jika Anda sudah yakin untuk mengajukan permohonan Pencabutan, klik tombolYA.
+16. 16. Permohonan Pencabutan KP3A PMSE akan langsung disetujui oleh sistem dan status permohonan akan menunjukkan bahwa permohonan telah‘Diterima’.Permohonan Pencabutan Perizinan KP3A PMSE yang telah terkirim akan menampilkan:
+17. 17. Berikut adalah tampilan Cetakan Pencabutan dan Surat Pernyataan Pencabutan yang akan didapatkan setelah Permohonan Pencabutan Perizinan KP3A PMSE disetujui:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (20 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/17-3-a12673c672d784be3d3fb0017b720331.webp
+2. https://s3.oss.go.id/oss/cms/Panduan-Menu-kppa-0a1253261d0fd49a1fb5e8122f72888e.png
+3. https://s3.oss.go.id/oss/cms/16-44289c9aeaabcc711f781039f3b86dcd.webp
+4. https://s3.oss.go.id/oss/cms/7-a0a8f23aae80b1f1d0b794365495d1e5.webp
+5. https://s3.oss.go.id/oss/cms/7-8ef937cca6e518f5462a26c7c59db2c3.png
+6. https://s3.oss.go.id/oss/cms/17-2-9766518b5deaf08e8169df96e7226d6b.webp
+7. https://s3.oss.go.id/oss/cms/15-3705d09b937b8858efef1d43a2cea020.webp
+8. https://s3.oss.go.id/oss/cms/5-273ac561360ff2c7268a3038e35384fc.webp
+9. https://s3.oss.go.id/oss/cms/13---ID-25b93640333832fbb71591d60b264d2c.webp
+10. https://s3.oss.go.id/oss/cms/4-b651c9d998d7c533981a36a68c829bb1.webp
+11. https://s3.oss.go.id/oss/cms/10---ID-27eb202288e3b6b000983e13924d2da1.webp
+12. https://s3.oss.go.id/oss/cms/6-6673fe102f7336fffc5f781032296d63.webp
+13. https://s3.oss.go.id/oss/cms/12-41c9a9392ada5302e8e34d6f94ab5df8.webp
+14. https://s3.oss.go.id/oss/cms/14---ID-5ca503e914ea4ee16cc5b013245dfcda.webp
+15. https://s3.oss.go.id/oss/cms/9-02c73cd175a568688032ef271a23077e.webp
+16. https://s3.oss.go.id/oss/cms/17-1-dfc6f65639e3c33213cc56da492606cb.webp
+17. https://s3.oss.go.id/oss/cms/11-ef66ae54575079c42cb0c4cf148badfa.webp
+18. https://s3.oss.go.id/oss/cms/8-10a075b42b38eafa2508a2e4834d576b.webp
+19. https://s3.oss.go.id/oss/cms/2-2f1ea53c1ce3fbcd3f0220c16b0b352f.webp
+20. https://s3.oss.go.id/oss/cms/0-0d9ec8edd78cad73450ac31e184cff32.webp

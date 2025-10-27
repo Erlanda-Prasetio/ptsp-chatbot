@@ -1,0 +1,53 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: CentangDisclaimer,Lalu KlikProses Permohonan
+Source: https://oss.go.id/panduan/64d5b2af5d12499c3ba1f8be
+Scraped: 2025-10-20T15:22:47.817269
+Total Steps: 14
+Total Images: 26
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/
+2. 2. PilihMasuk
+3. 3. MasukkanUsernameDanPassword,Lalu KlikMasuk
+4. 4.DashboardVerifikator Kementerian/Lembaga
+5. 5. Pilih MenuPemrosesan Perizinan | Verifikasi Pemenuhan Persyaratan
+6. 6. PilihData Pelaku UsahaYangIngin Diverifikasi, Lalu KlikProses Verifikasi
+7. 7. Periksa MeliputiData Pelaku Usaha, Data Kegiatan Usaha,DanDokumen Yang Diunggah
+8. 9. Status Permohonan Pelaku Usaha
+9. 1.Dashboard Unit Perizinan Persetujuan Kementerian/Lembaga
+10. 2. Pilih MenuPemrosesan Perizinan | Persetujuan Permohonan
+11. 3. PilihData Pelaku UsahaYang Ingin Disetujui, Lalu KlikProses Persetujuan
+12. 4. Periksa MeliputiData Pelaku Usaha, Data Kegiatan Usaha,DanDokumen Yang Diunggah
+13. 5. LengkapiForm Persetujuan Permohonan
+14. 16. Status Permohonan Pelaku Usaha Berubah MenjadiTelah Terverifikasi
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (26 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/Picture21-42db55e4d58079d51d9c509ea20ac4d9.webp
+2. https://s3-stg.oss.go.id/oss/cms/Picture1-765dc478bbd14579eabb0a68a5a296cc.webp
+3. https://s3-stg.oss.go.id/oss/cms/Picture11-54bb17e8f0c977b692c33de8c6d98580.webp
+4. https://s3-stg.oss.go.id/oss/cms/Picture12-2876d8183de4307b3ee7a43bbb141456.webp
+5. https://s3-stg.oss.go.id/oss/cms/Picture7-b72d4ecc18a7643634b602cd56cce767.webp
+6. https://s3-stg.oss.go.id/oss/cms/Picture13-0495fd9f12e47c3939f9d6586ebfb684.webp
+7. https://s3-stg.oss.go.id/oss/cms/Picture23-c298bbaf52f7575d336ad188359e0365.webp
+8. https://s3-stg.oss.go.id/oss/cms/Picture9-9aa651588a7fd9ab03b1208ba2f2e03d.webp
+9. https://s3-stg.oss.go.id/oss/cms/Picture17-c61c3bbbec379f64361f9c74cd12f7da.webp
+10. https://s3-stg.oss.go.id/oss/cms/Picture2-5e30dcfbe10898841d1b5ddacdf4780f.webp
+11. https://s3-stg.oss.go.id/oss/cms/Picture26-9265952fcacbdea74ab8388f48bcc941.webp
+12. https://s3-stg.oss.go.id/oss/cms/Picture25-cce7dca4d2a31c7569468b1d6c9964ac.webp
+13. https://s3-stg.oss.go.id/oss/cms/Picture24-dca08db5f5bdd700adaad93c38f6f4ae.webp
+14. https://s3-stg.oss.go.id/oss/cms/Picture6-7d901e1e2176b83a054c4591e7776893.webp
+15. https://s3-stg.oss.go.id/oss/cms/Picture4-fdd0b14bece5f07fa97aaa1f46498aa1.webp
+16. https://s3-stg.oss.go.id/oss/cms/Picture18-UP-479ec256cd341a1ffaef836295557510.webp
+17. https://s3-stg.oss.go.id/oss/cms/Picture5-df7b7e9b533e65c1f1c03d3b2fce90d8.webp
+18. https://s3-stg.oss.go.id/oss/cms/Picture3-5325ce077c32257a2210cde6cea26958.webp
+19. https://s3-stg.oss.go.id/oss/cms/Picture22-625e2978015550b40ea9f241a9c93e09.webp
+20. https://s3-stg.oss.go.id/oss/cms/Picture8-9e3ce44530db1ffa6dd8bb61f8e64cd5.webp
+21. https://s3-stg.oss.go.id/oss/cms/Picture15-03a08b90f37543718249a9df09e6cfe7.webp
+22. https://s3-stg.oss.go.id/oss/cms/Picture10-19639df8490ff6a5adb2b18aea81c39f.webp
+23. https://s3-stg.oss.go.id/oss/cms/Picture19-6d780a2bc56f323f3ea87bd25a1df9d9.webp
+24. https://s3-stg.oss.go.id/oss/cms/Picture16-28ccc564742f00a666b697aad10944a8.webp
+25. https://s3-stg.oss.go.id/oss/cms/Picture14-e38f1565377075445d358d91c517d517.webp
+26. https://s3-stg.oss.go.id/oss/cms/Picture20-e81034c5b33749fee2b0bdc5ebe53cc9.webp

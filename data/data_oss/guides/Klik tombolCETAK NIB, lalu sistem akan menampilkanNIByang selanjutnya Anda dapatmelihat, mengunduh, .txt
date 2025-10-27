@@ -1,0 +1,55 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik tombolCETAK NIB, lalu sistem akan menampilkanNIByang selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144de
+Scraped: 2025-10-20T15:31:39.844576
+Total Steps: 21
+Total Images: 21
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. Masukkanusernamedanpassword, lalu klik tombolMASUK
+5. 5. Klik MenuKantor Perwakilandan pilihPerubahan Kantor Perwakilan
+6. 6. UbahData Kantor Prinsipal (KPPA)
+7. 7. UbahData Kantor Perwakilan di Indonesia
+8. 8. UbahData Kegiatan Kantor Perwakilan di Indonesia
+9. 9. UbahData AoA danPeriksaLoA
+10. 10. UbahData LoI dan LoR
+11. 11. PeriksaData LoS
+12. 12. Pahami dan CentangPernyataan Mandiri
+13. 13. Perizinan Berusaha Kantor Perwakilan berhasil diubah
+14. 14. PilihUBAH KEPALA KANTOR PERWAKILAN
+15. 15. UbahData Kepala Kantor Perwakilan
+16. 16.a LengkapiData Profil Kepala Kantor Perwakilan (jika WNI)
+17. 16.b LengkapiData Profil Kepala Kantor Perwakilan (jika WNA)
+18. 17. LengkapiData LoA dan LoS Kepala Kantor Perwakilan
+19. 18. Kepala Kantor Perwakilan berhasil diubah
+20. 19.a PeriksaPerubahan Data pada Perizinan Berusaha
+21. 19.b PeriksaPerubahan Data pada Perizinan Berusaha(Contoh Cetakan NIB)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (21 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-portal-4ccd0eaf30a05259b7b9babdcf1a981f.png
+2. https://s3.oss.go.id/oss/cms/17-(1)-95a042fb0fead633168656b977a0a157.png
+3. https://s3.oss.go.id/oss/cms/4-(4)-7eb02d498d187826950e01966f56ce80.png
+4. https://s3.oss.go.id/oss/cms/11-(3)-c8f25403a2dfa210db7a7ed57fb73b63.png
+5. https://s3.oss.go.id/oss/cms/16a-f3444834a4e449816e5ceb949328f3b9.png
+6. https://s3.oss.go.id/oss/cms/14-(2)-421efb091abcf9ec3f3c50cdbbe5e547.png
+7. https://s3.oss.go.id/oss/cms/1-portal-masuk-82798f6ae52357a96fc6e9d7bac53e67.png
+8. https://s3.oss.go.id/oss/cms/7-(2)-b08fb7a006504f668937abc9db58c04b.png
+9. https://s3.oss.go.id/oss/cms/19b-a08876df59adbd3889b7b1ab7c0556c6.png
+10. https://s3.oss.go.id/oss/cms/15-(1)-cc95c9adee8c68fa555463dc69e15b63.png
+11. https://s3.oss.go.id/oss/cms/12-(1)-8d1337f1ecdbc2faaf5403ace3126ab4.png
+12. https://s3.oss.go.id/oss/cms/13-(2)-3b8207231aa583bbae169cc7aad16375.png
+13. https://s3.oss.go.id/oss/cms/1-(17)-8f1f075e5f285fb5649e51cea27b563d.png
+14. https://s3.oss.go.id/oss/cms/8-(3)-05ce3ceb49c2eef0cd9e1009126a4334.png
+15. https://s3.oss.go.id/oss/cms/16b-c82dd9906b3620cbf4dc737a946b7b57.png
+16. https://s3.oss.go.id/oss/cms/5-(8)-d17f13dcc4c5de067c0c029f747dd3d1.png
+17. https://s3.oss.go.id/oss/cms/18-(1)-aff712298548f66c3d49096a7861b10f.png
+18. https://s3.oss.go.id/oss/cms/9-(4)-3f0daa5f0d15916f7fcc37409ca80ca9.png
+19. https://s3.oss.go.id/oss/cms/10-(3)-9320a6b30bef4155304233de22059ec9.png
+20. https://s3.oss.go.id/oss/cms/19a-8c34be668aaeba702adebae6289d80f0.png
+21. https://s3.oss.go.id/oss/cms/6-(12)-2dbe495f9131d9c43b6553f8ff4f6ba9.png

@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaporan Kantor Perwakilan Perusahaan Asing (KPPA)
+Source: https://oss.go.id/panduan/635970086345c7d71a8144d5
+Scraped: 2025-10-20T15:39:42.373285
+Total Steps: 33
+Total Images: 12
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPELAPORAN, pilihPELAPORAN KANTOR PERWAKILANdan klikKPPA
+4. 4. Setelah masuk ke menu Pelaporan, klikBUAT LAPORAN
+5. 5. LengkapiData Pelaku Usaha
+6. 1.Nomor Induk Berusaha
+7. 2.Nama Kepala Perwakilan
+8. 3.Negara Asal Perwakilan
+9. 4.Alamat Kantor Perwakilan
+10. 5.Nomor Telepon Kantor Perwakilan
+11. 6.Email Kantor Perwakilan
+12. 7.Nama Pelaku Usaha/Perusahaan Di Luar Negeri Yang Menunjuk (Prinsipal)
+13. 8.Alamat Prinsipal
+14. 9.Nomor Telepon Prinsipal
+15. 10.Email Prinsipal
+16. 11.Bidang Kegiatan
+17. 1.NPWP Badan Usaha
+18. 2.Realisasi Kegiatan
+19. 6.a LengkapiData Tenaga Kerja(Jumlah TKI dan TKA)
+20. 1.Tenaga Kerja Indonesia (TKI)
+21. 2.Tenaga Kerja Asing (TKA)
+22. 6.b LengkapiData Tenaga Kerja(Nomor Izin Tenaga Kerja Asing)
+23. 1.Nomor Izin Kerja
+24. 2.Tanggal Terbit
+25. 3.Masa Berlaku*
+26. 7. LengkapiData Penanggung Jawab Laporan Kegiatan Usaha KPPA
+27. 1.Nama Pelapor
+28. 2.Nomor Handphone
+29. 4.Email (Anda dapat mengisi email lebih dari satu dengan klik tombol ‘+’)
+30. 8. MenyetujuiPernyataan Pelaporan KPPA
+31. 9. Melakukankonfirmasi Laporan KPPA
+32. 10.a Laporan Kantor Perwakilan Perusahaan Asing (KPPA)telah diterima
+33. 10.b Laporan Kantor Perwakilan Perusahaan Asing (KPPA) telah diterima(Cetakan Laporan KPPA)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (12 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid9-3db13935c6c9f7bbe5d849ef81adfcb5.png
+2. https://s3.oss.go.id/oss/cms/blobid4-e010f1c997bd576c1db798d21dfe1464.png
+3. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-2ecb0d2a6b320ccd91348d24aa96f8f1.png
+4. https://s3.oss.go.id/oss/cms/blobid7-ed3f39d529eeb1330ba668b6b8dd85fd.png
+5. https://s3.oss.go.id/oss/cms/Pelaporan-KPPA-fbb85840ad2036f61b32f5c713f00b7d.png
+6. https://s3.oss.go.id/oss/cms/blobid11-30fc95e0cc0a958683bf2cf73229d251.png
+7. https://s3.oss.go.id/oss/cms/blobid8-bdfdf0e26325a1683587ac991d617107.png
+8. https://s3.oss.go.id/oss/cms/blobid1-5902bc74ab17525e902e3f3850fdd35c.png
+9. https://s3.oss.go.id/oss/cms/blobid6-130359b1a78967e47243c9e6e4be3f55.png
+10. https://s3.oss.go.id/oss/cms/blobid5-88b349c338ec653d4852fd8bc02b0d9a.png
+11. https://s3.oss.go.id/oss/cms/blobid3-2045140ec035a72f1477b0e1f3363143.png
+12. https://s3.oss.go.id/oss/cms/blobid10-2c78c81b3fb022bd4516d88e87ba4f34.png

@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara lihat cetakan izin lama KBLI data migrasi?
+Source: https://oss.go.id/id/faq/kategori?id=68e486f67795640efd3eeff0
+Scraped: 2025-10-21T15:16:13.783057
+================================================================================
+
+QUESTION:
+Bagaimana cara lihat cetakan izin lama KBLI data migrasi?
+
+ANSWER:
+Untuk melihat cetakan izin lama silakan mengikuti langkah berikut: 1. Kunjungi https://oss.go.id/ kemudian masuk menggunakan nomor ponsel/email/username dan password. 2. Setelah berhasil login, buka menu Pelacakan lalu pilih Perizinan Berusaha. 3. Pilih KBLI dengan mengklik (^) untuk menampilkan tombol Cetakan Lama kemudian klik tombol tersebut. 4. Sistem akan menampilkan Daftar Izin Usaha. Selanjutnya, pilih Lihat Cetakan pada dokumen yang dibutuhkan.
+
+================================================================================

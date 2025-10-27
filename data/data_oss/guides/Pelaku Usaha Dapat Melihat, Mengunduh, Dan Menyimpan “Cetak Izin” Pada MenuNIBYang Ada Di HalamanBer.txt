@@ -1,0 +1,41 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha Dapat Melihat, Mengunduh, Dan Menyimpan “Cetak Izin” Pada MenuNIBYang Ada Di HalamanBeranda
+Source: https://oss.go.id/panduan/647d9145d033753dd77d8a0d
+Scraped: 2025-10-20T15:25:37.063190
+Total Steps: 11
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, PilihMASUK
+2. 2.MasukkanUsername Dan Password, Lalu Klik Tombol MASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuPerizinan BerusahaDan PilihPerubahan,Lalu PilihPerubahan Data Teknis
+5. 5. PilihKegiatan UsahaYang Akan Dilakukan Perubahan Data Lampiran Teknis
+6. 6. NotifikasiKonfirmasiUntuk Melanjutkan Mengubah Data Lampiran Teknis
+7. 7.ALengkapi Formulir PemenuhanPerubahan Data Teknis (Masih Berlaku)
+8. 7.BLengkapi Formulir PemenuhanPerubahan Data Teknis(Izin Terbit/SS Terverifikasi)
+9. 8. Konfirmasi Perubahan Data Teknis
+10. 9. PeriksaDaftar Kegiatan UsahaSecara Berkala
+11. 10.Riwayat Perubahan Data Teknis
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture2-a6ad9a10b9ebf208017fdca5c9386f8d.png
+2. https://s3.oss.go.id/oss/cms/Picture15-baca6b534c976c449dc8247d22a9bc89.png
+3. https://s3.oss.go.id/oss/cms/Picture12-cb0c818fdb5164692b4c872a6cee331a.png
+4. https://s3.oss.go.id/oss/cms/Picture11-9613d7b0eebd9325fb2ecb19a0dd3dbc.png
+5. https://s3.oss.go.id/oss/cms/Picture3-81c4bef31df09e22c55188422244f2b8.png
+6. https://s3.oss.go.id/oss/cms/Picture10-f19fb2e632c9cffa0b0093cee8c501c6.png
+7. https://s3.oss.go.id/oss/cms/Picture16-2c949cab11fd5a57615edd50434d6425.png
+8. https://s3.oss.go.id/oss/cms/Picture17-5103100fcc3a8d6fe0b3ac1f778efea9.png
+9. https://s3.oss.go.id/oss/cms/Picture13-a88d2d103523bb9108defb2c6a18dfaa.png
+10. https://s3.oss.go.id/oss/cms/Picture14-81bd4196e8861e0595bcd7c0a0defd72.png
+11. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-09-at-13.08.12-b3cae991a38b1a6d59e010913e4d4f6b.jpeg
+12. https://s3.oss.go.id/oss/cms/Picture7-a-a688ff78ddc62b73487f7cf849cb5055.png
+13. https://s3.oss.go.id/oss/cms/Picture6-b9fb406b8dabf27bc7345ef4df5a7f5f.png
+14. https://s3.oss.go.id/oss/cms/Picture8-b-3e4c200d3b9be7fbe174019223ed93cb.png
+15. https://s3.oss.go.id/oss/cms/Picture9-b341bd5900eac304b3fbe0d7c0b7c22d.png
+16. https://s3.oss.go.id/oss/cms/Picture4-417aace5d8807a71abc876d3951c2b48.png
+17. https://s3.oss.go.id/oss/cms/Picture5-1fda4bcf35d2ec101b035c8cd1e88818.png

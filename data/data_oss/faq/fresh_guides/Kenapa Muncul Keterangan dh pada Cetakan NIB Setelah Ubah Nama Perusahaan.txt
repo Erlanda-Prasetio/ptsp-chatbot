@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Muncul Keterangan d/h pada Cetakan NIB Setelah Ubah Nama Perusahaan?
+Source: https://oss.go.id/id/faq/kategori?id=68e488977795640efd3ef046
+Scraped: 2025-10-21T15:10:29.459940
+================================================================================
+
+QUESTION:
+Kenapa Muncul Keterangan d/h pada Cetakan NIB Setelah Ubah Nama Perusahaan?
+
+ANSWER:
+Keterangan d/h merupakan singkatan dari "diperbaharui/hasil" yang memiliki makna bahwa telah terjadi perubahan pada dokumen yang dimaksud. Keterangan ini muncul pada cetakan NIB ketika Pelaku Usaha melakukan perubahan nama perusahaan.
+
+================================================================================

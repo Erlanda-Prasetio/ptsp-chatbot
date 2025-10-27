@@ -1,0 +1,13 @@
+================================================================================
+Title: Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan
+Source: https://oss.go.id/id/faq/kategori?id=68e484ff711547977a0df15b
+Scraped: 2025-10-21T15:22:23.564668
+================================================================================
+
+QUESTION:
+Saya terkendala pendaftaran akun OSS muncul notifikasi data tidak ditemukan
+
+ANSWER:
+Pastikan Bapak/Ibu telah menginput nama perusahaan, NPWP, Nomor SK Pengesahan, serta data penanggung jawab yang sesuai dengan informasi yang terdaftar di AHU Online.
+
+================================================================================

@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Anda juga dapat melihat dokumen dariPersyaratan DasardanPernyataan Mandiridalam Data Usaha
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e7
+Scraped: 2025-10-20T15:35:03.613934
+Total Steps: 20
+Total Images: 30
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilihMASUK
+2. 2.MasukkanUsernamedanPassword,lalu klik tombolMASUK
+3. 3.Dashboard OPD
+4. 4. pilih MenuPemrosesan Perizinan | Pemenuhan Persyaratan
+5. 5. Pilih data permohonanPersetujuan Sertifikat Standar, lalu klikProses Verifikasi
+6. 6.OPDdapat memeriksaData Pelaku Usaha, Data Usaha,danDokumen yang diunggah
+7. 7.Lengkapi Form Persetujuan Permohonan
+8. 8. Status permohonan Pelaku Usaha berubah
+9. 9. DashboardUnit Perizinan
+10. 10. Pilih MenuPemrosesan Perizinan| Persetujuan Permohonan
+11. 11. Pilih data permohonanPersetujuan Sertifikat Standar, lalu klikProses Verifikasi
+12. 12. Unit Perizinan dapat memeriksaData Pelaku Usaha, Data Usaha,danDokumen yang diunggah
+13. 13. Lengkapi Form Persetujuan Permohonan
+14. 14. Status permohonan Pelaku Usaha berubah menjadiPersetujuan Perizinan
+15. 16. DashboardPengelola Hak Akses
+16. 17. Pilih MenuPemrosesan Perizinan | Persetujuan Permohonan
+17. 18. Pilih data permohonanPersetujuan Sertifikat Standar, lalu klikProses Persetujuan
+18. 19. Pengelola Hak Akses dapat memeriksaData Pelaku Usaha, Data Usaha,danDokumen yang diunggah
+19. 20. Lengkapi Form Permohonan Pelaku Usaha
+20. 21. Status permohonan Pelaku Usaha berubah menjadiTelah Terverifikasi
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (30 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid45-9b7bf5f4aaaa00c39f28fb5740e05adf.png
+2. https://s3.oss.go.id/oss/cms/blobid52-8c9ffac7ac2ff96d62a52f7b66038b34.png
+3. https://s3.oss.go.id/oss/cms/blobid26-89e49a222cda87739db0cae4ee5156f7.png
+4. https://s3.oss.go.id/oss/cms/blobid47-983898a9a440b5e10aa433e78f4da843.png
+5. https://s3.oss.go.id/oss/cms/blobid25-7239ec54e74497bb56fef9f503b0bb36.png
+6. https://s3.oss.go.id/oss/cms/blobid31-6f9390d7d69f777edbe4718c0107e141.png
+7. https://s3.oss.go.id/oss/cms/blobid32-1d324c415f810c2a86a8915f45b7bbaa.png
+8. https://s3.oss.go.id/oss/cms/blobid48-4d9bea8df5a7e965de25ea990136ade9.png
+9. https://s3.oss.go.id/oss/cms/blobid33-e733e42552bf9f4cbfa8caec567ab149.png
+10. https://s3.oss.go.id/oss/cms/blobid27-344f65d474288d3d85a05aa23e5f516a.png
+11. https://s3.oss.go.id/oss/cms/blobid34-3cd282605760c42b26ac246ecff91652.png
+12. https://s3.oss.go.id/oss/cms/blobid40-e2b6f97bfc687f978a7165c853091450.png
+13. https://s3.oss.go.id/oss/cms/blobid39-fef7d8bfdd7b9d547500b9ca27ad7233.png
+14. https://s3.oss.go.id/oss/cms/blobid30-613dfa862bc206ccde1f0a4fa9baf36f.png
+15. https://s3.oss.go.id/oss/cms/blobid46-5886cfc036e5ed649aca017428900ead.png
+16. https://s3.oss.go.id/oss/cms/1-portal-masuk-ea5dbf3cdbc20e1d5e2216e873d05ec7.png
+17. https://s3.oss.go.id/oss/cms/blobid53-065a982339f62dc297d5919289ffb060.png
+18. https://s3.oss.go.id/oss/cms/blobid29-b62c5e03ad70c5c4e09993333508190b.png
+19. https://s3.oss.go.id/oss/cms/blobid51-96b8425dfd90dd1806e833ff52aecbf8.png
+20. https://s3.oss.go.id/oss/cms/blobid36-abcb1fa39613ef5e7efd8b995b3d136b.png
+21. https://s3.oss.go.id/oss/cms/blobid37-f9a9a1ea6fc8f3faa82d0b77fc821082.png
+22. https://s3.oss.go.id/oss/cms/blobid50-c13f969750a549ecbeb6dfeb2703aca8.png
+23. https://s3.oss.go.id/oss/cms/blobid49-7d257367508eace6a4534c27c4ece256.png
+24. https://s3.oss.go.id/oss/cms/blobid38-6ca55c2ee6714f674a386a386b6bf92a.png
+25. https://s3.oss.go.id/oss/cms/blobid35-a14410ccb842dbd28d37a78cf84a63aa.png
+26. https://s3.oss.go.id/oss/cms/blobid44-6d047aaf16ae655adae9bd33484114d8.png
+27. https://s3.oss.go.id/oss/cms/blobid41-0892ce168b16945dee7c01e5a88f2937.png
+28. https://s3.oss.go.id/oss/cms/blobid42-27b583739078390064f6fd6cabee494d.png
+29. https://s3.oss.go.id/oss/cms/blobid28-6808dc5722a9ad71cb638722bf98dde4.png
+30. https://s3.oss.go.id/oss/cms/blobid43-a9365d37e6d628b167db05118fc58fc4.png

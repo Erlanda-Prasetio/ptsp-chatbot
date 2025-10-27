@@ -1,0 +1,38 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Penggantian Hak Akses Pelaku Usaha Lama (UMK)
+Source: https://oss.go.id/panduan/635970086345c7d71a814498
+Scraped: 2025-10-20T15:30:32.465374
+Total Steps: 11
+Total Images: 14
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK
+3. 3. Lengkapi data dan Klik tombolPILIH, untuk melakukan Penggantian Hak Akses
+4. 4. Setelah Anda memilih nama perusahaan, akan muncul notifikasi Penggantian Hak Akses berhasil dilakukan
+5. 5. Setelah berhasil Anda akan menerima Username dan Password untuk akses Login OSS melalui alamat email yang didaftarkan saat proses penggantian Hak Akses
+6. 3. Klik tombolPILIH, untuk melakukan Penggantian Hak Akses yang memiliki lebih dari 1 NIB
+7. 4. Cek Data Usaha dan Data Direksi/Pengurus. Pelaku Usaha dapat mengganti Email yang di daftarkan untuk mendapatkan hak akses. Centang disclaimer, lalu klikPROSES
+8. 5. Setelah Anda memproses formulir Data Usaha dan Data Direksi/Pengurus, akan muncul notifikasi Penggantian Hak Akses berhasil dilakukan
+9. 6. Setelah berhasil Anda akan menerima Username dan Password untuk akses Login OSS melalui alamat email yang didaftarkan saat proses penggantian Hak Akses
+10. 4. Cek dan lengkapi Data Usaha. Setelah melengkapi formulir, centang disclaimer, lalu klikPROSES
+11. 5. Setelah Anda memproses formulir Data Usaha dan Data Komisaris/Pemagang Saham, akan muncul notifikasi Penggantian Hak Akses berhasil dilakukan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (14 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Direktur--4-ebbe0fe645bb99d64c18083d40773c32.png
+2. https://s3.oss.go.id/oss/cms/Perseorangan--4-56d032da5f66bef94dc2da99cdd95b81.png
+3. https://s3.oss.go.id/oss/cms/Direktur--6-3833141c730352e988638f6fd47a9f3c.png
+4. https://s3.oss.go.id/oss/cms/Perseorangan--3-81e85f8c739223350d0755f1bd8178f9.png
+5. https://s3.oss.go.id/oss/cms/Komisaris--3-886046e3f470ed13c7891e88411718ac.png
+6. https://s3.oss.go.id/oss/cms/Direktur--5-ff7d9b72cfa1a1c0efe665f2f8e8c3d6.png
+7. https://s3.oss.go.id/oss/cms/Komisaris--4-e54e8b1174b2e2e3270e9ccde4fa4ddc.png
+8. https://s3.oss.go.id/oss/cms/2-1501e3cf0c45c48d4fe8f3be967475d8.png
+9. https://s3.oss.go.id/oss/cms/Perseorangan--2-b167533a6baa8e57dea37e8d8ebfec5e.png
+10. https://s3.oss.go.id/oss/cms/Direktur--3-babc2ecdf74b96c79b43b6c4265ea3db.png
+11. https://s3.oss.go.id/oss/cms/Komisaris--5-839aa6a307b54f4516b2e0916bf288da.png
+12. https://s3.oss.go.id/oss/cms/7-b49da19e9c481b4205853ce03dc6bf14.png
+13. https://s3.oss.go.id/oss/cms/Direktur--6-abc39b1dbf10b0f2284f5e7c24d79e99.png
+14. https://s3.oss.go.id/oss/cms/Perseorangan--5-c3fcb12d89956920cae309f85b31c11a.png

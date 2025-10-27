@@ -1,0 +1,32 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Setelah Izin Perpanjangan Terbit, pelaku usaha dapat melakukan Proses Perpanjangan kembali, jika dibutuhkan
+Source: https://oss.go.id/panduan/6740308a916660e38c0928d0
+Scraped: 2025-10-20T15:23:55.832454
+Total Steps: 8
+Total Images: 11
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Klik Menu PB UMKU, lalu Perpanjangan
+5. 5. Pilih KBLI untuk pengajuan Perpanjangan PB-UMKU
+6. 6. Klik tombol Ajukan Perizinan Berusaha UMKU
+7. 7. Lengkapi Formulir Perizinan Berusaha UMKU
+8. 8. Periksa Status Permohonan Daftar PB-UMKU secara berkala
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (11 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture11-c6247c0283ca65240abe69402a899a4c.png
+2. https://s3.oss.go.id/oss/cms/Picture4-1abfe38efe865f571e06eea263fde0f8.png
+3. https://s3.oss.go.id/oss/cms/Picture1-2ff23b203cfdd5f831e8418f7b26bc39.png
+4. https://s3.oss.go.id/oss/cms/Picture9-36cc26a817308d805d55f1f23c2e4fa3.png
+5. https://s3.oss.go.id/oss/cms/Picture8-13ddd51824672bb4fe792875848907d5.png
+6. https://s3.oss.go.id/oss/cms/Picture6-944f6ec00efae5844803a142c58f61fe.png
+7. https://s3.oss.go.id/oss/cms/Picture3-e451e6a8a577fd04f54b991fbaede1b4.png
+8. https://s3.oss.go.id/oss/cms/Picture10-9a571b8c4abedb35fe9f13f217688db6.png
+9. https://s3.oss.go.id/oss/cms/Picture2-b2b8d04a13198c602fca1322929ff0ed.png
+10. https://s3.oss.go.id/oss/cms/Picture5-d0985403d32f3b617dfd3d083d2d940e.png
+11. https://s3.oss.go.id/oss/cms/Picture7-6c0d3b86e4ecd6642a75ec2ad6a9743c.png

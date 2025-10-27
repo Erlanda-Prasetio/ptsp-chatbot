@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana mengisi data negara asal yang kosong dari data AHU?
+Source: https://oss.go.id/id/faq/kategori?id=68e4869b7795640efd3eefc4
+Scraped: 2025-10-21T15:17:48.542976
+================================================================================
+
+QUESTION:
+Bagaimana mengisi data negara asal yang kosong dari data AHU?
+
+ANSWER:
+Panduan lengkap pengisian data negara asal yang kosong dari data AHU dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/66ea7a96e09d998f717cb9f0
+
+================================================================================

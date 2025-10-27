@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik tombol Lanjut
+Source: https://oss.go.id/panduan/635970086345c7d71a8144b5
+Scraped: 2025-10-20T15:40:19.100241
+Total Steps: 25
+Total Images: 25
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/
+2. 2. Pilih DAFTAR
+3. 3. Pilih skala usaha Non UMK
+4. 4. Pilih jenis pelaku usaha Non UMK
+5. 5. A. Lengkapi Skala Usaha Non-UMK (sebagai Orang Perseorangan)
+6. 5. B. Lengkapi Skala Usaha Non-UMK (sebagai Badan Usaha)
+7. 5. C. Lengkapi Skala Usaha Non-UMK (sebagai Kantor Perwakilan)
+8. 5. D. Lengkapi Skala Usaha Non-UMK (sebagai Badan Usaha Luar Negeri)
+9. 6. Pilih Metode Verifikasi Data (melalui Email)
+10. 7. Masukkan Kata Sandi
+11. 8. A. Lengkapi Data sebagai Non UMK Orang Perseorangan
+12. 8. B. Lengkapi Data Profil Badan Usaha - Perseroan Terbatas (PT) jika WNI
+13. 8. C. Lengkapi Data Profil Badan Usaha - Perseroan Terbatas (PT) jika WNA
+14. 8. D. Lengkapi Profil Badan Usaha - CV, Perum, Perumda, Persekutuan Perdata, FA, dan Badan
+15. 8. F. Lengkapi Profil Badan Usaha - Koperasi
+16. 8. G. Lengkapi Profil Badan Usaha - Badan Usaha Milik Desa (BUMDES) dan Badan Usaha
+17. 8.H. Lengkapi Profil Badan Usaha - Bentuk Usaha Tetap jika WNI
+18. 8. I. Lengkapi Profil Badan Usaha - Bentuk Usaha Tetap jika WNA
+19. 8. J. Lengkapi Profil Badan Usaha - Yayasan, Perserikatan/Perkumpulan, Bentuk Usaha Tetap
+20. 8. K. Lengkapi Profil Kantor Perwakilan jika WNI
+21. 8. L. Lengkapi Profil Kantor Perwakilan jika WNA
+22. 8. M. Lengkapi Profil Badan Usaha Luar Negeri jika WNI
+23. 8. N. Lengkapi Profil Badan Usaha Luar Negeri jika WNA
+24. 9. Pendaftaran Berhasil
+25. 10. Hak akses Anda siap digunakan untuk masuk ke Sistem OSS
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (25 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture20-7a6092a79b98b49ef872259e1c9c63a3.png
+2. https://s3.oss.go.id/oss/cms/Picture21-1ce9fd8ff2ecac4fc8906357b0b57f78.png
+3. https://s3.oss.go.id/oss/cms/Picture12-8.b-ec44761092a043b6962e04d075d84d45.png
+4. https://s3.oss.go.id/oss/cms/Picture13-8.c-edf83250d941271189c55ad31c941677.png
+5. https://s3.oss.go.id/oss/cms/Picture3-4ad42e68bc35f428df9aa61cd6160405.png
+6. https://s3.oss.go.id/oss/cms/Picture22-689196a7bd3ad0055c9645f65fc7e5da.png
+7. https://s3.oss.go.id/oss/cms/Picture8-85b762477c0e332cdfccf050399e8c27.png
+8. https://s3.oss.go.id/oss/cms/Picture9-3d3c46ac6b31ce0c67b676b616e0999b.png
+9. https://s3.oss.go.id/oss/cms/4-f331225579044529e6b3118f34806f12.png
+10. https://s3.oss.go.id/oss/cms/Picture15-2ff3ea6bfd2b6a5f39690e1b080ff523.png
+11. https://s3.oss.go.id/oss/cms/Picture4-9140b1f1157ff7097b94fd8b98a63eb0.png
+12. https://s3.oss.go.id/oss/cms/Picture10-0146edc578fffa58d8931e8da804c6b9.png
+13. https://s3.oss.go.id/oss/cms/3-be60a49cacc6fb27119368ac452a0f87.png
+14. https://s3.oss.go.id/oss/cms/Picture17-25fba47b11b19c42389754e774f98325.png
+15. https://s3.oss.go.id/oss/cms/Picture19-a279bd0dad7aed1a10d3b5ef9513e382.png
+16. https://s3.oss.go.id/oss/cms/Picture7-4f385e4497a4923ed6f44aa22c795ebe.png
+17. https://s3.oss.go.id/oss/cms/Picture6-4746573f218087c9b7e6b36537c3fdbd.png
+18. https://s3.oss.go.id/oss/cms/Picture16-14b1eb330d218724fc35dd6e86226534.png
+19. https://s3.oss.go.id/oss/cms/Picture11-8.a-e471b8afb7d01699f0f2e00e805883bd.png
+20. https://s3.oss.go.id/oss/cms/Picture18-6f2139c28abf7a820c5d797d037ccba9.png
+21. https://s3.oss.go.id/oss/cms/Picture25-5f524c3e37ec4fb668b3a09b89b8d6eb.png
+22. https://s3.oss.go.id/oss/cms/Picture24-4e5e3c7c31b4829a8c49f454cf7ca58a.png
+23. https://s3.oss.go.id/oss/cms/Picture23-73937463133416743f5dec6923d2439b.png
+24. https://s3.oss.go.id/oss/cms/Picture5-56b28045cf75812e49fbd638bd077eeb.png
+25. https://s3.oss.go.id/oss/cms/Picture14-8.d-61a8e96814a1197dec2df4e563a82e8e.png

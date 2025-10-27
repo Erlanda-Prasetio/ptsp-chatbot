@@ -1,0 +1,131 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Lengkapi Parameter Kewajiban Dokumen Lingkungan, lalu klik tombolLANJUT
+Source: https://oss.go.id/panduan/635970086345c7d71a8144b9
+Scraped: 2025-10-20T15:39:52.109456
+Total Steps: 27
+Total Images: 91
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki Hak Akses
+2. 2. Kunjungihttps://oss.go.id/,pilih“Masuk”
+3. 3. Masukkan Username dan Password, lalu klik tombolMASUK
+4. 4. Klik MenuPerizinan Berusahadan pilihPermohonan Baru
+5. 5.a.Lengkapi Data Badan Usaha (Perseroan Terbatas/PT)
+6. 5.bLengkapi Data Badan Usaha (Persekutuan Komanditer/CV)
+7. 5.c.Lengkapi Data Badan Usaha (Persekutuan Firma)
+8. 5.d.Lengkapi Data Badan Usaha (Pesekutuan Perdata)
+9. 5.e.Lengkapi Data Badan Usaha (Koperasi)
+10. 5.f.Lengkapi Data Badan Usaha (Persyarikatan/Persekutuan)
+11. 5.g.Lengkapi Data Badan Usaha (Yayasan)
+12. 5.h.Lengkapi Data Badan Usaha (Perum)
+13. 5.i.Lengkapi Data Badan Usaha (Badan Layanan Umum)
+14. 5.j.Lengkapi Data Badan Usaha (Badan Usaha Hukum Lainnya)
+15. 6. Klik tombolSIMPAN, lalu akan muncul pesan validasi (Jika belum lengkap dan sesuai, harap hubungi Notaris/lapor ke Ditjen AHU, Kemenkumham). Jika data tervalidasi lengkap dan sesuai, lalu klik kotak centang/checkbox. Lalu, klik tombolSELANJUTNYA.
+16. 7. Klik pada tombol tombolTAMBAH BIDANG USAHAterlebih dahulu. Selanjutnya, Sistem akan menampilkan Formulir Perekaman Data Pelaku Usaha (Badan Usaha). Lalu klik tombolPILIH BIDANG USAHA.
+17. 8.a Lengkapi Formulir Detail Usaha (Jika pilih "Lokasi Kegiatan Usaha" di DARAT)
+18. 8.b Lengkapi Formulir Detail Usaha (Jika pilih "Lokasi Kegiatan Usaha" di HUTAN)
+19. 8.c Lengkapi Formulir Detail Usaha (Jika pilih "Lokasi Kegiatan Usaha" di LAUT)
+20. 9. Lengkapi Data Produk/Jasa, lalu klik tombolSIMPAN
+21. 10. Periksa Daftar Produk/Jasa, lalu klik tombolSELESAI
+22. 11. Lengkapi Data Usaha (Aktivitas Impor, BPJS, dan WLKP). Setalah melengkapi Data Usaha, berikan centang pada kotak centang/checkbox. Lalu klik pada tombolSELANJUTNYA
+23. 12. PeriksaDaftar Kegiatan Usaha. Kegiatan Usaha yang diajukan mempunyai dua kondisi yang dapat dijelaskan sebagai berikut:
+24. 13. Periksa dan LengkapiDokumen Persetujuan Lingkunganberdasarkan KBLI/Bidang Usaha Tertentu.
+25. 14. Baca, pahami, dan klik kotak centang/checkbox pada setiap Pernyataan Mandiri yang tertera. Selanjutnya klik tombolLANJUT
+26. 15. PeriksaDraf Perizinan Berusaha (NIB), lalu kliktombol TERBITKAN PERIZINAN BERUSAHA
+27. 16.Perizinan Berusaha Telah Teribit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (91 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image-a3b802249458b9fd3555175c7f28cc00.png
+2. https://s3.oss.go.id/oss/cms/image-0562fee89078123580f20f57342f77bf.png
+3. https://s3.oss.go.id/oss/cms/image-8036cc457c09608261b3a453430616c9.png
+4. https://s3.oss.go.id/oss/cms/image-414019b61c4a4d1a8fdcb9319825ae68.png
+5. https://s3.oss.go.id/oss/cms/image-e526b2370e4e2cf389629b34f21e9f23.png
+6. https://s3.oss.go.id/oss/cms/image-409ae5c42aeecc849abe9bcb10f394c2.png
+7. https://s3.oss.go.id/oss/cms/image-72a0f18ce62ec161e495c5761a03cef2.png
+8. https://s3.oss.go.id/oss/cms/image-b89f882ce91be692c431499c552f8c81.png
+9. https://s3.oss.go.id/oss/cms/image-7bd64fb41b08b4c452fbf5a13a120bc6.png
+10. https://s3.oss.go.id/oss/cms/image-5fd490c7bc801f9490d9734c69dc359a.png
+11. https://s3.oss.go.id/oss/cms/image-538c62fd5cbc39c8f4d92addbbd4ca4e.png
+12. https://s3.oss.go.id/oss/cms/image-c5bc69790eebf9a31b5d173616696af6.png
+13. https://s3.oss.go.id/oss/cms/image-118c8d3a92cc806802adf11a75296527.png
+14. https://s3.oss.go.id/oss/cms/image-c2bd8ba2678868e82a75c5eb0b4e664d.png
+15. https://s3.oss.go.id/oss/cms/image-b2e2009ba4900037a8e824a07a58dcbe.png
+16. https://s3.oss.go.id/oss/cms/1-portal-masuk-fe7bb89deabd9e609ac2beff16c384ca.png
+17. https://s3.oss.go.id/oss/cms/image-e15ebcd246b0b052add5971c31282686.png
+18. https://s3.oss.go.id/oss/cms/image-504e3bed802767e346d73fdcda1b001c.png
+19. https://s3.oss.go.id/oss/cms/image-7e3f432bf7d01e0ba9f0ebd915cc0c2e.png
+20. https://s3.oss.go.id/oss/cms/image-83e7be91ca4549d3efef093871fd7c57.png
+21. https://s3.oss.go.id/oss/cms/image-693e2b944c4802e3b8c01763d4eead27.png
+22. https://s3.oss.go.id/oss/cms/image-04faabc25bb37bad6486d72ec622cc3e.png
+23. https://s3.oss.go.id/oss/cms/image-41733b2197045bfef4ff1503ed3f9795.png
+24. https://s3.oss.go.id/oss/cms/image-7a878481246ccfa5b4b15ab24c726c12.png
+25. https://s3.oss.go.id/oss/cms/image-7749ef48aae46be3edbcd7c9318dbe74.png
+26. https://s3.oss.go.id/oss/cms/image-51618ec0e2bca1633aff8959eb8a1a91.png
+27. https://s3.oss.go.id/oss/cms/image-97f1fbee2dfa2f181aef0914276c99c7.png
+28. https://s3.oss.go.id/oss/cms/image-ac4355ab5dd4dd1de389a66483a79c75.png
+29. https://s3.oss.go.id/oss/cms/image-6325a7c5851dee5d5fd7d48e4e402c0d.png
+30. https://s3.oss.go.id/oss/cms/image-92d942589e7153c08b30c0b043b72cce.png
+31. https://s3.oss.go.id/oss/cms/image-74bb8162e2a5d546a8ca766de0a64eb3.png
+32. https://s3.oss.go.id/oss/cms/image-4e235b228aaf66eb7235730229de5c64.png
+33. https://s3.oss.go.id/oss/cms/image-32362faf73b8c333e7c73c8206fd67fe.png
+34. https://s3.oss.go.id/oss/cms/image-8d3df842dd98ca28bd766d5745d29bba.png
+35. https://s3.oss.go.id/oss/cms/image-e36549f93d88ce20ee59d24272898af0.png
+36. https://s3.oss.go.id/oss/cms/3-menu-PB---permohonan-baru-1e137c4b3283cab9694c759eaf0ee740.png
+37. https://s3.oss.go.id/oss/cms/image-5e2cd06bee7a3686c73c769e8085b62f.png
+38. https://s3.oss.go.id/oss/cms/image-a7a3b71f77d52616d155d20151a5c465.png
+39. https://s3.oss.go.id/oss/cms/image-d7ca43961dc010ec770257dee79f2ebe.png
+40. https://s3.oss.go.id/oss/cms/image-2b2f7b3106fd34b91813594fc3e039a6.png
+41. https://s3.oss.go.id/oss/cms/image-a1bc0ac97d6fabd24854c88e8a91cdd9.png
+42. https://s3.oss.go.id/oss/cms/image-7497d6bbb6bdb982e65d34aec42e5504.png
+43. https://s3.oss.go.id/oss/cms/image-223859da5ad3798c3dda8530b4a17060.png
+44. https://s3.oss.go.id/oss/cms/image-3b198383237b9cf2c447cdcf6d0cbd7f.png
+45. https://s3.oss.go.id/oss/cms/image-50f52b76a5bb4af5605f34ba9fbfff0f.png
+46. https://s3.oss.go.id/oss/cms/image-238368460478db8d00034bf7ebcffce9.png
+47. https://s3.oss.go.id/oss/cms/image-bc9e51635dc788f8d4cf4964de4cf0ef.png
+48. https://s3.oss.go.id/oss/cms/image-80e5a52106a18401c0fa1c21f609ef5a.png
+49. https://s3.oss.go.id/oss/cms/image-9ffac4262cdec74349a1b6c8098fddd6.png
+50. https://s3.oss.go.id/oss/cms/image-35832d1a8013e2f03f3711cf2870d24d.png
+51. https://s3.oss.go.id/oss/cms/image-c40f425ab409ddf66cfcdd2a17fb5bd9.png
+52. https://s3.oss.go.id/oss/cms/image-30e00f5b179886f268bf65e2e6b0959f.png
+53. https://s3.oss.go.id/oss/cms/image-a12049060328bdf366acf9e914626f98.png
+54. https://s3.oss.go.id/oss/cms/image-087da7a83f65c6ea8ead9b64c66c0e63.png
+55. https://s3.oss.go.id/oss/cms/image-c6ac0ad7b8fc29909f3337a3351c76a6.png
+56. https://s3.oss.go.id/oss/cms/image-59223120a03a2d0ed304969ef1419a7a.png
+57. https://s3.oss.go.id/oss/cms/image-87eae749de8eaf41a2ce84a836d7127c.png
+58. https://s3.oss.go.id/oss/cms/image-d64a543165ae632faca913289a09a365.png
+59. https://s3.oss.go.id/oss/cms/image-b7968406438000f4b6d797847161cf62.png
+60. https://s3.oss.go.id/oss/cms/image-c34e15bba47001d2861a4b84f0efe7c0.png
+61. https://s3.oss.go.id/oss/cms/image-e0f7214f4c7c051db2a8287a0a78950b.png
+62. https://s3.oss.go.id/oss/cms/image-15f340d6228b921ad8ed769ce2920a62.png
+63. https://s3.oss.go.id/oss/cms/image-bdf9ff1d12b341246cff988230bb82db.png
+64. https://s3.oss.go.id/oss/cms/image-4c3a1047c5ce70c60aa510ef52e286f6.png
+65. https://s3.oss.go.id/oss/cms/image-8f5349baf05633bf33d77558ce7caa37.png
+66. https://s3.oss.go.id/oss/cms/image-1c8b7155484a2efab00aeadbac23153c.png
+67. https://s3.oss.go.id/oss/cms/image-17fb55d8029fd666b2cd791d6709849f.png
+68. https://s3.oss.go.id/oss/cms/image-c75025b0241afc6facd90505fb94a258.png
+69. https://s3.oss.go.id/oss/cms/image-467d12bef16e7c460886c16e1c6b2d29.png
+70. https://s3.oss.go.id/oss/cms/image-c53b29b598ad842f942fe8fd403e8bd8.png
+71. https://s3.oss.go.id/oss/cms/image-c30b718196fd2ad92bc8fcfa378ad7db.png
+72. https://s3.oss.go.id/oss/cms/image-2e55dd2bdcf753f6b2996fd36b2b95e9.png
+73. https://s3.oss.go.id/oss/cms/image-fa663d92906c76cb4650254e0d7f1e23.png
+74. https://s3.oss.go.id/oss/cms/image-f1447b02b1ce09bcabae92c0f9fbc414.png
+75. https://s3.oss.go.id/oss/cms/image-14b51b1a7ed27b3b5d778b23e4725b38.png
+76. https://s3.oss.go.id/oss/cms/image-4f9d2b95824add95ef371ea722a20473.png
+77. https://s3.oss.go.id/oss/cms/image-1666aedd58caf24533bbfbfcba2070e4.png
+78. https://s3.oss.go.id/oss/cms/image-22c4c3502c9d0c617070679b96a33055.png
+79. https://s3.oss.go.id/oss/cms/image-c373dbc6a859ae1a71e75ea62a48bda4.png
+80. https://s3.oss.go.id/oss/cms/image-538f32e278ca140de68c2704ef271b13.png
+81. https://s3.oss.go.id/oss/cms/image-c85c5d4791f553ddff6bd126ec3c0cc9.png
+82. https://s3.oss.go.id/oss/cms/image-b32c68ace73268ba2c1383d4a1f7dae8.png
+83. https://s3.oss.go.id/oss/cms/image-47e5f7327d043062fbc1ffd8101be028.png
+84. https://s3.oss.go.id/oss/cms/image-faaadd5e168e6c585d3599a15ba89593.png
+85. https://s3.oss.go.id/oss/cms/image-2a5738cf9c9a8a6c6eddfec655f6b777.png
+86. https://s3.oss.go.id/oss/cms/image-965949fca677ee78425d337b84a51a54.png
+87. https://s3.oss.go.id/oss/cms/image-f92d4b182d99d8925a18d909b5591d17.png
+88. https://s3.oss.go.id/oss/cms/image-40e009cab0f3e36b553e8e6eb5d50a69.png
+89. https://s3.oss.go.id/oss/cms/image-bc3d7c5601ba9a9838b2eeb48fdfa902.png
+90. https://s3.oss.go.id/oss/cms/image-b70755e68b9a807b6d9db136e6aaa23d.png
+91. https://s3.oss.go.id/oss/cms/image-a7a682c3cd51f82386f3250eeea9e842.png

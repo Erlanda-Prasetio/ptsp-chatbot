@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pencarian Data Profil Pelaku Usaha Melalui OSS RBA (OPD)
+Source: https://oss.go.id/panduan/6538d737048d98beaf2c4d3b
+Scraped: 2025-10-20T15:32:39.220121
+Total Steps: 11
+Total Images: 13
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, KlikMASUK.
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK.
+3. 3. Masuk Ke MenuPROFILE, Dan KlikPELAKU USAHA.
+4. 4. Masukkan Data Profil Pelaku Usaha Yang Anda Cari Dengan Menggunakan Fitur Pencarian Yang Telah Disediakan, Lalu KlikCARI. Sementara Itu, TombolLIHAT SEMUADapat Digunakan Jika Anda Ingin Melihat Semua Data Pelaku Usaha.
+5. 5. Sistem Akan Melakukan Proses Pencarian Dan Menampilkan Data Profil Pelaku Usaha Yang Anda Cari. Klik Tautan‘Lihat Detail’Pada Kolom Aksi Untuk Melihat Data Profiling Pelaku Usaha.
+6. 6. Setelah Klik Tautan‘Lihat Detail’Pada Kolom Aksi (Langkah 5) Untuk Melihat Profil Pelaku Usaha, Sistem Akan Menampilkan Detail Dari Profil Pelaku Usaha. Form Pertama Yang Akan Muncul AdalahData Pelaku Usaha. Anda Dapat Memeriksa Form Ini.
+7. 7. Pada Profil Pelaku Usaha Juga Akan DitampilkanData Penanggung JawabSecara Terperinci, Yang MeliputiNama, Asal Negara, Tipe Jenis Modal, Jabatan, Total Modal, Nomor Identitas, NPWP, Dan Status.
+8. 8. Selanjutnya, Sistem Akan MenampilkanData PengesahanSecara TerperinciJenis Legalitas, Nomor Akta, Nomor SK Pengesahan, Dan Notaris.
+9. 9. Selanjutnya, Sistem Akan MenampilkanData Kegiatan Usaha. Untuk Melihat Detail Kegiatan Usaha Secara Terperinci, Anda Dapat Mengklik Ikon Pada Kolom Detail (Seperti Yang Ditunjukkan Dengan Kotak Merah Di Bawah).
+10. 10. Selanjutnya, Sistem Akan MenampilkanData Kegiatan Berusaha Yang Sudah Tidak Aktif.HanyaKegiatan Usaha Yang Tidak Aktif Akan Tampil Pada Bagian Ini.
+11. 11. Data Terakhir Yang Akan Ditampilkan AdalahData Penilaian Kepatuhan Pelaku Usaha. Pada Bagian Ini Anda Dapat Melihat Nilai Kepatuhan Yang Dimiliki Oleh Pelaku Usaha. Anda Juga Dapat Mengunduh Data Profil Pelaku Usaha Dengan Mengklik TombolUNDUH.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (13 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/0-9320f988210ef5b0704507797f779f07.webp
+2. https://s3.oss.go.id/oss/cms/7-890f5074409838df266401e071323db7.png
+3. https://s3.oss.go.id/oss/cms/2-2-18abe934985f964fbec728be9ee767f9.webp
+4. https://s3.oss.go.id/oss/cms/3-df5f149d628f200aa191ba7f3051f52e.webp
+5. https://s3.oss.go.id/oss/cms/2-3-8ef359197c5eadd22448b80e017ba7e7.webp
+6. https://s3.oss.go.id/oss/cms/5-a0c1e163abd401128659ebbe0a9db32e.webp
+7. https://s3.oss.go.id/oss/cms/9-1bf9a02e1844b92f8cbdaff8786e0de6.webp
+8. https://s3.oss.go.id/oss/cms/1-030af8e44d912df7fe13eb931d302637.webp
+9. https://s3.oss.go.id/oss/cms/7-d681d72e718b90ba30a1e4b0994b91e7.webp
+10. https://s3.oss.go.id/oss/cms/6-73a81bd7986b492467eca882e79935dc.webp
+11. https://s3.oss.go.id/oss/cms/10-e0510219e039b1af8babe170541b0f55.webp
+12. https://s3.oss.go.id/oss/cms/Login-05f2b703a072d8e6eeea059aa677248c.webp
+13. https://s3.oss.go.id/oss/cms/8-9992fe9883bfe8db719ccd33983ffc8e.webp

@@ -1,0 +1,30 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Anda Juga Dapat MelihatDokumen DariPersyaratan DasarDanPernyataan MandiriDalam Data Usaha
+Source: https://oss.go.id/panduan/64d320da5d12499c3b9d5466
+Scraped: 2025-10-20T15:32:21.258705
+Total Steps: 8
+Total Images: 9
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, PilihMasuk
+2. 2. Masukkan UsernameDanPassword, Lalu Klik TombolMASUK
+3. 3. Dashboard Organisasi Pemerintah Daerah
+4. 4. Pilih Menu Pemrosesan Perizinan,Lalu KlikVerifikasi Pemenuhan Persyaratan
+5. 5. Pilih Data Permohonan Persetujuan Lingkungan, Lalu KlikProses Verifikasi
+6. 6. Periksa Data Pelaku Usaha,Data UsahaDanDokumen Yang Diunggah
+7. 7.Jika Sudah Sesuai,IsiFormulir, CentangDisclaimerDan KlikProses Permohonan
+8. 8. Status Permohonan Pelaku Usaha Akan Berubah Menjadi Telah Terverifikasi
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (9 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture7-5fe8b0c965a796c2e078a771958301d4.webp
+2. https://s3.oss.go.id/oss/cms/7-f7f96ff4df265e37eae5dd3bb1b11368.png
+3. https://s3.oss.go.id/oss/cms/Picture8-21b4f2413ce97d9fe05d20ad94f07290.webp
+4. https://s3.oss.go.id/oss/cms/Picture2-b6dec45c10773f5d939a56aa058b85c5.webp
+5. https://s3.oss.go.id/oss/cms/Picture3-eb56e9f15c644dca5f838ecb0f41f827.webp
+6. https://s3.oss.go.id/oss/cms/Picture9-3783f1ed5c223b1846d999777c1db0ef.webp
+7. https://s3.oss.go.id/oss/cms/Picture6-6e68ddd16b8d0e5fbabc2dea599129c5.webp
+8. https://s3.oss.go.id/oss/cms/Picture5-a610e13745069407eae93bf6d87472a6.webp
+9. https://s3.oss.go.id/oss/cms/Picture4-aa9bc97fb00a796d79271057234c1d55.webp

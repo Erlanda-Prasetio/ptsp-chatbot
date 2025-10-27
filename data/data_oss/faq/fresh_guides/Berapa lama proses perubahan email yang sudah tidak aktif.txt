@@ -1,0 +1,13 @@
+================================================================================
+Title: Berapa lama proses perubahan email yang sudah tidak aktif?
+Source: https://oss.go.id/id/faq/kategori?id=68e48547711547977a0df17f
+Scraped: 2025-10-21T15:21:12.841757
+================================================================================
+
+QUESTION:
+Berapa lama proses perubahan email yang sudah tidak aktif?
+
+ANSWER:
+Perubahan email pada akun OSS akan ditindaklanjuti maksimal 3×24 jam pada hari kerja. Silakan menunggu email balasan maksimal 3×24 jam pada hari kerja sejak permohonan berhasil terkirim.
+
+================================================================================

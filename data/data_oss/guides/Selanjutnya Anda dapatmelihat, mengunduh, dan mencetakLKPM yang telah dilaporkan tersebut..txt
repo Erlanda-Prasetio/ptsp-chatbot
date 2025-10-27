@@ -1,0 +1,62 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda dapatmelihat, mengunduh, dan mencetakLKPM yang telah dilaporkan tersebut.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e4
+Scraped: 2025-10-20T15:28:26.282833
+Total Steps: 19
+Total Images: 30
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungi Lamanhttps://oss.go.id/, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPELAPORAN, klikLAPORAN LKPMdan pilihPELAPORAN
+4. 4. Setelah masuk ke halaman Daftar Laporan, pilihBUAT LAPORAN
+5. 5.a PilihKegiatan Usaha Tahap Produksi yang akan dilaporkan
+6. 5.b PilihKegiatan Usaha Tahap Produksi yang akan dilaporkan
+7. 6. Pemberitahuanakan tampil setelahmemilih proyek
+8. 7. PeriksaData Proyek
+9. 8. LengkapiData Realisasi Penanaman Modal
+10. 9. LengkapiData Realisasi Tenaga Kerja
+11. 10. LengkapiData Permasalahan yang dihadapi Pelaku Usaha
+12. 11. LengkapiData Produksi/Jasa Pemasaran per Tahun (untuk pelaporan Triwulan IV)
+13. 12. LengkapiData Kewajiban Perusahaan
+14. 13. LengkapiPetugas Penanggung Jawab LKPM dari Pelaku UsahadanMenyetujuiPernyataan Pelaporan LKPM
+15. 14. NotifikasiLaporan Outward Investment (OI)(Khusus Pelaku Usaha PMDN)
+16. 15. Laporan LKPM Tahap Operasional dan/atau Komersial Terkirim
+17. 16. Verifikasi K/L/D untuk LKPM Tahap Operasional dan/atau Komersial
+18. 17. Menanggapi Catatan Perbaikan LKPM Tahap Operasional dan/atau Komersial dari Verifikator
+19. 18. Laporan LKPM Tahap Operasional dan/atau Komersial Disetujui
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (30 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid44-bb59eebc90ec015614e913eb4dd030af.png
+2. https://s3.oss.go.id/oss/cms/3-856c1dd6f293909a81b9ac4d0aca9c3f.png
+3. https://s3.oss.go.id/oss/cms/blobid41-34e022fb5510cc63ecdbad178687a230.png
+4. https://s3.oss.go.id/oss/cms/blobid48-93f09cf036a0177fe5d4ee2aeb4f64e4.png
+5. https://s3.oss.go.id/oss/cms/blobid53-509877919464787d82df0e02470deed9.png
+6. https://s3.oss.go.id/oss/cms/8-00cf978cbf7bcd707b01415043754678.png
+7. https://s3.oss.go.id/oss/cms/blobid40-dd21f92a2efad390436bca0af32de4ee.png
+8. https://s3.oss.go.id/oss/cms/blobid50-f60fd18303e156474a1156aec92240a2.png
+9. https://s3.oss.go.id/oss/cms/blobid51-d70b81423aa048a0ff273a35633037f2.png
+10. https://s3.oss.go.id/oss/cms/blobid58-49323248fa051e336e539046c009f9e1.png
+11. https://s3.oss.go.id/oss/cms/blobid57-70bdd5e385a08b8cc19cc6844d1beec2.png
+12. https://s3.oss.go.id/oss/cms/blobid60-04a2415324be5026109172962d9655f8.png
+13. https://s3.oss.go.id/oss/cms/blobid54-d33127625cd43feaf93360b047341fe5.png
+14. https://s3.oss.go.id/oss/cms/7-29a5bd3a095c7b63e627c3f311217fee.png
+15. https://s3.oss.go.id/oss/cms/blobid43-ebc464580c953efbff862f0040c57761.png
+16. https://s3.oss.go.id/oss/cms/blobid52-9c440308fad0dc4c086ec162624beb31.png
+17. https://s3.oss.go.id/oss/cms/blobid49-3c383200af2e4285448e7b796f2aa95b.png
+18. https://s3.oss.go.id/oss/cms/blobid61-9d6e0e8ae7d98fee9c0e180b6c6e0d59.png
+19. https://s3.oss.go.id/oss/cms/blobid62-89f5ef409bb83cd1911038f3e1d18887.png
+20. https://s3.oss.go.id/oss/cms/2-932aa355e8fdcca728a232c62f960368.png
+21. https://s3.oss.go.id/oss/cms/blobid42-5aa656c34028bbe782cc7a1083e31aee.png
+22. https://s3.oss.go.id/oss/cms/blobid56-a407dacbf5248a7ef73081e44d34e0fb.png
+23. https://s3.oss.go.id/oss/cms/blobid34-bd52e6c6a3181ec435cf9131316b9de6.png
+24. https://s3.oss.go.id/oss/cms/blobid59-9c155bc04bb48a072d03ae2da9b908d4.png
+25. https://s3.oss.go.id/oss/cms/blobid39-a79dc97f77227d6d55a2f9eb6b78e86c.png
+26. https://s3.oss.go.id/oss/cms/blobid45-32c5efe21016a9b7d002212218223d7f.png
+27. https://s3.oss.go.id/oss/cms/blobid47-14d149d4170ed2d33f1dd94bdc3582cb.png
+28. https://s3.oss.go.id/oss/cms/blobid55-acbe09f5043647008f7e8f0bcd9dd896.png
+29. https://s3.oss.go.id/oss/cms/blobid46-fd030186f873414c88da0c8f4f2d8867.png
+30. https://s3.oss.go.id/oss/cms/1-80bc0cf392713f87ff53bf4fce9d6e2b.png

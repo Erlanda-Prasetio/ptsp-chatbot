@@ -1,0 +1,66 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Perubahan Perizinan Berusaha - Data Pelaku Usaha (Badan Usaha)
+Source: https://oss.go.id/panduan/635970086345c7d71a8144aa
+Scraped: 2025-10-20T15:34:02.630940
+Total Steps: 40
+Total Images: 13
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikiHak Akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. Masukkanusernamedanpassword, lalu klik tombolMASUK
+5. 5. KlikMenu Perizinan Berusaha, lalu klikSub Menu Perubahandan pilihPerubahan Badan Usaha
+6. 6. KonfirmasiPerubahan Data Badan Usaha
+7. 1.Nama Badan Usaha
+8. 2.Jenis Badan Usaha
+9. 3.Nomor Identitas Penanggung Jawab
+10. 1.Perubahan pada profil
+11. 2.Perubahan pada permodalan
+12. 3.Perubahan pada pengurus dan pemegang saham
+13. 4. Perubahan pada maksud dan tujuan
+14. 7. Ubah Data Badan Usaha (Profil Perseroan Terbatas)
+15. 3.Status Badan Hukum
+16. 4.Jangka Waktu
+17. 5.Status Penanaman Modal
+18. 1.Email Perusahaan
+19. 2.NPWP Perusahaan
+20. 3.Nomor Telepon
+21. 2.Kabupaten/Kota
+22. 1.Alamat Perusahaan
+23. 2.Kecamatan
+24. 3.Kelurahan/Desa
+25. 8. Cek Perubahan Data Badan Usaha (Data Dasar Pembentukan Badan Usaha)
+26. 1.Jenis Legalitas
+27. 2.Nomor Akta
+28. 3.Nomor Akta Perusahaan
+29. 9. Cek Perubahan Data Badan Usaha (Permodalan Usaha)
+30. 1.Modal Dasar
+31. 2.Modal Ditempatkan
+32. 3.Modal Disetor
+33. 1.Modal Disetor (Dalam Bentuk Lain)
+34. 10. Cek Perubahan Data Badan Usaha (Pengurus dan Pemegang Saham)
+35. 2.Negara Asal
+36. 3.Tipe Jenis Modal
+37. 5.Total Modal
+38. 6.Nomor Identitas
+39. 11. Cek Perubahan Data Badan Usaha (Maksud dan Tujuan)
+40. 12. Perubahan Data Badan Usaha berhasil
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (13 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-portal-9b0d5c70ba219b3a9e4320b0f7b177d4.png
+2. https://s3.oss.go.id/oss/cms/1-portal-masuk-9e5fc93353ec8e3ceb46a5a695141b40.png
+3. https://s3.oss.go.id/oss/cms/8-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-9c7b47eeda44b33bedb6318526b6e0ad.png
+4. https://s3.oss.go.id/oss/cms/10-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-066534821fcdf399642f5ea6f90162d2.png
+5. https://s3.oss.go.id/oss/cms/11-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-ab5a24636499709bfe2505b9bc7959d9.png
+6. https://s3.oss.go.id/oss/cms/9-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-c25bea2246b834ebcd7adae6f4c5434c.png
+7. https://s3.oss.go.id/oss/cms/7b-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-dcecdb71d88eba011ef9616619be00f9.png
+8. https://s3.oss.go.id/oss/cms/6-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-c5143f74884bcd09b58932e434e6591d.png
+9. https://s3.oss.go.id/oss/cms/4-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-3db2321dc829f3cb93f1a7c384f8d85d.png
+10. https://s3.oss.go.id/oss/cms/1-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-d408053a259f8d52aeb62fc5536b377d.png
+11. https://s3.oss.go.id/oss/cms/7a-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-cc3a5f98bf7b9d7f89d88e0e7edba393.png
+12. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-badan-usaha-6fc10e993734450e9208a2b11f3229a5.png
+13. https://s3.oss.go.id/oss/cms/12-Perubahan-Perizinan-Berusaha---Data-Badan-Usaha-c8bc03b45f90c2a8da5365173e037bb5.png

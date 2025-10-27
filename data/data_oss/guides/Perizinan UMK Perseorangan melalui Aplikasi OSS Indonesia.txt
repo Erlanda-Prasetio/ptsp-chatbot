@@ -1,0 +1,53 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Perizinan UMK Perseorangan melalui Aplikasi OSS Indonesia
+Source: https://oss.go.id/panduan/635970086345c7d71a814499
+Scraped: 2025-10-20T15:25:41.306278
+Total Steps: 20
+Total Images: 20
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. InstallAplikasi OSS Indonesia
+2. 2. Buka Aplikasi OSS Indonesia dan pilih“Daftar”
+3. 3. Isi Nomor Ponsel yang benar, aktif dan belum pernah digunakan di Sistem OSS. Lalu klik“Kirim kode verifikasi melalui WhatsApp”
+4. 4. Lihat Kode Verifikasi di WhatsApp
+5. 5. Masukkan Kode Verifikasi
+6. 6. Setelah Anda memasukkan Kode Verifikasi, akan muncul notifikasi Kode berhasil diverifikasi
+7. 7. Atur Password menggunakan minimal 8 karakter dengan kombinasi huruf kapital, huruf kecil, angka, dan karakter special (!@#$%^&*_-)
+8. 8. Lengkapi formulir sesuai dengan KTP Elektronik
+9. 9. Setelah Anda melengkapi formulir, maka akan muncul notifikasi Pendaftaran Berhasil
+10. 10. Selanjutnya masuk dengan nomor ponsel dan password
+11. 11. Lengkapi data pelaku usaha (Isi NPWP, BPJS Ketenagakerjaan, dan BPJS Kesehatan jika sudah memiliki)
+12. 12. Isi bidang usaha dengan kode 5 digit/angka KBLI tahun 2020. Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) merupakan panduan penentuan jenis kegiatan usaha yang disusun oleh Badan Pusat Statistik. Informasi tentang KBLI sudah tersedia di sistem OSS. Pelaku usaha dapat mengetik kata kunci untuk mencari KBLI yang tepat, contoh: warung makan, penangkapan ikan, kaki lima. Tiap pelaku usaha hanya bisa memiliki satu NIB dan dalam satu NIB diperbolehkan terdiri dari satu atau lebih KBLI.
+13. 13. Isi luas lahan dan modal usaha, lalu klik“Validasi risiko”
+14. 14. Sistem menunjukkan skala usaha dan risiko usaha
+15. 15. Lengkapi Formulir Permohonan Baru
+16. 16. Isi daftar produk/jasa. Jika produk/jasa yang dihasilkan wajib halal dan/atau wajib SNI (Standar Nasional Indonesia), maka sistem akan menanyakan apakah sudah memiliki sertifikat halal dan/atau sertifikat SNI. Jika belum memiliki, pilih “Tidak”.
+17. 17. Klik pernyataan mandiri dengan mencentang kotak yang tersedia. Salah satu persyaratan dasar dalam perizinan berusaha adalah Kesesuaian Kegiatan Pemanfaatan Ruang (KKPR). Bagi pelaku UMK diberi kemudahan dengan menyetujui pernyataan mandiri yang menyatakan bahwa akan mematuhi tata ruang. Artinya pelaku UMK harus mengikuti ketentuan tata ruang di masing-masing daerah.
+18. 18.Klik “Tambah bidang usaha”jika ingin menambah KBLI lainnya
+19. 19. Pilih KBLI yang akan diproses perizinan berusahanya
+20. 20. Cetakan NIB Berhasil Terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (20 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--12-632d3794eb7e0d49a5181a82a8e89d11.png
+2. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--9-c822d02ad64d10fe70a1a4b8724dc68f.png
+3. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--10-1e0ab25f28fbc5bab4eaa173e863060a.png
+4. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--5-8a331376322f47946c33d14aaadc6c79.png
+5. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--17-cab25e727034ffd89a0bcff1d5dd780f.png
+6. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--7-34a9847049aec0dd6985a2a0af335999.png
+7. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--16-b57b130be44570776abbeee50ac174c9.png
+8. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--11-06376ac0651dd47123d8adcb46ed2abf.png
+9. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--2-f0ab50ef0284333d86804734398c2ffd.png
+10. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--1-f6ad658838426c0a776e7138dfb836ca.png
+11. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--13-8d8b8c976b768a4ad3e9d410940f9c6d.png
+12. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--14-66de04826e46f3cf524d21bfe9e54aa0.png
+13. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--20-908d85cd15aabc4bf624b4315f3bb6ec.png
+14. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--6-b4b786ea5d089f41ba511436e4683907.png
+15. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--19-599f264aca310abf51534a0071695cbe.png
+16. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--15-b0e8961505d2a691f6741f4994cb48ed.png
+17. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--3-f55a574ceaa8e76ff62b38c02c5eab8f.png
+18. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--8-45cb742821091861a98137ac19cbc12d.png
+19. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--4-c26460c313150041bd8119bf2118294b.png
+20. https://s3.oss.go.id/oss/cms/Aplikasi-OSS-Indonesia--18-71a0932bcc69036ee0d8edca6ef519ed.png

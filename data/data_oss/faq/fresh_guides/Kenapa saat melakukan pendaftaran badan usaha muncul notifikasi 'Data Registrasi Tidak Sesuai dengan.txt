@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa saat melakukan pendaftaran badan usaha muncul notifikasi 'Data Registrasi Tidak Sesuai dengan Data Pengurus'? Kenapa saat melakukan perubahan penanggung jawab muncul notifikasi 'Data penangung jawab Tidak Sesuai dengan Data Pengurus'?
+Source: https://oss.go.id/id/faq/kategori?id=68e485297795640efd3eef4c
+Scraped: 2025-10-21T15:21:34.736336
+================================================================================
+
+QUESTION:
+Kenapa saat melakukan pendaftaran badan usaha muncul notifikasi 'Data Registrasi Tidak Sesuai dengan Data Pengurus'? Kenapa saat melakukan perubahan penanggung jawab muncul notifikasi 'Data penangung jawab Tidak Sesuai dengan Data Pengurus'?
+
+ANSWER:
+Data Registrasi Tidak Sesuai dengan Data Pengurus' muncul dikarenakan data penanggung jawab yang diinput tidak sesuai dengan data pengurus yang tercantum di akta pendirian/perubahan yang sudah didaftarkan di AHU Online. Pastikan Bapak/Ibu menginput nama, NIK/paspor, dan alamat sesuai dengan yang tercantum di akta pendirian/perubahan yang sudah didaftarkan di AHU Online.
+
+================================================================================

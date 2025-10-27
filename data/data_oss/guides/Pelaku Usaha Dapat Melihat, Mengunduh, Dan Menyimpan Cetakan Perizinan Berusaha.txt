@@ -1,0 +1,60 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha Dapat Melihat, Mengunduh, Dan Menyimpan Cetakan Perizinan Berusaha
+Source: https://oss.go.id/panduan/650286b6048d98beafdc5381
+Scraped: 2025-10-20T15:39:29.893578
+Total Steps: 17
+Total Images: 30
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuPerizinan Berusaha, LaluPengembangan
+5. 5.Tambah Bidang Usaha
+6. 6. LengkapiPemilihan Bidang Usaha
+7. 7. LengkapiFormulir Perekaman Data Pelaku Usaha
+8. 8. Baca, Pahami, DanCentangPada KotakCheckbox,Lalu Klik TombolSelanjutnya.
+9. 9. Periksa Secara BerkalaStatus PKKPRPadaDaftar Kegiatan Usaha
+10. 10. Lengkapi Dokumen Lingkungan
+11. 11. Pahami Dan CentangPernyataan Mandiri
+12. 12. PeriksaDraf Perizinan Berusaha (NIB)
+13. 13. Status Data Usaha Perluasan
+14. 14. Proses Pemenuhan Persyaratan Izin
+15. 15. Lengkapi Formulir Pemenuhan Persyaratan Izin
+16. 16. Periksa Status Pemenuhan Daftar Kegiatan Usaha Secara Berkala
+17. 17. NIB Terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (30 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid81-375c3609e0ed74444b77028fc35820ac.png
+2. https://s3.oss.go.id/oss/cms/blobid88-ec3dee6f2db863dc03918f381dbd4bce.png
+3. https://s3.oss.go.id/oss/cms/3-menu-PB---pengembangan-(1)-531856547f9cc3dcc034a2f72f3a7b97.png
+4. https://s3.oss.go.id/oss/cms/blobid86-c14375c8ce71606ff37f96858a4f38b8.png
+5. https://s3.oss.go.id/oss/cms/blobid95-0233365d102ce7ee934e107c6bfefd15.png
+6. https://s3.oss.go.id/oss/cms/blobid77-03c03948b6b4440de6daaca6fde78760.png
+7. https://s3.oss.go.id/oss/cms/blobid80-c4c9c972b24378a35b2a48b9988b7784.png
+8. https://s3.oss.go.id/oss/cms/blobid97-18d61bc72b6ae52f39adc4bab4802182.png
+9. https://s3.oss.go.id/oss/cms/blobid94-4d732143becabe678313c996d9794c29.png
+10. https://s3.oss.go.id/oss/cms/blobid99-2698766345809bfc414b0b89056bd3b0.png
+11. https://s3.oss.go.id/oss/cms/blobid91-662ff5a7d7f21515185c56a93b922373.png
+12. https://s3.oss.go.id/oss/cms/blobid82-1c3ebdb6558da3e0e29c37882e7910f2.png
+13. https://s3.oss.go.id/oss/cms/blobid79-64fec68e62d0a6c83e9db213fdbe871f.png
+14. https://s3.oss.go.id/oss/cms/blobid96-add0065a189f5f72087f9390b030e1f6.png
+15. https://s3.oss.go.id/oss/cms/blobid75-3d50b4bfb3c8c36bec1c7052b205d0cb.png
+16. https://s3.oss.go.id/oss/cms/blobid85-c0e995f96933e48ea994d890de2e9eff.png
+17. https://s3.oss.go.id/oss/cms/blobid78-872e139560f93f6008038196c6fc622d.png
+18. https://s3.oss.go.id/oss/cms/blobid87-e86109fdf2b39a390c01e7bacb3ba590.png
+19. https://s3.oss.go.id/oss/cms/blobid100-f18cc1d9cbeb5afe11b5cf42cb0d2945.png
+20. https://s3.oss.go.id/oss/cms/blobid92-b44874cc820386a9341ddb672c5ae637.png
+21. https://s3.oss.go.id/oss/cms/blobid93-ddcfee3e2299360e140d52afd7719a95.png
+22. https://s3.oss.go.id/oss/cms/1-portal-masuk-91001790bdccdbd59ab5238997525c25.png
+23. https://s3.oss.go.id/oss/cms/blobid89-72197509da87d96fc2e71a54629be6f3.png
+24. https://s3.oss.go.id/oss/cms/blobid76-d29c95bf71efbb75351e56fc8607a6ee.png
+25. https://s3.oss.go.id/oss/cms/blobid72-bc9e1af0a1d07074ecaea65d44faa587.png
+26. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-(1)-d3f478a5a3b72c52bbb09ba6c19f65c7.png
+27. https://s3.oss.go.id/oss/cms/blobid90-bee501df64593b9be1c0caf2df5db1ab.png
+28. https://s3.oss.go.id/oss/cms/blobid83-a42465e6b29a0c695cb4cd10688943ac.png
+29. https://s3.oss.go.id/oss/cms/blobid84-845033377fe85b2a21e3a2e407be35e8.png
+30. https://s3.oss.go.id/oss/cms/blobid98-0fe4ec83e251ef9f422203c603bb4dc2.png

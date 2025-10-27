@@ -1,0 +1,13 @@
+================================================================================
+Title: 1. Kenapa peta/map tidak muncul saat pengisian data usaha? 2. Kami tidak bisa mengisi kolom garis lintang dan bujur
+Source: https://oss.go.id/id/faq/kategori?id=68e4873a7795640efd3ef01e
+Scraped: 2025-10-21T15:14:55.542193
+================================================================================
+
+QUESTION:
+1. Kenapa peta/map tidak muncul saat pengisian data usaha? 2. Kami tidak bisa mengisi kolom garis lintang dan bujur
+
+ANSWER:
+Apabila peta/map tidak muncul saat pengisian data usaha, silakan lakukan pengisian garis lintang dan bujur secara manual dengan cara: 1. Masukan lokasi usaha melalui Google Maps; 2. Kemudian copy/salin titik koordinat lintang dan bujur; 3. Selanjutnya paste/tempel titik koordinat pada masing-masing kolom garis lintang dan bujur.
+
+================================================================================

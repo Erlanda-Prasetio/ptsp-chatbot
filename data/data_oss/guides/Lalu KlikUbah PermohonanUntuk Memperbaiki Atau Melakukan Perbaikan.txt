@@ -1,0 +1,56 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Lalu KlikUbah PermohonanUntuk Memperbaiki Atau Melakukan Perbaikan
+Source: https://oss.go.id/panduan/64c7648c2ed3890d006468de
+Scraped: 2025-10-20T15:40:46.471527
+Total Steps: 18
+Total Images: 25
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1.KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2.MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.Masuk Ke MenuFASILITAS, PilihTAX ALLOWANCE, KlikPERMOHONAN
+4. 4.Pengajuan Tax Allowance Kandungan Lokal Akan Aktif Apabila Nilai Investasi Dan Jumlah Tenaga Kerja Pelaku Usaha Tidak Memenuhi Kriteria. Klik Tanda ‘V’ Pada Kegiatan Usaha Yang Memiliki KBLI Kandungan Lokal, Lalu Klik KotakInvestasi Memiliki Kandungan Lokal Minimal 30%.Lalu KlikPILIH KEGIATAN USAHA.
+5. 5.Setelah Itu Akan Muncul Sebuah Notifikasi Untuk Melakukan Konfirmasi Melanjutkan Proses Kegiatan Usaha Yang Dipilih. JikaAnda Yakin Ingin MelanjutkanKlikLANJUT
+6. 6.Pastikan Data Perusahaan Sudah Sesuai.
+7. 7.Pastikan Data Kegiatan Usaha Dan Data Produk Sudah Sesuai. Setelah Itu, Klik TombolSELANJUTNYA
+8. 9.Unggah Data Aktiva DenganFormat PDF Dengan Ukuran File Maksimal 5 MB. Anda Dapat Mengunduh Format Aktiva Dengan Klik Tautan‘KLIK INI’
+9. 10.Lengkapi Formulir Online Komitmen UMKM Dengan Klik DataTAMBAHUntuk Menampilkan Form Pengisian
+10. 11.Lengkapi Formulir Pengisian Online Komitmen UMKM Setelah Itu Klik TombolSIMPAN DATA
+11. 12.Setelah Anda Melengkapi Dokumen Persyaratan Yang Dibutuhkan, KlikSELANJUTNYAUntuk Ke Halaman Selanjutnya
+12. 13.Centang Seluruh Pernyataan/Disclaimer Untuk Melanjutkan Ke Proses Permohonan Dan Memastikan Bahwa Data Yang Dimasukkan Sudah Benar Serta Mencentang Kotak ‘Saya Menyetujui Untuk Menyampaikan Dokumen Kandungan Lokal Saat Pemanfaatan’.
+13. 14.KlikPROSES PERMOHONANUntuk Mengirim Permohonan Ke Kementerian Investasi/BKPM
+14. 15.Masuk Ke MenuDaftar Permohonan Tax AllowanceUntuk Mengecek Status Dari Permohonan Anda. Ketika Status Permohonan DiBKPM – Proses Evaluasi,Perusahaan Tidak Dapat Mengubah Data Usaha Yang Dimohonkan Dan Syarat Permohonan Yang Diunggah.
+15. 16.Setelah Permohonan Anda Disetujui, Anda Akan Menerima Surat Keputusan. Untuk Melihat Surat Keputusan Yang Sudah Diterbitkan.
+16. 17.Bila Permohonan Anda Disetujui,Namun Terdapat Keterangan Bahwa “Permohonan - Perbaikan Permohonan” Maka Terdapat Keterangan Bagian Mana Yang Perlu Diperbaiki, Seperti Pada Gambar Disini Dijelaskan Bahwa Diperlukan “Perbaikan Panduan Kbli Ramah Lingkungan”
+17. 18.Setelah Permohonan Diperbaiki Dan Disetujui, Maka Keterangan Permohonan Akan Berubah Menjadi “Permohonan Disetujui, Salinan Keputusan Persetujuan Fasilitas Diterima”
+18. 19.Berikut Adalah Tampilan Dari Hasil Cetakan SK Pemanfaatan Setelah Permohonan Berhasil Dilakukan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (25 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-8647815c43e7d49d96fd92811185afa8.png
+2. https://s3.oss.go.id/oss/cms/blobid83-4142c4c4f7ea6fcd062e92ef30ab9993.png
+3. https://s3.oss.go.id/oss/cms/Pengajuan-3-abea7306bd7ba51bba921c7f1dfe42d5.png
+4. https://s3.oss.go.id/oss/cms/blobid75-bac89cacb5680f272c7d6bed4dbb1dd0.png
+5. https://s3.oss.go.id/oss/cms/blobid68-e278188085e4b04d9a24cdb3990783f0.png
+6. https://s3.oss.go.id/oss/cms/blobid74-4f3dd9ec6d931b49e3ee501b109aee42.png
+7. https://s3.oss.go.id/oss/cms/blobid86-5311c6cea9f8a349eb415f3407e835c6.png
+8. https://s3.oss.go.id/oss/cms/blobid76-9e0032414dfa8ea36b0721e449c3e0fa.png
+9. https://s3.oss.go.id/oss/cms/blobid84-ab4114eb49607bf45bc250fc41ebdeaf.png
+10. https://s3.oss.go.id/oss/cms/blobid87-f0ac01ae2273ccee9bca493eb8742d7d.png
+11. https://s3.oss.go.id/oss/cms/blobid66-421122888782a979bc1048a9f8dcc3d4.png
+12. https://s3.oss.go.id/oss/cms/blobid71-f4afedcd7e1a96dd17c4944cd9e99717.png
+13. https://s3.oss.go.id/oss/cms/Pengajuan-8-6c121e30764df1a91986965c88eaf5f7.png
+14. https://s3.oss.go.id/oss/cms/blobid88-4cdc8042bb850235f2dfc878f5c020ed.png
+15. https://s3.oss.go.id/oss/cms/Pengajuan-7-d45839041c55d7986029b2ac1e3fca30.png
+16. https://s3.oss.go.id/oss/cms/blobid70-e528ab2d0f5a711534da8bdf08b824e3.png
+17. https://s3.oss.go.id/oss/cms/blobid80-d5d7740b801ff959ea2f406cc3585e8e.png
+18. https://s3.oss.go.id/oss/cms/Pengajuan-15-2099bd0f06d4301819b1fcc4ae6688c4.png
+19. https://s3.oss.go.id/oss/cms/Pengajuan-4B-93b1d28257bcf57f7603b8c91bc9179a.png
+20. https://s3.oss.go.id/oss/cms/blobid89-631ff53b08782412eec0c11b2c6b8b5c.png
+21. https://s3.oss.go.id/oss/cms/Pengajuan-13B-e57139023bca07d032fa77a6ca6c9f45.png
+22. https://s3.oss.go.id/oss/cms/blobid78-11e1ac80985712d2c5e56941ebe5a627.png
+23. https://s3.oss.go.id/oss/cms/blobid85-d516bcd6a18ca4ee61b3e818fdc4ce77.png
+24. https://s3.oss.go.id/oss/cms/Pengajuan-12-2db114ce9af1a2199142808957f2aa5e.png
+25. https://s3.oss.go.id/oss/cms/blobid82-145848e4a46444be8cea5cfdc775511e.png

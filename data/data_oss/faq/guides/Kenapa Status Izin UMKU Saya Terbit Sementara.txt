@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Status Izin UMKU Saya Terbit Sementara?
+Source: https://oss.go.id/id/faq/kategori?id=68e486e67795640efd3eefea
+Scraped: 2025-10-21T15:16:37.662089
+================================================================================
+
+QUESTION:
+Kenapa Status Izin UMKU Saya Terbit Sementara?
+
+ANSWER:
+Status PB-UMKU Terbit Sementara muncul pada sektor obat dan makanan seperti SPP-IRT dikarenakan belum memenuhi komitmen. Silakan melakukan pemenuhan komitmen PB-UMKU sesuai langkah berikut: 1. Pilih menu Perizinan Berusaha lalu Kelola Usaha kemudian PB UMKU 2. Klik tombol Proses Perizinan Berusaha UMKU pada KBLI yang dipilih 3. Sistem akan menampilan nama perizinan UMKU yang telah diajukan dengan status Izin Terbit Sementara 4. Klik tombol 'Pemenuhan Komitmen PB-UMKU di Sistem K/L' agar dapat diarahkan ke sistem BPOM untuk pemenuhan komitmen.
+
+================================================================================

@@ -147,6 +147,7 @@ class SupabaseRestVectorStore:
                         
                         # Add similarity score to the result
                         result_chunk = {
+                            'id': chunk.get('id'),  # Include the chunk ID
                             'content': chunk['content'],
                             'metadata': chunk.get('metadata', {}),
                             'similarity': float(similarity)

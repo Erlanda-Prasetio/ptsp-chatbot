@@ -1,0 +1,26 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Jika Pilih Kab/Kota/Provinsi, Maka Sistem Akan Menampilkan Data Permohonan Sesuai Kabupaten/Kota/Provinsi Yang Anda Input,
+Source: https://oss.go.id/panduan/64d1c1845d12499c3b9a74fb
+Scraped: 2025-10-20T15:36:27.593248
+Total Steps: 6
+Total Images: 7
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardVerifikator / Persetujuan
+4. 4. Pilih Menu Tembusan
+5. 5. Pilih KolomCariUntuk Memberikan Filter Data Yang Ingin Dilihat
+6. 6. Tampilan Daftar Tembusan Sesuai Filter
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (7 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid92-6ba1720015dc7c621436b94c8153892a.png
+2. https://s3.oss.go.id/oss/cms/blobid91-9eeb08428cdec539f54a0edf12fbbad1.png
+3. https://s3.oss.go.id/oss/cms/blobid93-66ea80324aca60c07b45f3d0f7f576f4.png
+4. https://s3.oss.go.id/oss/cms/blobid95-6112e8e6b696217a13e05c10507d9bbd.png
+5. https://s3.oss.go.id/oss/cms/1-portal-masuk-e7beaccc8f7ee541e8fd89396a82ba4b.png
+6. https://s3.oss.go.id/oss/cms/blobid94-1b079039da71aef9f09361d728eed02d.png
+7. https://s3.oss.go.id/oss/cms/blobid90-156ff8d49470a54ec4e053e5a7d6bb64.png

@@ -1,0 +1,13 @@
+================================================================================
+Title: Haruskah Memiliki NPWP untuk Daftar Akun OSS?
+Source: https://oss.go.id/id/faq/kategori?id=68e4854a711547977a0df181
+Scraped: 2025-10-21T15:21:21.809960
+================================================================================
+
+QUESTION:
+Haruskah Memiliki NPWP untuk Daftar Akun OSS?
+
+ANSWER:
+Wajib tidaknya memiliki Nomor Pokok Wajib Pajak (NPWP) untuk mendaftar akun OSS tergantung pada jenis akun yang akan didaftarkan. Jika pelaku usaha mendaftar sebagai Badan Usaha, maka NPWP merupakan persyaratan wajib yang harus disertakan. Namun, jika pelaku usaha mendaftar sebagai orang perseorangan, maka tidak diwajibkan untuk memiliki NPWP karena tidak ada kolom penginputan NPWP pada saat pendaftaran.
+
+================================================================================

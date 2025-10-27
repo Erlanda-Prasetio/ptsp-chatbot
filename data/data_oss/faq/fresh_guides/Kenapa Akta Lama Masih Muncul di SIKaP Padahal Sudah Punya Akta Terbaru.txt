@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Akta Lama Masih Muncul di SIKaP Padahal Sudah Punya Akta Terbaru?
+Source: https://oss.go.id/id/faq/kategori?id=68e486dd7795640efd3eefe4
+Scraped: 2025-10-21T15:16:24.983402
+================================================================================
+
+QUESTION:
+Kenapa Akta Lama Masih Muncul di SIKaP Padahal Sudah Punya Akta Terbaru?
+
+ANSWER:
+Data akta terbaru belum muncul pada sistem SIKap dapat disebabkan karena akun OSS belum terupdate dengan data akta terbaru. Silakan melakukan sinkronisasi data AHU terbaru melalui menu Perizinan Berusaha >> Kelola Usaha >> Perubahan >> Perubahan Badan Usaha. Panduan perubahan data badan usaha: https://oss.go.id/panduan/635970086345c7d71a8144aa Setelah berhasil memperbarui data pada akun OSS sesuai dengan akta perubahan terbaru, silakan melakukan tarik data akta pada sistem SIKaP.
+
+================================================================================

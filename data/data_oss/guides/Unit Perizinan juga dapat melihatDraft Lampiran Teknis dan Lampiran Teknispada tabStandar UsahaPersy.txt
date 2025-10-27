@@ -1,0 +1,59 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Unit Perizinan juga dapat melihatDraft Lampiran Teknis dan Lampiran Teknispada tabStandar Usaha/Persyaratan
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e8
+Scraped: 2025-10-20T15:35:09.383033
+Total Steps: 18
+Total Images: 28
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1.Kunjungihttps://oss.go.id/
+2. 2.MasukkanUsernamedanPassword,lalukliktombolMASUK
+3. 3. DashboardOPD
+4. 4. Pilih MenuPemrosesan Perizinan | Verifikasi Pemenuhan Persyaratan
+5. 5. Pilih data permohonanPersetujuan Izin, lalu klikProses Verifikasi
+6. 6. OPDdapat memeriksaData Pelaku Usaha, Data Usaha,danDokumen yang diunggah
+7. 7. Lengkapi Form Persetujuan Permohonan
+8. 8.Status permohonan Pelaku Usaha berubah
+9. 9.DashboardUnit Perizinan
+10. 10. Pilih MenuPemrosesan Perizinan | Persetujuan Permohonan
+11. 11. Pilih data permohonanPersetujuan Izin, lalu klikProses Verifikasi
+12. 12.Unit Perizinandapat memeriksaData Pelaku Usaha, Data Usaha, danDokumen yang diunggah
+13. 13. Lengkapi Form Persetujuan Permohonan
+14. 14. Status permohonan Pelaku Usaha berubah menjadiPersetujuan Perizinan
+15. 15. Dashboard Pengelola Hak Akses
+16. 16. Pilih MenuPemrosesanPerizinan | Persetujuan Permohonan
+17. 17. Pilih data permohonanPersetujuan Izin, lalu klikLihat Data
+18. 18.Pengelola Hak Aksesdapat memeriksaData Pelaku Usaha, Data Usaha,danDokumen yang diunggah
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (28 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid1-4f0e051463f8c5d2263631ee341e177e.png
+2. https://s3.oss.go.id/oss/cms/blobid9-4f0f483398e52adc5766e60b6d7f7a73.png
+3. https://s3.oss.go.id/oss/cms/blobid6-9a459d9a7a23129327974c6903d70853.png
+4. https://s3.oss.go.id/oss/cms/1-portal-243586b25602a4abdf04ebf516b1f8aa.png
+5. https://s3.oss.go.id/oss/cms/blobid4-5228e32d02bac00de97fbaace5b31029.png
+6. https://s3.oss.go.id/oss/cms/blobid10-010c38279469c6344744820a5fde6f49.png
+7. https://s3.oss.go.id/oss/cms/blobid6-38581d25fc550091affd346bb089b294.png
+8. https://s3.oss.go.id/oss/cms/blobid5-c68c5748b40da809bc3255f0b17cb32f.png
+9. https://s3.oss.go.id/oss/cms/blobid11-77dea246effbcca846e3ac6bec13f74e.png
+10. https://s3.oss.go.id/oss/cms/blobid8-fff1781ef797a0fbf6fffab5fbef4e36.png
+11. https://s3.oss.go.id/oss/cms/blobid4-ebb6fb017d5db61561988adead802aad.png
+12. https://s3.oss.go.id/oss/cms/blobid2-48c15ef8a9cf4c7b94b73f71b0ab9750.png
+13. https://s3.oss.go.id/oss/cms/blobid5-a1bf2990970791416b25816db2b24468.png
+14. https://s3.oss.go.id/oss/cms/blobid7-6c796d9c336f22436520c37e27e4569b.png
+15. https://s3.oss.go.id/oss/cms/blobid9-35188bdc9d887717ad578386619b33ee.png
+16. https://s3.oss.go.id/oss/cms/blobid4-26b7ac0db94bc9d20f0501600576c670.png
+17. https://s3.oss.go.id/oss/cms/blobid7-f92f5de7dda87c1daa04bfd4ad74d7d6.png
+18. https://s3.oss.go.id/oss/cms/blobid3-ddfe6fb570b9beaaebc6262dc3cfd153.png
+19. https://s3.oss.go.id/oss/cms/blobid1-f3ae295d554a4a76454775ced5c1a299.png
+20. https://s3.oss.go.id/oss/cms/blobid3-5d0b17ec9aebadc586de27151cdd210a.png
+21. https://s3.oss.go.id/oss/cms/blobid0-7d05479da58df67a7eb9865123f9db5e.png
+22. https://s3.oss.go.id/oss/cms/blobid0-5cf810270f80f39cd0683fca2267950d.png
+23. https://s3.oss.go.id/oss/cms/blobid3-57f83bf97e79583bf45ce8c40486542c.png
+24. https://s3.oss.go.id/oss/cms/blobid8-8333f70d8ade33e6899b4fd876028469.png
+25. https://s3.oss.go.id/oss/cms/blobid5-0a57960867c925ec270c271f65c112d3.png
+26. https://s3.oss.go.id/oss/cms/blobid2-5e876b412e9cdfeddd2b35697c03bd3a.png
+27. https://s3.oss.go.id/oss/cms/blobid6-a8af78ce410ae8ad0aaa614d0c9ad1aa.png
+28. https://s3.oss.go.id/oss/cms/blobid2-6e2f79aa3b9de92707605fad91311d43.png

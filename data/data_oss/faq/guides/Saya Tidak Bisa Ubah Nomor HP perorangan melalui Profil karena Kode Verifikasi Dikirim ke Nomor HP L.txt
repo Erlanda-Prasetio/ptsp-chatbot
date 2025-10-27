@@ -1,0 +1,13 @@
+================================================================================
+Title: Saya Tidak Bisa Ubah Nomor HP perorangan melalui Profil karena Kode Verifikasi Dikirim ke Nomor HP Lama yang sudah tidak aktif
+Source: https://oss.go.id/id/faq/kategori?id=68e48530711547977a0df173
+Scraped: 2025-10-21T15:21:44.589161
+================================================================================
+
+QUESTION:
+Saya Tidak Bisa Ubah Nomor HP perorangan melalui Profil karena Kode Verifikasi Dikirim ke Nomor HP Lama yang sudah tidak aktif
+
+ANSWER:
+Apabila akun Bapak/Ibu adalah akun perorangan dan nomor ponsel sudah tidak dapat diakses, silakan melakukan perubahan nomor ponsel melalui fitur Butuh Bantuan lalu pilih Nomor Ponsel Sudah Tidak Aktif. Panduan perubahan nomor ponsel lebih lengkap dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/63a5a5dbc406b3c60dc5c6d7
+
+================================================================================

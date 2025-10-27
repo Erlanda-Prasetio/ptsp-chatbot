@@ -1,0 +1,13 @@
+================================================================================
+Title: Mengapa saya tidak dapat mengisi kolom deskripsi kegiatan usaha?
+Source: https://oss.go.id/id/faq/kategori?id=68e486687795640efd3eefb2
+Scraped: 2025-10-21T15:18:37.338072
+================================================================================
+
+QUESTION:
+Mengapa saya tidak dapat mengisi kolom deskripsi kegiatan usaha?
+
+ANSWER:
+Kendala kolom Deskripsi Kegiatan Usaha yang tidak muncul dapat disebabkan oleh data usaha yang belum terisi lengkap dan belum melakukan validasi risiko. Pastikan Bapak/Ibu telah mengisi formulir data usaha, termasuk memilih KBLI, dan melakukan validasi risiko hingga muncul notifikasi berhasil. Setelah itu, silakan memilih kriteria kegiatan pada kolom Deskripsi Kegiatan Usaha.
+
+================================================================================

@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana Cara Ubah Negara Asal pada Data Pengurus dan Pemegang Saham?
+Source: https://oss.go.id/id/faq/kategori?id=68e486997795640efd3eefc2
+Scraped: 2025-10-21T15:17:51.725909
+================================================================================
+
+QUESTION:
+Bagaimana Cara Ubah Negara Asal pada Data Pengurus dan Pemegang Saham?
+
+ANSWER:
+Kewarganegaraan pada data pengurus dan pemegang saham dapat diubah dengan cara berikut: 1. Pastikan sudah melakukan perubahan pada akta perusahaan dan memperbarui keterangan di sistem AHU Online oleh notaris 2. Selanjutnya, lakukan perubahan pada akun OSS melalui menu Perizinan Berusaha lalu Kelola Usaha kemudian pilih Perubahan lalu pilih Perubahan Badan Usaha 3. Centang pada Ubah Data Permodalan dan Data Pengurus & Pemegang Saham kemudian klik tombol Lanjut 4. Cek kesesuaian data terbaru pada Data Pengurus dan Pemegang Saham. Data negara asal akan muncul sesuai dengan yang tercantum pada AHU 5. Centang pada Perubahan Pengurus dan Pemegang Saham lalu klik tombol Simpan Panduan lebih lengkap dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/635970086345c7d71a8144ce
+
+================================================================================

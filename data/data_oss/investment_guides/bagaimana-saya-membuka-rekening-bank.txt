@@ -1,0 +1,7 @@
+QUESTION: Bagaimana saya membuka rekening bank?
+
+ANSWER:
+Peraturan dari Bank Indonesia mengharuskan seluruh transaksi perbankan (seperti penyuntikan modal, administrasi pinjaman, pembayaran peralatan modal, bahan baku mentah, dan lain-lain) dari PT. PMA baru dilakukan melalui rekening bank investasi asing khusus di Indonesia. secara umum, dokumen yang diperlukan untuk membuka rekening tersebut adalah sebagai berikut:
+
+SOURCE: https://cjip.jatengprov.go.id/panduan-investasi
+SCRAPED: 2025-10-21T15:46:40.420868

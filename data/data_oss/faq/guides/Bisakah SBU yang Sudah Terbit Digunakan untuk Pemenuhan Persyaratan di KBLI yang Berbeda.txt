@@ -1,0 +1,13 @@
+================================================================================
+Title: Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda?
+Source: https://oss.go.id/id/faq/kategori?id=68e487a1711547977a0df253
+Scraped: 2025-10-21T15:13:12.778482
+================================================================================
+
+QUESTION:
+Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda?
+
+ANSWER:
+Sertifikat Badan Usaha (SBU) yang sudah terbit tidak bisa langsung digunakan untuk pemenuhan persyaratan di KBLI yang berbeda. SBU hanya berlaku untuk bidang usaha dan lingkup yang tercantum di dalamnya yang sesuai dengan kode KBLI yang diakui pada saat sertifikat tersebut diterbitkan. Jika perusahaan ingin menambahkan KBLI yang berbeda dari KBLI yang telah tercantum pada SBU, maka perusahaan harus mengajukan permohonan SBU yang baru melalui sistem OSS. Permohonan ini bisa diajukan melalui menu PB-UMKU sesuai dengan KBLI dan NKU yang terbaru. Panduan lengkap pengajuan PB-UMKU dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/635970086345c7d71a81449e
+
+================================================================================

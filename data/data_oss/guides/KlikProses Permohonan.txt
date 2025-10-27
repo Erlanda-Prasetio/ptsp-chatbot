@@ -1,0 +1,42 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: KlikProses Permohonan
+Source: https://oss.go.id/panduan/635970086345c7d71a8144f0
+Scraped: 2025-10-20T15:36:13.106248
+Total Steps: 11
+Total Images: 18
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, PilihMasuk
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardVerifikator Kementerian/Lembaga
+4. 4.Pilih MenuPemrosesan Perizinan,LaluVerifikasi Pemenuhan Persyaratan
+5. 5. PilihData Pelaku UsahaYangIngin Diverifikasi, Lalu KlikProses Verifikasi
+6. 6. Periksa Data Pelaku Usaha, MeliputiData Pelaku Usaha, Data Kegiatan Usaha,DanDokumen Yang Diunggah
+7. 7. Status Permohonan Pelaku Usaha Berubah
+8. 3.DashboardPersetujuan Kementerian/Lembaga
+9. 4.Pilih MenuPemrosesan Perizinan,LaluPersetujuan Permohonan
+10. 5.PilihData Pelaku UsahaYangIngin Disetujui, Lalu KlikProses Persetujuan
+11. 7.Status Permohonan Pelaku Usaha Berubah MenjadiTelah TerverifikasiPada Halaman Pelaku Usaha
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (18 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture3-7f27d4326b4e3c797f06ff76021b212b.png
+2. https://s3.oss.go.id/oss/cms/1-portal-masuk-1819dca80fcbb680fef3c8556c3b5cd7.png
+3. https://s3.oss.go.id/oss/cms/Picture16-b074c62963289e2c250595b6477d0d8e.png
+4. https://s3.oss.go.id/oss/cms/Picture11-2884f0a6d47c4d0b71e870e3dec132d0.png
+5. https://s3.oss.go.id/oss/cms/Picture4-43f6a50626142b0ed3e410187242d82e.png
+6. https://s3.oss.go.id/oss/cms/Picture9-adcc5dbf94afe32af86e314ce7091934.png
+7. https://s3.oss.go.id/oss/cms/Picture8-6e33ec388e2ece966a823091c7e91dfa.png
+8. https://s3.oss.go.id/oss/cms/Picture12-P-07af57ab75ed4927010855d7a82cc9a6.png
+9. https://s3.oss.go.id/oss/cms/Picture13-bd79677a7af530ad9676c639d5b89f46.png
+10. https://s3.oss.go.id/oss/cms/Picture6-7a5b9e9fc6dbaf40e58015ba9bd6a8ba.png
+11. https://s3.oss.go.id/oss/cms/Picture15-9ad862e0bf75153610b9546b90f51c0d.png
+12. https://s3.oss.go.id/oss/cms/Picture18-a9ca96af72f6b62843b2cd47dddab770.png
+13. https://s3.oss.go.id/oss/cms/Picture2-7369b2939f97031d680aa160041a4684.png
+14. https://s3.oss.go.id/oss/cms/Picture5-bd94a0d932b595c05716cc4e7cc838fb.png
+15. https://s3.oss.go.id/oss/cms/Picture7-ee407eb8e991c7ad56585fdd1a755cc4.png
+16. https://s3.oss.go.id/oss/cms/Picture14-694070e6df8f136bf4b53d4c0d7e8f58.png
+17. https://s3.oss.go.id/oss/cms/Picture17-6d868cbebb9cbd4da519636110aa5058.png
+18. https://s3.oss.go.id/oss/cms/Picture10-b6b4d5c65dcd62eff6db84dde4464e1e.png

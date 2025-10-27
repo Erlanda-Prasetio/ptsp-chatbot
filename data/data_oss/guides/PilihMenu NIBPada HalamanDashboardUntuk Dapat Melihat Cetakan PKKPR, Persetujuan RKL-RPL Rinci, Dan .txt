@@ -1,0 +1,67 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: PilihMenu NIBPada HalamanDashboardUntuk Dapat Melihat Cetakan PKKPR, Persetujuan RKL-RPL Rinci, Dan Izin
+Source: https://oss.go.id/panduan/647083e5d033753dd77d89cd
+Scraped: 2025-10-20T15:34:49.131042
+Total Steps: 19
+Total Images: 35
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, Lalu PilihMasuk
+2. 2. MasukkanUsernameDanPasswordBeserta, Lalu KlikMasuk
+3. 3.DashboardPelaku Usaha
+4. 4. Pilih MenuPerizinan BerusahaLalu PilihPengembangan
+5. 5.Tambah Bidang Usaha
+6. 6. LengkapiPemilihan Bidang Usaha
+7. 7. LengkapiFormulir Perekaman Data Pelaku Usaha
+8. 8. Baca, Pahami, DanCentangPada KotakCheckbox,Lalu Klik TombolSelanjutnya.
+9. 9. Periksa Secara BerkalaStatus PKKPRPadaDaftar Kegiatan Usaha
+10. 10.A Periksa Dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu)
+11. 10.B Periksa Dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu)
+12. 11. Pahami Dan CentangPernyataan Mandiri
+13. 12. Periksa DrafPerizinan Berusaha
+14. 13. Lakukan Pemenuhan Persyaratan
+15. 14. Lakukan Pemenuhan Persyaratan RKL-RPL Rinci Terlebih Dahulu
+16. 15. Periksa Secara BerkalaStatus Pemenuhan RKL-RPL RinciPadaDaftar Kegiatan Usaha
+17. 16. Lakukan Pemenuhan Persyaratan Izin
+18. 17. Periksa Secara BerkalaStatus Pemenuhan IzinPadaDaftar Kegiatan Usaha
+19. 18.NIB Terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (35 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid18-e2e200d8443b6afec6fd46030d06bbfb.png
+2. https://s3.oss.go.id/oss/cms/blobid5-ca8184bd90f6abd1669804955028cd45.png
+3. https://s3.oss.go.id/oss/cms/blobid4-dfd0f41dd57edbd562ae329fe55c833f.png
+4. https://s3.oss.go.id/oss/cms/blobid2-1f4d73b92ef45871b4d5830de643a7ab.png
+5. https://s3.oss.go.id/oss/cms/blobid30-794f2eed9a8ad3153069161347dc8a2f.png
+6. https://s3.oss.go.id/oss/cms/blobid20-0b13aa0c68b9ed6a14eb94e440ce8fa3.png
+7. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-d46df282bd0b36ee88d2380fb91dadd8.png
+8. https://s3.oss.go.id/oss/cms/blobid19-64f2aeb1a80aff20be09c25cd4b7fd02.png
+9. https://s3.oss.go.id/oss/cms/blobid3-559ce1921c5c126445881ebe4a0b2e6e.png
+10. https://s3.oss.go.id/oss/cms/blobid15-8a072cff8578c918223fad40bace7054.png
+11. https://s3.oss.go.id/oss/cms/blobid23-388cbc4e1b6cf3c4db29d55b3596c43c.png
+12. https://s3.oss.go.id/oss/cms/blobid17-393f4b10d87c4809ba44da7c1f38b691.png
+13. https://s3.oss.go.id/oss/cms/blobid29-e5f3ace9f5ad1d55ea280b300204e398.png
+14. https://s3.oss.go.id/oss/cms/blobid14-d4ed14f8a9675e96bfe5dbe7a031671c.png
+15. https://s3.oss.go.id/oss/cms/blobid6-98755095a83f124d2a35df9eefbae3ec.png
+16. https://s3.oss.go.id/oss/cms/blobid25-f6ee20028e5999d3071681e52305f621.png
+17. https://s3.oss.go.id/oss/cms/blobid8-3ad26037cbdf4e8824053b7148a5fb3d.png
+18. https://s3.oss.go.id/oss/cms/blobid1-5fd409c00fa63411be8a9db77f86e0c5.png
+19. https://s3.oss.go.id/oss/cms/blobid22-ade1f6a619c088519d4cea42b18780fc.png
+20. https://s3.oss.go.id/oss/cms/blobid11-504ed58c1c3c5bf7e150a52a63a895ce.png
+21. https://s3.oss.go.id/oss/cms/blobid9-5a45729cf8756be39dcc37f27a64cbee.png
+22. https://s3.oss.go.id/oss/cms/1-portal-masuk-1f1a0fe9c9fe4703361ed830598717b6.png
+23. https://s3.oss.go.id/oss/cms/blobid10-0d2f78a6e90bf33d4bea7edf4d272287.png
+24. https://s3.oss.go.id/oss/cms/blobid31-565cea024faa616a2d9d7db9afb2335a.png
+25. https://s3.oss.go.id/oss/cms/blobid12-74de9694eff6365d15c3fb623fae4d67.png
+26. https://s3.oss.go.id/oss/cms/blobid16-a071ec64be357273ad843920a20ba94d.png
+27. https://s3.oss.go.id/oss/cms/blobid27-73bc21cf5597431325de496ae9b6a4e8.png
+28. https://s3.oss.go.id/oss/cms/blobid28-a807c6822d27fe4b58896e63c411a424.png
+29. https://s3.oss.go.id/oss/cms/blobid21-f15f5e605494a94bfd34ef40b8c2ba2c.png
+30. https://s3.oss.go.id/oss/cms/blobid0-89b04f9a00821253b50436462c99c503.png
+31. https://s3.oss.go.id/oss/cms/blobid7-e019a739fecb2febf89004d325c886a3.png
+32. https://s3.oss.go.id/oss/cms/blobid13-7f2410cb6b50fc5a08a5d7d711f694b6.png
+33. https://s3.oss.go.id/oss/cms/blobid26-21a88679860c82957c2778fc63631917.png
+34. https://s3.oss.go.id/oss/cms/blobid24-95890dac4607f6cedf00b9da687c582d.png
+35. https://s3.oss.go.id/oss/cms/3-menu-PB---pengembangan-72e6180d69727b3a1fb86489c41d3c49.png

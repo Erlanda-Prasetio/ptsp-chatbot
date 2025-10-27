@@ -155,6 +155,74 @@ async def chat(request: ChatRequest):
         print(f"❌ RAG query failed: {e}")
         raise HTTPException(status_code=500, detail=f"RAG query failed: {e}")
 
+@app.post("/retrieve")
+async def retrieve(request: ChatRequest):
+    """
+    Retrieve chunks only without LLM generation (for retrieval testing)
+    Returns sources and search method used (vector_only, enhanced_vector, or internet_fallback)
+    """
+    if not rag_system:
+        raise HTTPException(status_code=503, detail="RAG system not initialized")
+    
+    if not request.messages:
+        raise HTTPException(status_code=400, detail="No messages provided")
+    
+    # Get the latest user message
+    user_message = None
+    for message in reversed(request.messages):
+        if message.role == "user":
+            user_message = message.content
+            break
+    
+    if not user_message:
+        raise HTTPException(status_code=400, detail="No user message found")
+    
+    try:
+        print(f"🔍 Retrieving chunks for: {user_message[:100]}...")
+        
+        # Get retrieval results with fallback phases
+        result = rag_system.ask_with_fallback(user_message.strip())
+        
+        sources = result.get("sources", [])
+        search_method = result.get("enhanced_features", {}).get("search_method", "unknown")
+        
+        # Format sources with proper structure
+        formatted_sources = []
+        for i, chunk in enumerate(sources, 1):
+            # Handle Supabase format
+            if isinstance(chunk, dict):
+                chunk_id = chunk.get("id") or chunk.get("chunk_id") or f"chunk_{i}"
+                text = chunk.get("content") or chunk.get("text", "")
+                score = chunk.get("similarity") or chunk.get("score", 0)
+                metadata = chunk.get("metadata", {})
+            else:
+                # If chunk is a tuple or other format
+                chunk_id = f"chunk_{i}"
+                text = str(chunk)
+                score = 0
+                metadata = {}
+            
+            formatted_sources.append({
+                "rank": i,
+                "chunk_id": chunk_id,
+                "text": text,
+                "score": float(score) if score else 0.0,
+                "metadata": metadata
+            })
+        
+        print(f"✅ Retrieved {len(formatted_sources)} chunks using {search_method}")
+        
+        return {
+            "sources": formatted_sources,
+            "search_method": search_method,
+            "total_sources": len(formatted_sources),
+            "query": user_message.strip()
+        }
+        
+    except Exception as e:
+        print(f"❌ Retrieval failed: {e}")
+        raise HTTPException(status_code=500, detail=f"Retrieval failed: {e}")
+
 @app.get("/suggestions")
 async def get_suggestions():
     """Get suggested questions for Central Java DPMPTSP data"""

@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk laporan KP3A PMSE
+Source: https://oss.go.id/panduan/635970086345c7d71a8144d7
+Scraped: 2025-10-20T15:39:19.060987
+Total Steps: 12
+Total Images: 12
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPELAPORAN, pilihPELAPORAN KANTOR PERWAKILANdan klikKP3A PMSE
+4. 4. Setelah masuk ke menu Pelaporan, klikBUAT LAPORAN
+5. 5. LengkapiData Pelaku Usaha
+6. 6.a LengkapiData Tenaga Kerja(Jumlah TKI dan TKA)
+7. 6.b LengkapiData Tenaga Kerja(Nomor Izin Tenaga Kerja Asing)
+8. 7. LengkapiData Penanggung Jawab Laporan Kegiatan Usaha KP3A PMSE
+9. 8. MenyetujuiPernyataan Pelaporan KP3A PMSE
+10. 9. Melakukankonfirmasi Pelaporan KP3A PMSE
+11. 10.a Laporan Kantor Perwakilan Perusahaan Perdagangan Asing (KP3A) PMSEtelah diterima
+12. 10.b Laporan Kantor Perwakilan Perusahaan Perdagangan Asing (KP3A) PMSE telah diterima(Cetakan Laporan KP3A PMSE)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (12 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-3b76f23c10421243fba843724160968a.png
+2. https://s3.oss.go.id/oss/cms/Pelaporan-KP3A-PMSE-2e58cd5d7653f5a8a3c0540f538400f6.png
+3. https://s3.oss.go.id/oss/cms/blobid34-f07fd0dc499a19264f068588cc116b2a.png
+4. https://s3.oss.go.id/oss/cms/blobid35-2eba2b3d9737ca85b4c030a5ef8a5f19.png
+5. https://s3.oss.go.id/oss/cms/blobid29-bf53b341247c2572153f4a29e8bac750.png
+6. https://s3.oss.go.id/oss/cms/blobid36-12bed8cfd54698af86629bb09677f0b2.png
+7. https://s3.oss.go.id/oss/cms/blobid30-3efd5408cca61e9529d2896761050a0d.png
+8. https://s3.oss.go.id/oss/cms/blobid32-f5a15efb05a012ada21775ef8b9931a1.png
+9. https://s3.oss.go.id/oss/cms/blobid33-1847d7ed71a3e6f48aa409c898814a25.png
+10. https://s3.oss.go.id/oss/cms/blobid31-c82d5b69714ddad7ad846262d477356c.png
+11. https://s3.oss.go.id/oss/cms/blobid28-b1c93d7161f7cabf19b8c3e24e7e361d.png
+12. https://s3.oss.go.id/oss/cms/blobid26-e8c1439b0e44e9b78dd7d0a4e6ef0484.png

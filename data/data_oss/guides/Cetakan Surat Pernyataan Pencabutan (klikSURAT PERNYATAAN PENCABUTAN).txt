@@ -1,0 +1,67 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Surat Pernyataan Pencabutan (klikSURAT PERNYATAAN PENCABUTAN)
+Source: https://oss.go.id/panduan/63eb00b9444b945ab0f74721
+Scraped: 2025-10-20T15:23:51.656528
+Total Steps: 26
+Total Images: 28
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“MASUK”
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK.
+3. 3. Masuk ke menuKANTOR PERWAKILAN, pilihPENCABUTANdan klikKP3A NON PMSE.
+4. 4. Setelah Anda masuk ke dalam menu Pencabutan, klikAJUKAN PERMOHONANuntuk melakukan proses Pencabutan Perizinan KP3A Non PMSE.
+5. 5. Periksa kembaliSumber Data KP3A Non PMSEmilik Anda.
+6. 6. Pilih kantor yang memilikiizin kegiatan usaha yang akan dicabutdengan mencentang pada bagiancheck box/kotak centang. Jika Anda mengajukan permohonan pencabutan perizinan KP3A Non PMSE untuk kantor perwakilan utama, maka secara otomatis permohonan juga akan mencabut perizinan KP3A Non PMSE untuk kantor perwakilan cabangnya.
+7. 7. PeriksaData Kantor Prinsipal.
+8. 8. PeriksaData Kantor Perwakilan di Indonesia.
+9. 9. PeriksaData Kegiatan Usaha.
+10. 10. PeriksaDataArticle of Association (AoA).
+11. 11. PeriksaData Letter of Appointment (LoA).
+12. 12. PeriksaData Letter of Intent (LoI).
+13. 13. PeriksaData Letter of Reference (LoR).
+14. 14. PeriksaData Letter of Statement (LoS).
+15. 15. LengkapiSurat Pernyataan dari Kepala Kantor Perwakilan atau Direksi Perusahaan di Negara Asal yang Menyatakan Tidak Memiliki Hutang Piutang.Untuk tampilan form pengisian pada bagian ini terdapat dua kondisi yaitu jikaSurat Pernyataan dibuat di Indonesia dan tidak dibuat di Indonesia.
+16. 16. LengkapiData Surat Perintah/Pernyataan dari Direksi Perusahaan di Negara Asal tentang Penutupan KP3A Non PMSE.
+17. 17. LengkapiData Laporan Kegiatan Kantor Perwakilan Periode Terakhir.
+18. 18. LengkapiData NPWPyang Anda miliki. Jika Andatidak memiliki NPWP, Anda wajibmengunggah Surat Bebas NPWP dari KPP setempat.
+19. 19. Baca dan pahami pernyataan dengan teliti, lalu centang kotakDISCLAIMER. KlikSAYA SUDAH MEMBACA DAN MENYETUJUI, lalu klikPROSESuntuk mengirimkan Permohonan Pencabutan Perizinan KP3A Non PMSE.
+20. 20. Setelah klikPROSES, status permohonan akan menunjukkan bahwa permohonan telah‘Terkirim’.Permohonan Pencabutan Perizinan KP3A Non PMSE yang telah terkirim akan menampilkan:
+21. 21. Kementerian/Lembaga (K/L) akan melakukan verifikasi sesuai denganNorma, Standar, Prosedur, dan Kriteria (NSPK). Jika Dokumen yang disampaikanbelum lengkap atau belum sesuai, maka status permohonan pencabutan yang Anda ajukan berubah menjadi ‘Perlu Perbaikan’. Pilih permohonan pencabutan yang perlu perbaikan dengan mencentang data tersebut, lalu klikPERBAIKI.
+22. 22. Periksacatatan perbaikanyang diberikan oleh verifikator untuk mengetahui perbaikan yang diperlukan dan berikan tanggapan jika sudah diperbaiki.
+23. 23. Jika verifikator memberikan perbaikan pada data yang otomatis ditampilkan oleh sistem, Anda dapat melakukan perubahan data padamenu PERUBAHAN. Anda dapat mengunjungihttps://oss.go.id/panduanuntuk melihat panduan untuk Perubahan Data KP3A Non PMSE. Setelah Anda melakukan perubahan, klik tombolTARIK ULANG DATA PERIZINANuntuk memperbaharui data KP3A Non PMSE.
+24. 24. Jika Permohonan Pencabutan sudah diperbaiki, maka status permohonan Anda menjadi‘Sudah Diperbaiki’.
+25. 25. Jika verifikator menyetujui Pencabutan Perizinan KP3A Non PMSE, status permohonan akan berubah menjadi‘Disetujui’. Permohonan pencabutan yang telah disetujui akan menampilkan:
+26. 26. Berikut adalah tampilan Cetakan Pencabutan dan Surat Pernyataan Pencabutan yang akan didapatkan setelah Permohonan Pencabutan Perizinan KP3A Non PMSE disetujui:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (28 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/5-798284008202a7f87cbc17cc598a07dd.webp
+2. https://s3-stg.oss.go.id/oss/cms/11-ff34d662720ae586d0393b6ca09e758c.webp
+3. https://s3-stg.oss.go.id/oss/cms/14-da52ac00f7e5d6737b23fa23a385d2b3.webp
+4. https://s3-stg.oss.go.id/oss/cms/18-fbcf22d6680c3b8da3c1e5005fb167a9.webp
+5. https://s3-stg.oss.go.id/oss/cms/21-704ca9986243b9f83a4134742c3be25f.webp
+6. https://s3-stg.oss.go.id/oss/cms/23-051172564a772b15f79dd8db425473c6.webp
+7. https://s3-stg.oss.go.id/oss/cms/6-d9299f8a32b79a894d8d595fc4ddf3e5.webp
+8. https://s3-stg.oss.go.id/oss/cms/Login-00cf7838bad5f34ab23376592a71aee4.webp
+9. https://s3-stg.oss.go.id/oss/cms/7-7fb16f31c52a43d589a6f0e28695599a.webp
+10. https://s3-stg.oss.go.id/oss/cms/10-80d48bb365dc98b4cadba96bf328d869.webp
+11. https://s3-stg.oss.go.id/oss/cms/1-2ef15591fc9b29c4de9b1b4139606325.webp
+12. https://s3-stg.oss.go.id/oss/cms/1-9bb3d77cd1975b35010143a8aa05e76a.webp
+13. https://s3-stg.oss.go.id/oss/cms/8-c1b6710e0aff1b616deed87c803caa68.webp
+14. https://s3-stg.oss.go.id/oss/cms/13-bc1d6fdcdf355f8748f57d8c7301607a.webp
+15. https://s3-stg.oss.go.id/oss/cms/25-89320a7ce22eafd1c32045d74c76a2c5.webp
+16. https://s3-stg.oss.go.id/oss/cms/26-fbf8da7e5c6cb5b90c9539b8dc91cec0.webp
+17. https://s3-stg.oss.go.id/oss/cms/12-(ID)-00ecf257e7933c7db2be6a5a682ffd24.webp
+18. https://s3-stg.oss.go.id/oss/cms/9-126e4bbddc1c2285b973eddd8d9676cb.webp
+19. https://s3-stg.oss.go.id/oss/cms/19-6caa46d85823921748f6146ff93bce28.webp
+20. https://s3-stg.oss.go.id/oss/cms/20-d26beee8430371d1ed987a7eee3a795d.webp
+21. https://s3-stg.oss.go.id/oss/cms/24-a461e998a5f9aee4760b4736ea067a0e.webp
+22. https://s3-stg.oss.go.id/oss/cms/3-06de686fdf5fd506bd35798cf65416f7.webp
+23. https://s3-stg.oss.go.id/oss/cms/4-fe82d98a98bc1e944c956ef6d0a97658.webp
+24. https://s3-stg.oss.go.id/oss/cms/2-72c624f0323f14407411e385eda408bb.webp
+25. https://s3-stg.oss.go.id/oss/cms/15-(ID)-577157ff9a98099ee6a65184a68a3230.webp
+26. https://s3-stg.oss.go.id/oss/cms/16-(ID)-0ddc604dea0c617f33a6390fee3477ea.webp
+27. https://s3-stg.oss.go.id/oss/cms/22-26be3c0f27b8d62589a9ea2e09406d9a.webp
+28. https://s3-stg.oss.go.id/oss/cms/17-e4a76f09abae4aa5dc3f85fa17f571db.webp

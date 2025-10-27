@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP?
+Source: https://oss.go.id/id/faq/kategori?id=68e48754711547977a0df223
+Scraped: 2025-10-21T15:14:18.002340
+================================================================================
+
+QUESTION:
+Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP?
+
+ANSWER:
+Data akta dan pengesahan yang dikirim dari sistem OSS ke sistem SIKaP adalah data akta dan pengesahan terakhir yang telah perusahaan update di sistem OSS. Perusahaan yang sudah pernah melakukan perubahan akta di sistem OSS, maka data pada sistem SIKaP adalah Akta Perubahan. Bagi yang belum pernah, maka data pada sistem SIKaP adalah Akta Pendirian.
+
+================================================================================

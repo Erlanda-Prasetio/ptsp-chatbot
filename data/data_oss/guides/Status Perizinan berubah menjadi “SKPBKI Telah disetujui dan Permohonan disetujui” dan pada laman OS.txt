@@ -1,0 +1,98 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Status Perizinan berubah menjadi “SKPBKI Telah disetujui dan Permohonan disetujui” dan pada laman OSS menjadi berikut:
+Source: https://oss.go.id/panduan/68d252e4aec40204bd56874a
+Scraped: 2025-10-20T15:28:31.521207
+Total Steps: 28
+Total Images: 57
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki hak akses
+2. 2. Kunjungi https://oss.go.id/
+3. 3. Pilih MASUK
+4. 4. Masukkan Username dan Password, lalu klik tombol MASUK
+5. 5. Klik Menu Perizinan Berusaha dan pilih Pengembangan
+6. 6. Klik tombol Tambah Bidang Usaha
+7. 7. Klik tombol Pilih Bidang Usaha
+8. 8.a Lengkapi Data Pemilihan Bidang Usaha (Orang Perseorangan)
+9. 8.b Lengkapi Data Pemilihan Bidang Usaha (Badan Usaha)
+10. 9.a Lengkapi Data Detail Usaha (UMK)
+11. 9.b Lengkapi Data Detail Usaha
+12. 10. Lengkapi Data Produk/Jasa
+13. 11. Periksa Daftar Produk/Jasa
+14. 12. Periksa Data Usaha
+15. 13.a Periksa Daftar Kegiatan Usaha
+16. 13.b Periksa Daftar Kegiatan Usaha (untuk Lokasi Usaha yang perlu verifikasi KKPR)
+17. 14. Periksa dan Lengkapi Dokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu)
+18. 14.a Periksa dan Lengkapi Dokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+19. 14.b Periksa dan Lengkapi Dokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+20. 15. Pahami dan Centang Pernyataan Mandiri
+21. 16. Periksa Draf Perizinan Berusaha (NIB)
+22. 17.a NIB telah terbit (untuk Sertifikat Standar belum terverifikasi)
+23. 17.b NIB telah terbit (untuk Izin belum terbit)
+24. 18. Buka Menu Permohonan, pilih Pemenuhan Persyaratan
+25. 19. Klik tombol Proses Pemenuhan Standar Usaha di Sistem K/L (risiko Menengah Tinggi/Tinggi)
+26. 20. Lengkapi Berkas Pengajuan pada SIINAS
+27. 21. Periksa Secara Berkala Perubahan Status Perizinan (baik di sistem OSS RBA maupun SIINAS)
+28. 22. Pelaku usaha dapat mencetak Perizinan Berusaha di OSS pada menu NIB
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (57 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid9-02648b39adf9bb02029935d6ebb68eb9.png
+2. https://s3.oss.go.id/oss/cms/blobid45-3f1b411b949735043355e4eb09a95655.png
+3. https://s3.oss.go.id/oss/cms/blobid24-03f019c3085315ab87679e891e7747cf.png
+4. https://s3.oss.go.id/oss/cms/blobid26-76acefff935a71c5cd35d6c45015a9e8.png
+5. https://s3.oss.go.id/oss/cms/blobid52-26f8297bebe4814066f9342fdda8ebb9.png
+6. https://s3.oss.go.id/oss/cms/blobid11-c466d9625ccef56a2deeabb55bec4d2a.png
+7. https://s3.oss.go.id/oss/cms/blobid22-36f0bb50946ca663af8f7dc1731aa58f.png
+8. https://s3.oss.go.id/oss/cms/blobid23-d40aba7a23d85ee71315a4051504c331.png
+9. https://s3.oss.go.id/oss/cms/blobid25-dd50c02d4c3c336ba9041255c8fa026e.png
+10. https://s3.oss.go.id/oss/cms/blobid51-576218b885912df44b32c4d0b44bf8d8.png
+11. https://s3.oss.go.id/oss/cms/blobid47-99ac9852a9dab48cf24abb1cc416f4fc.png
+12. https://s3.oss.go.id/oss/cms/image-78977faaa94be09b64a860f872d073ab.png
+13. https://s3.oss.go.id/oss/cms/Picture58-9d120b990282fffb2f9ce448174e9513.png
+14. https://s3.oss.go.id/oss/cms/blobid30-2e6d4f67d98d3eb30cc53288d7cdd0f1.png
+15. https://s3.oss.go.id/oss/cms/blobid40-acbdf3468fe736744b5b9e3bc64ef829.png
+16. https://s3.oss.go.id/oss/cms/blobid44-6447dfa1f3d89ac60097a66feea9bab2.png
+17. https://s3.oss.go.id/oss/cms/blobid32-6079d3bd9b3fa71237ee10a771504776.png
+18. https://s3.oss.go.id/oss/cms/blobid0-f39b542ae8a0aaf44b9c8339fc391fbd.png
+19. https://s3.oss.go.id/oss/cms/1-portal-masuk-00b34638da08e9385c0a68d30f0134dc.png
+20. https://s3.oss.go.id/oss/cms/image-12bb7121a2212a965c0409f29267a6e5.png
+21. https://s3.oss.go.id/oss/cms/blobid20-1d4c7db4ac1066242ebde76f9e1b9ba1.png
+22. https://s3.oss.go.id/oss/cms/blobid28-c32e9060d145f5ebf06e4b164b4c5884.png
+23. https://s3.oss.go.id/oss/cms/blobid37-2af4e80e7e62865481a7b2fe04fd814a.png
+24. https://s3.oss.go.id/oss/cms/blobid7-bf80301c4afc0c6d62d374cb4357285b.png
+25. https://s3.oss.go.id/oss/cms/blobid49-e84169edaacc16b9ad9bfc981ee4ab14.png
+26. https://s3.oss.go.id/oss/cms/blobid15-14478e3162a1bc73d4396356d6eb166e.png
+27. https://s3.oss.go.id/oss/cms/blobid48-0f31ac89c6fb07df9d854b0e2ec762df.png
+28. https://s3.oss.go.id/oss/cms/blobid62-47277c3f99591bcdd194879ab3f116a8.png
+29. https://s3.oss.go.id/oss/cms/blobid29-05f452fdc01f5ba344a97589e1754374.png
+30. https://s3.oss.go.id/oss/cms/blobid8-ed4f83780f83581e5b7f2618cd9c6f2d.png
+31. https://s3.oss.go.id/oss/cms/blobid57-9e184359b8cf6d97197d547b28a5d6a5.png
+32. https://s3.oss.go.id/oss/cms/blobid54-8fb41b1391cfd5c0b63752f2d014ff41.png
+33. https://s3.oss.go.id/oss/cms/Picture57-b4e205bee4149f6cacc118b429930d94.png
+34. https://s3.oss.go.id/oss/cms/blobid43-ca2afb3a166d645c50005892d7d93bac.png
+35. https://s3.oss.go.id/oss/cms/1-portal-20d78da632d24adf60ab036884e5ffa3.png
+36. https://s3.oss.go.id/oss/cms/blobid10-21ec286e78394e2922adf25900994bb8.png
+37. https://s3.oss.go.id/oss/cms/blobid38-14d7033b04dc265636ce590836f1aad4.png
+38. https://s3.oss.go.id/oss/cms/Picture18-a0c46270907e17b2ec86244bb7e32ce5.png
+39. https://s3.oss.go.id/oss/cms/blobid41-dd0a0ac47493a20ad302563019887c5b.png
+40. https://s3.oss.go.id/oss/cms/blobid16-b65a1ed3e6f880edbf87902ed500fa5d.png
+41. https://s3.oss.go.id/oss/cms/blobid55-ca4ac4936be2d89bdc63150289277859.png
+42. https://s3.oss.go.id/oss/cms/blobid56-2e4c3702c0e47cae621995e6f2a31aae.png
+43. https://s3.oss.go.id/oss/cms/blobid12-954ce56d3df5e477bdff5765fe92e3e0.png
+44. https://s3.oss.go.id/oss/cms/blobid21-b4ee6ae964c286b593a5a015d536a78a.png
+45. https://s3.oss.go.id/oss/cms/blobid4-c15ca7ecc419391f9f46dffc384d1f9c.png
+46. https://s3.oss.go.id/oss/cms/blobid39-d25245d31f3154f2f67f3e5e9182f999.png
+47. https://s3.oss.go.id/oss/cms/blobid27-97f6c1875dcdec376e8cfdb560e00041.png
+48. https://s3.oss.go.id/oss/cms/blobid42-01e3de43e522c34cc21877143af198b8.png
+49. https://s3.oss.go.id/oss/cms/blobid13-4290b798ec66e49b34f2f5b9e47ec0b6.png
+50. https://s3.oss.go.id/oss/cms/blobid18-dc57e12c41ee3b769bbc49ae72d27208.png
+51. https://s3.oss.go.id/oss/cms/blobid36-437909dc5ab9f12b62ce691b39a49267.png
+52. https://s3.oss.go.id/oss/cms/blobid14-e8c75e3e2203635f09507d622534f2ab.png
+53. https://s3.oss.go.id/oss/cms/blobid31-54c0124f293159ddeb74b2cd5abbc73a.png
+54. https://s3.oss.go.id/oss/cms/blobid6-44e6d111ee30774754fe613f2cf90754.png
+55. https://s3.oss.go.id/oss/cms/blobid50-6486a60e2d2c5e923276571232369401.png
+56. https://s3.oss.go.id/oss/cms/blobid53-9e750d1f71fded4614671bd0504945f2.png
+57. https://s3.oss.go.id/oss/cms/blobid46-4545804a065c194d4b23dc9632b271bc.png

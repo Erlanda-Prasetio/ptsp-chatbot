@@ -1,0 +1,61 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Periksa kembali data yang telah dilengkapi apakah sudah sesuai atau belum, jika ingin merubah kembali data Penapisan maka dapat mengklikKembali, namun jika sudah sesuai Pelaku Usaha dapat menyimpan Hasil Penapisan Rencana Kegiatan dengan mengklikSimpan.
+Source: https://oss.go.id/panduan/6673ac626d6923024fc61558
+Scraped: 2025-10-20T15:27:02.446696
+Total Steps: 17
+Total Images: 31
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, PilihMASUK.
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK.
+3. 3. Dashboard Pelaku Usaha.
+4. 4.Setelah pelaku usaha mengajukan perizinan berusaha (dapat dilihat di panduan “Perizinan Berusaha UMK/Non-UMK Risiko Menengah Tinggi dan Tinggi - Perseorangan/Badan Usaha") selanjutnya melakukan pemenuhan persyaratan pada menuPerizinan Berusaha, SubmenuPemenuhan Persyaratan.
+5. 5. Pilih Kegiatan Usaha yang membutuhkan Persetujuan Lingkungan.
+6. 1. Dashboard Pelaku Usaha pada Amdalnet.
+7. 2. Pilih kegiatan usaha yang akan dilakukan proses Penapisan,
+8. 3.a Lengkapi data Dokumen Persyaratan Usaha KegiatanTapak Proyekyang dibutuhkan
+9. 3.b Lengkapi data Dokumen PersyaratanPendekatan Studiyang dibutuhkan
+10. 3.c Lengkapi data Dokumen PersyaratanPenentuan Kewenanganyang dibutuhkan
+11. 3.d Lengkapi data Dokumen PersyaratanPersetujuan Awalyang dibutuhkan
+12. 3.e Lengkapi data Dokumen Persyaratan yang dibutuhkan
+13. 4. Pada halaman Hasil Penapisan akan menampilkan detail Informasi rencana Usaha/Kegiatan, Deskripsi Kegiatan, Deskripsi Lokasi dan Hasil Penapisan Rencana Kegiatan.
+14. 5. Akan muncul pop-up message bahwa pelaku Usaha/Kegiatan akan menyimpan hasil penapisan usaha dan/atau kegiatan, apabila sudah sesuai klik Simpan.
+15. 6. Sistem akan menampilkan kembali ke Menu Penapisan, dengan data Penapisan yang telah dilengkapi serta mendapatkan Nomor Registrasi Penapisan.
+16. 7. KlikPenapisandanLihat Detail Penapisanuntuk melihat detail Penapisan yang telah disimpan pada sistem.
+17. 8. Pada Bagian Hasil Penapisan Rencana Kegiatan KlikCetak PDFuntuk mencetak hasil Penapisan.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (31 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image24-91f09ba44ffd452141e767b1faacb70d.png
+2. https://s3.oss.go.id/oss/cms/image1-d0a0992a4b64d31a6ecccca49b2940a7.png
+3. https://s3.oss.go.id/oss/cms/image12-91d63ea473dcede2e7acdc38eae461f2.png
+4. https://s3.oss.go.id/oss/cms/image25-6e390ae26842cb212650d89c73051ef0.png
+5. https://s3.oss.go.id/oss/cms/image29-851ed1232c4c0e30e8035db41e3895e8.png
+6. https://s3.oss.go.id/oss/cms/image9-c5102a62d3986efe8331b6f0455b6332.png
+7. https://s3.oss.go.id/oss/cms/image2-2e76221283a56ca9aaa6eeff44fd1799.png
+8. https://s3.oss.go.id/oss/cms/image8-70e1fd54eb79a296cafb4b67764c918b.png
+9. https://s3.oss.go.id/oss/cms/image27-15a0478e12369b60f1fc07da2f7ad165.png
+10. https://s3.oss.go.id/oss/cms/image6-785dc45125d4bd6f8a798e98f9fcd8c7.png
+11. https://s3.oss.go.id/oss/cms/image28-64b8ffebadb770fde4d18b3a161f2727.png
+12. https://s3.oss.go.id/oss/cms/image18-9ce7338e7a1781e2d41178b43c449379.png
+13. https://s3.oss.go.id/oss/cms/image15-bcbdbd96bae6a879351b27e7e0b442af.png
+14. https://s3.oss.go.id/oss/cms/image11-7400ab4aefa32882ab0bf6be0539376b.png
+15. https://s3.oss.go.id/oss/cms/image30-4d6a894d7cec8b9a561a62dadadffb7c.png
+16. https://s3.oss.go.id/oss/cms/image7-c1cb9c2fd8db2e918aac1269a5e1cffa.png
+17. https://s3.oss.go.id/oss/cms/image13-57f627dec29044646bd43f3cf43c79cd.png
+18. https://s3.oss.go.id/oss/cms/image17-b25960f6b613287b820d4f6c69306772.png
+19. https://s3.oss.go.id/oss/cms/image19-0ea67c1ea12ee5108e53ef2d425072d3.png
+20. https://s3.oss.go.id/oss/cms/image3-31f875d1fe7f37d8dc6736d4ed6ab2d5.png
+21. https://s3.oss.go.id/oss/cms/image22-ce543357a96ee771223107d6fff5dac4.png
+22. https://s3.oss.go.id/oss/cms/3-ca8745f9813645c694f9163eb68165b1.png
+23. https://s3.oss.go.id/oss/cms/image5-395162969877bc6e5f51e6d934d4ec57.png
+24. https://s3.oss.go.id/oss/cms/image21-aa0eec26da8b89d19fdd5951e709abd0.png
+25. https://s3.oss.go.id/oss/cms/image16-295c4e04de5c77cb2412f8f6aaf0809e.png
+26. https://s3.oss.go.id/oss/cms/image20-2df00b7e2595608d8523ca65fed1b0af.png
+27. https://s3.oss.go.id/oss/cms/image4-1780c0865e899261a7f0f2d129027d6b.png
+28. https://s3.oss.go.id/oss/cms/image23-b2523c65c8d7fad6d7877142503259b7.png
+29. https://s3.oss.go.id/oss/cms/image14-68b25b23ff0aa288708efca36ef2ec02.png
+30. https://s3.oss.go.id/oss/cms/image26-4d02487edf14756ee7e456949a805f29.png
+31. https://s3.oss.go.id/oss/cms/image31-ed76956c1b4c81fe1119ca6de35df119.png

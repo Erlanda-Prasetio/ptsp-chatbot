@@ -1,0 +1,27 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Anda akan berhasil masuk ke dasbor utama aplikasi. Ini menandakan bahwa proses pendaftaran akun Anda menggunakan verifikasi OTP email telah selesai dan berhasil.
+Source: https://oss.go.id/panduan/68ccde436203c96f20fcaa4c
+Scraped: 2025-10-20T15:27:07.274459
+Total Steps: 0
+Total Images: 14
+════════════════════════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (14 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid2-df955966bb6f2502516b855740842540.png
+2. https://s3.oss.go.id/oss/cms/blobid12-67834a2fb63da0f93f4d0409668d3e27.png
+3. https://s3.oss.go.id/oss/cms/blobid1-ad46d3ce1ef08fbd6c112d609ccea283.png
+4. https://s3.oss.go.id/oss/cms/blobid7-ab4340dbda426e26a79dff17ce94ce75.png
+5. https://s3.oss.go.id/oss/cms/blobid5-8f951cd3e5cf353fb83903aeff7b6767.png
+6. https://s3.oss.go.id/oss/cms/blobid6-f496c74a2c621f8f495c75ca532a60d0.png
+7. https://s3.oss.go.id/oss/cms/blobid4-7e281a1214a894971720bcc96d78b2c7.png
+8. https://s3.oss.go.id/oss/cms/blobid11-4411c017ccb1d2d71c9b808d23f962ea.png
+9. https://s3.oss.go.id/oss/cms/blobid9-2e10db36aa97359a95ed1857ea99ad79.png
+10. https://s3.oss.go.id/oss/cms/blobid10-a8b64b96dfbf2c6d8b5cadf97a100909.png
+11. https://s3.oss.go.id/oss/cms/blobid21-713011ffacdcf7a3e1b02232c9abc87d.png
+12. https://s3.oss.go.id/oss/cms/blobid8-15c1765e028b50b2a5c50dd33a6118a4.png
+13. https://s3.oss.go.id/oss/cms/blobid3-4098a191eeb2dfc126a900a1a3904bba.png
+14. https://s3.oss.go.id/oss/cms/blobid0-c03a1a6d77062af41f96f32845102222.png

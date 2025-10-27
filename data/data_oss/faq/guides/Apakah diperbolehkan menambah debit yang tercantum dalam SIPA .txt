@@ -1,0 +1,13 @@
+================================================================================
+Title: Apakah diperbolehkan menambah debit yang tercantum dalam SIPA ?
+Source: https://oss.go.id/id/faq/kategori?id=68e48794711547977a0df24b
+Scraped: 2025-10-21T15:13:34.672654
+================================================================================
+
+QUESTION:
+Apakah diperbolehkan menambah debit yang tercantum dalam SIPA ?
+
+ANSWER:
+Sebagaimana diatur dalam Peraturan Menteri ESDM Nomor 14 Tahun 2024, pemegang SIPA diperbolehkan menambah debit pengambilan air tanah melalui mekanisme Perubahan pada aplikasi OSS dengan memenuhi beberapa persyaratan dan dengan catatan kondisi air tanah di wilayah tersebut masih memadai.
+
+================================================================================

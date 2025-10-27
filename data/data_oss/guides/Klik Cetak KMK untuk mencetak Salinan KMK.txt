@@ -1,0 +1,49 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik Cetak KMK Untuk Mencetak Salinan KMK
+Source: https://oss.go.id/panduan/650abeb3048d98beafe8517e
+Scraped: 2025-10-20T15:39:10.611037
+Total Steps: 18
+Total Images: 18
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1.KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2.Masukkan Username Dan Password, Lalu Klik TombolMASUK
+3. 3.Masuk Ke MenuFASILITAS, PilihTAX ALLOWANCE, KlikPERMOHONAN
+4. 4.Klik Tanda ‘V’ Pada Kegiatan Usaha Yang Akan Dipilih, Lalu KlikPILIH KEGIATAN USAHA.
+5. 5.Setelah Itu Akan Muncul Sebuah Notifikasi Untuk Melakukan Konfirmasi Melanjutkan Proses Kegiatan Usaha Yang Dipilih. JikaAnda Yakin Ingin MelanjutkanKlikLANJUT
+6. 6.Pastikan Data Perusahaan Sudah Sesuai. Anda Dapat Melihat Data Badan Usaha Dan Cetakan NIB Dengan KlikLIHAT DATA.
+7. 7.Pastikan Data Kegiatan Usaha Dan Data Produk Sudah Sesuai. Setelah Itu, Klik TombolSELANJUTNYA
+8. 8.Lengkapi Data Pemohon Dan Pastikan Status SKF Dari Dokumen Persyaratan Yang Anda Miliki Berstatus‘CLEAR’. Jika Status ‘NOT CLEAR’Atau Data Pemegang Saham Tidak Muncul Silakan Klik TombolCEK SKF PEMEGANG SAHAM
+9. 9.Lengkapi Data Detail Usaha KBLI Terintegrasi Dengan Klik DataPILIH BIDANG USAHAUntuk Menampilkan Form Pengisian
+10. 10.Lengkapi Formulir Pengisian Data Detail Usaha KBLI Terintegrasi Setelah Itu Klik TombolSIMPAN DATA
+11. 11.Unggah Data Aktiva DenganFormat PDF Dengan Ukuran File Maksimal 5MB. Anda Dapat Mengunduh Format Aktiva Dengan Klik Tautan‘KLIK INI’
+12. 12.Lengkapi Formulir Online Komitmen UMKM Dengan Klik DataTAMBAHUntuk Menampilkan Form Pengisian
+13. 13.Lengkapi Formulir Pengisian Online Komitmen UMKM Setelah Itu Klik TombolSIMPAN DATA
+14. 14.Setelah Anda Melengkapi Dokumen Persyaratan Yang Dibutuhkan, KlikSELANJUTNYAUntuk Ke Halaman Selanjutnya
+15. 15.Centang Seluruh Pernyataan/Disclaimer Untuk Dapat Melanjutkan Ke Proses Permohonan Dan Bahwa Data Yang Dimasukkan Sudah Benar. Berikan Catatan Jika Diperlukan. KlikPROSES PERMOHONANUntuk Mengirim Permohonan Ke Kementerian Investasi/BKPM
+16. 16.Masuk Ke MenuDaftar Permohonan Tax AllowanceUntuk Mengecek Status Dari Permohonan Anda. Ketika Status Permohonan DiBKPM – Proses Evaluasi,Perusahaan Tidak Dapat Mengubah Data Usaha Yang Dimohonkan Dan Syarat Permohonan Yang Diunggah.
+17. 17.Setelah Permohonan Anda Disetujui, Anda Akan Menerima Surat Keputusan. Untuk Melihat Surat Keputusan Yang Sudah Diterbitkan.
+18. 18.Berikut Adalah Tampilan Dari Hasil Cetakan SK Pemanfaatan Setelah Permohonan Berhasil Dilakuka
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (18 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid150-890ad55942c93940cd7650205f512ccd.png
+2. https://s3.oss.go.id/oss/cms/blobid145-1634d33c9a1ed042624014ce8f7bd682.png
+3. https://s3.oss.go.id/oss/cms/blobid154-97c4a41b6ead313e500de5267e8d2ffb.png
+4. https://s3.oss.go.id/oss/cms/blobid148-b1b1f2f86292e28945556e2553177ded.png
+5. https://s3.oss.go.id/oss/cms/blobid146-b89caf58e494f7fccf702c0898e1e539.png
+6. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-152e3db0033a0c85b1cd8662ce573b8a.png
+7. https://s3.oss.go.id/oss/cms/blobid156-f8374b3999d565e5eee28945a998b358.png
+8. https://s3.oss.go.id/oss/cms/blobid142-8e7b2b7c39872a21ab34ea016fc087e6.png
+9. https://s3.oss.go.id/oss/cms/blobid143-43c92da0b31c671fd29b28a147b19f85.png
+10. https://s3.oss.go.id/oss/cms/blobid147-0d936379f5c81549924ed573a9705a76.png
+11. https://s3.oss.go.id/oss/cms/blobid151-d1748b3a7476bd150718b58941fd412a.png
+12. https://s3.oss.go.id/oss/cms/blobid149-d95530cc7e639b43e2653f3043742da9.png
+13. https://s3.oss.go.id/oss/cms/blobid153-216c5a96f0b87d256c2d2cebb9186ebb.png
+14. https://s3.oss.go.id/oss/cms/blobid152-c9e733fb305d0359366e1960e919d4da.png
+15. https://s3.oss.go.id/oss/cms/blobid155-fd9d17de3afc48a52b3c159839a04339.png
+16. https://s3.oss.go.id/oss/cms/blobid140-ace8e23efff736197cdba0d5005e6b86.png
+17. https://s3.oss.go.id/oss/cms/Pengajuan-3-3470d8491b1021b1291ce873b1595878.png
+18. https://s3.oss.go.id/oss/cms/blobid144-a5ab8a10f485ba1a94bed05723001110.png

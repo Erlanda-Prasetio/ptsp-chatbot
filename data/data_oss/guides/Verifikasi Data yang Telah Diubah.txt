@@ -1,0 +1,19 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Verifikasi Data yang Telah Diubah
+Source: https://oss.go.id/panduan/68ce2d93cc59ddbd394dcb4e
+Scraped: 2025-10-20T15:27:53.551792
+Total Steps: 0
+Total Images: 6
+════════════════════════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (6 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid3-86381f13df799cd0211b1fad623cf1b0.png
+2. https://s3.oss.go.id/oss/cms/blobid2-44c0df9b34a43bb4142cca221206bf20.png
+3. https://s3.oss.go.id/oss/cms/blobid1-5bb459638846bfe5dcda0bcadedf085e.png
+4. https://s3.oss.go.id/oss/cms/blobid0-a5eca4bbdd4f91ece67b5d94b1892a6e.png
+5. https://s3.oss.go.id/oss/cms/blobid5-71faec9a9d98d6c50b34e3f148b643f5.png
+6. https://s3.oss.go.id/oss/cms/blobid4-5c63416832f2c80803bd68aee485c0b6.png

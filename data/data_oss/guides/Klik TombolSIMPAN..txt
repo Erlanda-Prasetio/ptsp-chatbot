@@ -1,0 +1,39 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik TombolSIMPAN.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144ec
+Scraped: 2025-10-20T15:35:53.686620
+Total Steps: 13
+Total Images: 13
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,PilihMasuk
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3. DashboardPengelola Hak Akses
+4. 4. Pilih MenuPROFIL
+5. 5. UbahData Profil DPMPTSP
+6. 6.Perubahan Profil Telah Berhasil
+7. 7. Pilih MenuPROFIL
+8. 8. PilihPenanggung Jawab
+9. 9. UbahData Penanggung Jawab
+10. 10.Perubahan Penanggung Jawab Telah Berhasil
+11. 11. KlikPengelola Hak Akses, PilihGanti Password
+12. 12. LengkapiFormulir Atur Password
+13. 13.Password Berhasil Diubah
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (13 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid7-6136700326304a9b39388fa2902f0a74.png
+2. https://s3.oss.go.id/oss/cms/blobid1-a24ca0d62cf758d22113d6aa847085e6.png
+3. https://s3.oss.go.id/oss/cms/blobid2-07eea52e6d3d8e3b521003128611bb1d.png
+4. https://s3.oss.go.id/oss/cms/blobid5-8d92d780f90a63e91ec73642c6c79c7e.png
+5. https://s3.oss.go.id/oss/cms/blobid9-af01c441e67ab71d816853bd18dc95a3.png
+6. https://s3.oss.go.id/oss/cms/blobid12-2002d454f60fc1e82738ddab3a54f76e.png
+7. https://s3.oss.go.id/oss/cms/blobid11-65cb4c9f50c33db76017ed19f8daed72.png
+8. https://s3.oss.go.id/oss/cms/blobid3-be2aba176ce4f8474ebc648b674d9975.png
+9. https://s3.oss.go.id/oss/cms/1-portal-masuk-64b74c5988213514ec3eeb4a52444167.png
+10. https://s3.oss.go.id/oss/cms/blobid4-d72c0e64ef0b1f54df9cef34178015e1.png
+11. https://s3.oss.go.id/oss/cms/blobid10-4ccd2ab9ac1b77fde1bf3ffea043b593.png
+12. https://s3.oss.go.id/oss/cms/blobid6-a5bcf46cd0d0cabe30234a769cf3ed6d.png
+13. https://s3.oss.go.id/oss/cms/blobid8-c98d78f806fe2976df1c594882f25135.png

@@ -1,0 +1,53 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Jika terdapatlebih dari 1perusahaan yang menggabungkan diri (surviving company), makaajukan proses mergeruntukperusahaan selanjutnyadengan klikmenu Mergerdanulangi langkah ke-6sampai selesai.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144b1
+Scraped: 2025-10-20T15:36:53.046586
+Total Steps: 18
+Total Images: 22
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 5. Klik MenuPerizinan Berusaha,pilihKelola Usaha,dan pilihMerger
+6. 6. Pengecekan HasilPenarikan Data
+7. 7. LengkapiForm Penarikan Data Merger AHU
+8. 8. BerhasilMenarik Data Akta Penggabungan (Merger)
+9. 9. PeriksaForm Pemilihan Data Merger AHU
+10. 10. BerhasilMenyimpan Data Penggabungan (Merger)
+11. 11.a PeriksaDaftar Perusahaan(Jikahanya 1perusahaan yang menggabungkan diri)
+12. 11.b PeriksaDaftar Perusahaan(Jikalebih dari 1perusahaan yang menggabungkan diri)
+13. 12. PeriksaForm Penggabungan (Merger)
+14. 13. PilihData Proyek pada Daftar Kegiatan Usaha
+15. 14. PeriksaData Badan Usaha/Perusahaan Penerima Penggabungan (Merger)
+16. 15. KonfirmasiPenggabungan Data Proyek
+17. 16.Perizinan Berusaha (NIB) Hasil Penggabungan (Merger) berhasil terbit
+18. 17.Contoh Produk Perizinan Berusaha (NIB) Hasil Penggabungan (Merger)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (22 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture17-(1)-3f22d33bba79224f9bb94d143f663d36.png
+2. https://s3.oss.go.id/oss/cms/Picture20-1c12fd5f70cb93b818e5639a219e982b.webp
+3. https://s3.oss.go.id/oss/cms/Picture7-(1)-51297484a40ae689d924f593942746e2.png
+4. https://s3.oss.go.id/oss/cms/Picture18-acf2574032b73232f3486d2ff05c7ae9.webp
+5. https://s3.oss.go.id/oss/cms/Picture19-0a8402a12e1a05c380bc5b3b380a1298.webp
+6. https://s3.oss.go.id/oss/cms/Picture6-(1)-03a878278d5365463206b13e1f63a570.png
+7. https://s3.oss.go.id/oss/cms/7-75d9dcde6455af19d4583caa1ddbb4cb.png
+8. https://s3.oss.go.id/oss/cms/Picture4-(1)-52dc7581c70249be304c3bf87f67dc05.png
+9. https://s3.oss.go.id/oss/cms/Picture16-(1)-962e6793c75d018b71ef54bddd6dfb57.png
+10. https://s3.oss.go.id/oss/cms/Picture12-(1)-2cf59e6600be3f8c2f1b4c17d1d0ab50.png
+11. https://s3.oss.go.id/oss/cms/1-portal-d9aef6ea278fbdee041d1ba6d9b20253.png
+12. https://s3.oss.go.id/oss/cms/Picture22-a68f04cf84aa6d745f81f73c7d9d7119.webp
+13. https://s3.oss.go.id/oss/cms/merger-396c2b517802faafcae0a61c962e26e1.png
+14. https://s3.oss.go.id/oss/cms/Picture8-(1)-a68706f86591473896e7246a798523c3.png
+15. https://s3.oss.go.id/oss/cms/Picture13-(2)-82517a898603711b6d054cab5d4f2a80.png
+16. https://s3.oss.go.id/oss/cms/Picture9-(1)-4a7ab1c40b8cabecade920dfb53ebfa9.png
+17. https://s3.oss.go.id/oss/cms/Picture11-(1)-b54ea1d706d673d087fbc044d12fd13f.png
+18. https://s3.oss.go.id/oss/cms/Picture1-(1)-05094c7f8e7188775cfe66eff2d73e49.png
+19. https://s3.oss.go.id/oss/cms/Picture10-(1)-01375db4ef37409e7553b364c43be16a.png
+20. https://s3.oss.go.id/oss/cms/Picture21-12923341848d8f7aacdc2b71dfb92e4e.webp
+21. https://s3.oss.go.id/oss/cms/Picture15-(1)-6a22e76e0396c770fd47091a53dd2ebd.png
+22. https://s3.oss.go.id/oss/cms/Picture14-(1)-7c1d37b8f6efb100cda21a5c750e2651.png

@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa OSS Hanya Minta 8 Digit Nomor BPJS Ketenagakerjaan Padahal Nomor Saya 11 Digit?
+Source: https://oss.go.id/id/faq/kategori?id=68e4863c711547977a0df1d1
+Scraped: 2025-10-21T15:18:41.528543
+================================================================================
+
+QUESTION:
+Kenapa OSS Hanya Minta 8 Digit Nomor BPJS Ketenagakerjaan Padahal Nomor Saya 11 Digit?
+
+ANSWER:
+Kolom yang tersedia di sistem OSS tidak diisi dengan nomor BPJS Ketenagakerjaan, melainkan Nomor Pendaftaran Perusahaan (NPP) BPJS Ketenagakerjaan. Untuk mengetahui NPP, Bapak/Ibu dapat menghubungi Call Center BPJS Ketenagakerjaan di nomor 175 atau melalui email di care@bpjsketenagakerjaan.go.id.
+
+================================================================================

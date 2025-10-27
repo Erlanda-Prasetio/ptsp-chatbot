@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Jika telah sesuai, klikKirim Permohonan
+Source: https://oss.go.id/panduan/63a58b94c406b3c60dc5c5ea
+Scraped: 2025-10-20T15:37:40.499149
+Total Steps: 12
+Total Images: 12
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Masuk ke akun anda melaluihttps://oss.go.id/dengan cara klikMASUKdi pojok kanan atas.
+2. 2. KlikButuh Bantuan?
+3. 3. KlikEmail Sudah Tidak Aktif
+4. 4. Pilih jenis pelaku usahaOrang Perseorangan.
+5. 5. Lengkapi FormulirPermohonan Ubah Email
+6. 6. LakukanSwafoto (selfie)
+7. 7. Lakukan swafoto denganmenuliskan kode permohonanyang tertulis pada layar komputer anda di atas sebuah kertas putih.
+8. 8. KlikLanjut
+9. 9. Lengkapi Alamat Email Baru
+10. 10. Periksa Pesan Verifikasi
+11. 11. Verifikasi email Baru
+12. 12. PeriksaData Permohonan Ubah Email
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (12 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid195-5dc6c773dccb48f81066f64a9d4be5e8.png
+2. https://s3.oss.go.id/oss/cms/blobid202-03fc1852c4121c60f71d83eedba1569e.png
+3. https://s3.oss.go.id/oss/cms/blobid204-66a01c91377d1ca62c7bea0c878edb53.png
+4. https://s3.oss.go.id/oss/cms/blobid198-445aaaabc5c02aad6d2cecd69365e7e9.png
+5. https://s3.oss.go.id/oss/cms/blobid197-b13bc3be996d0e413c518486b0989469.png
+6. https://s3.oss.go.id/oss/cms/blobid201-42baca248e45c6e6ca1c078eada7ea74.png
+7. https://s3.oss.go.id/oss/cms/blobid196-cee4b3bf68fc5d379e566ccaa678ebbf.png
+8. https://s3.oss.go.id/oss/cms/blobid205-cbc8949908af14596962a5bbc2a665ee.png
+9. https://s3.oss.go.id/oss/cms/blobid200-dab6f3a40d282c3893b8163f67ffcaef.png
+10. https://s3.oss.go.id/oss/cms/blobid199-378758bc194333eadcb8edf6bab937da.png
+11. https://s3.oss.go.id/oss/cms/7-b49da19e9c481b4205853ce03dc6bf14.png
+12. https://s3.oss.go.id/oss/cms/blobid203-ca2256be7a143cea3147e02e92fda888.png

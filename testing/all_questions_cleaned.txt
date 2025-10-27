@@ -1,0 +1,319 @@
+1. Bagaimana cara centang disclaimer,lalu klik proses permohonan?
+2. Bagaimana prosedur: panduan pencatatan sanksi pencabutan perizinan berusaha (opd)?
+3. Bagaimana prosedur: panduan perubahan penanggung jawab untuk mengelola hak akses (bkpm/dpmptsp)?
+4. Bagaimana prosedur: cetakan produk nomor induk berusaha (nib) akan tampil jika anda klik tombolcetakan nib(langkah 12).?
+5. Bagaimana prosedur: menghapus akun oss mobile apps?
+6. Bagaimana prosedur: pemohon - salinan salinan surat usulan diterima → salinan surat usulan sudah terbit dan dapat dilihat oleh pemohon?
+7. Bagaimana prosedur: cetakan pencabutan pb-umku (klikcetakanpencabutan pb-umku).?
+8. Bagaimana cara klik proses permohonanuntuk melanjutkan?
+9. Bagaimana prosedur: cetakan produk nomor induk berusaha (nib) akan tampil jika anda klik tombolcetakan nib(langkah 12).?
+10. Bagaimana prosedur: pemrosesan verifikasi sertifikat standar oleh administrator kek dan badan pengusahaan kpbpb?
+11. Bagaimana prosedur: pemrosesan persetujuan izin oleh administrator kek dan badan pengusahaan kpbpb?
+12. Bagaimana prosedur: cetakan surat pernyataan pencabutan (kliksurat pernyataan pencabutan)?
+13. Bagaimana prosedur: setelah izin perpanjangan terbit, pelaku usaha dapat melakukan proses perpanjangan kembali, jika dibutuhkan?
+14. Apa yang ditampilkan sistem: sistem secara otomatis akan menghapus user badan pengusahaan kpbpb yang dipilih?
+15. Apa yang dapat dilakukan: pelaku usaha dapat melihat dan unduh cetakan dengan klik “cetak pkkpr” atau “cetak sertifikat standar klinik pratama pendukung (pma)”?
+16. Apa yang terjadi: status permohonan pelaku usaha berubah menjadi izin masih berlaku?
+17. Bagaimana prosedur: panduan pendaftaran aplikasi oss indonesia?
+18. Bagaimana prosedur: panduan login oss indonesia?
+19. Bagaimana prosedur: panduan penambahan kbli?
+20. Bagaimana prosedur: sanksi.?
+21. Bagaimana prosedur: panduan pembuatan nib?
+22. Bagaimana prosedur: nib terbit dan sertifikat standar terbit otomatis?
+23. Apa yang dapat dilakukan: pelaku usaha dapat melakukan proses perizinan berusaha selanjutnya?
+24. Apa yang dapat dilakukan: pembayaran selesai dan anda akan mendapatkan bukti penerimaan negara (bpn)?
+25. Bagaimana cara klik cetak kmkuntuk mencetak salinan kmk?
+26. Bagaimana prosedur: sukses menyimpan data permohonan pse?
+27. Bagaimana cara klik cetak kmk untuk mencetak salinan kmk?
+28. Bagaimana prosedur: pelaku usaha dapat melihat, mengunduh, dan menyimpan “cetak izin” pada menunibyang ada di halamanberanda?
+29. Bagaimana prosedur: perizinan umk perseorangan melalui aplikasi oss indonesia?
+30. Bagaimana prosedur: panduan pencatatan sanksi pencabutan perizinan berusaha (kementerian/lembaga)?
+31. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.?
+32. Bagaimana prosedur: anda dapat melihat, mengunduh, dan mencetak produk perizinan?
+33. Bagaimana cara pilih unduh perizinan berusaha umku jika pelaku usaha ingin melihat, mengunduh, dan menyimpan cetakan perizinan berusaha umku?
+34. Bagaimana cara lalu klik ubah permohonan untuk memperbaiki atau melakukan perbaikan?
+35. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk perizinan berusaha umku tersebut.?
+36. Bagaimana cara klik simpan?
+37. Apa yang dapat dilakukan: anda dapat melihat,mengunduh,danmencetakproduk perizinan berusaha tersebut.?
+38. Bagaimana cara klik dropdown danpilih kegiatan usaha?
+39. Bagaimana prosedur: tax holiday merupakan fasilitas pengurangan pajak penghasilan badan yang dapat diajukan maksimal 1 (satu) tahun sejak tanggal pengajuan kegiatan usaha.?
+40. Bagaimana cara periksa kembali data yang telah dilengkapi apakah sudah sesuai atau belum, jika ingin merubah kembali data penapisan maka dapat mengklikkembali, namun jika sudah sesuai pelaku usaha dapat menyimpan hasil penapisan rencana kegiatan dengan mengkliksimpan.?
+41. Bagaimana prosedur: anda akan berhasil masuk ke dasbor utama aplikasi. ini menandakan bahwa proses pendaftaran akun anda menggunakan verifikasi otp email telah selesai dan berhasil.?
+42. Bagaimana prosedur: tunggu proses selesai hingga muncul notifikasi "nib anda sudah terbit".?
+43. Bagaimana cara pilih menu nib, pelaku usaha dapat melihat dan unduh cetakan dengan klik “unduh nib”?
+44. Bagaimana prosedur: alamat email akun anda telah berhasil diubah dan diverifikasi.?
+45. Bagaimana prosedur: pendaftaran menggunakan otp via email 1?
+46. Bagaimana prosedur: setiap tahapan yang telah selesai akan ditandai dengan centang, sehingga anda bisa mengetahui secara pasti sampai mana proses perizinan anda berjalan. ini membantu anda untuk tidak perlu lagi menebak-nebak status permohonan anda.?
+47. Bagaimana prosedur: verifikasi data yang telah diubah?
+48. Apa yang dapat dilakukan: pelaku usaha dapat memeriksa melalui menu permohonan baru, lalu pilih pratinjau data badan usaha pada formulir badan usaha, kemudian periksa pada bagian data pengurus dan pemegang saham.?
+49. Bagaimana prosedur: contoh pratinjau data badan usaha setelah alih status (status penanaman modal pt : penanaman modal asing atau pma)?
+50. Bagaimana prosedur: pelaku usaha dikatakan telah menyampaikan lkpm apabilastatus lkpmdisetujui?
+51. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetaklkpm yang telah dilaporkan tersebut.?
+52. Apa yang terjadi: status perizinan berubah menjadi “skpbki telah disetujui dan permohonan disetujui” dan pada laman oss menjadi berikut:?
+53. Bagaimana prosedur: pelaku usaha dapat melihat, mengunduh, dan menyimpan cetakan nib/cetakan izin perluasan?
+54. Bagaimana cara lalu centang disclaimerdan klik proses permohonan?
+55. Apa yang dapat dilakukan: pelaku usaha dapat melihat, mengunduh, dan menyimpan cetakan nib/cetakan izin perluasan?
+56. Apa yang terjadi: status pada tanda terima yang dicetak berubah berdasarkan status lkpm yang dilaporkan. sebagai contoh, jika status lkpm saat ini sudah disetujui maka status pada tanda terima akan “disetujui”.?
+57. Bagaimana cara periksa status secara berkala?
+58. Apa yang terjadi: status permohonan pelaku usaha berubah menjadi persetujuan lingkungan masih berlaku (sudah punya persetujuan lingkungan)?
+59. Apa yang dapat dilakukan: anda dapat melihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.?
+60. Bagaimana prosedur: surat pernyataan pencabutan likuidasi?
+61. Bagaimana prosedur: cetakan surat pernyataan pencabutan non likuidasi (kliksurat pernyataan pencabutan)?
+62. Bagaimana prosedur: cetakan surat pernyataan pembatalan (kliksurat pernyataan pembatalan)?
+63. Bagaimana prosedur: setelah melengkapi data pada pelaporan dan mengirim laporan, sistem akan menampilkan notifikasi bahwa laporan telah berhasil dikirim?
+64. Bagaimana prosedur: tampilan pesan masuk di email?
+65. Bagaimana prosedur: tampilan pesan masuk di email?
+66. Bagaimana prosedur: selanjutnya, masukkan kode captcha yang muncul, klik lanjut?
+67. Bagaimana prosedur: penggantian hak akses pelaku usaha lama (non-umk)?
+68. Bagaimana prosedur: penggantian hak akses pelaku usaha lama (umk)?
+69. Bagaimana prosedur: perubahan perizinan berusaha - data pelaku usaha (orang perseorangan)?
+70. Bagaimana prosedur: kegiatan usaha untuk lokasi usaha di lauttelah di disetujuioleh kementerian kelautan dan perikanan (kkp).?
+71. Bagaimana prosedur: pilih cetak sertifikat standar klinik pratama pendukung (pma) untuk melihat, cetak dan unduh produk?
+72. Bagaimana cara pilih menu nib, pelaku usaha dapat melihat dan unduh cetakan dengan klik “cetak izin” atau “cetak nib”?
+73. Bagaimana prosedur: pelaku usaha dapat melihat, mengunduh, dan menyimpan dengan memilihcetak perizinan berusaha umku?
+74. Bagaimana cara lalu pilihlihat detail, jika anda ingin melihat detail dari riwayat perubahan data badan usaha atau pilih cetak nib, jika anda ingin melihat cetakan nib dengan nama baru perusahaan yang telah diubah?
+75. Bagaimana prosedur: cetakan surat pernyataan pencabutan likuidasi (klikpernyataan pencabutan)?
+76. Bagaimana prosedur: contoh cetakanpencabutan izin usaha jasa konstruksi asing?
+77. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk pencabutan kpjptla tersebut.?
+78. Bagaimana cara klik tombolcetak nib, lalu sistem akan menampilkannibyang selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.?
+79. Bagaimana prosedur: cetakan surat pernyataan pencabutan (kliksurat pernyataan pencabutan).?
+80. Bagaimana prosedur: cetakan surat pernyataan pencabutan(klik surat pernyataan pencabutan).?
+81. Bagaimana prosedur: klikcetakan nibuntuk melihat cetakan nomor induk berusaha (nib) pelaku usaha.?
+82. Bagaimana prosedur: tampilan form ketenagakerjaan jikamanajer berasal warga negara asing (wna)?
+83. Bagaimana prosedur: pelaporan badan usaha jasa konstruksi asing (bujka)?
+84. Bagaimana prosedur: pencabutan badan usaha luar negeri perdagangan berjangka asing (pba)?
+85. Bagaimana prosedur: anda juga dapat melihatdokumen daripersyaratan dasardanpernyataan mandiridalam data usaha?
+86. Bagaimana prosedur: pencarian data profil pelaku usaha melalui oss rba (kementerian dan lembaga)?
+87. Bagaimana prosedur: pencarian data profil pelaku usaha melalui oss rba (opd)?
+88. Bagaimana prosedur: selanjutnya anda dapatmelihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.?
+89. Bagaimana prosedur: pilihlihat resume,maka sistem akan menampilkandetail resume perizinan berusahayang pernah dilakukan?
+90. Bagaimana prosedur: perubahan perizinan berusaha - data pelaku usaha (badan usaha)?
+91. Bagaimana prosedur: jika pilih sektor, maka sistem akan menampilkan data permohonan sesuai sektor yang anda input.?
+92. Bagaimana cara klik cetak notifikasi untuk mencetak surat keputusan?
+93. Bagaimana cara klik tombolokdan perubahan skala usaha telah berhasil.?
+94. Apa yang dapat dilakukan: khusus untuk mendapatkan dokumen lingkungan (ukl-upl maupun amdal), maka anda perlumelakukanpemenuhan persyaratankepada instansi sesuai kewenangannyauntuk mendapatkan persetujuan pkplh/skkl yang telah terverifikasi.?
+95. Apa yang ditampilkan sistem: sistem akan menampilkan siup3a yang selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.?
+96. Bagaimana prosedur: panduan pengawasan insidental - koordinator (administrator kek/badan pengusahaan kpbpb)?
+97. Bagaimana cara pilih menu nibpada halamandashboarduntuk dapat melihat cetakan pkkpr, persetujuan rkl-rpl rinci, dan izin?
+98. Bagaimana prosedur: selanjutnya anda dapatmelihat, mengunduh, dan mencetakproduk perizinan berusaha umku tersebut.?
+99. Bagaimana cara klik proses permohonanuntuk melanjutkan?
+100. Apa yang dapat dilakukan: anda juga dapat melihat dokumen daripersyaratan dasardanpernyataan mandiridalam data usaha?
+101. Bagaimana prosedur: unit perizinan juga dapat melihatdraft lampiran teknis dan lampiran teknispada tabstandar usaha/persyaratan?
+102. Bagaimana prosedur: pelaku usaha dapat memeriksa kembali perubahan data kpjtla dengan mengulangi langkah4(perubahan data perwakilan).?
+103. Bagaimana cara pilih hapus untuk melanjutkan atau pilih batal jika anda tidak ingin melanjutkan?
+104. Bagaimana prosedur: status pemenuhan sudahdisetujuidan status izin menjadiizin terbit, pilih cetak perizinan berusaha umkuuntuk dapat melihat, mencetak dan mengunduh cetakan pb-umku?
+105. Bagaimana prosedur: lihatstandar usaha/persyaratan?
+106. Bagaimana prosedur: notifikasi hasil final kkpr akan dikirim ke pelaku usaha?
+107. Bagaimana cara klik tombolsimpan.?
+108. Bagaimana prosedur: panduan pengawasan insidental - koordinator (keminvest/bkpm dan dpmptsp)?
+109. Bagaimana cara centang disclaimer,lalu klik proses permohonan?
+110. Bagaimana prosedur: anda dapat memeriksadaftar permohonan diterbitkanmelalui menupenerbitan perizinan berusaha?
+111. Bagaimana cara klik proses permohonan?
+112. Bagaimana prosedur: jika pilih kab/kota/provinsi, maka sistem akan menampilkan data permohonan sesuai kabupaten/kota/provinsi yang anda input,?
+113. Bagaimana cara klik cetak sk pemanfaatanuntuk mencetak salinan pemanfaatan?
+114. Bagaimana prosedur: jika terdapatlebih dari 1perusahaan yang menggabungkan diri (surviving company), makaajukan proses mergeruntukperusahaan selanjutnyadengan klikmenu mergerdanulangi langkah ke-6sampai selesai.?
+115. Bagaimana cara klik cetak notifikasiuntuk mencetak salinan notifikasi?
+116. Bagaimana cara klik tombolcetak siup3auntuk mendapatkan dokumen siup3a.?
+117. Bagaimana prosedur: panduan ubah nomor ponsel yang tidak aktif - orang perseorangan?
+118. Bagaimana prosedur: jika telah sesuai, klikkirim permohonan?
+119. Bagaimana prosedur: anda dapat memeriksadaftar permohonan disetujuimelalui menupenerbitan perizinan berusaha?
+120. Bagaimana prosedur: panduan ubah email akun oss yang tidak aktif untuk badan usaha?
+121. Bagaimana prosedur: panduan ubah email akun oss yang tidak aktif untuk badan usaha?
+122. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk laporan kantor perwakilan jasa penunjang tenaga listrik asing (kpjptla)?
+123. Apa yang ditampilkan sistem: berhasil masuk,sistem akan menampilkandashboard useryang berarti akun k/l/d sudah dapat digunakan setelah melakukan aktivasi 2fa?
+124. Bagaimana prosedur: kliksimpan?
+125. Bagaimana cara lalu kliksimpan?
+126. Bagaimana prosedur: pencabutan likuidasi non rba berbasis risiko bagi pelaku usaha dengan nib oss 1.0/oss 1.1 (non-umk)?
+127. Bagaimana cara klik cetak kmk untuk mencetak salinan kmk?
+128. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk laporan kp3a pmse?
+129. Bagaimana prosedur: pencabutan likuidasi non rba berbasis risiko bagi pelaku usaha dengan nib oss 1.0/oss 1.1 (umk)?
+130. Bagaimana prosedur: pelaku usaha dapat melihat, mengunduh, dan menyimpan cetakan perizinan berusaha?
+131. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk laporan kantor perwakilan perusahaan perdagangan asing (kp3a) non pmse?
+132. Bagaimana prosedur: pelaporan kantor perwakilan perusahaan asing (kppa)?
+133. Bagaimana cara lengkapi parameter kewajiban dokumen lingkungan, lalu klik tombollanjut?
+134. Apa yang dapat dilakukan: setelah proses perizinan dan dokumen pemenuhan pesyaratan terverifikasi, anda akan mendapatkan dokumennib dan izin?
+135. Bagaimana cara klik tombol lanjut?
+136. Bagaimana prosedur: perubahan status permohonan menjadi ‘menunggu verifikasi bukti bayar pnpb’,setelah anda memperbaiki dokumen persyaratan yang dibutuhkan?
+137. Bagaimana prosedur: perizinan usaha badan usaha luar negeri - surat tanda pendaftaran waralaba (stpw) bagi: pemberi waralaba berasal dari luar negeri?
+138. Bagaimana prosedur: perizinan usaha badan usaha luar negeri - penyelenggara sistem elektronik (pse) asing?
+139. Bagaimana cara lalu klik ubah permohonanuntuk memperbaiki atau melakukan perbaikan?
+140. Bagaimana cara klik tombol okdan perubahan skala usaha telah berhasil.?
+141. Bagaimana cara klik tombollanjut?
+142. Apa yang dapat dilakukan: selanjutnya anda dapat melihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut dengan klik tombol cetak nib.?
+143. Apa itu sumber pembiayaan pada isian data di Sistem OSS?
+144. Bagaimana cara pencabutan KPPA?
+145. Bagaimana prosedur: saya tidak bisa cabut kppa karena muncul notifikasi masa berlaku loa belum terisi?
+146. Bagaimana prosedur mengundang BKPM sebagai narasumber?
+147. Adakah Pengajuan Sertifikat Halal yang Gratis?
+148. Bagaimana cara mengajukan bantuan UMKM?
+149. Kenapa Saat Daftar Akun OSS Muncul Notifikasi Gagal Update ke Database?
+150. Sanksi apa yang dikenakan jika saya tidak lapor LKPM?
+151. Bagaimana cara memperoleh Rekomendasi Alih Status ITAS ke ITAP?
+152. Apakah cetakan OSS produk OSS per tanggal 5 Oktober 2025 sudah menggunakan format baru sebagaimana Peraturan Menteri Investasi dan Hilirisasi/Kepala BKPM Nomor 5 Tahun 2025?
+153. Bagaimana cara melihat sanksi LKPM yang saya terima?
+154. Di mana alamat Kementerian Investasi dan Hilirisasi/BKPM?
+155. Apakah ada penyesuaian form isian di Sistem OSS?
+156. Apakah pada di 5 Oktober 2025 penanaman di Sistem OSS sudah menggunakan Lampiran I dan II PP 28?
+157. Apakah pada peraturan terbaru kegiatan usaha pendukung harus tercantum pada Akta?
+158. Apakah saat ini jenis kegiatan usaha pendukung dapat digunakan untuk kegiatan yang menghasilkan profit?
+159. Apa saja faktor yang menentukan Nilai investasi bagi UMKM?
+160. Apakah modal disetor/ditempatkan PMA dapat dipindahkan dari rekening badan usaha?
+161. Apakah terdapat ketentuan nilai investasi bagi PMA untuk kegiatan usaha pembangunan dan pengusahaan stasiun pengisian kendaraan listrik umum?
+162. Apakah Peraturan BKPM Nomor 4 Tahun 2021 masih aktif?
+163. Apakah Jangka Waktu Perkiraan Beroperasi/Produksi dapat diubah?
+164. Apakah terdapat sanksi apabila pelaku usaha memindahkan modal ditempatkan/disetor sebelum 12 (dua belas) bulan?
+165. Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar?
+166. Di mana diatur mengenai syarat investasi dan besaran modal untuk PMA?
+167. Hal baru apa yang ada di PP 28 Tahun 2025 dibandingkan dengan PP 5 Tahun 2021?
+168. Apakah akan ada format LKPM baru atas penerapan PP 28 Tahun 2025?
+169. Apakah PT Perseorangan perlu memiliki akta? Apakah PT Perorangan perlu memiliki akta? Apakah PT Perorangan perlu memiliki akta? Apakah Perseroan Perorangan perlu memiliki akta?
+170. Kenapa Muncul Keterangan d/h pada Cetakan NIB Setelah Ubah Nama Perusahaan?
+171. Haruskah KBLI 10763 ditambahkan bersamaan dengan KBLI 01270 karena terintegrasi?
+172. Apakah API bisa diubah?
+173. Bagaimana cara perpanjangan izin KPPA?
+174. Apakah perdagangan eceran bisa memilih API-U?
+175. Adakah perbedaan antara NITKU dengan NIB?
+176. Kapan umur API mulai dihitung?
+177. Apakah Yayasan bisa memiliki API-U?
+178. Produk apa saja yang wajib bersertifikat halal?
+179. Bolehkah kegiatan usaha perdagangan eceran melakukan ekspor?
+180. Apakah KSO atau JO Bisa Memiliki NIB?
+181. Apakah sertifikat halal ada masa berlaku?
+182. Bagaimana Cara Mengetahui Lokasi Saya Sudah Memiliki RDTR yang Terintegrasi dengan OSS?
+183. Mengapa muncul Nomor Izin Penanaman Modal (NIPM )di akun PT PMA saat akses menu Permohonan Baru?
+184. Bagaimana cara cek KBLI single purpose? Apakah KBLI saya termasuk single purpose?
+185. Apakah Modal Dasar Menentukan Skala Usaha?
+186. Bisakah API-U Digunakan untuk KBLI 47?
+187. Apakah KBLI 52291 bisa digabung dengan KBLI lain?
+188. Bolehkah KPPA Melakukan Kegiatan yang Menghasilkan Keuntungan?
+189. Apakah perdagangan besar dan perdagangan eceran bisa digabung?
+190. Apakah penanaman modal asing di PP 28/2025 masih di angka Rp10 Miliar? Apakah ada perubahan tentang BUJKA PMA di PP 28/2025? Bagaimana ketentuan fiktif positif persyaratan dasar dalam PP 28/2025? Apakah PP 5 Tahun 2021 masih berlaku? Kapan PP 28 Tahun 2025 diterapkan pada sistem OSS? Terkait PP 28 tahun 2025 peraturan apa saja yang berubah di OSS?
+191. Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif?
+192. Apakah nama perusahaan dapat dicantumkan pada NIB perorangan?
+193. Berapa ketentuan modal untuk skala usaha UMK dan Non UMK?
+194. Berapa Ketentuan Persentase Modal Asing dalam Akta Pendirian Perusahaan?
+195. Berapa ketentuan nilai investasi untuk PMA?
+196. Bagaimana cara menentukan KBLI yang sesuai untuk kegiatan usaha saya?
+197. Apakah semua KBLI 2017 wajib diubah menjadi 2020?
+198. Apakah PMA bisa mendirikan CV/Yayasan/Koperasi di Indonesia?
+199. Kenapa KBLI pada Cetakan NIB Tidak Muncul Tingkat Risiko?
+200. Apakah saya harus menambahkan KBLI Perdagangan untuk distribusi jika sudah memiliki KBLI Industri?
+201. Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda?
+202. Apakah semua perizinan berusaha butuh PB-UMKU?
+203. Apakah pengurusan izin sumur bor/gali yang sebelumnya tidak memiliki izin akan dikenakan denda ?
+204. Berapa lama masa berlaku Izin Pengusahaan Air Tanah (SIPA) atau Persetujuan Penggunaan Air Tanah?
+205. Apakah terdapat informasi detail format pemenuhan persyaratan Izin Pengusahaan Air Tanah (SIPA)?
+206. Bagaimana Cara Mengajukan Kemitraan bagi UMKM?
+207. Apa Saja KBLI yang Diwajibkan Bermitra dengan UMKM?
+208. Apakah diperbolehkan menambah debit yang tercantum dalam SIPA ?
+209. Apakah sumur bor/gali yang sebelumnya tidak memilki izin atau izinnya kadaluarsa dapat diurus izinnya?
+210. Berapa lama waktu yang dibutuhkan untuk mengurus Izin Pengusahaan Air Tanah (SIPA) atau Persetujuan Penggunaan Air Tanah ?
+211. Apakah pengeboran air tanah memerlukan izin ?
+212. Bagaimana cara mengurus izin baru Pengusahaan Air Tanah (SIPA) dan Persetujuan Penggunaan Air Tanah ?
+213. Apakah pihak Badan Geologi c.q. Pusat Air Tanah Dan Geologi Tata Lingkungan (PATGTL) akan tetap melakukan pengawasan konstruksi dan pumping test seperti mekanisme sebelumnya?
+214. Bagaimana cara melakukan perubahan PB UMKU?
+215. Kenapa data Akta Pendirian tidak muncul di LKPP SIKaP?
+216. Bagaimana cara menghapus PB UMKU?
+217. Bagaimana Cara Pembuatan Peta Polygon?
+218. 1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?
+219. Kenapa muncul notifikasi KKPR Tumpang Tindih saat unggah file polygon?
+220. Kenapa Saat Cek RDTR Muncul Keterangan 'RDTR yang Anda Pilih Tidak Ada'?
+221. Bagaimana cara perpanjangan PKKPR 181?
+222. Bagaimana jika telah memiliki Perizinan Lingkungan yang masih berlaku?
+223. Apa saja persetujuan lingkungan yang harus saya miliki untuk kegiatan usaha yang saya jalankan?
+224. Bagaimana cara mendapatkan KKPR untuk pelaku usaha UMK?
+225. Apa pengertian dari KKPR?
+226. Bagaimana prosedur: 1. kenapa peta/map tidak muncul saat pengisian data usaha? 2. kami tidak bisa mengisi kolom garis lintang dan bujur?
+227. Apakah diperbolehkan jika luas tanah lebih besar dibanding luas bangunan untuk pengajuan PKKPR?
+228. Bisakah satu NIK memiliki lebih dari satu akun OSS?
+229. Apa yang dimaksud dengan PBG dan SLF?
+230. Bisakah jenis penanaman modal PMA diubah ke PMDN?
+231. Apa yang Termasuk Nilai Investasi Mesin?
+232. Berapa lama masa berlaku PKKPR?
+233. Bagaimana alur permohonan sertifikat halal self declare?
+234. Bagaimana alur permohonan sertifikat halal reguler?
+235. Bagaimana cara lihat cetakan izin lama KBLI data migrasi?
+236. Apa yang terjadi jika tidak melakukan pemenuhan persyaratan dalam 90 hari?
+237. Kenapa Akta Lama Masih Muncul di SIKaP Padahal Sudah Punya Akta Terbaru?
+238. Sudah Ubah di Akta, Bagaimana Cara Ubah Data Maksud dan Tujuan di OSS?
+239. Apakah Perubahan Data Usaha Menyebabkan PB-UMKU yang Telah Terbit Hilang?
+240. Adakah Format untuk Pemenuhan Persyaratan?
+241. Kenapa Status Izin UMKU Saya Terbit Sementara?
+242. Bagaimana prosedur: tidak bisa tambah kbli perdagangan besar karena harus isi nipm?
+243. Mengapa Muncul Notifikasi 'Kesalahan Sistem' Saat Akses Menu Permohonan Baru?
+244. Apa saja jenis badan usaha yang termasuk badan hukum?
+245. Kenapa Saat Isi Form Data Usaha Muncul Keterangan 'Error dalam memproses data proyek'?
+246. Apakah perubahan penanggung jawab teknis mempengaruhi persyaratan dasar yang sudah terbit?
+247. Bagaimana Cara Ubah Nama Perusahaan?
+248. Bagaimana Cara Melakukan Perpanjangan Surat Izin Operasional Badan Usaha Jasa Pengamanan (SIO BUJP)?
+249. Bagaimana prosedur: nib tidak bisa dicetak karena kbli null?
+250. Bagaimana cara cabut NIB karena sudah tidak menjalankan kegiatan usaha? Bagaimana cara hapus NIB saya karena perusahaan sudah bubar?
+251. Kenapa saat validasi risiko muncul notifikasi 'Skala usaha Anda adalah mikro, Anda tidak dapat melanjutkan pengisian data usaha ini'?
+252. Jangka Waktu Produksi Diisi Berdasarkan Apa?
+253. Bagaimana Cara Mengubah Jenis API?
+254. Berapa lama proses pencabutan Likuidasi?
+255. Bagaimana mengisi data negara asal yang kosong dari data AHU?
+256. Bagaimana Cara Ubah Negara Asal pada Data Pengurus dan Pemegang Saham?
+257. Bagaimana prosedur: 1. bagaimana cara ubah npwp? 2. saya mau merubah/mengubah data npwp?
+258. Bagaimana Cara Ubah Alamat Kegiatan Usaha?
+259. Bagaimana cara melakukan penapisan perizinan lingkungan?
+260. Mengapa NIB saya belum terbit?
+261. Bagaimana Cara Validasi Risiko Ulang?
+262. Bagaimana Cara Mengubah Nilai Investasi?
+263. Apa yang dimaksud dengan proses penapisan perizinan lingkungan?
+264. Bagaimana cara memperbaiki dokumen persyaratan?
+265. Saat Ubah Data Badan Usaha, Kenapa Muncul Notifikasi Korporasi Dalam Kondisi Diblokir?
+266. Mengapa saya tidak dapat mengisi kolom deskripsi kegiatan usaha?
+267. Kenapa OSS Hanya Minta 8 Digit Nomor BPJS Ketenagakerjaan Padahal Nomor Saya 11 Digit?
+268. Bagaimana cara melakukan pemenuhan persyaratan pada OSS?
+269. Bagaimana cara melakukan penghapusan bidang usaha? Bagaimana cara melakukan penghapusan KBLI? Bagaimana cara mencabut KBLI? Bagaimana cara mencabut izin?
+270. Kenapa Saat Tambah Data Usaha Muncul Notifikasi Data Tidak Sesuai AHU?
+271. Bagaimana cara melakukan perpanjangan perizinan berusaha pada OSS?
+272. Bagaimana cara melakukan perluasan pada OSS?
+273. Bagaimana cara menambahkan Angka Pengenal Impor (API) pada NIB?
+274. Bagaimana cara melakukan perubahan email yang ada pada cetakan NIB?
+275. Bagaimana cara menerbitkan NIB melalui OSS?
+276. Badan usaha kami ingin menambah KBLI, apakah harus terdaftar di akta?
+277. Bagaimana cara melakukan penambahan KBLI? Bagaimana cara tambah bidang usaha?
+278. Bagaimana cara melakukan migrasi kegiatan data usaha?
+279. Bagaimana cara melakukan migrasi hak akses?
+280. Bagaimana cara menambah KBLI pendukung?
+281. Kenapa Icon Pensil Tidak Muncul di Menu Pengembangan Saat Migrasi KBLI?
+282. Apakah pengisian realisasi modal tetap dan modal kerja harus sama dengan rencana nilai penanaman modal?
+283. Kenapa Kolom Modal Kerja Abu-abu Saat Lapor LKPM Tahap Konstruksi?
+284. Kenapa KBLI Tidak Muncul Saat Penyampaian LKPM?
+285. Kalau usaha belum berjalan atau tidak ada tambahan realisasi investasi, apakah tetap wajib menyampaikan LKPM?
+286. Mengapa Diminta Mengisi Kategori Permasalahan Padahal Sudah Saya Isi?
+287. Bagaimana prosedur: tidak bisa mengirimkan lkpm?
+288. Bagaimana prosedur: 1. saya terkendala saat pengisian lkpm 2. kenapa saya tidak bisa lapor lkpm 3. saya tidak bisa kirim laporan lkpm?
+289. Bagaimana cara mengisi LKPM?
+290. Kenapa Kolom Perubahan Nilai Total Akumulasi LKPM Berwarna Abu-abu?
+291. Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tetap wajib menyampaikan LKPM?
+292. Jika saya tidak menyampaikan LKPM pada periode sebelumnya, apakah saya bisa menggabungkan nilai realisasi periode tersebut dengan periode yang sedang berjalan?
+293. Berapa lama proses perubahan email yang sudah tidak aktif?
+294. Kenapa Data Tidak Ditemukan Saat Ingin Ubah Penanggung Jawab?
+295. Apakah kantor perwakilan wajib memiliki NPWP?
+296. Haruskah Memiliki NPWP untuk Daftar Akun OSS?
+297. Apa saja dokumen persyaratan perizinan berusaha KPPA?
+298. Lupa NIB dan Hak Akses yang Terdaftar Saya sudah punya akun OSS, namun saya Lupa NIB dan username akunnya. Bagaimana solusinya?
+299. Apakah perkumpulan bisa membuat NIB?
+300. Kenapa saat melakukan pendaftaran badan usaha muncul notifikasi 'Data Registrasi Tidak Sesuai dengan Data Pengurus'? Kenapa saat melakukan perubahan penanggung jawab muncul notifikasi 'Data penangung jawab Tidak Sesuai dengan Data Pengurus'?
+301. Bagaimana prosedur: saya tidak bisa ubah email lewat profil karena kode verifikasi dikirim ke email lama?
+302. Bagaimana prosedur: saya tidak bisa ubah nomor hp perorangan melalui profil karena kode verifikasi dikirim ke nomor hp lama yang sudah tidak aktif?
+303. Bagaimana Cara Dapat NIB Kantor Perwakilan Perusahaan Asing (KPPA)?
+304. Kenapa saat ubah email akun perorangan muncul notifikasi 'Terjadi kesalahan dalam mengirim notifikasi email'?
+305. Bagaimana Cara Ubah Email Jika Direktur Sudah Ganti dan Tidak Dapat Dihubungi?
+306. Bagaimana prosedur: saya terkendala pendaftaran akun oss muncul notifikasi 'sudah melewati batas registrasi nik harian?
+307. Bagaimana cara melakukan perubahan status usaha saya?
+308. Bagaimana prosedur: saya terkendala pendaftaran akun oss muncul notifikasi data tidak ditemukan?
+309. Bagaimana cara melakukan pendaftaran akun OSS?
+310. Apa hal dasar yang perlu diketahui untuk berinvestasi di Jawa Tengah?
+311. Bagaimana prosedur: berapa nilai minimal investasi untuk perusahan penanaman modal asing (pma) langsung?
+312. Bagaimana cara saya mendirikan perusahaan di Indonesia?
+313. Selain mendirikan sebuah perusahaan (PT.PMA) apakah ada acara lain untuk menilai pasar Indonesia?
+314. Bagaimana saya membuka rekening bank?
+315. Izin apa yang dibutuhkan untuk memulai usaha?
+316. Apakah ada pedoman dan prosedur untuk mendapatkan izin usaha di Indonesia?
+317. Apakah ada fasilitas fiskal yang diberikan oleh Pemerintah bagi investor asing?
+318. Bagaimana dengan tax holiday bagi investor asing?
+319. Disamping fasilitas fiskal, apakah ada fasilitas lain yang diberikan?

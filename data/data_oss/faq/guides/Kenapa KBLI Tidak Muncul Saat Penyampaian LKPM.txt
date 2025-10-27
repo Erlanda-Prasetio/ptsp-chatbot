@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa KBLI Tidak Muncul Saat Penyampaian LKPM?
+Source: https://oss.go.id/id/faq/kategori?id=68e485d57795640efd3eef84
+Scraped: 2025-10-21T15:20:18.401414
+================================================================================
+
+QUESTION:
+Kenapa KBLI Tidak Muncul Saat Penyampaian LKPM?
+
+ANSWER:
+KBLI tidak muncul saat penyampaian LKPM dapat disebabkan oleh KBLI yang belum dilakukan migrasi, pastikan KBLI Bapak/Ibu sudah dilakukan migrasi atau belum selesai proses penerbitan pada NIB sehingga belum terbit pada lampiran NIB. Panduan lengkap migrasi dapat dilihat melalui tautan berikut: UMK: https://oss.go.id/panduan/635970086345c7d71a814497 Non UMK: https://oss.go.id/panduan/635970086345c7d71a8144b6 Apabila KBLI sudah dilakukan migrasi namun tetap tidak muncul, maka silakan memeriksa proyek inline. Proyek inline dapat dilihat di bagian sudut kiri bawah pada KBLI yang muncul di laman pertama LKPM. Jika terdapat proyek inline, klik YA kemudian akan muncul Tabel Inline. Jika KBLI dan Nomor Kegiatan Usaha muncul pada Tabel Inline, Bapak/Ibu dapat menyampaikan KBLI pada nomor Kegiatan usaha utamanya.
+
+================================================================================

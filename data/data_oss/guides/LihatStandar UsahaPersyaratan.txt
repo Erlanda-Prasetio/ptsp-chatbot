@@ -1,0 +1,61 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: LihatStandar Usaha/Persyaratan
+Source: https://oss.go.id/panduan/635970086345c7d71a8144eb
+Scraped: 2025-10-20T15:35:43.381779
+Total Steps: 17
+Total Images: 31
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, PilihMasuk
+2. 2. Masukkan UsernameDanPassword, Lalu Klik TombolMASUK
+3. 3. Dashboard OPD
+4. 4. Pilih Menu Pemrosesan Perizinan | Pemenuhan Persyaratan
+5. 5. Pilih Data Pelaku UsahaYang InginDiverifikasi, Lalu KlikProses Verifikasi
+6. 6. OPDDapat MemeriksaData Pelaku Usaha,Data Usaha, DanDokumen Yang Diunggah
+7. 7. Lengkapi Form Persetujuan Permohonan
+8. 8. Status Permohonan Pelaku Usaha Berubah Sesuai Aksi Yang Dilakukan Oleh Pemroses
+9. 1. Dashboard Unit Perizinan
+10. 2. Pilih Menu Pemrosesan Perizinan | Persetujuan Permohonan
+11. 3. Pilih Data Pelaku UsahaYang InginDiverifikasi, Lalu KlikProses Persetujuan
+12. 4. Unit PerizinanDapat MemeriksaData Pelaku Usaha,Data Usaha, DanDokumen Yang Diunggah
+13. 5. Lengkapi Form Persetujuan Permohonan
+14. 6. Status Permohonan Pelaku Usaha Berubah Menjadi Persetujuan Perizinan
+15. 1. Dashboard Unit Pengelola Hak Akses
+16. 3. Pilih Data Pelaku Usaha Yang Ingin Dilihat, Lalu Klik Lihat Data
+17. 4. Pengelola Hak AksesDapat MemeriksaData Pelaku Usaha,Data Usaha, DanDokumen Yang Diunggah
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (31 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid49-c7fa1dd80849cbca0dc359657da1eb0a.png
+2. https://s3.oss.go.id/oss/cms/blobid38-459e5f4805891057b5d9f408d767bf70.png
+3. https://s3.oss.go.id/oss/cms/blobid32-8b9442f93a5d252611bbb01c276491b4.png
+4. https://s3.oss.go.id/oss/cms/blobid51-a0e507062fcd70ff420e4f8aa0349217.png
+5. https://s3.oss.go.id/oss/cms/blobid26-73eed1eac7f75293cdee54314ea73603.png
+6. https://s3.oss.go.id/oss/cms/blobid50-1ab2ebfdc3ef6b136bf424a7b71d389b.png
+7. https://s3.oss.go.id/oss/cms/blobid27-39cce8fff13d28cdba4f4b23d6fae83f.png
+8. https://s3.oss.go.id/oss/cms/blobid35-8409773107bdcb11b3d923e1d338cf9e.png
+9. https://s3.oss.go.id/oss/cms/blobid45-f039f34c5db873f76d5fd86eb4fee7da.png
+10. https://s3.oss.go.id/oss/cms/1-portal-masuk-7594f273c8fea19107239627878e88c1.png
+11. https://s3.oss.go.id/oss/cms/blobid24-ada703c56940ca6b1299c93d57cef5c7.png
+12. https://s3.oss.go.id/oss/cms/blobid33-0f5da502854173e3beed9ec4863bf87e.png
+13. https://s3.oss.go.id/oss/cms/blobid23-6b4a7ef5ca5e750227519a9888ea7d59.png
+14. https://s3.oss.go.id/oss/cms/blobid43-23ad73eae14aa9da1215b3816c283fcb.png
+15. https://s3.oss.go.id/oss/cms/blobid41-481fc1cc054319fc3126bb44932728ff.png
+16. https://s3.oss.go.id/oss/cms/blobid30-945c49722946a5f56061f913b35fce20.png
+17. https://s3.oss.go.id/oss/cms/blobid25-3c0d9f6517d808e75abb83a90947d068.png
+18. https://s3.oss.go.id/oss/cms/blobid22-76d68a500e4e8fb806accb8e99a118bd.png
+19. https://s3.oss.go.id/oss/cms/blobid39-1affa7bed191845c9941de3568c7f5e3.png
+20. https://s3.oss.go.id/oss/cms/blobid34-10230e682d13b83724ded48a1491c140.png
+21. https://s3.oss.go.id/oss/cms/blobid37-807e242df1b9b7524e3977231ec4b338.png
+22. https://s3.oss.go.id/oss/cms/blobid31-d6b74f44929b5f4e205e8fbbc99e8ba9.png
+23. https://s3.oss.go.id/oss/cms/blobid48-442eaeaaaa80a6d1c618b8bdc2a25461.png
+24. https://s3.oss.go.id/oss/cms/blobid29-64df93195d23b169c1baabf0723d8fbc.png
+25. https://s3.oss.go.id/oss/cms/blobid40-e298f8bc5c92bfdf22c1d3ec6ea16b6e.png
+26. https://s3.oss.go.id/oss/cms/blobid36-5394300e7cc3df5f24ffadca2dc2dcbf.png
+27. https://s3.oss.go.id/oss/cms/blobid44-c7653485894c2b14b5cc095e7ae2a397.png
+28. https://s3.oss.go.id/oss/cms/blobid46-07769626979953913af111c3b38c0658.png
+29. https://s3.oss.go.id/oss/cms/blobid47-036918da7e3f7ba9c018ad9ec2fd3940.png
+30. https://s3.oss.go.id/oss/cms/blobid42-7eaae2fb3b072655555127dc614fd9b4.png
+31. https://s3.oss.go.id/oss/cms/blobid28-4f7590138c72a6843c5272f471920c47.png

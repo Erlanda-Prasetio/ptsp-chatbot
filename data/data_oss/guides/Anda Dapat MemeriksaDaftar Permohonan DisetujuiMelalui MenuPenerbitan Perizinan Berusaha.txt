@@ -1,0 +1,56 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Anda Dapat MemeriksaDaftar Permohonan DisetujuiMelalui MenuPenerbitan Perizinan Berusaha
+Source: https://oss.go.id/panduan/6470839bd033753dd77d89ba
+Scraped: 2025-10-20T15:37:55.573203
+Total Steps: 11
+Total Images: 32
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPasswordAnda SesuaiHak Akses, Lalu Klik TombolMASUK
+3. 1.DashboardAdministrator Verifikator
+4. 2. Pilih MenuVerifikasi Pemenuhan Persyaratan
+5. 3. Pilih Data Pelaku Usaha Yang Ingin Disetujui, Lalu KlikProses Verifikasi
+6. 4. CekData Perizinan,Data Pelaku Usaha,Data Kegiatan UsahaDanDokumenYang Diunggah
+7. 5. PKKPR Berhasil Diterbitkan
+8. 5. RKL-RPL Berhasil Diterbitkan
+9. 5. Perizinan Berusaha Berhasil Diterbitkan
+10. 4. CekData Perizinan,Data Pelaku Usaha,Data Kegiatan UsahaDanData UMKU
+11. 5. Perizinan Berusaha UMKU Berhasil Diterbitkan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (32 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid4-98814236ec8e652970045e2559348b14.png
+2. https://s3.oss.go.id/oss/cms/blobid9-4b4e060891ce28b62886f21ff5489cc4.png
+3. https://s3.oss.go.id/oss/cms/blobid27-b2fd4bc3893ce433f61a3360ba9ee169.png
+4. https://s3.oss.go.id/oss/cms/blobid5-998639eca210735d9384d1307a683462.png
+5. https://s3.oss.go.id/oss/cms/blobid20-b3c3ee13fc10466b2c645e4b7e63b7c1.png
+6. https://s3.oss.go.id/oss/cms/blobid1-279a641bf171b60c0036868106d15a0f.png
+7. https://s3.oss.go.id/oss/cms/blobid29-46e9210111bd59dc97d772d62372388b.png
+8. https://s3.oss.go.id/oss/cms/blobid30-03e26f3f80cd6157fc5303391b70b120.png
+9. https://s3.oss.go.id/oss/cms/blobid28-75fefad702d40686b1fa1e303e5c26ee.png
+10. https://s3.oss.go.id/oss/cms/blobid0-eef006d54b25ca9a57760aa6d156f66d.png
+11. https://s3.oss.go.id/oss/cms/blobid11-0d4ccb6d098eebf573e501841e181e0c.png
+12. https://s3.oss.go.id/oss/cms/blobid7-0ecf9e17ec19b4eec2bfb0205a15fbcb.png
+13. https://s3.oss.go.id/oss/cms/blobid26-b693f26d618db65efe1ff4c457d3f851.png
+14. https://s3.oss.go.id/oss/cms/blobid15-6be7ea7ead6d55268c8978ca88bc8ec8.png
+15. https://s3.oss.go.id/oss/cms/blobid13-c0f3fcd0fbca4c2c0a34e80a098252df.png
+16. https://s3.oss.go.id/oss/cms/blobid14-3dce690f1f9ab78a292ecf318ba0a0a8.png
+17. https://s3.oss.go.id/oss/cms/blobid10-e5c8e807dd489af0f13eeab25ace1cd7.png
+18. https://s3.oss.go.id/oss/cms/blobid12-592838b6553c7feeffcfdb3942d67696.png
+19. https://s3.oss.go.id/oss/cms/blobid25-7d4d031f65ee2e63746ebcef7ab9cff3.png
+20. https://s3.oss.go.id/oss/cms/blobid6-61dbc3a915af145b68ef16ac66d6a041.png
+21. https://s3.oss.go.id/oss/cms/blobid19-6a2fb2c7da22e6e29ace5ff3f8bfb230.png
+22. https://s3.oss.go.id/oss/cms/blobid22-9302ed3486f63fc58e0b7cd0cb6663be.png
+23. https://s3.oss.go.id/oss/cms/blobid2-cfd38fa6d2e2ef44c7005c7b232cf8d6.png
+24. https://s3.oss.go.id/oss/cms/1-portal-masuk-d489fcbd327ffa4a6c3048dc30a2b673.png
+25. https://s3.oss.go.id/oss/cms/blobid18-55688272bd32e2b7e5a93dd11ec15927.png
+26. https://s3.oss.go.id/oss/cms/blobid23-7768d598e3fbfa3074d3f078ace91c6a.png
+27. https://s3.oss.go.id/oss/cms/blobid24-42dc268148c07cb6fc0997ae8f419758.png
+28. https://s3.oss.go.id/oss/cms/blobid8-cc9483b0f60c30ab78c4b065aa80b119.png
+29. https://s3.oss.go.id/oss/cms/blobid3-a07a02141cd47512325b522e168e1531.png
+30. https://s3.oss.go.id/oss/cms/blobid16-3721a86dd45a6a20cff3002cd0428e84.png
+31. https://s3.oss.go.id/oss/cms/blobid17-6c866ec7cbb0e2fc25f1b2398557dd82.png
+32. https://s3.oss.go.id/oss/cms/blobid21-f6e041f019289807384e07b53622cbe8.png

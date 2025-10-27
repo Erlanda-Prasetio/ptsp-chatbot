@@ -1,0 +1,35 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Anda Dapat Melihat, Mengunduh, Dan Mencetak Produk Perizinan
+Source: https://oss.go.id/panduan/65449cb03f50be2c8c96909b
+Scraped: 2025-10-20T15:26:10.208384
+Total Steps: 8
+Total Images: 14
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4.PeriksaKegiatan Usaha YangDitolak
+5. 5. LakukanPengajuan Ulang Izin
+6. 6. Lakukan Pemenuhan Persyaratan
+7. 7. Periksa Daftar Kegiatan Usaha Secara Berkala
+8. 8. Izin/Sertifikat StandarTelah Terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (14 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image6-a55b6506f36ccf1dfe5da75f6d564401.webp
+2. https://s3.oss.go.id/oss/cms/image3-15d2786ebdd6b56af182dd46fd4d1328.webp
+3. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-09-at-12.24.38_ea5dafa6-e96df8cc13425c373d213290e53161db.jpg
+4. https://s3.oss.go.id/oss/cms/image2-7cebf5f6e743901b27129beec2dd8765.webp
+5. https://s3.oss.go.id/oss/cms/image1-79119c9335f19d1d51e2991a89c19eab.webp
+6. https://s3.oss.go.id/oss/cms/image5-99504e6bf4aafa1721e2c5a9aaf11fb2.webp
+7. https://s3.oss.go.id/oss/cms/image9-46f51c89054542c76064c2af83198053.webp
+8. https://s3.oss.go.id/oss/cms/image8-93fb67df2f474c80ad462d8eec41b811.webp
+9. https://s3.oss.go.id/oss/cms/image12-7d4d760fb61fbf9a5368ede1a69e234c.webp
+10. https://s3.oss.go.id/oss/cms/image11-4f64083b932574db88ad192a0c91b93c.webp
+11. https://s3.oss.go.id/oss/cms/image14-7c501f870534e821ba0fc3e4ad4ee3ab.webp
+12. https://s3.oss.go.id/oss/cms/image4-6233f499104c002056e490aacbc8689b.webp
+13. https://s3.oss.go.id/oss/cms/image3-9c8433bdfe12b03671a537487b8dac3d.webp
+14. https://s3.oss.go.id/oss/cms/image10-12b4b7eae426f9a941a5adf90ed814c4.webp

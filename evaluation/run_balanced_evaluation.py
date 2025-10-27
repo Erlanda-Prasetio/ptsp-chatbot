@@ -321,6 +321,12 @@ class BalancedEvaluator:
                 
                 results.append(result)
                 
+                # Add 60-second delay between queries to avoid rate limiting
+                if i < len(self.queries):
+                    if verbose:
+                        print(f"   ⏳ Waiting 60 seconds before next query...")
+                    time.sleep(60)
+                
                 # Save checkpoint after each query
                 checkpoint_data = {
                     'results': results,

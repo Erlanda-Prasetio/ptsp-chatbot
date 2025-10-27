@@ -1,0 +1,70 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha dapat melihat, mengunduh, dan menyimpan cetakan NIB/cetakan Izin Perluasan
+Source: https://oss.go.id/panduan/65b080e898f8907e5aa9890f
+Scraped: 2025-10-20T15:28:51.173915
+Total Steps: 22
+Total Images: 35
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3.DashboardPelaku Usaha
+4. 4. Klik MenuPerizinan Berusaha, pilihPerluasan, lalu pilihPerluasan Jasa
+5. 5. TambahDaftar Kegiatan Perluasan
+6. 6. Lengkapi Detail Usaha Perluasan Jasa
+7. 6.a Lengkapi Detail Usaha Perluasan Jasa (Ruang Lingkup)
+8. 6.b Lengkapi Detail Usaha Perluasan Jasa (Luas Lahan Usaha)
+9. 6.c Lengkapi Detail Usaha Perluasan Jasa (Status Lahan : Sudah)
+10. 7. Pemberitahuan Pengisian Perluasan
+11. 8. Baca, Pahami, danCentangpada kotakCheckbox, lalu klik tombolLanjut
+12. 9. Informasi Sektor dan Jenis Kegiatan Usaha
+13. 10. Daftar Data Usaha
+14. 11. PeriksaDaftar Kegiatan Usaha (untuk Lokasi Usaha yang perlu verifikasi KKPR)
+15. 12. Lengkapi Dokumen Lingkungan
+16. 13. Pahami dan CentangPernyataan Mandiri
+17. 14. PeriksaDraf Perizinan Berusaha (NIB)
+18. 15. Status Data Usaha Perluasan
+19. 16.Pemenuhan PersyaratanIzin Perluasan
+20. 17. Lengkapi Formulir Pemenuhan Persyaratan Izin
+21. 18. Periksa Daftar Kegiatan Usaha secara berkala (Status Pemenuhan)
+22. 19. Lihat Cetakan Izin Perluasan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (35 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image28-4392eef18ad5b6a719029cb877e685b3.webp
+2. https://s3.oss.go.id/oss/cms/image32-95dabddacef4c04662f4832fffc815d7.webp
+3. https://s3.oss.go.id/oss/cms/image33-a5c543f10b22a04ef1cf65546e9eba1a.webp
+4. https://s3.oss.go.id/oss/cms/image7-67495249f385f955533e243a0e51b9a4.webp
+5. https://s3.oss.go.id/oss/cms/image3-e352eb1db751e48ffde086ae75cd7b9c.webp
+6. https://s3.oss.go.id/oss/cms/image17-1e3f466306e6fcc6eb2e3cfa376779ce.webp
+7. https://s3.oss.go.id/oss/cms/image6-8c49932165a8b440fe14c75b0d5204ff.webp
+8. https://s3.oss.go.id/oss/cms/image14-1c34b105bd76edea4dc03eb9b458f21d.webp
+9. https://s3.oss.go.id/oss/cms/image31-ce6001220d97b4f08e55d7fd86da6a13.webp
+10. https://s3.oss.go.id/oss/cms/2-dashboard-b186eecc11b08fe4d08d642f51a03dd0.png
+11. https://s3.oss.go.id/oss/cms/image26-92b2b03cf526bd70227a98da0d67e203.webp
+12. https://s3.oss.go.id/oss/cms/image35-d072be785620fc2f0163e0e186471920.webp
+13. https://s3.oss.go.id/oss/cms/image11-901d7c4ad2e35080b986c2cd05d829bf.webp
+14. https://s3.oss.go.id/oss/cms/image9-955ad63080b16b9687fdffd017fbf613.webp
+15. https://s3.oss.go.id/oss/cms/image30-27fb99be246fa65f6453937af0cee4b7.webp
+16. https://s3.oss.go.id/oss/cms/image5-02fd5fcee2c29cef0b48d19e3bce05d3.webp
+17. https://s3.oss.go.id/oss/cms/image16-128d090ffa6e0e3ae73d3b0d8b9276d3.webp
+18. https://s3.oss.go.id/oss/cms/image10-7c3cbbfaccf06672ac872e4ac63c58f5.webp
+19. https://s3.oss.go.id/oss/cms/1-portal-masuk-e9d0acacc5f8434eff7c5cb3f8bc5402.png
+20. https://s3.oss.go.id/oss/cms/image29-659453ec05053f8483e98f0bf871e3c2.webp
+21. https://s3.oss.go.id/oss/cms/image4-30807ae536044f35d19d3dc97db56681.webp
+22. https://s3.oss.go.id/oss/cms/image21-10fd117ab4bdb847b0bb4ab94fd0c45d.webp
+23. https://s3.oss.go.id/oss/cms/image12-978a1df230faae2d16b15689bd6a0df6.webp
+24. https://s3.oss.go.id/oss/cms/image-9e1d39d7a86c073f6429084347a43a05.png
+25. https://s3.oss.go.id/oss/cms/image18-bf9e1e0bd2f99738f175a09c3e7c130b.webp
+26. https://s3.oss.go.id/oss/cms/image25-278317dc94d69ac69c4249bcc34842ea.webp
+27. https://s3.oss.go.id/oss/cms/image1-f03d09bb2bc68edaf57e4b2b6bfb5493.webp
+28. https://s3.oss.go.id/oss/cms/image20-8e7066e409dcbe84091062c23197a1e9.webp
+29. https://s3.oss.go.id/oss/cms/image23-785051380eded725cfdcd00eb0fec0fc.webp
+30. https://s3.oss.go.id/oss/cms/image13-1084dc79869676d7541086c4c422a9d7.webp
+31. https://s3.oss.go.id/oss/cms/image19-8a6cbbed8034ab8bb809156400265bb8.webp
+32. https://s3.oss.go.id/oss/cms/image2-fcc96d93aaa79ac7a13a14a3ebc0d609.webp
+33. https://s3.oss.go.id/oss/cms/image15-895eee3eea7054f14524f078debc801a.webp
+34. https://s3.oss.go.id/oss/cms/image8-cf4c79cd2ed85384f132229984cca7c0.webp
+35. https://s3.oss.go.id/oss/cms/image22-8afa28d5385c82cdb481b155b3fb43b3.webp

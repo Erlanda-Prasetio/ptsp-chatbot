@@ -1,0 +1,84 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Surat Pernyataan Pencabutan Likuidasi (klikPERNYATAAN PENCABUTAN)
+Source: https://oss.go.id/panduan/6527bb4e048d98beaf14036c
+Scraped: 2025-10-20T15:31:21.232906
+Total Steps: 32
+Total Images: 39
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, klikMASUK.
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK.
+3. 3. Masuk ke menuPERIZINAN BERUSAHA, dan klikPENCABUTAN.
+4. 4. Setelah itu sistem akan menampilkan halaman Daftar Permohonan Pencabutan BUJKA. Klik tombolAJUKAN PERMOHONANuntuk melaporkan kegiatan usaha BUJKA.
+5. 5. Ketika klik tombolAJUKAN PERMOHONAN(langkah 4), sistem akan menampilkan form Pencabutan BUJKA yang harus Anda periksa dan lengkapi. Pertama-tama, silakan Anda melakukan pengecekanData Kepemilikan BUJKA.
+6. 6. Silakan periksaData Kantor Prinsipal.
+7. 7. Silakan periksaData Article of Association (AoA)/Registrasi Pendirian.
+8. 8. Silakan periksaData Kantor Perwakilan. Terdapat dua tampilan form, yaitu jika Penanggung Jawab adalah WNA dan WNI. Jika Penanggung Jawab berasal dari negara asing, Anda wajib mengunggah Paspor dan melengkapi tanggal masa berlaku Paspor.
+9. 9. Silakan periksaData Surat Penunjuk/Letter of Appoinment (LoA) PJBU.
+10. 10.Pilih Kegiatan Usaha BUJKA yang akan dicabut. Anda dapat memilih lebih dari satu KBLI (Jika Anda memilih semua KBLI silakan cek panduan untuk Permohonan Pencabutan Likuidasi Kegiatan Usaha BUJKA)
+11. 11. Silakan cekData Ketenagakerjaan
+12. 12. LengkapiDataLaporan Kegiatan Kantor Perwakilan Periode Terakhir.Jika Anda sudah mengisi pelaporan maka sistem akan meampilkan data laporan kegiatan kantor perwakilan periode terakhir secara otomatis.
+13. 13. LengkapiData NPWP.
+14. 14. Baca dan pahami Pernyataan dengan teliti, centang pada checkboxDISCLAIMERdan klikSAYA SUDAH MEMBACA DAN MENYETUJUI. Pastikan kelengkapan data pada form pencabutan sudah sesuai, lalu klikPROSES. Anda juga dapat menyimpan form pencabutan sebagai draf dengan klik tombolSIMPAN SEBAGAI DRAFdan juga melihat Pratinjau cetakan pencabutan dengan klik tombolPRATINJAU CETAKAN PENCABUTAN.
+15. 15. Pop-up konfirmasi akan muncul ketika Anda proses form pencabutan. Jika Anda sudah yakin ingin mencabut klik tombolYA.
+16. 16. Pencabutan Kegiatan Usaha BUJKA akan langsung Disetujui tanpa memerlukan verifikasi dari verifikator dan status permohonan akan berubah menjadi“Disetujui” contoh seperti gambar dibawah. Klik ikon “V” untuk menampilkan:
+17. 17. Berikut adalah tampilanhasil produk dari Permohonanan Pencabutan BUJKA. Untukpenutupan sebagiankegiatan usaha BUJKA, Anda akanSurat Pernyataaan Pencabutan BUJKAdan jugaCetakan Penutupan Kegiatan Usaha BUJKA (Sertifikat Standar/Izin).
+18. 3. Masuk Ke MenuKANTOR PERWAKILAN, PilihPENCABUTAN, KlikBUJKA
+19. 10.Pilih semua Kegiatan Usaha BUJKA yang akan dicabut pada kotak centang.
+20. 11. LengkapiData Surat Pernyataan dari Kepala Kantor Perwakilan atau Direksi Perusahaan di Negara Asal yang Menyatakan Tidak Memiliki Hutang Piutang
+21. 12. LengkapiData Surat Perintah/Pernyataan dari Direksi Perusahaan di Negara Asal Tentang Penutupan BUJKA
+22. 13. LengkapiDataSurat Keterangan Bebas Sanksi Dari Direktorat Kelembagaan Dan Sumber Daya Konstruksi, Ditjen Bina Konstruksi, Kementerian PUPR
+23. 14. LengkapiDataLaporan Kegiatan Kantor Perwakilan Periode Terakhir.Jika Anda sudah mengisi pelaporan maka sistem akan meampilkan data laporan kegiatan kantor perwakilan periode terakhir secara otomatis.
+24. 15. LengkapiData NPWP. Anda dapat memilih apakah Anda memiliki NPWP atau tidak memiliki NPWP.Jika Anda masih memiliki NPWP silakan Anda masukkan nomor NPWPAnda tetapijika tidak Anda wajib mengunggah Surat Keterangan NPWP.Anda dapat mengunggah Surat Keterangan NPWP Valid yang diterbitkan KPP setempat atau Surat Pencabutan NPWP (apabila NPWP telah dicabut oleh KPP)
+25. 16. Baca dan pahami Pernyataan dengan teliti, centang pada checkboxDISCLAIMERdan klikSAYA SUDAH MEMBACA DAN MENYETUJUI. Pastikan kelengkapan data pada form pencabutan sudah sesuai, lalu klikPROSES. Anda juga dapat menyimpan form pencabutan sebagai draf dengan klik tombolSIMPAN SEBAGAI DRAFdan juga melihat Pratinjau cetakan pencabutan dengan klik tombolPRATINJAU CETAKAN PENCABUTAN
+26. 17. Pop-up konfirmasi akan muncul ketika Anda proses form pencabutan. Jika Anda sudah yakin ingin mencabut klik tombolYA.
+27. 18. Status Pencabutan Kegiatan Usaha BUJKA telah‘Terkirim’dan akan diperiksa oleh Verifikator berwenang. Mohon agar Anda dapat menunggu hasil verifikasi dan melakukan pengecekan secara berkala.
+28. 19. Apabila dokumen yang disampaikan belum lengkap atau belum sesuai dengan ketentuan maka verifikator akan mengembalikan permohonan. Status permohonan Anda akan menjadi“Perlu Perbaikan”. Klik ikon‘v’dan klikPERBAIKIuntuk memperbaiki form permohonan pencabutan
+29. 20. Lihat kolom catatan untuk mengetahui catatan perbaikan dari verifikator yang berwenang. Lengkapi/perbaiki dokumen pada formulir permohonan sesuai dengan catatan perbaikan dan berikan tanggapan setelah Anda melakukan perbaikan.
+30. 21. Setelah permohonan/dokumen diperbaiki, klikcentangpada checkboxDISCLAIMERdan klik tombolSAYA SUDAH MEMBACA DAN MENYETUJUIdan klikPROSESuntuk mengirimkan perbaikan permohonan Pencabutan Likuidasi Kegiatan Usaha BUJKA.
+31. 22. Jika Verifikator menyetujui Pencabutan Likuidasi, status permohonan akan berubah menjadi“Disetujui” contoh seperti gambar dibawah. Klik ikon “V” untuk menampilkan:
+32. 23. Berikut adalah tampilan darihasil produk Permohonanan Pencabutan BUJKA. Untukpenutupan permanenkegiatan usaha BUJKA, Anda akan mendapatkanSurat Pernyataan Pencabutan BUJKA,Cetakan Pencabutan NIB BUJKA, danPenutupan Kegiatan Usaha BUJKA (Sertifikat Standar/Izin).
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (39 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Panduan-Menu-kppa-0a1253261d0fd49a1fb5e8122f72888e.png
+2. https://s3.oss.go.id/oss/cms/8---WNI-b46fb013d2969dd5fbbdcaa28077160d.webp
+3. https://s3.oss.go.id/oss/cms/7-914e623f0788d4454c6839b033adb445.webp
+4. https://s3.oss.go.id/oss/cms/6-5e074549f7f9d6f1e199281c3f094f5a.webp
+5. https://s3.oss.go.id/oss/cms/23---3-Pencabutan-e7008968d90af7c0bd6b0586b8d03931.webp
+6. https://s3.oss.go.id/oss/cms/Login-09afcb375422f63b353e5cb9f6002cb7.webp
+7. https://s3.oss.go.id/oss/cms/11---ID-8166f9e0b09f63bde9b49c9fa553fdc3.webp
+8. https://s3.oss.go.id/oss/cms/7-8ef937cca6e518f5462a26c7c59db2c3.png
+9. https://s3.oss.go.id/oss/cms/Awal-menu-1fc1eb87d95e769ea7dfc06f5dd81686.webp
+10. https://s3.oss.go.id/oss/cms/10-3202c53cb8d256f586a250fd4dd6914c.webp
+11. https://s3.oss.go.id/oss/cms/13-812b7e1b2b84b570a63ca91fc9df573a.webp
+12. https://s3.oss.go.id/oss/cms/12-d1c63f8da6b9e705b237415ad99784c4.webp
+13. https://s3.oss.go.id/oss/cms/12-f93d3bbaeb627ee452dc1a37ef7bf602.webp
+14. https://s3.oss.go.id/oss/cms/16-5d91ba866f602777dac790a2a3d8411e.webp
+15. https://s3.oss.go.id/oss/cms/22-79240623e7a7e30ec4d95282ec0fec7b.webp
+16. https://s3.oss.go.id/oss/cms/23--1-Surat-Pernyataan-9c70404412def2efb77bab07b167b959.webp
+17. https://s3.oss.go.id/oss/cms/10-8e64749ee035c9eb5ce554e59458d7e0.webp
+18. https://s3.oss.go.id/oss/cms/0---Likuidasi-258dd25449137d00d3b37a94cdc806aa.webp
+19. https://s3.oss.go.id/oss/cms/17--2-Pencabutan-5430c26b83fbbc23603417e5eb164489.webp
+20. https://s3.oss.go.id/oss/cms/18-813a82ee4dd4a9a959f83096dbc34501.webp
+21. https://s3.oss.go.id/oss/cms/20-76ef3a092f1f7cece0cb39876f4152f4.webp
+22. https://s3.oss.go.id/oss/cms/4-a0646b899552811beb578077ce8d42e7.webp
+23. https://s3.oss.go.id/oss/cms/14-dec0f0a7ea578bb53bd0f36e9a34a79d.webp
+24. https://s3.oss.go.id/oss/cms/17-6bce362143bca60e1c8b2bed14587bba.webp
+25. https://s3.oss.go.id/oss/cms/3-a563a1a200a856ff6e3c23e964c375de.webp
+26. https://s3.oss.go.id/oss/cms/16---ID-d26f2950e509cbba43e57db091b552a7.webp
+27. https://s3.oss.go.id/oss/cms/21---ID-5729798c19a914e212255ec6d047076a.webp
+28. https://s3.oss.go.id/oss/cms/0---Non-Likuidasi-76adf431a90b3b1ddc9c463fd9344c56.webp
+29. https://s3.oss.go.id/oss/cms/19-5aac49c6c70142d256aeb8692367a24b.webp
+30. https://s3.oss.go.id/oss/cms/23---2-NIB-d4a6cc3bfb9a048d605f8e81d33f96a1.webp
+31. https://s3.oss.go.id/oss/cms/15-f1a11d4e6478bab70f3249a85eb6f04d.webp
+32. https://s3.oss.go.id/oss/cms/14---ID-302a0119376787efb160c4218accb2db.webp
+33. https://s3.oss.go.id/oss/cms/9-6de35299364c037e759a0ffa87b7988d.webp
+34. https://s3.oss.go.id/oss/cms/11-2ed55e75f5d7c28f6d74a20295ad2d2e.webp
+35. https://s3.oss.go.id/oss/cms/5---ID-e5a6423e1cca674ebba29f9e9a40e567.webp
+36. https://s3.oss.go.id/oss/cms/17--1-Surat-Pernyataan-ce0d332e3639f736f53ef8cfcde6629e.webp
+37. https://s3.oss.go.id/oss/cms/13-2c2d036dd7057a6443eef47caa9a9b0d.webp
+38. https://s3.oss.go.id/oss/cms/8---WNI-b20e95d7649fce2ea9ef4263f1380861.webp
+39. https://s3.oss.go.id/oss/cms/15---ID-62d94ba28d49e8153d8df1c5e1d0ef20.webp

@@ -1,0 +1,23 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pencabutan Badan Usaha Luar Negeri Perdagangan Berjangka Asing (PBA)
+Source: https://oss.go.id/panduan/645353d8dd786816cc5ee1a4
+Scraped: 2025-10-20T15:32:16.835641
+Total Steps: 5
+Total Images: 5
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, KlikMASUK.
+2. 2. Masukkan Username Dan Password, Lalu Klik TombolMASUK.
+3. 3. Masuk ke menuPERIZINAN BERUSAHA, dan klikPENCABUTAN.
+4. 4. Setelah Anda Masuk Ke Dalam Menu Pencabutan, Anda Akan Mendapatkan Data Pencabutan PBA Yang Telah Diajukan Melalui Sistem BAPPEBTI. Anda Dapat Melihat Cetakan Pencabutan Dengan Klik Tanda‘V’Lalu KlikCETAKAN PENCABUTAN
+5. 5. Berikut Adalah TampilanCetakan PencabutanPada Sistem OSS.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (5 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Panduan-Menu-kppa-0a1253261d0fd49a1fb5e8122f72888e.png
+2. https://s3.oss.go.id/oss/cms/5-1751db60d4c636a0010a6b1a08eadc10.png
+3. https://s3.oss.go.id/oss/cms/4-418d2c87eed9168d4247433ff00d5132.png
+4. https://s3.oss.go.id/oss/cms/7-8ef937cca6e518f5462a26c7c59db2c3.png
+5. https://s3.oss.go.id/oss/cms/2-33169129c688227b9bb2fc7b845c15bd.png

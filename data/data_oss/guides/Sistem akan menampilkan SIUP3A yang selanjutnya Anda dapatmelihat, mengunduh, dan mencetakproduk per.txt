@@ -1,0 +1,85 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Sistem akan menampilkan SIUP3A yang selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk perizinan berusaha tersebut.
+Source: https://oss.go.id/panduan/635970086345c7d71a8144d8
+Scraped: 2025-10-20T15:34:38.535833
+Total Steps: 57
+Total Images: 15
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memilikihak akses
+2. 2. Kunjungihttps://oss.go.id
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 5. Klik MenuKantor Perwakilandan pilihPermohonan
+6. 6. LengkapiData Kantor Prinsipal (KP3A)
+7. 1.Apakah Anda sudah memiliki KP3A (SPIPISE) sebelumnya?
+8. 2.Data Kantor Prinsipalyang berisi:
+9. 7. Klik tombolPengajuan Baru
+10. 1.Nama Kepala Kantor Perwakilan
+11. 2.Alamat Kantor Perwakilan
+12. 3.Telepon Perwakilan
+13. 4.Email Perwakilan
+14. 5.Jenis Kantor Perwakilan
+15. 8. LengkapiData Kantor Perwakilan di IndonesiadanKegiatan Usahanya
+16. 1.Nama Kepala Perwakilan
+17. 1.Kewarganegaraan Kepala Perwakilan
+18. 4.Kabupaten/Kota
+19. 5.Kecamatan
+20. 6.Kelurahan/Desa
+21. 8.Nomor Telepon
+22. 1.Jumlah Tenaga Kerja Indonesia (Orang)
+23. 2.Jumlah Tenaga Kerja Asing (Orang)
+24. 9. LengkapiData AoA, LoA, dan LoI
+25. 1.Tempat Dokumen diterbitkan
+26. 2.Tanggal Terbit
+27. 3.Unggah Dokumen
+28. 1.Nomor LoA
+29. 2.Nama Penandatanganan LoA
+30. 3.Tanggal LoA
+31. 4.Nama Pejabat yang melegalisir LoA
+32. 5.Masa Berlaku LoA (opsional)
+33. 6.Jabatan Pejabat yang melegalisir LoA
+34. 7.Tanggal Legalisir LoA
+35. 8.Unggah Dokumen
+36. 1.Nomor LoI
+37. 2.Tanggal LoI
+38. 3.Nama Pejabat yang melegalisir LoI
+39. 4.Jabatan Pejabat yang melegalisir LoI
+40. 5.Unggah Dokumen
+41. 10. LengkapiData LoR dan LoS
+42. 1.Nomor LoR
+43. 2.Tanggal LoR
+44. 3.Nama Penandatangan LoR
+45. 4.Jabatan Penandatangan LoR
+46. 1.Nomor LoS
+47. 2.Tanggal LoS
+48. 3.Nama Penandatangan LoS
+49. 4.Apakah LoS ini dibuat di Indonesia?
+50. 11. PeriksaData Kantor Perwakilan di Indonesia
+51. 12. PeriksaDraf Perizinan Berusaha
+52. 13. Perizinan Berusaha telah terbit
+53. 2.Prinsipal
+54. 3.List Perwakilan
+55. 4.Tanggal Terbit NIB
+56. 13.a Perizinan Berusaha (NIB) telah terbit
+57. 13.b Perizinan Berusaha (SIUP3A) telah terbit
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (15 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/1-portal-masuk-3e8e399b6983fef5e4817f887aba22cb.png
+2. https://s3.oss.go.id/oss/cms/blobid9-42a06a5f12babf78fe418c4c1eff526f.png
+3. https://s3.oss.go.id/oss/cms/blobid7-fa2eed1643f496bc0a551391de46d638.png
+4. https://s3.oss.go.id/oss/cms/blobid5-bcc3c3c98f5dfb2ab02b6bb2629c68c8.png
+5. https://s3.oss.go.id/oss/cms/blobid8-5d516410d58fb99d83ae71397271776b.png
+6. https://s3.oss.go.id/oss/cms/blobid13-2b755afb436c2dcacbaa2b6b1527ff44.png
+7. https://s3.oss.go.id/oss/cms/blobid10-0e236b7d06950a42e03c7dfd796f754c.png
+8. https://s3.oss.go.id/oss/cms/blobid11-dc445ad2975ee2faaef64c5f90f2ea3d.png
+9. https://s3.oss.go.id/oss/cms/blobid3-ad8b7761e87568056231d8b997b3a275.png
+10. https://s3.oss.go.id/oss/cms/blobid14-e6c830b5c5cb0f545b1c399e0304f8a7.png
+11. https://s3.oss.go.id/oss/cms/1-portal-ad0446252794a530d5a638f45abeb885.png
+12. https://s3.oss.go.id/oss/cms/blobid6-7484e5603e57bf57ce6acdb5988b5202.png
+13. https://s3.oss.go.id/oss/cms/Permohonan-Baru-KP-dan-BULN-ccb9e8d0a57bf2b4d9bfd559c85a5e89.png
+14. https://s3.oss.go.id/oss/cms/blobid12-ab00478452fab961faec9b32f41927ec.png
+15. https://s3.oss.go.id/oss/cms/blobid0-ef71b4c5491a9bb8220c17fd55051542.png

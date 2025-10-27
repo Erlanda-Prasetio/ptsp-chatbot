@@ -1,0 +1,13 @@
+================================================================================
+Title: Saat Ubah Data Badan Usaha, Kenapa Muncul Notifikasi Korporasi Dalam Kondisi Diblokir?
+Source: https://oss.go.id/id/faq/kategori?id=68e4863a7795640efd3eefae
+Scraped: 2025-10-21T15:18:34.494957
+================================================================================
+
+QUESTION:
+Saat Ubah Data Badan Usaha, Kenapa Muncul Notifikasi Korporasi Dalam Kondisi Diblokir?
+
+ANSWER:
+Notifikasi Korporasi dalam kondisi diblokir di sistem AHU muncul karena perusahaan belum mencatatkan Beneficial Ownership (BO) pada sistem AHU Online atau sedang dalam permasalahan. Bapak/Ibu dapat melaporkan Beneficial Ownership (BO) di sistem AHU Online dengan mengunjungi https://bo.ahu.go.id kemudian bersurat ke subdit Badan Hukum Kementerian Hukum dan HAM untuk pembukaan blokir
+
+================================================================================

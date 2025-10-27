@@ -1,0 +1,44 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik Cetak Notifikasi untuk mencetak surat keputusan
+Source: https://oss.go.id/panduan/635970086345c7d71a8144c3
+Scraped: 2025-10-20T15:34:11.068155
+Total Steps: 13
+Total Images: 18
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki hak akses
+2. 2. Kunjungihttps://oss.go.id/
+3. 3. PilihMASUK
+4. 4. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+5. 5. Masuk ke Menu Fasilitas >> Vokasi >> Permohonan
+6. 6. Pilih Permohonan Vokasi yang akan diproses
+7. 7.a Lengkapi data Dokumen Persyaratan yang dibutuhkan
+8. 7.b Lengkapi data Dokumen Persyaratan yang dibutuhkan
+9. 7.c Lengkapi data Dokumen Persyaratan yang dibutuhkan
+10. 8. Pengiriman Permohonan Fasilitas Vokasi ke Pemroses (DJP)
+11. 9. Pilih Daftar Permohonan Fasilitas Vokasi agar dapat melihat status dari permohonan tersebut
+12. 10. Pemrosesan Vokasi oleh DJP s/d Terbit Notifikasi Persetujuan
+13. 11. Pelaku Usaha Menerima Notifikasi Persetujuan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (18 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid7-bdd49290cd9dff683e35a6c0055cf518.png
+2. https://s3.oss.go.id/oss/cms/blobid6-2e6c05dee4bbdf5a22ea2a312a46fa96.png
+3. https://s3.oss.go.id/oss/cms/1-portal-a1b7a7476448abe86fcd656c8ff43608.png
+4. https://s3.oss.go.id/oss/cms/blobid8-09a42ebe827ad02bec67e3c5c1e40f6e.png
+5. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-2f4a24729946949b35f6703c72b4a801.png
+6. https://s3.oss.go.id/oss/cms/blobid9-bee9a7035ad7007a1ff2ea3154036060.png
+7. https://s3.oss.go.id/oss/cms/blobid14-98c82ec44a470d83f283fba9f9eb2c7e.png
+8. https://s3.oss.go.id/oss/cms/blobid16-32a655134ca574d29160b89a81afdaa6.png
+9. https://s3.oss.go.id/oss/cms/blobid15-011b9e1c9a3a70431b755517ed5d4628.png
+10. https://s3.oss.go.id/oss/cms/blobid13-8915ec476d06a8e50cc278c70b7daf0d.png
+11. https://s3.oss.go.id/oss/cms/3-menu-PB---permohonan-baru-20faea3f8e0446da940d864aa6d3dcbb.png
+12. https://s3.oss.go.id/oss/cms/blobid17-56ed95e4b29733fb91a79ad468b2ca6a.png
+13. https://s3.oss.go.id/oss/cms/blobid0-3c8a18aaa07bf90732824699c2028388.png
+14. https://s3.oss.go.id/oss/cms/blobid5-95198bda943f9c5013078e5eeffc8f3c.png
+15. https://s3.oss.go.id/oss/cms/blobid3-bc8ceb109960d3837cb1f0d324dc5550.png
+16. https://s3.oss.go.id/oss/cms/blobid11-23c18e65ffea5190ccd66e0ca972136a.png
+17. https://s3.oss.go.id/oss/cms/blobid12-9463c941d9d8efb86e0e41261c40e8ec.png
+18. https://s3.oss.go.id/oss/cms/blobid10-7e0b52204bfbd49ae2f720eb1ddc8ac3.png

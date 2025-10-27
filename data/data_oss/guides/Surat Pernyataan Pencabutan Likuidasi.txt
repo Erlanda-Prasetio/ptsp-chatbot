@@ -1,0 +1,49 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Surat Pernyataan Pencabutan Likuidasi
+Source: https://oss.go.id/panduan/635970086345c7d71a8144a8
+Scraped: 2025-10-20T15:29:27.671510
+Total Steps: 17
+Total Images: 19
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK
+3. 3. Masuk ke menuPERIZINAN BERUSAHA, pilihPENCABUTAN, pilihLIKUIDASIdan klikPERMOHONAN PELAKU USAHA
+4. 4. Sistem akan melakukan pengecekan apakah NPWP Anda valid atau tidak. Setelah NPWP dinyatakan valid, klikPROSESuntuk melanjutkan permohonan. Apabila NPWP dinyatakan tidak valid, silakan menghubungiKantor Pelayanan Pajak terdekat atau Kring Pajak 1500200
+5. 5. KlikPROSES PERMOHONANuntuk memproses permohonan Pencabutan Likuidasi
+6. 6. PeriksaData Pelaku Usaha, pastikan data yang ditampilkan oleh sistem sudah benar.
+7. 7. LengkapiData Akta Pembubaransesuai dengan Jenis Pemohon Likuidasi (Pelaku Usaha, Likuidator, atau Tim Penyelesai)
+8. 8. PeriksaData Penanggung Jawab, pastikan data yang ditampilkan oleh sistem sudah benar
+9. 9. PeriksaData Proyek. Data Proyek pada formulir permohonan akan muncul berdasarkan kewenangan K/L/D per masing-masing proyek. Klik padaTAB DATA PENANAMAN MODAL RISIKOatau klik ikon“V”untuk menampilkan data Kegiatan. KlikPRATINJAUuntuk melihat Permohonan Pencabutan Likuidasi sesuai dengan Kewenangan
+10. 10. Baca dan Pahami Pernyataan dengan teliti, lalu centang kotakDISCLAIMER(format surat pernyataan dapat dilihat pada menuPRATINJAU SURAT PERNYATAAN) dan klikSAYA SUDAH MEMBACA DAN MENYETUJUI.Lalu,klikKIRIM PERMOHONANuntuk mengirimkan permohonan Pencabutan Likuidasi
+11. 11. Setelah melengkapi data pada permohonan dan klikPROSES, akan ada notifikasi konfirmasi untuk melakukan Pencabutan Likuidasi. KlikYAuntuk melanjutkan proses permohonan Pencabutan Likuidasi. Lalu, klikOKuntuk menyelesaikan proses permohonan pencabutan likuidasi, selanjutnya sistem secara otomatis akan menampilkan halaman tracking Permohonan Pencabutan Likuidasi
+12. 12. Setelah menyelesaikan permohonan Pencabutan Likuidasi, maka status permohonan akan menunjukkan“Terkirim”. Koordinator akan melakukan verifikasi atas permohonan Pencabutan Likuidasi sesuai denganNorma, Standar, Prosedur, dan Kriteria (NSPK)yang membutuhkan waktu selama 5 (lima) hari kerja
+13. 13. Jika Dokumen yang disampaikan belum lengkap atau belum sesuai dengan ketentuan, maka status permohonan Anda akan menjadi“Perlu Perbaikan”. Klik ikon“V”dan klikLIHAT DETAIL PER KEWENANGANuntuk melihat detail status permohonan pencabutan likuidasi berdasarkan kewenangan K/L/D pemeriksa. Jika Status Permohonan Anda“Disetujui”Anda dapat berpindah ke langkah 16.
+14. 14. Lihat daftar permohonan pencabutan likuidasi per kewenangan, kemudian identifikasi kolom status permohonan“Perlu Perbaikan”dan klik ikon“V”pada baris permohonan pencabutan likuidasi dengan status“Perlu Perbaikan”. Lalu, klikLIHAT DETAILkemudian sistem akan menampilkan halaman Permohonan Likuidasi
+15. 15.Lihat kolom Catatanuntuk mengetahui catatan perbaikan dari verifikator K/L/D. Setelah permohonan/dokumen diperbaiki, klikSAYA SUDAH MEMBACA DAN MENYETUJUIdan klikKIRIM PERMOHONANuntuk mengirimkan perbaikan permohonan Pencabutan Likuidasi.
+16. 16. Jika K/L/D menyetujui Pencabutan Likuidasi, status permohonan akan berubah menjadi“Disetujui”. Klik ikon “V” untuk menampilkan:
+17. 17. Setelah Permohonan Pencabutan Likuidasi“Disetujui”Surat Permohonan Pencabutan Likuidasi pun akan terbit. Pencabutan Likuidasi untuk Kegiatan Usaha tingkat risiko rendah hanya dilakukan dengan pemutakhiran NIB. Surat Pencabutan Sertifikat Standar tercetak untuk Kegiatan Usaha tingkat risiko menengah rendah, tingkat risiko menengah tinggi, dan tingkat risiko tinggi yang memiliki SS terverifikasi. Surat Pencabutan Izin tercetak untuk Kegiatan Usaha tingkat risiko tinggi terverifikasi. Berikut dibawah ini adalah tampilan dari Surat Pencabutan Likuidasi:
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (19 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/5-4f3bed2ca1ab03ac7b9e77cd723a1b43.png
+2. https://s3.oss.go.id/oss/cms/12-e4f6b5170c5c508714b8dbdd5b47163e.png
+3. https://s3.oss.go.id/oss/cms/15-0608333164e1ba9040986e9451378aac.png
+4. https://s3.oss.go.id/oss/cms/4-45fca7187b00ce44c1d1957d68fc45db.png
+5. https://s3.oss.go.id/oss/cms/8-9cf0d3c8ba55d1d5663b3fc3e936c4f2.png
+6. https://s3.oss.go.id/oss/cms/7-b4ad11383dceee8cf41b1d9b9c29e9bb.png
+7. https://s3.oss.go.id/oss/cms/17-C-61324f811e2d33968c9c1118a79f8a40.png
+8. https://s3.oss.go.id/oss/cms/10-cfbebb616ee9199801e43a21f177d85c.png
+9. https://s3.oss.go.id/oss/cms/2-adcb2366561354d0f876d49fe2168b6b.png
+10. https://s3.oss.go.id/oss/cms/13-091565ca53f460dc54578d7baa47a203.png
+11. https://s3.oss.go.id/oss/cms/14-f5e983cce13a2928b3cbfcb4234cbb0f.png
+12. https://s3.oss.go.id/oss/cms/9-e0b9785774039551cbd5e96da4ac991b.png
+13. https://s3.oss.go.id/oss/cms/6-c2e19dc93012006d31d657d6c404cade.png
+14. https://s3.oss.go.id/oss/cms/17-A-e86d0e3f0d209f9b1c936549accda975.png
+15. https://s3.oss.go.id/oss/cms/2---Pencabutan-Likuidasi-Perizinan-Berusaha-(UMK-dan-Non-UMK-(No.-3))-42b4656815f076d4667f4c180e09afe2.png
+16. https://s3.oss.go.id/oss/cms/17-B-7ce366932a1c21f7c33e401738a0deab.png
+17. https://s3.oss.go.id/oss/cms/7-031df291323e47e4d312b600b6495346.png
+18. https://s3.oss.go.id/oss/cms/11-4f28cbbc0548e46cf52fea9ff0f3e460.png
+19. https://s3.oss.go.id/oss/cms/16-67414f41ab1805ae348cc89c1d9b0ad4.png

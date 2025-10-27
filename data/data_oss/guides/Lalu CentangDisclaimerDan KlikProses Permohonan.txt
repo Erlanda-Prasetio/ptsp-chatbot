@@ -1,0 +1,77 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Lalu CentangDisclaimerDan KlikProses Permohonan
+Source: https://oss.go.id/panduan/64d1f6fa5d12499c3b9b4991
+Scraped: 2025-10-20T15:28:46.937919
+Total Steps: 27
+Total Images: 37
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/
+2. 2. PilihMasuk
+3. 3. MasukkanUsernameDanPassword, Lalu KlikMasuk
+4. 4.Dashboard User Dari Kementerian Kelautan Dan Perikanan
+5. 5. Pilih MenuPemrosesan Perizinan,LaluPemenuhan Persyaratan
+6. 6. PilihData Pelaku Usaha Yang Ingin Diverifikasi, Lalu KlikProses Verifikasi
+7. 7. Cek Data Pelaku Usaha, MeliputiData Pelaku Usaha,Data Kegiatan Usaha, DanDokumen Yang Diunggah
+8. 8. Jika Sudah Lengkap,Ubah Status Dokumen, Isi Catatan,CentangDisclaimerDanKlik Proses Permohonan
+9. 9. Klik MenuPemrosesan Perizinan | Pengembalian Permohonan,Maka Status Permohonan Pelaku Usaha Berubah MenjadiMenunggu Pembayaran PNBP.Menunggu Pelaku Usaha Melakukan Pembayaran PNBP.
+10. 10. Klik MenuPemrosesan Perizinan | Verifikasi Pemenuhan PersyaratanUntuk Melihat Status Pelaku Usaha Yang Sudah Melakukan Pembayaran.
+11. 11. Cek Data Pelaku Usaha, MeliputiData Pelaku Usaha,Data Kegiatan Usaha, DanDokumen Yang Diunggah
+12. 12.Lihat Dan PastikanDokumen Yang Diunggah Oleh Pelaku Usaha Termasuk Bukti BayarPNBP
+13. 13.A PeriksaKBLI PermohonanDanKBLI Persetujuan (1 KBLI)
+14. 13.B PeriksaKBLI PermohonanDanKBLI Persetujuan (Multi KBLI)
+15. 14.AProses Permohonan(Jika Ada PNBP)
+16. 14.BProses Permohonan(Jika Tidak Ada PNBP)
+17. 16. Klik MenuPermohonan Perizinan | Persetujuan PermohonanDan Status Pelaku Usaha Berubah MenjadiPersyaratan Terverifikasi
+18. 1. MasukkanUsernameDanPasswordBesertaCAPTCHA, Lalu KlikMasukUntuk Masuk SebagaiKKP Administrator
+19. 2. Muncul HalamanDashboard Administrator Kementerian Kelautan Dan Perikanan
+20. 3. Pilih MenuPemrosesan Perizinan,LaluPersetujuan Permohonan
+21. 4. PilihData Pelaku Usaha Yang Ingin Diverifikasi, Lalu KlikProses Persetujuan
+22. 5. Cek Data Pelaku Usaha, MeliputiData Pelaku Usaha,Data Kegiatan Usaha, DanDokumen Yang Diunggah
+23. 6.Lihat Dan PastikanDokumen Yang Diunggah Oleh Pelaku Usaha
+24. 7.A PeriksaKBLI PermohonanDanKBLI Persetujuan (1 KBLI)
+25. 7.B PeriksaKBLI PermohonanDanKBLI Persetujuan (Multi KBLI)
+26. 8. Proses Permohonan
+27. 9. Klik MenuPermohonan Perizinan | DiterbitkanDan Status Pelaku Usaha Berubah MenjadiIzin Terbit/SS Terverifikasi
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (37 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/2-dashboard-verif-approv-2abe799985a5a07c10892f2f1ee56013.png
+2. https://s3.oss.go.id/oss/cms/1-portal-ff513a7763269202f396a274d272748c.png
+3. https://s3.oss.go.id/oss/cms/Picture6-2170eb5c33ee835e9ed5c8d3ddc078c2.png
+4. https://s3.oss.go.id/oss/cms/Picture13-pnbp-512f78d1afb8153dbe93d3c869c3f456.png
+5. https://s3.oss.go.id/oss/cms/Picture18-43e5e5abff2b8f293308d544bfa4d278.png
+6. https://s3.oss.go.id/oss/cms/Picture8-d06144c9ec54687b9246dd43f6349a13.png
+7. https://s3.oss.go.id/oss/cms/Picture10-808f1883f2cc82aafa05393dea76920c.png
+8. https://s3.oss.go.id/oss/cms/Picture33-fac4f2d717d292f4e514282a82ec2756.png
+9. https://s3.oss.go.id/oss/cms/Picture32-7107e30b3b08f2f99034b3f8b4fb735e.png
+10. https://s3.oss.go.id/oss/cms/4-verif-72c4a6aa20dfd2e55bb27b6b3f9a59df.png
+11. https://s3.oss.go.id/oss/cms/Picture7-afd69422ee3f07553545b1961c6a31ac.png
+12. https://s3.oss.go.id/oss/cms/Picture23-tambah-provinsi-45d33d6cf1c21d008d93d626224f6c38.png
+13. https://s3.oss.go.id/oss/cms/Picture24-e37f5a6da3bc849e4a3f4b2380baca4e.png
+14. https://s3.oss.go.id/oss/cms/Picture11-378391202dc4222420838f384ea4ac21.png
+15. https://s3.oss.go.id/oss/cms/1-portal-masuk-ae7fa6edbe106aaacb346f4db1eacd6a.png
+16. https://s3.oss.go.id/oss/cms/5-approv-3aaa4f6ba85660a49841f00380615635.png
+17. https://s3.oss.go.id/oss/cms/Picture14-7f71371f08f410053f4a28b79bf27670.png
+18. https://s3.oss.go.id/oss/cms/Picture15-f6b3f1d39a4ffe9eb87a03d53d3da5dd.png
+19. https://s3.oss.go.id/oss/cms/Picture22-91e155997415e675c9c5ed72dfedfb89.png
+20. https://s3.oss.go.id/oss/cms/Picture37-0179b219d5284332c5f4f2350609a817.png
+21. https://s3.oss.go.id/oss/cms/Picture16-pnbp-multi-KBLI-2c2865c47ad25de559d911bbae2c8022.png
+22. https://s3.oss.go.id/oss/cms/Picture31-admin-multi-kbli-d415964e1227f760880f704c99729b01.png
+23. https://s3.oss.go.id/oss/cms/Picture9-multi-KBLI-09da1ee999af7fd85ceb7392ffe41142.png
+24. https://s3.oss.go.id/oss/cms/Picture35-b92684ed6989148940598dcf1e378aba.png
+25. https://s3.oss.go.id/oss/cms/Picture12-486c84a40f1d6263538eaf636893553c.png
+26. https://s3.oss.go.id/oss/cms/Picture19-tidak-pnbp-609b292c6d4188f36f0f104c391d7f98.png
+27. https://s3.oss.go.id/oss/cms/Picture36-5d446d3255d1838e439bf04a1d752292.png
+28. https://s3.oss.go.id/oss/cms/Picture34-7bb9efb7ece7db373e16bfbc0d6f4e7f.png
+29. https://s3.oss.go.id/oss/cms/Picture20-4390afe52852f9efa3c7aaa1cafb744e.png
+30. https://s3.oss.go.id/oss/cms/Picture25-administrator-d35e34c455ebf136418b636e1da80672.png
+31. https://s3.oss.go.id/oss/cms/Picture29-3a67483ecfe34edd055de3c450d9375d.png
+32. https://s3.oss.go.id/oss/cms/Picture28-4cebfcd588c0ec0997925f1ec3a79cae.png
+33. https://s3.oss.go.id/oss/cms/Picture30-2846b9398e4fe112b9ebcee53fcb2d95.png
+34. https://s3.oss.go.id/oss/cms/Picture17-d19a14b50083071c209f5d831c0fe264.png
+35. https://s3.oss.go.id/oss/cms/2-dashboard-verif-approv-48029ca45370ef6f168d1789c82ce7df.png
+36. https://s3.oss.go.id/oss/cms/Picture21-ace45f8ca296b7c876147b796fae5136.png
+37. https://s3.oss.go.id/oss/cms/Picture3-30a08c0779df09c91ad14ede9672d08d.png

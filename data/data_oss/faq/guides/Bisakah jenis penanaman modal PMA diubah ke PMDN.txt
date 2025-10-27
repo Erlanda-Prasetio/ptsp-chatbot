@@ -1,0 +1,13 @@
+================================================================================
+Title: Bisakah jenis penanaman modal PMA diubah ke PMDN?
+Source: https://oss.go.id/id/faq/kategori?id=68e4870d7795640efd3ef002
+Scraped: 2025-10-21T15:15:31.302986
+================================================================================
+
+QUESTION:
+Bisakah jenis penanaman modal PMA diubah ke PMDN?
+
+ANSWER:
+Jenis penanaman modal asing (PMA) dapat diubah menjadi penanaman modal dalam negeri (PMDN) atau yang dikenal dengan perubahan alih status. Perubahan alih status dapat dilakukan dengan cara: 1. Pastikan perubahan tersebut telah tercatat dalam data pemegang saham pada Akta Perusahaan dan AHU Online. 2. Setelah akta dan AHU terbaru sebagai PMDN telah disahkan, Bapak/Ibu dapat memperbarui data badan usaha pada sistem OSS 3. Pilih menu Perizinan Berusaha lalu pilih Kelola Usaha, klik Perubahan kemudian pilih Perubahan Badan Usaha. 4. Centang Ubah Data Pada Profil. Panduan lengkap perubahan data badan usaha dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/66ecda24e09d998f717cb9f5
+
+================================================================================

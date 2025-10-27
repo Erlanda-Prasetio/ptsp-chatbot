@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana alur permohonan sertifikat halal reguler?
+Source: https://oss.go.id/id/faq/kategori?id=68e486eb7795640efd3eefec
+Scraped: 2025-10-21T15:15:46.610783
+================================================================================
+
+QUESTION:
+Bagaimana alur permohonan sertifikat halal reguler?
+
+ANSWER:
+Berikut adalah alur sertifikasi halal reguler: 1. Pastikan Bapak/Ibu sudah memiliki email aktif dan NIB sebelum mendaftar. Jika belum memiliki NIB, silakan mendaftar melalui https://oss.go.id/. Pastikan juga KBLI sudah terbit di NIB 2. Mengajukan permohonan melalui ptsp.halal.go.id 3. BPJPH melakukan verifikasi atas data dan dokumen yang diajukan 4. Lembaga Pemeriksa Halal (LPH) menghitung dan menginput biaya pemeriksaan pada sistem SIHALAL 5. Pelaku usaha melakukan pembayaran dan mengunggah bukti bayar di SIHALAL 6. BPJPH melakukan verifikasi pembayaran dan menerbitkan Surat Tanda Terima Dokumen (STTD) 7. LPH melakukan proses pemeriksaan dan mengunggah laporan pemeriksaan 8. Komisi Fatwa MUI melakukan sidang fatwa dan mengunggah ketetapan halal di SIHALAL 9. BPJPH menerbitkan Sertifikat Halal 10. Setelah status "Terbit SH", Bapak/Ibu dapat mengunduh sertifikat halal di website SIHALAL. Untuk informasi lebih lanjut, silakan menghubungi Badan Penyelenggara Jaminan Produk Halal melalui website bpjph.halal.go.id
+
+================================================================================

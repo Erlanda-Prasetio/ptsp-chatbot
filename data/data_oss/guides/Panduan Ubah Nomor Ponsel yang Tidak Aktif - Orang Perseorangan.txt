@@ -1,0 +1,38 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Panduan Ubah Nomor Ponsel yang Tidak Aktif - Orang Perseorangan
+Source: https://oss.go.id/panduan/63a5a891c406b3c60dc5c71d
+Scraped: 2025-10-20T15:37:35.970391
+Total Steps: 12
+Total Images: 13
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Masuk Ke Akun Anda Melalui Https://Oss.Go.Id/ Dengan Cara KlikMASUKDi Pojok Kanan Atas.
+2. 2. KlikButuh Bantuan?
+3. 3. KlikNomor Ponsel Sudah Tidak Aktif. Jika Anda Lupa Nomor Ponsel Mana Yang Digunakan Untuk Akun OSS, Kami Sarankan Untuk Menggunakan Fitur Lupa Akun Terlebih Dahulu. Setelah Anda Mengingat Nomor Ponsel Mana Yang Digunakan, Anda Dapat Melakukan Atur Ulang Password Secara Mandiri. Sehingga Anda Tidak Perlu Menunggu Untuk Dapat Masuk Ke Dalam Akun OSS Anda.
+4. 4. LengkapiAlasan Permohonan Ubah Nomor PonselDengan Memilih Alasan Permohonan Ubah Nomor Ponsel Tidak Bisa Akses Nomor Ponsel Terdaftar Atau Alasan Lainnya. Lalu KlikLANJUT.
+5. 5. LengkapiFormulir Permohonan Ubah Nomor Ponsel.Mulai Dari Nomor Ponsel Yang Terdaftar Di OSS (Boleh Tidak Diisi), Dan NIK Pelaku Usaha. Harap Diingat, BahwaHanya Pemilik Akun Yang Bisa Mengajukan Perubahan Nomor Ponsel Atau Pihak Lain Dengan Dilengkapi Surat Kuasa. Bagi Permohonan Yang Dikuasakan Kepada Pihak Lain, Harus Mengunggah KTP Penerima Kuasa Dan Surat Kuasa Dengan Meterai.
+6. 6. LakukanSwafoto (Selfie).Harap Baca Panduan Swafoto Dengan Benar. Karena Permohonan Anda BisaDitolak Apabila Swafoto Dilakukan Tidak Sesuai Dengan Ketentuan.Lalu, KlikLANJUT.
+7. 7. LakukanSwafoto Dengan Menuliskan Kode PermohonanYang Tertulis Pada Layar Komputer Anda Di Atas Sebuah Kertas Putih. Pastikan Wajah Dan Kode Permohonan Terlihat Dengan Jelas, Lalu KlikAMBIL FOTO.
+8. 8. Setelah Melakukan Pengambilan Foto, KlikLANJUTUntuk Melanjutkan Proses Permohonan Perubahan Nomor Ponsel.
+9. 9. LengkapiNomor Ponsel Baru.Nomor Ponsel Yang Anda Masukkan Akan MenjadiNomor Ponsel BaruAnda Untuk Mengakses OSS. Ingat! Nomor Ponsel Yang Bisa DimasukkanHanyaNomor Ponsel YangBelum Pernah TerdaftarPada Sistem OSS, Lalu KlikVERIFIKASI NOMOR PONSELUntuk Melanjutkan.
+10. 10. PeriksaPesan Verifikasi. Anda Akan MenerimaKode VerifikasiPada Nomor Ponsel Yang Sebelumnya Anda Masukkan.
+11. 11. Setelah Mengecek Kode Verifikasi Di Dalam Kotak Masuk Nomor Ponsel Anda.Masukkan Kode VerifikasiTersebut Pada Halaman OSS Yang Telah Disediakan Lalu KlikUBAH NOMOR PONSEL.
+12. 12. Periksa Ringkasan Data Atas Permohonan Perubahan Nomor Ponsel Yang Sudah Anda Isi. Jika Telah Sesuai, KlikKIRIM PERMOHONAN.Silakan Menunggu Sampai Permohonan Telah Disetujui.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (13 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid106-b13f2ef0993e3ab6db8134efef600616.png
+2. https://s3.oss.go.id/oss/cms/blobid105-c9fd94cfd7545f9d6eaed28c0539bde7.png
+3. https://s3.oss.go.id/oss/cms/blobid115-da29b010c9206ab593206ed68da0a716.png
+4. https://s3.oss.go.id/oss/cms/blobid113-fea06f972746e437e8eb9cc444094b57.png
+5. https://s3.oss.go.id/oss/cms/blobid107-436b1d73a12e3e365da3f894cc3b41f4.png
+6. https://s3.oss.go.id/oss/cms/blobid111-b934491c9a6b20d2c908d60a41b718a6.png
+7. https://s3.oss.go.id/oss/cms/blobid108-d7674ee0a64e3af6a81496d22006ecc4.png
+8. https://s3.oss.go.id/oss/cms/blobid114-9ba204a8e83b94178edb4d205cf5755c.png
+9. https://s3.oss.go.id/oss/cms/blobid112-1452a115a6561b32d23581d840ab5dd0.png
+10. https://s3.oss.go.id/oss/cms/7-b49da19e9c481b4205853ce03dc6bf14.png
+11. https://s3.oss.go.id/oss/cms/blobid103-56c1e3e3d1d34d60616ad3c663a2ad79.png
+12. https://s3.oss.go.id/oss/cms/blobid110-fc83435034724d9c3be5b87895f35b5c.png
+13. https://s3.oss.go.id/oss/cms/blobid109-423041c91ce85865a137ee33b20a31ad.png

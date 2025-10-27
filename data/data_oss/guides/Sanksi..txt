@@ -1,0 +1,112 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Sanksi.
+Source: https://oss.go.id/panduan/676e557ccde449ca8bf7591f
+Scraped: 2025-10-20T15:24:35.390780
+Total Steps: 40
+Total Images: 59
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,klikMASUK.
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK.
+3. 3. Setelah login, masuk ke menuPENJADWALAN, dan klikDAFTAR PELIMPAHANuntuk melanjutkan proses.
+4. 4. Setelah mengakses menu Usulan Jadwal, sistem akan menampilkan Daftar Pelimpahan Proyek Pengawasan. Pilih salah satu Proyek Pengawasan dan klik tanda‘v’lalu klikUSULAN JADWAL.Anda dapat menggunakan fitur pencarian untuk mencari Proyek Pengawasan.
+5. 5.Periksa data Bidang Usahayang ditampilkan oleh sistem.
+6. 6. LengkapiData Usulan Jadwal.KlikSIMPAN DATA USULANuntuk menyimpan Data Usulan Jadwal.
+7. 7. Sistem akan menampilkan pemberitahuan setelah Anda memproses data usulan proyek pengawasan. Jika Anda yakin untuk melanjutkan proses Usulan Jadwal, klik YA. Akan tetapi, jika ingin membatalkan proses Usulan Jadwal, klik TIDAK.
+8. 8.Setelah berhasil menambahkan usulan jadwal maka data usulan tersebut akan masuk pada halaman Daftar Usulan Jadwal Pengawasan dengan status usulan“Belum Diproses”. Data usulan jadwal akan diverifikasi oleh sistem OSS.
+9. 9. Setelah dilakukan verifikasi, status usulan akan berubah sesuai dengan hasil verifikasi. Jika usulan diterima maka status usulan akan berubah menjadi“Disetujui”,tetapi jika status usulan tidak diterima maka status usulan berubah menjadi“Ditolak”
+10. 4. Setelah mengakses menu Daftar Pelimpahan, sistem akan menampilkan Daftar Pelimpahan Proyek Pengawasan. Pilih salah satu Proyek Pengawasan dan klik tanda‘v’lalu klikUNDANGAN KELUARAnda dapat menggunakan fitur pencarian untuk mencari Proyek Pengawasan.
+11. 5. Periksa kembaliData Proyek Pelaku Usaha.
+12. 6. Lengkapi kolom pengisian Data Undangan.Anda dapat mengisi data undangan lebih dari satu.
+13. 7. Sistem akan menampilkan pemberitahuan setelah Anda mengirim data undangan. Jika Anda yakin untukmelanjutkan pengiriman, klik YA. Akan tetapi,jika ingin membatalkan pengiriman, klikTIDAK.
+14. 4. Setelah masuk ke Daftar Pelimpahan, klik tanda“v”pada Data Pengawasan yang dipilih. klikASSIGN PELAKSANAuntuk menambah pelaksana inspeksi lapangan.Tombol Assign pelaksana akan terbuka pada H-10 sampai dengan H-4 sebelum hari Inspeksi Lapangan berlangsung dan ditutup sebelum surat kunjungan ke Pelaku Usaha dikirim.
+15. 5. Setelah itu, sistem akan menampilkan formulir pengisian datapelaksana yang akan ikut serta dalam Inspeksi Lapangan.Lengkapi data Profil Pelaksana Pengawasan.
+16. 6. Selanjutnya, periksa Data Maksud dan Tujuan Pengawasan yang ditampilkan otomatis oleh Sistem. KlikTAMBAHuntuk menyimpan data profil pelaksana pengawasan.
+17. 7. Setelah klik tombolTAMBAH(langkah 6), Data Profil Pelaksana akan tersimpan pada tabel Daftar Pelaksana.Anda dapat mengisi Data Pelaksana Inspeksi Lapangan lebih dari satu pelaksana. Selain itu, Anda juga dapat melakukan beberapa aksi berikut:
+18. 8. Untuk melihat Surat Tugas, Anda kembali ke menu Daftar Pelimpahan Pengawasan. Klik tanda“v”pada data Pengawasan dan klikSURAT TUGAS.Tombol Surat Tugas akan terbuka jika penginputan pelaksana pengawasan sudah dilakukan. Pengisian form Assign Pelaksana H-10 s/d H-4 sampai tanggal Inspeksi Lapangan.
+19. 9. Anda juga dapat melihat surat kunjungan yang akan diberikan ke Pelaku Usaha. Untuk melihat surat kunjungan, kembali ke menuDaftar Pelimpahan Pengawasan, klik tanda“v”pada Data Inspeksi Lapangan, dan KlikLIHAT SURAT KUNJUNGAN.Tombol Surat Kunjungan akan terbuka pada H-3 tanggal inspeksi lapangan.
+20. 4. Setelah memasuki halaman Pelacakan, pilih data proyek pengawasan lalu klik tanda“v”. KlikDAFTAR HADIRuntuk melihat detail pelaksana pengawasan.
+21. 5. Setelah itu, sistem akan menampilkan Daftar Hadir Pengawasan beserta dengan status kehadiran pelaksana dan peserta.Anda diwajibkan untuk melakukan konfirmasi kehadiran bersamaan dengan pengiriman proses BAP terlebih dahulu. Jika Anda belum melakukan konfirmasi kehadiran, maka tampilan akan menjadi seperti dibawah ini. Status Kehadiran tetap menjadi‘Belum Konfirmasi Kehadiran’dan tidak dapat menggunakan tombol aksi.
+22. 6. Jika Anda ingin mengubah e-mail, klik tombolUBAH EMAIL(langkah 5), maka sistem akan menampilkan pop-up perubahan email. Silakan masukkan e-mail baru Anda, lalu klikUBAH EMAIL.
+23. 7. Jika Anda ingin mengirim ulang tautan penandatanganan BAP, klik tombolKIRIM ULANG EMAIL(langkah 5). Sistem akan menampilkan pop-up bahwa e-mail sudah berhasil terkirim ulang.
+24. 4. Pada Data Pengawasan Rutin, pilih data proyek pengawasan lalu klik tanda“v”. KlikHASIL PENGAWASANuntuk mengisi hasil pengawasan. Apabila Anda telah mengisi data assign pelaksana,tombol Hasil Pengawasan akan terbuka pada hari H sampai dengan akhir batas input BAP (saat ini BAP masih bisa diinput hingga hari terakhir tahun berjalan).
+25. 5. Setelah itu, sistem akan menampilkan form pengisian Hasil Pengawasan. Periksa data Profil Pelaku Usaha yang telah ditampilkan oleh sistem terlebih dahulu.
+26. 6. LengkapiSkor Nilai Hasil Pengawasan berdasarkan hasil Inspeksi Lapangan terhadap kegiatan usaha dengan rentang nilai 1 s/d 100pada bagian data Kepemilikan Perizinan Berusaha. Bobot Nilai (%), Skor Penilaian Sistem OSS, Total Penilaian Sistem OSS, dan Total Nilai Hasil Pengawasan akan ditampilkan oleh sistem.
+27. 7. Lengkapi NilaiBobot (%)danSkor Nilai Hasil Pengawasanberdasarkan hasil pengawasan berdasarkan kriteria yang telah ditentukan Penilaian Kepatuhan Teknis dengan penjelasan pengisian sebagai berikut:
+28. 8. Anda diwajibkan untuk melakukan penilaianpemenuhan Penyampaian Laporan Berkala berdasarkan ketentuan yang berlaku sesuai dengan hasil Inspeksi Lapangan, yang terdiri atas:
+29. 9. Periksadata Nilai Riwayat Pengenaan Sanksiyang ditampilkan oleh sistem.
+30. 10. Lengkapi Data Permasalahan yang dihadapi Pelaku Usaha dalam menjalankan kegiatan usahanya (jika ada) dan klikTAMBAH PERMASALAHANuntuk menyimpan data permasalahan. Anda dapat menyimpanlebih dari satu permasalahan.Anda juga dapat menghapus data permasalahan dengan mencentang pada kotak centang/checkbox data permasalahan yang dipilih dan klikHAPUS.
+31. 11. Anda dapat mengunggah dokumen pendukung pelaksanaan Inspeksi Lapangan (seperti foto-foto kegiatan Inspeksi Lapangan dan lain sebagainya) disertai dengan nama dokumen dari unggahan tersebut.
+32. 12. LengkapiHasil Pengawasan Pengawasdan lakukan pemilihanRekomendasi Hasil Pengawasandan wajib menambahkan keterangan pada teks box yang tertera di bawahnya. Berikut terlampir pilihan rekomendasi Hasil Pengawasan, yaitu:
+33. 13. Anda wajib melengkapi nama penanggung jawab di lokasi kegiatan usaha dan kontak penanggung jawab. Pastikan kontak penanggung jawab yang diinput sudah benar. Setelah itu, periksa kembali data Hasil Pengawasan yang telah dilengkapi dan jika sudah benar, klikKIRIM DATA PENGAWASANuntuk memproses data Hasil Pengawasan. Anda juga dapat menyimpan data Hasil Pengawasan sebagai draf dengan klikSIMPAN SEBAGAI DRAF.
+34. 14. Setelah Anda menekan tombolKIRIM DATA PENGAWASAN,sistem akan menampilkan pop-up Daftar Hadir Pengawasan. Klik tombolUBAH EMAILapabila Anda ingin mengubah e-mail. Pastikan e-mail yang diinput sudah benar karena tautan penandatangan BAP akan dikirimkan ke e-mail tersebut. Setelah Anda memastikan kesesuaian data pelaksana pada Daftar Hadir Pengawasan, pada kolomStatus KehadiranpilihHADIRbagi pelaksana yang menghadiri Inspeksi Lapangan.
+35. 15. Sistem akan menampilkan pemberitahuan setelah Anda menyimpan data hasil pengawasan.Jika Anda yakin untuk melanjutkan, klik YA. Akan tetapi, jika ingin membatalkan, klik TIDAK.
+36. 16. Untuk penandatanganan BAP, tautan akan dikirim ke e-mail Penanggung Jawab di lokasi kegiatan usaha dan pelaksana Pengawasan. Cek e-mail Anda dan klik tautan“Klik Disini”untuk memproses penandatanganan BAP secara elektronik.
+37. 17. Setelah Anda mengakses tautan pada e-mail, Anda akan diminta untuk mengisiCaptchasesuai dengan kata yang tersedia dan klikTAMPILKAN INFORMASI.
+38. 18. Berikut adalah tampilan Cetakan Hasil Pengawasan yang dilengkapi oleh Pengawas.
+39. 19. Anda dapat melakukanscan kode QRuntuk menampilkan data penanda tangan secara mendetail.
+40. 20. Per Tanggal 15 Februari 2023, untuk penandatanganan Berita Acara Pemeriksaan (BAP) sudah diberlakukan dengan metode digital atau menggunakan kode QR maka dari itu Anda tidak diperlukan mengunggah data BAP yang perlu ditandatangani ke dalam sistem OSS.Jika Anda ingin melihat data cetakan dari hasil pengawasan, Anda dapat klik tombolHASIL PENGAWASANseperti pada langkah 2. Setelah sistem menampilkan form Hasil Pengawasan yang sudah diisi, Anda dapat scroll down dan melihat dua tombol aksi yang dapat digunakan. Untuk melihat atau mengunduh cetakan Hasil Pengawasan, Anda dapat mengklik tombolCETAKAN.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (59 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/9-ecbcb2a55422c8b9db8f3dbbd22cdb49.png
+2. https://s3.oss.go.id/oss/cms/15-5ac08423e56fea3ec77ca30df98d73e2.png
+3. https://s3.oss.go.id/oss/cms/Daftar-Hadir-aa6e56618e2fbf05749fa757961da719.png
+4. https://s3.oss.go.id/oss/cms/19-47ea37bec08f5c938f90f215d96a0e1a.png
+5. https://s3.oss.go.id/oss/cms/11-3d5cf5f6755546c7a94cc92badee19ea.png
+6. https://s3.oss.go.id/oss/cms/5-002fbbb0b5f4ae50c160e70e8698521b.png
+7. https://s3.oss.go.id/oss/cms/6-a16fd288020a24d99d5f1030f093ef2a.png
+8. https://s3.oss.go.id/oss/cms/6-1-62d2815945520aa389fa612b301656d1.png
+9. https://s3.oss.go.id/oss/cms/2-b2f8b9c9ac4f415cce85adff2f6fa3d1.png
+10. https://s3.oss.go.id/oss/cms/7-c92c53cf71c49efbadf9b94eaaeee815.png
+11. https://s3.oss.go.id/oss/cms/17-669ef715a9fe72f628d3f6bd8c92b330.png
+12. https://s3.oss.go.id/oss/cms/6-2-5382f483192a8bb1ae361f721a937a33.png
+13. https://s3.oss.go.id/oss/cms/5-8ee7fc75df8f3f4c59e654a881528706.png
+14. https://s3.oss.go.id/oss/cms/22-0605c4f94398a1d50c0c6f2f6e44c054.png
+15. https://s3.oss.go.id/oss/cms/4-b87a17d4de9198a8d284ff1d14bda828.png
+16. https://s3.oss.go.id/oss/cms/2024-12-27_154323-c30469ee2c612aef6f8155af7f004995.png
+17. https://s3.oss.go.id/oss/cms/11-85caaca96b7aa476bb446e398271d98f.png
+18. https://s3.oss.go.id/oss/cms/18-c5230a336cf301c2b07852019638ae45.png
+19. https://s3.oss.go.id/oss/cms/Usulan-Jadwal-a909fc51d21a55458a833666aa113097.png
+20. https://s3.oss.go.id/oss/cms/13-c5d08204f47763483ffc8c9055406e5b.png
+21. https://s3.oss.go.id/oss/cms/8-bc8daf647e293d1c6dbb1c48eca7c22b.png
+22. https://s3.oss.go.id/oss/cms/5-054127f3d339ef23653870fcb618d384.png
+23. https://s3.oss.go.id/oss/cms/6-1-7a5351c853a687f338e1a85c717051ff.png
+24. https://s3.oss.go.id/oss/cms/4-07054af8746973f59681a7b76c24b574.png
+25. https://s3.oss.go.id/oss/cms/23-1768600e692f9e5a535ad6d128741fde.png
+26. https://s3.oss.go.id/oss/cms/6-18252575221caa06629d27ae750a1556.png
+27. https://s3.oss.go.id/oss/cms/21-4b360dbf1ca885fa7c547ba8e79b4d4c.png
+28. https://s3.oss.go.id/oss/cms/2024-12-27_154306-5a242e9211dcfe2db00fce40dc12b970.png
+29. https://s3.oss.go.id/oss/cms/16-5f9cac8515e0612c39b59f4e91075c8a.png
+30. https://s3.oss.go.id/oss/cms/7-59da15eca6fee406a3a24890472b4682.png
+31. https://s3.oss.go.id/oss/cms/6-2-129997bf5c7762bf056112aee9382b02.png
+32. https://s3.oss.go.id/oss/cms/4-23bb850076456848d75340cdda17c193.png
+33. https://s3.oss.go.id/oss/cms/Pembuatan-Surat-Tugas-(2)-59833c41acdf63c7528362a5837a8945.png
+34. https://s3.oss.go.id/oss/cms/8-9318fb955a9d0b254705a54c8679edd3.png
+35. https://s3.oss.go.id/oss/cms/1-9a7ddff56cc63c57c677419d18a28f3e.png
+36. https://s3.oss.go.id/oss/cms/5-8f456fccde62fa80943a68301a2eb8a0.png
+37. https://s3.oss.go.id/oss/cms/2024-12-27_151403-73e736c619373de7c93091fd3ce47554.png
+38. https://s3.oss.go.id/oss/cms/7-fed7d13f7a910735516796ad9ca03b82.png
+39. https://s3.oss.go.id/oss/cms/2024-12-27_151426-9e6cd5dcc77ef8d6c1b6bf6a18f7dc12.png
+40. https://s3.oss.go.id/oss/cms/10-b1aaffae4a56ef259dea2f0ae4de89f4.png
+41. https://s3.oss.go.id/oss/cms/4-305847dfb6238a062b85d3dd5707042a.png
+42. https://s3.oss.go.id/oss/cms/4-a8bd6956e199cf11bd17e68187360460.png
+43. https://s3.oss.go.id/oss/cms/6-3fd14baa271442d2253a85d29d1912ce.png
+44. https://s3.oss.go.id/oss/cms/BAP-aa99db5abaccda8a4cb94f8b7f4dc782.png
+45. https://s3.oss.go.id/oss/cms/2024-12-27_151622-d4fe120eaa05e8c6a597c70ca8688a77.png
+46. https://s3.oss.go.id/oss/cms/20-47f4d0b9048cdf6ae73e4b8d3be91d88.png
+47. https://s3.oss.go.id/oss/cms/10-1aa0eada10ace887476b75907cb515ca.png
+48. https://s3.oss.go.id/oss/cms/8-22ebbb0980ebc325b380318186d4d91e.png
+49. https://s3.oss.go.id/oss/cms/10-c7f7532f50cc3de82552233e39e70c78.png
+50. https://s3.oss.go.id/oss/cms/Diagram-Panduan-Penjadwalan-Rutin-Kepolisian.drawio-(6)-85b9cd8771d880e0b30b96c30f9814ad.png
+51. https://s3.oss.go.id/oss/cms/2024-12-27_151403-4b103fe958bd434055a87d7a2d164fd7.png
+52. https://s3.oss.go.id/oss/cms/5-dbec2be16af6e9e084fd36443074f9eb.png
+53. https://s3.oss.go.id/oss/cms/3-93ca060977cf9d95f501420f314f5fef.png
+54. https://s3.oss.go.id/oss/cms/4-a08140fe5e66246b5b78be390255eb33.png
+55. https://s3.oss.go.id/oss/cms/9-97e0ebe21ca014f1c604290d98fa5eaa.png
+56. https://s3.oss.go.id/oss/cms/4-a4d2d09aa001db1e8a71a160ef947889.png
+57. https://s3.oss.go.id/oss/cms/9-0a92d33f2e44f1b89cfb39b44f907723.png
+58. https://s3.oss.go.id/oss/cms/14-97ad183d8ba7ebfea1991cef66b1f5b3.png
+59. https://s3.oss.go.id/oss/cms/12-bb2ef675f59536d59645d3a0daee711c.png

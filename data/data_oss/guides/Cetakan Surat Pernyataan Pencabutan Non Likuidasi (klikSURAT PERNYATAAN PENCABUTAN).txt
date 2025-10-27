@@ -1,0 +1,45 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Cetakan Surat Pernyataan Pencabutan Non Likuidasi (klikSURAT PERNYATAAN PENCABUTAN)
+Source: https://oss.go.id/panduan/635970086345c7d71a8144ca
+Scraped: 2025-10-20T15:29:32.465553
+Total Steps: 15
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK
+3. 3. Masuk ke menuPERIZINAN BERUSAHA, pilihPENCABUTAN, pilihNON LIKUIDASI, dan klikPERMOHONAN PELAKU USAHA
+4. 4. Sistem akan melakukan pengecekan apakah NPWP Anda valid atau tidak. Setelah NPWP dinyatakan valid, klikPROSESuntuk melanjutkan permohonan. Apabila NPWP dinyatakan tidak valid, silakan menghubungiKantor Pelayanan Pajak terdekat atau Kring Pajak 1500200
+5. 5. KlikAJUKAN PERMOHONANuntuk memproses permohonan Pencabutan Non Likuidasi
+6. 6. Pastikan LKPM kegiatan usaha atas seluruh Kegiatan Usaha Anda telahvalid (disetujui). Setelah LKPM kegiatan usaha dinyatakan valid, klikPROSESuntuk melanjutkan permohonan
+7. 7. PeriksaData Proyek. Data Proyek pada formulir permohonan akan munculberdasarkan tingkat risiko usaha yang Anda pilih. Klik padaTAB DATA PENANAMAN MODAL RISIKOatau klik ikon“V”untuk menampilkan data Kegiatan.
+8. 8. PeriksaData Pelaku Usaha, pastikan data yang ditampilkan oleh sistem sudah benar.
+9. 9. PeriksaData Akta (Khusus Status Penanaman Modal Asing).Data Akta akan ditampilkan olehsistem secara otomatis (khusus PMA jika kegiatan usaha tidak tercantum lagi dalam maksud dan tujuan atas akta Pelaku Usaha tersebut),
+10. 10. Lengkapi Data Pemohon. Jika Jabatan Pemohontidak tampil secara otomatismaka Andawajibmengisi Jabatan Pemohon.
+11. 11. Baca dan Pahami Pernyataan dengan teliti, lalu centang kotakDISCLAIMER(format surat pernyataan dapat dilihat pada menuPRATINJAU SURAT PERNYATAAN) dan klikSAYA SUDAH MEMBACA DAN MENYETUJUI.Lalu,klikKIRIM PERMOHONANuntuk mengirimkan permohonan Pencabutan Non Likuidasi
+12. 12. Setelah melengkapi data pada permohonan dan klikPROSES, akan ada notifikasi konfirmasi untuk melakukan Pencabutan. KlikYAuntuk melanjutkan proses permohonan Pencabutan. Lalu, klikOKuntuk menyelesaikan proses permohonan pembatalan selanjutnya sistem secara otomatis akan menampilkan halaman tracking Permohonan Pencabutan Non Likuidasi
+13. 13.Permohonan Pencabutan Non Likuidasi secara otomatis akan disetujui oleh sistem. Klik tanda“V”untuk menampilkan tombol lihat detail. Lalu, KlikLIHAT DETAILuntuk melihat daftar cetakan pembatalan yang sudah disetujui
+14. 14. Permohonan Pencabutan Non Likuidasi yang telah disetujui akan menampilkan:
+15. 15. Setelah Permohonan Pencabutan Non Likuidasi“Disetujui”Surat Permohonan Pencabutan Non Likuidasi pun akan terbit. Pencabutan Non Likuidasi untuk Kegiatan Usaha tingkat risiko rendah hanya dilakukan dengan pemutakhiran NIB sementara Surat Pencabutan Sertifikat Standar tercetak untuk Kegiatan Usaha tingkat risiko menengah rendah, tingkat risiko menengah tinggi, dan tingkat risiko tinggi yang memiliki SS dan Surat Pencabutan Izin tercetak untuk Kegiatan Usaha tingkat risiko tinggi
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/11-130090a20d1563caa5e3347a8f36092b.png
+2. https://s3.oss.go.id/oss/cms/5-bcd367c9061323d81a16650671f0f489.png
+3. https://s3.oss.go.id/oss/cms/1-303828fbd0b5e17aefc3a375038db519.png
+4. https://s3.oss.go.id/oss/cms/2-c89cae9018572dad8c705a95cce71c53.png
+5. https://s3.oss.go.id/oss/cms/15-9ad3c91a0475fc60c65f90ac2cfcd0cd.png
+6. https://s3.oss.go.id/oss/cms/9-a66ea1e05d8f1e9d6f36dbec09dff965.png
+7. https://s3.oss.go.id/oss/cms/1---Menu-Pencabutan-Non-Likuidasi-Perizinan-Berusaha-(UMK-dan-Non-UMK-(No.3))-a8aeb4ad165a7914ed36ea1a12648b33.png
+8. https://s3.oss.go.id/oss/cms/7-df2f7e200709d013d417d89439f39569.png
+9. https://s3.oss.go.id/oss/cms/4-f2a174de7cb3043776bc5fa6bb86fa0b.png
+10. https://s3.oss.go.id/oss/cms/8-7aae4bcd61f03afbf4cd6254ceef7847.png
+11. https://s3.oss.go.id/oss/cms/10-6d4a8453042d63dc9305a00eee67e9f2.png
+12. https://s3.oss.go.id/oss/cms/16-f24221b53983cc625ff71eadbe39506b.png
+13. https://s3.oss.go.id/oss/cms/17-b3411d18c8b7d9a829290e83edb4196e.png
+14. https://s3.oss.go.id/oss/cms/13-a27e217f22a1bfed80a6ae2bbcbf55e0.png
+15. https://s3.oss.go.id/oss/cms/14-9f5eee193ff318fc028a986600c6e7dc.png
+16. https://s3.oss.go.id/oss/cms/6-219747d8800afad6bf10fa7568760160.png
+17. https://s3.oss.go.id/oss/cms/12-c40dcf7e47e4ae2aef2a7ed53196e6ec.png

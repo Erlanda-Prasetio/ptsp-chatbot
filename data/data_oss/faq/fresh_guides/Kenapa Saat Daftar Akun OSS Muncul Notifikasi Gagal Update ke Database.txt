@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Saat Daftar Akun OSS Muncul Notifikasi Gagal Update ke Database?
+Source: https://oss.go.id/id/faq/kategori?id=68e488e27795640efd3ef074
+Scraped: 2025-10-21T15:08:48.147467
+================================================================================
+
+QUESTION:
+Kenapa Saat Daftar Akun OSS Muncul Notifikasi Gagal Update ke Database?
+
+ANSWER:
+Notifikasi Gagal update ke database muncul pada saat melakukan pendaftaran karena terdapat kendala pada sistem AHU. Silakan menghubungi pihak AHU Online terkait kendala tersebut.
+
+================================================================================

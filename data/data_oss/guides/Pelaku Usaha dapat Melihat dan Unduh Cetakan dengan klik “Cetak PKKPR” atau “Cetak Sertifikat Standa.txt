@@ -1,0 +1,89 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pelaku Usaha dapat Melihat dan Unduh Cetakan dengan klik “Cetak PKKPR” atau “Cetak Sertifikat Standar Klinik Pratama Pendukung (PMA)”
+Source: https://oss.go.id/panduan/640ed22ae34906bcdee041db
+Scraped: 2025-10-20T15:24:07.811488
+Total Steps: 34
+Total Images: 42
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/,pilih“Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombolMASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Klik MenuPerizinan Berusahadan pilihPengembangan
+5. 5. KlikTambah Bidang Usaha
+6. 6. Selanjutnya, klikPilih Bidang Usahauntuk mengisi data Bidang Usaha
+7. 7. LengkapiPemilihan Bidang Usaha
+8. 8. Lengkapi keseluruhanFormulir Perekaman Data Pelaku Usaha
+9. 9. Pemberitahuan Pengisian Proyek
+10. 10. Baca, Pahami, danCentangpada kotakCheckbox,lalu klik tombolLanjut
+11. 11. Daftar Data Usaha
+12. 12. PeriksaDaftar Kegiatan Usahasecara berkala
+13. 13. LengkapiDokumen Persetujuan Lingkungan
+14. 14. Pahami dan CentangPernyataan Mandiri
+15. 15. PeriksaDraf Perizinan Berusaha (NIB)
+16. 16. Lengkapi Pemenuhan Persyaratan
+17. 1. Klik MenuPerizinan Berusahadan pilihPengembangan
+18. 2. KlikTambah Bidang Usaha
+19. 3. Selanjutnya, klikPilih Bidang Usahauntuk mengisi data Bidang Usaha
+20. 4. Lengkapi Data Bidang Usaha, lalu klik tombolSIMPAN
+21. 5. Lengkapi Formulir Detail Usaha sesuai dengan keberadaan lokasi kegiatan usaha Anda
+22. 6. Pemberitahuan Pengisian Proyek
+23. 7. Baca, Pahami, danCentangpada kotakCheckbox,lalu klik tombolLanjut
+24. 8. Daftar Data Usaha
+25. 9. PeriksaDaftar Kegiatan Usaha (untuk Lokasi Usaha yang perlu verifikasi KKPR)
+26. 10.a Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu)
+27. 10.b Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+28. 10.c Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+29. 10.d Periksa dan LengkapiDokumen Persetujuan Lingkungan (KBLI/Bidang Usaha Tertentu) - Lanjutan
+30. 11. Pahami dan CentangPernyataan Mandiri
+31. 12. PeriksaDraf Perizinan Berusaha (NIB)
+32. 13. LakukanProses Persetujuan Lingkungan
+33. 14. ProsesPemenuhan Standar Usaha
+34. 15. Periksa Daftar Kegiatan Usaha secara berkala (Status Pemenuhan)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (42 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3-stg.oss.go.id/oss/cms/Picture15-dfe9f229988163d30210c3e52d705012.webp
+2. https://s3-stg.oss.go.id/oss/cms/Picture19-580248238e49cb63b587b6cf3f22e1c6.webp
+3. https://s3-stg.oss.go.id/oss/cms/Picture20-2cd061a7d3a0c8ee38e650206d149436.webp
+4. https://s3-stg.oss.go.id/oss/cms/Picture14-f9787c40d71e4917eeab169fe165b288.webp
+5. https://s3-stg.oss.go.id/oss/cms/Picture42-1a4e43f015ca507972a52017bfba49be.webp
+6. https://s3-stg.oss.go.id/oss/cms/Picture38-19885ecf386e75e99b93b68e0da45411.webp
+7. https://s3-stg.oss.go.id/oss/cms/Picture12-e297c3bf88f8c1edbf34a249dc5ba44a.webp
+8. https://s3-stg.oss.go.id/oss/cms/Picture23-e64cb6cbb7ecd483b62d13d67d426a38.webp
+9. https://s3-stg.oss.go.id/oss/cms/Picture22-b4c2b7b6e15c09e6f09f0d1acfe9d7fb.webp
+10. https://s3-stg.oss.go.id/oss/cms/Picture34-487c9d3957adb529943af26708f00c8b.webp
+11. https://s3-stg.oss.go.id/oss/cms/Picture3-21db362d9054052ae26ca32bdd66a0e8.webp
+12. https://s3-stg.oss.go.id/oss/cms/Picture10-f7fd32f6153f2e5cce85666aad876e5c.webp
+13. https://s3-stg.oss.go.id/oss/cms/Picture41-75c05a520b9590518ef244f1ae3eb86f.webp
+14. https://s3-stg.oss.go.id/oss/cms/Picture8-0f29eaf35874a65cd507d83013f02be3.webp
+15. https://s3-stg.oss.go.id/oss/cms/Picture33-4b762c8d2438aea94f26ced7300f351a.webp
+16. https://s3-stg.oss.go.id/oss/cms/Picture31-1716194ee8075340f19793d4b9c8ab19.webp
+17. https://s3-stg.oss.go.id/oss/cms/Picture1-79cab20a22c4f482ca2f731c0448d1a4.webp
+18. https://s3-stg.oss.go.id/oss/cms/Picture35-0c59c76107e9f0e834e70dd8df05a72b.webp
+19. https://s3-stg.oss.go.id/oss/cms/Picture30-2794519130cdbeb75d7e26121533bff3.webp
+20. https://s3-stg.oss.go.id/oss/cms/Picture24-705a50bcf6e3e3e165bab3ca15dcc74a.webp
+21. https://s3-stg.oss.go.id/oss/cms/Picture25-c053d5a888e30921f6447b1d0890d3da.webp
+22. https://s3-stg.oss.go.id/oss/cms/Picture5-0de64cb0ce8af06b02a11f7d26f58a7e.webp
+23. https://s3-stg.oss.go.id/oss/cms/Picture40-ea08b3668acb33e72b6783cd707c5413.webp
+24. https://s3-stg.oss.go.id/oss/cms/Picture9-145c607b875dd8ab2fd4d36bf34b2a72.webp
+25. https://s3-stg.oss.go.id/oss/cms/Picture39-b4fd69a9d10d2cdfe964e855ddb795c1.webp
+26. https://s3-stg.oss.go.id/oss/cms/Picture7-796de3a47c93c696824ba53aee31fba5.webp
+27. https://s3-stg.oss.go.id/oss/cms/Picture17-pendukung-9cf86dd6a66435b26e463c67f42378b6.webp
+28. https://s3-stg.oss.go.id/oss/cms/Picture13-f274f27bb4fbd7fd33b34c8a437ce52c.webp
+29. https://s3-stg.oss.go.id/oss/cms/Picture21-2ba26eb23669095a2962b292674d52f4.webp
+30. https://s3-stg.oss.go.id/oss/cms/Picture37-d93b656b16f69cd30b27ce9fbffaf68d.webp
+31. https://s3-stg.oss.go.id/oss/cms/Picture18-a6bc3c4317a760305681955eed0ba42d.webp
+32. https://s3-stg.oss.go.id/oss/cms/Picture28-af6f4902830a45cd0ada2157493ffeb8.webp
+33. https://s3-stg.oss.go.id/oss/cms/Picture6-55c714bbdfe7bd90ab890a837ae77b14.webp
+34. https://s3-stg.oss.go.id/oss/cms/Picture26-2c967da7b8d7a8835d4b7e7a5d172153.webp
+35. https://s3-stg.oss.go.id/oss/cms/Picture27-55c8c2e926ea84e7655b92afbe459241.webp
+36. https://s3-stg.oss.go.id/oss/cms/Picture32-c8bd10df1a68d9e1051f0c8e20129b8b.webp
+37. https://s3-stg.oss.go.id/oss/cms/Picture36-f3bf6e6bf2ea7ffae106ca606e56260a.webp
+38. https://s3-stg.oss.go.id/oss/cms/Picture11-50b3314086d19dfea3fec38abbaa6b5e.webp
+39. https://s3-stg.oss.go.id/oss/cms/Picture16-a69ea1ec51b2331c24fa2510e6010c70.webp
+40. https://s3-stg.oss.go.id/oss/cms/Picture4-9f57093734d8d1bbbcdfeee7aee628e7.webp
+41. https://s3-stg.oss.go.id/oss/cms/Picture29-ce169bc82da454d94bf74e654fd7068a.webp
+42. https://s3-stg.oss.go.id/oss/cms/Picture2-33247f86f1a7069443d43637573119d1.webp

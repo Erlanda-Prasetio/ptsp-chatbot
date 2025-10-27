@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Saat Isi Form Data Usaha Muncul Keterangan 'Error dalam memproses data proyek'?
+Source: https://oss.go.id/id/faq/kategori?id=68e486d07795640efd3eefdc
+Scraped: 2025-10-21T15:16:51.708955
+================================================================================
+
+QUESTION:
+Kenapa Saat Isi Form Data Usaha Muncul Keterangan 'Error dalam memproses data proyek'?
+
+ANSWER:
+Munculnya notifikasi Error dalam pemrosesan data proyek biasanya terjadi karena Bapak/Ibu belum mengisi data usaha dengan lengkap. Untuk mengatasi masalah ini, mohon pastikan kembali bahwa seluruh formulir termasuk penginputan kode KBLI lima digit telah dilengkapi sebelum melanjutkan proses.
+
+================================================================================

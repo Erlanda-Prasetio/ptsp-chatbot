@@ -1,0 +1,47 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Klik tombolLanjut
+Source: https://oss.go.id/panduan/635970086345c7d71a814496
+Scraped: 2025-10-20T15:41:04.685380
+Total Steps: 17
+Total Images: 17
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/
+2. 2. PilihDAFTAR
+3. 3. Pilih skala usahaUMK
+4. 4. Pilih jenis pelaku usahaUMK
+5. 5. LengkapiSkala Usaha UMK(sebagaiOrang Perseorangan)
+6. 5.b LengkapiSkala Usaha UMK(sebagaiBadan Usaha)
+7. 6.aVerifikasi Data(melaluiWhatsapp)
+8. 6.bVerifikasi Data(melaluiEmail)
+9. 7. MasukkanKata Sandi
+10. 8.a Lengkapi DataProfil Pelaku Usaha (Orang Perseorangan)
+11. 8.b Lengkapi DataProfil Badan Usaha - Perseroan Terbatas (PT)
+12. 8.c LengkapiProfil Badan Usaha - PT Perorangan, CV, Perum, Perumda, Persekutuan Perdata, FA, dan Badan Hukum Lainnya
+13. 8.d LengkapiProfil Badan Usaha - Koperasi
+14. 8.e. LengkapiProfil Badan Usaha - Badan Usaha Milik Desa (BUMDES) dan Badan Usaha
+15. 8.f LengkapiProfil Badan Usaha - Yayasan, Persyarikatan/Perkumpulan, dan Badan Layanan Umum
+16. 9. PendaftaranBerhasil
+17. 10. Hak akses Andasiap digunakanuntuk masuk ke Sistem OSS
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (17 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid50-ca043461001565904784449c04b6ee57.png
+2. https://s3.oss.go.id/oss/cms/blobid61-1a83c48209d71a49d5d558ab869716a2.png
+3. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-10-09-at-11.20.10-b8f1b8ad60284a8bbc14698f0aa82bd7.jpeg
+4. https://s3.oss.go.id/oss/cms/1-portal-ac31302ce7d37dec165d8dfbfa96c0f1.png
+5. https://s3.oss.go.id/oss/cms/blobid59-cf4bb7f91432068b7f6a2e1b9ccade2a.png
+6. https://s3.oss.go.id/oss/cms/blobid64-b94243d466ad63eff92792ada81c026a.png
+7. https://s3.oss.go.id/oss/cms/blobid58-92d5a9d34055d8bb5c2fa335170d9756.png
+8. https://s3.oss.go.id/oss/cms/blobid60-341fbe91054fab6299031ee48fc14887.png
+9. https://s3.oss.go.id/oss/cms/blobid54-1b69b95c6062ebb14bbf146c1c0c86d0.png
+10. https://s3.oss.go.id/oss/cms/blobid52-9fe7a0e9c925d8c30edfccd014d333c8.png
+11. https://s3.oss.go.id/oss/cms/blobid51-75904f61f445343afd47ddc84d250478.png
+12. https://s3.oss.go.id/oss/cms/blobid62-d951647bf6d91becdd7aa371c91fde78.png
+13. https://s3.oss.go.id/oss/cms/blobid57-8bf38940f2389cd95715bba04facf439.png
+14. https://s3.oss.go.id/oss/cms/blobid56-236063e3380bb148e11770598ce6eec6.png
+15. https://s3.oss.go.id/oss/cms/blobid63-94b3dc3dfc6ae741e9a1c05136519da6.png
+16. https://s3.oss.go.id/oss/cms/blobid53-f7437ba9cdcc1a1b1f0a4777e65fcb98.png
+17. https://s3.oss.go.id/oss/cms/blobid55-54bece26fca581214cfb086fb7e9d164.png

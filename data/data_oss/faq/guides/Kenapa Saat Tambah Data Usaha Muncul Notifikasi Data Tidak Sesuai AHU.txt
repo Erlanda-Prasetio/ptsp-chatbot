@@ -1,0 +1,13 @@
+================================================================================
+Title: Kenapa Saat Tambah Data Usaha Muncul Notifikasi Data Tidak Sesuai AHU?
+Source: https://oss.go.id/id/faq/kategori?id=68e48637711547977a0df1cf
+Scraped: 2025-10-21T15:18:57.520833
+================================================================================
+
+QUESTION:
+Kenapa Saat Tambah Data Usaha Muncul Notifikasi Data Tidak Sesuai AHU?
+
+ANSWER:
+1. KBLI yang diinput dalam sistem OSS tidak terdaftar di sistem AHU Online. Jika KBLI yang diinput pada sistem OSS belum terdaftar pada sistem AHU Online, Bapak/Ibu harus melakukan update data AHU melalui notaris 2. KBLI sudah terdaftar di AHU namun belum dilakukan sinkronisasi data AHU pada sistem OSS Jika KBLI sudah terdaftar pada AHU namun belum muncul pada sistem OSS, Bapak/Ibu dapat melakukan sinkronisasi data AHU melalui menu Perizinan Berusaha. Pilih Kelola Usaha kemudian Pilih Perubahan lalu pilih Perubahan Badan Usaha kemudian centang Perubahan pada maksud dan tujuan lalu klik tombol Ubah Sekarang.
+
+================================================================================

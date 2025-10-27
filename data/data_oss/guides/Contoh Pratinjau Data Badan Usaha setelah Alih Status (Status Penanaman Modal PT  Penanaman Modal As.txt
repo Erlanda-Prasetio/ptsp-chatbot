@@ -1,0 +1,39 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Contoh Pratinjau Data Badan Usaha setelah Alih Status (Status Penanaman Modal PT : Penanaman Modal Asing atau PMA)
+Source: https://oss.go.id/panduan/66ecda24e09d998f717cb9f5
+Scraped: 2025-10-20T15:28:04.300244
+Total Steps: 7
+Total Images: 19
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Klik Menu Perizinan Berusaha, pilih Perubahan, lalu pilih Perubahan Badan Usaha
+5. 5. Pilih Perubahan yang Ingin Dilakukan
+6. 6. Lengkapi Form Perubahan
+7. 7. Perubahan Alis Status Berhasil
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (19 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture16-b5a923330127f4ee94204063284a9466.png
+2. https://s3.oss.go.id/oss/cms/Picture9-a5248db82ac327f85243494c3f40298c.png
+3. https://s3.oss.go.id/oss/cms/Picture2-dbd6367219ceaab3e2eed5b1e621d2c1.png
+4. https://s3.oss.go.id/oss/cms/Picture6-7153f4756c3188129a3323254c7aed83.png
+5. https://s3.oss.go.id/oss/cms/Picture5-2165dee1faf777f36648ef773ab81722.png
+6. https://s3.oss.go.id/oss/cms/Picture15-16a25afd4268c7b7199742cd8f29ae42.png
+7. https://s3.oss.go.id/oss/cms/Picture89-3b13b28c4c1c5d977beeccaea63f24c6.png
+8. https://s3.oss.go.id/oss/cms/Picture7-cfe38b5ede91f722964f394d04ff939a.png
+9. https://s3.oss.go.id/oss/cms/Picture13-dabb5156c85bbde8b1a5f1dda9134edd.png
+10. https://s3.oss.go.id/oss/cms/Picture11-9bb7c159780cf199583be60c301d1dd8.png
+11. https://s3.oss.go.id/oss/cms/Picture3-b4349da3bd64e8b207906d53fb178d98.png
+12. https://s3.oss.go.id/oss/cms/Picture17-45a47a12157d70e011c5de69518c99f5.png
+13. https://s3.oss.go.id/oss/cms/Picture20-a86b3c8ca66ac9134bc462882e35835f.png
+14. https://s3.oss.go.id/oss/cms/Picture18-f679fcd6cb9e10591275625c96f2af2b.png
+15. https://s3.oss.go.id/oss/cms/Picture4-d3da788fe8bf3093d1dd45cac4ab7b72.png
+16. https://s3.oss.go.id/oss/cms/Picture14-7483c81c9a43682ded9ec292862e13b2.png
+17. https://s3.oss.go.id/oss/cms/6-b724bfa0c7b07dd57532a98c7f92bd1a.png
+18. https://s3.oss.go.id/oss/cms/Picture8-99f29d2a8ba4c7834ec58caa97b5eaa7.png
+19. https://s3.oss.go.id/oss/cms/Picture19-20d8bd0182d9c6431f9da8f979069539.png

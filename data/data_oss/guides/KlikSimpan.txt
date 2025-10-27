@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: KlikSIMPAN
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e6
+Scraped: 2025-10-20T15:38:37.942476
+Total Steps: 18
+Total Images: 27
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/, PilihMasuk
+2. 2. MasukkanUsernameDanPasswordBeserta, Lalu KlikMasuk
+3. 3. HalamanDasboard DPMPTSP
+4. 4. Pilih MenuAdministrator, LaluHak Akses Turunan
+5. 5.Sistem MenampilkanDaftar Pengguna Hak Akses
+6. 6. KlikTambahUntuk Menambah Data
+7. 7. Sistem Akan Menampilkan Formulir Untuk Menambah Data, Isi Formulir Dengan Benar, Lalu KlikSIMPAN
+8. 8. Sistem Akan Menampilkan Data Baru Yang Sudah Ditambahkan
+9. 9. Pengguna MendapatkanEmailBerupaUsernameDanPasswordUntuk Masuk KedalamSistem
+10. 10. PadaDaftar Hak Akses Turunan, Pilih Pengguna Yang Ingin Diubah, Lalu KlikEDIT
+11. 11. Sistem Akan Menampilkan Formulir Ubah, Isi Formulir Sesuai Dengan Ketentuan Data Yang Diminta, Kemudian KlikSIMPAN
+12. 12. Sistem Akan Menampilkan Data Baru Yang Sudah Diubah
+13. 13. PadaDaftar Hak Akses Turunan, Pilih Pengguna Yang Ingin Dihapus Datanya, Lalu KlikNon Aktif
+14. 14. Sistem Akan MenampilkanNotifikasi Hapus, KlikHAPUSJika Ingin Menghapus Data, KlikBATALJika Ingin Membatalkan Hapus
+15. 15. Sistem Akan MenampilkanNotifikasiJika SudahBerhasil Menghapus Data
+16. 16. PadaDaftar Hak Akses Turunan, Pilih Pengguna Yang Ingin Dilakukan Kirim Ulang Hak Aksesnya, Lalu KlikKIRIM ULANG EMAIL
+17. 17. Sistem Akan MenampilkanNotifikasi Berhasil Kirim Email
+18. 18. Pengguna MendapatkanUsernameDanPasswordUntuk Melakukan Login
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (27 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid5-80eab6c9fe7a1c2dfc2a3ae4036afaad.png
+2. https://s3.oss.go.id/oss/cms/blobid11-4b25875ae17ac687c9e48b37e9de52f7.png
+3. https://s3.oss.go.id/oss/cms/blobid2-5332ec695f31f35c33e3aa4d7368a162.png
+4. https://s3.oss.go.id/oss/cms/blobid3-a74c5abfbd1dd2673f15d71a36e9b299.png
+5. https://s3.oss.go.id/oss/cms/blobid1-fc83a6cae7f0a092d2165b8db8093d3b.png
+6. https://s3.oss.go.id/oss/cms/blobid15-d0d1b4d95d3af7015441bb2bf117dd17.png
+7. https://s3.oss.go.id/oss/cms/blobid17-0646df6c9cc1b9438c6558dcefabf3a9.png
+8. https://s3.oss.go.id/oss/cms/blobid23-56cfb84eb03060b298ae70bb2f4cca7c.png
+9. https://s3.oss.go.id/oss/cms/blobid22-82bb2cc420f646579da87fecbc6202de.png
+10. https://s3.oss.go.id/oss/cms/blobid16-48c7bb971fedb7c761810d90a00209fa.png
+11. https://s3.oss.go.id/oss/cms/Picture3-ade37dc598c9202724a9005c84071e94.png
+12. https://s3.oss.go.id/oss/cms/blobid20-2001730c754ce3d831004bad5aaccfab.png
+13. https://s3.oss.go.id/oss/cms/blobid21-cf437952b9a005834f72ea1a7b6d2e07.png
+14. https://s3.oss.go.id/oss/cms/blobid8-9255c9520388b614579a00e56094e6e7.png
+15. https://s3.oss.go.id/oss/cms/1-portal-masuk-(1)-95b43b8af17ecaf8dbecdd8d871a4ecd.png
+16. https://s3.oss.go.id/oss/cms/blobid10-d234a9b5ee3825bbef7096266f91618d.png
+17. https://s3.oss.go.id/oss/cms/blobid13-fb4fe8bfb40a6e03f667c4d0710daf71.png
+18. https://s3.oss.go.id/oss/cms/blobid18-a776d81691e46286d0dadd3867d6fc3b.png
+19. https://s3.oss.go.id/oss/cms/blobid12-e4fcb8de73a9657aacdc91e9e1bc7f03.png
+20. https://s3.oss.go.id/oss/cms/blobid4-2f998946370d849320eae83341d9ab17.png
+21. https://s3.oss.go.id/oss/cms/blobid9-2c5e88dfa5088a20a732aa520727da38.png
+22. https://s3.oss.go.id/oss/cms/blobid6-ea287e060edcfec12ed586f72ce60d37.png
+23. https://s3.oss.go.id/oss/cms/blobid0-301403b8fb9aca4142e1969b040bf303.png
+24. https://s3.oss.go.id/oss/cms/blobid14-40239102c8e079a010a5cc02cd2d6147.png
+25. https://s3.oss.go.id/oss/cms/blobid19-6684ca5cc321dea19b4ecc9e6a37803a.png
+26. https://s3.oss.go.id/oss/cms/blobid7-5ebd317068aa880dc1929b2fb960c960.png
+27. https://s3.oss.go.id/oss/cms/Picture2-6a6afc739e073698021087922ed8e804.png

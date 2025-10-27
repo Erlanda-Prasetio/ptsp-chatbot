@@ -1,0 +1,13 @@
+================================================================================
+Title: Apa yang dimaksud dengan PBG dan SLF?
+Source: https://oss.go.id/id/faq/kategori?id=68e487297795640efd3ef016
+Scraped: 2025-10-21T15:15:25.341102
+================================================================================
+
+QUESTION:
+Apa yang dimaksud dengan PBG dan SLF?
+
+ANSWER:
+PBG adalah perizinan yang diberikan kepada pemilik bangunan gedung untuk membangun baru, mengubah, memperluas, mengurangi, dan/atau merawat bangunan gedung sesuai dengan teknis bangunan gedung. Sementara SLF adalah sertifikat yang diberikan oleh pemerintah daerah untuk menyatakan kelaikan fungsi bangunan gedung sebelum dapat dimanfaatkan. Apabila kegiatan usaha membutuhkan pembangunan gedung, sistem OSS memberikan notifikasi keperluan Persetujuan Bangunan Gedung (PBG) dan Sertifikat Laik Fungsi (SLF) kepada Sistem Informasi Manajemen Bangunan Gedung (SIMBG) yang dikelola oleh Kementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR). Notifikasi juga akan diberikan kepada pelaku usaha untuk menindaklanjuti permohonan PBG dan SLF melalui SIMBG. Pemrosesan permohonan perizinan berusaha tetap dapat dilakukan dalam waktu yang bersamaan dengan permohonan PBG dan SLF.
+
+================================================================================

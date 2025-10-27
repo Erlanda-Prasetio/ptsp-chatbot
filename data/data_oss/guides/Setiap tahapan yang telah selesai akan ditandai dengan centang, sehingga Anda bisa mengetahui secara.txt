@@ -1,0 +1,19 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Setiap tahapan yang telah selesai akan ditandai dengan centang, sehingga Anda bisa mengetahui secara pasti sampai mana proses perizinan Anda berjalan. Ini membantu Anda untuk tidak perlu lagi menebak-nebak status permohonan Anda.
+Source: https://oss.go.id/panduan/68cd0d63cc59ddbd394dcb3f
+Scraped: 2025-10-20T15:27:49.226062
+Total Steps: 0
+Total Images: 6
+════════════════════════════════════════════════════════════════════════════════
+
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (6 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid19-270dbf4c383262bfcdc105f16d5e8f8e.png
+2. https://s3.oss.go.id/oss/cms/blobid20-72b8269742291e515ceb478122363029.png
+3. https://s3.oss.go.id/oss/cms/blobid16-53e181b2536f8dcde7b3f7eed5b5adcc.png
+4. https://s3.oss.go.id/oss/cms/blobid18-6e3bf8e09cfbabb66972404e0f495d35.png
+5. https://s3.oss.go.id/oss/cms/blobid17-f819e33f85311787ab39b78c0b5ae5ab.png
+6. https://s3.oss.go.id/oss/cms/blobid15-119ff6a023a570acfdc0660f7ec059f5.png

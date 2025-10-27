@@ -1,0 +1,106 @@
+{
+  "total_documents": 496,
+  "total_chunks": 1099,
+  "breakdown": {
+    "faq": 334,
+    "investment": 10,
+    "guides": 152
+  },
+  "sample_chunks": [
+    {
+      "content": "================================================================================\nTitle:\n\n1. Bagaimana cara ubah NPWP?\n\n2. Saya mau merubah/mengubah data NPWP\nSource: https://oss.go.id/id/faq/kategori?id=68e486907795640efd3eefbc\nScraped: 2025-10-21T15:17:54.528114\n================================================================================\n\nQUESTION:\n\n1. Bagaimana cara ubah NPWP?\n\n2. Saya mau merubah/mengubah data NPWP\n\nANSWER:\nNPWP dapat dilakukan perubahan dengan cara:\n\n1. Masuk ke website OSS;\n\n2. Klik \"Perizinan Berusaha\";\n\n3. Pilih \"Kelola Usaha\";\n\n4. Pilih \"Perubahan\";\n\n5. Pilih \"Perubahan Badan Usaha\";",
+      "metadata": {
+        "source": "1. Bagaimana cara ubah NPWP 2. Saya mau merubahmengubah data NPWP.txt",
+        "title": "1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e486907795640efd3eefbc",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "zinan Berusaha\";\n\n3. Pilih \"Kelola Usaha\";\n\n4. Pilih \"Perubahan\";\n\n5. Pilih \"Perubahan Badan Usaha\";\n\n6. Atau bisa melalui tautan: https://ui-login.oss.go.id/login. Panduan umum perubahan data badan usaha/pelaku usaha dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/635970086345c7d71a8144aa (Badan Usaha) https://oss.go.id/panduan/635970086345c7d71a8144a9 (Orang Perorangan)\n\n================================================================================",
+      "metadata": {
+        "source": "1. Bagaimana cara ubah NPWP 2. Saya mau merubahmengubah data NPWP.txt",
+        "title": "1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e486907795640efd3eefbc",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "================================================================================\nTitle:\n\n1. Kenapa peta/map tidak muncul saat pengisian data usaha?\n\n2. Kami tidak bisa mengisi kolom garis lintang dan bujur\nSource: https://oss.go.id/id/faq/kategori?id=68e4873a7795640efd3ef01e\nScraped: 2025-10-21T15:14:55.542193\n================================================================================\n\nQUESTION:\n\n1. Kenapa peta/map tidak muncul saat pengisian data usaha?\n\n2. Kami tidak bisa mengisi kolom garis lintang dan bujur\n\nANSWER:\nApabila peta/map tidak muncul saat pengisian data usaha, silakan lakukan pengisian garis lintang dan bujur secara manual dengan cara:\n\n1. Masukan lokasi usaha melalui Google Maps;\n\n2. Kemudian copy/salin titik koordinat lintang dan bujur;",
+      "metadata": {
+        "source": "1. Kenapa petamap tidak muncul saat pengisian data usaha 2. Kami tidak bisa mengisi kolom garis lint.txt",
+        "title": "1. Kenapa peta/map tidak muncul saat pengisian data usaha? 2. Kami tidak bisa mengisi kolom garis lintang dan bujur",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4873a7795640efd3ef01e",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "Masukan lokasi usaha melalui Google Maps;\n\n2. Kemudian copy/salin titik koordinat lintang dan bujur;\n\n3. Selanjutnya paste/tempel titik koordinat pada masing-masing kolom garis lintang dan bujur.\n\n================================================================================",
+      "metadata": {
+        "source": "1. Kenapa petamap tidak muncul saat pengisian data usaha 2. Kami tidak bisa mengisi kolom garis lint.txt",
+        "title": "1. Kenapa peta/map tidak muncul saat pengisian data usaha? 2. Kami tidak bisa mengisi kolom garis lintang dan bujur",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4873a7795640efd3ef01e",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "================================================================================\nTitle:\n\n1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR?\n\n2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?\nSource: https://oss.go.id/id/faq/kategori?id=68e4873c7795640efd3ef020\nScraped: 2025-10-21T15:14:28.013259\n================================================================================\n\nQUESTION:\n\n1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR?",
+      "metadata": {
+        "source": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR 2. Kenapa saat tambah KBL.txt",
+        "title": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4873c7795640efd3ef020",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "============\n\nQUESTION:\n\n1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR?\n\n2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?\n\nANSWER:\nNotifikasi tersebut muncul karena kegiatan usaha yang diajukan tidak sesuai dengan Rencana Detail Tata Ruang di wilayah tersebut. Untuk informasi lebih lanjut, Bapak/Ibu dapat melakukan pengecekan secara mandiri terkait RDTR melalui: https://oss.go.id/rdtr-interaktif\n\n================================================================================",
+      "metadata": {
+        "source": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR 2. Kenapa saat tambah KBL.txt",
+        "title": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4873c7795640efd3ef020",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "================================================================================\nTitle:\n\n1. Saya terkendala saat pengisian LKPM\n\n2. Kenapa saya tidak bisa lapor LKPM\n\n3. Saya tidak bisa kirim laporan LKPM\nSource: https://oss.go.id/id/faq/kategori?id=68e485ae7795640efd3eef6e\nScraped: 2025-10-21T15:20:34.886871\n================================================================================\n\nQUESTION:\n\n1. Saya terkendala saat pengisian LKPM\n\n2. Kenapa saya tidak bisa lapor LKPM\n\n3. Saya tidak bisa kirim laporan LKPM\n\nANSWER:\nJika Bapak/Ibu mengalami kendala dalam pengisian LKPM:\n\n1. Pastikan Bapak/Ibu mengisi dalam periode pelaporan yang telah ditentukan\n\n2. Pastikan sudah mengisi form LKPM dengan lengkap hingga akhir",
+      "metadata": {
+        "source": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim.txt",
+        "title": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim laporan LKPM",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e485ae7795640efd3eef6e",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "ode pelaporan yang telah ditentukan\n\n2. Pastikan sudah mengisi form LKPM dengan lengkap hingga akhir\n\n3. Jika poin 1 dan 2 sudah dilakukan namun tetap gagal klik lapor LKPM, silakan berkonsultasi pada klinik LKPM yang tersedia, kanal digital OSS atau petugas Front Office Kementerian Investasi dan Hilirisasi/BKPM.\n\n================================================================================",
+      "metadata": {
+        "source": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim.txt",
+        "title": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim laporan LKPM",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e485ae7795640efd3eef6e",
+        "type": "guide_steps"
+      }
+    },
+    {
+      "content": "================================================================================ Title: Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? Source: https://oss.go.id/id/faq/kategori?id=68e4889b7795640efd3ef048 Scraped: 2025-10-21T15:10:12.658830 ================================================================================ QUESTION: Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? ANSWER: Perusahaan dengan KBLI di bidang industri tidak dilarang untuk memiliki KBLI perdagangan besar, selama barang yang diperdagangkan bukan hasil dari KBLI industri yang dijalankan. Jika barang yang diperdagangkan adalah hasil dari kegiatan usaha yang terdaftar dalam KBLI industri milik perusahaan, maka barang tersebut",
+      "metadata": {
+        "source": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar.txt",
+        "title": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4889b7795640efd3ef048",
+        "type": "investment"
+      }
+    },
+    {
+      "content": "dijalankan. Jika barang yang diperdagangkan adalah hasil dari kegiatan usaha yang terdaftar dalam KBLI industri milik perusahaan, maka barang tersebut dapat dijual tanpa perlu memiliki perizinan berusaha di bidang perdagangan. Hal tersebut tertuang pada Peraturan Pemerintah Nomor 29 Tahun 2021 tentang Penyelenggaraan Bidang Perdagangan. ================================================================================",
+      "metadata": {
+        "source": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar.txt",
+        "title": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4889b7795640efd3ef048",
+        "type": "investment"
+      }
+    }
+  ],
+  "chunk_size_stats": {
+    "min": 132,
+    "max": 879,
+    "avg": 625
+  }
+}

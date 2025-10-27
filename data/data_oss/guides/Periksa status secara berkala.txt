@@ -1,0 +1,59 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Periksa status secara berkala
+Source: https://oss.go.id/panduan/6757a6e106206cf6839233bb
+Scraped: 2025-10-20T15:29:01.401400
+Total Steps: 17
+Total Images: 29
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Klik Menu Perizinan Berusaha, lalu Pengembangan
+5. 5. Tambah Bidang Usaha
+6. 6. Lengkapi Pemilihan Bidang Usaha
+7. 7. Lengkapi Formulir Perekaman Data Pelaku Usaha
+8. 8. Baca, Pahami, dan Centang pada kotak Checkbox, lalu klik tombol Selanjutnya.
+9. 9. Periksa secara berkala Status pada Daftar Kegiatan Usaha
+10. 10. Lengkapi Dokumen Lingkungan
+11. 11. Pahami dan Centang Pernyataan Mandiri
+12. 12. Periksa Draf Perizinan Berusaha (NIB)
+13. 13. Status Persetujuan RKL-RPL RInci : Belum Melengkapi Persyaratan
+14. 14. Lakukan Pemenuhan Persyaratan (Lanjutan Jika Belum memiliki persetujuan lingkungan)
+15. 15. Lakukan Proses Pemenuhan Persyaratan RKL-RPL Rinci
+16. 16. Lengkapi Formulir Pemenuhan
+17. 17. Status Persetujuan RKL-RPL Rinci
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (29 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture6-b530e09bf7a10712b0582a2e1e675e32.png
+2. https://s3.oss.go.id/oss/cms/Picture24-a420aabd0ba5b5123269b1eb7d14f7fb.png
+3. https://s3.oss.go.id/oss/cms/Picture23-ca87348931a9bbc603b2923f3c5153e2.png
+4. https://s3.oss.go.id/oss/cms/Picture27-f48faef05bd28a39b7f4035149b054e7.png
+5. https://s3.oss.go.id/oss/cms/Picture11-a9fe51394ba5f917792c431497fa143c.png
+6. https://s3.oss.go.id/oss/cms/Picture12-7e2899e55180e60f59b8378771df06e9.png
+7. https://s3.oss.go.id/oss/cms/1-portal-7caa919e3e97491389536efadf9532ad.png
+8. https://s3.oss.go.id/oss/cms/Picture21-6066590d7b2827433ad6c23d36a21838.png
+9. https://s3.oss.go.id/oss/cms/Picture4-17fc6f67dddc3ff8dddb7b08b12588a7.png
+10. https://s3.oss.go.id/oss/cms/Picture29-b0e53646a49cc69ea759b0e21ee24114.png
+11. https://s3.oss.go.id/oss/cms/Picture8-ffcd3336c0cb8d74405a4e0bef2277f5.png
+12. https://s3.oss.go.id/oss/cms/Picture25-20c193e576701a139af8eeb38c1d7359.png
+13. https://s3.oss.go.id/oss/cms/Picture15-1457a3058e28f4d31c0c8f77dd37a7bd.png
+14. https://s3.oss.go.id/oss/cms/Picture18-21075b34d725ebeda136719c98623106.png
+15. https://s3.oss.go.id/oss/cms/Picture16-e3b81e9b591e310d68765cc62d661708.png
+16. https://s3.oss.go.id/oss/cms/Picture30-c2852274549081c7efb2a3580d4357c3.png
+17. https://s3.oss.go.id/oss/cms/Picture5-2819cd20a1eb10858e0e2f910755950c.png
+18. https://s3.oss.go.id/oss/cms/Picture19-599da12224eab5f75b94252ef2deef09.png
+19. https://s3.oss.go.id/oss/cms/Picture17-92327df920cb8be04803d9bd904b8c68.png
+20. https://s3.oss.go.id/oss/cms/2-dashboard-89758adfe74d0f19d12d50a4a79ef433.png
+21. https://s3.oss.go.id/oss/cms/image-5a211f834514ad2ca23ebf310830eca7.png
+22. https://s3.oss.go.id/oss/cms/Picture31-3c04ac3df78684588467fa46b2a02e8c.png
+23. https://s3.oss.go.id/oss/cms/Picture22-63134359c76bce6c20ff6581b392defc.png
+24. https://s3.oss.go.id/oss/cms/Picture14-dc44227b5a260c562ad2649efeb3769c.png
+25. https://s3.oss.go.id/oss/cms/Picture10-6419ae624a9b4a4d67ce1476d9a77a28.png
+26. https://s3.oss.go.id/oss/cms/Picture7-677fdb35363b12ae3a13a2710733c6f2.png
+27. https://s3.oss.go.id/oss/cms/Picture13-832475eba22e7ec044e5937cc0ddb6ee.png
+28. https://s3.oss.go.id/oss/cms/Picture20-b5230d27d9d35caf79ee520c2d9866c5.png
+29. https://s3.oss.go.id/oss/cms/Picture26-6bcad358a2a4b52d26a22a3687b8288d.png

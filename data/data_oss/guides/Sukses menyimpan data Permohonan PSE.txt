@@ -1,0 +1,27 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Sukses menyimpan data Permohonan PSE
+Source: https://oss.go.id/panduan/68b13ffc38e678148ee6da5f
+Scraped: 2025-10-20T15:25:15.687024
+Total Steps: 5
+Total Images: 9
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, pilih “Masuk”
+2. 2. Masukkan Username dan Password, lalu klik tombol MASUK
+3. 3. Dashboard Pelaku Usaha
+4. 4. Unggah Pakta Integritas
+5. 5. Lengkapi Form Perubahan Badan Usaha Penyelenggara Sistem Elektronik Asing
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (9 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/Picture3-2f692a0852137a2a56bfa99dd8418252.png
+2. https://s3.oss.go.id/oss/cms/Picture2-b6b37ceae9d435f5b060171df34c511e.png
+3. https://s3.oss.go.id/oss/cms/Picture4-0f944304385ecea8d00208939439aebc.png
+4. https://s3.oss.go.id/oss/cms/Picture1-bafae60926c805915e1087cc0989e698.png
+5. https://s3.oss.go.id/oss/cms/Picture5-ec1545b2e33111e4fc6dbabe3915197c.png
+6. https://s3.oss.go.id/oss/cms/Picture9-36e4bdc44adcbd8f9f6edaa40374e430.png
+7. https://s3.oss.go.id/oss/cms/Picture7-a114ff0c2648925f4c1924fa4a329432.png
+8. https://s3.oss.go.id/oss/cms/Picture6-798ae82f28a32993def10517ea828c02.png
+9. https://s3.oss.go.id/oss/cms/Picture8-bc48806ca734526ecbc81d2c5e60d76c.png

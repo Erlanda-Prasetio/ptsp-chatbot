@@ -1,0 +1,91 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: KlikCetak KMKuntuk mencetak Salinan KMK
+Source: https://oss.go.id/panduan/635970086345c7d71a8144a5
+Scraped: 2025-10-20T15:25:02.932066
+Total Steps: 19
+Total Images: 59
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki hak akses
+2. 2. Kunjungi https://oss.go.id/
+3. 3. Pilih MASUK
+4. 4. Masukkan Username dan Password, lalu klik tombol MASUK
+5. 1. Masuk ke Menu Fasilitas >> Fasilitas Impor >> Bahan Baku Baru
+6. 2. Pilih Kegiatan Usaha yang akan diproses
+7. 3.a Lengkapi data Dokumen Persyaratan yang dibutuhkan
+8. 3.b Lengkapi data Dokumen Persyaratan yang dibutuhkan
+9. 3.c Lengkapi data Dokumen Persyaratan yang dibutuhkan
+10. 4. Pengiriman Permohonan Fasilitas Impor Bahan Baku Baru ke Pemroses Kementerian Investasi/BKPM
+11. 5. Pilih Daftar Semua Permohonan agar dapat melihat status dari permohonan tersebut
+12. 6. Pemrosesan Fasilitas Impor Bahan Baku Baru oleh Kementerian Investasi/BKPM s/d Terbit Surat Keputusan
+13. 7. Pelaku Usaha Menerima Surat Keputusan
+14. 1. Masuk ke Menu Fasilitas >> Fasilitas Impor Bahan Baku>> Bahan Baku Perubahan
+15. 4. Pengiriman Permohonan Fasilitas Impor Bahan Baku Perubahan ke Pemroses Kementerian Investasi/BKPM
+16. 6. Pemrosesan Fasilitas Impor Bahan Baku Perubahan oleh Kementerian Investasi/BKPM s/d Terbit Surat Keputusan
+17. 1. Masuk ke Menu Fasilitas >> Fasilitas Impor >> Bahan Baku Perpanjangan
+18. 4. Pengiriman Permohonan Fasilitas Impor Bahan Baku Perpanjangan ke Pemroses Kementerian Investasi/BKPM
+19. 6. Pemrosesan Fasilitas Impor Bahan Baku Perpanjangan oleh Kementerian Investasi/BKPM s/d Terbit Surat Keputusan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (59 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid38-05cd85936ed8531e132b34fd8fb78026.png
+2. https://s3.oss.go.id/oss/cms/blobid46-04ffec3287f635c241ef819c1519e20a.png
+3. https://s3.oss.go.id/oss/cms/blobid57-6daf5bb03f51f8094920aa788d99272d.png
+4. https://s3.oss.go.id/oss/cms/blobid63-cc42d455bda3f5de9982f28733bca397.png
+5. https://s3.oss.go.id/oss/cms/blobid55-41bce920f3ccd7dccb4ff05f1142b79c.png
+6. https://s3.oss.go.id/oss/cms/blobid4-4633162b1d23de282f0d939efff28ab8.png
+7. https://s3.oss.go.id/oss/cms/blobid24-d9aaa66b6e23c6c798df3df9c095a79b.png
+8. https://s3.oss.go.id/oss/cms/blobid60-13ed3cf2651d2813a2f03a5216b85ddd.png
+9. https://s3.oss.go.id/oss/cms/blobid44-b3dd734d54afe9c3748ba101f9db4403.png
+10. https://s3.oss.go.id/oss/cms/blobid61-cd1eeed087cdd792d5554b5afd5e7304.png
+11. https://s3.oss.go.id/oss/cms/blobid58-7ab3ad3f59107cba404ad62cec10fcc0.png
+12. https://s3.oss.go.id/oss/cms/blobid59-c842446f7d10f84247c823c52bba72c3.png
+13. https://s3.oss.go.id/oss/cms/blobid5-d52329dea3b7199068bf86c7c1023196.png
+14. https://s3.oss.go.id/oss/cms/blobid25-cfbe8f45a6054c1117cd254f4928ab76.png
+15. https://s3.oss.go.id/oss/cms/blobid52-e1f55308f7b5d4104b52447244de018d.png
+16. https://s3.oss.go.id/oss/cms/4-a3f2d5a25ed216428d6a12517e085392.png
+17. https://s3.oss.go.id/oss/cms/blobid22-abf1a2962e9945731e4a43de4bf562e3.png
+18. https://s3.oss.go.id/oss/cms/blobid54-7b27c95ead6e4be5335141197a299445.png
+19. https://s3.oss.go.id/oss/cms/blobid31-d27ee2108af0c642b97cf304d110ff45.png
+20. https://s3.oss.go.id/oss/cms/blobid62-4c5dfa5a599b638293d23c775ba475ca.png
+21. https://s3.oss.go.id/oss/cms/blobid32-0a2fd9a568811c85077a473fee4b5e4d.png
+22. https://s3.oss.go.id/oss/cms/blobid70-c56e703f89244c4545a13da5afa6f704.png
+23. https://s3.oss.go.id/oss/cms/blobid33-5d7324131099cb277727490594c595df.png
+24. https://s3.oss.go.id/oss/cms/blobid27-422c805eb1537736a1e78bd239e07b43.png
+25. https://s3.oss.go.id/oss/cms/blobid35-fc21e2bb930698a5f4aa4d73c470adf8.png
+26. https://s3.oss.go.id/oss/cms/blobid51-7641d2997a7f948c85a2ed7ef0700455.png
+27. https://s3.oss.go.id/oss/cms/blobid68-edba043a847e35e66edfc99c115c4fca.png
+28. https://s3.oss.go.id/oss/cms/blobid41-1478b944817e882b2c9b427a1e4ccf44.png
+29. https://s3.oss.go.id/oss/cms/blobid40-06f5627041962ed7dacb853b6fe54f0d.png
+30. https://s3.oss.go.id/oss/cms/3-d0a4adbee5fcc6b0f64412098e288faf.png
+31. https://s3.oss.go.id/oss/cms/blobid23-b93f29fe3e1e3ac1aba1bd058b0bdb2a.png
+32. https://s3.oss.go.id/oss/cms/blobid48-b6db8671ea09c1ca6d7b523275b3e3b8.png
+33. https://s3.oss.go.id/oss/cms/blobid28-261dd2384e228f96adf1b7ad65ba5f71.png
+34. https://s3.oss.go.id/oss/cms/blobid7-d1bbe9b81eb6983b364641b1fd0c160d.png
+35. https://s3.oss.go.id/oss/cms/blobid64-bf42953b1338e362eb2dd4db24195119.png
+36. https://s3.oss.go.id/oss/cms/blobid53-b560358b926452e4e7a24ff94172eb43.png
+37. https://s3.oss.go.id/oss/cms/blobid42-cfbd9b46779d619c2bf9953f070ffb1e.png
+38. https://s3.oss.go.id/oss/cms/blobid39-d55f0ac9446378e4ae338269eccb3975.png
+39. https://s3.oss.go.id/oss/cms/blobid49-73e8cfaa3b290cbdb1374fb2708eb052.png
+40. https://s3.oss.go.id/oss/cms/blobid37-8a175334cbe8b7bfd301d76c24a72c08.png
+41. https://s3.oss.go.id/oss/cms/blobid50-3491631bdd06eb52272dd5c8aeb8ec7a.png
+42. https://s3.oss.go.id/oss/cms/blobid56-0f585bc9f40ea9a4c870f4cd02a6133e.png
+43. https://s3.oss.go.id/oss/cms/blobid43-377e23e234635b303f58ca4ca7b09e44.png
+44. https://s3.oss.go.id/oss/cms/blobid34-680b1185f8f349d3ca13d02318887794.png
+45. https://s3.oss.go.id/oss/cms/blobid3-d57618e658be750f00aa1dda0e0c89a3.png
+46. https://s3.oss.go.id/oss/cms/blobid29-51034046e3c2d3eabd27b9e85041f283.png
+47. https://s3.oss.go.id/oss/cms/blobid8-8e5323fa90c93b61fd4ca83ef45c7f50.png
+48. https://s3.oss.go.id/oss/cms/blobid67-bdfd6a4fd060f63bd87ced0a0af72e01.png
+49. https://s3.oss.go.id/oss/cms/blobid45-f911b43b4068a9a5f1d9417b0aa53437.png
+50. https://s3.oss.go.id/oss/cms/blobid30-4872eb9cbd620f60b28104bb955301ef.png
+51. https://s3.oss.go.id/oss/cms/blobid47-d8f5a8d4fb2d7291f1ff71c3d5f3276b.png
+52. https://s3.oss.go.id/oss/cms/blobid69-794bb35304e537700f124b9165a3b0de.png
+53. https://s3.oss.go.id/oss/cms/blobid17-15c4c970858b5384c9c4e6cce18162fa.png
+54. https://s3.oss.go.id/oss/cms/blobid6-4c5316b2647249e1afbac03adb5457e9.png
+55. https://s3.oss.go.id/oss/cms/blobid66-07a969c81f8c58a232d3c1f3f95992f5.png
+56. https://s3.oss.go.id/oss/cms/blobid65-602f58ed9db0cb83c6149ae705aeeff2.png
+57. https://s3.oss.go.id/oss/cms/blobid0-956708efd3a3fed784bdb1ddd7831776.png
+58. https://s3.oss.go.id/oss/cms/blobid26-58b0f77b404b81ed8ccb52b27d7f7c97.png
+59. https://s3.oss.go.id/oss/cms/blobid36-4ba989e09e59dae8d1bc22e557d00b46.png

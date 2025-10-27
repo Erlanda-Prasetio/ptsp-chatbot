@@ -1,0 +1,34 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Lalu PilihLihat Detail, Jika Anda Ingin Melihat Detail Dari Riwayat Perubahan Data Badan Usaha Atau PilihCetak NIB, Jika Anda Ingin Melihat Cetakan NIB Dengan Nama Baru Perusahaan Yang Telah Diubah
+Source: https://oss.go.id/panduan/64c734fd2ed3890d0062fc3e
+Scraped: 2025-10-20T15:31:11.692206
+Total Steps: 9
+Total Images: 12
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. KunjungiHttps://Oss.Go.Id/
+2. 2. PilihMASUK
+3. 3. MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+4. 4.DashboardPelaku Usaha
+5. 5. Klik MenuPerizinan BerusahaDan PilihPerubahan, Lalu PilihPerubahan Nama Perusahaan
+6. 6. Lengkapi Formulir Perubahan Nama Perusahaan
+7. 7.BerhasilMelakukan Perubahan Nama Perusahaan
+8. 8. Klik MenuPerizinan BerusahaDan PilihPerubahan, Lalu PilihRiwayat Perubahan Badan Usaha
+9. 9. Daftar Riwayat Perubahan Badan Usaha
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (12 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid11-2474e3ea91428b660b7eb2b4c0648ba9.png
+2. https://s3.oss.go.id/oss/cms/1-portal-masuk-e124a354f7031b07e6ba5df866b19637.png
+3. https://s3.oss.go.id/oss/cms/blobid6-d0f46d9ad0ba2a96f893ff6545f40d8c.png
+4. https://s3.oss.go.id/oss/cms/blobid10-51750908bd9ee552490f6e4d8169f6fb.png
+5. https://s3.oss.go.id/oss/cms/1-portal-5f17f1b0d78a3774f6ff8bece28bae6c.png
+6. https://s3.oss.go.id/oss/cms/2-dashboard-pelaku-usaha-c515ecbef8d874c1d52c685f05a2702c.png
+7. https://s3.oss.go.id/oss/cms/blobid8-1fd18912b0eeed5485f2ea6245c1af9e.png
+8. https://s3.oss.go.id/oss/cms/blobid2-76f397d29169ca065e627f6478c024ed.png
+9. https://s3.oss.go.id/oss/cms/blobid5-8a46be0f7649befb5ffaebbf4435ee32.png
+10. https://s3.oss.go.id/oss/cms/blobid9-c3b2bd2fe68a75f183542d6e4757d6e9.png
+11. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-riwayat-badan-usaha-2081096b98abfb21b8d2a1545de5a081.png
+12. https://s3.oss.go.id/oss/cms/3-menu-PB---perubahan-nama-perusahaan-d6193098f2f2c9952bd697bca45797ca.png

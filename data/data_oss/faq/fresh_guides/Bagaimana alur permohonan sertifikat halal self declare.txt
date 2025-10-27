@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana alur permohonan sertifikat halal self declare?
+Source: https://oss.go.id/id/faq/kategori?id=68e486ee711547977a0df20d
+Scraped: 2025-10-21T15:15:43.955571
+================================================================================
+
+QUESTION:
+Bagaimana alur permohonan sertifikat halal self declare?
+
+ANSWER:
+Berikut adalah alur sertifikasi halal self declare: 1. Pastikan Bapak/Ibu sudah memiliki email aktif dan NIB sebelum mendaftar. Jika belum memiliki NIB, silakan mendaftar melalui https://oss.go.id/. Pastikan juga KBLI sudah terbit di NIB 2. Membuat akun dan melengkapi data di ptsp.halal.go.id 3. Pendamping Proses Produk Halal (PPH) melakukan verifikasi dan validasi permohonan 4. BPJPH melakukan verifikasi dan validasi secara sistem dan menerbitkan Surat Tanda Terima Dokumen (STTD) 5. Komite Fatwa Produk Halal menerima laporan hasil pendampingan dan melakukan sidang fatwa 6. BPJPH menerima ketetapan kehalalan produk dan menerbitkan sertifikat halal 7. Setelah status "Terbit SH", Bapak/Ibu dapat mengunduh sertifikat halal di website SIHALAL dan mengunduh label halal nasional untuk dicantumkan pada produk. Untuk informasi lebih lanjut, silakan menghubungi Badan Penyelenggara Jaminan Produk Halal melalui website bpjph.halal.go.id
+
+================================================================================

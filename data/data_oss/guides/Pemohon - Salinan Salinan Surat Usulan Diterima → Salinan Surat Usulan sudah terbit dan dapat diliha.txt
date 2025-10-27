@@ -1,0 +1,79 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Pemohon - Salinan Salinan Surat Usulan Diterima → Salinan Surat Usulan sudah terbit dan dapat dilihat oleh Pemohon
+Source: https://oss.go.id/panduan/65b2321c98f8907e5aa9891e
+Scraped: 2025-10-20T15:23:14.653839
+Total Steps: 15
+Total Images: 51
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki hak akses
+2. 2. Kunjungi https://oss.go.id/ lalu PilihMASUK
+3. 3. Masukkan Username dan Password, lalu klik tombolMASUK
+4. 4.DashboardPelaku Usaha
+5. 1. Klik MenuFasilitas, pilihFasilitas Impor KBLBB, lalu pilihPermohonan Surat Usulan CBU.
+6. 2. Pilih Kegiatan Usaha yang akan diproses
+7. 3.a Lengkapi data Dokumen Persyaratan yang dibutuhkan
+8. 3.b Lengkapi data Dokumen Persyaratan yang dibutuhkan
+9. 3.c Lengkapi Data Barang dengan mengisi data berikut:
+10. 3.d Lengkapi data Dokumen Persyaratan yang dibutuhkan
+11. 4. Pengiriman Permohonan Fasilitas Impor KBLBB CBU ke Pemroses Kementerian Investasi/BKPM
+12. 5. Kembali ke Menu Fasilitas Pilih Fasilitas Impor KBLBB lalu Daftar Usulan agar dapat melihat status dari permohonan tersebut.
+13. 6. Pilih Daftar Permohonan Impor KBLBB CBU agar dapat melihat status dari permohonan tersebut
+14. 4. Pengiriman Permohonan Fasilitas Impor KBLBB CKD ke Pemroses Kementerian Investasi/BKPM
+15. 6. Pilih Daftar Permohonan Impor KBLBB CKD agar dapat melihat status dari permohonan tersebut
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (51 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image35-14965d88c3fe0d5762dd5effcfc9fb7c.webp
+2. https://s3.oss.go.id/oss/cms/image28-039ea00bcd99625d80f61e0b92186ae0.webp
+3. https://s3.oss.go.id/oss/cms/image40-31efdcc90b4d2218de328fe5de252875.webp
+4. https://s3.oss.go.id/oss/cms/image25-dd095536feddeec9e6cccaa98e7d9d5c.webp
+5. https://s3.oss.go.id/oss/cms/image31-d8a9e06c7a9aa660b6a976b72325fd73.webp
+6. https://s3.oss.go.id/oss/cms/image8-558d4a008a02203f4d24b947810fbc4e.webp
+7. https://s3.oss.go.id/oss/cms/image12-560218203f2133e36eb638a4a229930c.webp
+8. https://s3.oss.go.id/oss/cms/image23-4a6d7b65e1c7dd0b34021c8e24d059fe.webp
+9. https://s3.oss.go.id/oss/cms/image29-26a6940b00d27d7f9b794738adff1aed.webp
+10. https://s3.oss.go.id/oss/cms/image15-f50b6114a9bfe8046613955fc168b631.webp
+11. https://s3.oss.go.id/oss/cms/image20-dfad831e20aeed5c3cb228240ad18e25.webp
+12. https://s3.oss.go.id/oss/cms/image4-bac9c0ee0bf01566b304767dcf4fc46c.webp
+13. https://s3.oss.go.id/oss/cms/image27-c4a6fd730113d1c297a8dc70aa546c65.webp
+14. https://s3.oss.go.id/oss/cms/image41-391f77e6ce73ffb6a48d1d5a87bccd6a.webp
+15. https://s3.oss.go.id/oss/cms/image44-20c58db49c9a21771013212d5d3adaf9.webp
+16. https://s3.oss.go.id/oss/cms/image38-05028c412b6c79831cf9014954bfd8c9.webp
+17. https://s3.oss.go.id/oss/cms/image9-4f0c9ee71e15e6e0220188e181a81c95.webp
+18. https://s3.oss.go.id/oss/cms/image20-631dc24857f9772230a066fe2032e0c0.webp
+19. https://s3.oss.go.id/oss/cms/image32-3cdc1130e64ffa8d9a04a134895ff31a.webp
+20. https://s3.oss.go.id/oss/cms/image3-17233710cd7e3829d9763b55a3d5958a.webp
+21. https://s3.oss.go.id/oss/cms/image3-220b7322585298405e13455d925b52ba.webp
+22. https://s3.oss.go.id/oss/cms/image24-94b45732d003540668514950cd492a51.webp
+23. https://s3.oss.go.id/oss/cms/image37-bca4a316de8d44ef5f71168b2884d085.webp
+24. https://s3.oss.go.id/oss/cms/image34-9d4064be07b1c9629264a18fe37dd6e4.webp
+25. https://s3.oss.go.id/oss/cms/image18-3e1654a15506bba3c5b50a126837b44a.webp
+26. https://s3.oss.go.id/oss/cms/image22-02080a4489c7886a37b313158985d131.webp
+27. https://s3.oss.go.id/oss/cms/image7-b9b3777384ca994fae655ba187f39129.webp
+28. https://s3.oss.go.id/oss/cms/image9-eb06edf90fe47f4b6f67ed13d9c154f1.webp
+29. https://s3.oss.go.id/oss/cms/image11-992ab1fd9cf469f3ac431694f25a876e.webp
+30. https://s3.oss.go.id/oss/cms/image10-b87d0df585a180d8baea4cfe39f57800.webp
+31. https://s3.oss.go.id/oss/cms/image40-e705529ebf2da8c22729f7abb797231b.webp
+32. https://s3.oss.go.id/oss/cms/image19-75087f221c8a111ec431e68d910d3634.webp
+33. https://s3.oss.go.id/oss/cms/image7-c612906b6da2f03411eccf7b379d3b1e.webp
+34. https://s3.oss.go.id/oss/cms/image6-7879437bf926e9f51d68670298e683f9.webp
+35. https://s3.oss.go.id/oss/cms/image1-d41d9ade080f099e3174ec9e6fb67b7b.webp
+36. https://s3.oss.go.id/oss/cms/image35-63b3b01126fc7a2b04e4c4103ffdf25d.webp
+37. https://s3.oss.go.id/oss/cms/image14-32d463e2de1bbf3106cfa95fea748c9b.webp
+38. https://s3.oss.go.id/oss/cms/image21-b715316c81b2c5984e4dba285a3e9f9f.webp
+39. https://s3.oss.go.id/oss/cms/image6-c360a34f296b3b4808955a9adf60afd5.webp
+40. https://s3.oss.go.id/oss/cms/image39-e3fe1bd8c98edc9d658303003628b3b9.webp
+41. https://s3.oss.go.id/oss/cms/image16-ea6b4f138b0bc1e46f39ac1a30ddd65c.webp
+42. https://s3.oss.go.id/oss/cms/image30-b96629849ed929dd08eeedfd27584c41.webp
+43. https://s3.oss.go.id/oss/cms/image26-218a8dd21247377cd2954fc817d527e6.webp
+44. https://s3.oss.go.id/oss/cms/image36-57373c3677e357f4897cdba5c8b1d489.webp
+45. https://s3.oss.go.id/oss/cms/image17-69c2693c57b26b63da43be907456e5d5.webp
+46. https://s3.oss.go.id/oss/cms/image42-fa5a43055c6a19735f0bac23b3351038.webp
+47. https://s3.oss.go.id/oss/cms/image33-58a04cedb941ead58b4d8277ea241b55.webp
+48. https://s3.oss.go.id/oss/cms/image2-5b0a74ee2ef900c5657e1afaf0f442d3.webp
+49. https://s3.oss.go.id/oss/cms/image8-5729726c5e25755e8fe6bbf846b30055.webp
+50. https://s3.oss.go.id/oss/cms/image5-afcfa4d739a763da1049f9e1914a6d77.webp
+51. https://s3.oss.go.id/oss/cms/image43-f264f563894bf2d4ea491e641fec5c63.webp

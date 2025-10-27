@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Status permohonan Pelaku Usaha berubah menjadi Persetujuan Lingkungan Masih Berlaku (sudah punya Persetujuan Lingkungan)
+Source: https://oss.go.id/panduan/6721d8326b7e8fa641c13b9b
+Scraped: 2025-10-20T15:29:11.247654
+Total Steps: 8
+Total Images: 16
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/
+2. 2. Pilih Masuk
+3. 3. Masukkan Username dan Password, lalu klik Masuk
+4. 4. Dashboard Verifikator Kementerian/Lembaga
+5. 5. Pilih Persetujuan Permohonan
+6. 6. Pilih Data Pelaku Usaha yang ingin disetujui, lalu klik Proses Persetujuan
+7. 7. Periksa meliputi Data Pelaku Usaha, Data Kegiatan Usaha, dan Dokumen Yang Diunggah
+8. 9. Status permohonan Pelaku Usaha
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (16 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/blobid9-94f7ad7e4d9609bd0d99fcd1743c9dcb.png
+2. https://s3.oss.go.id/oss/cms/blobid12-6292de5f95ebb99edb53895802d310f3.png
+3. https://s3.oss.go.id/oss/cms/blobid6-0c71855b06c4c71d8f0486312e932bea.png
+4. https://s3.oss.go.id/oss/cms/5-approv-39d86698c2fe2dd865d961c6bc4e4024.png
+5. https://s3.oss.go.id/oss/cms/blobid2-35ac27251a268b1c9aaf368c3f5bf97e.png
+6. https://s3.oss.go.id/oss/cms/blobid8-5143254ec5d19f0fcf0abab32f2b512d.png
+7. https://s3.oss.go.id/oss/cms/blobid5-f53837d5247b0d53085dcc923e3d6d75.png
+8. https://s3.oss.go.id/oss/cms/blobid14-303f86d47f09dbd1350311c3356d9c2c.png
+9. https://s3.oss.go.id/oss/cms/blobid3-639857aa39c3bfc9839a63e1b465d4f5.png
+10. https://s3.oss.go.id/oss/cms/blobid7-4b6f1784ca6cf6e1bf405dc2b1207764.png
+11. https://s3.oss.go.id/oss/cms/1-portal-2f8f0357f9446f776c8ccbbe4dab57e4.png
+12. https://s3.oss.go.id/oss/cms/blobid10-96ba175340d13a2e206397d475958b5a.png
+13. https://s3.oss.go.id/oss/cms/blobid15-d3c3cd164d10d6b4a7372cb4d19913e4.png
+14. https://s3.oss.go.id/oss/cms/blobid11-63c01cb9a3ac72a196fe0d999ca99760.png
+15. https://s3.oss.go.id/oss/cms/1-portal-masuk-53d693500f3f38e929b5c2e00b114c5d.png
+16. https://s3.oss.go.id/oss/cms/blobid13-12182439496ba3363fbf1f323b0c5d7f.png

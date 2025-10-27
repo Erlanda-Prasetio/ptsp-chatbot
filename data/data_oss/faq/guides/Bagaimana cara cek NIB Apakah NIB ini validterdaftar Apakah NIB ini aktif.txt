@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif?
+Source: https://oss.go.id/id/faq/kategori?id=68e48827711547977a0df295
+Scraped: 2025-10-21T15:12:11.906528
+================================================================================
+
+QUESTION:
+Bagaimana cara cek NIB? Apakah NIB ini valid/terdaftar? Apakah NIB ini aktif?
+
+ANSWER:
+Untuk pengecekan NIB dapat dilakukan melalui fitur Pencarian NIB pada situs web OSS sesuai langkah berikut: 1. Kunjungi https://oss.go.id/ 2. Cari fitur "Pencarian NIB" di bagian kanan agak bawah 3. Masukkan NIB yang ingin dicari. Kemudian sistem akan menampilkan informasi terkait Detail Data Pelaku Usaha yang menunjukkan apakah NIB masih aktif atau sudah tidak aktif.
+
+================================================================================

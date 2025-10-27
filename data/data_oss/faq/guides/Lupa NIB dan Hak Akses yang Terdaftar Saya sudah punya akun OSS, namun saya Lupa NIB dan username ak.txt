@@ -1,0 +1,13 @@
+================================================================================
+Title: Lupa NIB dan Hak Akses yang Terdaftar Saya sudah punya akun OSS, namun saya Lupa NIB dan username akunnya. Bagaimana solusinya?
+Source: https://oss.go.id/id/faq/kategori?id=68e48545711547977a0df17d
+Scraped: 2025-10-21T15:21:28.319587
+================================================================================
+
+QUESTION:
+Lupa NIB dan Hak Akses yang Terdaftar Saya sudah punya akun OSS, namun saya Lupa NIB dan username akunnya. Bagaimana solusinya?
+
+ANSWER:
+Apabila sudah memiliki akun OSS namun lupa NIB dan username akun, silakan mengikuti langkah berikut: 1. Kunjungi https://oss.go.id/ lalu pilih tombol Masuk pada pojok kanan atas 2. Lanjutkan dengan memilih fitur Butuh Bantuan » Lupa Akun untuk mengetahui alamat email atau nomor ponsel yang terdaftar 3. Apabila lupa NIB, silakan memilih 'Belum' pada pertanyaan 'Apakah sudah memiliki NIB?' Panduan lebih lengkap dapat dilihat melalui tautan berikut: https://oss.go.id/panduan/63a58161758775dcf7164dc9 (UMK) https://oss.go.id/panduan/63a57fce758775dcf7164cd8 (Non UMK)
+
+================================================================================

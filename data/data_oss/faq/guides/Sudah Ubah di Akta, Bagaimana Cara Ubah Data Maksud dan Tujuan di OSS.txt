@@ -1,0 +1,13 @@
+================================================================================
+Title: Sudah Ubah di Akta, Bagaimana Cara Ubah Data Maksud dan Tujuan di OSS?
+Source: https://oss.go.id/id/faq/kategori?id=68e486db7795640efd3eefe2
+Scraped: 2025-10-21T15:16:28.192649
+================================================================================
+
+QUESTION:
+Sudah Ubah di Akta, Bagaimana Cara Ubah Data Maksud dan Tujuan di OSS?
+
+ANSWER:
+Setelah dilakukan pembaruan pada akta perusahaan dan dilakukan update pada data AHU, selanjutnya perubahan data maksud dan tujuan pada sistem OSS dapat dilakukan dengan cara berikut: 1. Kunjungi https://oss.go.id/ 2. Masuk menggunakan username/email/nomor telepon dan password 3. Pilih menu Perizinan Berusaha » lalu pilih Kelola Usaha kemudian pilih sub-menu Perubahan » pilih Perubahan Badan Usaha 4. Sistem akan menampilkan halaman Konfirmasi Perubahan Data Badan Usaha. Selanjutnya, centang kotak Perubahan pada Maksud dan Tujuan » lalu klik tombol Ubah Sekarang 5. Sistem akan menampilkan Data Maksud dan Tujuan lama sesuai OSS (bagian kiri) maupun Data Maksud dan Tujuan baru sesuai AHU Online (bagian kanan) 6. Klik kotak centang/checkbox untuk persetujuan perubahan data profil dan data maksud dan tujuan yang dilakukan 7. Klik tombol SIMPAN. Sebagai informasi tambahan, untuk jenis perusahaan Yayasan, Persekutuan dan Perkumpulan, Perusahaan Umum/Perum, Badan Layanan Umum, dan Badan Hukum lainnya, data yang ditampilkan pada Daftar Maksud dan Tujuan dapat diisi secara manual. Panduan lengkap perubahan data badan usaha dapat dilihat pada tautan berikut: https://oss.go.id/panduan/635970086345c7d71a8144aa
+
+================================================================================

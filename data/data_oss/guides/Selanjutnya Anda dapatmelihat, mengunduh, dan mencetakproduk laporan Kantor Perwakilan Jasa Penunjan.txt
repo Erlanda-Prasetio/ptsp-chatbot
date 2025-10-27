@@ -1,0 +1,43 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Selanjutnya Anda dapatmelihat, mengunduh, dan mencetakproduk laporan Kantor Perwakilan Jasa Penunjang Tenaga Listrik Asing (KPJPTLA)
+Source: https://oss.go.id/panduan/635970086345c7d71a8144e1
+Scraped: 2025-10-20T15:38:21.463685
+Total Steps: 14
+Total Images: 16
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Kunjungihttps://oss.go.id/, klikMASUK
+2. 2. MasukkanUsernamedanPassword, lalu klik tombolMASUK
+3. 3. Masuk ke menuPELAPORAN, pilihPELAPORAN KANTOR PERWAKILANdan klikKPJPTLA
+4. 4. Setelah masuk ke menu Pelaporan, klikBUAT LAPORAN
+5. 5. LengkapiData Pelaku Usaha
+6. 6.a LengkapiData Tenaga Kerja(Jumlah TKI dan TKA)
+7. 6.b LengkapiData Tenaga Kerja(Nomor Izin Tenaga Kerja Asing)
+8. 7. Lengkapi DataRealisasi Penanaman Modal
+9. 8. MencantumkanData Dokumen Laporan Berkala Laporan Penunjang Sesuai dengan Format Peraturan Menteri ESDM No, 5 Tahun 2021
+10. 9. LengkapiData Penanggung Jawab Laporan Kegiatan Usaha KPJPTLA
+11. 10. MenyetujuiPernyataan Pelaporan KPJPTLA
+12. 11. MenyetujuiKonfirmasi Pengiriman laporan KPJPTLA
+13. 12.a Laporan Kantor Perwakilan Jasa Penunjang Tenaga Listrik Asing (KPJPTLA)telah diterima
+14. 13. Laporan Kantor Perwakilan Jasa Penunjang Tenaga Listrik Asing (KPJPTLA) telah diterima(Cetakan Laporan KPJPTLA)
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (16 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/6a-4d1a7d92f0d707806528ac8295e62c72.png
+2. https://s3.oss.go.id/oss/cms/8-f08b631c66936fc166b661b833540ec5.png
+3. https://s3.oss.go.id/oss/cms/12a-897d6492baf08e757bdeb10387bf871d.png
+4. https://s3.oss.go.id/oss/cms/7-73ae290402d9f07d983d3ea5be1db8e1.png
+5. https://s3.oss.go.id/oss/cms/2-(1)-69cb347ffb48d8ea144ec27df34dd10e.png
+6. https://s3.oss.go.id/oss/cms/5-3e85d9f4be995ca90dfa9e7eb3f70d0a.png
+7. https://s3.oss.go.id/oss/cms/11-e0c46152e92a43526c1366e016fd42f9.png
+8. https://s3.oss.go.id/oss/cms/10-9d8b4510a64eefdc8bad9adece9c1749.png
+9. https://s3.oss.go.id/oss/cms/3-(1)-9fc1424958f5c8ea96028537add1f3d1.png
+10. https://s3.oss.go.id/oss/cms/1-portal-masuk-e31a4fe16cf067e7d740ab904096d6d9.png
+11. https://s3.oss.go.id/oss/cms/4-(1)-636db582cefc26cb30944dd71f7b7162.png
+12. https://s3.oss.go.id/oss/cms/6b-b1aab251ba4f86aff974c700274af153.png
+13. https://s3.oss.go.id/oss/cms/13a-3-d5cbb95466b58005d5586647e0bf2813.png
+14. https://s3.oss.go.id/oss/cms/9-52921137ce1760e38ece607a8dfcc03b.png
+15. https://s3.oss.go.id/oss/cms/13a-2-a7200b28baa9b05161384d7518c38135.png
+16. https://s3.oss.go.id/oss/cms/13a-1-70416015240174d1f1282933f5daa8f3.png

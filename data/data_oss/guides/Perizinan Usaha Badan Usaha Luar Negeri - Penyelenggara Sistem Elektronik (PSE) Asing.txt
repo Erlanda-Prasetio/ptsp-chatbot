@@ -1,0 +1,38 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Perizinan Usaha Badan Usaha Luar Negeri - Penyelenggara Sistem Elektronik (PSE) Asing
+Source: https://oss.go.id/panduan/635970086345c7d71a8144be
+Scraped: 2025-10-20T15:40:36.311739
+Total Steps: 11
+Total Images: 14
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki Hak Akses
+2. 2. Kunjungihttps://oss.go.id/,pilih“Masuk”
+3. 3. Masukkan Username dan Password, lalu klik tombolMASUK
+4. 4. Klik menuPerizinan Berusahadan pilihPermohonan
+5. 5. LengkapiData Prinsipal
+6. 6. Lengkapi formData Penanggung Jawab
+7. 7. Klik tombolTAMBAH SISTEMuntuk menampilkan form pengisian Sistem Elektronik. Data Sistem Elektronik ini bisaditambahkan lebih dari 1 (satu) Sistem Elektronik, yang nantinya akan memiliki TDPSE (PB-UMKU) untuk masing-masing Sistem Elektronik
+8. 8. LengkapiFormulir Sistem Elektronik,lalu klik tombolTAMBAH
+9. 9. Mohon periksa kembali Data Sistem Elektronik dan baca, pahami, lalu klikkotak centang/checkboxpada disclaimer yang tertera. KlikPROSES PERIZINAN BERUSAHA.
+10. 10. Sistem akan menampilkan draf NIB Perizinan Berusaha. Anda dapat melakukan pemeriksaan kembali, lalu klik kotak centang/checkbox pada disclaimer yang tertera. KlikTERBITKAN PERIZINAN BERUSAHA.
+11. 11. Perizinan Berusaha berupaNomor Induk Berusaha (NIB) dan Tanda Daftar Penyelenggaraan Sistem Elektronik (TDPSE)telah terbit. Selanjutnya Anda dapat melihat, mengunduh, dan mencetak produk perizinan berusaha tersebut dengan klik tombolCETAK NIBmaupun tombolCETAK TDPSE.
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (14 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/PSE---10-aa42ec5af0f8bc634520500fea56cbcd.png
+2. https://s3.oss.go.id/oss/cms/PSE---8_a-e4535bff6ea7c05e5e58a129374ae099.png
+3. https://s3.oss.go.id/oss/cms/portal-masuk-16104fdbe6818e9507e3f3abae6a74b9.jpg
+4. https://s3.oss.go.id/oss/cms/PSE---7-8d9d0f212c55b38038dba99d79b96474.png
+5. https://s3.oss.go.id/oss/cms/3-menu-PB---permohonan-baru-bb4350023689c699256f86799c7d8cc4.png
+6. https://s3.oss.go.id/oss/cms/Permohonan-Baru-KP-dan-BULN-0a6f2706ec1cf719820f1ecdc5383c3a.png
+7. https://s3.oss.go.id/oss/cms/PSE---11-f06b6fa0c7b8e1b792537c5e01f3d9cb.png
+8. https://s3.oss.go.id/oss/cms/PSE---9-ff4be5050d170a79a7a4a624b18c29d6.png
+9. https://s3.oss.go.id/oss/cms/PSE---1-(1)-81b39c41c05feb2bcc8fb2c6a0f56eaa.png
+10. https://s3.oss.go.id/oss/cms/PSE---8_b-3b00b19b1bbfe564674cd1e25b694f67.png
+11. https://s3.oss.go.id/oss/cms/PSE---NIB-f207460bdbe5013c97b5dce61f63fe8e.png
+12. https://s3.oss.go.id/oss/cms/PSE---3-e3cf72e25914f8020c78e90d5d53a30c.png
+13. https://s3.oss.go.id/oss/cms/PSE---6-(Indo)-992820124f31783e36efc43c60c1d021.png
+14. https://s3.oss.go.id/oss/cms/PSE---Izin-1d32bd8b2ec3370242dfc46a81db08af.png

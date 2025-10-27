@@ -1,0 +1,106 @@
+{
+  "total_documents": 496,
+  "total_chunks": 1088,
+  "breakdown": {
+    "faq": 334,
+    "investment": 10,
+    "guides": 152
+  },
+  "chunk_stats": {
+    "min": 72,
+    "max": 4612,
+    "avg": 633
+  },
+  "sample_chunks": [
+    {
+      "content": "1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP NPWP dapat dilakukan perubahan dengan cara: 1. Masuk ke website OSS; 2. Klik \"Perizinan Berusaha\"; 3. Pilih \"Kelola Usaha\"; 4. Pilih \"Perubahan\"; 5. Pilih \"Perubahan Badan Usaha\"; 6. Atau bisa melalui tautan: https://ui-login.oss.go...",
+      "metadata": {
+        "source": "1. Bagaimana cara ubah NPWP 2. Saya mau merubahmengubah data NPWP.txt",
+        "title": "1. Bagaimana cara ubah NPWP? 2. Saya mau merubah/mengubah data NPWP",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e486907795640efd3eefbc",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "1. Kenapa peta/map tidak muncul saat pengisian data usaha? 2. Kami tidak bisa mengisi kolom garis lintang dan bujur Apabila peta/map tidak muncul saat pengisian data usaha, silakan lakukan pengisian garis lintang dan bujur secara manual dengan cara: 1. Masukan lokasi usaha melalui Google Maps; 2. Ke...",
+      "metadata": {
+        "source": "1. Kenapa petamap tidak muncul saat pengisian data usaha 2. Kami tidak bisa mengisi kolom garis lint.txt",
+        "title": "1. Kenapa peta/map tidak muncul saat pengisian data usaha? 2. Kami tidak bisa mengisi kolom garis lintang dan bujur",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4873a7795640efd3ef01e",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang? Notifikasi tersebut muncul karena kegiatan usaha yang diajukan tidak sesuai dengan Rencana Detail Tata Ruang di wilayah ters...",
+      "metadata": {
+        "source": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR 2. Kenapa saat tambah KBL.txt",
+        "title": "1. Kenapa Saat Cek RDTR Muncul Notifikasi Kegiatan Usaha Tidak Sesuai RDTR? 2. Kenapa saat tambah KBLI muncul notifikasi kegiatan usaha tidak sesuai Rencana Detail Tata Ruang?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4873c7795640efd3ef020",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim laporan LKPM Jika Bapak/Ibu mengalami kendala dalam pengisian LKPM: 1. Pastikan Bapak/Ibu mengisi dalam periode pelaporan yang telah ditentukan 2. Pastikan sudah mengisi form LKPM dengan lengkap hing...",
+      "metadata": {
+        "source": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim.txt",
+        "title": "1. Saya terkendala saat pengisian LKPM 2. Kenapa saya tidak bisa lapor LKPM 3. Saya tidak bisa kirim laporan LKPM",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e485ae7795640efd3eef6e",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar? Perusahaan dengan KBLI di bidang industri tidak dilarang untuk memiliki KBLI perdagangan besar, selama barang yang diperdagangkan bukan hasil dari KBLI industri yang dijalankan. Jika barang yang diperda...",
+      "metadata": {
+        "source": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar.txt",
+        "title": "Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4889b7795640efd3ef048",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "Adakah Format untuk Pemenuhan Persyaratan? Untuk mengetahui format pemenuhan persyaratan, Bapak/Ibu dapat berkoordinasi dengan kementerian, lembaga, atau pemerintah daerah yang memiliki kewenangan untuk melakukan verifikasi. Informasi mengenai pihak yang berwenang dapat dilihat melalui menu Perizina...",
+      "metadata": {
+        "source": "Adakah Format untuk Pemenuhan Persyaratan.txt",
+        "title": "Adakah Format untuk Pemenuhan Persyaratan?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e486d27795640efd3eefde",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "Adakah Pengajuan Sertifikat Halal yang Gratis? Pemerintah menyediakan program sertifikat halal gratis berupa Self Declare yang hanya dapat diajukan bagi pelaku usaha mikro dan usaha kecil. Pengajuan sertifikat halal dapat dilakukan melalui situs web resmi SIHALAL: https://ptsp.halal.go.id/. Pastikan...",
+      "metadata": {
+        "source": "Adakah Pengajuan Sertifikat Halal yang Gratis.txt",
+        "title": "Adakah Pengajuan Sertifikat Halal yang Gratis?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e488eb7795640efd3ef078",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "Adakah perbedaan antara NITKU dengan NIB? Nomor Identitas Tempat Kegiatan Usaha (NITKU) adalah nomor identitas wajib pajak cabang yang diterbitkan oleh Ditjen Pajak. NITKU diberikan untuk tempat kegiatan usaha wajib pajak yang terpisah dari tempat tinggal atau tempat kedudukan wajib pajak. Sedangkan...",
+      "metadata": {
+        "source": "Adakah perbedaan antara NITKU dengan NIB.txt",
+        "title": "Adakah perbedaan antara NITKU dengan NIB?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e488947795640efd3ef044",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "Apa itu sumber pembiayaan pada isian data di Sistem OSS? Sumber Pembiayaan adalah sumber pendanaan yang digunakan untuk melakukan investasi sesuai kegiatan usaha yang sedang diajukan. Adapun sumber pembiayaan mencakup: a. Modal sendiri yang diambil dari modal disetor/ditempatkan atau sisa modal dise...",
+      "metadata": {
+        "source": "Apa itu sumber pembiayaan pada isian data di Sistem OSS.txt",
+        "title": "Apa itu sumber pembiayaan pada isian data di Sistem OSS?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e489037795640efd3ef084",
+        "type": "faq"
+      }
+    },
+    {
+      "content": "Apa pengertian dari KKPR? Kesesuaian Kegiatan Pemanfaatan Ruang (KKPR) yang sebelumnya bernama izin lokasi adalah salah satu persyaratan dasar yang wajib dipenuhi oleh seluruh pelaku usaha, baik perorangan maupun Badan Usaha, dalam rangka memperoleh perizinan berusaha. Permohonan KKPR untuk kegiatan...",
+      "metadata": {
+        "source": "Apa pengertian dari KKPR.txt",
+        "title": "Apa pengertian dari KKPR?",
+        "url": "https://oss.go.id/id/faq/kategori?id=68e4871a711547977a0df211",
+        "type": "faq"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+================================================================================
+Title: Bagaimana cara melakukan migrasi hak akses?
+Source: https://oss.go.id/id/faq/kategori?id=68e486007795640efd3eefa0
+Scraped: 2025-10-21T15:19:46.643560
+================================================================================
+
+QUESTION:
+Bagaimana cara melakukan migrasi hak akses?
+
+ANSWER:
+Untuk melakukan migrasi akun dari OSS 1.1 ke OSS RBA, silakan kunjungi oss.go.id, kemudian pilih Masuk menggunakan hak akses yang terdaftar pada OSS 1.1. Bapak/Ibu dapat melihat panduan lebih lanjut melalui oss.go.id, kemudian pilih menu Panduan dan lakukan pencarian dengan kata kunci "Panduan Migrasi Data Ke OSS RBA" Panduan migrasi hak akses: https://oss.go.id/panduan/651e12db048d98beaf024b3f
+
+================================================================================

@@ -1,0 +1,66 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Lalu Klik Ubah Permohonan Untuk Memperbaiki Atau Melakukan Perbaikan
+Source: https://oss.go.id/panduan/64afa813558597eba57ea62f
+Scraped: 2025-10-20T15:26:29.153243
+Total Steps: 20
+Total Images: 33
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1.KunjungiHttps://Oss.Go.Id/,Pilih“Masuk”
+2. 2.MasukkanUsernameDanPassword, Lalu Klik TombolMASUK
+3. 3.Masuk Ke MenuFASILITAS, PilihFASILITAS IMPOR BAHAN BAKU, KlikBAHAN BAKU BARU.
+4. 4.Klik Tanda ‘V’ Pada Kegiatan Usaha Yang Akan Dipilih, Lalu KlikPILIH PROYEK/USAHA.
+5. 5.Setelah Itu Akan Muncul Sebuah Notifikasi Untuk Melakukan Konfirmasi “Apakah Perusahaan Sudah Memiliki KMK Mesin?”. Pada Pertanyaan Ini Pelaku Usaha Dapat MemilihTIDAK.
+6. 6.Selanjutnya Pelaku Usaha Diarahkan Masuk Ke Halaman Daftar Semua Kegiatan Usaha Untuk Pengajuan Masterlist Bahan Baku. Cari Kegiatan Usaha Yang Akan Diajukan Masterlist Bahan Baku TKDN, Lalu Klik Tombol ‘V’ Dan KlikPilih Kegiatan Usaha.
+7. 7.Setelah Memilih Kegiatan Usaha, Akan Muncul Pop-Up Kriteria Yang Berisi Konfirmasi.
+8. 8.Pada Halaman Formulir Pembebasan Baru Fasilitas Impor Bahan Baku, Pastikan Data Perusahaan Sudah Sesuai.
+9. 9.Pada Halaman Formulir Pembebasan Baru Fasilitas Impor Bahan Baku, Lengkapi Data Berikut:
+10. 10.Pada Data Bahan Baku, Klik TombolTambah. Lalu Isi Data Formulir Bahan Baku, Setelah Mengisi KlikSimpan Data.
+11. 11.Pada Data Dokumen Persyaratan, Lengkapi Seluruh Data Persyaratan Dan Upload DokumenFlow Proses,Detail KapasitasProduk,Layout Produksi&Brosur/ Dokumen TeknisDalam BentukPDFDengan Maksimal Unggah Dokumen Sebesar 5MB.
+12. 12.Lengkapi Formulir Online Komitmen UMKM Dengan Klik DataTAMBAHUntuk Menampilkan Form Pengisian.
+13. 13.Lengkapi Formulir Pengisian Online Komitmen UMKM Setelah Itu Klik TombolSIMPAN DATA.
+14. 14.Setelah Anda Melengkapi Dokumen Persyaratan Yang Dibutuhkan, KlikSELANJUTNYAUntuk Ke Halaman Selanjutnya.
+15. 15.Centang Seluruh Pernyataan/Disclaimer Serta Mengisi Tanggal Berproduksi Komersial. Lalu Melanjutkan Ke Proses Permohonan Dan Bahwa Data Yang Dimasukkan Sudah Benar. Berikan Catatan Jika Diperlukan. KlikPROSES PERMOHONANUntuk Mengirim Permohonan Ke Kementerian Investasi/BKPM.
+16. 16.Untuk Melihat Data Permohonan Masterlist Bahan Baku Yang Sudah Dikirim, Pelaku Usaha Dapat Masuk Ke MenuFasilitasPilihFasilitas Impor Bahan BakuKemudian KlikDaftar Semua Permohonan.Ketika Status Permohonan DiBKPM – Dokumen Diterima,Perusahaan Tidak Dapat Mengubah Data Usaha Yang Dimohonkan Dan Syarat Permohonan Yang Diunggah.
+17. 17.Setelah Permohonan Anda Disetujui, Anda Akan Menerima Surat Keputusan. Untuk Melihat Surat Keputusan Yang Sudah Diterbitkan.
+18. 18.Bila Permohonan Anda Disetujui,Namun Terdapat Keterangan Bahwa “Pemohon - Perbaikan Permohonan” Maka Terdapat Keterangan Bagian Mana Yang Perlu Diperbaiki, Seperti Pada Gambar Disini Dijelaskan Bahwa Diperlukan “Perbaikan Panduan KBLI Alih Teknologi”
+19. 19.Setelah Permohonan Diperbaiki Dan Disetujui, Maka Keterangan Permohonan Akan Berubah Menjadi “Permohonan Disetujui, Salinan Keputusan Persetujuan Fasilitas Diterima” Anda Dapat Melakukan Cetak KMK Dengan Mengklik Tombol “Cetak KMK”.
+20. 20.Berikut Adalah Tampilan Dari Hasil Cetakan SK Pemanfaatan Setelah Permohonan Berhasil Dilakukan
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (33 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/2023-07-13_144819-9e3dcc184890e67edf3c6b04f57f4af0.webp
+2. https://s3.oss.go.id/oss/cms/Picture1-3790ff7a5d54b5fea7cdb50e922557ab.webp
+3. https://s3.oss.go.id/oss/cms/Picture7-af154296ffe7250cdc23e08531109a05.webp
+4. https://s3.oss.go.id/oss/cms/2023-07-13_144403-ecc3dc7d85a36c8cf3a52114f76f183f.webp
+5. https://s3.oss.go.id/oss/cms/2023-07-13_144810-97b20b53ad0f8135410c7893c98582da.webp
+6. https://s3.oss.go.id/oss/cms/Picture17-87042e06e440fd38627ac30c8b921ecf.webp
+7. https://s3.oss.go.id/oss/cms/Picture2-05ed84f58d78e46c524668956a0ffe5f.webp
+8. https://s3.oss.go.id/oss/cms/Picture6-6bdf397544e904801ca9484acde43b76.webp
+9. https://s3.oss.go.id/oss/cms/2023-07-13_144717-380adb2aafbac6d22ebe394659e445d1.webp
+10. https://s3.oss.go.id/oss/cms/Picture2-063e02abf3654ed1de7db3b0f389e8bc.webp
+11. https://s3.oss.go.id/oss/cms/2023-07-13_143845-81f406829730eeb95dd8ebb00f38a0bd.webp
+12. https://s3.oss.go.id/oss/cms/Picture16-8f4dbdfb30eebfb8e0073f19a8398a21.webp
+13. https://s3.oss.go.id/oss/cms/2023-07-13_144428-256914b7f4c7d80d5aae9cb12375ee8c.webp
+14. https://s3.oss.go.id/oss/cms/Picture9-0fad4608d5d8640478598a0c6c6b623b.webp
+15. https://s3.oss.go.id/oss/cms/Picture3-c564bf1d2ab3b4f5d99dd23a02abcc97.webp
+16. https://s3.oss.go.id/oss/cms/2023-07-13_144248-8ec9b57363a7e1c8acac389363daf864.webp
+17. https://s3.oss.go.id/oss/cms/2023-07-13_144759-77d587e404fade5088c5965269d468fe.webp
+18. https://s3.oss.go.id/oss/cms/Picture15-140981adc088048c3ae41fbaf05b1235.webp
+19. https://s3.oss.go.id/oss/cms/Picture4-87085b18de2805cb113be87e5512f809.webp
+20. https://s3.oss.go.id/oss/cms/Picture14-1af6d9ae5c960038bafde116633d1bc9.webp
+21. https://s3.oss.go.id/oss/cms/2023-07-13_144844-c2fb4c12659ef20994a1c7ab303033d0.webp
+22. https://s3.oss.go.id/oss/cms/2023-07-13_144830-036e340d7d024d11d97823f63731cf42.webp
+23. https://s3.oss.go.id/oss/cms/Picture8-fb6b246e871f566ea4afe9afd2505ed3.webp
+24. https://s3.oss.go.id/oss/cms/2023-07-13_144731-fc3f1d70921c8f70f7da54efb6b6efc5.webp
+25. https://s3.oss.go.id/oss/cms/2023-07-13_144854-c801b7ec1f33d6b32de2b827a4d9a8f5.webp
+26. https://s3.oss.go.id/oss/cms/Picture10-1c99678564ab7aaaba9d7d2a4d60f469.webp
+27. https://s3.oss.go.id/oss/cms/Picture5-286ac31889aebf09b0f054ce4f6c1e30.webp
+28. https://s3.oss.go.id/oss/cms/2023-07-13_144416-7dd4900defeea40ec05c421e228f18a3.webp
+29. https://s3.oss.go.id/oss/cms/2023-07-13_144739-97945162afc08eaaf150759ea7e145b5.webp
+30. https://s3.oss.go.id/oss/cms/Picture11-aadb3cc00338081bd04ba7eddcb23e8a.webp
+31. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-09-at-12.24.38_ea5dafa6-028e450b88ca5198e3fc813749108234.jpg
+32. https://s3.oss.go.id/oss/cms/2023-07-13_143727-c7e5621899b51806ab149658d473abba.webp
+33. https://s3.oss.go.id/oss/cms/2023-07-13_143630-d702cc2afdf9c286dc612b18553e5b2d.webp

@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════════════════════
+Title: Perubahan Status Permohonan menjadi ‘Menunggu Verifikasi Bukti Bayar PNPB’,setelah Anda memperbaiki dokumen persyaratan yang dibutuhkan
+Source: https://oss.go.id/panduan/635970086345c7d71a8144bf
+Scraped: 2025-10-20T15:40:23.518832
+Total Steps: 19
+Total Images: 26
+════════════════════════════════════════════════════════════════════════════════
+
+1. 1. Pastikan Anda telah memiliki Hak Akses
+2. 2. Kunjungihttps://oss.go.id/,pilih“Masuk”
+3. 3. Masukkan Username dan Password, lalu klik tombolMASUK
+4. 4. Klik MenuKantor Perwakilandan pilihPermohonan
+5. 5.LengkapiData PrinsipaldanArticle of Association (AoA)/Registrasi Pendirian, lalu klikSIMPAN DATA
+6. 6. Lengkapi formData Kantor Perwakilan di Indonesia,lalu klikSIMPAN DATA
+7. 7. LengkapiData Kegiatan Usaha. Sistem akan menampilkan tabel Data Kegiatan Usaha dan lengkapi Nama Penanggung Jawab Badan Usaha (Wajib warga negara Indonesia). Klik tombolPILIH BIDANG USAHA.
+8. 8. LengkapiData Bidang Usaha,lalu klikSIMPAN.
+9. 9. Periksa Data Kegiatan Usaha kembali dan Klik tombolSIMPAN DATA. Baca, pahami, dan klik kotakcentang/checkboxpada disclaimer yang tertera. Lalu klik tombolLANJUT.
+10. 10. Periksa Daftar Kegiatan Usaha, lalu klikPROSES PERIZINAN BERUSAHA
+11. 11. Baca, pahami, dan klik kotakcentang/checkboxpada setiap Pernyataan Mandiri yang tertera. Lalu klikLANJUT
+12. 12. Sistem akan menampilkan draf NIB Perizinan Berusaha. Anda dapat melakukan pemeriksaan kembali, lalu klik kotakcentang/checkboxpada disclaimer yang tertera. KlikTERBITKAN PERIZINAN BERUSAHA.
+13. 13. Perizinan Berusaha berupaNomor Induk Berusaha (NIB).Untuk mendapatkan Sertifikat Standar yang terverifikasi dan/atau Izin terbit, maka lakukan pemenuhan persyaratan perizinan berusaha) yang akan dijelaskan pada tahap selanjutnya.
+14. 1. Pilih menuKantor Perwakilandan pilihPemenuhan Persyaratan
+15. 2. Pilih KBLI yang akan di proses. Untuk tingkat risiko Menengah Tinggi, muncul tombol‘Proses Pemenuhan Standar Usaha’dan Untuk tingkat risiko Tinggi, muncul tombol‘Proses Pemenuhan Persyaratan Izin’.
+16. 3. Lengkapi Formulir Pemenuhan dengan klik tombolPILIH DOKUMENdan unggah dokumen yang sesuai(Ukuran maksimal dokumen yaitu 5 MB, dengan format jenis dokumen PDF). Isi kolom Catatan sebagai catatan/keterangan tambahan untuk Instansi terkait yang berwenang. (opsional). Lalu, Klik kotakcentang/checkboxpada disclaimer yang tertera dan klikLANJUT.
+17. 4. Tunggu dan Periksa Perubahan Status Permohonan secara Berkala.
+18. 5. Status Permohonan Dokumen Persyaratan untuk Pemenuhan Izin/Sertifikat Standar (SS) (Berdasarkan tingkat risiko) terbit
+19. 6. Selanjutnya Anda dapat melihat, mengunduh, dan mencetak produk perizinan berusaha tersebut. Sertifikat Standar/Izin KPJPTLA, klik tombolCETAK SERTIFIKAT STANDAR/IZIN KPJPTLAuntuk Perizinan Berusaha yang telah terverifikasi (disesuaikan dengan tingkat risiko).
+
+════════════════════════════════════════════════════════════════════════════════
+IMAGES (26 total):
+════════════════════════════════════════════════════════════════════════════════
+
+1. https://s3.oss.go.id/oss/cms/image-a68006f7aa3b2e602a41bbaaa4b4c735.png
+2. https://s3.oss.go.id/oss/cms/3-menu-PB-KP---Pemenuhan-Persyaratan-d08b2ae6b3501997a3dca861fffcb885.png
+3. https://s3.oss.go.id/oss/cms/image-c832998d677ba9bfdf535247f2be5421.png
+4. https://s3.oss.go.id/oss/cms/image-8b1d036a290fa6284d7d8c6dfe95035a.png
+5. https://s3.oss.go.id/oss/cms/image-9fd0464ce837d52f397013bb0b0dfd27.png
+6. https://s3.oss.go.id/oss/cms/1-portal-masuk-464238275985bb468531345c2b8a3781.png
+7. https://s3.oss.go.id/oss/cms/WhatsApp-Image-2025-09-01-at-16.09.14-f040162b0d0312eb4a1e39942255e128.jpeg
+8. https://s3.oss.go.id/oss/cms/image-9b5046bf2aa36ac9aa258419f969039e.png
+9. https://s3.oss.go.id/oss/cms/image-f58ebb716d10cb848d9e8f0b72019706.png
+10. https://s3.oss.go.id/oss/cms/image-68cd8e8e677978f7af700d951faf83a7.png
+11. https://s3.oss.go.id/oss/cms/image-b023f4bfb1a18dd7c9195126261b182c.png
+12. https://s3.oss.go.id/oss/cms/image-ae98a2a627cbdc30f1e6092807b6e3fc.png
+13. https://s3.oss.go.id/oss/cms/image-f1c170f4d0d165e29f667998702a821c.png
+14. https://s3.oss.go.id/oss/cms/image-4ae0a6cf0ffc6c30c92e094a9ebed3a9.png
+15. https://s3.oss.go.id/oss/cms/Permohonan-Baru-KP-dan-BULN-(1)-ae4edad25f9080bc141787019eb4969e.png
+16. https://s3.oss.go.id/oss/cms/image-66bea5ded34d7523e372ed254eba0002.png
+17. https://s3.oss.go.id/oss/cms/image-c7feef8bb8a21cdccd4bac0fc82567b6.png
+18. https://s3.oss.go.id/oss/cms/image-7d1adb17a4c37539e644a0717591f38e.png
+19. https://s3.oss.go.id/oss/cms/image-7b39a8fe6cdc794d971dc043c97adac4.png
+20. https://s3.oss.go.id/oss/cms/image-de94ef2a3bcb6f6f5e686dbdfb8b3e7d.png
+21. https://s3.oss.go.id/oss/cms/image-1003fc4948f90f7fc6ef1e2ca3b8cbbc.png
+22. https://s3.oss.go.id/oss/cms/image-46e160d8b46341291e2d20d124373296.png
+23. https://s3.oss.go.id/oss/cms/image-23920b2205b7b38034629287677f6247.png
+24. https://s3.oss.go.id/oss/cms/image-4fcf9867e6dc9479fad3120b6f4f7be7.png
+25. https://s3.oss.go.id/oss/cms/image-6ca4bb8b9f346141722c089748a636b7.png
+26. https://s3.oss.go.id/oss/cms/image-2a7c737beb8f3bfdba12308f69473850.png
