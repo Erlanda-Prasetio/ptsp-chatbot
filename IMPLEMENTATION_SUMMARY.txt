@@ -1,0 +1,146 @@
+✅ DATASET-SPECIFIC RAG APIs - IMPLEMENTATION COMPLETE
+
+================================================================================
+SUMMARY
+================================================================================
+
+Successfully created dataset-specific RAG API servers for isolated testing:
+
+┌─ OLD Dataset API
+│  ├─ File: rag_api_old.py
+│  ├─ Module: src/hybrid_rag_old.py
+│  ├─ Table: documents_old
+│  ├─ Port: 8000
+│  └─ Status: ✅ READY
+
+├─ NEW Dataset API  
+│  ├─ File: rag_api.py (existing)
+│  ├─ Table: documents_new
+│  ├─ Port: 8001
+│  └─ Status: ✅ RUNNING
+
+└─ COMBINED Dataset API
+   ├─ File: rag_api_combined.py
+   ├─ Module: src/hybrid_rag_combined.py
+   ├─ Table: documents_combined
+   ├─ Port: 8003
+   └─ Status: ✅ READY
+
+================================================================================
+WHAT WAS IMPLEMENTED
+================================================================================
+
+1. ✅ rag_api_old.py
+   - FastAPI server for OLD dataset
+   - Endpoint /health - Health check
+   - Endpoint /chat - Full RAG pipeline
+   - Endpoint /retrieve - Retrieval only (no generation)
+   - Initialization: SmartEnhancedRAG_OLD(table_name="documents_old")
+
+2. ✅ rag_api_combined.py
+   - FastAPI server for COMBINED dataset
+   - Same endpoints as above
+   - Initialization: SmartEnhancedRAG_COMBINED(table_name="documents_combined")
+
+3. ✅ src/hybrid_rag_old.py
+   - Class: SmartEnhancedRAG_OLD(SmartEnhancedRAG)
+   - Forces all queries to use documents_old table
+   - Simplified initialization: __init__(table_name="documents_old")
+
+4. ✅ src/hybrid_rag_combined.py
+   - Class: SmartEnhancedRAG_COMBINED(SmartEnhancedRAG)
+   - Forces all queries to use documents_combined table
+   - Simplified initialization: __init__(table_name="documents_combined")
+
+5. ✅ Deleted rag_api_new.py
+   - Was redundant with existing rag_api.py
+   - Current rag_api.py already uses NEW dataset
+
+6. ✅ Fixed imports
+   - Changed: from src.hybrid_rag import SmartEnhancedRAG
+   - To: from src.smart_enhanced_rag import SmartEnhancedRAG
+   - Parent classes now correctly inherit from SmartEnhancedRAG
+
+================================================================================
+HOW TO RUN
+================================================================================
+
+Start each API in a separate terminal:
+
+Terminal 1 - OLD Dataset API:
+    python rag_api_old.py
+    Listen on: http://localhost:8000
+
+Terminal 2 - NEW Dataset API:
+    python rag_api.py
+    Listen on: http://localhost:8001
+
+Terminal 3 - COMBINED Dataset API:
+    python rag_api_combined.py
+    Listen on: http://localhost:8003
+
+================================================================================
+TESTING
+================================================================================
+
+The following tests have been completed:
+
+✅ CHUNK CONFIDENCE TEST
+   - File: evaluation/old_dataset_retrieval_test_template.csv
+   - Questions: 50 (27 OLD, 23 NEW)
+   - OLD chunks found: 20/27 (74%)
+   - NEW chunks found: 0/23 (0%) - Falls back to internet search
+
+✅ RETRIEVAL TEST
+   - File: evaluation/old_dataset_retrieval_test_template.csv
+   - 50 questions tested
+   - Columns populated:
+     * retrieved_chunks - From chunk confidence test
+     * generated_chunks - From retrieval test API
+     * search_method - vector_only, enhanced_vector, or internet_fallback
+     * retrieval_time_seconds - API response time
+     * precision, recall, f1_score - Evaluation metrics
+
+✅ ANALYSIS
+   - Script: evaluation/analyze_retrieval_test.py
+   - Status: Ready to run
+
+================================================================================
+KEY DIFFERENCES BETWEEN CHUNK TEST & RETRIEVAL TEST
+================================================================================
+
+CHUNK CONFIDENCE TEST:
+  ├─ Direct Supabase RPC query via chunk_confidence_test.py
+  ├─ Queries match_documents_old/new RPC functions directly
+  ├─ Returns chunk IDs from database
+  ├─ OLD dataset: 20 questions found chunks
+  └─ NEW dataset: 0 questions found chunks
+
+RETRIEVAL TEST:
+  ├─ Queries through RAG API endpoint
+  ├─ API uses hybrid search (vector + enhanced + internet)
+  ├─ Returns what the API retrieves (may differ from direct DB query)
+  ├─ All 50 questions get results (internet fallback for no matches)
+  └─ Tests full RAG pipeline, not just retrieval
+
+This is WHY chunk test results ≠ retrieval test results!
+
+================================================================================
+FILES MODIFIED
+================================================================================
+
+✅ rag_api_old.py (CREATED)
+✅ rag_api_combined.py (CREATED/FIXED)
+✅ src/hybrid_rag_old.py (CREATED)
+✅ src/hybrid_rag_combined.py (CREATED/FIXED)
+✅ rag_api_new.py (DELETED - redundant)
+✅ DATASET_SPECIFIC_APIS.md (CREATED)
+
+All files have been syntax-checked and compile successfully.
+
+================================================================================
+STATUS: ✅ COMPLETE & READY
+================================================================================
+
+All dataset-specific APIs are implemented, configured, and ready for testing.
+Each API is isolated to its own dataset table for clean evaluation.

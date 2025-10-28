@@ -1,0 +1,51 @@
+query_id,question,category,dataset_source,retrieved_chunks,chunk1_id,chunk2_id,chunk3_id,chunk4_id,chunk5_id,search_method,query_time_seconds,chunks_found,status
+Q001,Perbedaan izin usaha kecil dan besar?,Licensing,OLD,,,,,,,direct_supabase,9.93,0,success
+Q002,Apakah KSO atau JO Bisa Memiliki NIB?,NIB,NEW,,,,,,,direct_supabase,0.23,0,success
+Q003,Apa Saja KBLI yang Diwajibkan Bermitra dengan UMKM?,General,NEW,,,,,,,direct_supabase,0.19,0,success
+Q004,Apa itu pengawasan perizinan berbasis risiko?,Licensing,OLD,,,,,,,direct_supabase,0.21,0,success
+Q005,Bagaimana prosedur: surat pernyataan pencabutan likuidasi?,Procedure,NEW,,,,,,,direct_supabase,0.24,0,success
+Q006,"Kalau usaha sudah berjalan (operasi produksi) dan tidak ada tambahan realisasi investasi, apakah tetap wajib menyampaikan LKPM?",Technical,NEW,,,,,,,direct_supabase,0.29,0,success
+Q007,Apa yang dimaksud dengan proses penapisan perizinan lingkungan?,Procedure,NEW,,,,,,,direct_supabase,0.22,0,success
+Q008,"Usaha perorangan saya mau diubah menjadi CV, bagaimana prosedurnya di OSS?",Procedure,OLD,"40,184,217",40,184,217,,,direct_supabase,0.2,3,success
+Q009,Bagaimana prosedur: berapa nilai minimal investasi untuk perusahan penanaman modal asing (pma) langsung?,Procedure,NEW,,,,,,,direct_supabase,0.22,0,success
+Q010,"Saya khawatir data OSS saya hilang, apa backupnya?",Technical,OLD,"187,113,4,170,53",187,113,4,170,53,direct_supabase,0.17,5,success
+Q011,Bagaimana cara melihat dokumen persyaratan dasar dan pernyataan mandiri dalam data usaha?,Procedure,NEW,,,,,,,direct_supabase,0.17,0,success
+Q012,Bagaimana cara mengurus izin untuk usaha penyewaan alat berat?,Procedure,OLD,"184,40,217",184,40,217,,,direct_supabase,0.15,3,success
+Q013,Bagaimana cara membuka kantor cabang di OSS?,Procedure,OLD,"184,40,217",184,40,217,,,direct_supabase,0.15,3,success
+Q014,Apa keuntungan memiliki IUMK?,General,OLD,"184,40,217",184,40,217,,,direct_supabase,0.31,3,success
+Q015,Siapa penanggung jawab layanan DPMPTSP di daerah?,General,OLD,"40,184,217",40,184,217,,,direct_supabase,0.16,3,success
+Q016,Bagaimana prosedur perubahan skala usaha di sistem OSS?,Procedure,NEW,,,,,,,direct_supabase,0.15,0,success
+Q017,Ada update regulasi OSS terbaru?,Technical,OLD,"16,44",16,44,,,,direct_supabase,0.12,2,success
+Q018,Bisakah satu NIK memiliki lebih dari satu akun OSS?,Technical,NEW,,,,,,,direct_supabase,0.12,0,success
+Q019,Apa akibat jika KBLI tidak sesuai?,General,OLD,,,,,,,direct_supabase,0.12,0,success
+Q020,Sanksi bagi usaha tanpa NIB.,NIB,OLD,"184,40,217",184,40,217,,,direct_supabase,0.15,3,success
+Q021,Apa proses perizinan berusaha selanjutnya setelah mendapat NIB?,Procedure,NEW,,,,,,,direct_supabase,0.12,0,success
+Q022,Kenapa Kolom Perubahan Nilai Total Akumulasi LKPM Berwarna Abu-abu?,Technical,NEW,,,,,,,direct_supabase,0.12,0,success
+Q023,"Bagaimana cara mengunduh cetakan PKKPR, persetujuan RKL-RPL, dan izin dari dashboard NIB?",NIB,NEW,,,,,,,direct_supabase,0.15,0,success
+Q024,Apa yang terjadi jika tidak melakukan pemenuhan persyaratan dalam 90 hari?,Technical,NEW,,,,,,,direct_supabase,0.13,0,success
+Q025,Bagaimana prosedur: pelaporan badan usaha jasa konstruksi asing (bujka)?,Procedure,NEW,,,,,,,direct_supabase,0.13,0,success
+Q026,"Saya salah memasukkan data NPWP saat daftar, bagaimana cara memperbaikinya?",Procedure,OLD,"40,184,217",40,184,217,,,direct_supabase,0.15,3,success
+Q027,Apakah DPMPTSP menyediakan layanan terjemahan dokumen untuk investor asing?,General,OLD,"55,13",55,13,,,,direct_supabase,0.14,2,success
+Q028,Saya ingin tahu update regulasi terbaru tentang OSS.,Technical,OLD,"171,156,163",171,156,163,,,direct_supabase,0.19,3,success
+Q029,Bagaimana cara mengaktifkan kembali izin usaha yang dibekukan?,Procedure,OLD,"184,40,217",184,40,217,,,direct_supabase,0.17,3,success
+Q030,Apa keuntungan mengurus izin di MPP?,Licensing,OLD,"184,40,217",184,40,217,,,direct_supabase,0.13,3,success
+Q031,Adakah Dasar Hukum yang Melarang Perusahaan dengan KBLI Industri Memiliki KBLI Perdagangan Besar?,Technical,NEW,,,,,,,direct_supabase,0.18,0,success
+Q032,Bagaimana OSS mendukung UMKM digital?,Procedure,OLD,"113,187,170,14,155",113,187,170,14,155,direct_supabase,0.12,5,success
+Q033,Bagaimana cara mendaftar untuk ikut sosialisasi dari DPMPTSP?,Procedure,OLD,"184,40,217",184,40,217,,,direct_supabase,0.11,3,success
+Q034,Prosedur izin usaha kesehatan.,Procedure,OLD,,,,,,,direct_supabase,0.11,0,success
+Q035,Apa itu Laporan Kegiatan Penanaman Modal (LKPM)?,General,OLD,"12,29,28",12,29,28,,,direct_supabase,0.16,3,success
+Q036,Bisa minta review dokumen di DPMPTSP?,General,OLD,"184,40,217",184,40,217,,,direct_supabase,0.17,3,success
+Q037,Bagaimana prosedur merger untuk lebih dari satu perusahaan di sistem OSS?,Procedure,NEW,,,,,,,direct_supabase,0.13,0,success
+Q038,Bagaimana prosedur: panduan penambahan kbli?,Procedure,NEW,,,,,,,direct_supabase,0.14,0,success
+Q039,Bagaimana DPMPTSP memastikan tidak ada kebocoran data pelaku usaha?,Procedure,OLD,"40,184,217",40,184,217,,,direct_supabase,0.12,3,success
+Q040,Bagaimana cara mengurus Izin Pengelolaan Limbah B3?,Procedure,OLD,"184,40,217",184,40,217,,,direct_supabase,0.13,3,success
+Q041,Syarat izin pendirian yayasan?,Licensing,OLD,"72,79,110,2",72,79,110,2,,direct_supabase,0.11,4,success
+Q042,Apakah DPMPTSP menyediakan layanan konsultasi tatap muka?,Support,OLD,,,,,,,direct_supabase,0.11,0,success
+Q043,Bisakah SBU yang Sudah Terbit Digunakan untuk Pemenuhan Persyaratan di KBLI yang Berbeda?,Technical,NEW,,,,,,,direct_supabase,0.12,0,success
+Q044,Bagaimana melanjutkan proses permohonan yang tertunda di OSS?,Procedure,NEW,,,,,,,direct_supabase,0.11,0,success
+Q045,Bagaimana cara mengunduh dan mencetak produk perizinan berusaha UMKU?,Procedure,NEW,,,,,,,direct_supabase,0.13,0,success
+Q046,Apakah IUMK sama dengan NIB?,NIB,OLD,,,,,,,direct_supabase,0.14,0,success
+Q047,Bagaimana prosedur: pemrosesan persetujuan izin oleh administrator kek dan badan pengusahaan kpbpb?,Procedure,NEW,,,,,,,direct_supabase,0.18,0,success
+Q048,Apa langkah-langkah memproses permohonan izin di OSS?,Procedure,NEW,,,,,,,direct_supabase,0.19,0,success
+Q049,Apa arti status SKPBKI telah disetujui pada sistem OSS?,Licensing,NEW,,,,,,,direct_supabase,0.13,0,success
+Q050,Bagaimana cara mengurus izin untuk usaha katering rumahan?,Procedure,OLD,,,,,,,direct_supabase,0.11,0,success

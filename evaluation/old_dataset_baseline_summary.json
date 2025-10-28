@@ -1,0 +1,52 @@
+{
+  "analysis_date": "2025-10-28T00:09:07.239280",
+  "dataset": "OLD",
+  "total_queries": 27,
+  "average_precision": 0.4,
+  "average_recall": 0.4,
+  "average_f1": 0.4,
+  "average_retrieval_time": 12.3,
+  "good_quality_count": 9,
+  "poor_quality_count": 18,
+  "good_quality_percentage": 33.3,
+  "by_category": {
+    "Licensing": {
+      "count": 4,
+      "avg_f1": 0.0
+    },
+    "Procedure": {
+      "count": 11,
+      "avg_f1": 0.327
+    },
+    "Technical": {
+      "count": 3,
+      "avg_f1": 0.333
+    },
+    "General": {
+      "count": 6,
+      "avg_f1": 0.633
+    },
+    "NIB": {
+      "count": 2,
+      "avg_f1": 1.0
+    },
+    "Support": {
+      "count": 1,
+      "avg_f1": 0.4
+    }
+  },
+  "by_search_method": {
+    "internet_fallback": {
+      "count": 11,
+      "avg_f1": 0.0
+    },
+    "enhanced_vector": {
+      "count": 10,
+      "avg_f1": 0.84
+    },
+    "vector_only": {
+      "count": 6,
+      "avg_f1": 0.4
+    }
+  }
+}

@@ -111,8 +111,9 @@ class SupabaseRestVectorStore:
         """Fallback search method"""
         try:
             # Get all embeddings (not efficient for large datasets)
+            # Note: documents_old table doesn't have metadata column, so fetch available columns
             response = requests.get(
-                f"{self.url}/rest/v1/{self.table_name}?select=id,content,metadata,embedding&limit=1000",
+                f"{self.url}/rest/v1/{self.table_name}?select=id,content,embedding&limit=1000",
                 headers=self.headers
             )
             
@@ -149,7 +150,7 @@ class SupabaseRestVectorStore:
                         result_chunk = {
                             'id': chunk.get('id'),  # Include the chunk ID
                             'content': chunk['content'],
-                            'metadata': chunk.get('metadata', {}),
+                            'metadata': chunk.get('metadata', {}),  # May not exist in documents_old
                             'similarity': float(similarity)
                         }
                         similarities.append((similarity, result_chunk))

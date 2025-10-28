@@ -1,0 +1,28 @@
+query_id,question,category,retrieved_chunk_count,search_method,retrieval_time_seconds,precision,recall,f1_score,quality
+old_51,Perbedaan izin usaha kecil dan besar?,Licensing,5,internet_fallback,20.56,0.0,0.0,0.0,Poor
+old_297,Apa itu pengawasan perizinan berbasis risiko?,Licensing,5,internet_fallback,19.37,0.0,0.0,0.0,Poor
+old_268,"Usaha perorangan saya mau diubah menjadi CV, bagaimana prosedurnya di OSS?",Procedure,5,enhanced_vector,6.97,0.4,0.4,0.4,Poor
+old_311,"Saya khawatir data OSS saya hilang, apa backupnya?",Technical,5,enhanced_vector,7.72,1.0,1.0,1.0,Good
+old_304,Bagaimana cara mengurus izin untuk usaha penyewaan alat berat?,Procedure,5,internet_fallback,18.9,0.0,0.0,0.0,Poor
+old_182,Bagaimana cara membuka kantor cabang di OSS?,Procedure,5,enhanced_vector,7.79,1.0,1.0,1.0,Good
+old_164,Apa keuntungan memiliki IUMK?,General,5,enhanced_vector,7.58,1.0,1.0,1.0,Good
+old_11,Siapa penanggung jawab layanan DPMPTSP di daerah?,General,5,enhanced_vector,7.79,0.0,0.0,0.0,Poor
+old_80,Ada update regulasi OSS terbaru?,Technical,5,internet_fallback,20.27,0.0,0.0,0.0,Poor
+old_22,Apa akibat jika KBLI tidak sesuai?,General,5,enhanced_vector,9.02,1.0,1.0,1.0,Good
+old_90,Sanksi bagi usaha tanpa NIB.,NIB,5,enhanced_vector,7.36,1.0,1.0,1.0,Good
+old_136,"Saya salah memasukkan data NPWP saat daftar, bagaimana cara memperbaikinya?",Procedure,5,vector_only,5.15,1.0,1.0,1.0,Good
+old_372,Apakah DPMPTSP menyediakan layanan terjemahan dokumen untuk investor asing?,General,5,vector_only,5.58,0.4,0.4,0.4,Poor
+old_336,Saya ingin tahu update regulasi terbaru tentang OSS.,Technical,5,internet_fallback,20.57,0.0,0.0,0.0,Poor
+old_271,Bagaimana cara mengaktifkan kembali izin usaha yang dibekukan?,Procedure,5,internet_fallback,19.56,0.0,0.0,0.0,Poor
+old_225,Apa keuntungan mengurus izin di MPP?,Licensing,5,internet_fallback,23.82,0.0,0.0,0.0,Poor
+old_326,Bagaimana OSS mendukung UMKM digital?,Procedure,5,enhanced_vector,7.61,1.0,1.0,1.0,Good
+old_229,Bagaimana cara mendaftar untuk ikut sosialisasi dari DPMPTSP?,Procedure,5,vector_only,4.37,0.0,0.0,0.0,Poor
+old_85,Prosedur izin usaha kesehatan.,Procedure,5,internet_fallback,20.27,0.0,0.0,0.0,Poor
+old_119,Apa itu Laporan Kegiatan Penanaman Modal (LKPM)?,General,5,enhanced_vector,6.83,1.0,1.0,1.0,Good
+old_26,Bisa minta review dokumen di DPMPTSP?,General,5,vector_only,4.66,0.4,0.4,0.4,Poor
+old_281,Bagaimana DPMPTSP memastikan tidak ada kebocoran data pelaku usaha?,Procedure,5,vector_only,4.71,0.2,0.2,0.2,Poor
+old_260,Bagaimana cara mengurus Izin Pengelolaan Limbah B3?,Procedure,5,internet_fallback,21.22,0.0,0.0,0.0,Poor
+old_67,Syarat izin pendirian yayasan?,Licensing,5,internet_fallback,21.65,0.0,0.0,0.0,Poor
+old_216,Apakah DPMPTSP menyediakan layanan konsultasi tatap muka?,Support,5,vector_only,4.93,0.4,0.4,0.4,Poor
+old_166,Apakah IUMK sama dengan NIB?,NIB,5,enhanced_vector,8.1,1.0,1.0,1.0,Good
+old_170,Bagaimana cara mengurus izin untuk usaha katering rumahan?,Procedure,5,internet_fallback,19.81,0.0,0.0,0.0,Poor

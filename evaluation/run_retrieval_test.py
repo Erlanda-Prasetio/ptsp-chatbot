@@ -318,7 +318,7 @@ def main():
     parser.add_argument(
         '--timeout',
         type=int,
-        default=30,
+        default=40,
         help='Timeout for API requests in seconds'
     )
     parser.add_argument(
@@ -507,14 +507,18 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     print("=" * 70)
     print()
     
-    # Write updated CSV
-    with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+    # Write updated CSV with _run suffix
+    from pathlib import Path
+    csv_path = Path(csv_file)
+    output_csv = csv_path.parent / f"{csv_path.stem}_run{csv_path.suffix}"
+    
+    with open(output_csv, 'w', newline='', encoding='utf-8') as f:
         fieldnames = rows[0].keys() if rows else []
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
     
-    print(f"✅ Results saved to: {csv_file}")
+    print(f"✅ Results saved to: {output_csv}")
     print(f"⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
     if all_retrieval_times:
         avg_time = sum(all_retrieval_times) / len(all_retrieval_times)

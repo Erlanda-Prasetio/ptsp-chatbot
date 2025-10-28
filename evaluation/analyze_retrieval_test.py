@@ -105,6 +105,8 @@ def analyze_retrieval_test(results_data: Dict):
     search_methods = defaultdict(int)
     for r in results:
         method = r.get('search_method', 'unknown')
+        if not method or method.strip() == '':
+            method = 'unknown'
         search_methods[method] += 1
     
     # Dataset distribution
