@@ -4,6 +4,13 @@ import time
 from embed import embed_texts
 from vector_store import store
 from config import GROQ_API_KEY, OPENROUTER_API_KEY, GEN_MODEL, MAX_CONTEXT_TOKENS, VECTOR_BACKEND, USE_GROQ
+from threading import Lock
+
+# Add request rate limiting to prevent 429 errors
+_request_lock = Lock()
+_last_request_time = 0
+_min_request_interval = 2.0  # Minimum 2 seconds between API calls
+
 if VECTOR_BACKEND == 'supabase':
     from vector_store_supabase import SupabaseVectorStore
 else:
@@ -67,15 +74,27 @@ def build_context(chunks):
 
 
 def query_llm(question: str, context: str):
-    """Query LLM with retry logic and fallback handling"""
+    """Query LLM with retry logic, rate limiting, and fallback handling"""
+    global _last_request_time
+    
+    # Apply rate limiting to prevent 429 errors
+    with _request_lock:
+        elapsed_since_last = time.time() - _last_request_time
+        if elapsed_since_last < _min_request_interval:
+            wait_time = _min_request_interval - elapsed_since_last
+            print(f"⏱️  Rate limit throttle: waiting {wait_time:.1f}s...")
+            time.sleep(wait_time)
+        _last_request_time = time.time()
+    
     messages = [
         {"role": "system", "content": SYSTEM_INSTR},
         {"role": "user", "content": f"{question}\n<context>\n{context}\n</context>"}
     ]
     
     # Retry configuration
-    max_retries = 3
-    base_delay = 2
+    max_retries = 5
+    base_delay = 3
+    rate_limit_delay = 60  # Longer wait for 429 rate limits (60 seconds)
     
     for attempt in range(max_retries):
         try:
@@ -121,8 +140,8 @@ def query_llm(question: str, context: str):
             if status_code == 503:  # Service Unavailable
                 print(f"🔄 {api_name} service temporarily unavailable")
             elif status_code == 429:  # Rate limit
-                print("⏳ Rate limit hit, waiting longer...")
-                time.sleep(base_delay * 2 * (attempt + 1))
+                print(f"⏳ Rate limit hit (429), waiting {rate_limit_delay}s before retry...")
+                time.sleep(rate_limit_delay)
             elif status_code >= 500:  # Server errors
                 print("🔧 Server error, retrying...")
             else:
@@ -138,9 +157,10 @@ def query_llm(question: str, context: str):
         except Exception as e:
             print(f"❌ Unexpected error on attempt {attempt + 1}: {e}")
         
-        # Wait before retrying (exponential backoff)
+        # Wait before retrying (exponential backoff with longer delays)
         if attempt < max_retries - 1:
-            delay = base_delay * (2 ** attempt)
+            # Use longer backoff for higher attempt numbers
+            delay = base_delay * (3 ** attempt)  # Exponential with base 3 instead of 2
             print(f"⏳ Waiting {delay}s before retry...")
             time.sleep(delay)
     

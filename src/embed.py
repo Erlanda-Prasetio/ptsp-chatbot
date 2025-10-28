@@ -1,5 +1,6 @@
 import os
 import requests
+import time
 from typing import List
 from config import OPENROUTER_API_KEY, EMB_MODEL
 
@@ -63,8 +64,35 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
             embeddings = model.encode(texts, show_progress_bar=len(texts) > 10)
             return embeddings.tolist()
     else:
-        # OpenRouter API fallback
-        r = requests.post(EMBED_URL, headers=HEADERS, json={"model": EMB_MODEL, "input": texts})
-        r.raise_for_status()
-        data = r.json()["data"]
-        return [d["embedding"] for d in data]
+        # OpenRouter API with retry logic for rate limits
+        max_retries = 3
+        base_delay = 2
+        rate_limit_delay = 30
+        
+        for attempt in range(max_retries):
+            try:
+                r = requests.post(EMBED_URL, headers=HEADERS, json={"model": EMB_MODEL, "input": texts}, timeout=30)
+                r.raise_for_status()
+                data = r.json()["data"]
+                return [d["embedding"] for d in data]
+            except requests.exceptions.HTTPError as e:
+                status_code = e.response.status_code if e.response else 0
+                print(f"❌ Embedding API error {status_code}: {e}")
+                
+                if status_code == 429:  # Rate limit
+                    print(f"⏳ Rate limit hit (429), waiting {rate_limit_delay}s before retry...")
+                    time.sleep(rate_limit_delay)
+                elif status_code >= 500:
+                    print("🔧 Server error, retrying...")
+                    if attempt < max_retries - 1:
+                        time.sleep(base_delay * (2 ** attempt))
+                else:
+                    raise  # Don't retry client errors
+            except Exception as e:
+                print(f"❌ Embedding error on attempt {attempt + 1}: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(base_delay * (2 ** attempt))
+                else:
+                    raise
+        
+        raise RuntimeError("Failed to embed texts after all retry attempts")

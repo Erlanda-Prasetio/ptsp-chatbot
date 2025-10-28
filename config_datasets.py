@@ -2,21 +2,19 @@
 Dataset Configuration Manager
 ================================
 
-Manages different dataset configurations for testing:
-- NEW: Only new dataset (data_oss/)
-- OLD: Only old dataset (scraped_dpmptsp/)
-- COMBINED: Old + New dataset (both)
+Manages dataset configuration for current production system.
+Uses the new dataset (data_oss/) for all operations.
 
 Usage:
     from config_datasets import get_dataset_config
-    config = get_dataset_config('OLD')
-    print(config.table_name)  # 'documents_old'
+    config = get_dataset_config('CURRENT')
+    print(config.table_name)  # 'documents'
 """
 
 from dataclasses import dataclass
 from typing import Literal
 
-DatasetType = Literal['NEW', 'OLD', 'COMBINED']
+DatasetType = Literal['CURRENT']
 
 
 @dataclass
@@ -34,26 +32,12 @@ class DatasetConfig:
 
 # Dataset Configurations
 DATASET_CONFIGS = {
-    'NEW': DatasetConfig(
-        name='New Dataset',
-        dataset_type='NEW',
-        table_name='documents',  # Keep original
-        description='New dataset only (data_oss/)',
+    'CURRENT': DatasetConfig(
+        name='Current Dataset',
+        dataset_type='CURRENT',
+        table_name='documents',
+        description='Current production dataset (data_oss/)',
         source_dirs=['data/data_oss'],
-    ),
-    'OLD': DatasetConfig(
-        name='Old Dataset',
-        dataset_type='OLD',
-        table_name='documents_old',
-        description='Old dataset only (scraped_dpmptsp/)',
-        source_dirs=['data/scraped_dpmptsp'],
-    ),
-    'COMBINED': DatasetConfig(
-        name='Combined Dataset',
-        dataset_type='COMBINED',
-        table_name='documents_combined',
-        description='Combined old + new dataset',
-        source_dirs=['data/scraped_dpmptsp', 'data/data_oss'],
     ),
 }
 
@@ -85,7 +69,7 @@ if __name__ == "__main__":
     list_datasets()
     
     # Example usage
-    print("\nExample - Getting OLD dataset config:")
-    config = get_dataset_config('OLD')
+    print("\nExample - Getting CURRENT dataset config:")
+    config = get_dataset_config('CURRENT')
     print(f"  Table: {config.table_name}")
     print(f"  Sources: {config.source_dirs}")
