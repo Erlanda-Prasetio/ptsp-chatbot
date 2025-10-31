@@ -1,0 +1,152 @@
+[
+  {
+    "id": "Q1",
+    "question": "Apa kode KBLI untuk usaha laundry?",
+    "ground_truth": "Kode Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) untuk usaha laundry adalah 96200, yang mencakup aktivitas penatu.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q2",
+    "question": "Apa definisi Sertifikat Standar dalam sistem OSS RBA?",
+    "ground_truth": "Sertifikat Standar adalah pernyataan dan/atau bukti pemenuhan standar pelaksanaan kegiatan usaha yang merupakan legalitas bagi Pelaku Usaha untuk melaksanakan kegiatan usahanya.Dokumen ini diberikan melalui sistem OSS untuk kegiatan usaha dengan tingkat risiko menengah rendah dan menengah tinggi.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q3",
+    "question": "Berapa lama masa berlaku Nomor Induk Berusaha (NIB)?",
+    "ground_truth": "Nomor Induk Berusaha (NIB) berlaku selama Pelaku Usaha menjalankan kegiatan usahanya sesuai dengan ketentuan peraturan perundang-undangan.Oleh karena itu, NIB tidak memiliki masa berlaku terbatas dan tidak memerlukan perpanjangan.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q4",
+    "question": "Apa saja fungsi dari Persetujuan Bangunan Gedung (PBG)?",
+    "ground_truth": "Persetujuan Bangunan Gedung (PBG) memiliki beberapa fungsi utama, yaitu: 1. Memastikan pembangunan bangunan gedung berstatus legal. 2. Memastikan penyelenggaraan bangunan gedung memenuhi standar yang menjamin keselamatan, kenyamanan, kesehatan, dan kemudahan bagi penggunanya. 3. Mendata keberadaan rencana bangunan gedung.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q5",
+    "question": "Bandingkan prosedur perpanjangan perizinan berusaha untuk PB-UMKU",
+    "ground_truth": " SIPI",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q6",
+    "question": "Jelaskan perbedaan utama antara PT Perorangan dan usaha perorangan biasa dari segi modal",
+    "ground_truth": " akta",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q7",
+    "question": "Sintesiskan langkah-langkah pengisian LKPM untuk pelaku usaha Non-UMK pada tahap konstruksi",
+    "ground_truth": " dari login hingga laporan terkirim.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q8",
+    "question": "Siapa saja pelaku usaha yang diwajibkan dan yang dikecualikan dari kewajiban lapor LKPM?",
+    "ground_truth": "Kewajiban penyampaian Laporan Kegiatan Penanaman Modal (LKPM) berlaku bagi setiap pelaku usaha, namun dengan beberapa pengecualian. Pelaku Usaha yang Wajib Lapor: Pelaku usaha dengan skala kecil (modal usaha >Rp1 miliar - Rp5 miliar), menengah (modal usaha >Rp5 miliar - Rp10 miliar), dan besar (modal usaha >Rp10 miliar) diwajibkan untuk menyampaikan LKPM secara berkala. Pelaku Usaha yang Dikecualikan: Kewajiban ini tidak berlaku bagi Pelaku Usaha Mikro (modal usaha maksimal Rp1 miliar) serta bidang usaha hulu migas, perbankan, lembaga keuangan non-bank, dan asuransi.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q9",
+    "question": "Jelaskan fungsi NIB sebagai Angka Pengenal Impor (API) dan akses kepabeanan untuk kegiatan ekspor-impor.",
+    "ground_truth": "Nomor Induk Berusaha (NIB) memiliki fungsi ganda yang penting untuk kegiatan ekspor-impor. NIB berlaku sebagai Angka Pengenal Impor (API) dan juga sebagai hak akses kepabeanan. Dengan adanya NIB, pelaku usaha tidak perlu lagi mengurus API secara terpisah, karena NIB sudah mencakup fungsi tersebut. Saat pendaftaran NIB, pelaku usaha dapat memilih jenis API yang sesuai, yaitu API Umum (API-U) untuk barang yang akan diperdagangkan atau API Produsen (API-P) untuk barang yang digunakan sendiri dalam proses produksi.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q10",
+    "question": "Apa saja manfaat memiliki NIB bagi UMKM untuk mendapatkan akses pembiayaan dari bank",
+    "ground_truth": " seperti KUR?",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q11",
+    "question": "Saya ingin mengubah alamat usaha di OSS. Apa langkah-langkahnya",
+    "ground_truth": " dan apakah prosedurnya berbeda untuk UMK dan Non-UMK?",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q12",
+    "question": "Apa yang harus saya lakukan jika kegiatan usaha saya tidak sesuai dengan Rencana Detail Tata Ruang (RDTR) saat pengajuan di OSS?",
+    "ground_truth": "Jika saat pengajuan di sistem OSS Anda menerima notifikasi bahwa kegiatan usaha tidak sesuai dengan Rencana Detail Tata Ruang (RDTR), permohonan izin Anda tidak dapat dilanjutkan untuk lokasi tersebut. Solusi yang harus Anda lakukan adalah mengubah KBLI (bidang usaha) atau mengubah lokasi usaha ke tempat yang sesuai dengan peruntukan RDTR yang berlaku. Anda dapat memeriksa peruntukan tata ruang suatu lokasi melalui sistem RDTR Interaktif atau Gistaru milik Kementerian ATR/BPN.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q13",
+    "question": "Nomor HP yang terdaftar di akun OSS saya sudah tidak aktif",
+    "ground_truth": " jadi saya tidak bisa login. Bagaimana solusinya?",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q14",
+    "question": "Apa sanksi jika saya tidak melakukan migrasi data dari sistem OSS 1.1 ke OSS RBA?",
+    "ground_truth": "Jika pelaku usaha tidak melakukan migrasi data dari sistem OSS 1.1 ke OSS RBA, ada beberapa konsekuensi dan sanksi yang dapat merugikan. Data proyeksi usaha yang ada di sistem lama berisiko hilang. Selain itu, pelaku usaha tidak akan dapat berpartisipasi dalam pelaporan Laporan Kegiatan Penanaman Modal (LKPM), di mana kelalaian dalam pelaporan LKPM dapat berujung pada sanksi administratif, termasuk pencabutan izin usaha.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q15",
+    "question": "Permohonan izin saya di OSS ditolak. Apa saja alasan umum penolakan dan bagaimana cara menindaklanjutinya?",
+    "ground_truth": "Ada beberapa alasan umum mengapa permohonan izin di OSS bisa ditolak, di antaranya: Dokumen atau Data Tidak Lengkap: Persyaratan dokumen yang diunggah tidak lengkap atau tidak valid. Data Tidak Sinkron: Terdapat ketidaksesuaian data antara yang diinput di OSS dengan data di instansi lain, seperti data KTP yang tidak sinkron dengan Dukcapil. Kesalahan Pemilihan KBLI: Kode KBLI yang dipilih tidak sesuai dengan jenis kegiatan usaha yang dijalankan. Lokasi Tidak Sesuai Tata Ruang: Rencana lokasi usaha tidak sesuai dengan Rencana Detail Tata Ruang (RDTR) yang berlaku. Untuk menindaklanjutinya, Anda harus memeriksa catatan penolakan yang biasanya tertera di notifikasi pada akun OSS Anda. Setelah mengetahui penyebabnya, perbaiki atau lengkapi data dan dokumen yang diminta, lalu ajukan kembali permohonan tersebut.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q16",
+    "question": "Saya punya satu NIB untuk perusahaan saya",
+    "ground_truth": " tapi ada beberapa lokasi usaha berbeda. Bagaimana cara mendaftarkan semua lokasi itu?",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q17",
+    "question": "Data usaha saya di OSS salah",
+    "ground_truth": " bagaimana cara perbaikinya?",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q18",
+    "question": "Saya mau urus izin baru",
+    "ground_truth": " mulai dari mana?",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q19",
+    "question": "Bagaimana jika peta lokasi usaha tidak muncul saat saya mengisi data di OSS?",
+    "ground_truth": "Jika peta lokasi tidak muncul secara otomatis saat mengisi data usaha di OSS, ini adalah kendala teknis yang terkadang terjadi. Anda dapat mencoba beberapa solusi berikut: 1. Input Koordinat Manual: Cari lokasi usaha Anda di aplikasi peta lain (seperti Google Maps) untuk mendapatkan titik koordinat latitude dan longitude. Kemudian, salin dan tempel (copy-paste) koordinat tersebut secara manual ke kolom yang tersedia di formulir OSS. 2. Buat Peta Polygon (untuk Non-UMK): Jika Anda adalah pelaku usaha Non-UMK, sistem memungkinkan Anda untuk mengunggah peta lokasi dalam format SHP Polygon. Anda dapat membuat file ini menggunakan alat seperti Google Earth untuk menggambar area lokasi usaha Anda, menyimpannya sebagai file KML, lalu mengubahnya menjadi format SHP menggunakan konverter online.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q20",
+    "question": "Tolong berikan langkah-langkah detail untuk perpanjangan PB UMKU.",
+    "ground_truth": "Tentu, berikut adalah langkah-langkah untuk melakukan perpanjangan Perizinan Berusaha Untuk Menunjang Kegiatan Usaha (PB-UMKU) melalui sistem OSS: 1. Login ke akun OSS Anda di https://oss.go.id/. 2. Masuk ke menu \\PB UMKU\\\"",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q21",
+    "question": "Apa saja roadmap pengembangan sistem OSS RBA untuk tahun 2025?",
+    "ground_truth": "Berdasarkan informasi yang tersedia, pengembangan utama sistem OSS RBA pada tahun 2025 berpusat pada implementasi Peraturan Pemerintah (PP) Nomor 28 Tahun 2025, yang menggantikan PP Nomor 5 Tahun 2021. Beberapa poin utama dalam roadmap pengembangan ini meliputi: Penguatan Peran OSS: Menjadikan OSS sebagai satu-satunya platform terpusat untuk semua pengajuan perizinan berusaha. Penerapan Fiktif Positif: Implementasi mekanisme persetujuan otomatis jika batas waktu pemrosesan oleh instansi terkait terlampaui, untuk memberikan kepastian hukum. Pemisahan Tahapan Izin: Memisahkan alur pengajuan antara perizinan dasar (seperti persetujuan lingkungan dan tata ruang) dengan perizinan berusaha. Penambahan Subsistem Baru: Memperkenalkan fitur-fitur baru dalam sistem OSS untuk meningkatkan layanan. Penyesuaian sistem untuk menerapkan peraturan ini dijadwalkan akan selesai pada Oktober 2025.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q22",
+    "question": "Bagaimana cara saya melaporkan SPT Pajak Penghasilan pribadi?",
+    "ground_truth": "Mohon maaf, pertanyaan Anda mengenai pelaporan SPT Pajak Penghasilan pribadi berada di luar cakupan sistem Online Single Submission (OSS). Sistem OSS berfokus pada perizinan berusaha di Indonesia. Untuk informasi mengenai pelaporan pajak, silakan kunjungi situs resmi Direktorat Jenderal Pajak (DJP) atau hubungi Kring Pajak.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q23",
+    "question": "Jelaskan perbedaan antara PBG (Persetujuan Bangunan Gedung) dan SLF (Sertifikat Laik Fungsi).",
+    "ground_truth": "Perbedaan utama antara Persetujuan Bangunan Gedung (PBG) dan Sertifikat Laik Fungsi (SLF) terletak pada waktu penerbitan dan fungsinya: Persetujuan Bangunan Gedung (PBG): Adalah perizinan yang harus diperoleh sebelum memulai pembangunan gedung. PBG berfungsi sebagai izin untuk membangun, mengubah, atau merawat bangunan sesuai standar teknis yang berlaku. Sertifikat Laik Fungsi (SLF): Adalah sertifikat yang diterbitkan setelah pembangunan selesai dan bangunan telah diperiksa serta dinyatakan laik fungsi. SLF memastikan bahwa bangunan tersebut aman untuk digunakan sesuai peruntukannya. Singkatnya, PBG adalah izin untuk membangun, sedangkan SLF adalah sertifikat bahwa bangunan yang sudah jadi aman untuk digunakan.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q24",
+    "question": "Apa peran DPMPTSP dalam proses verifikasi perizinan yang diajukan melalui OSS?",
+    "ground_truth": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu (DPMPTSP) berperan sebagai perpanjangan tangan pemerintah daerah dalam ekosistem OSS. Peran utamanya meliputi: 1. Pelayanan Berbantuan: Memberikan pendampingan dan fasilitas bagi pelaku usaha yang mengalami kesulitan dalam mengajukan perizinan secara mandiri melalui sistem OSS. 2. Verifikasi dan Pengawasan: Untuk perizinan berusaha dengan tingkat risiko menengah tinggi dan tinggi, DPMPTSP berkoordinasi dengan perangkat daerah teknis terkait untuk melakukan verifikasi pemenuhan komitmen dan persyaratan yang diajukan oleh pelaku usaha. 3. Pengelolaan Pengaduan: Menyediakan sarana dan mengelola pengaduan dari masyarakat terkait pelayanan perizinan berusaha di daerahnya, yang terintegrasi dengan sistem OSS pusat.",
+    "category": "generative_test"
+  },
+  {
+    "id": "Q25",
+    "question": "Apakah NIB bisa langsung digunakan untuk operasional usaha",
+    "ground_truth": " atau ada syarat lain yang harus dipenuhi?",
+    "category": "generative_test"
+  }
+]

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Analyze Retrieval Test Results
 ================================
@@ -5,9 +7,12 @@ Analyze Retrieval Test Results
 Analyzes results from run_retrieval_test.py
 Shows precision, recall, F1 score, search method distribution, and problem areas.
 
+Can also add BERTScore confidence metrics to CSV results.
+
 Usage:
     python evaluation/analyze_retrieval_test.py evaluation/raw_results/retrieval_baseline.json
     python evaluation/analyze_retrieval_test.py evaluation/retrieval_test_result.csv
+    python evaluation/analyze_retrieval_test.py evaluation/retrieval_test_result.csv --add-bertscore
 
 Author: RAG Evaluation Framework
 Date: October 2025
@@ -16,9 +21,56 @@ Date: October 2025
 import json
 import csv
 import sys
+import os
+import time
+import argparse
 from pathlib import Path
 from collections import defaultdict
 from typing import Dict, List
+from dotenv import load_dotenv
+
+# TF-IDF imports (lightweight alternative to BERTScore)
+try:
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.metrics.pairwise import cosine_similarity
+    SKLEARN_AVAILABLE = True
+except ImportError:
+    SKLEARN_AVAILABLE = False
+    print("Warning: scikit-learn not available, TF-IDF scores will be unavailable")
+try:
+    from bert_score import score as bert_score
+    BERTSCORE_AVAILABLE = False  # Disabled due to memory issues
+except ImportError:
+    BERTSCORE_AVAILABLE = False
+
+# Lightweight similarity scoring
+try:
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.metrics.pairwise import cosine_similarity
+    SKLEARN_AVAILABLE = True
+except ImportError:
+    SKLEARN_AVAILABLE = False
+
+# Supabase for chunk retrieval
+try:
+    from supabase import create_client
+    SUPABASE_AVAILABLE = True
+except ImportError:
+    SUPABASE_AVAILABLE = False
+
+# Load environment variables
+load_dotenv()
+
+# Initialize Supabase client once
+SUPABASE_CLIENT = None
+if SUPABASE_AVAILABLE:
+    try:
+        supabase_url = os.getenv('SUPABASE_URL', '')
+        supabase_key = os.getenv('SUPABASE_ANON_KEY') or os.getenv('SUPABASE_SERVICE_KEY') or os.getenv('SUPABASE_KEY')
+        if supabase_url and supabase_key:
+            SUPABASE_CLIENT = create_client(supabase_url, supabase_key)
+    except Exception as e:
+        print(f"Warning: Could not initialize Supabase: {e}")
 
 
 def load_results(file_path: str) -> Dict:
@@ -63,6 +115,164 @@ def load_results(file_path: str) -> Dict:
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
 
+
+def get_chunk_content(chunk_id: str) -> str:
+    """Retrieve chunk content from Supabase"""
+    if not SUPABASE_CLIENT:
+        return ""
+    
+    try:
+        pg_table = os.getenv('PG_TABLE', 'rag_chunks_jateng')
+        result = SUPABASE_CLIENT.table(pg_table).select('content').eq('id', int(chunk_id)).execute()
+        
+        if result.data and len(result.data) > 0:
+            chunk = result.data[0]
+            return chunk.get('content', '')
+        
+        return ""
+    except Exception as e:
+        return ""
+
+
+def calculate_bertscore_confidence(question: str, chunk_contents: List[str]) -> Dict:
+    """Calculate TF-IDF similarity confidence between question and chunks (lightweight alternative to BERTScore)"""
+    if not SKLEARN_AVAILABLE or not chunk_contents:
+        return {
+            'bert_avg': '',
+            'bert_max': '',
+            'bert_level': 'unavailable'
+        }
+    
+    try:
+        # Use TF-IDF for lightweight similarity scoring
+        vectorizer = TfidfVectorizer(max_features=100, stop_words='english')
+        all_texts = [question] + chunk_contents
+        tfidf_matrix = vectorizer.fit_transform(all_texts)
+        
+        # Calculate cosine similarity between question and each chunk
+        similarities = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:]).flatten()
+        
+        avg_sim = float(similarities.mean())
+        max_sim = float(similarities.max())
+        
+        # Categorize confidence level
+        if max_sim >= 0.7:
+            bert_level = 'high'
+        elif max_sim >= 0.5:
+            bert_level = 'medium'
+        else:
+            bert_level = 'low'
+        
+        return {
+            'bert_avg': round(avg_sim, 3),
+            'bert_max': round(max_sim, 3),
+            'bert_level': bert_level
+        }
+    
+    except Exception as e:
+        error_msg = str(e)[:50]
+        return {
+            'bert_avg': '',
+            'bert_max': '',
+            'bert_level': f'error: {error_msg}'
+        }
+
+
+def add_bertscore_to_csv(csv_file: str, output_file: str = None):
+    """Add BERTScore confidence metrics to CSV and save"""
+    if not os.path.exists(csv_file):
+        print(f"❌ CSV file not found: {csv_file}")
+        return
+    
+    if output_file is None:
+        base, ext = os.path.splitext(csv_file)
+        output_file = f"{base}_with_bertscore{ext}"
+    
+    print()
+    print(f"📊 Adding BERTScore to: {csv_file}")
+    print(f"💾 Output: {output_file}")
+    print()
+    
+    # Read input CSV
+    rows = []
+    with open(csv_file, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+    
+    print(f"✅ Loaded {len(rows)} results")
+    print()
+    print("=" * 80)
+    print("CALCULATING BERTSCORE CONFIDENCE")
+    print("=" * 80)
+    print()
+    
+    start_time = time.time()
+    
+    for i, row in enumerate(rows, 1):
+        query_id = row.get('query_id', f'Q_{i:02d}')
+        question = row.get('question', '')
+        generated_chunks = row.get('generated_chunks', '')
+        
+        print(f"[{i}/{len(rows)}] {query_id}: {question[:60]}...")
+        
+        chunk_ids = [cid.strip() for cid in generated_chunks.split(',') if cid.strip()]
+        
+        if not chunk_ids:
+            row['bert_score'] = ''
+            row['bert_level'] = 'no_chunks'
+            row['bert_max'] = ''
+            continue
+        
+        chunk_contents = []
+        for chunk_id in chunk_ids:
+            content = get_chunk_content(chunk_id)
+            if content:
+                chunk_contents.append(content)
+        
+        if not chunk_contents:
+            row['bert_score'] = ''
+            row['bert_level'] = 'no_content'
+            row['bert_max'] = ''
+            continue
+        
+        print(f"   📈 BERTScore for {len(chunk_contents)} chunks...")
+        bert_result = calculate_bertscore_confidence(question, chunk_contents)
+        
+        row['bert_score'] = bert_result['bert_avg']
+        row['bert_level'] = bert_result['bert_level']
+        row['bert_max'] = bert_result['bert_max']
+        
+        if bert_result['bert_avg']:
+            print(f"   ✅ avg={bert_result['bert_avg']:.3f}, max={bert_result['bert_max']:.3f} ({bert_result['bert_level']})")
+        else:
+            print(f"   ⚠️  {bert_result['bert_level']}")
+    
+    elapsed = time.time() - start_time
+    print()
+    print("=" * 80)
+    print(f"⏱️  Complete in {elapsed:.1f}s")
+    print("=" * 80)
+    print()
+    
+    # Write output CSV
+    if rows:
+        fieldnames = list(rows[0].keys())
+        
+        if 'bert_score' not in fieldnames:
+            fieldnames.append('bert_score')
+        if 'bert_level' not in fieldnames:
+            fieldnames.append('bert_level')
+        if 'bert_max' not in fieldnames:
+            fieldnames.append('bert_max')
+        
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        
+        print(f"✅ Saved to: {output_file}")
+    else:
+        print("❌ No results to save")
 
 
 def analyze_retrieval_test(results_data: Dict):
@@ -135,8 +345,29 @@ def analyze_retrieval_test(results_data: Dict):
     
     internet_fallback = sum(1 for r in results if r.get('search_method') == 'internet_fallback')
     
-    # Timing
-    retrieval_times = [r.get('retrieval_time_seconds', 0) for r in results]
+    # Token usage tracking
+    total_prompt_tokens = 0
+    total_completion_tokens = 0
+    total_all_tokens = 0
+    for r in results:
+        try:
+            total_prompt_tokens += int(r.get('prompt_tokens', 0) or 0)
+            total_completion_tokens += int(r.get('completion_tokens', 0) or 0)
+            total_all_tokens += int(r.get('total_tokens', 0) or 0)
+        except (ValueError, TypeError):
+            pass
+    
+    # Timing - convert string times to float
+    retrieval_times = []
+    for r in results:
+        time_val = r.get('retrieval_time_seconds', 0)
+        try:
+            if isinstance(time_val, str):
+                time_val = float(time_val) if time_val else 0
+            retrieval_times.append(float(time_val))
+        except (ValueError, TypeError):
+            retrieval_times.append(0)
+    
     avg_retrieval_time = sum(retrieval_times) / len(retrieval_times) if retrieval_times else 0
     max_retrieval_time = max(retrieval_times) if retrieval_times else 0
     min_retrieval_time = min(retrieval_times) if retrieval_times else 0
@@ -166,10 +397,13 @@ def analyze_retrieval_test(results_data: Dict):
         print(f"   F1-Score:  {avg_f1:.3f} (min={min_f1:.3f}, max={max_f1:.3f})")
         print()
     
-    print(f" Query Distribution:")
-    for dataset, count in sorted(dataset_counts.items()):
-        print(f"   {dataset} Dataset: {count} questions")
-    print()
+    # Only print Query Distribution if not all unknown
+    if not (len(dataset_counts) == 1 and 'unknown' in dataset_counts):
+        print(f" Query Distribution:")
+        for dataset, count in sorted(dataset_counts.items()):
+            if dataset != 'unknown':
+                print(f"   {dataset} Dataset: {count} questions")
+        print()
     
     print(f" Search Method Distribution:")
     for method, count in sorted(search_methods.items(), key=lambda x: x[1], reverse=True):
@@ -243,20 +477,48 @@ def analyze_retrieval_test(results_data: Dict):
     print(f"  Average: {avg_retrieval_time:.2f}s")
     print(f"  Max: {max_retrieval_time:.2f}s")
     print(f"  Min: {min_retrieval_time:.2f}s")
+    if total_all_tokens > 0:
+        print(f"Token Usage:")
+        print(f"  Prompt: {total_prompt_tokens:,}")
+        print(f"  Completion: {total_completion_tokens:,}")
+        print(f"  Total: {total_all_tokens:,}")
     print("=" * 70)
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python analyze_retrieval_test.py <results_file.json>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description='Analyze retrieval test results with optional BERTScore confidence'
+    )
+    parser.add_argument(
+        'results_file',
+        help='Path to results file (JSON or CSV)'
+    )
+    parser.add_argument(
+        '--add-bertscore',
+        action='store_true',
+        help='Add BERTScore confidence metrics to CSV and save'
+    )
+    parser.add_argument(
+        '--output', '-o',
+        help='Output file for BERTScore results (default: input_with_bertscore.csv)'
+    )
     
-    results_file = sys.argv[1]
+    args = parser.parse_args()
+    results_file = args.results_file
     
     if not Path(results_file).exists():
         print(f"❌ File not found: {results_file}")
         sys.exit(1)
     
+    # If add-bertscore flag, run that instead
+    if args.add_bertscore:
+        if not results_file.endswith('.csv'):
+            print("❌ --add-bertscore requires a CSV file")
+            sys.exit(1)
+        add_bertscore_to_csv(results_file, args.output)
+        return
+    
+    # Otherwise, analyze and display
     print(f"📁 Loaded results from: {results_file}")
     results_data = load_results(results_file)
     

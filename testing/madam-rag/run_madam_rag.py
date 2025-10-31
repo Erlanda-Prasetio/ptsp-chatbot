@@ -2,11 +2,55 @@ import argparse
 import os
 import re
 import json
+import time
+import logging
 import torch
 import string
+from datetime import datetime
 from tqdm import tqdm
 from typing import List
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed
+
+# Setup logging for MADAM debate process
+def setup_madam_logger():
+    """Configure logging for MADAM debate tracking."""
+    log_dir = "logs"
+    os.makedirs(log_dir, exist_ok=True)
+    
+    log_file = os.path.join(log_dir, f"madam_debate_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
+    
+    logger = logging.getLogger("madam_debate")
+    logger.setLevel(logging.DEBUG)
+    
+    # File handler - UTF-8 for full Unicode support
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setLevel(logging.DEBUG)
+    
+    # Console handler - ASCII only to avoid Windows encoding issues
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    
+    # Formatter for file (with emojis)
+    file_formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    
+    # Formatter for console (plain ASCII, no emojis)
+    console_formatter = logging.Formatter(
+        '%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    
+    file_handler.setFormatter(file_formatter)
+    console_handler.setFormatter(console_formatter)
+    
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+    
+    return logger, log_file
+
+logger, log_file = setup_madam_logger()
 
 def normalize_answer(s: str) -> str:
     def remove_articles(text):
@@ -77,57 +121,155 @@ Agent responses:
 
 
 def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: int = 3):
+    """Multi-agent debate with comprehensive logging."""
     records = {}
     num_agents = len(documents)
     agent_outputs = []
+    
+    debate_start_time = time.time()
+    logger.info("="*80)
+    logger.info("MADAM DEBATE STARTED")
+    logger.info(f"Query: {query[:100]}..." if len(query) > 100 else f"Query: {query}")
+    logger.info(f"Agents: {num_agents}, Rounds: {num_rounds}")
+    logger.info(f"Documents: {len(documents)} available")
+    logger.info("="*80)
 
     # Round 1
     records["round1"] = {"answers": [], "explanations": []}
-    for doc in documents:
+    logger.info(f"\nROUND 1 - Initial Agent Responses")
+    logger.info(f"{'─'*80}")
+    
+    round1_start = time.time()
+    for i, doc in enumerate(documents):
+        agent_start = time.time()
+        logger.info(f"\n  Agent {i+1}/{num_agents}")
+        logger.info(f"     Document: {doc[:80]}..." if len(doc) > 80 else f"     Document: {doc}")
+        
         response = agent_response(query, doc, generator)
+        agent_elapsed = time.time() - agent_start
+        
         answer = response[response.find("Answer: ") + len("Answer: "):response.find("Explanation")].strip()
         explanation = response[response.find("Explanation: ") + len("Explanation: "):]
+        
         records["round1"]["answers"].append(answer)
         records["round1"]["explanations"].append(explanation)
         agent_outputs.append(response)
+        
+        logger.info(f"     [OK] Agent response received ({agent_elapsed:.2f}s)")
+        logger.info(f"     Answer: {answer[:100]}..." if len(answer) > 100 else f"     Answer: {answer}")
+        
+        # Rate limit protection: 8s gap between agent calls
+        if i < len(documents) - 1:
+            logger.info(f"     [WAIT] 8s gap between agents...")
+            time.sleep(8)
+    
+    # Aggregation for Round 1
+    logger.info(f"\n  Round 1 Aggregation")
+    agg_start = time.time()
+    logger.info(f"     [WAIT] 5s gap before aggregation...")
+    time.sleep(5)
+    
+    logger.info(f"     [WORK] Aggregating {len(agent_outputs)} agent responses...")
     records["round1"]["aggregation"] = aggregate_responses(query, agent_outputs, generator)
+    agg_elapsed = time.time() - agg_start
+    
+    logger.info(f"     [OK] Aggregation complete ({agg_elapsed:.2f}s)")
+    logger.info(f"     Aggregated: {records['round1']['aggregation'][:150]}..." if len(records['round1']['aggregation']) > 150 else f"     Aggregated: {records['round1']['aggregation']}")
+    
+    round1_elapsed = time.time() - round1_start
+    logger.info(f"\n  Round 1 Total Time: {round1_elapsed:.2f}s")
 
-    # Additional rounds
+    # Additional rounds with convergence checking
     final_aggregation = None
     for t in range(1, num_rounds):
         round_key = f"round{t+1}"
+        logger.info(f"\n{round_key.upper()} - Iterative Refinement")
+        logger.info(f"{'─'*80}")
+        
         records[round_key] = {"answers": [], "explanations": []}
         new_outputs = []
+        
+        # 10s gap before starting new round
+        logger.info(f"  [WAIT] 10s gap before {round_key}...")
+        time.sleep(10)
+        
+        round_start = time.time()
         for i, doc in enumerate(documents):
+            agent_start = time.time()
+            logger.info(f"\n  Agent {i+1}/{num_agents}")
+            
             history = "\n".join([f"Agent {j+1}: {agent_outputs[j]}" for j in range(num_agents) if j != i])
             response = agent_response(query, doc, generator, history)
+            agent_elapsed = time.time() - agent_start
+            
             answer = response[response.find("Answer: ") + len("Answer: "):response.find("Explanation")].strip()
             explanation = response[response.find("Explanation: ") + len("Explanation: "):]
+            
             records[round_key]["answers"].append(answer)
             records[round_key]["explanations"].append(explanation)
             new_outputs.append(response)
+            
+            logger.info(f"     [OK] Agent response received ({agent_elapsed:.2f}s)")
+            logger.info(f"     Answer: {answer[:100]}..." if len(answer) > 100 else f"     Answer: {answer}")
+            
+            # 8s gap between agent calls in subsequent rounds
+            if i < len(documents) - 1:
+                logger.info(f"     [WAIT] 8s gap between agents...")
+                time.sleep(8)
+        
         agent_outputs = new_outputs
+        
+        # Check convergence
         pred_ans_list = []
         for ans in records[round_key]["answers"]:
             pred_ans_list.append(normalize_answer(ans))
         prev_pred_ans_list = []
         for ans in records[f"round{t}"]["answers"]:
             prev_pred_ans_list.append(normalize_answer(ans))
+        
         assert len(pred_ans_list) == len(prev_pred_ans_list)
+        
         flag = True
         for k in range(len(pred_ans_list)):
             if pred_ans_list[k] in prev_pred_ans_list[k] or prev_pred_ans_list[k] in pred_ans_list[k]:
                 continue
             else:
                 flag = False
+        
+        logger.info(f"\n  {round_key.upper()} Aggregation")
+        agg_start = time.time()
+        logger.info(f"     [WAIT] 5s gap before aggregation...")
+        time.sleep(5)
+        
+        logger.info(f"     [WORK] Aggregating {len(new_outputs)} agent responses...")
+        records[round_key]["aggregation"] = aggregate_responses(query, agent_outputs, generator)
+        agg_elapsed = time.time() - agg_start
+        
+        logger.info(f"     [OK] Aggregation complete ({agg_elapsed:.2f}s)")
+        logger.info(f"     Aggregated: {records[round_key]['aggregation'][:150]}..." if len(records[round_key]['aggregation']) > 150 else f"     Aggregated: {records[round_key]['aggregation']}")
+        
+        round_elapsed = time.time() - round_start
+        logger.info(f"\n  {round_key.upper()} Total Time: {round_elapsed:.2f}s")
+        
+        # Convergence check logging
         if flag:
+            logger.info(f"\n[OK] CONVERGENCE DETECTED - Answers consistent with previous round")
             final_aggregation = records[f"round{t}"]["aggregation"]
             break
         else:
-            records[round_key]["aggregation"] = aggregate_responses(query, agent_outputs, generator)
+            logger.info(f"\n[WARN] NO CONVERGENCE - Continuing to next round")
             final_aggregation = records[round_key]["aggregation"]
 
     records["final_aggregation"] = final_aggregation
+    
+    # Summary logging
+    debate_elapsed = time.time() - debate_start_time
+    logger.info(f"\n{'='*80}")
+    logger.info(f"[DONE] MADAM DEBATE COMPLETED")
+    logger.info(f"Time: {debate_elapsed:.2f}s ({debate_elapsed/60:.1f} minutes)")
+    logger.info(f"Final Answer: {final_aggregation[:200]}..." if len(final_aggregation) > 200 else f"Final Answer: {final_aggregation}")
+    logger.info(f"{'='*80}\n")
+    
     return records
 
 

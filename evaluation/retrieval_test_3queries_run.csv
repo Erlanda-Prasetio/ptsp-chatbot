@@ -1,0 +1,4 @@
+query_id,question,category,retrieved_chunks,chunk1_id,chunk2_id,chunk3_id,chunk4_id,chunk5_id,generated_chunks,precision,recall,f1_score,confidence_score,confidence_level,max_confidence,notes
+Q_01,Bagaimana cara menambahkan KBLI pada perizinan usaha?,Procedure,"8646,8813,8659,8826,8778",8646,8813,8659,8826,8778,"8646,8813,8659,8826,8778",1.000,1.000,1.000,0.628,medium,0.630,
+Q_02,Bagaimana prosedur pembuatan NIB (Nomor Induk Berusaha)?,NIB,"8712,8879,8995,8640,8807",8712,8879,8995,8640,8807,"8712,8879,8995,8640,8807",1.000,1.000,1.000,0.625,medium,0.648,
+Q_03,Bagaimana cara memeriksa status perizinan secara berkala?,General,"8825,8658,8657,8824,9384",8825,8658,8657,8824,9384,"8825,8658,8657,8824,9384",1.000,1.000,1.000,0.593,medium,0.629,

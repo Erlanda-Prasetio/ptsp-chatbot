@@ -1,0 +1,26 @@
+query_id,question,category,dataset_source,retrieved_chunks,chunk1_id,chunk2_id,chunk3_id,chunk4_id,chunk5_id,search_method,query_time_seconds,chunks_found,status
+Q001,Bagaimana cara menambahkan KBLI pada perizinan usaha?,Procedure,unknown,,,,,,,direct_supabase,7.5,0,success
+Q002,Bagaimana prosedur pembuatan NIB (Nomor Induk Berusaha)?,NIB,unknown,,,,,,,direct_supabase,0.3,0,success
+Q003,Bagaimana cara memeriksa status perizinan secara berkala?,General,unknown,,,,,,,direct_supabase,0.23,0,success
+Q004,Bagaimana prosedur pelaporan Badan Usaha Jasa Konstruksi Asing (BUJKA)?,Procedure,unknown,,,,,,,direct_supabase,0.3,0,success
+Q005,Bagaimana prosedur perizinan STPW untuk pemberi waralaba luar negeri?,Licensing,unknown,,,,,,,direct_supabase,0.27,0,success
+Q006,Apa yang dimaksud dengan sumber pembiayaan dalam pengisian data OSS?,General,unknown,,,,,,,direct_supabase,0.17,0,success
+Q007,Apa sanksi bagi yang tidak melaporkan LKPM?,Penalty,unknown,,,,,,,direct_supabase,0.09,0,success
+Q008,Apakah Peraturan BKPM Nomor 4 Tahun 2021 masih berlaku?,Regulation,unknown,,,,,,,direct_supabase,0.11,0,success
+Q009,Apakah perusahaan dengan KBLI industri dilarang memiliki KBLI perdagangan besar?,Legal,unknown,,,,,,,direct_supabase,0.1,0,success
+Q010,Apakah KSO atau Joint Operation bisa memiliki NIB?,NIB,unknown,,,,,,,direct_supabase,0.09,0,success
+Q011,Apakah KBLI saya termasuk single purpose dan bagaimana mengeceknya?,KBLI,unknown,,,,,,,direct_supabase,0.12,0,success
+Q012,Apakah batas minimal investasi asing masih Rp10 Miliar sesuai PP 28/2025?,Investment,unknown,,,,,,,direct_supabase,0.16,0,success
+Q013,Bagaimana cara memverifikasi keabsahan dan status aktif NIB?,NIB,unknown,,,,,,,direct_supabase,0.1,0,success
+Q014,Apakah perlu menambahkan KBLI perdagangan jika sudah memiliki KBLI industri?,KBLI,unknown,,,,,,,direct_supabase,0.11,0,success
+Q015,Bagaimana prosedur mengajukan sertifikat halal secara mandiri?,Halal,unknown,,,,,,,direct_supabase,0.1,0,success
+Q016,Bagaimana cara mengubah nama perusahaan?,Procedure,unknown,,,,,,,direct_supabase,0.09,0,success
+Q017,Mengapa muncul notifikasi 'Skala usaha mikro tidak dapat melanjutkan pengisian data'?,Error,unknown,,,,,,,direct_supabase,0.13,0,success
+Q018,Bagaimana prosedur mengubah data NPWP perusahaan?,NPWP,unknown,,,,,,,direct_supabase,0.11,0,success
+Q019,Mengapa muncul notifikasi 'Data tidak sesuai AHU' saat menambah data usaha?,Error,unknown,,,,,,,direct_supabase,0.11,0,success
+Q020,Bagaimana cara menambahkan KBLI tambahan untuk usaha saya?,KBLI,unknown,,,,,,,direct_supabase,0.11,0,success
+Q021,Apakah wajib lapor LKPM jika usaha belum berjalan?,LKPM,unknown,,,,,,,direct_supabase,0.09,0,success
+Q022,Apakah wajib lapor LKPM jika usaha sudah berjalan tapi tidak ada penambahan investasi?,LKPM,unknown,,,,,,,direct_supabase,0.1,0,success
+Q023,Bagaimana mengubah email jika kode verifikasi terkirim ke email lama?,Account,unknown,,,,,,,direct_supabase,0.12,0,success
+Q024,Apa saja yang perlu diketahui sebelum berinvestasi di Jawa Tengah?,Investment,unknown,,,,,,,direct_supabase,0.11,0,success
+Q025,Berapa nilai minimal investasi untuk perusahaan PMA di Indonesia?,Investment,unknown,,,,,,,direct_supabase,0.1,0,success

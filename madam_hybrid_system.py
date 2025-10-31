@@ -152,6 +152,10 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         if debate_result:
             return debate_result
 
+        # 45 second gap after MADAM Debate (heavy phase with multiple LLM calls)
+        print("⏳ 45s gap after MADAM Debate phase (API recovery for debate calls)...")
+        time.sleep(45)
+
         internet_result = self._run_internet_phase(question, phase_times, phase_log, start_time)
         if internet_result:
             return internet_result

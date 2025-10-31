@@ -1,0 +1,26 @@
+id,question,ground_truth_preview,answer_preview,search_method,sources_retrieved,response_time_seconds,bertscore_f1,bertscore_confidence,error
+Q1,Apa kode KBLI untuk usaha laundry?,"Kode Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) untuk usaha laundry adalah 96200, yang mencaku","Maaf, waktu pencarian telah habis.",unknown,0,37.05,0.676,good,Request timeout
+Q2,Apa definisi Sertifikat Standar dalam sistem OSS RBA?,Sertifikat Standar adalah pernyataan dan/atau bukti pemenuhan standar pelaksanaan kegiatan usaha yan,,timeout,0,22.66,,,success
+Q3,Berapa lama masa berlaku Nomor Induk Berusaha (NIB)?,Nomor Induk Berusaha (NIB) berlaku selama Pelaku Usaha menjalankan kegiatan usahanya sesuai dengan k,,vector_only,5,9.85,,,success
+Q4,Apa saja fungsi dari Persetujuan Bangunan Gedung (PBG)?,"Persetujuan Bangunan Gedung (PBG) memiliki beberapa fungsi utama, yaitu: 1. Memastikan pembangunan b","Maaf, waktu pencarian telah habis.",unknown,0,37.04,0.612,good,Request timeout
+Q5,Bandingkan prosedur perpanjangan perizinan berusaha untuk PB-UMKU, SIPI,,enhanced_vector,5,32.32,,,success
+Q6,Jelaskan perbedaan utama antara PT Perorangan dan usaha perorangan biasa dari segi modal, akta,,vector_only,5,13.36,,,success
+Q7,Sintesiskan langkah-langkah pengisian LKPM untuk pelaku usaha Non-UMK pada tahap konstruksi, dari login hingga laporan terkirim.,,vector_only,5,17.98,,,success
+Q8,Siapa saja pelaku usaha yang diwajibkan dan yang dikecualikan dari kewajiban lapor LKPM?,"Kewajiban penyampaian Laporan Kegiatan Penanaman Modal (LKPM) berlaku bagi setiap pelaku usaha, namu",,vector_only,5,15.09,,,success
+Q9,Jelaskan fungsi NIB sebagai Angka Pengenal Impor (API) dan akses kepabeanan untuk kegiatan ekspor-im,Nomor Induk Berusaha (NIB) memiliki fungsi ganda yang penting untuk kegiatan ekspor-impor. NIB berla,,vector_only,5,19.68,,,success
+Q10,Apa saja manfaat memiliki NIB bagi UMKM untuk mendapatkan akses pembiayaan dari bank, seperti KUR?,,vector_only,5,19.18,,,success
+Q11,Saya ingin mengubah alamat usaha di OSS. Apa langkah-langkahnya, dan apakah prosedurnya berbeda untuk UMK dan Non-UMK?,,timeout,0,22.34,,,success
+Q12,Apa yang harus saya lakukan jika kegiatan usaha saya tidak sesuai dengan Rencana Detail Tata Ruang (,Jika saat pengajuan di sistem OSS Anda menerima notifikasi bahwa kegiatan usaha tidak sesuai dengan ,,vector_only,5,12.22,,,success
+Q13,Nomor HP yang terdaftar di akun OSS saya sudah tidak aktif, jadi saya tidak bisa login. Bagaimana solusinya?,,enhanced_vector,5,26.38,,,success
+Q14,Apa sanksi jika saya tidak melakukan migrasi data dari sistem OSS 1.1 ke OSS RBA?,"Jika pelaku usaha tidak melakukan migrasi data dari sistem OSS 1.1 ke OSS RBA, ada beberapa konsekue",,enhanced_vector,5,17.27,,,success
+Q15,Permohonan izin saya di OSS ditolak. Apa saja alasan umum penolakan dan bagaimana cara menindaklanju,"Ada beberapa alasan umum mengapa permohonan izin di OSS bisa ditolak, di antaranya: Dokumen atau Dat",,timeout,0,29.83,,,success
+Q16,Saya punya satu NIB untuk perusahaan saya, tapi ada beberapa lokasi usaha berbeda. Bagaimana cara mendaftarkan semua lokasi itu?,,timeout,0,22.73,,,success
+Q17,Data usaha saya di OSS salah, bagaimana cara perbaikinya?,,enhanced_vector,5,16.8,,,success
+Q18,Saya mau urus izin baru, mulai dari mana?,,internet_fallback,1,22.39,,,success
+Q19,Bagaimana jika peta lokasi usaha tidak muncul saat saya mengisi data di OSS?,"Jika peta lokasi tidak muncul secara otomatis saat mengisi data usaha di OSS, ini adalah kendala tek",,vector_only,5,4.24,,,success
+Q20,Tolong berikan langkah-langkah detail untuk perpanjangan PB UMKU.,"Tentu, berikut adalah langkah-langkah untuk melakukan perpanjangan Perizinan Berusaha Untuk Menunjan",,enhanced_vector,5,8.41,,,success
+Q21,Apa saja roadmap pengembangan sistem OSS RBA untuk tahun 2025?,"Berdasarkan informasi yang tersedia, pengembangan utama sistem OSS RBA pada tahun 2025 berpusat pada",,enhanced_vector,5,8.52,,,success
+Q22,Bagaimana cara saya melaporkan SPT Pajak Penghasilan pribadi?,"Mohon maaf, pertanyaan Anda mengenai pelaporan SPT Pajak Penghasilan pribadi berada di luar cakupan ",,vector_only,5,6.05,,,success
+Q23,Jelaskan perbedaan antara PBG (Persetujuan Bangunan Gedung) dan SLF (Sertifikat Laik Fungsi).,Perbedaan utama antara Persetujuan Bangunan Gedung (PBG) dan Sertifikat Laik Fungsi (SLF) terletak p,,enhanced_vector,5,7.3,,,success
+Q24,Apa peran DPMPTSP dalam proses verifikasi perizinan yang diajukan melalui OSS?,Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu (DPMPTSP) berperan sebagai perpanjangan tanga,,vector_only,5,6.06,,,success
+Q25,Apakah NIB bisa langsung digunakan untuk operasional usaha, atau ada syarat lain yang harus dipenuhi?,,enhanced_vector,5,7.49,,,success

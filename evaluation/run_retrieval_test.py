@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Retrieval Test: Vector Search Quality Evaluation
 =================================================
@@ -29,6 +31,103 @@ from typing import Dict, List, Optional
 import argparse
 import subprocess
 import sys
+import os
+
+# Add src to path for imports
+sys.path.append('src')
+sys.path.append('.')
+
+# BERTScore for confidence calculation
+try:
+    from bert_score import score as bert_score
+    BERTSCORE_AVAILABLE = True
+except ImportError:
+    print("⚠️  BERTScore not available. Install with: pip install bert-score")
+    BERTSCORE_AVAILABLE = False
+
+# Supabase for chunk content retrieval
+try:
+    from dotenv import load_dotenv
+    from supabase import create_client
+    load_dotenv()
+    SUPABASE_URL = os.getenv("SUPABASE_URL")
+    SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY") or os.getenv("SUPABASE_KEY")
+    if SUPABASE_URL and SUPABASE_KEY:
+        supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+        SUPABASE_AVAILABLE = True
+    else:
+        SUPABASE_AVAILABLE = False
+except:
+    SUPABASE_AVAILABLE = False
+
+
+def get_chunk_content(chunk_id: str, dataset_source: str = "COMBINED") -> str:
+    """
+    Retrieve chunk content from Supabase
+    """
+    if not SUPABASE_AVAILABLE:
+        return ""
+    
+    try:
+        # Try tables based on dataset source. Include the rag_chunks_jateng
+        # table first — the running vector store (SupabaseRestVectorStore)
+        # uses `PG_TABLE` which defaults to 'rag_chunks_jateng'. Those
+        # chunk IDs (e.g. 8646, 8813) come from that table.
+        tables = []
+        if dataset_source == "OLD":
+            tables = ['rag_chunks_jateng', 'documents_old']
+        elif dataset_source == "NEW":
+            tables = ['rag_chunks_jateng', 'documents_new']
+        else:
+            tables = ['rag_chunks_jateng', 'documents_new', 'documents_old']
+        
+        for table in tables:
+            result = supabase.table(table).select('content').eq('id', chunk_id).execute()
+            if result.data and len(result.data) > 0:
+                return result.data[0].get('content', '')
+        
+        return ""
+    except Exception as e:
+        return ""
+
+
+def calculate_confidence_score(question: str, chunk_scores: List[float]) -> Dict:
+    """
+    Calculate confidence from the actual scores returned by the retrieval API.
+    Uses the similarity scores that the system already computed.
+    
+    Args:
+        question: The query (for reference)
+        chunk_scores: List of similarity scores from the retrieval API response
+    
+    Returns:
+        dict with avg_score, max_score, confidence_level
+    """
+    if not chunk_scores:
+        return {
+            'avg_score': 0.0,
+            'max_score': 0.0,
+            'confidence_level': 'none',
+            'scores': []
+        }
+    
+    avg_score = sum(chunk_scores) / len(chunk_scores)
+    max_score = max(chunk_scores)
+    
+    # Categorize based on actual system scores
+    if max_score >= 0.7:
+        confidence_level = 'high'
+    elif max_score >= 0.5:
+        confidence_level = 'medium'
+    else:
+        confidence_level = 'low'
+    
+    return {
+        'avg_score': round(avg_score, 3),
+        'max_score': round(max_score, 3),
+        'confidence_level': confidence_level,
+        'scores': chunk_scores
+    }
 
 
 class RetrievalTester:
@@ -313,7 +412,7 @@ def main():
         '--api-url',
         type=str,
         default='http://localhost:8001',
-        help='URL of RAG API endpoint'
+        help='URL of RAG API endpoint (default: localhost:8001)'
     )
     parser.add_argument(
         '--timeout',
@@ -385,38 +484,51 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     """
     print()
     print("=" * 70)
-    print("🧪 RETRIEVAL TEST - CSV MODE")
+    print("[TEST] RETRIEVAL TEST - CSV MODE")
     print("=" * 70)
     print()
     
     # Test API connection
     api_url = api_url.rstrip('/')
-    print(f"🔌 Testing connection to {api_url}...")
+    print("[CHECK] Testing connection to " + api_url + "...")
     try:
         response = requests.get(f"{api_url}/health", timeout=5)
         if response.status_code != 200:
-            print(f"❌ API returned status {response.status_code}")
+            print(f"[FAIL] API returned status {response.status_code}")
             sys.exit(1)
-        print("✅ API is healthy")
+        print("[OK] API is healthy")
         print()
     except requests.exceptions.RequestException as e:
-        print(f"❌ Cannot connect to API at {api_url}")
+        print(f"[FAIL] Cannot connect to API at {api_url}")
         print(f"   Error: {e}")
-        print("\n💡 Make sure rag_api.py is running: python rag_api.py")
+        print("\n[INFO] Make sure rag_api.py is running: python rag_api.py")
         sys.exit(1)
     
     # Read CSV
-    print(f"📂 Loading CSV from: {csv_file}")
+    print(f"[INFO] Loading CSV from: {csv_file}")
     rows = []
     with open(csv_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         rows = list(reader)
     
-    print(f"✅ Loaded {len(rows)} queries")
+    # Ensure required columns exist
+    for row in rows:
+        if 'search_method' not in row:
+            row['search_method'] = ''
+        if 'retrieval_time_seconds' not in row:
+            row['retrieval_time_seconds'] = ''
+        if 'prompt_tokens' not in row:
+            row['prompt_tokens'] = ''
+        if 'completion_tokens' not in row:
+            row['completion_tokens'] = ''
+        if 'total_tokens' not in row:
+            row['total_tokens'] = ''
+    
+    print(f"[OK] Loaded {len(rows)} queries")
     print()
     
     print("=" * 70)
-    print(f"🔍 RETRIEVING CHUNKS FOR {len(rows)} QUERIES")
+    print(f"[RETRIEVE] RETRIEVING CHUNKS FOR {len(rows)} QUERIES")
     print("=" * 70)
     print()
     
@@ -449,8 +561,15 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
                 sources = result_data.get('sources', [])
                 search_method = result_data.get('search_method', 'unknown')
                 
-                # Extract generated chunk IDs
+                # Extract token usage
+                usage = result_data.get('usage', {})
+                prompt_tokens = usage.get('prompt_tokens', 0) if usage else 0
+                completion_tokens = usage.get('completion_tokens', 0) if usage else 0
+                total_tokens = usage.get('total_tokens', 0) if usage else 0
+                
+                # Extract generated chunk IDs and their scores
                 generated_chunk_ids = [str(source.get('chunk_id', source.get('id', ''))) for source in sources]
+                chunk_scores = [float(source.get('score', 0.0)) for source in sources]
                 generated_chunks_str = ','.join(generated_chunk_ids)
                 
                 # Calculate metrics
@@ -462,21 +581,44 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
                 recall = relevant / len(ground_truth_set) if ground_truth_set else 0.0
                 f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
                 
-                # Update row - add search_method and retrieval_time
+                # Calculate confidence score from actual API scores
+                confidence_result = calculate_confidence_score(question, chunk_scores)
+                
+                # Update row - add search_method, retrieval_time, and token usage
                 row['generated_chunks'] = generated_chunks_str
                 row['precision'] = f"{precision:.3f}"
                 row['recall'] = f"{recall:.3f}"
                 row['f1_score'] = f"{f1:.3f}"
+                
+                # Add confidence scores from API
+                if 'confidence_score' in row:
+                    row['confidence_score'] = f"{confidence_result['avg_score']:.3f}"
+                if 'confidence_level' in row:
+                    row['confidence_level'] = confidence_result['confidence_level']
+                if 'max_confidence' in row:
+                    row['max_confidence'] = f"{confidence_result['max_score']:.3f}"
+                
                 if 'search_method' in row:
                     row['search_method'] = search_method
                 if 'retrieval_time_seconds' in row:
                     row['retrieval_time_seconds'] = f"{query_time:.2f}"
+                if 'prompt_tokens' in row:
+                    row['prompt_tokens'] = str(prompt_tokens)
+                if 'completion_tokens' in row:
+                    row['completion_tokens'] = str(completion_tokens)
+                if 'total_tokens' in row:
+                    row['total_tokens'] = str(total_tokens)
                 
-                status = f"{search_method} | {query_time:.2f}s | P={precision:.3f}, R={recall:.3f}, F1={f1:.3f}"
-                print(f"   ✅ {status}")
+                # Display status with actual confidence from API
+                conf_display = f"Conf={confidence_result['avg_score']:.3f}({confidence_result['confidence_level']})"
+                tokens_display = f"Tokens={total_tokens}" if total_tokens > 0 else ""
+                status = f"{search_method} | {query_time:.2f}s | P={precision:.3f}, R={recall:.3f}, F1={f1:.3f} | {conf_display}"
+                if tokens_display:
+                    status += f" | {tokens_display}"
+                print(f"   [OK] {status}")
 
             else:
-                print(f"   ❌ API error {response.status_code}")
+                print(f"   [FAIL] API error {response.status_code}")
                 row['generated_chunks'] = ''
                 row['precision'] = ''
                 row['recall'] = ''
@@ -489,7 +631,7 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
         except Exception as e:
             query_time = time.time() - query_start
             all_retrieval_times.append(query_time)
-            print(f"   ❌ Error: {e}")
+            print(f"   [ERROR] {e}")
             row['generated_chunks'] = ''
             row['precision'] = ''
             row['recall'] = ''
@@ -503,7 +645,7 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     
     print()
     print("=" * 70)
-    print("💾 SAVING RESULTS TO CSV")
+    print("[SAVE] SAVING RESULTS TO CSV")
     print("=" * 70)
     print()
     
@@ -518,15 +660,15 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
         writer.writeheader()
         writer.writerows(rows)
     
-    print(f"✅ Results saved to: {output_csv}")
-    print(f"⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
+    print(f"[OK] Results saved to: {output_csv}")
+    print(f"[TIME] Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
     if all_retrieval_times:
         avg_time = sum(all_retrieval_times) / len(all_retrieval_times)
         max_time = max(all_retrieval_times)
         min_time = min(all_retrieval_times)
-        print(f"⏱️  Avg Retrieval Time: {avg_time:.2f}s")
-        print(f"⏱️  Max Retrieval Time: {max_time:.2f}s")
-        print(f"⏱️  Min Retrieval Time: {min_time:.2f}s")
+        print(f"[TIME] Avg Retrieval Time: {avg_time:.2f}s")
+        print(f"[TIME] Max Retrieval Time: {max_time:.2f}s")
+        print(f"[TIME] Min Retrieval Time: {min_time:.2f}s")
     print()
 
     # Calculate summary statistics

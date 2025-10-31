@@ -1,0 +1,86 @@
+═══════════════════════════════════════════════════════════════════════════════
+MADAM LOGGING SETUP - QUICK REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+WHERE TO FIND LOGS AFTER RETRIEVAL TEST:
+  → logs/madam_debate_YYYYMMDD_HHMMSS.log
+  
+  Example: logs/madam_debate_20251031_143022.log
+
+HOW TO VIEW:
+  → Open in VS Code: code logs/madam_debate_20251031_143022.log
+  → Or Notepad: notepad logs/madam_debate_20251031_143022.log
+
+WHAT'S LOGGED:
+  • Query being debated
+  • Each agent's LLM response (Agent 1/4, 2/4, 3/4, 4/4)
+  • Time for each response
+  • Rate limit gaps (8s between agents, 5s before agg, 10s between rounds)
+  • Aggregated answer synthesis
+  • Total debate time
+  • Convergence status (did agents agree?)
+
+KEY SECTIONS TO SEARCH:
+  "MADAM DEBATE STARTED" → Debate beginning
+  "Agent 1/4" → First agent response
+  "Aggregation" → Answer synthesis
+  "CONVERGED" → Agents agreed (good!)
+  "unknown" → Problem (debate failed to find answer)
+  "COMPLETE" → Debate finished
+
+WHAT GOOD LOGS LOOK LIKE:
+  ✅ Each LLM call: 2-3 seconds
+  ✅ Rate limit gaps appear: "⏳ 8s gap", "⏳ 5s gap", "⏳ 10s gap"
+  ✅ No API errors (no "429" or "Error")
+  ✅ Agents converge by Round 2
+  ✅ Final answer is meaningful (not "unknown")
+
+WHAT BAD LOGS LOOK LIKE:
+  ❌ LLM calls taking 10+ seconds (API overloaded)
+  ❌ Missing rate limit gaps (gaps got skipped)
+  ❌ "429 Too Many Requests" errors
+  ❌ Agents never converge (goes to Round 3, still different)
+  ❌ Final answer: "All Correct Answers: []" or contains "unknown"
+
+EXAMPLE LOG FLOW (for 1 query):
+  15:30:22 - MADAM DEBATE STARTED: "Perbedaan izin usaha kecil dan besar?"
+  15:30:22 - Query has 4 documents, max 3 rounds
+  
+  --- ROUND 1 ---
+  15:30:24 - Agent 1 LLM call started
+  15:30:26 - Agent 1 response: "Izin usaha kecil adalah..." (2.1s)
+  15:30:34 - [8s rate limit gap]
+  15:30:36 - Agent 2 LLM call
+  15:30:38 - Agent 2 response: "Perbedaan utamanya..." (2.2s)
+  15:30:46 - [8s rate limit gap]
+  15:30:48 - Agent 3 response (2.0s)
+  15:30:56 - [8s rate limit gap]
+  15:30:58 - Agent 4 response (2.3s)
+  15:31:03 - [5s before aggregation]
+  15:31:08 - Aggregation LLM call
+  15:31:11 - Final answer: "Berdasarkan debat 4 agen..." (3.4s)
+  15:31:11 - ✅ AGENTS CONVERGED - debate complete!
+  
+  TOTAL: 49 seconds for this query
+
+AFTER RUNNING RETRIEVAL TEST:
+  1. Go to logs/ folder
+  2. Open latest madam_debate_*.log
+  3. Search for "unknown" - if found, those queries failed
+  4. Search for "CONVERGED" - count how many converged
+  5. Look for 429 errors - if present, rate limiting hit OpenRouter
+  6. Check timings - queries with high scores should have meaningful logs
+
+FILES INVOLVED:
+  • testing/madam-rag/run_madam_rag.py → Generates logs (already has logging code)
+  • logs/madam_debate_*.log → Your log files (created automatically)
+  • madam_hybrid_system.py → Uses MADAM debate output
+
+RATE LIMIT CHANGES IMPLEMENTED:
+  ✅ 8s delay between each agent call (spreads out LLM requests)
+  ✅ 5s delay before aggregation (LLM synthesis)
+  ✅ 10s delay before new rounds (between Round 1 → Round 2, etc)
+  ✅ Groq API enabled (30 req/min vs OpenRouter 1-3 req/min)
+  ✅ Result: Debate phase now 60-90s instead of rapid-fire
+
+═══════════════════════════════════════════════════════════════════════════════
