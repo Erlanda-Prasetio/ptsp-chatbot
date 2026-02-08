@@ -35,10 +35,10 @@ def run_automated_evaluation(
         Path to saved results JSON file
     """
     print("\n" + "="*70)
-    print(f"🤖 PHASE 1: AUTOMATED EVALUATION - {system_name.upper()}")
+    print(f" PHASE 1: AUTOMATED EVALUATION - {system_name.upper()}")
     print("="*70)
-    print("⚡ All metrics logged automatically (no manual verification)")
-    print("⏱️  Response time = actual system performance")
+    print(" All metrics logged automatically (no manual verification)")
+    print("[TIME]  Response time = actual system performance")
     print("="*70)
     
     # Load sampled queries
@@ -48,19 +48,19 @@ def run_automated_evaluation(
     queries = data.get('queries', data if isinstance(data, list) else [])
     metadata = data.get('metadata', {})
     
-    print(f"\n📊 Loaded {len(queries)} queries from {sample_file}")
-    print(f"🎲 Random seed: {metadata.get('random_seed', 'N/A')}")
-    print(f"🔧 System: {system_name}")
+    print(f"\n[STATS] Loaded {len(queries)} queries from {sample_file}")
+    print(f" Random seed: {metadata.get('random_seed', 'N/A')}")
+    print(f" System: {system_name}")
     print(f"⏳ Rate limit delay: {rate_limit_delay}s between queries\n")
     
     # Initialize system based on name
     if system_name == 'baseline' or system_name == 'baseline_updated':
         from src.smart_enhanced_rag import SmartEnhancedRAG
         system = SmartEnhancedRAG()
-        print("✅ Initialized SmartEnhancedRAG")
+        print("[OK] Initialized SmartEnhancedRAG")
     elif system_name.startswith('madam'):
         # TODO: Initialize MADAM-RAG when implemented
-        print("⚠️  MADAM-RAG not implemented yet. Using SmartEnhancedRAG as placeholder.")
+        print("[WARN]  MADAM-RAG not implemented yet. Using SmartEnhancedRAG as placeholder.")
         from src.smart_enhanced_rag import SmartEnhancedRAG
         system = SmartEnhancedRAG()
     else:
@@ -79,9 +79,9 @@ def run_automated_evaluation(
         category = query_data.get('category', 'unknown')
         difficulty = query_data.get('difficulty', 'unknown')
         
-        print(f"\n{'─'*70}")
+        print(f"\n{''*70}")
         print(f"[{i}/{len(queries)}] {query_id} ({category}, {difficulty})")
-        print(f"❓ Query: {query_text[:100]}{'...' if len(query_text) > 100 else ''}")
+        print(f" Query: {query_text[:100]}{'...' if len(query_text) > 100 else ''}")
         
         # Start timing
         start_time = time.time()
@@ -187,12 +187,12 @@ def run_automated_evaluation(
             results.append(record)
             
             # Display summary
-            print(f"✅ Completed in {response_time:.2f}s")
-            print(f"📝 Answer preview: {answer[:150]}{'...' if len(answer) > 150 else ''}")
-            print(f"🎯 Tokens: {total_tokens} | Precision: {precision:.3f if precision else 'N/A'} | Recall: {recall:.3f if recall else 'N/A'}")
+            print(f"[OK] Completed in {response_time:.2f}s")
+            print(f" Answer preview: {answer[:150]}{'...' if len(answer) > 150 else ''}")
+            print(f"[TARGET] Tokens: {total_tokens} | Precision: {precision:.3f if precision else 'N/A'} | Recall: {recall:.3f if recall else 'N/A'}")
             
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"[FAIL] Error: {e}")
             import traceback
             traceback.print_exc()
             
@@ -217,14 +217,14 @@ def run_automated_evaluation(
     avg_time = total_time / len(queries) if queries else 0
     
     print("\n" + "="*70)
-    print("✅ AUTOMATED EVALUATION COMPLETE")
+    print("[OK] AUTOMATED EVALUATION COMPLETE")
     print("="*70)
-    print(f"📊 Total queries: {len(queries)}")
-    print(f"✅ Successful: {sum(1 for r in results if 'error' not in r)}")
-    print(f"❌ Errors: {sum(1 for r in results if 'error' in r)}")
-    print(f"⏱️  Total time: {total_time/60:.1f} minutes")
-    print(f"⏱️  Average time per query: {avg_time:.2f}s")
-    print(f"🎯 Total tokens: {sum(r.get('total_tokens', 0) for r in results if 'error' not in r)}")
+    print(f"[STATS] Total queries: {len(queries)}")
+    print(f"[OK] Successful: {sum(1 for r in results if 'error' not in r)}")
+    print(f"[FAIL] Errors: {sum(1 for r in results if 'error' in r)}")
+    print(f"[TIME]  Total time: {total_time/60:.1f} minutes")
+    print(f"[TIME]  Average time per query: {avg_time:.2f}s")
+    print(f"[TARGET] Total tokens: {sum(r.get('total_tokens', 0) for r in results if 'error' not in r)}")
     
     # Save results
     output_dir = Path('evaluation/raw_results')
@@ -252,8 +252,8 @@ def run_automated_evaluation(
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n💾 Results saved to: {output_file}")
-    print(f"\n➡️  Next step: Run manual scoring with:")
+    print(f"\n[SAVE] Results saved to: {output_file}")
+    print(f"\n  Next step: Run manual scoring with:")
     print(f"    python evaluation/manual_scoring.py --file {output_file}")
     
     return str(output_file)
@@ -291,9 +291,9 @@ if __name__ == "__main__":
     )
     
     print("\n" + "="*70)
-    print("🎯 PHASE 1 COMPLETE!")
+    print("[TARGET] PHASE 1 COMPLETE!")
     print("="*70)
-    print(f"📁 Raw results: {output_file}")
-    print(f"\n➡️  Next: Manual scoring (Phase 2)")
+    print(f"[FILE] Raw results: {output_file}")
+    print(f"\n  Next: Manual scoring (Phase 2)")
     print(f"    python evaluation/manual_scoring.py --file {output_file}")
     print("="*70)

@@ -35,7 +35,7 @@ class SystemVerifier:
     
     def verify_files(self) -> bool:
         """Verify all system files exist"""
-        print("\n📋 Checking System Files...")
+        print("\n Checking System Files...")
         print("-" * 60)
         
         files = {
@@ -51,7 +51,7 @@ class SystemVerifier:
         all_exist = True
         for filename, description in files.items():
             exists = Path(filename).exists()
-            status = "✅" if exists else "❌"
+            status = "[OK]" if exists else "[FAIL]"
             print(f"{status} {filename:<40} - {description}")
             
             if not exists:
@@ -68,7 +68,7 @@ class SystemVerifier:
     
     def verify_directories(self) -> bool:
         """Verify required directories exist"""
-        print("\n📁 Checking Required Directories...")
+        print("\n[FILE] Checking Required Directories...")
         print("-" * 60)
         
         directories = {
@@ -82,7 +82,7 @@ class SystemVerifier:
         all_exist = True
         for dirname, description in directories.items():
             exists = Path(dirname).exists()
-            status = "✅" if exists else "⚠️ " if dirname.startswith('data/') else "❌"
+            status = "[OK]" if exists else "[WARN] " if dirname.startswith('data/') else "[FAIL]"
             print(f"{status} {dirname:<40} - {description}")
             
             if not exists:
@@ -102,7 +102,7 @@ class SystemVerifier:
     
     def verify_dependencies(self) -> bool:
         """Verify Python dependencies"""
-        print("\n📦 Checking Python Dependencies...")
+        print("\n Checking Python Dependencies...")
         print("-" * 60)
         
         dependencies = [
@@ -119,10 +119,10 @@ class SystemVerifier:
         for package, description in dependencies:
             try:
                 __import__(package)
-                status = "✅"
+                status = "[OK]"
                 available = True
             except ImportError:
-                status = "❌"
+                status = "[FAIL]"
                 available = False
                 all_available = False
                 self.issues.append(f"Missing dependency: {package}")
@@ -138,7 +138,7 @@ class SystemVerifier:
     
     def verify_configuration(self) -> bool:
         """Verify configuration system"""
-        print("\n⚙️  Checking Configuration System...")
+        print("\n[CONFIG]  Checking Configuration System...")
         print("-" * 60)
         
         try:
@@ -146,7 +146,7 @@ class SystemVerifier:
             sys.path.insert(0, '.')
             from config_datasets import get_dataset_config, list_datasets, DATASET_CONFIGS
             
-            print("✅ config_datasets module imports successfully")
+            print("[OK] config_datasets module imports successfully")
             
             # Check all datasets
             datasets = ['NEW', 'OLD', 'COMBINED']
@@ -155,22 +155,22 @@ class SystemVerifier:
             for dataset_type in datasets:
                 try:
                     config = get_dataset_config(dataset_type)
-                    print(f"✅ {dataset_type:<10} - table: {config.table_name:<25} sources: {', '.join(config.source_dirs)}")
+                    print(f"[OK] {dataset_type:<10} - table: {config.table_name:<25} sources: {', '.join(config.source_dirs)}")
                 except Exception as e:
-                    print(f"❌ {dataset_type:<10} - Error: {e}")
+                    print(f"[FAIL] {dataset_type:<10} - Error: {e}")
                     all_ok = False
                     self.issues.append(f"Configuration error for {dataset_type}: {e}")
             
             return all_ok
             
         except ImportError as e:
-            print(f"❌ Failed to import config_datasets: {e}")
+            print(f"[FAIL] Failed to import config_datasets: {e}")
             self.issues.append(f"Configuration system error: {e}")
             return False
     
     def verify_supabase_connection(self) -> bool:
         """Verify Supabase configuration"""
-        print("\n🔗 Checking Supabase Connection...")
+        print("\n Checking Supabase Connection...")
         print("-" * 60)
         
         try:
@@ -179,35 +179,35 @@ class SystemVerifier:
             supabase_key = os.getenv('SUPABASE_KEY')
             
             if not supabase_url:
-                print("⚠️  SUPABASE_URL not set in environment")
+                print("[WARN]  SUPABASE_URL not set in environment")
                 self.warnings.append("SUPABASE_URL not configured")
             else:
-                print(f"✅ SUPABASE_URL: {supabase_url[:50]}...")
+                print(f"[OK] SUPABASE_URL: {supabase_url[:50]}...")
             
             if not supabase_key:
-                print("⚠️  SUPABASE_KEY not set in environment")
+                print("[WARN]  SUPABASE_KEY not set in environment")
                 self.warnings.append("SUPABASE_KEY not configured")
             else:
-                print(f"✅ SUPABASE_KEY: {supabase_key[:20]}...")
+                print(f"[OK] SUPABASE_KEY: {supabase_key[:20]}...")
             
             # Try importing config to check Supabase
             try:
                 from config import SUPABASE_CLIENT
-                print("✅ Supabase client initialized")
+                print("[OK] Supabase client initialized")
                 return True
             except Exception as e:
                 self.warnings.append(f"Supabase client error: {e}")
-                print(f"⚠️  Supabase client: {e}")
+                print(f"[WARN]  Supabase client: {e}")
                 return False
                 
         except Exception as e:
-            print(f"❌ Supabase check failed: {e}")
+            print(f"[FAIL] Supabase check failed: {e}")
             self.issues.append(f"Supabase error: {e}")
             return False
     
     def verify_api_requirements(self) -> bool:
         """Verify API can start"""
-        print("\n🌐 Checking API Requirements...")
+        print("\n Checking API Requirements...")
         print("-" * 60)
         
         try:
@@ -215,18 +215,18 @@ class SystemVerifier:
             sys.path.insert(0, '.')
             import rag_api_datasets
             
-            print("✅ rag_api_datasets module imports successfully")
-            print("✅ API server can be started")
+            print("[OK] rag_api_datasets module imports successfully")
+            print("[OK] API server can be started")
             return True
             
         except Exception as e:
-            print(f"⚠️  API import check: {e}")
+            print(f"[WARN]  API import check: {e}")
             self.warnings.append(f"API startup may have issues: {e}")
             return False
     
     def verify_testing_requirements(self) -> bool:
         """Verify testing scripts can run"""
-        print("\n🧪 Checking Testing Requirements...")
+        print("\n[TEST] Checking Testing Requirements...")
         print("-" * 60)
         
         try:
@@ -234,37 +234,37 @@ class SystemVerifier:
             import run_retrieval_test_datasets
             import analyze_retrieval_test_datasets
             
-            print("✅ run_retrieval_test_datasets imports successfully")
-            print("✅ analyze_retrieval_test_datasets imports successfully")
-            print("✅ Testing scripts ready to run")
+            print("[OK] run_retrieval_test_datasets imports successfully")
+            print("[OK] analyze_retrieval_test_datasets imports successfully")
+            print("[OK] Testing scripts ready to run")
             return True
             
         except Exception as e:
-            print(f"⚠️  Testing scripts check: {e}")
+            print(f"[WARN]  Testing scripts check: {e}")
             self.warnings.append(f"Testing may have issues: {e}")
             return False
     
     def check_data_files(self) -> bool:
         """Check if data files exist for ingestion"""
-        print("\n📊 Checking Data Files...")
+        print("\n[STATS] Checking Data Files...")
         print("-" * 60)
         
         # Check NEW data
         new_data_path = Path('data/data_oss')
         if new_data_path.exists():
             ndjson_files = list(new_data_path.glob('**/*.ndjson'))
-            print(f"✅ NEW dataset: {len(ndjson_files)} NDJSON files found")
+            print(f"[OK] NEW dataset: {len(ndjson_files)} NDJSON files found")
         else:
-            print(f"⚠️  NEW dataset directory not found: data/data_oss/")
+            print(f"[WARN]  NEW dataset directory not found: data/data_oss/")
             self.warnings.append("NEW dataset not found")
         
         # Check OLD data
         old_data_path = Path('data/scraped_dpmptsp')
         if old_data_path.exists():
             html_files = list((old_data_path / 'files').glob('*.html')) if (old_data_path / 'files').exists() else []
-            print(f"✅ OLD dataset: {len(html_files)} HTML files found")
+            print(f"[OK] OLD dataset: {len(html_files)} HTML files found")
         else:
-            print(f"⚠️  OLD dataset directory not found: data/scraped_dpmptsp/")
+            print(f"[WARN]  OLD dataset directory not found: data/scraped_dpmptsp/")
             self.warnings.append("OLD dataset not found")
         
         return True
@@ -276,21 +276,21 @@ class SystemVerifier:
         print("="*60)
         
         if self.issues:
-            print(f"\n❌ Critical Issues ({len(self.issues)}):")
+            print(f"\n[FAIL] Critical Issues ({len(self.issues)}):")
             for issue in self.issues:
                 print(f"   • {issue}")
         else:
-            print("\n✅ No critical issues found!")
+            print("\n[OK] No critical issues found!")
         
         if self.warnings:
-            print(f"\n⚠️  Warnings ({len(self.warnings)}):")
+            print(f"\n[WARN]  Warnings ({len(self.warnings)}):")
             for warning in self.warnings:
                 print(f"   • {warning}")
         else:
-            print("\n✅ No warnings!")
+            print("\n[OK] No warnings!")
         
         if not self.issues:
-            print("\n✅ System is ready for use!")
+            print("\n[OK] System is ready for use!")
             print("\nNext steps:")
             print("   1. python ingest_supabase_datasets.py --dataset OLD")
             print("   2. python ingest_supabase_datasets.py --dataset COMBINED")
@@ -298,7 +298,7 @@ class SystemVerifier:
             print("   4. python run_retrieval_test_datasets.py --dataset NEW")
             print("   5. python analyze_retrieval_test_datasets.py")
         else:
-            print("\n⚠️  Please fix critical issues before proceeding.")
+            print("\n[WARN]  Please fix critical issues before proceeding.")
         
         print("\n" + "="*60)
     
@@ -339,12 +339,12 @@ def main():
     success = verifier.verify_all()
     
     if args.fix and not success:
-        print("\n🔧 Attempting to auto-fix issues...")
+        print("\n Attempting to auto-fix issues...")
         
         # Create missing directories
         for dirname in ['data/data_oss', 'data/scraped_dpmptsp', 'evaluation']:
             Path(dirname).mkdir(parents=True, exist_ok=True)
-            print(f"✅ Created: {dirname}")
+            print(f"[OK] Created: {dirname}")
         
         # Install missing dependencies
         if verifier.issues:

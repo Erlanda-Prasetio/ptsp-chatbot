@@ -128,11 +128,11 @@ def process_folder(folder_path, folder_name):
     folder = Path(folder_path)
     
     if not folder.exists():
-        print(f"⚠️  Folder not found: {folder_path}")
+        print(f"[WARN]  Folder not found: {folder_path}")
         return documents
     
     txt_files = list(folder.glob('**/*.txt'))
-    print(f"\n📁 Processing {folder_name}...")
+    print(f"\n[FILE] Processing {folder_name}...")
     
     for file_path in txt_files:
         try:
@@ -151,7 +151,7 @@ def process_folder(folder_path, folder_name):
                 cleaned_content = clean_guide_text(cleaned_content)
             
             if not cleaned_content.strip():
-                print(f"⚠️  Empty after cleaning: {file_path.name}")
+                print(f"[WARN]  Empty after cleaning: {file_path.name}")
                 continue
             
             documents.append({
@@ -163,18 +163,18 @@ def process_folder(folder_path, folder_name):
             })
             
         except Exception as e:
-            print(f"❌ Error processing {file_path.name}: {e}")
+            print(f"[FAIL] Error processing {file_path.name}: {e}")
     
-    print(f"✅ Processed {len(documents)} documents from {folder_name}")
+    print(f"[OK] Processed {len(documents)} documents from {folder_name}")
     return documents
 
 def main():
     print("\n" + "="*70)
-    print("🧹 ENHANCED DATA CLEANING & INGESTION")
+    print(" ENHANCED DATA CLEANING & INGESTION")
     print("="*70)
     
     # Step 1: Read documents from all folders
-    print("\n🔄 Step 1: Reading documents...")
+    print("\n Step 1: Reading documents...")
     
     base_path = Path('data/data_oss')
     
@@ -183,14 +183,14 @@ def main():
     all_documents.extend(process_folder(base_path / 'investment_guides', 'investment'))
     all_documents.extend(process_folder(base_path / 'guides', 'guides'))
     
-    print(f"\n📊 Total documents: {len(all_documents)}")
+    print(f"\n[STATS] Total documents: {len(all_documents)}")
     
     if not all_documents:
-        print("❌ No documents to process!")
+        print("[FAIL] No documents to process!")
         return
     
     # Step 2: Chunk documents
-    print("\n🔄 Step 2: Chunking documents...")
+    print("\n Step 2: Chunking documents...")
     
     all_chunks = []
     for doc in all_documents:
@@ -207,14 +207,14 @@ def main():
                 }
             })
     
-    print(f"✂️ Created {len(all_chunks)} chunks")
+    print(f" Created {len(all_chunks)} chunks")
     
     # Calculate statistics
     chunk_sizes = [len(chunk['content']) for chunk in all_chunks]
     print(f"Chunk size stats: Min: {min(chunk_sizes)} chars, Max: {max(chunk_sizes)} chars, Avg: {sum(chunk_sizes)//len(chunk_sizes)} chars")
     
     # Step 3: Save preview
-    print("\n🔄 Step 3: Saving preview...")
+    print("\n Step 3: Saving preview...")
     
     preview = {
         'total_documents': len(all_documents),
@@ -241,10 +241,10 @@ def main():
     with open('data/cleaned_chunks_preview.json', 'w', encoding='utf-8') as f:
         json.dump(preview, f, indent=2, ensure_ascii=False)
     
-    print("💾 Preview saved to: data/cleaned_chunks_preview.json")
+    print("[SAVE] Preview saved to: data/cleaned_chunks_preview.json")
     
     # Step 4: Embed and ingest to Supabase
-    print("\n🔄 Step 4: Embedding and ingesting to Supabase...")
+    print("\n Step 4: Embedding and ingesting to Supabase...")
     
     store = SupabaseRestVectorStore()
     
@@ -256,7 +256,7 @@ def main():
         batch = all_chunks[i:i + batch_size]
         batch_num = i // batch_size + 1
         
-        print(f"🔄 Processing batch {batch_num}/{total_batches}...")
+        print(f" Processing batch {batch_num}/{total_batches}...")
         
         # Extract content for embedding
         texts = [chunk['content'] for chunk in batch]
@@ -277,7 +277,7 @@ def main():
         # Store in Supabase
         store.add_chunks(chunks_to_store)
     
-    print(f"\n✅ Successfully ingested {len(all_chunks)} chunks to Supabase!")
+    print(f"\n[OK] Successfully ingested {len(all_chunks)} chunks to Supabase!")
     print("="*70)
 
 if __name__ == '__main__':

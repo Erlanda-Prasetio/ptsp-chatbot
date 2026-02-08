@@ -32,7 +32,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY") or os.getenv("SUPABASE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    print("❌ ERROR: SUPABASE_URL and SUPABASE_SERVICE_KEY not found in .env")
+    print("[FAIL] ERROR: SUPABASE_URL and SUPABASE_SERVICE_KEY not found in .env")
     sys.exit(1)
 
 from supabase import create_client
@@ -46,10 +46,10 @@ def load_query_template(csv_file: str) -> list:
         with open(csv_file, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             questions = list(reader)
-        print(f"✅ Loaded {len(questions)} queries from {csv_file}")
+        print(f"[OK] Loaded {len(questions)} queries from {csv_file}")
         return questions
     except FileNotFoundError:
-        print(f"❌ CSV file not found: {csv_file}")
+        print(f"[FAIL] CSV file not found: {csv_file}")
         return []
 
 
@@ -126,7 +126,7 @@ def run_chunk_test_csv(csv_file: str, output_csv: str = None):
         output_csv = csv_file.replace('.csv', '_chunk_metrics.csv')
     
     print("\n" + "=" * 70)
-    print("🧪 CHUNK CONFIDENCE TEST WITH METRICS")
+    print("[TEST] CHUNK CONFIDENCE TEST WITH METRICS")
     print("=" * 70)
     print()
     
@@ -136,13 +136,13 @@ def run_chunk_test_csv(csv_file: str, output_csv: str = None):
         return False
     
     # Initialize Supabase
-    print("🔌 Connecting to Supabase...")
+    print("[CONNECT] Connecting to Supabase...")
     supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
     
-    print("📂 Querying documents...")
+    print("[DIR] Querying documents...")
     print()
     print("=" * 70)
-    print("🔍 TESTING CHUNK RETRIEVAL")
+    print("[SEARCH] TESTING CHUNK RETRIEVAL")
     print("=" * 70)
     print()
     
@@ -191,16 +191,16 @@ def run_chunk_test_csv(csv_file: str, output_csv: str = None):
         results.append(result_row)
         
         if chunk_ids:
-            print(f"   ✅ {search_method} | {query_time:.2f}s | Found {len(chunk_ids)} chunks")
+            print(f"   [OK] {search_method} | {query_time:.2f}s | Found {len(chunk_ids)} chunks")
         else:
-            print(f"   ⚠️  {search_method} | {query_time:.2f}s | No chunks found")
+            print(f"   [WARN]  {search_method} | {query_time:.2f}s | No chunks found")
     
     total_time = time.time() - start_all
     
     # Save results to CSV
     print()
     print("=" * 70)
-    print("💾 SAVING RESULTS TO CSV")
+    print("[SAVE] SAVING RESULTS TO CSV")
     print("=" * 70)
     print()
     
@@ -211,12 +211,12 @@ def run_chunk_test_csv(csv_file: str, output_csv: str = None):
             writer.writeheader()
             writer.writerows(results)
         
-        print(f"✅ Results saved to: {output_csv}")
+        print(f"[OK] Results saved to: {output_csv}")
     
     # Print statistics
     print()
     print("=" * 70)
-    print("📊 SUMMARY STATISTICS")
+    print("[STATS] SUMMARY STATISTICS")
     print("=" * 70)
     print()
     print(f"Total Queries: {len(questions)}")
@@ -255,7 +255,7 @@ if __name__ == "__main__":
     success = run_chunk_test_csv(args.csv, args.output)
     
     if success:
-        print("✅ Chunk test with metrics complete!\n")
+        print("[OK] Chunk test with metrics complete!\n")
     else:
-        print("❌ Chunk test failed!\n")
+        print("[FAIL] Chunk test failed!\n")
         sys.exit(1)

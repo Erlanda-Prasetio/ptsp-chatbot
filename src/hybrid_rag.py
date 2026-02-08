@@ -24,7 +24,7 @@ class HybridRAGSystem:
     """
     
     def __init__(self):
-        print("🚀 Initializing Hybrid RAG System...")
+        print("[START] Initializing Hybrid RAG System...")
         
         # Initialize components
         self.rag_system = SmartEnhancedRAG()
@@ -41,8 +41,8 @@ class HybridRAGSystem:
         self.min_sources = 3           # Minimum sources for confidence
         self.confidence_threshold = 0.75 # Increased overall confidence threshold
         
-        print("✅ Hybrid RAG System initialized")
-        print(f"⏱️  Timeouts: Vector({self.vector_timeout}s) + Enhanced({self.enhanced_timeout}s) + Internet({self.internet_timeout}s) = {self.total_timeout}s")
+        print("[OK] Hybrid RAG System initialized")
+        print(f"[TIME]  Timeouts: Vector({self.vector_timeout}s) + Enhanced({self.enhanced_timeout}s) + Internet({self.internet_timeout}s) = {self.total_timeout}s")
     
     def assess_result_quality(self, result: Dict[str, Any]) -> Tuple[float, str]:
         """
@@ -135,11 +135,11 @@ class HybridRAGSystem:
         start_time = time.time()
         phase_times = {}
         
-        print(f"🔍 Hybrid search for: {question}")
-        print(f"⏱️  Max time: {self.total_timeout}s")
+        print(f"[SEARCH] Hybrid search for: {question}")
+        print(f"[TIME]  Max time: {self.total_timeout}s")
         
         # PHASE 1: Initial Vector Search (5s)
-        print("\n📋 Phase 1: Vector Search")
+        print("\n Phase 1: Vector Search")
         phase1_start = time.time()
         
         try:
@@ -147,21 +147,21 @@ class HybridRAGSystem:
             phase1_time = time.time() - phase1_start
             phase_times['vector'] = phase1_time
             
-            print(f"⏱️  Vector search: {phase1_time:.2f}s")
+            print(f"[TIME]  Vector search: {phase1_time:.2f}s")
             
             # Assess quality
             quality_score, reason = self.assess_result_quality(vector_result)
-            print(f"📊 Quality: {quality_score:.2f} ({reason})")
+            print(f"[STATS] Quality: {quality_score:.2f} ({reason})")
             
             if quality_score >= self.confidence_threshold:
-                print("✅ Vector search succeeded!")
+                print("[OK] Vector search succeeded!")
                 vector_result["enhanced_features"]["search_method"] = "vector_only"
                 vector_result["enhanced_features"]["quality_score"] = quality_score
                 vector_result["enhanced_features"]["phase_times"] = phase_times
                 return vector_result
                 
         except Exception as e:
-            print(f"❌ Vector search failed: {e}")
+            print(f"[FAIL] Vector search failed: {e}")
             phase1_time = time.time() - phase1_start
             phase_times['vector'] = phase1_time
         
@@ -171,26 +171,26 @@ class HybridRAGSystem:
             return self._timeout_response(question, phase_times)
         
         # PHASE 2: Enhanced Vector Search (10s)
-        print("\n🔄 Phase 2: Enhanced Vector Search")
+        print("\n Phase 2: Enhanced Vector Search")
         phase2_start = time.time()
         
         try:
             # Expand query and search with more sources
             expanded_query = self.expand_query_for_retry(question)
-            print(f"🔍 Expanded query: {expanded_query}")
+            print(f"[SEARCH] Expanded query: {expanded_query}")
             
             enhanced_result = self.rag_system.ask(expanded_query, k=k*2)
             phase2_time = time.time() - phase2_start
             phase_times['enhanced_vector'] = phase2_time
             
-            print(f"⏱️  Enhanced search: {phase2_time:.2f}s")
+            print(f"[TIME]  Enhanced search: {phase2_time:.2f}s")
             
             # Assess quality
             quality_score, reason = self.assess_result_quality(enhanced_result)
-            print(f"📊 Quality: {quality_score:.2f} ({reason})")
+            print(f"[STATS] Quality: {quality_score:.2f} ({reason})")
             
             if quality_score >= self.confidence_threshold * 0.8:  # Lower threshold for phase 2
-                print("✅ Enhanced vector search succeeded!")
+                print("[OK] Enhanced vector search succeeded!")
                 enhanced_result["enhanced_features"]["search_method"] = "enhanced_vector"
                 enhanced_result["enhanced_features"]["quality_score"] = quality_score
                 enhanced_result["enhanced_features"]["phase_times"] = phase_times
@@ -198,7 +198,7 @@ class HybridRAGSystem:
                 return enhanced_result
                 
         except Exception as e:
-            print(f"❌ Enhanced search failed: {e}")
+            print(f"[FAIL] Enhanced search failed: {e}")
             phase2_time = time.time() - phase2_start
             phase_times['enhanced_vector'] = phase2_time
         
@@ -208,7 +208,7 @@ class HybridRAGSystem:
             return self._timeout_response(question, phase_times)
         
         # PHASE 3: Internet Search (5s)
-        print("\n🌐 Phase 3: Internet Search")
+        print("\n Phase 3: Internet Search")
         phase3_start = time.time()
         
         try:
@@ -226,8 +226,8 @@ class HybridRAGSystem:
                 phase3_time = time.time() - phase3_start
                 phase_times['internet'] = phase3_time
                 
-                print(f"⏱️  Internet search: {phase3_time:.2f}s")
-                print(f"🎯 Found {len(internet_results)} internet sources")
+                print(f"[TIME]  Internet search: {phase3_time:.2f}s")
+                print(f"[TARGET] Found {len(internet_results)} internet sources")
                 
                 # Format as standard response
                 internet_response = {
@@ -256,18 +256,18 @@ class HybridRAGSystem:
                     }
                 }
                 
-                print("✅ Internet search succeeded!")
+                print("[OK] Internet search succeeded!")
                 return internet_response
             else:
-                print("❌ No internet results found")
+                print("[FAIL] No internet results found")
                 
         except Exception as e:
-            print(f"❌ Internet search failed: {e}")
+            print(f"[FAIL] Internet search failed: {e}")
             phase3_time = time.time() - phase3_start
             phase_times['internet'] = phase3_time
         
         # All phases failed
-        print("💔 All search phases failed")
+        print(" All search phases failed")
         return self._fallback_response(question, phase_times)
     
     def _timeout_response(self, question: str, phase_times: Dict[str, float]) -> Dict[str, Any]:
@@ -332,11 +332,11 @@ def test_hybrid_system():
         "random question about weather"  # Should trigger fallback
     ]
     
-    print("🧪 Testing Hybrid RAG System")
+    print("[TEST] Testing Hybrid RAG System")
     print("="*60)
     
     for i, query in enumerate(test_queries, 1):
-        print(f"\n🔍 Test {i}/{len(test_queries)}: {query}")
+        print(f"\n[SEARCH] Test {i}/{len(test_queries)}: {query}")
         
         start_time = time.time()
         result = hybrid.ask_with_fallback(query)
@@ -348,7 +348,7 @@ def test_hybrid_system():
         quality = features.get("quality_score", 0)
         sources = result.get("total_sources", 0)
         
-        print(f"\n📊 Results:")
+        print(f"\n[STATS] Results:")
         print(f"   Method: {method}")
         print(f"   Quality: {quality:.2f}")
         print(f"   Sources: {sources}")

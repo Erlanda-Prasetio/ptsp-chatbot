@@ -11,7 +11,7 @@ def main():
         exp2 = json.load(f)
     
     print("\n" + "="*70)
-    print("📊 BASELINE (OLD Dataset) vs EXPERIMENT 2 (NEW Dataset)")
+    print("[STATS] BASELINE (OLD Dataset) vs EXPERIMENT 2 (NEW Dataset)")
     print("="*70)
     
     # Count fallback rates (field name is 'search_method')
@@ -23,12 +23,12 @@ def main():
     
     total = len(baseline['results'])
     
-    print(f"\n🌐 Internet Fallback (Lower is Better):")
+    print(f"\n Internet Fallback (Lower is Better):")
     print(f"   Baseline: {b_fallback}/{total} = {b_fallback/total*100:.1f}%")
     print(f"   Exp 2:    {e2_fallback}/{total} = {e2_fallback/total*100:.1f}%")
     print(f"   Change:   {(e2_fallback-b_fallback)/total*100:+.1f}% ({e2_fallback-b_fallback:+d} queries)")
     
-    print(f"\n🎯 Vector-based (Supabase) - Higher is Better:")
+    print(f"\n[TARGET] Vector-based (Supabase) - Higher is Better:")
     print(f"   Baseline: {b_vector}/{total} = {b_vector/total*100:.1f}%")
     print(f"   Exp 2:    {e2_vector}/{total} = {e2_vector/total*100:.1f}%")
     print(f"   Change:   {(e2_vector-b_vector)/total*100:+.1f}% ({e2_vector-b_vector:+d} queries)")
@@ -37,7 +37,7 @@ def main():
     b_time = baseline.get('metadata', {}).get('summary_statistics', {}).get('avg_response_time', 0)
     e2_time = exp2.get('metadata', {}).get('summary_statistics', {}).get('avg_response_time', 0)
     
-    print(f"\n⏱️  Average Response Time:")
+    print(f"\n[TIME]  Average Response Time:")
     print(f"   Baseline: {b_time:.2f}s")
     print(f"   Exp 2:    {e2_time:.2f}s")
     if b_time > 0:
@@ -50,17 +50,17 @@ def main():
         avg_rec = sum(r.get('recall', 0) for r in b_results_with_f1) / len(b_results_with_f1)
         avg_f1 = sum(r.get('f1_score', 0) for r in b_results_with_f1) / len(b_results_with_f1)
         
-        print(f"\n📈 Baseline Metrics (from {len(b_results_with_f1)} scored results):")
+        print(f"\n[METRIC] Baseline Metrics (from {len(b_results_with_f1)} scored results):")
         print(f"   Precision: {avg_prec:.3f}")
         print(f"   Recall:    {avg_rec:.3f}")
         print(f"   F1 Score:  {avg_f1:.3f}")
-        print(f"\n⚠️  Exp 2 needs manual scoring for metrics!")
+        print(f"\n[WARN]  Exp 2 needs manual scoring for metrics!")
     
     print("\n" + "="*70)
-    print("✅ Comparison complete!")
+    print("[OK] Comparison complete!")
     print("="*70)
     
-    print(f"\n📝 Next: Score Experiment 2 to get retrieval metrics")
+    print(f"\n Next: Score Experiment 2 to get retrieval metrics")
     print(f"   python evaluation/manual_scoring.py --file evaluation/raw_results/experiment2_new_dataset.json")
 
 if __name__ == '__main__':

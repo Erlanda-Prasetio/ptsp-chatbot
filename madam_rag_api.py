@@ -13,6 +13,7 @@ sys.path.append('src')
 
 from config import VECTOR_BACKEND  # type: ignore
 from madam_hybrid_system import MadamHybridRAGSystem
+from domain_config import API_SUGGESTIONS
 
 rag_system: Optional[MadamHybridRAGSystem] = None
 
@@ -22,16 +23,16 @@ async def lifespan(app: FastAPI):
     """Initialize and tear down the MADAM Hybrid RAG system."""
     global rag_system
     try:
-        print("🚀 Initializing Madam Hybrid RAG system with multi-agent debate...")
+        print("[START] Initializing Madam Hybrid RAG system with multi-agent debate...")
         rag_system = MadamHybridRAGSystem()
-        print("✅ Madam Hybrid RAG system initialized successfully!")
+        print("[OK] Madam Hybrid RAG system initialized successfully!")
     except Exception as exc:
-        print(f"❌ Failed to initialize Madam Hybrid RAG system: {exc}")
+        print(f"[FAIL] Failed to initialize Madam Hybrid RAG system: {exc}")
         rag_system = None
     try:
         yield
     finally:
-        print("🔄 Shutting down MADAM RAG system...")
+        print(" Shutting down MADAM RAG system...")
 
 
 app = FastAPI(title="Central Java MADAM RAG API", version="1.0.0", lifespan=lifespan)
@@ -118,7 +119,7 @@ async def chat(request: ChatRequest) -> ChatResponse:
         raise HTTPException(status_code=400, detail="No user message found")
 
     try:
-        print(f"🔍 Processing MADAM query: {user_message[:100]}...")
+        print(f"[SEARCH] Processing MADAM query: {user_message[:100]}...")
         result = rag_system.ask_with_fallback(user_message.strip())
         if "error" in result:
             raise HTTPException(status_code=500, detail=result["error"])
@@ -126,7 +127,7 @@ async def chat(request: ChatRequest) -> ChatResponse:
         features = result.get("enhanced_features", {})
         response_time = features.get("response_time", "unknown")
         method = features.get("search_method", "unknown")
-        print(f"✅ MADAM query processed using {method} in {response_time}")
+        print(f"[OK] MADAM query processed using {method} in {response_time}")
 
         return ChatResponse(
             message=result.get("answer", ""),
@@ -137,7 +138,7 @@ async def chat(request: ChatRequest) -> ChatResponse:
     except HTTPException:
         raise
     except Exception as exc:
-        print(f"❌ MADAM RAG query failed: {exc}")
+        print(f"[FAIL] MADAM RAG query failed: {exc}")
         raise HTTPException(status_code=500, detail=f"RAG query failed: {exc}")
 
 
@@ -153,7 +154,7 @@ async def retrieve(request: ChatRequest) -> Dict[str, Any]:
         raise HTTPException(status_code=400, detail="No user message found")
 
     try:
-        print(f"🔍 Retrieving MADAM chunks for: {user_message[:100]}...")
+        print(f"[SEARCH] Retrieving MADAM chunks for: {user_message[:100]}...")
         result = rag_system.ask_with_fallback(user_message.strip())
         sources = result.get("sources", [])
         method = result.get("enhanced_features", {}).get("search_method", "unknown")
@@ -181,7 +182,7 @@ async def retrieve(request: ChatRequest) -> Dict[str, Any]:
                 }
             )
 
-        print(f"✅ Retrieved {len(formatted_sources)} chunks via {method}")
+        print(f"[OK] Retrieved {len(formatted_sources)} chunks via {method}")
         return {
             "sources": formatted_sources,
             "search_method": method,
@@ -191,31 +192,22 @@ async def retrieve(request: ChatRequest) -> Dict[str, Any]:
     except HTTPException:
         raise
     except Exception as exc:
-        print(f"❌ MADAM retrieval failed: {exc}")
+        print(f"[FAIL] MADAM retrieval failed: {exc}")
         raise HTTPException(status_code=500, detail=f"Retrieval failed: {exc}")
 
 
 @app.get("/suggestions")
 async def get_suggestions() -> Dict[str, Any]:
     return {
-        "suggestions": [
-            "Apa itu DPMPTSP Jawa Tengah?",
-            "Bagaimana cara mengurus izin usaha?",
-            "Syarat investasi di Jawa Tengah",
-            "Prosedur perizinan online",
-            "Layanan pelayanan terpadu satu pintu",
-            "Dokumen yang diperlukan untuk izin",
-            "Kontak DPMPTSP Jawa Tengah",
-            "Biaya pengurusan izin usaha",
-        ]
+        "suggestions": API_SUGGESTIONS
     }
 
 
 if __name__ == "__main__":
-    print("🚀 Starting Central Java MADAM RAG API server...")
-    print("📊 Access the API at: http://localhost:8001")
-    print("📋 API docs at: http://localhost:8001/docs")
-    print("🔗 Connect from frontend at: http://localhost:3000")
+    print("[START] Starting Central Java MADAM RAG API server...")
+    print("[STATS] Access the API at: http://localhost:8001")
+    print(" API docs at: http://localhost:8001/docs")
+    print(" Connect from frontend at: http://localhost:3000")
 
     uvicorn.run(
         "madam_rag_api:app",

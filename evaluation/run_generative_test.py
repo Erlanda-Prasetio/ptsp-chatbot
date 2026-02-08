@@ -53,24 +53,24 @@ class GenerativeTester:
         self.queries = []
         
         # Load sample queries
-        print(f"📂 Loading sample from: {sample_file}")
+        print(f"[DIR] Loading sample from: {sample_file}")
         with open(sample_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             self.queries = data if isinstance(data, list) else data.get('queries', [])
         
-        print(f"✅ Loaded {len(self.queries)} queries")
-        print(f"⏱️  Delay between queries: {delay_seconds}s")
-        print(f"⏱️  Estimated total time: ~{(len(self.queries) * (delay_seconds + 15)) / 60:.1f} minutes")
+        print(f"[OK] Loaded {len(self.queries)} queries")
+        print(f"[TIME]  Delay between queries: {delay_seconds}s")
+        print(f"[TIME]  Estimated total time: ~{(len(self.queries) * (delay_seconds + 15)) / 60:.1f} minutes")
         print()
     
     def test_api_connection(self) -> bool:
         """Test if RAG API is reachable"""
-        print(f"🔌 Testing connection to {self.api_url}...")
+        print(f"[CONNECT] Testing connection to {self.api_url}...")
         try:
             response = requests.get(f"{self.api_url}/health", timeout=5)
             if response.status_code == 200:
                 data = response.json()
-                print("✅ API is healthy")
+                print("[OK] API is healthy")
                 print(f"   Backend: {data.get('vector_backend', 'unknown')}")
                 print(f"   LLM: Enabled")
                 print(f"   Hybrid Search: {data.get('hybrid_search_enabled', False)}")
@@ -78,12 +78,12 @@ class GenerativeTester:
                 print()
                 return True
             else:
-                print(f"❌ API returned status {response.status_code}")
+                print(f"[FAIL] API returned status {response.status_code}")
                 return False
         except requests.exceptions.RequestException as e:
-            print(f"❌ Cannot connect to API at {self.api_url}")
+            print(f"[FAIL] Cannot connect to API at {self.api_url}")
             print(f"   Error: {e}")
-            print("\n💡 Make sure rag_api.py is running:")
+            print("\n[INFO] Make sure rag_api.py is running:")
             print("   python rag_api.py")
             return False
     
@@ -226,7 +226,7 @@ class GenerativeTester:
             raise RuntimeError("Cannot connect to RAG API. Start it with: python rag_api.py")
         
         print("=" * 70)
-        print(f"🧪 GENERATIVE TEST: {output_name}")
+        print(f"[TEST] GENERATIVE TEST: {output_name}")
         print("=" * 70)
         print()
         
@@ -236,12 +236,12 @@ class GenerativeTester:
         start_index = 0
         
         if resume and checkpoint_file.exists():
-            print(f"🔄 Found checkpoint file, resuming from previous run...")
+            print(f" Found checkpoint file, resuming from previous run...")
             with open(checkpoint_file, 'r', encoding='utf-8') as f:
                 checkpoint_data = json.load(f)
                 results = checkpoint_data.get('results', [])
                 start_index = len(results)
-            print(f"   ✅ Resuming from question {start_index + 1}/{len(self.queries)}")
+            print(f"   [OK] Resuming from question {start_index + 1}/{len(self.queries)}")
         
         start_time = time.time()
         
@@ -284,12 +284,12 @@ class GenerativeTester:
                 
                 if verbose:
                     if result.get('error'):
-                        print(f"   ❌ Error: {result['error']}")
+                        print(f"   [FAIL] Error: {result['error']}")
                     else:
                         method = result['search_method']
                         tokens = result['total_tokens']
                         bert_conf = result.get('bertscore_confidence', 'N/A')
-                        print(f"   ✅ {response_time:.2f}s | {method} | tokens={tokens} | bert={bert_conf}")
+                        print(f"   [OK] {response_time:.2f}s | {method} | tokens={tokens} | bert={bert_conf}")
                 
                 # Save checkpoint after each query
                 checkpoint_data = {
@@ -309,8 +309,8 @@ class GenerativeTester:
                     time.sleep(self.delay_seconds)
         
         except KeyboardInterrupt:
-            print(f"\n\n⚠️  Interrupted by user at question {len(results)}/{len(self.queries)}")
-            print(f"💾 Progress saved to checkpoint: {checkpoint_file}")
+            print(f"\n\n[WARN]  Interrupted by user at question {len(results)}/{len(self.queries)}")
+            print(f"[SAVE] Progress saved to checkpoint: {checkpoint_file}")
             print(f"   Run again with --resume to continue from question {len(results) + 1}")
             raise
         
@@ -343,10 +343,10 @@ class GenerativeTester:
         
         print()
         print("=" * 70)
-        print(f"✅ GENERATIVE TEST COMPLETE!")
+        print(f"[OK] GENERATIVE TEST COMPLETE!")
         print("=" * 70)
-        print(f"📁 Results saved to: {output_file}")
-        print(f"⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
+        print(f"[FILE] Results saved to: {output_file}")
+        print(f"[TIME]  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
         print()
         
         return str(output_file)
@@ -417,7 +417,7 @@ def main():
         
         # Auto-analyze results
         if not args.no_analyze:
-            print("🔍 Running automatic analysis...")
+            print("[SEARCH] Running automatic analysis...")
             print()
             subprocess.run([
                 sys.executable,
@@ -426,10 +426,10 @@ def main():
             ])
         
     except KeyboardInterrupt:
-        print("\n⚠️  Test interrupted - checkpoint saved")
+        print("\n[WARN]  Test interrupted - checkpoint saved")
         sys.exit(1)
     except Exception as e:
-        print(f"\n❌ Test failed: {e}")
+        print(f"\n[FAIL] Test failed: {e}")
         import traceback
         traceback.print_exc()
         sys.exit(1)

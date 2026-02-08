@@ -31,17 +31,17 @@ def csv_to_json(csv_file: str, json_file: str) -> list:
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump(queries, f, indent=2, ensure_ascii=False)
         
-        print(f"✅ Converted {len(queries)} questions from CSV to JSON")
+        print(f"[OK] Converted {len(queries)} questions from CSV to JSON")
         print(f"   Saved to: {json_file}\n")
         return queries
     
     except Exception as e:
-        print(f"❌ Error converting CSV to JSON: {e}")
+        print(f"[FAIL] Error converting CSV to JSON: {e}")
         return []
 
 def main():
     print("\n" + "="*100)
-    print("🔬 GENERATIVE TEST WITH 25 QUESTIONS")
+    print(" GENERATIVE TEST WITH 25 QUESTIONS")
     print("="*100 + "\n")
     
     # Paths
@@ -49,14 +49,14 @@ def main():
     json_file = "evaluation/generative_test_queries.json"
     test_name = "generative_25_questions"
     
-    print("📝 Step 1: Converting CSV to JSON format...")
+    print(" Step 1: Converting CSV to JSON format...")
     queries = csv_to_json(csv_file, json_file)
     
     if not queries:
-        print("❌ Failed to convert CSV")
+        print("[FAIL] Failed to convert CSV")
         sys.exit(1)
     
-    print("📊 Step 2: Running generative test with 60-second delays...")
+    print("[STATS] Step 2: Running generative test with 60-second delays...")
     print(f"   • Queries: {len(queries)}")
     print(f"   • Delay between questions: 60 seconds")
     print(f"   • Estimated duration: ~{len(queries) * 60 / 60:.1f} minutes\n")
@@ -72,14 +72,14 @@ def main():
             '--delay', '60'
         ], check=True)
         
-        print("\n✅ Generative test completed successfully!")
-        print(f"\n📁 Check results at: evaluation/raw_results/{test_name}.json")
+        print("\n[OK] Generative test completed successfully!")
+        print(f"\n[FILE] Check results at: evaluation/raw_results/{test_name}.json")
         
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ Test failed with error code: {e.returncode}")
+        print(f"\n[FAIL] Test failed with error code: {e.returncode}")
         sys.exit(1)
     except Exception as e:
-        print(f"\n❌ Error running test: {e}")
+        print(f"\n[FAIL] Error running test: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":

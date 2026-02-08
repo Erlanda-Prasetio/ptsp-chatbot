@@ -27,7 +27,7 @@ class SupabaseRestVectorStore:
             'Prefer': 'return=minimal'
         }
         
-        print(f"🔗 Supabase REST API initialized: {self.url}")
+        print(f" Supabase REST API initialized: {self.url}")
         self._ensure_table()
     
     def _ensure_table(self):
@@ -40,19 +40,19 @@ class SupabaseRestVectorStore:
             )
             
             if response.status_code == 200:
-                print(f"✅ Table {self.table_name} already exists")
+                print(f"[OK] Table {self.table_name} already exists")
                 return
             elif response.status_code == 404:
-                print(f"⚠️  Table {self.table_name} not found. Please create it manually.")
-                print(f"📋 Go to your Supabase Dashboard → SQL Editor and run the SQL from setup_supabase_sql.sql")
-                print(f"🔗 Or visit: {self.url.replace('https://', 'https://app.supabase.com/project/')}/sql")
+                print(f"[WARN]  Table {self.table_name} not found. Please create it manually.")
+                print(f" Go to your Supabase Dashboard → SQL Editor and run the SQL from setup_supabase_sql.sql")
+                print(f" Or visit: {self.url.replace('https://', 'https://app.supabase.com/project/')}/sql")
                 return
             else:
-                print(f"⚠️  Table check response: {response.status_code} - {response.text}")
+                print(f"[WARN]  Table check response: {response.status_code} - {response.text}")
                 
         except Exception as e:
-            print(f"⚠️  Could not verify table existence: {e}")
-            print(f"📋 Please manually create the table using setup_supabase_sql.sql")
+            print(f"[WARN]  Could not verify table existence: {e}")
+            print(f" Please manually create the table using setup_supabase_sql.sql")
     
     def add_chunks(self, chunks: List[Dict[str, Any]]) -> bool:
         """Add multiple chunks to the vector store"""
@@ -82,16 +82,16 @@ class SupabaseRestVectorStore:
                 
                 if response.status_code in [201, 200]:
                     total_inserted += len(batch)
-                    print(f"✅ Inserted batch {i//batch_size + 1}: {len(batch)} chunks (Total: {total_inserted})")
+                    print(f"[OK] Inserted batch {i//batch_size + 1}: {len(batch)} chunks (Total: {total_inserted})")
                 else:
-                    print(f"❌ Failed to insert batch {i//batch_size + 1}: {response.status_code} - {response.text}")
+                    print(f"[FAIL] Failed to insert batch {i//batch_size + 1}: {response.status_code} - {response.text}")
                     return False
             
-            print(f"🎉 Successfully inserted {total_inserted} chunks total")
+            print(f" Successfully inserted {total_inserted} chunks total")
             return True
             
         except Exception as e:
-            print(f"❌ Error adding chunks: {e}")
+            print(f"[FAIL] Error adding chunks: {e}")
             return False
     
     def search(self, query_embedding: np.ndarray, top_k: int = 5) -> List[Dict[str, Any]]:
@@ -104,7 +104,7 @@ class SupabaseRestVectorStore:
             return self._fallback_search(query_vector, top_k)
                 
         except Exception as e:
-            print(f"❌ Search error: {e}")
+            print(f"[FAIL] Search error: {e}")
             return []
     
     def _fallback_search(self, query_vector: List[float], top_k: int) -> List[Dict[str, Any]]:
@@ -118,11 +118,11 @@ class SupabaseRestVectorStore:
             )
             
             if response.status_code != 200:
-                print(f"❌ Failed to fetch data: {response.status_code}")
+                print(f"[FAIL] Failed to fetch data: {response.status_code}")
                 return []
             
             all_chunks = response.json()
-            print(f"🔍 Comparing against {len(all_chunks)} chunks")
+            print(f"[SEARCH] Comparing against {len(all_chunks)} chunks")
             
             # Calculate similarities
             similarities = []
@@ -155,7 +155,7 @@ class SupabaseRestVectorStore:
                         }
                         similarities.append((similarity, result_chunk))
                     except Exception as e:
-                        print(f"⚠️  Error processing chunk {chunk.get('id')}: {e}")
+                        print(f"[WARN]  Error processing chunk {chunk.get('id')}: {e}")
                         continue
             
             # Sort by similarity and return top k
@@ -164,11 +164,11 @@ class SupabaseRestVectorStore:
             
             if results:
                 sim_scores = [r["similarity"] for r in results[:3]]
-                print(f"🎯 Top {len(results)} similarities: {sim_scores}")
+                print(f"[TARGET] Top {len(results)} similarities: {sim_scores}")
             return results
             
         except Exception as e:
-            print(f"❌ Fallback search error: {e}")
+            print(f"[FAIL] Fallback search error: {e}")
             return []
     
     def get_count(self) -> int:
@@ -192,13 +192,13 @@ class SupabaseRestVectorStore:
             
             return 0
         except Exception as e:
-            print(f"⚠️  Error getting count: {e}")
+            print(f"[WARN]  Error getting count: {e}")
             return 0
     
     def clear(self):
         """Clear all data from the vector store"""
         try:
-            print(f"🗑️ Clearing all data from {self.table_name}...")
+            print(f"[DELETE] Clearing all data from {self.table_name}...")
             # For Supabase, we need to use a WHERE clause like "id.gte.0" to delete all rows
             response = requests.delete(
                 f"{self.url}/rest/v1/{self.table_name}?id=gte.0",
@@ -206,14 +206,14 @@ class SupabaseRestVectorStore:
             )
             
             if response.status_code in [200, 204]:
-                print("✅ Data cleared successfully")
+                print("[OK] Data cleared successfully")
                 return True
             else:
-                print(f"⚠️  Clear response: {response.status_code} - {response.text}")
+                print(f"[WARN]  Clear response: {response.status_code} - {response.text}")
                 return False
                 
         except Exception as e:
-            print(f"❌ Error clearing data: {e}")
+            print(f"[FAIL] Error clearing data: {e}")
             return False
     
     def add_texts(self, texts: List[str], metadatas: List[Dict[str, Any]] = None, embeddings: List[List[float]] = None) -> List[str]:
@@ -242,14 +242,14 @@ class SupabaseRestVectorStore:
             )
             
             if response.status_code in [200, 201]:
-                print(f"✅ Successfully uploaded {len(chunks_to_insert)} chunks")
+                print(f"[OK] Successfully uploaded {len(chunks_to_insert)} chunks")
                 return [str(i) for i in range(len(texts))]  # Return IDs
             else:
-                print(f"❌ Error uploading chunks: {response.status_code} - {response.text}")
+                print(f"[FAIL] Error uploading chunks: {response.status_code} - {response.text}")
                 return []
                 
         except Exception as e:
-            print(f"❌ Error in add_texts: {e}")
+            print(f"[FAIL] Error in add_texts: {e}")
             return []
 
 def test_rest_connection():
@@ -257,10 +257,10 @@ def test_rest_connection():
     try:
         store = SupabaseRestVectorStore()
         count = store.get_count()
-        print(f"✅ Connection successful! Current chunks: {count}")
+        print(f"[OK] Connection successful! Current chunks: {count}")
         return True
     except Exception as e:
-        print(f"❌ Connection failed: {e}")
+        print(f"[FAIL] Connection failed: {e}")
         return False
 
 if __name__ == "__main__":

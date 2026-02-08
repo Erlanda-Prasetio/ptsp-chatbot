@@ -42,7 +42,7 @@ class SmartEnhancedRAG_NEW(SmartEnhancedRAG):
             table_name="documents_new"  # Always use documents_new
         )
         
-        print("✅ SmartEnhancedRAG_NEW initialized for NEW dataset")
+        print("[OK] SmartEnhancedRAG_NEW initialized for NEW dataset")
     
     def retrieve(self, query: str, top_k: int = 5):
         """

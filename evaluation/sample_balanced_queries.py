@@ -45,15 +45,15 @@ class BalancedQuerySampler:
         self.new_percentage = len(self.new_questions) / self.total_questions
         
         print("\n" + "="*60)
-        print("📊 QUESTION DISTRIBUTION ANALYSIS")
+        print("[STATS] QUESTION DISTRIBUTION ANALYSIS")
         print("="*60)
-        print(f"\n📁 Old Dataset (questions.txt):")
+        print(f"\n[FILE] Old Dataset (questions.txt):")
         print(f"   Questions: {len(self.old_questions)}")
         print(f"   Percentage: {self.old_percentage*100:.1f}%")
-        print(f"\n📁 New Dataset (all_questions_cleaned.txt):")
+        print(f"\n[FILE] New Dataset (all_questions_cleaned.txt):")
         print(f"   Questions: {len(self.new_questions)}")
         print(f"   Percentage: {self.new_percentage*100:.1f}%")
-        print(f"\n📊 Total Questions: {self.total_questions}")
+        print(f"\n[STATS] Total Questions: {self.total_questions}")
         print("="*60 + "\n")
     
     def _load_questions(self, filepath: str, dataset_type: str) -> List[Dict]:
@@ -141,7 +141,7 @@ class BalancedQuerySampler:
         old_sample_size = int(sample_size * self.old_percentage)
         new_sample_size = sample_size - old_sample_size  # Ensure exact total
         
-        print(f"🎯 Creating proportional sample of {sample_size} questions:")
+        print(f"[TARGET] Creating proportional sample of {sample_size} questions:")
         print(f"   Old Dataset: {old_sample_size} questions ({old_sample_size/sample_size*100:.1f}%)")
         print(f"   New Dataset: {new_sample_size} questions ({new_sample_size/sample_size*100:.1f}%)")
         print()
@@ -183,7 +183,7 @@ class BalancedQuerySampler:
                 new_by_category[cat] = []
             new_by_category[cat].append(q)
         
-        print("📊 Category Distribution:")
+        print("[STATS] Category Distribution:")
         print("\nOld Dataset:")
         for cat, questions in sorted(old_by_category.items()):
             print(f"   {cat}: {len(questions)} questions")
@@ -249,7 +249,7 @@ class BalancedQuerySampler:
         for idx, question in enumerate(combined_sample, 1):
             question['eval_id'] = f"Q{idx:03d}"
         
-        print(f"✅ Stratified sample created:")
+        print(f"[OK] Stratified sample created:")
         print(f"   Old Dataset: {len(old_sample)} questions")
         print(f"   New Dataset: {len(new_sample)} questions")
         print(f"   Total: {len(combined_sample)} questions\n")
@@ -292,9 +292,9 @@ class BalancedQuerySampler:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
         
-        print(f"💾 Sample saved to: {output_file}")
-        print(f"📊 Total queries: {len(sample)}")
-        print(f"🎲 Random seed: {self.seed}")
+        print(f"[SAVE] Sample saved to: {output_file}")
+        print(f"[STATS] Total queries: {len(sample)}")
+        print(f" Random seed: {self.seed}")
         
         # Optionally create CSV for manual annotation
         if include_answer_template:
@@ -330,13 +330,13 @@ class BalancedQuerySampler:
                     ''   # notes
                 ])
         
-        print(f"📝 Answer template saved to: {output_file}")
+        print(f" Answer template saved to: {output_file}")
         print(f"   Fill in 'ground_truth' and 'relevant_chunk_ids' columns manually\n")
 
 
 def main():
     """Main execution"""
-    print("\n" + "🎯 BALANCED QUERY SAMPLING FOR DATASET COMPARISON ".center(60, "="))
+    print("\n" + "[TARGET] BALANCED QUERY SAMPLING FOR DATASET COMPARISON ".center(60, "="))
     print()
     
     # Initialize sampler
@@ -361,24 +361,24 @@ def main():
         old_count = sum(1 for q in sample if q['dataset_source'] == 'OLD')
         new_count = sum(1 for q in sample if q['dataset_source'] == 'NEW')
         
-        print(f"\n📊 Sample Distribution:")
+        print(f"\n[STATS] Sample Distribution:")
         print(f"   Old Dataset: {old_count} ({old_count/size*100:.1f}%)")
         print(f"   New Dataset: {new_count} ({new_count/size*100:.1f}%)")
         
-        print(f"\n📋 Category Breakdown:")
+        print(f"\n Category Breakdown:")
         categories = sampler._get_category_distribution(sample)
         for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
             print(f"   {cat}: {count} questions")
     
     print("\n" + "="*60)
-    print("✅ ALL SAMPLES CREATED SUCCESSFULLY!")
+    print("[OK] ALL SAMPLES CREATED SUCCESSFULLY!")
     print("="*60)
-    print("\n📝 Next Steps:")
+    print("\n Next Steps:")
     print("1. Review: evaluation/sample_50_balanced_template.csv")
     print("2. Fill in 'ground_truth' for each query (expected answer)")
     print("3. Fill in 'relevant_chunk_ids' if you have them")
     print("4. Use sample_50_balanced.json for Phase 1 evaluation")
-    print("\n🎯 These questions work for BOTH old and new datasets!")
+    print("\n[TARGET] These questions work for BOTH old and new datasets!")
     print("   They will reveal which dataset provides better answers.\n")
 
 

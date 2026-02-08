@@ -47,14 +47,14 @@ class BalancedEvaluator:
         self.timeout = timeout
         
         # Load sample queries
-        print(f"📂 Loading sample from: {sample_file}")
+        print(f"[DIR] Loading sample from: {sample_file}")
         with open(sample_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         self.metadata = data.get('metadata', {})
         self.queries = data.get('queries', [])
         
-        print(f"✅ Loaded {len(self.queries)} queries")
+        print(f"[OK] Loaded {len(self.queries)} queries")
         print(f"   Old Dataset: {self.metadata.get('distribution', {}).get('old_questions', 'N/A')}")
         print(f"   New Dataset: {self.metadata.get('distribution', {}).get('new_questions', 'N/A')}")
         print(f"   Random Seed: {self.metadata.get('random_seed', 'N/A')}\n")
@@ -62,7 +62,7 @@ class BalancedEvaluator:
     def test_api_connection(self) -> bool:
         """Test if RAG API is reachable"""
         try:
-            print(f"🔌 Testing connection to {self.api_url}...")
+            print(f"[CONNECT] Testing connection to {self.api_url}...")
             response = requests.get(f"{self.api_url}/health", timeout=5)
             
             if response.status_code == 200:
@@ -71,23 +71,23 @@ class BalancedEvaluator:
                 status = health.get('status', 'unknown')
                 chunks = health.get('database_chunks', 'unknown')
                 
-                print(f"✅ API is {status}")
+                print(f"[OK] API is {status}")
                 print(f"   Backend: {backend}")
                 print(f"   Chunks: {chunks}")
                 print(f"   Hybrid Search: {health.get('hybrid_search', False)}")
                 print(f"   Internet Fallback: {health.get('internet_fallback', False)}\n")
                 return True
             else:
-                print(f"❌ API returned status {response.status_code}")
+                print(f"[FAIL] API returned status {response.status_code}")
                 return False
                 
         except requests.exceptions.ConnectionError:
-            print(f"❌ Cannot connect to API at {self.api_url}")
+            print(f"[FAIL] Cannot connect to API at {self.api_url}")
             print(f"   Make sure rag_api.py is running:")
             print(f"   python rag_api.py\n")
             return False
         except Exception as e:
-            print(f"❌ Connection test failed: {e}")
+            print(f"[FAIL] Connection test failed: {e}")
             return False
     
     def query_rag_system(self, query_text: str) -> Dict:
@@ -260,12 +260,12 @@ class BalancedEvaluator:
             Path to saved results file
         """
         print("\n" + "="*70)
-        print(f"🧪 PHASE 1 EVALUATION: {output_name}")
+        print(f"[TEST] PHASE 1 EVALUATION: {output_name}")
         print("="*70 + "\n")
         
         # Test connection
         if not self.test_api_connection():
-            print("❌ Aborting evaluation - API not available")
+            print("[FAIL] Aborting evaluation - API not available")
             return None
         
         # Checkpoint file setup
@@ -277,12 +277,12 @@ class BalancedEvaluator:
         results = []
         start_index = 0
         if checkpoint_path.exists():
-            print(f"\n🔄 Found checkpoint file, resuming from previous run...")
+            print(f"\n Found checkpoint file, resuming from previous run...")
             with open(checkpoint_path, 'r', encoding='utf-8') as f:
                 checkpoint_data = json.load(f)
                 results = checkpoint_data.get('results', [])
                 start_index = len(results)
-            print(f"   ✅ Resuming from question {start_index + 1}/{len(self.queries)}")
+            print(f"   [OK] Resuming from question {start_index + 1}/{len(self.queries)}")
         
         # Run evaluation
         start_time = time.time()
@@ -311,13 +311,13 @@ class BalancedEvaluator:
                 
                 if "error" in result:
                     if verbose:
-                        print(f"   ❌ Error: {result['error']}")
+                        print(f"   [FAIL] Error: {result['error']}")
                 else:
                     if verbose:
                         method = result.get('search_method', '?')
                         confidence = result.get('confidence_score', 0)
                         precision = result.get('precision')
-                        print(f"   ✅ {response_time:.2f}s | {method} | conf={confidence:.2f} | prec={precision}")
+                        print(f"   [OK] {response_time:.2f}s | {method} | conf={confidence:.2f} | prec={precision}")
                 
                 results.append(result)
                 
@@ -337,12 +337,12 @@ class BalancedEvaluator:
                     json.dump(checkpoint_data, f, ensure_ascii=False, indent=2)
                 
             except KeyboardInterrupt:
-                print(f"\n\n⚠️  Interrupted by user at question {i}/{len(self.queries)}")
-                print(f"💾 Progress saved to checkpoint: {checkpoint_path}")
+                print(f"\n\n[WARN]  Interrupted by user at question {i}/{len(self.queries)}")
+                print(f"[SAVE] Progress saved to checkpoint: {checkpoint_path}")
                 print(f"   Run again to resume from question {i + 1}")
                 return None
             except Exception as e:
-                print(f"   ❌ Unexpected error: {str(e)}")
+                print(f"   [FAIL] Unexpected error: {str(e)}")
                 result = {
                     'eval_id': eval_id,
                     'query': query_text,
@@ -406,26 +406,26 @@ class BalancedEvaluator:
         # Clean up checkpoint file on successful completion
         if checkpoint_path.exists():
             checkpoint_path.unlink()
-            print(f"🗑️  Removed checkpoint file (evaluation complete)")
+            print(f"[DELETE]  Removed checkpoint file (evaluation complete)")
         
         # Print summary
         print("\n" + "="*70)
-        print("📊 EVALUATION SUMMARY")
+        print("[STATS] EVALUATION SUMMARY")
         print("="*70)
-        print(f"\n✅ Successful: {len(successful)}/{len(results)}")
-        print(f"❌ Failed: {len(errors)}/{len(results)}")
-        print(f"\n⏱️  Average Response Time: {avg_response_time:.2f}s")
-        print(f"🎯 Average Confidence: {avg_confidence:.2f}")
-        print(f"🔤 Average Tokens: {avg_tokens:.0f}")
+        print(f"\n[OK] Successful: {len(successful)}/{len(results)}")
+        print(f"[FAIL] Failed: {len(errors)}/{len(results)}")
+        print(f"\n[TIME]  Average Response Time: {avg_response_time:.2f}s")
+        print(f"[TARGET] Average Confidence: {avg_confidence:.2f}")
+        print(f" Average Tokens: {avg_tokens:.0f}")
         print(f"⏰ Total Time: {total_time/60:.1f} minutes")
-        print(f"\n📊 Query Distribution:")
+        print(f"\n[STATS] Query Distribution:")
         print(f"   Old Dataset: {old_queries} queries")
         print(f"   New Dataset: {new_queries} queries")
-        print(f"\n💾 Results saved to: {output_path}")
+        print(f"\n[SAVE] Results saved to: {output_path}")
         print("\n" + "="*70)
-        print("✅ PHASE 1 COMPLETE!")
+        print("[OK] PHASE 1 COMPLETE!")
         print("="*70)
-        print("\n📝 Next Step: Manual scoring (Phase 2)")
+        print("\n Next Step: Manual scoring (Phase 2)")
         print(f"   python evaluation/manual_scoring.py --file {output_path}\n")
         
         return str(output_path)
@@ -489,7 +489,7 @@ Examples:
     
     # Validate sample file exists
     if not Path(args.sample).exists():
-        print(f"❌ Error: Sample file not found: {args.sample}")
+        print(f"[FAIL] Error: Sample file not found: {args.sample}")
         print(f"\nRun this first to create samples:")
         print(f"   python evaluation/sample_balanced_queries.py\n")
         return
@@ -509,9 +509,9 @@ Examples:
     )
     
     if output_path:
-        print(f"✅ Phase 1 complete! Results in: {output_path}\n")
+        print(f"[OK] Phase 1 complete! Results in: {output_path}\n")
     else:
-        print(f"❌ Evaluation failed\n")
+        print(f"[FAIL] Evaluation failed\n")
 
 
 if __name__ == "__main__":

@@ -65,7 +65,7 @@ def clean_sample_file():
     with open(sample_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    print("🧹 CLEANING SAMPLE QUESTIONS")
+    print(" CLEANING SAMPLE QUESTIONS")
     print("="*70)
     
     # Count replacements
@@ -80,7 +80,7 @@ def clean_sample_file():
             old_query = query['query']
             new_query = problem['new_query']
             
-            print(f"\n❌ {eval_id} (PROBLEMATIC):")
+            print(f"\n[FAIL] {eval_id} (PROBLEMATIC):")
             print(f"   Old: {old_query[:80]}...")
             print(f"   New: {new_query}")
             print(f"   Reason: {problem['reason']}")
@@ -104,7 +104,7 @@ def clean_sample_file():
         json.dump(data, f, ensure_ascii=False, indent=2)
     
     print("\n" + "="*70)
-    print(f"✅ CLEANING COMPLETE!")
+    print(f"[OK] CLEANING COMPLETE!")
     print(f"   Replaced: {replaced_count} problematic questions")
     print(f"   Output: {output_file}")
     print("="*70)
@@ -117,17 +117,17 @@ def clean_sample_file():
     with open(sample_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n📦 Backup saved: {backup_file}")
-    print(f"✅ Updated original: {sample_file}")
+    print(f"\n Backup saved: {backup_file}")
+    print(f"[OK] Updated original: {sample_file}")
     
     # Show summary
-    print("\n📊 QUALITY CHECK:")
+    print("\n[STATS] QUALITY CHECK:")
     print(f"   Total questions: {len(data['queries'])}")
     print(f"   Cleaned: {replaced_count}")
     print(f"   Quality: {((len(data['queries']) - replaced_count) / len(data['queries']) * 100):.1f}% already good")
     
     # List all cleaned questions
-    print("\n📋 CLEANED QUESTIONS:")
+    print("\n CLEANED QUESTIONS:")
     for eval_id, problem in sorted(PROBLEMATIC_QUESTIONS.items()):
         print(f"   {eval_id}: {problem['new_query']}")
 

@@ -39,7 +39,7 @@ def query_rag_system(question: str, api_url: str = API_URL) -> dict:
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"❌ Error querying RAG: {e}")
+        print(f"[FAIL] Error querying RAG: {e}")
         return None
 
 def main():
@@ -50,36 +50,36 @@ def main():
     csv_file = args.csv
     
     if not os.path.exists(csv_file):
-        print(f"❌ CSV file not found: {csv_file}")
+        print(f"[FAIL] CSV file not found: {csv_file}")
         sys.exit(1)
     
     # Check API health
-    print(f"🔌 Testing connection to {API_URL}...")
+    print(f"[CONNECT] Testing connection to {API_URL}...")
     try:
         response = requests.get(f"{API_URL}/health", timeout=5)
         if response.status_code == 200:
-            print("✅ API is healthy")
+            print("[OK] API is healthy")
         else:
-            print(f"⚠️  API returned status {response.status_code}")
+            print(f"[WARN]  API returned status {response.status_code}")
     except Exception as e:
-        print(f"❌ API connection failed: {e}")
+        print(f"[FAIL] API connection failed: {e}")
         sys.exit(1)
     
     # Read CSV
-    print(f"📂 Loading CSV from: {csv_file}")
+    print(f"[DIR] Loading CSV from: {csv_file}")
     rows = []
     try:
         with open(csv_file, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             rows = list(reader)
-        print(f"✅ Loaded {len(rows)} queries")
+        print(f"[OK] Loaded {len(rows)} queries")
     except Exception as e:
-        print(f"❌ Error reading CSV: {e}")
+        print(f"[FAIL] Error reading CSV: {e}")
         sys.exit(1)
     
     # Query each question
     print("\n" + "="*80)
-    print("🔍 QUERYING RAG SYSTEM FOR CHUNKS")
+    print("[SEARCH] QUERYING RAG SYSTEM FOR CHUNKS")
     print("="*80 + "\n")
     
     updated_rows = []
@@ -88,7 +88,7 @@ def main():
         question = row.get("question", "")
         
         if not question:
-            print(f"[{idx}/{len(rows)}] {query_id}: ⚠️  No question text")
+            print(f"[{idx}/{len(rows)}] {query_id}: [WARN]  No question text")
             updated_rows.append(row)
             continue
         
@@ -117,17 +117,17 @@ def main():
                 for i, chunk_id in enumerate(chunk_ids, 1):
                     row[f"chunk{i}_id"] = chunk_id
                 
-                print(f"   ✅ Found {len(chunk_ids)} chunks: {','.join(chunk_ids)}")
+                print(f"   [OK] Found {len(chunk_ids)} chunks: {','.join(chunk_ids)}")
             else:
-                print(f"   ⚠️  No chunks found in response")
+                print(f"   [WARN]  No chunks found in response")
         else:
-            print(f"   ⚠️  No response from RAG system")
+            print(f"   [WARN]  No response from RAG system")
         
         updated_rows.append(row)
     
     # Save updated CSV
     print("\n" + "="*80)
-    print("💾 SAVING RESULTS TO CSV")
+    print("[SAVE] SAVING RESULTS TO CSV")
     print("="*80 + "\n")
     
     try:
@@ -139,14 +139,14 @@ def main():
             writer.writeheader()
             writer.writerows(updated_rows)
         
-        print(f"✅ Results saved to: {csv_file}")
+        print(f"[OK] Results saved to: {csv_file}")
     except Exception as e:
-        print(f"❌ Error saving CSV: {e}")
+        print(f"[FAIL] Error saving CSV: {e}")
         sys.exit(1)
     
     # Summary
     print("\n" + "="*80)
-    print("📊 SUMMARY")
+    print("[STATS] SUMMARY")
     print("="*80)
     print(f"Total Queries: {len(updated_rows)}")
     print(f"Queries with Chunks: {sum(1 for row in updated_rows if row.get('retrieved_chunks'))}")

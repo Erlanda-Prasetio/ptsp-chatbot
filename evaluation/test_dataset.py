@@ -102,4 +102,4 @@ if __name__ == "__main__":
     import json
     with open("evaluation/test_dataset.json", "w", encoding="utf-8") as f:
         json.dump(test_queries, f, indent=2, ensure_ascii=False)
-    print(f"✅ Created test dataset with {len(test_queries)} queries")
+    print(f"[OK] Created test dataset with {len(test_queries)} queries")

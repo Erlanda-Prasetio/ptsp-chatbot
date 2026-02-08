@@ -83,17 +83,17 @@ def extract_chunk_ids(sources):
     return chunk_ids
 
 def main():
-    print("🔍 MADAM RAG API Retrieval Test")
-    print(f"📝 Loading queries from: {CSV_FILE}")
+    print("[SEARCH] MADAM RAG API Retrieval Test")
+    print(f" Loading queries from: {CSV_FILE}")
     
     # Load queries
     queries = load_queries_from_csv(CSV_FILE)
-    print(f"✅ Loaded {len(queries)} queries\n")
+    print(f"[OK] Loaded {len(queries)} queries\n")
     
     # Prepare results file
     results = []
     
-    print("🚀 Running retrieval tests...\n")
+    print("[START] Running retrieval tests...\n")
     for idx, q in enumerate(queries, 1):
         print(f"[{idx}/{len(queries)}] Testing: {q['query'][:60]}...", end=" ")
         
@@ -117,16 +117,16 @@ def main():
         
         # Print status
         if result['status'] == 'success':
-            print(f"✅ ({result['method']}, {result.get('total_sources', 0)} chunks, {result.get('elapsed', 0):.2f}s)")
+            print(f"[OK] ({result['method']}, {result.get('total_sources', 0)} chunks, {result.get('elapsed', 0):.2f}s)")
         else:
-            print(f"❌ ({result['status']}: {result.get('error', 'unknown')})")
+            print(f"[FAIL] ({result['status']}: {result.get('error', 'unknown')})")
         
         # Add delay between requests to respect rate limiting
         if idx < len(queries):
             time.sleep(2)
     
     # Write results to CSV
-    print(f"\n📊 Writing results to: {OUTPUT_FILE}")
+    print(f"\n[STATS] Writing results to: {OUTPUT_FILE}")
     with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
         fieldnames = [
             'eval_id', 'category', 'query', 'ground_truth_chunks',
@@ -138,7 +138,7 @@ def main():
     
     # Print summary statistics
     print("\n" + "="*70)
-    print("📈 SUMMARY STATISTICS")
+    print("[METRIC] SUMMARY STATISTICS")
     print("="*70)
     
     total = len(results)
@@ -150,14 +150,14 @@ def main():
     avg_sources = sum(int(r['retrieved_sources']) for r in results) / total if total > 0 else 0
     
     print(f"Total Queries: {total}")
-    print(f"✅ Successful: {success} ({success/total*100:.1f}%)")
-    print(f"⏱️  Timeouts: {timeout} ({timeout/total*100:.1f}%)")
-    print(f"❌ Errors: {error} ({error/total*100:.1f}%)")
+    print(f"[OK] Successful: {success} ({success/total*100:.1f}%)")
+    print(f"[TIME]  Timeouts: {timeout} ({timeout/total*100:.1f}%)")
+    print(f"[FAIL] Errors: {error} ({error/total*100:.1f}%)")
     print(f"\n⏳ Average Response Time: {avg_time:.2f}s")
-    print(f"📦 Average Sources Retrieved: {avg_sources:.1f}")
+    print(f" Average Sources Retrieved: {avg_sources:.1f}")
     
     # Search method breakdown
-    print("\n🔍 Search Method Breakdown:")
+    print("\n[SEARCH] Search Method Breakdown:")
     methods = {}
     for r in results:
         method = r['search_method']
@@ -165,7 +165,7 @@ def main():
     for method, count in sorted(methods.items()):
         print(f"  {method}: {count} ({count/total*100:.1f}%)")
     
-    print("\n✅ Test complete! Results saved to:", OUTPUT_FILE)
+    print("\n[OK] Test complete! Results saved to:", OUTPUT_FILE)
 
 if __name__ == "__main__":
     main()

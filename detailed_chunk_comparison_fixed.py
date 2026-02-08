@@ -9,7 +9,7 @@ import csv
 import json
 
 print("\n" + "="*90)
-print("🔬 DETAILED CHUNK COMPARISON: Direct Supabase RPC vs RAG API Retrieval")
+print(" DETAILED CHUNK COMPARISON: Direct Supabase RPC vs RAG API Retrieval")
 print("="*90)
 print()
 
@@ -17,28 +17,28 @@ print()
 chunk_rows = []
 retrieval_rows = []
 
-print("📂 Loading chunk test CSV...")
+print("[DIR] Loading chunk test CSV...")
 with open('evaluation/chunk_test_old_dataset_metrics.csv', 'r', encoding='utf-8') as f:
     chunk_rows = list(csv.DictReader(f))
-print(f"✅ Loaded {len(chunk_rows)} chunk test results")
+print(f"[OK] Loaded {len(chunk_rows)} chunk test results")
 print()
 
-print("📂 Loading retrieval test CSV...")
+print("[DIR] Loading retrieval test CSV...")
 with open('evaluation/old_dataset_retrieval_test_template.csv', 'r', encoding='utf-8') as f:
     retrieval_rows = list(csv.DictReader(f))
-print(f"✅ Loaded {len(retrieval_rows)} retrieval test results")
+print(f"[OK] Loaded {len(retrieval_rows)} retrieval test results")
 print()
 
 # Align by row position (same questions, different ID formats)
 if len(chunk_rows) != len(retrieval_rows):
-    print(f"⚠️  WARNING: Different number of rows ({len(chunk_rows)} vs {len(retrieval_rows)})")
+    print(f"[WARN]  WARNING: Different number of rows ({len(chunk_rows)} vs {len(retrieval_rows)})")
     total_rows = min(len(chunk_rows), len(retrieval_rows))
 else:
     total_rows = len(chunk_rows)
 
 # Compare
 print("="*90)
-print("📊 COMPARISON ANALYSIS (by row position)")
+print("[STATS] COMPARISON ANALYSIS (by row position)")
 print("="*90)
 print()
 
@@ -84,7 +84,7 @@ for i in range(total_rows):
     else:
         different_chunks.append((qid_chunk, qid_ret, question, chunk_ids, ret_ids))
 
-print(f"✅ SAME CHUNKS (both methods found identical chunks):")
+print(f"[OK] SAME CHUNKS (both methods found identical chunks):")
 print(f"   {len(same_chunks)}/{total_rows} queries ({len(same_chunks)/total_rows*100:.1f}%)")
 if same_chunks:
     for qid_chunk, qid_ret, question, chunks in same_chunks[:5]:
@@ -93,7 +93,7 @@ if same_chunks:
         print(f"      ... and {len(same_chunks)-5} more")
 print()
 
-print(f"❌ DIFFERENT CHUNKS (both found chunks but different ones):")
+print(f"[FAIL] DIFFERENT CHUNKS (both found chunks but different ones):")
 print(f"   {len(different_chunks)}/{total_rows} queries ({len(different_chunks)/total_rows*100:.1f}%)")
 if different_chunks:
     for qid_chunk, qid_ret, question, chunk_ids, ret_ids in different_chunks[:3]:
@@ -104,7 +104,7 @@ if different_chunks:
         print(f"      ... and {len(different_chunks)-3} more")
 print()
 
-print(f"🔍 CHUNK TEST ONLY (only chunk test found chunks):")
+print(f"[SEARCH] CHUNK TEST ONLY (only chunk test found chunks):")
 print(f"   {len(chunk_only)}/{total_rows} queries ({len(chunk_only)/total_rows*100:.1f}%)")
 if chunk_only:
     for qid_chunk, qid_ret, question, chunks in chunk_only[:5]:
@@ -113,7 +113,7 @@ if chunk_only:
         print(f"      ... and {len(chunk_only)-5} more")
 print()
 
-print(f"🌐 RETRIEVAL ONLY (only retrieval test found chunks via search):")
+print(f" RETRIEVAL ONLY (only retrieval test found chunks via search):")
 print(f"   {len(retrieval_only)}/{total_rows} queries ({len(retrieval_only)/total_rows*100:.1f}%)")
 if retrieval_only:
     for qid_chunk, qid_ret, question, ret_ids, search_method in retrieval_only[:5]:
@@ -122,7 +122,7 @@ if retrieval_only:
         print(f"      ... and {len(retrieval_only)-5} more")
 print()
 
-print(f"⚪ BOTH EMPTY (neither method found chunks):")
+print(f" BOTH EMPTY (neither method found chunks):")
 print(f"   {len(both_empty)}/{total_rows} queries ({len(both_empty)/total_rows*100:.1f}%)")
 if both_empty:
     for qid_chunk, qid_ret, question in both_empty[:3]:
@@ -131,7 +131,7 @@ print()
 
 # Summary statistics
 print("="*90)
-print("📈 SUMMARY STATISTICS")
+print("[METRIC] SUMMARY STATISTICS")
 print("="*90)
 print()
 
@@ -182,12 +182,12 @@ if avg_chunk_time > 0:
 print()
 
 print("="*90)
-print("🎯 KEY FINDINGS")
+print("[TARGET] KEY FINDINGS")
 print("="*90)
 print()
 print(f"1. SYSTEM ALIGNMENT:")
-print(f"   ✅ Same chunks found: {len(same_chunks)} queries ({len(same_chunks)/total_rows*100:.1f}%)")
-print(f"   ⚠️  Different chunks: {len(different_chunks)} queries ({len(different_chunks)/total_rows*100:.1f}%)")
+print(f"   [OK] Same chunks found: {len(same_chunks)} queries ({len(same_chunks)/total_rows*100:.1f}%)")
+print(f"   [WARN]  Different chunks: {len(different_chunks)} queries ({len(different_chunks)/total_rows*100:.1f}%)")
 print()
 print(f"2. COVERAGE DIFFERENCE:")
 print(f"   - Chunk test ONLY: {len(chunk_only)} queries (direct vector search)")
@@ -196,21 +196,21 @@ print(f"   - Both empty: {len(both_empty)} queries (no match in either)")
 print()
 print(f"3. DATA QUALITY:")
 if len(same_chunks) > 20:
-    print(f"   ✅ HIGH ALIGNMENT - Both systems find same chunks when local search works")
-    print(f"   ✅ Systems are consistent and compatible")
+    print(f"   [OK] HIGH ALIGNMENT - Both systems find same chunks when local search works")
+    print(f"   [OK] Systems are consistent and compatible")
 elif len(different_chunks) > len(same_chunks):
-    print(f"   ⚠️  POTENTIAL ISSUE - Different chunks retrieved in {len(different_chunks)} cases")
+    print(f"   [WARN]  POTENTIAL ISSUE - Different chunks retrieved in {len(different_chunks)} cases")
     print(f"      Check: vector similarity calculations, embedding consistency")
 else:
-    print(f"   ✅ ACCEPTABLE - Most aligned queries match")
+    print(f"   [OK] ACCEPTABLE - Most aligned queries match")
 print()
 print(f"4. RECOMMENDATION:")
 if len(same_chunks) / total_rows > 0.4:
-    print(f"   ✅ Systems are compatible - chunk test and retrieval test use consistent data")
+    print(f"   [OK] Systems are compatible - chunk test and retrieval test use consistent data")
 elif len(different_chunks) / total_rows > 0.4:
-    print(f"   🔍 INVESTIGATE - High rate of different chunks across systems")
+    print(f"   [SEARCH] INVESTIGATE - High rate of different chunks across systems")
 else:
-    print(f"   ✅ No significant issues - proceed with confidence")
+    print(f"   [OK] No significant issues - proceed with confidence")
 print()
 
 print("="*90)

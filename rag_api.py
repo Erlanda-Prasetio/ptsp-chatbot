@@ -22,17 +22,17 @@ async def lifespan(app: FastAPI):
     """Initialize and cleanup the Hybrid RAG system"""
     global rag_system
     try:
-        print("🚀 Initializing Hybrid RAG system with Internet Search fallback...")
+        print("[START] Initializing Hybrid RAG system with Internet Search fallback...")
         rag_system = HybridRAGSystem()
-        print("✅ Hybrid RAG system initialized successfully!")
+        print("[OK] Hybrid RAG system initialized successfully!")
     except Exception as e:
-        print(f"❌ Failed to initialize Hybrid RAG system: {e}")
+        print(f"[FAIL] Failed to initialize Hybrid RAG system: {e}")
         rag_system = None
     
     yield
     
     # Cleanup (if needed)
-    print("🔄 Shutting down RAG system...")
+    print(" Shutting down RAG system...")
 
 app = FastAPI(title="Central Java RAG API", version="1.0.0", lifespan=lifespan)
 
@@ -129,7 +129,7 @@ async def chat(request: ChatRequest):
         raise HTTPException(status_code=400, detail="No user message found")
     
     try:
-        print(f"🔍 Processing query: {user_message[:100]}...")
+        print(f"[SEARCH] Processing query: {user_message[:100]}...")
         
         # Get hybrid RAG response with progressive fallback
         result = rag_system.ask_with_fallback(user_message.strip())
@@ -142,7 +142,7 @@ async def chat(request: ChatRequest):
         response_time = enhanced_features.get("response_time", "unknown")
         search_method = enhanced_features.get("search_method", "unknown")
         
-        print(f"✅ Query processed using {search_method} in {response_time}")
+        print(f"[OK] Query processed using {search_method} in {response_time}")
         
         return ChatResponse(
             message=result["answer"],
@@ -152,7 +152,7 @@ async def chat(request: ChatRequest):
         )
         
     except Exception as e:
-        print(f"❌ RAG query failed: {e}")
+        print(f"[FAIL] RAG query failed: {e}")
         raise HTTPException(status_code=500, detail=f"RAG query failed: {e}")
 
 @app.post("/retrieve")
@@ -178,7 +178,7 @@ async def retrieve(request: ChatRequest):
         raise HTTPException(status_code=400, detail="No user message found")
     
     try:
-        print(f"🔍 Retrieving chunks for: {user_message[:100]}...")
+        print(f"[SEARCH] Retrieving chunks for: {user_message[:100]}...")
         
         # Get retrieval results with fallback phases
         result = rag_system.ask_with_fallback(user_message.strip())
@@ -210,7 +210,7 @@ async def retrieve(request: ChatRequest):
                 "metadata": metadata
             })
         
-        print(f"✅ Retrieved {len(formatted_sources)} chunks using {search_method}")
+        print(f"[OK] Retrieved {len(formatted_sources)} chunks using {search_method}")
         
         return {
             "sources": formatted_sources,
@@ -220,7 +220,7 @@ async def retrieve(request: ChatRequest):
         }
         
     except Exception as e:
-        print(f"❌ Retrieval failed: {e}")
+        print(f"[FAIL] Retrieval failed: {e}")
         raise HTTPException(status_code=500, detail=f"Retrieval failed: {e}")
 
 @app.get("/suggestions")
@@ -240,10 +240,10 @@ async def get_suggestions():
     }
 
 if __name__ == "__main__":
-    print("🚀 Starting Central Java RAG API server...")
-    print("📊 Access the API at: http://localhost:8001")
-    print("📋 API docs at: http://localhost:8001/docs")
-    print("🔗 Connect from Next.js at: http://localhost:3000")
+    print("[START] Starting Central Java RAG API server...")
+    print("[STATS] Access the API at: http://localhost:8001")
+    print(" API docs at: http://localhost:8001/docs")
+    print(" Connect from Next.js at: http://localhost:3000")
     
     uvicorn.run(
         "rag_api:app",

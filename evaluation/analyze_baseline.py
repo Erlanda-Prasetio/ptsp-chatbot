@@ -93,7 +93,7 @@ def analyze_baseline():
     internet_fallback = method_counts.get('internet_fallback', 0)
     if internet_fallback > 0:
         print(f"   Internet Fallback: {internet_fallback}/{len(successful)} ({internet_fallback/len(successful)*100:.1f}%)")
-        print(f"   ⚠️  High fallback rate indicates insufficient local chunks!")
+        print(f"   [WARN]  High fallback rate indicates insufficient local chunks!")
     
     print("\n" + "="*70)
     print(" Next Steps:")

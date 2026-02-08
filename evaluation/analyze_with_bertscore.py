@@ -110,7 +110,7 @@ def calculate_bertscore_confidence(question: str, chunk_contents: List[str]) -> 
         }
     
     except Exception as e:
-        print(f"   ⚠️  BERTScore error: {str(e)[:50]}")
+        print(f"   [WARN]  BERTScore error: {str(e)[:50]}")
         return {
             'bert_avg': '',
             'bert_max': '',
@@ -127,15 +127,15 @@ def analyze_retrieval_csv(csv_file: str, output_file: str = None):
         output_file: Output CSV file (default: input_file_with_bertscore.csv)
     """
     if not os.path.exists(csv_file):
-        print(f"❌ CSV file not found: {csv_file}")
+        print(f"[FAIL] CSV file not found: {csv_file}")
         return
     
     if output_file is None:
         base, ext = os.path.splitext(csv_file)
         output_file = f"{base}_with_bertscore{ext}"
     
-    print(f"📊 Analyzing retrieval results: {csv_file}")
-    print(f"💾 Output will be saved to: {output_file}")
+    print(f"[STATS] Analyzing retrieval results: {csv_file}")
+    print(f"[SAVE] Output will be saved to: {output_file}")
     print()
     
     # Read input CSV
@@ -144,7 +144,7 @@ def analyze_retrieval_csv(csv_file: str, output_file: str = None):
         reader = csv.DictReader(f)
         rows = list(reader)
     
-    print(f"✅ Loaded {len(rows)} retrieval results")
+    print(f"[OK] Loaded {len(rows)} retrieval results")
     print()
     
     # Process each row
@@ -166,7 +166,7 @@ def analyze_retrieval_csv(csv_file: str, output_file: str = None):
         chunk_ids = [cid.strip() for cid in generated_chunks.split(',') if cid.strip()]
         
         if not chunk_ids:
-            print(f"   ⚠️  No chunks retrieved")
+            print(f"   [WARN]  No chunks retrieved")
             row['bert_score'] = ''
             row['bert_level'] = 'no_chunks'
             row['bert_max'] = ''
@@ -180,14 +180,14 @@ def analyze_retrieval_csv(csv_file: str, output_file: str = None):
                 chunk_contents.append(content)
         
         if not chunk_contents:
-            print(f"   ⚠️  Could not retrieve chunk contents from Supabase")
+            print(f"   [WARN]  Could not retrieve chunk contents from Supabase")
             row['bert_score'] = ''
             row['bert_level'] = 'no_content'
             row['bert_max'] = ''
             continue
         
         # Calculate BERTScore
-        print(f"   📈 Calculating BERTScore for {len(chunk_contents)} chunks...")
+        print(f"   [METRIC] Calculating BERTScore for {len(chunk_contents)} chunks...")
         bert_result = calculate_bertscore_confidence(question, chunk_contents)
         
         # Add to row
@@ -196,14 +196,14 @@ def analyze_retrieval_csv(csv_file: str, output_file: str = None):
         row['bert_max'] = bert_result['bert_max']
         
         if bert_result['bert_avg']:
-            print(f"   ✅ BERTScore: avg={bert_result['bert_avg']:.3f}, max={bert_result['bert_max']:.3f} ({bert_result['bert_level']})")
+            print(f"   [OK] BERTScore: avg={bert_result['bert_avg']:.3f}, max={bert_result['bert_max']:.3f} ({bert_result['bert_level']})")
         else:
-            print(f"   ⚠️  BERTScore calculation failed: {bert_result['bert_level']}")
+            print(f"   [WARN]  BERTScore calculation failed: {bert_result['bert_level']}")
     
     elapsed = time.time() - start_time
     print()
     print("=" * 80)
-    print(f"⏱️  Analysis complete in {elapsed:.1f}s")
+    print(f"[TIME]  Analysis complete in {elapsed:.1f}s")
     print("=" * 80)
     print()
     
@@ -224,9 +224,9 @@ def analyze_retrieval_csv(csv_file: str, output_file: str = None):
             writer.writeheader()
             writer.writerows(rows)
         
-        print(f"✅ Results saved to: {output_file}")
+        print(f"[OK] Results saved to: {output_file}")
     else:
-        print("❌ No results to save")
+        print("[FAIL] No results to save")
 
 
 def main():

@@ -25,7 +25,7 @@ class EnhancedInternetSearch:
         self.timeout = 10  # Increased from 5 to 10 seconds
         self.enabled = True
         
-        print(f"🔍 Internet search initialized (Serper: {'✓' if self.serper_key else '✗'}, Bing: {'✓' if self.bing_key else '✗'})")
+        print(f"[SEARCH] Internet search initialized (Serper: {'' if self.serper_key else ''}, Bing: {'' if self.bing_key else ''})")
     
     def enhance_query_for_ptsp(self, query: str) -> str:
         """Enhance query with PTSP-specific context for better web search results"""
@@ -93,13 +93,13 @@ class EnhancedInternetSearch:
             
             # If no results, try fallback
             if not results:
-                print(f"⚠️  DuckDuckGo returned 0 results, trying fallback...")
+                print(f"[WARN]  DuckDuckGo returned 0 results, trying fallback...")
                 return self.search_simple_web(query)
             
             return results
             
         except Exception as e:
-            print(f"⚠️  DuckDuckGo search failed: {e}")
+            print(f"[WARN]  DuckDuckGo search failed: {e}")
             # Fallback to simple web search
             return self.search_simple_web(query)
     
@@ -132,7 +132,7 @@ class EnhancedInternetSearch:
                 }]
             
         except Exception as e:
-            print(f"⚠️  Simple web search also failed: {e}")
+            print(f"[WARN]  Simple web search also failed: {e}")
             
         # Final fallback - return helpful generic response
         return [{
@@ -190,7 +190,7 @@ class EnhancedInternetSearch:
             return results
             
         except Exception as e:
-            print(f"⚠️  Serper search failed: {e}")
+            print(f"[WARN]  Serper search failed: {e}")
             return []
     
     def _extract_title_from_url(self, url: str) -> str:
@@ -233,23 +233,23 @@ class EnhancedInternetSearch:
         
         all_results = []
         
-        print(f"🔍 Internet search for: {query}")
+        print(f"[SEARCH] Internet search for: {query}")
         
         # DuckDuckGo (always available, free)
         ddg_results = self.search_duckduckgo_instant(query)
         all_results.extend(ddg_results)
-        print(f"📋 DuckDuckGo: {len(ddg_results)} results")
+        print(f" DuckDuckGo: {len(ddg_results)} results")
         
         # Serper (if API key available)
         if self.serper_key:
             serper_results = self.search_serper_google(query)
             all_results.extend(serper_results)
-            print(f"📋 Serper: {len(serper_results)} results")
+            print(f" Serper: {len(serper_results)} results")
         
         # Remove duplicates and sort by relevance
         unique_results = self._deduplicate_and_rank(all_results)
         
-        print(f"🎯 Final results: {len(unique_results)}")
+        print(f"[TARGET] Final results: {len(unique_results)}")
         return unique_results
     
     def _deduplicate_and_rank(self, results: List[Dict[str, any]]) -> List[Dict[str, any]]:
@@ -291,9 +291,9 @@ class EnhancedInternetSearch:
             
             context_part = f"[Web Source {i}] {title} (Score: {score:.2f})\n{content}"
             if url and any(domain in url for domain in ['gov.id', 'go.id']):
-                context_part += f"\n🏛️ Official Source: {url}"
+                context_part += f"\n Official Source: {url}"
             elif url:
-                context_part += f"\n🔗 Source: {url}"
+                context_part += f"\n Source: {url}"
             
             context_parts.append(context_part)
         
@@ -367,7 +367,7 @@ class SafeInternetSearch(EnhancedInternetSearch):
             return results
             
         except Exception as e:
-            print(f"⚠️  Search error: {e}")
+            print(f"[WARN]  Search error: {e}")
             return None
     
     def _extract_domain(self, url: str) -> str:
@@ -431,7 +431,7 @@ class HybridRAG:
         
         {chr(10).join(web_info)}
         
-        ⚠️  Informasi di atas berasal dari internet dan mungkin tidak selalu akurat atau terkini.
+        [WARN]  Informasi di atas berasal dari internet dan mungkin tidak selalu akurat atau terkini.
         Untuk informasi resmi DPMPTSP, silakan hubungi langsung kantor DPMPTSP Jawa Tengah.
         """
         

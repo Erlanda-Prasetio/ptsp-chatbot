@@ -17,10 +17,10 @@ if not GROQ_API_KEY and not OPENROUTER_API_KEY:
 # Model selection - use MODEL from .env for Groq, GEN_MODEL for OpenRouter
 if USE_GROQ:
     GEN_MODEL = os.getenv("MODEL", "llama-3.3-70b-versatile")
-    print(f"✅ Using Groq API with model: {GEN_MODEL}")
+    print(f"[OK] Using Groq API with model: {GEN_MODEL}")
 else:
     GEN_MODEL = os.getenv("GEN_MODEL", "mistral-7b-instruct")
-    print(f"✅ Using OpenRouter API with model: {GEN_MODEL}")
+    print(f"[OK] Using OpenRouter API with model: {GEN_MODEL}")
 EMB_MODEL = os.getenv("EMB_MODEL", "nomic-embed-text")
 MAX_CONTEXT_TOKENS = int(os.getenv("MAX_CONTEXT_TOKENS", "1600"))
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "800"))

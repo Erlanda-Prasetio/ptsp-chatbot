@@ -14,7 +14,7 @@ def diagnose_retrieval_mismatch():
     results = data['results']
     
     print("\n" + "="*80)
-    print("🔍 DIAGNOSING RETRIEVAL MISMATCH")
+    print("[SEARCH] DIAGNOSING RETRIEVAL MISMATCH")
     print("="*80)
     
     # Check first few questions in detail
@@ -47,7 +47,7 @@ def diagnose_retrieval_mismatch():
     
     # Check if ground truth IDs exist
     print(f"\n{'='*80}")
-    print("📊 Data Status:")
+    print("[STATS] Data Status:")
     print("="*80)
     
     has_ground_truth = sum(1 for r in results if r.get('relevant_chunks'))
@@ -57,18 +57,18 @@ def diagnose_retrieval_mismatch():
     print(f"Questions with retrieved items:        {has_retrieved}/{len(results)}")
     
     if has_ground_truth == 0:
-        print("\n⚠️  PROBLEM: No ground truth chunk IDs found!")
+        print("\n[WARN]  PROBLEM: No ground truth chunk IDs found!")
         print("   This means the import from CSV didn't work properly.")
         print("   Check: evaluation/sample_50_balanced.json for 'relevant_chunks' field")
     
     if has_retrieved == 0:
-        print("\n⚠️  PROBLEM: No retrieved items found!")
+        print("\n[WARN]  PROBLEM: No retrieved items found!")
         print("   The API isn't returning any sources.")
         return
     
     # Analyze type mismatch
     print(f"\n{'='*80}")
-    print("🔍 Type Mismatch Analysis:")
+    print("[SEARCH] Type Mismatch Analysis:")
     print("="*80)
     
     for r in results[:5]:
@@ -82,15 +82,15 @@ def diagnose_retrieval_mismatch():
             
             # Try comparison
             if isinstance(retrieved[0], str) and isinstance(relevant[0], int):
-                print(f"  ❌ TYPE MISMATCH: Can't compare strings to integers!")
+                print(f"  [FAIL] TYPE MISMATCH: Can't compare strings to integers!")
             elif retrieved[0] == relevant[0]:
-                print(f"  ✅ Match found")
+                print(f"  [OK] Match found")
             else:
-                print(f"  ⚠️  No match")
+                print(f"  [WARN]  No match")
     
     # Summary
     print(f"\n{'='*80}")
-    print("📋 DIAGNOSIS SUMMARY:")
+    print(" DIAGNOSIS SUMMARY:")
     print("="*80)
     
     zero_metrics = sum(1 for r in results if r.get('precision') == 0.0 and r.get('recall') == 0.0)
@@ -106,12 +106,12 @@ def diagnose_retrieval_mismatch():
                 type_mismatches += 1
     
     if type_mismatches > 0:
-        print(f"\n❌ TYPE MISMATCH DETECTED in {type_mismatches} questions!")
+        print(f"\n[FAIL] TYPE MISMATCH DETECTED in {type_mismatches} questions!")
         print("   Problem: API returns filenames (strings), but ground truth has chunk IDs (integers)")
         print("   Solution: Modify src/smart_enhanced_rag.py to include chunk_id in sources")
         print("   Then update evaluation/run_balanced_evaluation.py to extract integer chunk IDs")
     else:
-        print(f"\n✅ No type mismatch detected")
+        print(f"\n[OK] No type mismatch detected")
         print("   If metrics are still zero, check retrieval quality or chunk ID mapping")
     
     print(f"\n{'='*80}\n")

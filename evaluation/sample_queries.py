@@ -33,7 +33,7 @@ class QuerySampler:
         else:
             raise ValueError("Unexpected dataset format")
         
-        print(f"📊 Loaded {len(queries)} queries from {filepath}")
+        print(f"[STATS] Loaded {len(queries)} queries from {filepath}")
         return queries
     
     def stratified_sample(
@@ -55,7 +55,7 @@ class QuerySampler:
                 categories[cat] = []
             categories[cat].append(query)
         
-        print(f"\n📈 Category distribution in full dataset:")
+        print(f"\n[METRIC] Category distribution in full dataset:")
         for cat, items in sorted(categories.items()):
             percentage = len(items) / len(queries) * 100
             print(f"  {cat}: {len(items)} ({percentage:.1f}%)")
@@ -88,7 +88,7 @@ class QuerySampler:
         # Shuffle final sample
         random.shuffle(samples)
         
-        print(f"\n✅ Sampled {len(samples)} queries (stratified by category)")
+        print(f"\n[OK] Sampled {len(samples)} queries (stratified by category)")
         
         # Verify distribution
         sample_cats = {}
@@ -96,7 +96,7 @@ class QuerySampler:
             cat = query.get(category_key, 'unknown')
             sample_cats[cat] = sample_cats.get(cat, 0) + 1
         
-        print(f"\n📊 Category distribution in sample:")
+        print(f"\n[STATS] Category distribution in sample:")
         for cat, count in sorted(sample_cats.items()):
             percentage = count / len(samples) * 100
             print(f"  {cat}: {count} ({percentage:.1f}%)")
@@ -110,11 +110,11 @@ class QuerySampler:
     ) -> List[Dict]:
         """Simple random sampling (no stratification)"""
         if sample_size > len(queries):
-            print(f"⚠️  Sample size ({sample_size}) > dataset size ({len(queries)})")
+            print(f"[WARN]  Sample size ({sample_size}) > dataset size ({len(queries)})")
             return queries
         
         sample = random.sample(queries, sample_size)
-        print(f"✅ Randomly sampled {len(sample)} queries")
+        print(f"[OK] Randomly sampled {len(sample)} queries")
         return sample
     
     def save_sample(
@@ -137,7 +137,7 @@ class QuerySampler:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
         
-        print(f"\n💾 Saved to: {output_path}")
+        print(f"\n[SAVE] Saved to: {output_path}")
 
 
 def create_evaluation_samples():
@@ -176,13 +176,13 @@ def create_evaluation_samples():
 
 
 if __name__ == "__main__":
-    print("🎲 Creating evaluation query samples...")
+    print(" Creating evaluation query samples...")
     print("="*60)
     
     create_evaluation_samples()
     
-    print("\n\n✅ All samples created!")
-    print("\n📋 Usage for 4-way comparison:")
+    print("\n\n[OK] All samples created!")
+    print("\n Usage for 4-way comparison:")
     print("  1. Use sample_100_paper.json for all 4 systems")
     print("  2. Same 100 queries = fair comparison")
     print("  3. Seed=42 = reproducible results")

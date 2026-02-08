@@ -7,7 +7,7 @@ from vector_store_supabase_rest import SupabaseRestVectorStore
 from embed import embed_texts
 
 def main():
-    print("🔍 Testing new chunk search...")
+    print("[SEARCH] Testing new chunk search...")
     
     # Initialize store
     store = SupabaseRestVectorStore()
@@ -20,17 +20,17 @@ def main():
     query_embedding = embed_texts([test_query])[0]
     results = store.search(query_embedding, top_k=5)
     
-    print(f"\n✅ Search works! Found {len(results)} results")
+    print(f"\n[OK] Search works! Found {len(results)} results")
     
     # Show first result
     if results:
-        print(f"\n📄 Top result preview:")
+        print(f"\n Top result preview:")
         print(f"Content: {results[0]['content'][:200]}...")
         print(f"Similarity: {results[0]['similarity']:.4f}")
         if 'metadata' in results[0]:
             print(f"Source: {results[0]['metadata'].get('source', 'N/A')}")
     
-    print("\n✅ Verification complete! New chunks are searchable.")
+    print("\n[OK] Verification complete! New chunks are searchable.")
 
 if __name__ == '__main__':
     main()

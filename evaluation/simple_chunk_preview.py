@@ -17,15 +17,15 @@ def preview_chunks(query_text, query_id, k=10):
     """Preview top K chunks for a question (retrieval only)."""
     
     print(f"\n{'='*80}")
-    print(f"🔍 {query_id}: {query_text}")
+    print(f"[SEARCH] {query_id}: {query_text}")
     print(f"{'='*80}\n")
     
     try:
         # Initialize RAG (only once)
         if not hasattr(preview_chunks, 'rag'):
-            print("🚀 Initializing RAG system...")
+            print("[START] Initializing RAG system...")
             preview_chunks.rag = SmartEnhancedRAG()
-            print("✅ Ready!\n")
+            print("[OK] Ready!\n")
         
         rag = preview_chunks.rag
         
@@ -36,10 +36,10 @@ def preview_chunks(query_text, query_id, k=10):
         results = rag.store.search(query_embedding, top_k=k)
         
         if not results:
-            print("❌ No chunks retrieved!\n")
+            print("[FAIL] No chunks retrieved!\n")
             return []
         
-        print(f"📊 Retrieved {len(results)} chunks:\n")
+        print(f"[STATS] Retrieved {len(results)} chunks:\n")
         
         chunk_ids = []
         chunk_details = []
@@ -61,7 +61,7 @@ def preview_chunks(query_text, query_id, k=10):
             elif similarity >= 0.5:
                 marker = "🟡"  # Medium relevance
             else:
-                marker = "🔴"  # Low relevance
+                marker = ""  # Low relevance
             
             print(f"{marker} [{i}] Chunk ID: {chunk_id} | Similarity: {similarity:.3f}")
             print(f"    Text: {text[:150]}...")
@@ -71,16 +71,16 @@ def preview_chunks(query_text, query_id, k=10):
         relevant = [str(cid) for cid, res in zip(chunk_ids, results) if res.get('similarity', 0) >= 0.5]
         
         if relevant:
-            print(f"💡 Suggested relevant_chunk_ids (≥0.5): {','.join(relevant)}")
+            print(f"[INFO] Suggested relevant_chunk_ids (≥0.5): {','.join(relevant)}")
         else:
-            print(f"⚠️  Low similarity scores - might need better chunks in database")
+            print(f"[WARN]  Low similarity scores - might need better chunks in database")
         
         print(f"{'='*80}\n")
         
         return chunk_ids, chunk_details
         
     except Exception as e:
-        print(f"❌ Error: {e}\n")
+        print(f"[FAIL] Error: {e}\n")
         import traceback
         traceback.print_exc()
         return [], []
@@ -98,7 +98,7 @@ def preview_all(limit=None):
     if limit:
         queries = queries[:limit]
     
-    print(f"\n📝 Previewing chunks for {len(queries)} questions...\n")
+    print(f"\n Previewing chunks for {len(queries)} questions...\n")
     
     results = {}
     
@@ -121,7 +121,7 @@ def preview_all(limit=None):
         
         # Pause every 10 questions
         if i % 10 == 0 and i < len(queries):
-            response = input("\n⏸️  Pause. Press ENTER to continue, or 'q' to quit: ").strip().lower()
+            response = input("\n⏸  Pause. Press ENTER to continue, or 'q' to quit: ").strip().lower()
             if response == 'q':
                 print("Stopped.")
                 break
@@ -131,8 +131,8 @@ def preview_all(limit=None):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     
-    print(f"\n\n✅ Results saved to: {output_file}")
-    print(f"📋 Use these chunk IDs to fill 'relevant_chunk_ids' in ground_truth_template.csv")
+    print(f"\n\n[OK] Results saved to: {output_file}")
+    print(f" Use these chunk IDs to fill 'relevant_chunk_ids' in ground_truth_template.csv")
 
 
 def preview_single(question_number=None):
@@ -146,7 +146,7 @@ def preview_single(question_number=None):
     queries = data['queries']
     
     if question_number is None:
-        print("\n📝 50 Questions:")
+        print("\n 50 Questions:")
         print("="*80)
         for i, q in enumerate(queries, 1):
             print(f"{i:2d}. [{q['eval_id']}] {q['query'][:70]}...")
@@ -158,7 +158,7 @@ def preview_single(question_number=None):
         q = queries[question_number - 1]
         chunk_ids, chunk_details = preview_chunks(q['query'], q['eval_id'], k=10)
     else:
-        print(f"❌ Invalid question number. Must be 1-{len(queries)}")
+        print(f"[FAIL] Invalid question number. Must be 1-{len(queries)}")
 
 
 if __name__ == "__main__":
@@ -178,7 +178,7 @@ if __name__ == "__main__":
     else:
         # Interactive mode
         print("\n" + "="*80)
-        print("📋 CHUNK PREVIEW TOOL - Ground Truth Helper")
+        print(" CHUNK PREVIEW TOOL - Ground Truth Helper")
         print("="*80)
         print("\nOptions:")
         print("1. Preview single question")

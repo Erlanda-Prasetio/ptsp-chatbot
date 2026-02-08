@@ -24,5 +24,5 @@ with open('evaluation/old_dataset_retrieval_test_template.csv', 'w', newline='',
         writer.writeheader()
         writer.writerows(rows)
 
-print(f"✅ Fixed {sum(1 for r in rows if r['search_method'] == 'timeout')} timeout entries")
-print(f"✅ CSV updated: evaluation/old_dataset_retrieval_test_template.csv")
+print(f"[OK] Fixed {sum(1 for r in rows if r['search_method'] == 'timeout')} timeout entries")
+print(f"[OK] CSV updated: evaluation/old_dataset_retrieval_test_template.csv")

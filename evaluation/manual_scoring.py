@@ -34,14 +34,14 @@ class ManualScorer:
         self.metadata = data.get('metadata', {})
         self.results = data.get('results', [])
         
-        print(f"\n📁 Loaded results from: {self.results_file}")
-        print(f"🔧 System: {self.metadata.get('system_name', 'unknown')}")
-        print(f"📊 Total queries: {self.metadata.get('total_queries', len(self.results))}")
+        print(f"\n[FILE] Loaded results from: {self.results_file}")
+        print(f" System: {self.metadata.get('system_name', 'unknown')}")
+        print(f"[STATS] Total queries: {self.metadata.get('total_queries', len(self.results))}")
         
         # Check if already scored
         scored_count = sum(1 for r in self.results if r.get('is_correct') is not None)
         if scored_count > 0:
-            print(f"⚠️  Warning: {scored_count} queries already scored")
+            print(f"[WARN]  Warning: {scored_count} queries already scored")
             response = input(f"   Re-score all queries? (y/n): ").strip().lower()
             if response != 'y':
                 print("   Keeping existing scores, only scoring unscored queries.")
@@ -55,7 +55,7 @@ class ManualScorer:
     def score_all(self):
         """Interactively score all queries"""
         print("\n" + "="*70)
-        print("🎯 PHASE 2: MANUAL SCORING")
+        print("[TARGET] PHASE 2: MANUAL SCORING")
         print("="*70)
         print("For each query, read the answer and decide if it's correct.")
         print("Commands:")
@@ -77,21 +77,21 @@ class ManualScorer:
             
             # Skip if already scored and not re-scoring
             if not self.rescore and result.get('is_correct') is not None:
-                print(f"\n[{i}/{len(self.results)}] {result['query_id']} - SKIPPED (already scored: {'✅' if result['is_correct'] else '❌'})")
+                print(f"\n[{i}/{len(self.results)}] {result['query_id']} - SKIPPED (already scored: {'[OK]' if result['is_correct'] else '[FAIL]'})")
                 scored += 1
                 continue
             
             # Display query info
-            print("\n" + "─"*70)
+            print("\n" + ""*70)
             print(f"[{i}/{len(self.results)}] {result['query_id']} - {result.get('category', 'unknown')} ({result.get('difficulty', 'unknown')})")
-            print("─"*70)
-            print(f"\n❓ QUESTION:")
+            print(""*70)
+            print(f"\n QUESTION:")
             print(f"   {result['query_text']}")
-            print(f"\n💡 GROUND TRUTH:")
+            print(f"\n[INFO] GROUND TRUTH:")
             print(f"   {result.get('ground_truth', 'N/A')[:300]}{'...' if len(result.get('ground_truth', '')) > 300 else ''}")
-            print(f"\n🤖 SYSTEM ANSWER:")
+            print(f"\n SYSTEM ANSWER:")
             print(f"   {result['answer'][:500]}{'...' if len(result['answer']) > 500 else ''}")
-            print(f"\n📊 METRICS:")
+            print(f"\n[STATS] METRICS:")
             print(f"   Response Time: {result.get('response_time_seconds', 0):.2f}s")
             print(f"   Tokens: {result.get('total_tokens', 0)}")
             print(f"   Precision: {result.get('precision', 'N/A')}")
@@ -99,13 +99,13 @@ class ManualScorer:
             
             # Get user input
             while True:
-                response = input(f"\n{'─'*70}\nIs this answer CORRECT? (y/n/s/q/?): ").strip().lower()
+                response = input(f"\n{''*70}\nIs this answer CORRECT? (y/n/s/q/?): ").strip().lower()
                 
                 if response == 'y':
                     result['is_correct'] = True
                     result['manually_scored'] = True
                     result['scored_at'] = datetime.now().isoformat()
-                    print("✅ Marked as CORRECT")
+                    print("[OK] Marked as CORRECT")
                     scored += 1
                     break
                 
@@ -113,28 +113,28 @@ class ManualScorer:
                     result['is_correct'] = False
                     result['manually_scored'] = True
                     result['scored_at'] = datetime.now().isoformat()
-                    print("❌ Marked as INCORRECT")
+                    print("[FAIL] Marked as INCORRECT")
                     scored += 1
                     break
                 
                 elif response == 's':
-                    print("⏭️  Skipped")
+                    print("⏭  Skipped")
                     skipped += 1
                     break
                 
                 elif response == 'q':
-                    print(f"\n⚠️  Quitting... Progress will be saved.")
+                    print(f"\n[WARN]  Quitting... Progress will be saved.")
                     self._save_and_export(scored, skipped, len(self.results) - i + 1)
                     return
                 
                 elif response == '?':
-                    print(f"\n💡 GROUND TRUTH (full):")
+                    print(f"\n[INFO] GROUND TRUTH (full):")
                     print(f"   {result.get('ground_truth', 'N/A')}")
-                    print(f"\n🤖 SYSTEM ANSWER (full):")
+                    print(f"\n SYSTEM ANSWER (full):")
                     print(f"   {result['answer']}")
                 
                 else:
-                    print("⚠️  Invalid input. Use y/n/s/q/?")
+                    print("[WARN]  Invalid input. Use y/n/s/q/?")
         
         # Calculate confident wrong
         for result in self.results:
@@ -149,7 +149,7 @@ class ManualScorer:
     def _save_and_export(self, scored: int, skipped: int, remaining: int):
         """Save scored results and export to CSV"""
         print("\n" + "="*70)
-        print("💾 SAVING RESULTS")
+        print("[SAVE] SAVING RESULTS")
         print("="*70)
         
         # Update metadata
@@ -168,24 +168,24 @@ class ManualScorer:
         with open(self.results_file, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ Updated JSON: {self.results_file}")
+        print(f"[OK] Updated JSON: {self.results_file}")
         
         # Export to CSV
         csv_file = self.results_file.with_suffix('.csv')
         self._export_to_csv(csv_file)
         
-        print(f"✅ Exported CSV: {csv_file}")
+        print(f"[OK] Exported CSV: {csv_file}")
         
         # Calculate and display metrics
         self._display_metrics()
         
         print("\n" + "="*70)
-        print("✅ PHASE 2 COMPLETE!")
+        print("[OK] PHASE 2 COMPLETE!")
         print("="*70)
-        print(f"📊 Scored: {scored}/{len(self.results)}")
-        print(f"⏭️  Skipped: {skipped}")
+        print(f"[STATS] Scored: {scored}/{len(self.results)}")
+        print(f"⏭  Skipped: {skipped}")
         print(f"⏳ Remaining: {remaining}")
-        print(f"\n📁 Files:")
+        print(f"\n[FILE] Files:")
         print(f"   JSON: {self.results_file}")
         print(f"   CSV:  {csv_file}")
     
@@ -237,7 +237,7 @@ class ManualScorer:
         scored_results = [r for r in self.results if r.get('is_correct') is not None]
         
         if not scored_results:
-            print("\n⚠️  No scored results to calculate metrics")
+            print("\n[WARN]  No scored results to calculate metrics")
             return
         
         # Calculate metrics
@@ -258,7 +258,7 @@ class ManualScorer:
         avg_tokens = sum(r.get('total_tokens', 0) for r in scored_results) / len(scored_results)
         
         print("\n" + "="*70)
-        print("📊 AGGREGATE METRICS")
+        print("[STATS] AGGREGATE METRICS")
         print("="*70)
         print(f"Accuracy:              {accuracy:.2%} ({sum(1 for r in scored_results if r['is_correct'])}/{len(scored_results)})")
         print(f"Avg Precision:         {avg_precision:.4f}")

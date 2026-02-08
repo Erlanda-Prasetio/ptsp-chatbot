@@ -28,24 +28,24 @@ def load_queries_from_csv(filepath: str, limit: int = 2) -> List[Dict[str, str]]
                 if idx >= limit:
                     break
                 queries.append(row)
-        print(f"✅ Loaded {len(queries)} queries from {filepath}")
+        print(f"[OK] Loaded {len(queries)} queries from {filepath}")
     except Exception as e:
-        print(f"❌ Error loading {filepath}: {e}")
+        print(f"[FAIL] Error loading {filepath}: {e}")
     return queries
 
 def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index: int) -> None:
     """Test MADAM system with queries from a file."""
     
     print(f"\n{'='*100}")
-    print(f"🔬 TESTING FILE {file_index}: {test_file}")
+    print(f" TESTING FILE {file_index}: {test_file}")
     print(f"{'='*100}\n")
     
     try:
-        print("🚀 Initializing MADAM Hybrid RAG System...")
+        print("[START] Initializing MADAM Hybrid RAG System...")
         rag_system = MadamHybridRAGSystem()
-        print("✅ MADAM system initialized!\n")
+        print("[OK] MADAM system initialized!\n")
     except Exception as e:
-        print(f"❌ Failed to initialize MADAM system: {e}")
+        print(f"[FAIL] Failed to initialize MADAM system: {e}")
         return
     
     results = []
@@ -57,13 +57,13 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
         category = query_row.get('category', 'Unknown')
         
         if not query_text:
-            print(f"⚠️  Query {query_idx}/{total_queries}: Empty question text, skipping")
+            print(f"[WARN]  Query {query_idx}/{total_queries}: Empty question text, skipping")
             continue
         
-        print(f"\n{'─'*100}")
-        print(f"📋 Query {query_idx}/{total_queries}: {query_id} [{category}]")
+        print(f"\n{''*100}")
+        print(f" Query {query_idx}/{total_queries}: {query_id} [{category}]")
         print(f"Q: {query_text[:80]}...")
-        print(f"{'─'*100}")
+        print(f"{''*100}")
         
         query_start = time.time()
         
@@ -75,7 +75,7 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
             answer = result.get("answer", "")[:100]
             sources_count = result.get("total_sources", 0)
             
-            print(f"✅ Query processed: {search_method}")
+            print(f"[OK] Query processed: {search_method}")
             print(f"   • Time: {query_elapsed:.2f}s")
             print(f"   • Sources: {sources_count}")
             print(f"   • Answer: {answer}...")
@@ -92,7 +92,7 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
             
         except Exception as e:
             query_elapsed = time.time() - query_start
-            print(f"❌ Query failed: {str(e)[:100]}")
+            print(f"[FAIL] Query failed: {str(e)[:100]}")
             
             results.append({
                 "query_id": query_id,
@@ -106,7 +106,7 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
     
     # Summary
     print(f"\n{'='*100}")
-    print(f"📊 SUMMARY FOR FILE {file_index}: {test_file}")
+    print(f"[STATS] SUMMARY FOR FILE {file_index}: {test_file}")
     print(f"{'='*100}\n")
     
     successful = sum(1 for r in results if r["status"] == "success")
@@ -114,10 +114,10 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
     avg_time = sum(r["time_seconds"] for r in results) / len(results) if results else 0
     total_sources = sum(r["sources_retrieved"] for r in results)
     
-    print(f"✅ Successful: {successful}/{total_queries}")
-    print(f"❌ Failed: {failed}/{total_queries}")
-    print(f"⏱️  Avg Time: {avg_time:.2f}s")
-    print(f"📦 Total Sources: {total_sources}")
+    print(f"[OK] Successful: {successful}/{total_queries}")
+    print(f"[FAIL] Failed: {failed}/{total_queries}")
+    print(f"[TIME]  Avg Time: {avg_time:.2f}s")
+    print(f" Total Sources: {total_sources}")
     
     # Method breakdown
     method_counts = {}
@@ -125,7 +125,7 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
         method = r["search_method"]
         method_counts[method] = method_counts.get(method, 0) + 1
     
-    print(f"\n📈 Search Methods Used:")
+    print(f"\n[METRIC] Search Methods Used:")
     for method, count in method_counts.items():
         print(f"   • {method}: {count}")
     
@@ -136,25 +136,25 @@ def test_madam_system(test_file: str, queries: List[Dict[str, str]], file_index:
             writer = csv.DictWriter(f, fieldnames=results[0].keys())
             writer.writeheader()
             writer.writerows(results)
-        print(f"\n💾 Results saved to: {output_file}")
+        print(f"\n[SAVE] Results saved to: {output_file}")
     except Exception as e:
-        print(f"\n⚠️  Failed to save results: {e}")
+        print(f"\n[WARN]  Failed to save results: {e}")
 
 def main():
     """Main test function."""
     print("\n" + "="*100)
-    print("🔬 MADAM RETRIEVAL TEST WITH DELAYS (10s between phases, 60s between questions)")
+    print(" MADAM RETRIEVAL TEST WITH DELAYS (10s between phases, 60s between questions)")
     print("="*100 + "\n")
     
-    print("📁 Test Files:")
+    print("[FILE] Test Files:")
     for idx, file in enumerate(TEST_FILES, 1):
         file_path = Path(file)
         if file_path.exists():
-            print(f"   {idx}. {file} ✅")
+            print(f"   {idx}. {file} [OK]")
         else:
-            print(f"   {idx}. {file} ❌ (not found)")
+            print(f"   {idx}. {file} [FAIL] (not found)")
     
-    print("\n⚙️  Testing Configuration:")
+    print("\n[CONFIG]  Testing Configuration:")
     print("   • Delay between phases: 10 seconds")
     print("   • Delay between questions: 60 seconds")
     print("   • Queries per file: 2")
@@ -164,7 +164,7 @@ def main():
     
     for file_idx, test_file in enumerate(TEST_FILES, 1):
         if not Path(test_file).exists():
-            print(f"⚠️  Skipping {test_file}: file not found")
+            print(f"[WARN]  Skipping {test_file}: file not found")
             continue
         
         queries = load_queries_from_csv(test_file, limit=2)
@@ -179,10 +179,10 @@ def main():
     overall_elapsed = time.time() - overall_start
     
     print(f"\n{'='*100}")
-    print(f"🎉 ALL TESTS COMPLETED")
+    print(f" ALL TESTS COMPLETED")
     print(f"{'='*100}")
     print(f"Total time: {overall_elapsed:.2f}s ({overall_elapsed/60:.2f}m)")
-    print(f"\n✅ Test files completed:")
+    print(f"\n[OK] Test files completed:")
     for idx, file in enumerate(TEST_FILES, 1):
         print(f"   {idx}. Results saved to: test_madam_delays_file{idx}_results.csv")
 

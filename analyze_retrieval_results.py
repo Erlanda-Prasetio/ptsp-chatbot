@@ -27,12 +27,12 @@ def analyze_results():
         r['relevant_count'] = int(r['relevant_count'])
     
     print("=" * 90)
-    print("📊 RETRIEVAL TEST DETAILED ANALYSIS")
+    print("[STATS] RETRIEVAL TEST DETAILED ANALYSIS")
     print("=" * 90)
     print()
     
     # 1. BY SEARCH METHOD
-    print("1️⃣  PERFORMANCE BY SEARCH METHOD")
+    print("1⃣  PERFORMANCE BY SEARCH METHOD")
     print("-" * 90)
     method_stats = defaultdict(lambda: {"f1": [], "precision": [], "recall": [], "count": 0})
     
@@ -61,7 +61,7 @@ def analyze_results():
         print()
     
     # 2. BY CATEGORY
-    print("2️⃣  PERFORMANCE BY QUESTION CATEGORY")
+    print("2⃣  PERFORMANCE BY QUESTION CATEGORY")
     print("-" * 90)
     cat_stats = defaultdict(lambda: {"f1": [], "count": 0})
     
@@ -80,7 +80,7 @@ def analyze_results():
     print()
     
     # 3. BY DATASET
-    print("3️⃣  PERFORMANCE BY DATASET (OLD vs NEW)")
+    print("3⃣  PERFORMANCE BY DATASET (OLD vs NEW)")
     print("-" * 90)
     dataset_stats = defaultdict(lambda: {"f1": [], "count": 0})
     
@@ -100,7 +100,7 @@ def analyze_results():
     print()
     
     # 4. WORST PERFORMERS
-    print("4️⃣  LOWEST PERFORMING QUERIES (F1 = 0.0)")
+    print("4⃣  LOWEST PERFORMING QUERIES (F1 = 0.0)")
     print("-" * 90)
     worst = sorted([r for r in results if r['f1'] == 0.0], key=lambda x: x['query_id'])
     for r in worst[:10]:
@@ -110,7 +110,7 @@ def analyze_results():
     print()
     
     # 5. BEST PERFORMERS
-    print("5️⃣  HIGHEST PERFORMING QUERIES (F1 = 1.0)")
+    print("5⃣  HIGHEST PERFORMING QUERIES (F1 = 1.0)")
     print("-" * 90)
     best = sorted([r for r in results if r['f1'] == 1.0], key=lambda x: x['query_id'])
     print(f"  Perfect Match: {len(best)} queries")
@@ -120,7 +120,7 @@ def analyze_results():
     print()
     
     # 6. STATISTICS SUMMARY
-    print("6️⃣  OVERALL STATISTICS")
+    print("6⃣  OVERALL STATISTICS")
     print("-" * 90)
     all_f1 = [r['f1'] for r in results]
     all_prec = [r['precision'] for r in results]
@@ -139,7 +139,7 @@ def analyze_results():
     print()
     
     # 7. CATEGORY BREAKDOWN
-    print("7️⃣  DETAILED CATEGORY BREAKDOWN")
+    print("7⃣  DETAILED CATEGORY BREAKDOWN")
     print("-" * 90)
     for cat in sorted(cat_stats.keys()):
         queries = [r for r in results if r['category'] == cat]

@@ -92,36 +92,36 @@ def print_analysis(stats, csv_rows, results_file, results=None):
     """Print formatted analysis report."""
     
     print("\n" + "="*80)
-    print("📊 GENERATIVE TEST RESULTS ANALYSIS")
+    print("[STATS] GENERATIVE TEST RESULTS ANALYSIS")
     print("="*80)
     
-    print(f"\n📁 File: {results_file}")
-    print(f"📅 Analysis Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"\n[FILE] File: {results_file}")
+    print(f" Analysis Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Summary Stats
-    print(f"\n📈 OVERALL STATISTICS")
+    print(f"\n[METRIC] OVERALL STATISTICS")
     print("-" * 80)
     print(f"  Total Queries:        {stats['total']}")
-    print(f"  ✅ Successful:        {stats['success']} ({stats['success']/stats['total']*100:.1f}%)")
-    print(f"  ⏱️  Timeout:           {stats['timeout']} ({stats['timeout']/stats['total']*100:.1f}%)")
-    print(f"  📭 Empty Response:    {stats['empty_response']} ({stats['empty_response']/stats['total']*100:.1f}%)")
-    print(f"  🔍 No Sources Found:  {stats['no_sources']} ({stats['no_sources']/stats['total']*100:.1f}%)")
+    print(f"  [OK] Successful:        {stats['success']} ({stats['success']/stats['total']*100:.1f}%)")
+    print(f"  [TIME]  Timeout:           {stats['timeout']} ({stats['timeout']/stats['total']*100:.1f}%)")
+    print(f"   Empty Response:    {stats['empty_response']} ({stats['empty_response']/stats['total']*100:.1f}%)")
+    print(f"  [SEARCH] No Sources Found:  {stats['no_sources']} ({stats['no_sources']/stats['total']*100:.1f}%)")
     
     # Error breakdown
-    print(f"\n❌ ERRORS")
+    print(f"\n[FAIL] ERRORS")
     print("-" * 80)
     for error_type, count in sorted(stats['errors'].items(), key=lambda x: x[1], reverse=True):
         print(f"  {error_type}: {count}")
     
     # Search methods
-    print(f"\n🔎 SEARCH METHODS USED")
+    print(f"\n SEARCH METHODS USED")
     print("-" * 80)
     for method, count in sorted(stats['search_methods'].items(), key=lambda x: x[1], reverse=True):
         pct = count / stats['total'] * 100
         print(f"  {method:20s}: {count:3d} ({pct:5.1f}%)")
     
     # Performance metrics
-    print(f"\n⚡ PERFORMANCE METRICS")
+    print(f"\n PERFORMANCE METRICS")
     print("-" * 80)
     
     if stats['response_times']:
@@ -143,7 +143,7 @@ def print_analysis(stats, csv_rows, results_file, results=None):
         print(f"    Maximum:  {max_sources}")
     
     # BERTScore analysis
-    print(f"\n🎯 BERTSCORE ANALYSIS")
+    print(f"\n[TARGET] BERTSCORE ANALYSIS")
     print("-" * 80)
     
     if stats['bertscore_scores']:
@@ -164,12 +164,12 @@ def print_analysis(stats, csv_rows, results_file, results=None):
         print(f"    🟢 Great (≥0.7):      {great} ({great/len(stats['bertscore_scores'])*100:.1f}%)")
         print(f"    🟡 Good (0.6-0.7):    {good} ({good/len(stats['bertscore_scores'])*100:.1f}%)")
         print(f"    🟠 Marginal (0.5-0.6): {marginal} ({marginal/len(stats['bertscore_scores'])*100:.1f}%)")
-        print(f"    🔴 Not Confident (<0.5): {not_confident} ({not_confident/len(stats['bertscore_scores'])*100:.1f}%)")
+        print(f"     Not Confident (<0.5): {not_confident} ({not_confident/len(stats['bertscore_scores'])*100:.1f}%)")
     else:
-        print(f"  ⚠️  No BERTScore data available")
+        print(f"  [WARN]  No BERTScore data available")
     
     # Bottom performers
-    print(f"\n⚠️  QUERIES WITH ISSUES")
+    print(f"\n[WARN]  QUERIES WITH ISSUES")
     print("-" * 80)
     if results:
         problem_queries = [r for r in results if r['error'] or not r['answer']]
@@ -188,7 +188,7 @@ def print_analysis(stats, csv_rows, results_file, results=None):
 def export_to_csv(csv_rows, output_file):
     """Export analysis to CSV."""
     if not csv_rows:
-        print(f"❌ No data to export")
+        print(f"[FAIL] No data to export")
         return
     
     # Create output directory if needed
@@ -202,13 +202,13 @@ def export_to_csv(csv_rows, output_file):
         writer.writeheader()
         writer.writerows(csv_rows)
     
-    print(f"\n✅ Results exported to: {output_file}")
+    print(f"\n[OK] Results exported to: {output_file}")
 
 def main():
     results_file = Path('d:/backup/ptspRag/evaluation/raw_results/generative_25_questions.json')
     
     if not results_file.exists():
-        print(f"❌ Results file not found: {results_file}")
+        print(f"[FAIL] Results file not found: {results_file}")
         return
     
     # Analyze
@@ -221,7 +221,7 @@ def main():
     csv_file = results_file.parent / 'generative_25_questions_analysis.csv'
     export_to_csv(csv_rows, csv_file)
     
-    print("\n✅ Analysis complete!")
+    print("\n[OK] Analysis complete!")
 
 if __name__ == '__main__':
     main()

@@ -38,13 +38,13 @@ def categorize_f1(f1: float) -> str:
 def print_header(title: str):
     """Print formatted header"""
     print()
-    print("╔" + "═" * 118 + "╗")
-    print("║" + title.center(118) + "║")
-    print("╚" + "═" * 118 + "╝")
+    print("" + "" * 118 + "")
+    print("" + title.center(118) + "")
+    print("" + "" * 118 + "")
 
 def print_divider(char="-"):
     """Print divider line"""
-    print("┌" + char * 118 + "┐")
+    print("" + char * 118 + "")
 
 def main():
     print("\n" + "=" * 120)
@@ -52,15 +52,15 @@ def main():
     print("=" * 120)
     
     # Load both files
-    print("\n📂 Loading data...")
+    print("\n[DIR] Loading data...")
     results1 = load_csv(FILE1)
     results2 = load_csv(FILE2)
     
-    print(f"   ✅ {FILE1}: {len(results1)} queries")
-    print(f"   ✅ {FILE2}: {len(results2)} queries")
+    print(f"   [OK] {FILE1}: {len(results1)} queries")
+    print(f"   [OK] {FILE2}: {len(results2)} queries")
     
     # Overall Statistics
-    print_header("📊 OVERALL STATISTICS")
+    print_header("[STATS] OVERALL STATISTICS")
     
     # Calculate stats
     stats1 = {
@@ -83,23 +83,23 @@ def main():
         'failed': len([r for r in results2 if r['f1_score'] == 0.0]),
     }
     
-    print("\n┌─ METRIC COMPARISON " + "─" * 97 + "┐")
-    print(f"│ {'Metric':<25} │ {'retrieval_test_result.csv':^40} │ {'old_dataset_template.csv':^40} │ {'Difference':^8} │")
-    print("├" + "─" * 25 + "┼" + "─" * 42 + "┼" + "─" * 42 + "┼" + "─" * 10 + "┤")
+    print("\n METRIC COMPARISON " + "" * 97 + "")
+    print(f" {'Metric':<25}  {'retrieval_test_result.csv':^40}  {'old_dataset_template.csv':^40}  {'Difference':^8} ")
+    print("" + "" * 25 + "" + "" * 42 + "" + "" * 42 + "" + "" * 10 + "")
     
     # Simple metrics comparison
-    print(f"│ {'Total Queries':<25} │ {stats1['total']:^40} │ {stats2['total']:^40} │ {stats1['total']-stats2['total']:>+8d} │")
-    print(f"│ {'Mean F1 Score':<25} │ {stats1['mean_f1']:^40.3f} │ {stats2['mean_f1']:^40.3f} │ {stats1['mean_f1']-stats2['mean_f1']:>+8.3f} │")
-    print(f"│ {'Mean Precision':<25} │ {stats1['mean_precision']:^40.3f} │ {stats2['mean_precision']:^40.3f} │ {stats1['mean_precision']-stats2['mean_precision']:>+8.3f} │")
-    print(f"│ {'Mean Recall':<25} │ {stats1['mean_recall']:^40.3f} │ {stats2['mean_recall']:^40.3f} │ {stats1['mean_recall']-stats2['mean_recall']:>+8.3f} │")
-    print(f"│ {'Mean Time (sec)':<25} │ {stats1['mean_time']:^40.2f}s │ {stats2['mean_time']:^40.2f}s │ {stats1['mean_time']-stats2['mean_time']:>+8.2f}s │")
-    print(f"│ {'Perfect (1.0)':<25} │ {stats1['perfect']:^40} │ {stats2['perfect']:^40} │ {stats1['perfect']-stats2['perfect']:>+8d} │")
-    print(f"│ {'Failed (0.0)':<25} │ {stats1['failed']:^40} │ {stats2['failed']:^40} │ {stats1['failed']-stats2['failed']:>+8d} │")
+    print(f" {'Total Queries':<25}  {stats1['total']:^40}  {stats2['total']:^40}  {stats1['total']-stats2['total']:>+8d} ")
+    print(f" {'Mean F1 Score':<25}  {stats1['mean_f1']:^40.3f}  {stats2['mean_f1']:^40.3f}  {stats1['mean_f1']-stats2['mean_f1']:>+8.3f} ")
+    print(f" {'Mean Precision':<25}  {stats1['mean_precision']:^40.3f}  {stats2['mean_precision']:^40.3f}  {stats1['mean_precision']-stats2['mean_precision']:>+8.3f} ")
+    print(f" {'Mean Recall':<25}  {stats1['mean_recall']:^40.3f}  {stats2['mean_recall']:^40.3f}  {stats1['mean_recall']-stats2['mean_recall']:>+8.3f} ")
+    print(f" {'Mean Time (sec)':<25}  {stats1['mean_time']:^40.2f}s  {stats2['mean_time']:^40.2f}s  {stats1['mean_time']-stats2['mean_time']:>+8.2f}s ")
+    print(f" {'Perfect (1.0)':<25}  {stats1['perfect']:^40}  {stats2['perfect']:^40}  {stats1['perfect']-stats2['perfect']:>+8d} ")
+    print(f" {'Failed (0.0)':<25}  {stats1['failed']:^40}  {stats2['failed']:^40}  {stats1['failed']-stats2['failed']:>+8d} ")
     
-    print("└" + "─" * 25 + "┴" + "─" * 42 + "┴" + "─" * 42 + "┴" + "─" * 10 + "┘")
+    print("" + "" * 25 + "" + "" * 42 + "" + "" * 42 + "" + "" * 10 + "")
     
     # F1 Distribution
-    print_header("📈 F1 SCORE DISTRIBUTION")
+    print_header("[METRIC] F1 SCORE DISTRIBUTION")
     
     dist1 = defaultdict(int)
     dist2 = defaultdict(int)
@@ -114,21 +114,21 @@ def main():
     
     categories = ['Perfect', 'High', 'Medium', 'Low', 'Failed']
     
-    print("\n┌─ DISTRIBUTION BY CATEGORY " + "─" * 89 + "┐")
-    print(f"│ {'Category':<15} │ {'retrieval_test_result.csv':^40} │ {'old_dataset_template.csv':^40} │")
-    print("├" + "─" * 15 + "┼" + "─" * 42 + "┼" + "─" * 42 + "┤")
+    print("\n DISTRIBUTION BY CATEGORY " + "" * 89 + "")
+    print(f" {'Category':<15}  {'retrieval_test_result.csv':^40}  {'old_dataset_template.csv':^40} ")
+    print("" + "" * 15 + "" + "" * 42 + "" + "" * 42 + "")
     
     for cat in categories:
         count1 = dist1.get(cat, 0)
         count2 = dist2.get(cat, 0)
         pct1 = count1 / len(results1) * 100 if results1 else 0
         pct2 = count2 / len(results2) * 100 if results2 else 0
-        print(f"│ {cat:<15} │ {count1:>3} ({pct1:>5.1f}%) [{('█' * int(count1/2)):<20}] │ {count2:>3} ({pct2:>5.1f}%) [{('█' * int(count2/2)):<20}] │")
+        print(f" {cat:<15}  {count1:>3} ({pct1:>5.1f}%) [{('' * int(count1/2)):<20}]  {count2:>3} ({pct2:>5.1f}%) [{('' * int(count2/2)):<20}] ")
     
-    print("└" + "─" * 15 + "┴" + "─" * 42 + "┴" + "─" * 42 + "┘")
+    print("" + "" * 15 + "" + "" * 42 + "" + "" * 42 + "")
     
     # Search Method Comparison
-    print_header("🔍 SEARCH METHOD PERFORMANCE")
+    print_header("[SEARCH] SEARCH METHOD PERFORMANCE")
     
     methods1 = defaultdict(lambda: {'f1': [], 'time': []})
     methods2 = defaultdict(lambda: {'f1': [], 'time': []})
@@ -143,28 +143,28 @@ def main():
         methods2[method]['f1'].append(r['f1_score'])
         methods2[method]['time'].append(r['retrieval_time_seconds'])
     
-    print("\n┌─ retrieval_test_result.csv " + "─" * 88 + "┐")
+    print("\n retrieval_test_result.csv " + "" * 88 + "")
     for method in sorted(methods1.keys()):
         f1_scores = methods1[method]['f1']
         times = methods1[method]['time']
         avg_f1 = sum(f1_scores) / len(f1_scores) if f1_scores else 0
         avg_time = sum(times) / len(times) if times else 0
         perfect = len([f for f in f1_scores if f == 1.0])
-        print(f"│  {method:<20s}: F1={avg_f1:.3f} | Count={len(f1_scores):2d} | Perfect={perfect:2d} | Avg Time={avg_time:.2f}s")
-    print("└" + "─" * 118 + "┘")
+        print(f"  {method:<20s}: F1={avg_f1:.3f} | Count={len(f1_scores):2d} | Perfect={perfect:2d} | Avg Time={avg_time:.2f}s")
+    print("" + "" * 118 + "")
     
-    print("\n┌─ old_dataset_retrieval_test_template.csv " + "─" * 74 + "┐")
+    print("\n old_dataset_retrieval_test_template.csv " + "" * 74 + "")
     for method in sorted(methods2.keys()):
         f1_scores = methods2[method]['f1']
         times = methods2[method]['time']
         avg_f1 = sum(f1_scores) / len(f1_scores) if f1_scores else 0
         avg_time = sum(times) / len(times) if times else 0
         perfect = len([f for f in f1_scores if f == 1.0])
-        print(f"│  {method:<20s}: F1={avg_f1:.3f} | Count={len(f1_scores):2d} | Perfect={perfect:2d} | Avg Time={avg_time:.2f}s")
-    print("└" + "─" * 118 + "┘")
+        print(f"  {method:<20s}: F1={avg_f1:.3f} | Count={len(f1_scores):2d} | Perfect={perfect:2d} | Avg Time={avg_time:.2f}s")
+    print("" + "" * 118 + "")
     
     # Category Performance
-    print_header("📂 CATEGORY PERFORMANCE")
+    print_header("[DIR] CATEGORY PERFORMANCE")
     
     cat_stats1 = defaultdict(lambda: {'f1': [], 'perfect': 0, 'failed': 0})
     cat_stats2 = defaultdict(lambda: {'f1': [], 'perfect': 0, 'failed': 0})
@@ -187,9 +187,9 @@ def main():
         elif f1 == 0.0:
             cat_stats2[cat]['failed'] += 1
     
-    print("\n┌─ CATEGORY BREAKDOWN " + "─" * 95 + "┐")
-    print(f"│ {'Category':<15} │ {'Result File':^40} │ {'Template File':^40} │ {'Diff':^8} │")
-    print("├" + "─" * 15 + "┼" + "─" * 42 + "┼" + "─" * 42 + "┼" + "─" * 10 + "┤")
+    print("\n CATEGORY BREAKDOWN " + "" * 95 + "")
+    print(f" {'Category':<15}  {'Result File':^40}  {'Template File':^40}  {'Diff':^8} ")
+    print("" + "" * 15 + "" + "" * 42 + "" + "" * 42 + "" + "" * 10 + "")
     
     all_cats = set(list(cat_stats1.keys()) + list(cat_stats2.keys()))
     for cat in sorted(all_cats):
@@ -207,12 +207,12 @@ def main():
         str_b = f"{avg_f1_b:.3f} ({count_b})"
         str_diff = f"{diff:+.3f}"
         
-        print(f"│ {cat:<15} │ {str_a:^40} │ {str_b:^40} │ {str_diff:>8} │")
+        print(f" {cat:<15}  {str_a:^40}  {str_b:^40}  {str_diff:>8} ")
     
-    print("└" + "─" * 15 + "┴" + "─" * 42 + "┴" + "─" * 42 + "┴" + "─" * 10 + "┘")
+    print("" + "" * 15 + "" + "" * 42 + "" + "" * 42 + "" + "" * 10 + "")
     
     # Query Performance Comparison
-    print_header("🔍 QUERY-BY-QUERY COMPARISON (Top Differences)")
+    print_header("[SEARCH] QUERY-BY-QUERY COMPARISON (Top Differences)")
     
     # Match queries by ID
     results1_by_id = {r['query_id']: r for r in results1}
@@ -237,38 +237,38 @@ def main():
     # Sort by absolute difference
     differences.sort(key=lambda x: abs(x['diff']), reverse=True)
     
-    print("\n┌─ TOP 10 IMPROVED QUERIES (Result > Template) " + "─" * 70 + "┐")
+    print("\n TOP 10 IMPROVED QUERIES (Result > Template) " + "" * 70 + "")
     improved = [d for d in differences if d['diff'] > 0]
     for i, d in enumerate(improved[:10], 1):
-        print(f"│ {i:2d}. {d['query_id']:10s} | {d['question']:<40} │ {d['f1_result']:.2f} vs {d['f1_template']:.2f} ({d['diff']:+.2f})")
-    print("└" + "─" * 118 + "┘")
+        print(f" {i:2d}. {d['query_id']:10s} | {d['question']:<40}  {d['f1_result']:.2f} vs {d['f1_template']:.2f} ({d['diff']:+.2f})")
+    print("" + "" * 118 + "")
     
-    print("\n┌─ TOP 10 DEGRADED QUERIES (Result < Template) " + "─" * 70 + "┐")
+    print("\n TOP 10 DEGRADED QUERIES (Result < Template) " + "" * 70 + "")
     degraded = [d for d in differences if d['diff'] < 0]
     for i, d in enumerate(degraded[:10], 1):
-        print(f"│ {i:2d}. {d['query_id']:10s} | {d['question']:<40} │ {d['f1_result']:.2f} vs {d['f1_template']:.2f} ({d['diff']:+.2f})")
-    print("└" + "─" * 118 + "┘")
+        print(f" {i:2d}. {d['query_id']:10s} | {d['question']:<40}  {d['f1_result']:.2f} vs {d['f1_template']:.2f} ({d['diff']:+.2f})")
+    print("" + "" * 118 + "")
     
     # Summary
-    print_header("💡 SUMMARY & INSIGHTS")
+    print_header("[INFO] SUMMARY & INSIGHTS")
     
-    print("\n┌─ KEY FINDINGS " + "─" * 102 + "┐")
+    print("\n KEY FINDINGS " + "" * 102 + "")
     
     improvement_count = len([d for d in differences if d['diff'] > 0.1])
     degradation_count = len([d for d in differences if d['diff'] < -0.1])
     
-    print(f"│ • Queries with significant improvement (>0.1):  {improvement_count:3d}")
-    print(f"│ • Queries with significant degradation (<-0.1): {degradation_count:3d}")
-    print(f"│ • Overall F1 improvement: {stats1['mean_f1'] - stats2['mean_f1']:+.3f}")
-    print(f"│ • Overall speed improvement: {(stats2['mean_time'] - stats1['mean_time']):+.2f}s faster" if stats1['mean_time'] < stats2['mean_time'] else f"│ • Overall speed degradation: {(stats1['mean_time'] - stats2['mean_time']):+.2f}s slower")
+    print(f" • Queries with significant improvement (>0.1):  {improvement_count:3d}")
+    print(f" • Queries with significant degradation (<-0.1): {degradation_count:3d}")
+    print(f" • Overall F1 improvement: {stats1['mean_f1'] - stats2['mean_f1']:+.3f}")
+    print(f" • Overall speed improvement: {(stats2['mean_time'] - stats1['mean_time']):+.2f}s faster" if stats1['mean_time'] < stats2['mean_time'] else f" • Overall speed degradation: {(stats1['mean_time'] - stats2['mean_time']):+.2f}s slower")
     
     internet_1 = len([r for r in results1 if r.get('search_method') == 'internet_fallback'])
     internet_2 = len([r for r in results2 if r.get('search_method') == 'internet_fallback'])
     
-    print(f"│ • Internet fallback usage: {internet_1} (result) vs {internet_2} (template)")
-    print(f"│ • Perfect match rate: {stats1['perfect']}/{stats1['total']} ({stats1['perfect']/stats1['total']*100:.1f}%) vs {stats2['perfect']}/{stats2['total']} ({stats2['perfect']/stats2['total']*100:.1f}%)")
+    print(f" • Internet fallback usage: {internet_1} (result) vs {internet_2} (template)")
+    print(f" • Perfect match rate: {stats1['perfect']}/{stats1['total']} ({stats1['perfect']/stats1['total']*100:.1f}%) vs {stats2['perfect']}/{stats2['total']} ({stats2['perfect']/stats2['total']*100:.1f}%)")
     
-    print("└" + "─" * 118 + "┘")
+    print("" + "" * 118 + "")
     
     print("\n" + "=" * 120 + "\n")
 

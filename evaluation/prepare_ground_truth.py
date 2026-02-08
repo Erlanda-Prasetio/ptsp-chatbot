@@ -34,7 +34,7 @@ def check_supabase_chunks():
         supabase_key = os.getenv('SUPABASE_SERVICE_KEY')
         
         if not supabase_url or not supabase_key:
-            print("❌ Supabase credentials not found in .env")
+            print("[FAIL] Supabase credentials not found in .env")
             return None
         
         client = create_client(supabase_url, supabase_key)
@@ -42,7 +42,7 @@ def check_supabase_chunks():
         # Get total chunks
         response = client.table('rag_chunks_jateng').select('id, content, metadata', count='exact').execute()
         
-        print(f"\n📊 SUPABASE CHUNKS:")
+        print(f"\n[STATS] SUPABASE CHUNKS:")
         print(f"   Total chunks: {len(response.data)}")
         
         # Sample chunks
@@ -56,14 +56,14 @@ def check_supabase_chunks():
         return response.data
         
     except Exception as e:
-        print(f"❌ Error checking Supabase: {e}")
+        print(f"[FAIL] Error checking Supabase: {e}")
         return None
 
 
 def display_questions_for_ground_truth(data):
     """Display questions for ground truth entry"""
     print("\n" + "="*80)
-    print("📝 50 QUESTIONS FOR GROUND TRUTH ENTRY")
+    print(" 50 QUESTIONS FOR GROUND TRUTH ENTRY")
     print("="*80)
     print()
     print("For each question, you need to provide:")
@@ -82,7 +82,7 @@ def display_questions_for_ground_truth(data):
             by_category[cat] = []
         by_category[cat].append(q)
     
-    print(f"\n📊 DISTRIBUTION:")
+    print(f"\n[STATS] DISTRIBUTION:")
     for cat, qs in by_category.items():
         print(f"   {cat}: {len(qs)} questions")
     
@@ -93,8 +93,8 @@ def display_questions_for_ground_truth(data):
     for i, q in enumerate(queries, 1):
         print(f"\n[{i}/50] {q['eval_id']} - {q['category']} ({q['dataset_source']})")
         print(f"   Q: {q['query']}")
-        print(f"   Ground Truth: {q['ground_truth'] or '❌ MISSING'}")
-        print(f"   Relevant Chunks: {q['relevant_chunk_ids'] or '❌ EMPTY'}")
+        print(f"   Ground Truth: {q['ground_truth'] or '[FAIL] MISSING'}")
+        print(f"   Relevant Chunks: {q['relevant_chunk_ids'] or '[FAIL] EMPTY'}")
 
 
 def create_ground_truth_template():
@@ -124,7 +124,7 @@ def create_ground_truth_template():
                 ''   # notes
             ])
     
-    print(f"\n✅ Template created: {output_file}")
+    print(f"\n[OK] Template created: {output_file}")
     print(f"   Fill in 'ground_truth' and 'relevant_chunk_ids' columns")
     print(f"   Then run: python evaluation/import_ground_truth.py")
 
@@ -135,7 +135,7 @@ def check_logging_setup():
         from evaluation.metrics_logger import MetricsLogger
         
         print("\n" + "="*80)
-        print("✅ LOGGING VERIFICATION")
+        print("[OK] LOGGING VERIFICATION")
         print("="*80)
         
         # Test logger
@@ -162,21 +162,21 @@ def check_logging_setup():
         
         logger.save()
         
-        print("\n✅ Metrics Logger Working!")
+        print("\n[OK] Metrics Logger Working!")
         print(f"   Test log saved to: {logger.log_file}")
         
         # Show what's logged
-        print("\n📊 LOGGED METRICS:")
-        print("   ✅ Query ID, text, ground truth")
-        print("   ✅ Retrieval: chunks, precision, recall, F1")
-        print("   ✅ Response: text, model, tokens, confidence")
-        print("   ✅ Timing: response_time_seconds")
-        print("   ✅ Accuracy: is_correct, confident_wrong")
+        print("\n[STATS] LOGGED METRICS:")
+        print("   [OK] Query ID, text, ground truth")
+        print("   [OK] Retrieval: chunks, precision, recall, F1")
+        print("   [OK] Response: text, model, tokens, confidence")
+        print("   [OK] Timing: response_time_seconds")
+        print("   [OK] Accuracy: is_correct, confident_wrong")
         
         return True
         
     except Exception as e:
-        print(f"\n❌ Logging Error: {e}")
+        print(f"\n[FAIL] Logging Error: {e}")
         return False
 
 
@@ -185,14 +185,14 @@ def check_run_evaluation_script():
     eval_file = Path('evaluation/run_balanced_evaluation.py')
     
     if not eval_file.exists():
-        print("\n❌ evaluation/run_balanced_evaluation.py not found")
+        print("\n[FAIL] evaluation/run_balanced_evaluation.py not found")
         return False
     
     with open(eval_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
     print("\n" + "="*80)
-    print("📋 EVALUATION SCRIPT CHECK")
+    print(" EVALUATION SCRIPT CHECK")
     print("="*80)
     
     checks = {
@@ -204,48 +204,48 @@ def check_run_evaluation_script():
     }
     
     for check, passed in checks.items():
-        status = "✅" if passed else "❌"
+        status = "[OK]" if passed else "[FAIL]"
         print(f"   {status} {check}")
     
     all_passed = all(checks.values())
     
     if all_passed:
-        print("\n✅ Evaluation script ready!")
+        print("\n[OK] Evaluation script ready!")
     else:
-        print("\n⚠️  Some checks failed - script may need updates")
+        print("\n[WARN]  Some checks failed - script may need updates")
     
     return all_passed
 
 
 def main():
     print("\n" + "="*80)
-    print("🔍 PRE-EVALUATION VERIFICATION")
+    print("[SEARCH] PRE-EVALUATION VERIFICATION")
     print("="*80)
     
     # 1. Load questions
-    print("\n1️⃣ Loading 50 questions...")
+    print("\n1⃣ Loading 50 questions...")
     data = load_questions()
-    print(f"   ✅ Loaded {data['metadata']['total_queries']} questions")
+    print(f"   [OK] Loaded {data['metadata']['total_queries']} questions")
     
     # 2. Check Supabase chunks
-    print("\n2️⃣ Checking Supabase chunks...")
+    print("\n2⃣ Checking Supabase chunks...")
     chunks = check_supabase_chunks()
     
     # 3. Check logging
-    print("\n3️⃣ Verifying metrics logging...")
+    print("\n3⃣ Verifying metrics logging...")
     check_logging_setup()
     
     # 4. Check evaluation script
-    print("\n4️⃣ Checking evaluation script...")
+    print("\n4⃣ Checking evaluation script...")
     check_run_evaluation_script()
     
     # 5. Display questions
-    print("\n5️⃣ Displaying questions for ground truth...")
+    print("\n5⃣ Displaying questions for ground truth...")
     display_questions_for_ground_truth(data)
     
     # 6. Offer to create template
     print("\n" + "="*80)
-    print("📝 NEXT STEPS")
+    print(" NEXT STEPS")
     print("="*80)
     print("\n1. Create ground truth template:")
     print("   python evaluation/prepare_ground_truth.py --create-template")
@@ -259,7 +259,7 @@ def main():
     print("   python evaluation/run_balanced_evaluation.py --name baseline_old_dataset")
     
     # Ask if user wants template
-    response = input("\n❓ Create ground truth template CSV now? (y/n): ").strip().lower()
+    response = input("\n Create ground truth template CSV now? (y/n): ").strip().lower()
     if response == 'y':
         create_ground_truth_template()
 

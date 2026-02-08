@@ -13,22 +13,22 @@ def import_ground_truth_from_csv():
     json_file = 'evaluation/sample_50_balanced.json'
     
     if not os.path.exists(csv_file):
-        print(f"❌ CSV file not found: {csv_file}")
+        print(f"[FAIL] CSV file not found: {csv_file}")
         return False
     
     if not os.path.exists(json_file):
-        print(f"❌ JSON file not found: {json_file}")
+        print(f"[FAIL] JSON file not found: {json_file}")
         return False
     
     print(f"\n{'='*80}")
-    print(f"📥 IMPORTING GROUND TRUTH FROM CSV")
+    print(f" IMPORTING GROUND TRUTH FROM CSV")
     print(f"{'='*80}\n")
     
     # Load JSON
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    print(f"✅ Loaded JSON: {len(data['queries'])} questions")
+    print(f"[OK] Loaded JSON: {len(data['queries'])} questions")
     
     # Load CSV
     ground_truth_map = {}
@@ -52,7 +52,7 @@ def import_ground_truth_from_csv():
                 'relevant_chunk_ids': chunk_ids
             }
     
-    print(f"✅ Loaded CSV: {len(ground_truth_map)} ground truth entries")
+    print(f"[OK] Loaded CSV: {len(ground_truth_map)} ground truth entries")
     
     # Update JSON
     updated_count = 0
@@ -67,12 +67,12 @@ def import_ground_truth_from_csv():
             updated_count += 1
             
             if updated_count <= 3:  # Show first 3 for verification
-                print(f"\n✅ Updated {eval_id}:")
+                print(f"\n[OK] Updated {eval_id}:")
                 print(f"   Query: {query['query'][:60]}...")
                 print(f"   Ground Truth: {query['ground_truth'][:80]}...")
                 print(f"   Chunk IDs ({len(query['relevant_chunk_ids'])}): {query['relevant_chunk_ids']}")
         else:
-            print(f"⚠️  No ground truth found for: {eval_id}")
+            print(f"[WARN]  No ground truth found for: {eval_id}")
             missing_count += 1
     
     # Save updated JSON
@@ -80,20 +80,20 @@ def import_ground_truth_from_csv():
         json.dump(data, f, indent=2, ensure_ascii=False)
     
     print(f"\n{'='*80}")
-    print(f"📊 IMPORT SUMMARY")
+    print(f"[STATS] IMPORT SUMMARY")
     print(f"{'='*80}")
-    print(f"✅ Updated: {updated_count} questions")
-    print(f"⚠️  Missing: {missing_count} questions")
-    print(f"✅ Saved to: {json_file}")
+    print(f"[OK] Updated: {updated_count} questions")
+    print(f"[WARN]  Missing: {missing_count} questions")
+    print(f"[OK] Saved to: {json_file}")
     
     if updated_count == 50 and missing_count == 0:
-        print(f"\n🎉 SUCCESS! All 50 questions imported successfully!")
-        print(f"\n📋 NEXT STEP:")
+        print(f"\n SUCCESS! All 50 questions imported successfully!")
+        print(f"\n NEXT STEP:")
         print(f"   Run evaluation:")
         print(f"   python evaluation/run_balanced_evaluation.py --name baseline_old_dataset")
         return True
     else:
-        print(f"\n⚠️  Warning: Some questions were not updated")
+        print(f"\n[WARN]  Warning: Some questions were not updated")
         return False
 
 if __name__ == '__main__':

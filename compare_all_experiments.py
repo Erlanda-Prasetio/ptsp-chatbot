@@ -14,7 +14,7 @@ def main():
         exp2_cleaned = json.load(f)
     
     print("\n" + "="*80)
-    print("📊 COMPARISON: Baseline vs Combined vs Cleaned Dataset")
+    print("[STATS] COMPARISON: Baseline vs Combined vs Cleaned Dataset")
     print("="*80)
     
     # Count fallback rates
@@ -24,7 +24,7 @@ def main():
         'Exp 2 Cleaned (NEW only, no separators)': exp2_cleaned
     }
     
-    print(f"\n🌐 Internet Fallback Rate (Lower is Better):")
+    print(f"\n Internet Fallback Rate (Lower is Better):")
     print(f"{'Dataset':<45} {'Fallback':<15} {'Percentage'}")
     print("-" * 80)
     
@@ -34,7 +34,7 @@ def main():
         pct = fallback/total*100 if total > 0 else 0
         print(f"{name:<45} {fallback}/{total:<12} {pct:.1f}%")
     
-    print(f"\n🎯 Vector-based (Supabase) - Higher is Better:")
+    print(f"\n[TARGET] Vector-based (Supabase) - Higher is Better:")
     print(f"{'Dataset':<45} {'Vector':<15} {'Percentage'}")
     print("-" * 80)
     
@@ -44,7 +44,7 @@ def main():
         pct = vector/total*100 if total > 0 else 0
         print(f"{name:<45} {vector}/{total:<12} {pct:.1f}%")
     
-    print(f"\n📈 Average Confidence Score (Higher is Better):")
+    print(f"\n[METRIC] Average Confidence Score (Higher is Better):")
     print(f"{'Dataset':<45} {'Avg Confidence'}")
     print("-" * 80)
     
@@ -52,7 +52,7 @@ def main():
         conf = data.get('metadata', {}).get('summary_statistics', {}).get('avg_confidence', 0)
         print(f"{name:<45} {conf:.3f}")
     
-    print(f"\n⏱️  Average Response Time:")
+    print(f"\n[TIME]  Average Response Time:")
     print(f"{'Dataset':<45} {'Avg Time (s)'}")
     print("-" * 80)
     
@@ -61,7 +61,7 @@ def main():
         print(f"{name:<45} {time:.2f}s")
     
     print("\n" + "="*80)
-    print("✅ Key Findings:")
+    print("[OK] Key Findings:")
     print("="*80)
     
     b_fallback = sum(1 for r in baseline['results'] if r.get('search_method') == 'internet_fallback')

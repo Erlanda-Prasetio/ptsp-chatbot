@@ -7,7 +7,7 @@ Check if the chunks retrieved by the API match what was generated before.
 import csv
 
 print("\n" + "="*90)
-print("🔍 COMPARING RETRIEVAL vs GENERATED CHUNKS")
+print("[SEARCH] COMPARING RETRIEVAL vs GENERATED CHUNKS")
 print("="*90)
 print()
 
@@ -45,10 +45,10 @@ for i, row in enumerate(new_rows):
     # Compare
     if retrieved == generated:
         matching += 1
-        status = "✅ MATCH"
+        status = "[OK] MATCH"
     else:
         different += 1
-        status = "❌ DIFFERENT"
+        status = "[FAIL] DIFFERENT"
         details.append({
             'query_id': query_id,
             'question': question,
@@ -63,15 +63,15 @@ for i, row in enumerate(new_rows):
 
 print()
 print("="*90)
-print("📊 SUMMARY")
+print("[STATS] SUMMARY")
 print("="*90)
 print()
-print(f"✅ Matching:   {matching}/50 ({matching/50*100:.1f}%)")
-print(f"❌ Different:  {different}/50 ({different/50*100:.1f}%)")
+print(f"[OK] Matching:   {matching}/50 ({matching/50*100:.1f}%)")
+print(f"[FAIL] Different:  {different}/50 ({different/50*100:.1f}%)")
 print()
 
 if different > 0:
-    print("❌ CHUNK MISMATCH DETAILS:")
+    print("[FAIL] CHUNK MISMATCH DETAILS:")
     print()
     for i, detail in enumerate(details[:10], 1):
         print(f"{i}. {detail['query_id']}:")
@@ -81,9 +81,9 @@ if different > 0:
     if len(details) > 10:
         print(f"   ... and {len(details)-10} more mismatches")
     print()
-    print("⚠️  CONCLUSION: Chunks are NOT matching between retrieval and generated")
+    print("[WARN]  CONCLUSION: Chunks are NOT matching between retrieval and generated")
 else:
-    print("✅ CONCLUSION: All chunks match perfectly between retrieval and generated!")
+    print("[OK] CONCLUSION: All chunks match perfectly between retrieval and generated!")
 
 print()
 print("="*90)

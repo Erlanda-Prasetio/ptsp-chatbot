@@ -26,7 +26,7 @@ def export_to_csv(input_file: str, output_file: str, format_type: str = 'horizon
         format_type: 'horizontal' (1 row per question, 5 chunk columns) or 
                     'vertical' (5 rows per question, 1 chunk per row)
     """
-    print(f"📂 Loading chunk confidence data from: {input_file}")
+    print(f"[DIR] Loading chunk confidence data from: {input_file}")
     
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -34,15 +34,15 @@ def export_to_csv(input_file: str, output_file: str, format_type: str = 'horizon
     results = data['results']
     total_queries = len(results)
     
-    print(f"   ✓ Found {total_queries} queries with chunk data")
-    print(f"📝 Exporting to CSV format: {format_type}")
+    print(f"    Found {total_queries} queries with chunk data")
+    print(f" Exporting to CSV format: {format_type}")
     
     if format_type == 'horizontal':
         export_horizontal(results, output_file)
     else:
         export_vertical(results, output_file)
     
-    print(f"✅ Successfully exported to: {output_file}")
+    print(f"[OK] Successfully exported to: {output_file}")
     print()
 
 
@@ -123,8 +123,8 @@ def export_horizontal(results: List[Dict], output_file: str):
             
             writer.writerow(row)
     
-    print(f"   📊 Format: 1 row per question, {len(all_columns)} columns")
-    print(f"   📝 Retrieval test columns: generated_chunks, precision, recall, f1_score")
+    print(f"   [STATS] Format: 1 row per question, {len(all_columns)} columns")
+    print(f"    Retrieval test columns: generated_chunks, precision, recall, f1_score")
 
 
 
@@ -177,8 +177,8 @@ def export_vertical(results: List[Dict], output_file: str):
                 }
                 writer.writerow(row)
     
-    print(f"   📊 Format: {len(results) * 5} rows (5 rows per question)")
-    print(f"   📝 Manual evaluation columns added: is_relevant, notes")
+    print(f"   [STATS] Format: {len(results) * 5} rows (5 rows per question)")
+    print(f"    Manual evaluation columns added: is_relevant, notes")
 
 
 def main():
@@ -210,7 +210,7 @@ def main():
     # Validate input file exists
     input_path = Path(args.input)
     if not input_path.exists():
-        print(f"❌ Error: Input file not found: {args.input}")
+        print(f"[FAIL] Error: Input file not found: {args.input}")
         return
     
     # Create output directory if needed
@@ -219,14 +219,14 @@ def main():
     
     print()
     print("=" * 70)
-    print("📋 EXPORTING CHUNKS TO CSV FOR RETRIEVAL TEST")
+    print(" EXPORTING CHUNKS TO CSV FOR RETRIEVAL TEST")
     print("=" * 70)
     print()
     
     export_to_csv(args.input, args.output, args.format)
     
     print("=" * 70)
-    print("✅ EXPORT COMPLETE")
+    print("[OK] EXPORT COMPLETE")
     print("=" * 70)
     print()
     print("Next steps:")

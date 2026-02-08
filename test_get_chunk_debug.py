@@ -18,9 +18,9 @@ SUPABASE_CLIENT = None
 try:
     if supabase_url and supabase_key:
         SUPABASE_CLIENT = create_client(supabase_url, supabase_key)
-        print('✅ Client initialized')
+        print('[OK] Client initialized')
 except Exception as e:
-    print(f'❌ Error: {e}')
+    print(f'[FAIL] Error: {e}')
 
 def get_chunk_content(chunk_id):
     if not SUPABASE_CLIENT:

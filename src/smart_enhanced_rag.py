@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Enhanced RAG system with better query handling and domain detection
 Includes improved PDF processing, semantic chunking, and content filtering
@@ -9,6 +11,7 @@ sys.path.append('src')
 from embed import embed_texts
 from ask import build_context, query_llm
 from config import VECTOR_BACKEND
+from domain_config import DOMAIN_KEYWORDS, RAG_PROMPT_TEMPLATE
 import time
 import re
 
@@ -16,14 +19,14 @@ import re
 try:
     from enhanced_utils import calculate_relevance_score
     ENHANCED_UTILS_AVAILABLE = True
-    print("✅ Full enhanced utils loaded")
+    print("[OK] Full enhanced utils loaded")
 except ImportError:
     try:
         from lightweight_utils import calculate_relevance_score
         ENHANCED_UTILS_AVAILABLE = True
-        print("✅ Lightweight enhanced utils loaded")
+        print("[OK] Lightweight enhanced utils loaded")
     except ImportError:
-        print("⚠️ Enhanced utils not available, using basic functionality")
+        print("[WARN] Enhanced utils not available, using basic functionality")
         ENHANCED_UTILS_AVAILABLE = False
 
 # Import the appropriate vector store based on backend
@@ -37,7 +40,7 @@ else:
 class SmartEnhancedRAG:
     def __init__(self):
         """Initialize the enhanced RAG system with smart domain detection"""
-        print(f"🔧 Initializing Smart Enhanced RAG with {VECTOR_BACKEND} backend...")
+        print(f" Initializing Smart Enhanced RAG with {VECTOR_BACKEND} backend...")
         
         if VECTOR_BACKEND == 'supabase':
             self.store = SupabaseRestVectorStore()
@@ -45,28 +48,22 @@ class SmartEnhancedRAG:
             try:
                 test_results = self.store.search(embed_texts(["test"])[0], top_k=1)
                 if not test_results:
-                    print("⚠️  Supabase vector store appears empty. You may need to run ingestion.")
+                    print("[WARN]  Supabase vector store appears empty. You may need to run ingestion.")
                 else:
-                    print(f"✅ Supabase vector store connected with existing data")
+                    print(f"[OK] Supabase vector store connected with existing data")
             except Exception as e:
-                print(f"⚠️  Supabase connection issue: {e}")
+                print(f"[WARN]  Supabase connection issue: {e}")
         else:
             self.store = store
             self.store.load()
             if self.store.embeddings is None:
                 raise RuntimeError("Vector store is empty. Please run ingest first.")
-            print(f"✅ Local vector store loaded with {len(self.store.texts)} chunks")
+            print(f"[OK] Local vector store loaded with {len(self.store.texts)} chunks")
         
         # Define relevant keywords for our domain
-        self.domain_keywords = {
-            'dpmptsp', 'perizinan', 'izin', 'investasi', 'jawa tengah', 'central java',
-            'penanaman modal', 'pelayanan terpadu', 'satu pintu', 'provinsi',
-            'gubernur', 'pemerintah', 'kebijakan', 'layanan', 'prosedur',
-            'pendaftaran', 'berkas', 'persyaratan', 'dokumen', 'online',
-            'usaha', 'bisnis', 'perusahaan', 'cv', 'pt', 'umkm', 'startup'
-        }
+        self.domain_keywords = DOMAIN_KEYWORDS
         
-        print(f"✅ Smart Enhanced RAG initialized with {VECTOR_BACKEND} backend")
+        print(f"[OK] Smart Enhanced RAG initialized with {VECTOR_BACKEND} backend")
     
     def is_domain_relevant(self, query: str) -> bool:
         """Check if query is relevant to our domain"""
@@ -170,22 +167,7 @@ class SmartEnhancedRAG:
         
         Pertanyaan: {question}
         
-        Berikan jawaban yang:
-        1. LENGKAP dan DETAIL - jangan potong jawaban di tengah
-        2. Spesifik dan relevan dengan DPMPTSP Jawa Tengah
-        3. Menggunakan bahasa Indonesia yang jelas dan mudah dipahami
-        4. Menyertakan prosedur atau langkah-langkah jika relevan
-        5. Merujuk pada peraturan atau kebijakan yang berlaku
-        6. Pastikan semua informasi penting tersampaikan dengan baik
-        
-        PENTING: Berikan jawaban yang UTUH dan TIDAK TERPOTONG sampai selesai.
-        """
-        
-        llm_result = query_llm(enhanced_prompt, context)
-        answer = llm_result['text'] if isinstance(llm_result, dict) else llm_result
-        answer = self._clean_answer(answer)
-        
-        # Process sources with enhanced scoring info
+        Berikan jawaban yaRAG_PROMPT_TEMPLATE.format(question=question)rocess sources with enhanced scoring info
         sources = self._process_sources_enhanced(final_hits[:5])
         
         response_time = time.time() - start_time

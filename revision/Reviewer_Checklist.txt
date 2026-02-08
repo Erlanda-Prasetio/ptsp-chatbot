@@ -1,0 +1,23 @@
+Reviewer A
+
+Note | Status in Revision | Evidence in the Revised Paper
+----------------------------------------------------------
+Kebaruan/kontribusi MAF-RAG perlu dipertegas secara struktural (vs MAIN-RAG/MADAM) | Addressed | You explicitly contrast MAF-RAG vs MAIN-RAG and MADAM and describe the hierarchical escalation protocol (debate only as tertiary fallback) as the key novelty.
+EVR–VOR belum didefinisikan formal (matematis/algoritmik) | Addressed | Added formal definition of q' (query expansion), hybrid scoring formula (0.7 vector + 0.3 keyword), and explicit filtering threshold (0.35) in Section III-A.
+Pemilihan encoder perlu dikritisi (keterbatasan & bandingkan yg lebih kuat seperti MPNet/E5) | Partially addressed | You added a stronger justification: local deployment + privacy, and you briefly compare to “E5-Large” with a stated latency difference (4.6× slowdown). But there is still no real accuracy/quality comparison experiment, and MPNet/E5 are not evaluated on your dataset—only discussed.
+Dataset kecil untuk klaim generalisasi; perlu diskusi implikasi generalisasi | Not addressed (or very weak) | The revision reiterates “near-deployment” and reports results on 1,100 docs / 150 queries, but does not add a clear limitations/generalization discussion about scale/domain transfer risks.
+Definisi/kriteria evaluasi F1 di konteks RAG belum rinci (ground truth dibuat bagaimana?) | Addressed | Added explanation of "Retrieval-Only Verification Run" (pseudo-ground truth) to Section IV-D. Explained that G is derived from an optimal system pass without generation to avoid API costs, and F1 < 1.0 reflects deviation from this optimal retrieval standard.
+Mekanisme multi-agent debate masih deskriptif; butuh skema algoritmik/pseudocode | Addressed | You added “Algorithm 1: MAF-RAG Debate Protocol” and formalized phases (initial response, aggregation, update) plus a convergence criterion.
+
+
+Reviewer B
+
+Note | Status in Revision | Evidence in the Revised Paper
+----------------------------------------------------------
+Error/failure analysis belum mendalam (jenis pertanyaan apa yang gagal?) | Partially addressed | You added at least one concrete failure insight: the remaining 22% failures mainly come from Procedural queries (7/11) with difficulty synthesizing steps from conflicting regulations. However, it’s still limited (no examples of failed queries, no deeper taxonomy of failure modes, no per-category failure table).
+Trade-off latensi perlu dianalisis secara operasional (signifikan di produksi atau tidak?) | Partially addressed | You now justify latency in operational terms (“cost of misinformation outweighs 0.5s delay” and “correct in 11s over wrong in 10s”). But it still lacks an explicit usability threshold/target SLA (e.g., acceptable chatbot latency range) or user study evidence.
+Baseline sistem perlu dijelaskan lebih rinci (fairness/architecture/specs) | Partially addressed | You added Table II (Escalation Workflows Across System Configurations) and state baselines do not include the Debate phase. But baseline transparency is still incomplete: you don’t fully specify baseline parameters/settings (e.g., k values per phase, reranker existence, identical prompting, identical thresholds, same chunking, same LLM settings, same fallback behavior, etc.).
+Tidak ada uji signifikansi statistik | Addressed | You added “A paired t-test confirms this improvement is statistically significant [p = 0.009].”
+Generalisasi lintas domain belum dibahas | Addressed | Added Section III-D "Cross-Domain Generalization and Modularity" discussing the domain-agnostic architecture and externalized configuration (domain_config.py).
+Arah penelitian lanjutan perlu dipertegas (adaptive agents, dynamic latency control, feedback) | Not addressed | The conclusion emphasizes contributions and results, but does not add a concrete “Future Work” subsection with the suggested directions.
+Kualitas tabel & gambar tidak terbaca | Cannot fully verify from extraction | The DOCX includes embedded figures/images and many tables, but readability/resolution cannot be judged reliably from the extracted text alone.

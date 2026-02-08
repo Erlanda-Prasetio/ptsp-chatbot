@@ -48,12 +48,12 @@ class RetrievalTester:
         self.queries = []
         
         # Load sample queries
-        print(f"📂 Loading sample from: {sample_file}")
+        print(f"[DIR] Loading sample from: {sample_file}")
         with open(sample_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             self.queries = data if isinstance(data, list) else data.get('queries', [])
         
-        print(f"✅ Loaded {len(self.queries)} queries")
+        print(f"[OK] Loaded {len(self.queries)} queries")
         old_count = sum(1 for q in self.queries if q.get('dataset_source') == 'OLD')
         new_count = sum(1 for q in self.queries if q.get('dataset_source') == 'NEW')
         print(f"   Old Dataset: {old_count}")
@@ -64,12 +64,12 @@ class RetrievalTester:
     
     def test_api_connection(self) -> bool:
         """Test if RAG API is reachable"""
-        print(f"🔌 Testing connection to {self.api_url}...")
+        print(f"[CONNECT] Testing connection to {self.api_url}...")
         try:
             response = requests.get(f"{self.api_url}/health", timeout=5)
             if response.status_code == 200:
                 data = response.json()
-                print("✅ API is healthy")
+                print("[OK] API is healthy")
                 print(f"   Backend: {data.get('vector_backend', 'unknown')}")
                 print(f"   Chunks: {data.get('chunks_status', 'unknown')}")
                 print(f"   Hybrid Search: {data.get('hybrid_search_enabled', False)}")
@@ -77,12 +77,12 @@ class RetrievalTester:
                 print()
                 return True
             else:
-                print(f"❌ API returned status {response.status_code}")
+                print(f"[FAIL] API returned status {response.status_code}")
                 return False
         except requests.exceptions.RequestException as e:
-            print(f"❌ Cannot connect to API at {self.api_url}")
+            print(f"[FAIL] Cannot connect to API at {self.api_url}")
             print(f"   Error: {e}")
-            print("\n💡 Make sure rag_api.py is running:")
+            print("\n[INFO] Make sure rag_api.py is running:")
             print("   python rag_api.py")
             return False
     
@@ -190,7 +190,7 @@ class RetrievalTester:
             raise RuntimeError("Cannot connect to RAG API. Start it with: python rag_api.py")
         
         print("=" * 70)
-        print(f"🧪 RETRIEVAL TEST: {output_name}")
+        print(f"[TEST] RETRIEVAL TEST: {output_name}")
         print("=" * 70)
         print()
         
@@ -244,12 +244,12 @@ class RetrievalTester:
             
             if verbose:
                 if result.get('error'):
-                    print(f"   ❌ Error: {result['error']}")
+                    print(f"   [FAIL] Error: {result['error']}")
                 else:
                     prec = result['precision']
                     rec = result['recall']
                     f1 = result['f1_score']
-                    print(f"   ✅ {retrieve_time:.2f}s | {search_method} | P={prec} R={rec} F1={f1}")
+                    print(f"   [OK] {retrieve_time:.2f}s | {search_method} | P={prec} R={rec} F1={f1}")
         
         total_time = time.time() - start_time
         
@@ -275,10 +275,10 @@ class RetrievalTester:
         
         print()
         print("=" * 70)
-        print(f"✅ RETRIEVAL TEST COMPLETE!")
+        print(f"[OK] RETRIEVAL TEST COMPLETE!")
         print("=" * 70)
-        print(f"📁 Results saved to: {output_file}")
-        print(f"⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
+        print(f"[FILE] Results saved to: {output_file}")
+        print(f"[TIME]  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
         print()
         
         return str(output_file)
@@ -334,7 +334,7 @@ def main():
         # CSV mode
         csv_file = args.csv
         if not Path(csv_file).exists():
-            print(f"❌ CSV file not found: {csv_file}")
+            print(f"[FAIL] CSV file not found: {csv_file}")
             sys.exit(1)
         
         run_retrieval_test_csv(csv_file, args.api_url, args.timeout)
@@ -354,7 +354,7 @@ def main():
             
             # Auto-analyze results
             if not args.no_analyze:
-                print("🔍 Running automatic analysis...")
+                print("[SEARCH] Running automatic analysis...")
                 print()
                 subprocess.run([
                     sys.executable,
@@ -363,15 +363,15 @@ def main():
                 ])
         
         except KeyboardInterrupt:
-            print("\n⚠️  Test interrupted by user")
+            print("\n[WARN]  Test interrupted by user")
             sys.exit(1)
         except Exception as e:
-            print(f"\n❌ Test failed: {e}")
+            print(f"\n[FAIL] Test failed: {e}")
             import traceback
             traceback.print_exc()
             sys.exit(1)
     else:
-        print("❌ Please provide either:")
+        print("[FAIL] Please provide either:")
         print("   --csv <path_to_csv>  (for CSV baseline mode)")
         print("   OR")
         print("   --name <test_name> --sample <path_to_json>  (for JSON sample mode)")
@@ -385,38 +385,38 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     """
     print()
     print("=" * 70)
-    print("🧪 RETRIEVAL TEST - CSV MODE")
+    print("[TEST] RETRIEVAL TEST - CSV MODE")
     print("=" * 70)
     print()
     
     # Test API connection
     api_url = api_url.rstrip('/')
-    print(f"🔌 Testing connection to {api_url}...")
+    print(f"[CONNECT] Testing connection to {api_url}...")
     try:
         response = requests.get(f"{api_url}/health", timeout=5)
         if response.status_code != 200:
-            print(f"❌ API returned status {response.status_code}")
+            print(f"[FAIL] API returned status {response.status_code}")
             sys.exit(1)
-        print("✅ API is healthy")
+        print("[OK] API is healthy")
         print()
     except requests.exceptions.RequestException as e:
-        print(f"❌ Cannot connect to API at {api_url}")
+        print(f"[FAIL] Cannot connect to API at {api_url}")
         print(f"   Error: {e}")
-        print("\n💡 Make sure rag_api.py is running: python rag_api.py")
+        print("\n[INFO] Make sure rag_api.py is running: python rag_api.py")
         sys.exit(1)
     
     # Read CSV
-    print(f"📂 Loading CSV from: {csv_file}")
+    print(f"[DIR] Loading CSV from: {csv_file}")
     rows = []
     with open(csv_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         rows = list(reader)
     
-    print(f"✅ Loaded {len(rows)} queries")
+    print(f"[OK] Loaded {len(rows)} queries")
     print()
     
     print("=" * 70)
-    print(f"🔍 RETRIEVING CHUNKS FOR {len(rows)} QUERIES")
+    print(f"[SEARCH] RETRIEVING CHUNKS FOR {len(rows)} QUERIES")
     print("=" * 70)
     print()
     
@@ -473,10 +473,10 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
                     row['retrieval_time_seconds'] = f"{query_time:.2f}"
                 
                 status = f"{search_method} | {query_time:.2f}s | P={precision:.3f}, R={recall:.3f}, F1={f1:.3f}"
-                print(f"   ✅ {status}")
+                print(f"   [OK] {status}")
 
             else:
-                print(f"   ❌ API error {response.status_code}")
+                print(f"   [FAIL] API error {response.status_code}")
                 row['generated_chunks'] = ''
                 row['precision'] = ''
                 row['recall'] = ''
@@ -489,7 +489,7 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
         except Exception as e:
             query_time = time.time() - query_start
             all_retrieval_times.append(query_time)
-            print(f"   ❌ Error: {e}")
+            print(f"   [FAIL] Error: {e}")
             row['generated_chunks'] = ''
             row['precision'] = ''
             row['recall'] = ''
@@ -503,7 +503,7 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     
     print()
     print("=" * 70)
-    print("💾 SAVING RESULTS TO CSV")
+    print("[SAVE] SAVING RESULTS TO CSV")
     print("=" * 70)
     print()
     
@@ -518,15 +518,15 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
         writer.writeheader()
         writer.writerows(rows)
     
-    print(f"✅ Results saved to: {output_csv}")
-    print(f"⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
+    print(f"[OK] Results saved to: {output_csv}")
+    print(f"[TIME]  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
     if all_retrieval_times:
         avg_time = sum(all_retrieval_times) / len(all_retrieval_times)
         max_time = max(all_retrieval_times)
         min_time = min(all_retrieval_times)
-        print(f"⏱️  Avg Retrieval Time: {avg_time:.2f}s")
-        print(f"⏱️  Max Retrieval Time: {max_time:.2f}s")
-        print(f"⏱️  Min Retrieval Time: {min_time:.2f}s")
+        print(f"[TIME]  Avg Retrieval Time: {avg_time:.2f}s")
+        print(f"[TIME]  Max Retrieval Time: {max_time:.2f}s")
+        print(f"[TIME]  Min Retrieval Time: {min_time:.2f}s")
     print()
 
     # Calculate summary statistics
@@ -536,7 +536,7 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     
     if precisions:
         print("=" * 70)
-        print("📊 SUMMARY STATISTICS")
+        print("[STATS] SUMMARY STATISTICS")
         print("=" * 70)
         print(f"Average Precision: {sum(precisions) / len(precisions):.3f}")
         print(f"Average Recall:    {sum(recalls) / len(recalls):.3f}")

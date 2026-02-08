@@ -181,7 +181,7 @@ def calculate_bertscore_confidence(question: str, chunk_contents: List[str]) -> 
 def add_bertscore_to_csv(csv_file: str, output_file: str = None):
     """Add BERTScore confidence metrics to CSV and save"""
     if not os.path.exists(csv_file):
-        print(f"❌ CSV file not found: {csv_file}")
+        print(f"[FAIL] CSV file not found: {csv_file}")
         return
     
     if output_file is None:
@@ -189,8 +189,8 @@ def add_bertscore_to_csv(csv_file: str, output_file: str = None):
         output_file = f"{base}_with_bertscore{ext}"
     
     print()
-    print(f"📊 Adding BERTScore to: {csv_file}")
-    print(f"💾 Output: {output_file}")
+    print(f"[STATS] Adding BERTScore to: {csv_file}")
+    print(f"[SAVE] Output: {output_file}")
     print()
     
     # Read input CSV
@@ -199,7 +199,7 @@ def add_bertscore_to_csv(csv_file: str, output_file: str = None):
         reader = csv.DictReader(f)
         rows = list(reader)
     
-    print(f"✅ Loaded {len(rows)} results")
+    print(f"[OK] Loaded {len(rows)} results")
     print()
     print("=" * 80)
     print("CALCULATING BERTSCORE CONFIDENCE")
@@ -235,7 +235,7 @@ def add_bertscore_to_csv(csv_file: str, output_file: str = None):
             row['bert_max'] = ''
             continue
         
-        print(f"   📈 BERTScore for {len(chunk_contents)} chunks...")
+        print(f"   [METRIC] BERTScore for {len(chunk_contents)} chunks...")
         bert_result = calculate_bertscore_confidence(question, chunk_contents)
         
         row['bert_score'] = bert_result['bert_avg']
@@ -243,14 +243,14 @@ def add_bertscore_to_csv(csv_file: str, output_file: str = None):
         row['bert_max'] = bert_result['bert_max']
         
         if bert_result['bert_avg']:
-            print(f"   ✅ avg={bert_result['bert_avg']:.3f}, max={bert_result['bert_max']:.3f} ({bert_result['bert_level']})")
+            print(f"   [OK] avg={bert_result['bert_avg']:.3f}, max={bert_result['bert_max']:.3f} ({bert_result['bert_level']})")
         else:
-            print(f"   ⚠️  {bert_result['bert_level']}")
+            print(f"   [WARN]  {bert_result['bert_level']}")
     
     elapsed = time.time() - start_time
     print()
     print("=" * 80)
-    print(f"⏱️  Complete in {elapsed:.1f}s")
+    print(f"[TIME]  Complete in {elapsed:.1f}s")
     print("=" * 80)
     print()
     
@@ -270,9 +270,9 @@ def add_bertscore_to_csv(csv_file: str, output_file: str = None):
             writer.writeheader()
             writer.writerows(rows)
         
-        print(f"✅ Saved to: {output_file}")
+        print(f"[OK] Saved to: {output_file}")
     else:
-        print("❌ No results to save")
+        print("[FAIL] No results to save")
 
 
 def analyze_retrieval_test(results_data: Dict):
@@ -283,7 +283,7 @@ def analyze_retrieval_test(results_data: Dict):
     total_time = results_data.get('total_time_seconds', 0)
     
     if not results:
-        print("❌ No results to analyze")
+        print("[FAIL] No results to analyze")
         return
     
     # Calculate aggregate metrics
@@ -438,7 +438,7 @@ def analyze_retrieval_test(results_data: Dict):
     fallback_pct = (internet_fallback / total_queries * 100) if total_queries > 0 else 0
     print(f"   Internet Fallback: {internet_fallback}/{total_queries} ({fallback_pct:.1f}%)")
     if fallback_pct > 30:
-        print(f"   ℹ️  Note: Internet fallback returns non-local chunks, zero precision is expected")
+        print(f"   ℹ  Note: Internet fallback returns non-local chunks, zero precision is expected")
     print()
     
     # Worst performing queries
@@ -450,7 +450,7 @@ def analyze_retrieval_test(results_data: Dict):
             question = r.get('question', '')[:50]
             f1 = r.get('f1_score', 0)
             method = r.get('search_method', '?')
-            fallback_tag = " [🌐 FALLBACK]" if method == 'internet_fallback' else ""
+            fallback_tag = " [ FALLBACK]" if method == 'internet_fallback' else ""
             print(f"   {i}. [{q_id}] F1={f1:.3f} ({method}){fallback_tag}: {question}...")
         print()
         
@@ -461,7 +461,7 @@ def analyze_retrieval_test(results_data: Dict):
             question = r.get('question', '')[:50]
             f1 = r.get('f1_score', 0)
             method = r.get('search_method', '?')
-            fallback_tag = " [🌐 FALLBACK]" if method == 'internet_fallback' else ""
+            fallback_tag = " [ FALLBACK]" if method == 'internet_fallback' else ""
             print(f"   {i}. [{q_id}] F1={f1:.3f} ({method}){fallback_tag}: {question}...")
         print()
     
@@ -507,19 +507,19 @@ def main():
     results_file = args.results_file
     
     if not Path(results_file).exists():
-        print(f"❌ File not found: {results_file}")
+        print(f"[FAIL] File not found: {results_file}")
         sys.exit(1)
     
     # If add-bertscore flag, run that instead
     if args.add_bertscore:
         if not results_file.endswith('.csv'):
-            print("❌ --add-bertscore requires a CSV file")
+            print("[FAIL] --add-bertscore requires a CSV file")
             sys.exit(1)
         add_bertscore_to_csv(results_file, args.output)
         return
     
     # Otherwise, analyze and display
-    print(f"📁 Loaded results from: {results_file}")
+    print(f"[FILE] Loaded results from: {results_file}")
     results_data = load_results(results_file)
     
     analyze_retrieval_test(results_data)

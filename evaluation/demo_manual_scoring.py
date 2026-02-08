@@ -16,10 +16,10 @@ def demo_manual_scoring():
     results = data['results']
     
     print("=" * 80)
-    print("🎯 DEMO: MANUAL SCORING (2 Questions)")
+    print("[TARGET] DEMO: MANUAL SCORING (2 Questions)")
     print("=" * 80)
     print()
-    print("📋 INSTRUCTIONS:")
+    print(" INSTRUCTIONS:")
     print("   - Read the QUESTION and SYSTEM ANSWER")
     print("   - Type 'y' if the answer is correct/helpful")
     print("   - Type 'n' if the answer is wrong/unhelpful")
@@ -33,13 +33,13 @@ def demo_manual_scoring():
     
     for i, result in enumerate(results, 1):
         print(f"\n{'=' * 80}")
-        print(f"📝 QUESTION {i}/2: {result['test_id']}")
+        print(f" QUESTION {i}/2: {result['test_id']}")
         print(f"{'=' * 80}\n")
         
-        print(f"❓ QUESTION:")
+        print(f" QUESTION:")
         print(f"   {result['query']}\n")
         
-        print(f"✅ SYSTEM ANSWER:")
+        print(f"[OK] SYSTEM ANSWER:")
         # Show first 500 chars + ellipsis
         answer = result['answer']
         if len(answer) > 500:
@@ -49,7 +49,7 @@ def demo_manual_scoring():
             print(f"   {answer}")
         print()
         
-        print(f"📊 METADATA:")
+        print(f"[STATS] METADATA:")
         print(f"   Source: {result['source_type']} dataset")
         print(f"   Category: {result['category']}")
         print(f"   Response Time: {result['response_time']:.2f}s")
@@ -61,14 +61,14 @@ def demo_manual_scoring():
         
         # Get user input
         while True:
-            user_input = input("👉 Is this answer CORRECT? (y/n): ").strip().lower()
+            user_input = input(" Is this answer CORRECT? (y/n): ").strip().lower()
             if user_input in ['y', 'n']:
                 is_correct = 1 if user_input == 'y' else 0
                 break
-            print("   ⚠️  Please enter 'y' or 'n'")
+            print("   [WARN]  Please enter 'y' or 'n'")
         
         # Optional: Get notes
-        notes = input("📝 Any notes? (press Enter to skip): ").strip()
+        notes = input(" Any notes? (press Enter to skip): ").strip()
         
         # Store result with truncated answer for CSV/notebook readability
         # 80 chars max, remove newlines, cut at word boundary
@@ -97,9 +97,9 @@ def demo_manual_scoring():
             'scorer': 'user'
         })
         
-        print(f"\n✅ Scored as: {'CORRECT ✓' if is_correct else 'WRONG ✗'}")
+        print(f"\n[OK] Scored as: {'CORRECT ' if is_correct else 'WRONG '}")
         if notes:
-            print(f"📝 Notes: {notes}")
+            print(f" Notes: {notes}")
     
     # Save to CSV
     output_file = 'evaluation/demo_scored_results.csv'
@@ -111,7 +111,7 @@ def demo_manual_scoring():
     
     print()
     print("=" * 80)
-    print("📊 SCORING COMPLETE!")
+    print("[STATS] SCORING COMPLETE!")
     print("=" * 80)
     print()
     
@@ -123,9 +123,9 @@ def demo_manual_scoring():
     avg_tokens = sum(r['total_tokens'] for r in scored_data) / total
     avg_confidence = sum(r['confidence_score'] for r in scored_data) / total
     
-    print(f"✅ Results saved to: {output_file}")
+    print(f"[OK] Results saved to: {output_file}")
     print()
-    print(f"📈 SUMMARY:")
+    print(f"[METRIC] SUMMARY:")
     print(f"   Total Questions: {total}")
     print(f"   Correct Answers: {correct}")
     print(f"   Accuracy: {accuracy:.1f}%")
@@ -149,7 +149,7 @@ def demo_manual_scoring():
     print()
     print("=" * 80)
     print()
-    print("🎯 NEXT STEPS:")
+    print("[TARGET] NEXT STEPS:")
     print("   1. Open demo_scored_results.csv to see the data")
     print("   2. When ready, run the full 50-question evaluation:")
     print("      python evaluation/run_balanced_evaluation.py --name baseline_old_dataset")

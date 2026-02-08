@@ -27,4 +27,4 @@ class HybridRAGSystem_OLD(HybridRAGSystem):
         # Call parent initialization which will use documents_old
         super().__init__()
         
-        print("✅ HybridRAGSystem_OLD initialized for documents_old table")
+        print("[OK] HybridRAGSystem_OLD initialized for documents_old table")

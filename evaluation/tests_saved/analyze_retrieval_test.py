@@ -73,7 +73,7 @@ def analyze_retrieval_test(results_data: Dict):
     total_time = results_data.get('total_time_seconds', 0)
     
     if not results:
-        print("❌ No results to analyze")
+        print("[FAIL] No results to analyze")
         return
     
     # Calculate aggregate metrics
@@ -204,7 +204,7 @@ def analyze_retrieval_test(results_data: Dict):
     fallback_pct = (internet_fallback / total_queries * 100) if total_queries > 0 else 0
     print(f"   Internet Fallback: {internet_fallback}/{total_queries} ({fallback_pct:.1f}%)")
     if fallback_pct > 30:
-        print(f"   ℹ️  Note: Internet fallback returns non-local chunks, zero precision is expected")
+        print(f"   ℹ  Note: Internet fallback returns non-local chunks, zero precision is expected")
     print()
     
     # Worst performing queries
@@ -216,7 +216,7 @@ def analyze_retrieval_test(results_data: Dict):
             question = r.get('question', '')[:50]
             f1 = r.get('f1_score', 0)
             method = r.get('search_method', '?')
-            fallback_tag = " [🌐 FALLBACK]" if method == 'internet_fallback' else ""
+            fallback_tag = " [ FALLBACK]" if method == 'internet_fallback' else ""
             print(f"   {i}. [{q_id}] F1={f1:.3f} ({method}){fallback_tag}: {question}...")
         print()
         
@@ -227,7 +227,7 @@ def analyze_retrieval_test(results_data: Dict):
             question = r.get('question', '')[:50]
             f1 = r.get('f1_score', 0)
             method = r.get('search_method', '?')
-            fallback_tag = " [🌐 FALLBACK]" if method == 'internet_fallback' else ""
+            fallback_tag = " [ FALLBACK]" if method == 'internet_fallback' else ""
             print(f"   {i}. [{q_id}] F1={f1:.3f} ({method}){fallback_tag}: {question}...")
         print()
     
@@ -254,10 +254,10 @@ def main():
     results_file = sys.argv[1]
     
     if not Path(results_file).exists():
-        print(f"❌ File not found: {results_file}")
+        print(f"[FAIL] File not found: {results_file}")
         sys.exit(1)
     
-    print(f"📁 Loaded results from: {results_file}")
+    print(f"[FILE] Loaded results from: {results_file}")
     results_data = load_results(results_file)
     
     analyze_retrieval_test(results_data)

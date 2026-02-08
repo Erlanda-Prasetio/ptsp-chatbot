@@ -18,7 +18,7 @@ def analyze_search_methods(results):
     total = len(results['results'])
     
     print("\n" + "="*80)
-    print("🔍 SEARCH METHOD DISTRIBUTION")
+    print("[SEARCH] SEARCH METHOD DISTRIBUTION")
     print("="*80)
     
     for method, count in methods.most_common():
@@ -33,7 +33,7 @@ def analyze_by_dataset_source(results):
     new_queries = [r for r in results['results'] if r.get('dataset_source') == 'NEW']
     
     print("\n" + "="*80)
-    print("📊 PERFORMANCE BY QUESTION SOURCE")
+    print("[STATS] PERFORMANCE BY QUESTION SOURCE")
     print("="*80)
     
     for name, queries in [("OLD Questions", old_queries), ("NEW Questions", new_queries)]:
@@ -59,7 +59,7 @@ def analyze_by_category(results):
         by_category[category].append(r)
     
     print("\n" + "="*80)
-    print("📂 PERFORMANCE BY CATEGORY")
+    print("[DIR] PERFORMANCE BY CATEGORY")
     print("="*80)
     
     print(f"\n{'Category':<15} {'Total':<8} {'Fallback':<12} {'Vector':<12} {'Avg Conf'}")
@@ -77,7 +77,7 @@ def analyze_by_category(results):
 def analyze_confidence_distribution(results):
     """Analyze confidence score distribution."""
     print("\n" + "="*80)
-    print("📈 CONFIDENCE SCORE DISTRIBUTION")
+    print("[METRIC] CONFIDENCE SCORE DISTRIBUTION")
     print("="*80)
     
     # Separate by search method
@@ -106,7 +106,7 @@ def analyze_confidence_distribution(results):
         print("\n  Distribution:")
         for bin_range, count in bins.items():
             pct = count/len(vector_conf)*100 if vector_conf else 0
-            bar = '█' * int(pct / 2)
+            bar = '' * int(pct / 2)
             print(f"    {bin_range}: {count:2} queries ({pct:4.1f}%) {bar}")
 
 def analyze_fallback_queries(results):
@@ -115,7 +115,7 @@ def analyze_fallback_queries(results):
                         if r.get('search_method') == 'internet_fallback']
     
     print("\n" + "="*80)
-    print(f"🌐 INTERNET FALLBACK QUERIES ({len(fallback_queries)} queries)")
+    print(f" INTERNET FALLBACK QUERIES ({len(fallback_queries)} queries)")
     print("="*80)
     
     for r in fallback_queries:
@@ -135,7 +135,7 @@ def analyze_high_confidence_matches(results):
     high_conf = [r for r in vector_queries if r.get('confidence_score', 0) >= 0.80]
     
     print("\n" + "="*80)
-    print(f"⭐ HIGH CONFIDENCE MATCHES (≥0.80) - {len(high_conf)} queries")
+    print(f" HIGH CONFIDENCE MATCHES (≥0.80) - {len(high_conf)} queries")
     print("="*80)
     
     for r in sorted(high_conf, key=lambda x: x.get('confidence_score', 0), reverse=True):
@@ -152,11 +152,11 @@ def compare_with_baseline(cleaned_results, baseline_path='evaluation/raw_results
     try:
         baseline = load_results(baseline_path)
     except FileNotFoundError:
-        print("\n⚠️  Baseline file not found, skipping comparison")
+        print("\n[WARN]  Baseline file not found, skipping comparison")
         return
     
     print("\n" + "="*80)
-    print("📊 COMPARISON WITH BASELINE")
+    print("[STATS] COMPARISON WITH BASELINE")
     print("="*80)
     
     # Match queries by eval_id
@@ -192,11 +192,11 @@ def compare_with_baseline(cleaned_results, baseline_path='evaluation/raw_results
                 'new': c_method
             })
     
-    print(f"\n✅ Improvements (Fallback → Vector): {len(improvements)} queries")
+    print(f"\n[OK] Improvements (Fallback → Vector): {len(improvements)} queries")
     for imp in improvements:
         print(f"  {imp['eval_id']}: {imp['query'][:50]}... (conf={imp['conf']:.3f})")
     
-    print(f"\n❌ Regressions (Vector → Fallback): {len(regressions)} queries")
+    print(f"\n[FAIL] Regressions (Vector → Fallback): {len(regressions)} queries")
     for reg in regressions:
         print(f"  {reg['eval_id']}: {reg['query'][:50]}...")
     
@@ -204,14 +204,14 @@ def compare_with_baseline(cleaned_results, baseline_path='evaluation/raw_results
     b_fallback = sum(1 for r in baseline['results'] if r.get('search_method') == 'internet_fallback')
     c_fallback = sum(1 for r in cleaned_results['results'] if r.get('search_method') == 'internet_fallback')
     
-    print(f"\n📈 Overall Change:")
+    print(f"\n[METRIC] Overall Change:")
     print(f"  Baseline Fallback:  {b_fallback}/50 = {b_fallback/50*100:.1f}%")
     print(f"  Cleaned Fallback:   {c_fallback}/49 = {c_fallback/49*100:.1f}%")
     print(f"  Net Improvement:    {b_fallback - c_fallback:+d} queries ({(c_fallback-b_fallback)/50*100:+.1f}%)")
 
 def main():
     print("\n" + "="*80)
-    print("📊 EXPERIMENT 2 - CLEANED DATASET ANALYSIS")
+    print("[STATS] EXPERIMENT 2 - CLEANED DATASET ANALYSIS")
     print("="*80)
     
     # Load results
@@ -221,12 +221,12 @@ def main():
     metadata = results.get('metadata', {})
     stats = metadata.get('summary_statistics', {})
     
-    print(f"\n📝 Experiment: {metadata.get('experiment_name', 'N/A')}")
-    print(f"📅 Date: {metadata.get('evaluation_date', 'N/A')}")
-    print(f"✅ Successful: {metadata.get('successful_queries', 0)}/{metadata.get('total_queries', 0)}")
-    print(f"❌ Failed: {metadata.get('failed_queries', 0)}")
-    print(f"⏱️  Avg Response Time: {stats.get('avg_response_time', 0):.2f}s")
-    print(f"🎯 Avg Confidence: {stats.get('avg_confidence', 0):.3f}")
+    print(f"\n Experiment: {metadata.get('experiment_name', 'N/A')}")
+    print(f" Date: {metadata.get('evaluation_date', 'N/A')}")
+    print(f"[OK] Successful: {metadata.get('successful_queries', 0)}/{metadata.get('total_queries', 0)}")
+    print(f"[FAIL] Failed: {metadata.get('failed_queries', 0)}")
+    print(f"[TIME]  Avg Response Time: {stats.get('avg_response_time', 0):.2f}s")
+    print(f"[TARGET] Avg Confidence: {stats.get('avg_confidence', 0):.3f}")
     
     # Run analyses
     analyze_search_methods(results)
@@ -238,7 +238,7 @@ def main():
     compare_with_baseline(results)
     
     print("\n" + "="*80)
-    print("✅ Analysis Complete!")
+    print("[OK] Analysis Complete!")
     print("="*80 + "\n")
 
 if __name__ == '__main__':

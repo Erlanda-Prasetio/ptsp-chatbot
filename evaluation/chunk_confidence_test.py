@@ -30,7 +30,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY") or os.getenv("SUPABASE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    print("❌ ERROR: SUPABASE_URL and SUPABASE_SERVICE_KEY not found in .env")
+    print("[FAIL] ERROR: SUPABASE_URL and SUPABASE_SERVICE_KEY not found in .env")
     sys.exit(1)
 
 from supabase import create_client
@@ -84,7 +84,7 @@ def get_top_chunks(supabase, table_name: str, query_text: str, limit: int = 5):
         return chunks
         
     except Exception as e:
-        print(f"   ❌ Error querying {table_name}: {e}")
+        print(f"   [FAIL] Error querying {table_name}: {e}")
         return []
 
 
@@ -96,17 +96,17 @@ def run_chunk_confidence_test():
     print("="*70 + "\n")
     
     # Connect to Supabase
-    print("🔌 Connecting to Supabase...")
+    print("[CONNECT] Connecting to Supabase...")
     supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
     
     # Load template CSV
     template_path = Path('evaluation') / 'old_dataset_retrieval_test_template.csv'
     
     if not template_path.exists():
-        print(f"❌ ERROR: {template_path} not found!")
+        print(f"[FAIL] ERROR: {template_path} not found!")
         return False
     
-    print(f"📂 Loading template from: {template_path}\n")
+    print(f"[DIR] Loading template from: {template_path}\n")
     
     # Read CSV and process each question
     questions = []
@@ -116,10 +116,10 @@ def run_chunk_confidence_test():
             for row in reader:
                 questions.append(row)
         
-        print(f"✅ Loaded {len(questions)} questions\n")
+        print(f"[OK] Loaded {len(questions)} questions\n")
         
         # Process each question
-        print("🔍 Running chunk confidence test...\n")
+        print("[SEARCH] Running chunk confidence test...\n")
         
         for idx, question_row in enumerate(questions, 1):
             query_id = question_row.get('query_id', '')
@@ -154,7 +154,7 @@ def run_chunk_confidence_test():
                 chunk_ids = [cid for cid in chunk_ids if cid and cid.strip()]
                 
                 if chunk_ids:
-                    print(f"   ✅ Found {len(chunk_ids)} chunks: {', '.join(chunk_ids[:3])}...")
+                    print(f"   [OK] Found {len(chunk_ids)} chunks: {', '.join(chunk_ids[:3])}...")
                 
                 # Update the row with chunk IDs
                 question_row['retrieved_chunks'] = ','.join(chunk_ids)
@@ -164,12 +164,12 @@ def run_chunk_confidence_test():
                 question_row['chunk4_id'] = chunk_ids[3] if len(chunk_ids) > 3 else ''
                 question_row['chunk5_id'] = chunk_ids[4] if len(chunk_ids) > 4 else ''
             else:
-                print(f"   ⚠️  No chunks found for this question")
+                print(f"   [WARN]  No chunks found for this question")
         
         # Save updated CSV
         output_path = Path('evaluation') / 'old_dataset_retrieval_test_template.csv'
         
-        print(f"\n📝 Saving updated CSV to: {output_path}...")
+        print(f"\n Saving updated CSV to: {output_path}...")
         
         with open(output_path, 'w', newline='', encoding='utf-8') as f:
             if questions:
@@ -178,10 +178,10 @@ def run_chunk_confidence_test():
                 writer.writeheader()
                 writer.writerows(questions)
         
-        print(f"   ✅ Saved {len(questions)} rows\n")
+        print(f"   [OK] Saved {len(questions)} rows\n")
         
         # Print summary
-        print("📊 Summary:")
+        print("[STATS] Summary:")
         print(f"   Total Questions: {len(questions)}")
         old_questions = sum(1 for q in questions if q.get('dataset_source') == 'OLD')
         new_questions = sum(1 for q in questions if q.get('dataset_source') == 'NEW')
@@ -194,7 +194,7 @@ def run_chunk_confidence_test():
         return True
         
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"[FAIL] Error: {e}")
         import traceback
         traceback.print_exc()
         return False
@@ -204,8 +204,8 @@ if __name__ == "__main__":
     success = run_chunk_confidence_test()
     
     if success:
-        print("✅ Chunk confidence test complete!\n")
+        print("[OK] Chunk confidence test complete!\n")
         print("Next step: Run retrieval test with populated CSV")
     else:
-        print("❌ Chunk confidence test failed!\n")
+        print("[FAIL] Chunk confidence test failed!\n")
         sys.exit(1)

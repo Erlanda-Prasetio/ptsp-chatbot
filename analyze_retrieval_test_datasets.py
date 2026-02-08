@@ -38,7 +38,7 @@ def parse_csv_results(filepath: str) -> Tuple[List[Dict[str, Any]], Dict[str, An
     """Parse retrieval test CSV results"""
     
     if not os.path.exists(filepath):
-        print(f"❌ File not found: {filepath}")
+        print(f"[FAIL] File not found: {filepath}")
         return [], {}
     
     results = []
@@ -63,14 +63,14 @@ def parse_csv_results(filepath: str) -> Tuple[List[Dict[str, Any]], Dict[str, An
                     }
                     results.append(result)
                 except ValueError as e:
-                    print(f"⚠️  Skipping malformed row: {e}")
+                    print(f"[WARN]  Skipping malformed row: {e}")
                     continue
         
-        print(f"✅ Loaded {len(results)} results from {filepath}")
+        print(f"[OK] Loaded {len(results)} results from {filepath}")
         return results, {}
         
     except Exception as e:
-        print(f"❌ Error parsing CSV: {e}")
+        print(f"[FAIL] Error parsing CSV: {e}")
         return [], {}
 
 
@@ -235,7 +235,7 @@ def print_problem_queries(datasets_stats: Dict[str, Dict[str, Any]]):
                     print(f"      Notes: {result['notes']}")
     
     if not has_problems:
-        print("\n✅ No problem queries found (all zero precision are from fallback)")
+        print("\n[OK] No problem queries found (all zero precision are from fallback)")
     
     print("="*100)
 
@@ -283,7 +283,7 @@ def main():
     else:
         # Find latest for each dataset
         for dataset in args.datasets:
-            print(f"\n🔍 Looking for latest results for {dataset}...")
+            print(f"\n[SEARCH] Looking for latest results for {dataset}...")
             csv_file = find_latest_results(dataset, args.results_dir)
             
             if csv_file:
@@ -292,10 +292,10 @@ def main():
                     stats = calculate_statistics(results)
                     datasets_stats[dataset] = stats
             else:
-                print(f"⚠️  No results found for {dataset}")
+                print(f"[WARN]  No results found for {dataset}")
     
     if not datasets_stats:
-        print("❌ No datasets loaded")
+        print("[FAIL] No datasets loaded")
         return
     
     # Print comparisons
@@ -314,7 +314,7 @@ def main():
         
         json.dump(summary, f, indent=2, ensure_ascii=False)
     
-    print(f"\n💾 Summary saved: {summary_file}")
+    print(f"\n[SAVE] Summary saved: {summary_file}")
 
 
 if __name__ == "__main__":

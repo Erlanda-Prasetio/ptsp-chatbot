@@ -19,20 +19,20 @@ def enrich_chunk_preview():
         results = json.load(f)
     
     # Initialize Supabase
-    print("🔗 Connecting to Supabase...")
+    print(" Connecting to Supabase...")
     store = SupabaseRestVectorStore()
-    print("✅ Connected!\n")
+    print("[OK] Connected!\n")
     
     # Get all chunks once (more efficient)
-    print("📥 Fetching all chunks from Supabase...")
+    print(" Fetching all chunks from Supabase...")
     all_chunks = store.get_all_chunks()
     chunk_map = {chunk['id']: chunk for chunk in all_chunks}
-    print(f"✅ Loaded {len(chunk_map)} chunks\n")
+    print(f"[OK] Loaded {len(chunk_map)} chunks\n")
     
     # Enrich each question
     enriched_results = {}
     for query_id, data in results.items():
-        print(f"🔍 {query_id}: {data['query'][:60]}...")
+        print(f"[SEARCH] {query_id}: {data['query'][:60]}...")
         
         chunk_ids = data['retrieved_chunk_ids']
         chunks = []
@@ -47,7 +47,7 @@ def enrich_chunk_preview():
                     'full_text': text  # Full text for reference
                 })
             else:
-                print(f"  ⚠️  Chunk {chunk_id} not found")
+                print(f"  [WARN]  Chunk {chunk_id} not found")
                 chunks.append({
                     'chunk_id': chunk_id,
                     'text': '[Chunk not found]',
@@ -66,9 +66,9 @@ def enrich_chunk_preview():
     with open(enriched_file, 'w', encoding='utf-8') as f:
         json.dump(enriched_results, f, indent=2, ensure_ascii=False)
     
-    print(f"\n✅ Enriched results saved to: {enriched_file}")
-    print(f"📋 Now you can see the actual text for each chunk!")
-    print(f"💡 Use this to identify relevant chunks for ground_truth_template.csv")
+    print(f"\n[OK] Enriched results saved to: {enriched_file}")
+    print(f" Now you can see the actual text for each chunk!")
+    print(f"[INFO] Use this to identify relevant chunks for ground_truth_template.csv")
 
 
 if __name__ == "__main__":

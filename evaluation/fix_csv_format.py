@@ -14,7 +14,7 @@ def fix_csv_format():
     # Backup original file
     import shutil
     shutil.copy(input_file, backup_file)
-    print(f"✅ Backup created: {backup_file}")
+    print(f"[OK] Backup created: {backup_file}")
     
     rows = []
     
@@ -116,7 +116,7 @@ def fix_csv_format():
             print(f"  chunks: {chunk_ids_str}")
             print(f"  notes: {notes[:30] if notes else '(empty)'}")
     
-    print(f"\n✅ Parsed {len(rows)} data rows")
+    print(f"\n[OK] Parsed {len(rows)} data rows")
     
     # Write properly formatted CSV
     with open(output_file, 'w', encoding='utf-8', newline='') as f:
@@ -125,14 +125,14 @@ def fix_csv_format():
         writer.writeheader()
         writer.writerows(rows)
     
-    print(f"✅ Fixed CSV written to: {output_file}")
+    print(f"[OK] Fixed CSV written to: {output_file}")
     
     # Verify
     with open(output_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         verified_rows = list(reader)
     
-    print(f"✅ Verified: {len(verified_rows)} rows in output file")
+    print(f"[OK] Verified: {len(verified_rows)} rows in output file")
     
     # Show sample
     if verified_rows:
@@ -147,6 +147,6 @@ def fix_csv_format():
 if __name__ == '__main__':
     count = fix_csv_format()
     if count == 50:
-        print(f"\n🎉 SUCCESS! All 50 questions successfully reformatted")
+        print(f"\n SUCCESS! All 50 questions successfully reformatted")
     else:
-        print(f"\n⚠️  Warning: Expected 50 rows, got {count}")
+        print(f"\n[WARN]  Warning: Expected 50 rows, got {count}")

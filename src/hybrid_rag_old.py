@@ -31,4 +31,4 @@ class SmartEnhancedRAG_OLD(SmartEnhancedRAG):
         # Ensure environment variable is set before parent init
         os.environ['PG_TABLE'] = 'documents_old'
         super().__init__()
-        print("✅ SmartEnhancedRAG_OLD initialized for documents_old table")
+        print("[OK] SmartEnhancedRAG_OLD initialized for documents_old table")

@@ -20,18 +20,18 @@ if USE_LOCAL_EMBEDDINGS:
             model_name = EMB_MODEL if EMB_MODEL.startswith("sentence-transformers/") else "sentence-transformers/all-MiniLM-L6-v2"
             model_name = model_name.replace("sentence-transformers/", "")
             
-            # Initialize model with CUDA if available
-            # Force CPU mode for stability (CUDA error workaround)
-            device = 'cpu'  # 'cuda' if torch.cuda.is_available() else 'cpu'
-            print(f"🔥 Loading embedding model on: {device} (forced CPU mode)")
+            # Initialize model with CUDA if available (RTX 3070 GPU enabled)
+            device = 'cuda' if torch.cuda.is_available() else 'cpu'
+            print(f" Loading embedding model on: {device}")
             
             _model = SentenceTransformer(model_name, device=device)
             
             if torch.cuda.is_available():
-                print(f"🚀 GPU Model loaded: {model_name}")
-                print(f"📊 GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
+                print(f"[START] GPU Model loaded: {model_name}")
+                print(f"[STATS] GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
+                print(f"[STATS] GPU Name: {torch.cuda.get_device_name(0)}")
             else:
-                print(f"💻 CPU Model loaded: {model_name}")
+                print(f" CPU Model loaded: {model_name}")
                 
         return _model
 
@@ -77,19 +77,19 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
                 return [d["embedding"] for d in data]
             except requests.exceptions.HTTPError as e:
                 status_code = e.response.status_code if e.response else 0
-                print(f"❌ Embedding API error {status_code}: {e}")
+                print(f"[FAIL] Embedding API error {status_code}: {e}")
                 
                 if status_code == 429:  # Rate limit
                     print(f"⏳ Rate limit hit (429), waiting {rate_limit_delay}s before retry...")
                     time.sleep(rate_limit_delay)
                 elif status_code >= 500:
-                    print("🔧 Server error, retrying...")
+                    print(" Server error, retrying...")
                     if attempt < max_retries - 1:
                         time.sleep(base_delay * (2 ** attempt))
                 else:
                     raise  # Don't retry client errors
             except Exception as e:
-                print(f"❌ Embedding error on attempt {attempt + 1}: {e}")
+                print(f"[FAIL] Embedding error on attempt {attempt + 1}: {e}")
                 if attempt < max_retries - 1:
                     time.sleep(base_delay * (2 ** attempt))
                 else:

@@ -82,7 +82,7 @@ def query_llm(question: str, context: str):
         elapsed_since_last = time.time() - _last_request_time
         if elapsed_since_last < _min_request_interval:
             wait_time = _min_request_interval - elapsed_since_last
-            print(f"⏱️  Rate limit throttle: waiting {wait_time:.1f}s...")
+            print(f"[TIME]  Rate limit throttle: waiting {wait_time:.1f}s...")
             time.sleep(wait_time)
         _last_request_time = time.time()
     
@@ -99,7 +99,7 @@ def query_llm(question: str, context: str):
     for attempt in range(max_retries):
         try:
             api_name = "Groq" if USE_GROQ else "OpenRouter"
-            print(f"🤖 Attempting {api_name} API call (attempt {attempt + 1}/{max_retries})")
+            print(f" Attempting {api_name} API call (attempt {attempt + 1}/{max_retries})")
             
             r = requests.post(CHAT_URL, headers=HEADERS, json={
                 "model": GEN_MODEL,
@@ -123,8 +123,8 @@ def query_llm(question: str, context: str):
             usage = response_json.get('usage', {})
             model_used = response_json.get('model', GEN_MODEL)
             
-            print(f"✅ {api_name} API call successful")
-            print(f"📊 Tokens: {usage.get('total_tokens', 0)} (prompt: {usage.get('prompt_tokens', 0)}, completion: {usage.get('completion_tokens', 0)})")
+            print(f"[OK] {api_name} API call successful")
+            print(f"[STATS] Tokens: {usage.get('total_tokens', 0)} (prompt: {usage.get('prompt_tokens', 0)}, completion: {usage.get('completion_tokens', 0)})")
             
             return {
                 'text': response_text,
@@ -135,15 +135,15 @@ def query_llm(question: str, context: str):
         except requests.exceptions.HTTPError as e:
             status_code = e.response.status_code if e.response else 0
             api_name = "Groq" if USE_GROQ else "OpenRouter"
-            print(f"❌ HTTP error {status_code}: {e}")
+            print(f"[FAIL] HTTP error {status_code}: {e}")
             
             if status_code == 503:  # Service Unavailable
-                print(f"🔄 {api_name} service temporarily unavailable")
+                print(f" {api_name} service temporarily unavailable")
             elif status_code == 429:  # Rate limit
                 print(f"⏳ Rate limit hit (429), waiting {rate_limit_delay}s before retry...")
                 time.sleep(rate_limit_delay)
             elif status_code >= 500:  # Server errors
-                print("🔧 Server error, retrying...")
+                print(" Server error, retrying...")
             else:
                 # Client errors (4xx) - don't retry
                 return _generate_fallback_response(question, context, f"API error: {status_code}")
@@ -152,10 +152,10 @@ def query_llm(question: str, context: str):
             print(f"⏰ Request timeout on attempt {attempt + 1}")
             
         except requests.exceptions.ConnectionError:
-            print(f"🌐 Connection error on attempt {attempt + 1}")
+            print(f" Connection error on attempt {attempt + 1}")
             
         except Exception as e:
-            print(f"❌ Unexpected error on attempt {attempt + 1}: {e}")
+            print(f"[FAIL] Unexpected error on attempt {attempt + 1}: {e}")
         
         # Wait before retrying (exponential backoff with longer delays)
         if attempt < max_retries - 1:
@@ -166,7 +166,7 @@ def query_llm(question: str, context: str):
     
     # All retries failed - generate fallback response
     api_name = "Groq" if USE_GROQ else "OpenRouter"
-    print(f"💔 All {api_name} retry attempts failed, generating fallback response")
+    print(f" All {api_name} retry attempts failed, generating fallback response")
     return _generate_fallback_response(question, context, "Service temporarily unavailable")
 
 

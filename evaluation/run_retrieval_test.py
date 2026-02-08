@@ -42,7 +42,7 @@ try:
     from bert_score import score as bert_score
     BERTSCORE_AVAILABLE = True
 except ImportError:
-    print("⚠️  BERTScore not available. Install with: pip install bert-score")
+    print("[WARN]  BERTScore not available. Install with: pip install bert-score")
     BERTSCORE_AVAILABLE = False
 
 # Supabase for chunk content retrieval
@@ -147,12 +147,12 @@ class RetrievalTester:
         self.queries = []
         
         # Load sample queries
-        print(f"📂 Loading sample from: {sample_file}")
+        print(f"[DIR] Loading sample from: {sample_file}")
         with open(sample_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             self.queries = data if isinstance(data, list) else data.get('queries', [])
         
-        print(f"✅ Loaded {len(self.queries)} queries")
+        print(f"[OK] Loaded {len(self.queries)} queries")
         old_count = sum(1 for q in self.queries if q.get('dataset_source') == 'OLD')
         new_count = sum(1 for q in self.queries if q.get('dataset_source') == 'NEW')
         print(f"   Old Dataset: {old_count}")
@@ -163,12 +163,12 @@ class RetrievalTester:
     
     def test_api_connection(self) -> bool:
         """Test if RAG API is reachable"""
-        print(f"🔌 Testing connection to {self.api_url}...")
+        print(f"[CONNECT] Testing connection to {self.api_url}...")
         try:
             response = requests.get(f"{self.api_url}/health", timeout=5)
             if response.status_code == 200:
                 data = response.json()
-                print("✅ API is healthy")
+                print("[OK] API is healthy")
                 print(f"   Backend: {data.get('vector_backend', 'unknown')}")
                 print(f"   Chunks: {data.get('chunks_status', 'unknown')}")
                 print(f"   Hybrid Search: {data.get('hybrid_search_enabled', False)}")
@@ -176,12 +176,12 @@ class RetrievalTester:
                 print()
                 return True
             else:
-                print(f"❌ API returned status {response.status_code}")
+                print(f"[FAIL] API returned status {response.status_code}")
                 return False
         except requests.exceptions.RequestException as e:
-            print(f"❌ Cannot connect to API at {self.api_url}")
+            print(f"[FAIL] Cannot connect to API at {self.api_url}")
             print(f"   Error: {e}")
-            print("\n💡 Make sure rag_api.py is running:")
+            print("\n[INFO] Make sure rag_api.py is running:")
             print("   python rag_api.py")
             return False
     
@@ -289,7 +289,7 @@ class RetrievalTester:
             raise RuntimeError("Cannot connect to RAG API. Start it with: python rag_api.py")
         
         print("=" * 70)
-        print(f"🧪 RETRIEVAL TEST: {output_name}")
+        print(f"[TEST] RETRIEVAL TEST: {output_name}")
         print("=" * 70)
         print()
         
@@ -343,12 +343,12 @@ class RetrievalTester:
             
             if verbose:
                 if result.get('error'):
-                    print(f"   ❌ Error: {result['error']}")
+                    print(f"   [FAIL] Error: {result['error']}")
                 else:
                     prec = result['precision']
                     rec = result['recall']
                     f1 = result['f1_score']
-                    print(f"   ✅ {retrieve_time:.2f}s | {search_method} | P={prec} R={rec} F1={f1}")
+                    print(f"   [OK] {retrieve_time:.2f}s | {search_method} | P={prec} R={rec} F1={f1}")
         
         total_time = time.time() - start_time
         
@@ -374,10 +374,10 @@ class RetrievalTester:
         
         print()
         print("=" * 70)
-        print(f"✅ RETRIEVAL TEST COMPLETE!")
+        print(f"[OK] RETRIEVAL TEST COMPLETE!")
         print("=" * 70)
-        print(f"📁 Results saved to: {output_file}")
-        print(f"⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
+        print(f"[FILE] Results saved to: {output_file}")
+        print(f"[TIME]  Total time: {total_time:.1f}s ({total_time/60:.1f} min)")
         print()
         
         return str(output_file)
@@ -433,7 +433,7 @@ def main():
         # CSV mode
         csv_file = args.csv
         if not Path(csv_file).exists():
-            print(f"❌ CSV file not found: {csv_file}")
+            print(f"[FAIL] CSV file not found: {csv_file}")
             sys.exit(1)
         
         run_retrieval_test_csv(csv_file, args.api_url, args.timeout)
@@ -453,7 +453,7 @@ def main():
             
             # Auto-analyze results
             if not args.no_analyze:
-                print("🔍 Running automatic analysis...")
+                print("[SEARCH] Running automatic analysis...")
                 print()
                 subprocess.run([
                     sys.executable,
@@ -462,15 +462,15 @@ def main():
                 ])
         
         except KeyboardInterrupt:
-            print("\n⚠️  Test interrupted by user")
+            print("\n[WARN]  Test interrupted by user")
             sys.exit(1)
         except Exception as e:
-            print(f"\n❌ Test failed: {e}")
+            print(f"\n[FAIL] Test failed: {e}")
             import traceback
             traceback.print_exc()
             sys.exit(1)
     else:
-        print("❌ Please provide either:")
+        print("[FAIL] Please provide either:")
         print("   --csv <path_to_csv>  (for CSV baseline mode)")
         print("   OR")
         print("   --name <test_name> --sample <path_to_json>  (for JSON sample mode)")
@@ -678,7 +678,7 @@ def run_retrieval_test_csv(csv_file: str, api_url: str = "http://localhost:8001"
     
     if precisions:
         print("=" * 70)
-        print("📊 SUMMARY STATISTICS")
+        print("[STATS] SUMMARY STATISTICS")
         print("=" * 70)
         print(f"Average Precision: {sum(precisions) / len(precisions):.3f}")
         print(f"Average Recall:    {sum(recalls) / len(recalls):.3f}")

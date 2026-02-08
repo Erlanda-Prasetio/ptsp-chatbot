@@ -137,7 +137,7 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
     # Round 1
     records["round1"] = {"answers": [], "explanations": []}
     logger.info(f"\nROUND 1 - Initial Agent Responses")
-    logger.info(f"{'─'*80}")
+    logger.info(f"{''*80}")
     
     round1_start = time.time()
     for i, doc in enumerate(documents):
@@ -158,16 +158,16 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
         logger.info(f"     [OK] Agent response received ({agent_elapsed:.2f}s)")
         logger.info(f"     Answer: {answer[:100]}..." if len(answer) > 100 else f"     Answer: {answer}")
         
-        # Rate limit protection: 8s gap between agent calls
-        if i < len(documents) - 1:
-            logger.info(f"     [WAIT] 8s gap between agents...")
-            time.sleep(8)
+        # Rate limit protection removed for timing evaluation
+        # if i < len(documents) - 1:
+        #     logger.info(f"     [WAIT] 8s gap between agents...")
+        #     time.sleep(8)
     
     # Aggregation for Round 1
     logger.info(f"\n  Round 1 Aggregation")
     agg_start = time.time()
-    logger.info(f"     [WAIT] 5s gap before aggregation...")
-    time.sleep(5)
+    # logger.info(f"     [WAIT] 5s gap before aggregation...")
+    # time.sleep(5)
     
     logger.info(f"     [WORK] Aggregating {len(agent_outputs)} agent responses...")
     records["round1"]["aggregation"] = aggregate_responses(query, agent_outputs, generator)
@@ -184,14 +184,14 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
     for t in range(1, num_rounds):
         round_key = f"round{t+1}"
         logger.info(f"\n{round_key.upper()} - Iterative Refinement")
-        logger.info(f"{'─'*80}")
+        logger.info(f"{''*80}")
         
         records[round_key] = {"answers": [], "explanations": []}
         new_outputs = []
         
-        # 10s gap before starting new round
-        logger.info(f"  [WAIT] 10s gap before {round_key}...")
-        time.sleep(10)
+        # 10s gap removed for timing evaluation
+        # logger.info(f"  [WAIT] 10s gap before {round_key}...")
+        # time.sleep(10)
         
         round_start = time.time()
         for i, doc in enumerate(documents):
@@ -212,10 +212,10 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
             logger.info(f"     [OK] Agent response received ({agent_elapsed:.2f}s)")
             logger.info(f"     Answer: {answer[:100]}..." if len(answer) > 100 else f"     Answer: {answer}")
             
-            # 8s gap between agent calls in subsequent rounds
-            if i < len(documents) - 1:
-                logger.info(f"     [WAIT] 8s gap between agents...")
-                time.sleep(8)
+            # 8s gap removed for timing evaluation
+            # if i < len(documents) - 1:
+            #     logger.info(f"     [WAIT] 8s gap between agents...")
+            #     time.sleep(8)
         
         agent_outputs = new_outputs
         
@@ -238,8 +238,8 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
         
         logger.info(f"\n  {round_key.upper()} Aggregation")
         agg_start = time.time()
-        logger.info(f"     [WAIT] 5s gap before aggregation...")
-        time.sleep(5)
+        # logger.info(f"     [WAIT] 5s gap before aggregation...")
+        # time.sleep(5)
         
         logger.info(f"     [WORK] Aggregating {len(new_outputs)} agent responses...")
         records[round_key]["aggregation"] = aggregate_responses(query, agent_outputs, generator)

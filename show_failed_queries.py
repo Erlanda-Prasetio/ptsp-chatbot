@@ -12,7 +12,7 @@ with open('evaluation/retrieval_test_madam_results.csv', 'r', encoding='utf-8') 
             failed.append(row)
 
 print('='*100)
-print('❌ FAILED RETRIEVAL QUERIES DETAIL (F1 = 0.0)')
+print('[FAIL] FAILED RETRIEVAL QUERIES DETAIL (F1 = 0.0)')
 print('='*100)
 print()
 

@@ -1,0 +1,91 @@
+
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; font-weight: bold; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            caption { font-weight: bold; margin-bottom: 10px; text-align: left; }
+        </style>
+    </head>
+    <body>
+    <caption>TABLE II-B: DETAILED SYSTEM CONFIGURATION PARAMETERS</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Legacy</th>
+      <th>Enhanced</th>
+      <th>MAF-RAG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dataset Quality</td>
+      <td>Outdated/noisy</td>
+      <td>Cleaned</td>
+      <td>Cleaned</td>
+    </tr>
+    <tr>
+      <td>Embedding Model</td>
+      <td>all-MiniLM-L6-v2</td>
+      <td>all-MiniLM-L6-v2</td>
+      <td>all-MiniLM-L6-v2</td>
+    </tr>
+    <tr>
+      <td>Chunk Size</td>
+      <td>1,200 chars</td>
+      <td>1,200 chars</td>
+      <td>1,200 chars</td>
+    </tr>
+    <tr>
+      <td>Chunk Overlap</td>
+      <td>200 chars</td>
+      <td>200 chars</td>
+      <td>200 chars</td>
+    </tr>
+    <tr>
+      <td>VOR k / Threshold</td>
+      <td>12 / 0.75</td>
+      <td>12 / 0.75</td>
+      <td>12 / 0.75</td>
+    </tr>
+    <tr>
+      <td>EVR k / Threshold</td>
+      <td>24 / 0.60</td>
+      <td>24 / 0.60</td>
+      <td>24 / 0.60</td>
+    </tr>
+    <tr>
+      <td>Hybrid Score α</td>
+      <td>0.7</td>
+      <td>0.7</td>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <td>Debate Phase</td>
+      <td>No</td>
+      <td>No</td>
+      <td>Yes (k=4, r_max=3)</td>
+    </tr>
+    <tr>
+      <td>LLM Model</td>
+      <td>Llama-3.3-70B</td>
+      <td>Llama-3.3-70B</td>
+      <td>Llama-3.3-70B</td>
+    </tr>
+    <tr>
+      <td>Max Tokens</td>
+      <td>8,000</td>
+      <td>8,000</td>
+      <td>8,000</td>
+    </tr>
+    <tr>
+      <td>Temperature</td>
+      <td>0.6</td>
+      <td>0.6</td>
+      <td>0.6</td>
+    </tr>
+  </tbody>
+</table></body></html>

@@ -1,0 +1,266 @@
+
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; font-weight: bold; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            caption { font-weight: bold; margin-bottom: 10px; text-align: left; }
+        </style>
+    </head>
+    <body>
+    <h1>Manuscript Tables</h1>
+    <caption>TABLE I: CONFIDENCE SCORE THRESHOLDS AND PHASE ESCALATION LOGIC</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Confidence Threshold</th>
+      <th>Action If Met</th>
+      <th>Action If Not Met</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VOR</td>
+      <td>≥ 0.75</td>
+      <td>Accept and return result</td>
+      <td>Escalate to EVR</td>
+    </tr>
+    <tr>
+      <td>EVR</td>
+      <td>≥ 0.60</td>
+      <td>Accept and return result</td>
+      <td>Escalate to MAF-RAG</td>
+    </tr>
+    <tr>
+      <td>MAF-RAG</td>
+      <td>≥ 0.65</td>
+      <td>Accept if result not "unknown"</td>
+      <td>Escalate to Internet-Fallback</td>
+    </tr>
+    <tr>
+      <td>Internet-Fallback</td>
+      <td>≥ 0.55</td>
+      <td>Always accept if results found</td>
+      <td>Return failure message</td>
+    </tr>
+  </tbody>
+</table><caption>TABLE II: ESCALATION WORKFLOWS ACROSS SYSTEM CONFIGURATIONS</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Configuration</th>
+      <th>Dataset</th>
+      <th>Pipeline Sequence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Legacy Baseline</td>
+      <td>Old (Noisy)</td>
+      <td>VOR → EVR → Internet Fallback</td>
+    </tr>
+    <tr>
+      <td>Enhanced Baseline</td>
+      <td>New (Clean)</td>
+      <td>VOR → EVR → Internet Fallback</td>
+    </tr>
+    <tr>
+      <td>MAF-RAG</td>
+      <td>New (Clean)</td>
+      <td>VOR → EVR → Debate → Internet Fallback</td>
+    </tr>
+  </tbody>
+</table><caption>TABLE III: BASELINE PERFORMANCE COMPARISON BASED ON DATASETS QUALITY</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>Legacy</th>
+      <th>Enhanced</th>
+      <th>Improvement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Avg F1-Score</td>
+      <td>0.327</td>
+      <td>0.468</td>
+      <td>+43.1%</td>
+    </tr>
+    <tr>
+      <td>F1=1.0 Retrieval</td>
+      <td>16 (32.7%)</td>
+      <td>18 (36.7%)</td>
+      <td>+12.5%</td>
+    </tr>
+    <tr>
+      <td>Success Rate</td>
+      <td>34.0%</td>
+      <td>62.0%</td>
+      <td>+82.5%</td>
+    </tr>
+    <tr>
+      <td>Failed Retrieval</td>
+      <td>33 (66.0%)</td>
+      <td>19 (38.0%)</td>
+      <td>-42.4%</td>
+    </tr>
+  </tbody>
+</table><caption>TABLE IV: OVERALL SYSTEM RETRIEVAL PERFORMANCE COMPARISON</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>Legacy</th>
+      <th>Enhanced</th>
+      <th>MAF-RAG</th>
+      <th>Δ (MAF vs Enhanced)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Avg F1-Score</td>
+      <td>0.327</td>
+      <td>0.468</td>
+      <td>0.556</td>
+      <td>+18.8%</td>
+    </tr>
+    <tr>
+      <td>F1=1.0 Retrieval</td>
+      <td>16 (32.7%)</td>
+      <td>18 (36.7%)</td>
+      <td>19 (39.8%)</td>
+      <td>+5.4%</td>
+    </tr>
+    <tr>
+      <td>Success Rate</td>
+      <td>34.0%</td>
+      <td>62.0%</td>
+      <td>78.0%</td>
+      <td>+26%</td>
+    </tr>
+    <tr>
+      <td>Failed Retrieval</td>
+      <td>33 (66.0%)</td>
+      <td>19 (38.0%)</td>
+      <td>11 (22.0%)</td>
+      <td>-42.1%</td>
+    </tr>
+    <tr>
+      <td>Avg.Time (s)</td>
+      <td>14.5696</td>
+      <td>11.0838</td>
+      <td>11.6270</td>
+      <td>+4.9%</td>
+    </tr>
+  </tbody>
+</table><caption>TABLE V: PHASE UTILIZATION ACROSS ALL THREE SYSTEM</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Retrieval Phase</th>
+      <th>Legacy</th>
+      <th>Enhanced</th>
+      <th>MAF-RAG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EVR</td>
+      <td>20.0%</td>
+      <td>14.0%</td>
+      <td>38.0%</td>
+    </tr>
+    <tr>
+      <td>VOR</td>
+      <td>14.0%</td>
+      <td>30.0%</td>
+      <td>30.0%</td>
+    </tr>
+    <tr>
+      <td>MAF-RAG</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>30.0%</td>
+    </tr>
+    <tr>
+      <td>Internet Fallback</td>
+      <td>66.0%</td>
+      <td>38.0%</td>
+      <td>2%</td>
+    </tr>
+  </tbody>
+</table><caption>TABLE VI: MAF-RAG INTERNAL PHASE PERFORMANCE</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Retrieval Phase</th>
+      <th>Queries</th>
+      <th>% of Total</th>
+      <th>Mean F1</th>
+      <th>F1 = 1.0</th>
+      <th>Success Rate</th>
+      <th>Failed Rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EVR</td>
+      <td>19</td>
+      <td>38.0%</td>
+      <td>0.737</td>
+      <td>11</td>
+      <td>89.5%</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>VOR</td>
+      <td>15</td>
+      <td>30.0%</td>
+      <td>0.627</td>
+      <td>6</td>
+      <td>93.3%</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MAF-RAG</td>
+      <td>16</td>
+      <td>32.0%</td>
+      <td>0.275</td>
+      <td>2</td>
+      <td>50.0%</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table><caption>TABLE VII: FAILURE ANALYSIS BY SEMANTIC CATEGORY</caption><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Category</th>
+      <th>Failures</th>
+      <th>% of Total Failures</th>
+      <th>Failure Rate within Category</th>
+      <th>Primary Cause</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Procedure</td>
+      <td>7</td>
+      <td>63.6%</td>
+      <td>29.2% (7/24)</td>
+      <td>Multi-step synthesis complexity</td>
+    </tr>
+    <tr>
+      <td>Licensing</td>
+      <td>3</td>
+      <td>27.3%</td>
+      <td>60.0% (3/5)</td>
+      <td>Ambiguous regulatory definitions</td>
+    </tr>
+    <tr>
+      <td>General</td>
+      <td>1</td>
+      <td>9.1%</td>
+      <td>14.3% (1/7)</td>
+      <td>Specific administrative entity lookup</td>
+    </tr>
+  </tbody>
+</table></body></html>

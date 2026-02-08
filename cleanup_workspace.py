@@ -151,14 +151,14 @@ def safe_delete(path: Path):
     try:
         if path.is_file():
             path.unlink()
-            print(f"✅ Deleted file: {path.name}")
+            print(f"[OK] Deleted file: {path.name}")
         elif path.is_dir():
             shutil.rmtree(path)
-            print(f"✅ Deleted directory: {path.name}")
+            print(f"[OK] Deleted directory: {path.name}")
         else:
-            print(f"⚠️  Not found: {path.name}")
+            print(f"[WARN]  Not found: {path.name}")
     except Exception as e:
-        print(f"❌ Error deleting {path.name}: {e}")
+        print(f"[FAIL] Error deleting {path.name}: {e}")
 
 
 def clean_pycache(directory: Path):
@@ -167,37 +167,37 @@ def clean_pycache(directory: Path):
     if pycache_dir.exists():
         try:
             shutil.rmtree(pycache_dir)
-            print(f"✅ Cleaned __pycache__ in {directory}")
+            print(f"[OK] Cleaned __pycache__ in {directory}")
         except Exception as e:
-            print(f"❌ Error cleaning __pycache__ in {directory}: {e}")
+            print(f"[FAIL] Error cleaning __pycache__ in {directory}: {e}")
 
 
 def main():
-    print("🧹 Starting workspace cleanup...")
-    print(f"📁 Base directory: {BASE_DIR}")
+    print(" Starting workspace cleanup...")
+    print(f"[FILE] Base directory: {BASE_DIR}")
     print("=" * 60)
     
     # Ask for confirmation
-    print("\n⚠️  This will delete the following types of files:")
+    print("\n[WARN]  This will delete the following types of files:")
     print("  - Test files")
     print("  - Duplicate implementations")
     print("  - Outdated documentation")
     print("  - Log files")
     print("  - Unused deployment configs")
-    print("\n✅ This will keep:")
+    print("\n[OK] This will keep:")
     print("  - src/ (core backend code)")
     print("  - ptsp_mobile_app/ (mobile frontend)")
     print("  - rag_api.py (main API)")
     print("  - .env, requirements.txt, README.md")
     print("  - Docker, nginx, deployment configs (main)")
     
-    response = input("\n❓ Proceed with cleanup? (yes/no): ").strip().lower()
+    response = input("\n Proceed with cleanup? (yes/no): ").strip().lower()
     
     if response != "yes":
-        print("❌ Cleanup cancelled")
+        print("[FAIL] Cleanup cancelled")
         return
     
-    print("\n🗑️  Deleting unnecessary files...")
+    print("\n[DELETE]  Deleting unnecessary files...")
     print("-" * 60)
     
     deleted_count = 0
@@ -211,7 +211,7 @@ def main():
         else:
             skipped_count += 1
     
-    print("\n🧹 Cleaning __pycache__ directories...")
+    print("\n Cleaning __pycache__ directories...")
     print("-" * 60)
     
     for directory in CLEAN_PYCACHE:
@@ -220,10 +220,10 @@ def main():
             clean_pycache(dir_path)
     
     print("\n" + "=" * 60)
-    print(f"✅ Cleanup complete!")
+    print(f"[OK] Cleanup complete!")
     print(f"   Deleted: {deleted_count} items")
     print(f"   Skipped (not found): {skipped_count} items")
-    print(f"\n📂 Your workspace now contains only essential files:")
+    print(f"\n[DIR] Your workspace now contains only essential files:")
     print(f"   - Backend: src/, rag_api.py")
     print(f"   - Frontend: ptsp_mobile_app/")
     print(f"   - Config: .env, requirements.txt, docker-compose.yml")

@@ -63,7 +63,7 @@ for i, row in enumerate(rows):
             row[f'chunk{j}_id'] = chunk_id
         
         populated += 1
-        print(f"[{i+1:2d}] ✅ Populated {len(chunks)} chunks: {', '.join(chunks[:3])}")
+        print(f"[{i+1:2d}] [OK] Populated {len(chunks)} chunks: {', '.join(chunks[:3])}")
 
 print()
 print(f"Populated {populated} rows")
@@ -76,6 +76,6 @@ with open(csv_path, 'w', encoding='utf-8', newline='') as f:
     writer.writeheader()
     writer.writerows(rows)
 
-print(f"✅ Saved updated CSV to {csv_path}")
+print(f"[OK] Saved updated CSV to {csv_path}")
 print()
 print("Now the retrieval test CSV has all chunk IDs populated and ready for use.")

@@ -29,10 +29,10 @@ def analyze_old_dataset_baseline():
     csv_file = Path('evaluation') / 'retrieval_test_result.csv'
     
     if not csv_file.exists():
-        print(f"❌ ERROR: {csv_file} not found!")
+        print(f"[FAIL] ERROR: {csv_file} not found!")
         return False
     
-    print(f"� Loading retrieval test results from: {csv_file}")
+    print(f" Loading retrieval test results from: {csv_file}")
     
     # Parse CSV
     old_results = []
@@ -45,14 +45,14 @@ def analyze_old_dataset_baseline():
                 if row.get('dataset_source') == 'OLD':
                     old_results.append(row)
         
-        print(f"   ✅ Loaded {len(old_results)} OLD dataset query results\n")
+        print(f"   [OK] Loaded {len(old_results)} OLD dataset query results\n")
         
         if len(old_results) == 0:
-            print("❌ No OLD dataset results found in CSV!")
+            print("[FAIL] No OLD dataset results found in CSV!")
             return False
         
         # Analyze results
-        print("🔍 Analyzing results...\n")
+        print("[SEARCH] Analyzing results...\n")
         
         # Initialize tracking
         analysis_data = []
@@ -119,7 +119,7 @@ def analyze_old_dataset_baseline():
         # Export to CSV
         csv_output = Path('evaluation') / 'old_dataset_baseline.csv'
         
-        print(f"📝 Exporting to {csv_output}...")
+        print(f" Exporting to {csv_output}...")
         
         with open(csv_output, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=[
@@ -130,10 +130,10 @@ def analyze_old_dataset_baseline():
             writer.writeheader()
             writer.writerows(analysis_data)
         
-        print(f"   ✅ Exported {len(analysis_data)} records\n")
+        print(f"   [OK] Exported {len(analysis_data)} records\n")
         
         # Calculate summary statistics
-        print("📈 Summary Statistics:")
+        print("[METRIC] Summary Statistics:")
         print(f"   Total Queries: {metrics['total_queries']}")
         
         avg_precision = sum(metrics['precision_scores']) / len(metrics['precision_scores']) if metrics['precision_scores'] else 0
@@ -198,13 +198,13 @@ def analyze_old_dataset_baseline():
         with open(summary_path, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2)
         
-        print(f"\n📄 Summary saved to: {summary_path}")
-        print(f"📄 CSV saved to: {csv_output}\n")
+        print(f"\n Summary saved to: {summary_path}")
+        print(f" CSV saved to: {csv_output}\n")
         
         return True
         
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"[FAIL] Error: {e}")
         import traceback
         traceback.print_exc()
         return False
@@ -214,7 +214,7 @@ if __name__ == "__main__":
     success = analyze_old_dataset_baseline()
     
     if success:
-        print("✅ Analysis complete!\n")
+        print("[OK] Analysis complete!\n")
     else:
-        print("❌ Analysis failed!\n")
+        print("[FAIL] Analysis failed!\n")
         sys.exit(1)

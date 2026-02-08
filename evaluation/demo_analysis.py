@@ -17,13 +17,13 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
     
     # Load data
     df = pd.read_csv(csv_file)
-    print(f"\n📊 Loaded {len(df)} scored results\n")
+    print(f"\n[STATS] Loaded {len(df)} scored results\n")
     
     # ============================================================================
     # 1. ACCURACY CALCULATION
     # ============================================================================
     print("="*70)
-    print("📈 ACCURACY METRICS")
+    print("[METRIC] ACCURACY METRICS")
     print("="*70)
     print("NOTE: Dataset (vector store) is OLD. Questions are mixed (OLD-related + NEW-related)")
     print("      This is BASELINE testing to show what's missing in OLD dataset.")
@@ -57,7 +57,7 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
     # 2. PRECISION, RECALL, F1 ESTIMATION
     # ============================================================================
     print("\n" + "="*70)
-    print("📊 PRECISION, RECALL, F1 (Estimated)")
+    print("[STATS] PRECISION, RECALL, F1 (Estimated)")
     print("="*70)
     print("Note: Without ground_truth chunks, we estimate based on system metrics")
     print()
@@ -80,7 +80,7 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
     # 3. PERFORMANCE SUMMARY
     # ============================================================================
     print("\n" + "="*70)
-    print("⚡ PERFORMANCE SUMMARY")
+    print(" PERFORMANCE SUMMARY")
     print("="*70)
     
     metrics_summary = df.groupby('dataset_source').agg({
@@ -100,7 +100,7 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
     # 4. CONFIDENT WRONG ANALYSIS
     # ============================================================================
     print("\n" + "="*70)
-    print("⚠️  CONFIDENT WRONG ANALYSIS")
+    print("[WARN]  CONFIDENT WRONG ANALYSIS")
     print("="*70)
     
     df['confident_wrong'] = (df['confidence_score'] > 0.6) & (df['is_correct'] == 0)
@@ -118,7 +118,7 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
     # 5. CREATE GRAPHS
     # ============================================================================
     print("\n" + "="*70)
-    print("📊 GENERATING GRAPHS...")
+    print("[STATS] GENERATING GRAPHS...")
     print("="*70)
     
     # Create figure with subplots
@@ -200,14 +200,14 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
     
     plt.tight_layout()
     plt.savefig('evaluation/demo_analysis_graphs.png', dpi=150, bbox_inches='tight')
-    print("\n✅ Graphs saved to: evaluation/demo_analysis_graphs.png")
+    print("\n[OK] Graphs saved to: evaluation/demo_analysis_graphs.png")
     plt.show()
     
     # ============================================================================
     # 6. FINAL SUMMARY
     # ============================================================================
     print("\n" + "="*70)
-    print("📋 FINAL SUMMARY")
+    print(" FINAL SUMMARY")
     print("="*70)
     print(f"Overall Accuracy: {accuracy:.2%}")
     print(f"Avg Confidence: {df['confidence_score'].mean():.4f}")
@@ -222,7 +222,7 @@ def analyze_results(csv_file='evaluation/demo_scored_results.csv'):
 
 if __name__ == "__main__":
     print("\n" + "="*70)
-    print("🎯 RAG EVALUATION ANALYSIS - BASELINE (OLD DATASET)")
+    print("[TARGET] RAG EVALUATION ANALYSIS - BASELINE (OLD DATASET)")
     print("="*70)
     print("BASELINE: Testing OLD dataset with mixed questions")
     print("  - OLD questions: Should work (answerable with old docs)")
@@ -231,7 +231,7 @@ if __name__ == "__main__":
     
     df, metrics = analyze_results()
     
-    print("\n✅ Analysis complete! Check the graphs above.")
-    print("\n💡 After updating to NEW dataset, run again to compare:")
+    print("\n[OK] Analysis complete! Check the graphs above.")
+    print("\n[INFO] After updating to NEW dataset, run again to compare:")
     print("   python evaluation/demo_analysis.py")
     print("   (Update csv_file path to new scored results)")

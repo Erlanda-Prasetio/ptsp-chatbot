@@ -34,7 +34,7 @@ def analyze_generative_test(results_data: Dict):
     delay_seconds = results_data.get('delay_seconds', 0)
     
     if not results:
-        print("❌ No results to analyze")
+        print("[FAIL] No results to analyze")
         return
     
     # Calculate aggregate metrics
@@ -128,7 +128,7 @@ def analyze_generative_test(results_data: Dict):
         for level in ['great', 'good', 'marginal', 'not_confident']:
             count = confidence_dist.get(level, 0)
             pct = (count / bertscore_available * 100) if bertscore_available > 0 else 0
-            emoji = "🟢" if level == "great" else "🟡" if level == "good" else "🟠" if level == "marginal" else "🔴"
+            emoji = "🟢" if level == "great" else "🟡" if level == "good" else "🟠" if level == "marginal" else ""
             threshold = "≥0.7" if level == "great" else "0.6-0.7" if level == "good" else "0.5-0.6" if level == "marginal" else "<0.5"
             print(f"      {emoji} {level:15s} ({threshold:8s}): {count:3d} ({pct:5.1f}%)")
         print()
@@ -218,7 +218,7 @@ def analyze_generative_test(results_data: Dict):
         print(f"Manual Scoring: Pending")
     print("=" * 70)
     print()
-    print("📝 Next Steps:")
+    print(" Next Steps:")
     if not manually_scored:
         print(f"   1. Run manual scoring: python evaluation/manual_scoring.py --file raw_results/{results_data.get('test_name', 'test')}.json")
     print(f"   2. Review answers in: evaluation/raw_results/{results_data.get('test_name', 'test')}.json")
@@ -233,10 +233,10 @@ def main():
     results_file = sys.argv[1]
     
     if not Path(results_file).exists():
-        print(f"❌ File not found: {results_file}")
+        print(f"[FAIL] File not found: {results_file}")
         sys.exit(1)
     
-    print(f"📁 Loaded results from: {results_file}")
+    print(f"[FILE] Loaded results from: {results_file}")
     results_data = load_results(results_file)
     
     analyze_generative_test(results_data)

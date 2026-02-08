@@ -22,7 +22,7 @@ def test_rag_api(api_url: str = "http://localhost:8001"):
     """Test RAG API with 2 sample questions"""
     
     print("\n" + "="*70)
-    print("🧪 QUICK RAG SYSTEM TEST (2 Questions)")
+    print("[TEST] QUICK RAG SYSTEM TEST (2 Questions)")
     print("="*70 + "\n")
     
     # Test questions (1 OLD, 1 NEW)
@@ -44,26 +44,26 @@ def test_rag_api(api_url: str = "http://localhost:8001"):
     ]
     
     # Test connection first
-    print("🔌 Testing API connection...")
+    print("[CONNECT] Testing API connection...")
     try:
         response = requests.get(f"{api_url}/health", timeout=5)
         if response.status_code == 200:
             health = response.json()
-            print(f"✅ API is running")
+            print(f"[OK] API is running")
             print(f"   Backend: {health.get('backend', 'unknown')}")
             print(f"   Status: {health.get('status', 'unknown')}")
             print(f"   Database Chunks: {health.get('database_chunks', 'unknown')}")
             print(f"   Hybrid Search: {health.get('hybrid_search', False)}")
             print()
         else:
-            print(f"❌ API returned status {response.status_code}")
+            print(f"[FAIL] API returned status {response.status_code}")
             return
     except requests.exceptions.ConnectionError:
-        print(f"❌ Cannot connect to API at {api_url}")
+        print(f"[FAIL] Cannot connect to API at {api_url}")
         print(f"   Make sure rag_api.py is running!")
         return
     except Exception as e:
-        print(f"❌ Connection test failed: {e}")
+        print(f"[FAIL] Connection test failed: {e}")
         return
     
     # Test each question
@@ -71,13 +71,13 @@ def test_rag_api(api_url: str = "http://localhost:8001"):
     
     for i, test in enumerate(test_questions, 1):
         print(f"{'='*70}")
-        print(f"📝 TEST {i}/2: {test['id']} ({test['source']} - {test['category']})")
+        print(f" TEST {i}/2: {test['id']} ({test['source']} - {test['category']})")
         print(f"{'='*70}\n")
         
-        print(f"❓ QUESTION:")
+        print(f" QUESTION:")
         print(f"   {test['query']}\n")
         
-        print(f"🎯 EXPECTED:")
+        print(f"[TARGET] EXPECTED:")
         print(f"   {test['expected']}\n")
         
         # Measure response time
@@ -102,28 +102,28 @@ def test_rag_api(api_url: str = "http://localhost:8001"):
                 enhanced = data.get('enhanced_features', {})
                 
                 # Display results
-                print(f"✅ SYSTEM ANSWER:")
+                print(f"[OK] SYSTEM ANSWER:")
                 print(f"   {answer[:300]}...")
                 print()
                 
-                print(f"📊 METRICS:")
-                print(f"   ⏱️  Response Time: {response_time:.2f}s")
-                print(f"   🤖 Model: {enhanced.get('model', 'unknown')}")
-                print(f"   🎯 Confidence: {enhanced.get('confidence_score', 0):.2f}")
-                print(f"   🔍 Search Method: {enhanced.get('search_method', 'unknown')}")
-                print(f"   📚 Sources Retrieved: {len(sources)}")
+                print(f"[STATS] METRICS:")
+                print(f"   [TIME]  Response Time: {response_time:.2f}s")
+                print(f"    Model: {enhanced.get('model', 'unknown')}")
+                print(f"   [TARGET] Confidence: {enhanced.get('confidence_score', 0):.2f}")
+                print(f"   [SEARCH] Search Method: {enhanced.get('search_method', 'unknown')}")
+                print(f"    Sources Retrieved: {len(sources)}")
                 
                 usage = enhanced.get('usage', {})
                 if isinstance(usage, dict):
                     total = usage.get('total_tokens', 0)
                     prompt = usage.get('prompt_tokens', 0)
                     completion = usage.get('completion_tokens', 0)
-                    print(f"   🔤 Tokens: {total} ({prompt} prompt + {completion} completion)")
+                    print(f"    Tokens: {total} ({prompt} prompt + {completion} completion)")
                 
                 print()
                 
                 if sources:
-                    print(f"📖 SOURCES:")
+                    print(f" SOURCES:")
                     for j, src in enumerate(sources[:3], 1):
                         # Try different source formats (vector vs internet)
                         metadata = src.get('metadata', {})
@@ -153,36 +153,36 @@ def test_rag_api(api_url: str = "http://localhost:8001"):
                     "timestamp": datetime.now().isoformat()
                 })
                 
-                print(f"✅ Test {i}/2 PASSED\n")
+                print(f"[OK] Test {i}/2 PASSED\n")
                 
             else:
-                print(f"❌ API Error: {response.status_code}")
+                print(f"[FAIL] API Error: {response.status_code}")
                 print(f"   {response.text[:200]}\n")
                 
         except requests.exceptions.Timeout:
-            print(f"❌ Request timeout (>60s)\n")
+            print(f"[FAIL] Request timeout (>60s)\n")
         except Exception as e:
-            print(f"❌ Error: {e}\n")
+            print(f"[FAIL] Error: {e}\n")
     
     # Summary
     print("="*70)
-    print("📊 TEST SUMMARY")
+    print("[STATS] TEST SUMMARY")
     print("="*70 + "\n")
     
     if len(results) == 2:
-        print("✅ ALL TESTS PASSED!\n")
+        print("[OK] ALL TESTS PASSED!\n")
         
         avg_time = sum(r['response_time'] for r in results) / len(results)
         avg_conf = sum(r['confidence'] for r in results) / len(results)
         avg_tokens = sum(r['total_tokens'] for r in results) / len(results)
         
-        print(f"📈 AVERAGE METRICS:")
+        print(f"[METRIC] AVERAGE METRICS:")
         print(f"   Response Time: {avg_time:.2f}s")
         print(f"   Confidence: {avg_conf:.2f}")
         print(f"   Tokens/Query: {avg_tokens:.0f}")
         print()
         
-        print("🎯 NEXT STEPS:")
+        print("[TARGET] NEXT STEPS:")
         print("   1. Review the answers above - do they look good?")
         print("   2. If yes, run full evaluation with 50 questions:")
         print("      python evaluation/run_balanced_evaluation.py --name baseline_old_dataset")
@@ -204,10 +204,10 @@ def test_rag_api(api_url: str = "http://localhost:8001"):
                 "results": results
             }, f, ensure_ascii=False, indent=2)
         
-        print(f"💾 Results saved to: {output_file}")
+        print(f"[SAVE] Results saved to: {output_file}")
         
     else:
-        print(f"⚠️  Only {len(results)}/2 tests passed")
+        print(f"[WARN]  Only {len(results)}/2 tests passed")
         print("   Check the errors above and fix before running full evaluation")
     
     print("\n" + "="*70 + "\n")

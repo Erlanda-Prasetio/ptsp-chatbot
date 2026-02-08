@@ -134,7 +134,7 @@ class DPMPTSPScraper:
     def download_file(self, url: str, local_path: Path) -> bool:
         """Download a file from URL"""
         try:
-            logger.info(f"📥 Downloading: {url}")
+            logger.info(f" Downloading: {url}")
             response = self.session.get(url, stream=True, timeout=30)
             response.raise_for_status()
             
@@ -142,11 +142,11 @@ class DPMPTSPScraper:
                 for chunk in response.iter_content(chunk_size=8192):
                     f.write(chunk)
             
-            logger.info(f"✅ Downloaded: {local_path}")
+            logger.info(f"[OK] Downloaded: {local_path}")
             return True
             
         except Exception as e:
-            logger.error(f"❌ Failed to download {url}: {e}")
+            logger.error(f"[FAIL] Failed to download {url}: {e}")
             return False
 
     def extract_links(self, soup: BeautifulSoup, current_url: str) -> Set[str]:
@@ -203,7 +203,7 @@ class DPMPTSPScraper:
 
     def scrape_page(self, url: str) -> Dict[str, Any]:
         """Scrape a single page"""
-        logger.info(f"🔍 Scraping: {url}")
+        logger.info(f"[SEARCH] Scraping: {url}")
         
         try:
             response = self.session.get(url, timeout=30)
@@ -247,7 +247,7 @@ class DPMPTSPScraper:
                     f.write("=" * 50 + "\n\n")
                     f.write(content_data['content'])
                 
-                logger.info(f"💾 Saved page content: {page_file}")
+                logger.info(f"[SAVE] Saved page content: {page_file}")
             
             # Download files
             for file_info in downloadable_files:
@@ -280,7 +280,7 @@ class DPMPTSPScraper:
             }
             
         except Exception as e:
-            logger.error(f"❌ Error scraping {url}: {e}")
+            logger.error(f"[FAIL] Error scraping {url}: {e}")
             self.failed_urls.add(url)
             return {
                 'url': url,
@@ -290,8 +290,8 @@ class DPMPTSPScraper:
 
     def crawl_website(self, max_pages: int = 500, max_workers: int = 3):
         """Crawl the entire website"""
-        logger.info(f"🚀 Starting comprehensive crawl of {self.base_url}")
-        logger.info(f"📁 Data will be saved to: {self.data_dir}")
+        logger.info(f"[START] Starting comprehensive crawl of {self.base_url}")
+        logger.info(f"[FILE] Data will be saved to: {self.data_dir}")
         
         # Start with homepage
         urls_to_visit = [self.base_url]
@@ -318,7 +318,7 @@ class DPMPTSPScraper:
                             if link not in urls_to_visit and self.is_valid_url(link):
                                 urls_to_visit.append(link)
                         
-                        logger.info(f"📊 Progress: {pages_scraped}/{max_pages} pages | "
+                        logger.info(f"[STATS] Progress: {pages_scraped}/{max_pages} pages | "
                                   f"Queue: {len(urls_to_visit)} | "
                                   f"Files: {len(self.downloaded_files)}")
                     
@@ -338,11 +338,11 @@ class DPMPTSPScraper:
         with open(self.data_dir / 'crawl_summary.json', 'w', encoding='utf-8') as f:
             json.dump(summary, f, ensure_ascii=False, indent=2)
         
-        logger.info(f"🎉 Crawl completed!")
-        logger.info(f"📄 Total pages: {summary['successful_pages']}")
-        logger.info(f"📁 Total files: {summary['total_files_downloaded']}")
-        logger.info(f"❌ Failed URLs: {summary['failed_pages']}")
-        logger.info(f"📊 Summary saved to: {self.data_dir / 'crawl_summary.json'}")
+        logger.info(f" Crawl completed!")
+        logger.info(f" Total pages: {summary['successful_pages']}")
+        logger.info(f"[FILE] Total files: {summary['total_files_downloaded']}")
+        logger.info(f"[FAIL] Failed URLs: {summary['failed_pages']}")
+        logger.info(f"[STATS] Summary saved to: {self.data_dir / 'crawl_summary.json'}")
 
 def main():
     """Main function to run the scraper"""
@@ -351,9 +351,9 @@ def main():
     try:
         scraper.crawl_website(max_pages=1000, max_workers=3)
     except KeyboardInterrupt:
-        print("\n🛑 Scraping interrupted by user")
+        print("\n Scraping interrupted by user")
     except Exception as e:
-        print(f"❌ Error during scraping: {e}")
+        print(f"[FAIL] Error during scraping: {e}")
     finally:
         # Save progress even if interrupted
         if scraper.scraped_pages:
@@ -369,7 +369,7 @@ def main():
             with open(scraper.data_dir / 'crawl_summary_partial.json', 'w', encoding='utf-8') as f:
                 json.dump(summary, f, ensure_ascii=False, indent=2)
             
-            print(f"💾 Progress saved to: {scraper.data_dir}")
+            print(f"[SAVE] Progress saved to: {scraper.data_dir}")
 
 if __name__ == "__main__":
     main()

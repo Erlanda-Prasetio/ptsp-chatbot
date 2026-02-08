@@ -25,7 +25,7 @@ try:
         raise ImportError("Unable to load MADAM debate module specification")
 except Exception as exc:  # pragma: no cover - defensive import guard
     multi_agent_debate = None  # type: ignore
-    print(f"⚠️  MADAM debate module unavailable: {exc}")
+    print(f"[WARN]  MADAM debate module unavailable: {exc}")
 
 
 class _MadamDebateGenerator:
@@ -67,7 +67,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
     """Hybrid system with MADAM multi-agent debate as an additional fallback."""
 
     def __init__(self, debate_rounds: int = 3, debate_top_k: int = 4):
-        print("🚀 Initializing Madam Hybrid RAG System...")
+        print("[START] Initializing Madam Hybrid RAG System...")
         super().__init__()
         self.rag_system = SmartEnhancedRAG()
         self.internet_search = EnhancedInternetSearch()
@@ -80,10 +80,10 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         self.debate_timeout = 8.0
         self.total_timeout = self.vector_timeout + self.enhanced_timeout + self.debate_timeout + self.internet_timeout
         print(
-            "✅ Madam Hybrid RAG System ready with phases: vector → enhanced → MADAM debate → internet"
+            "[OK] Madam Hybrid RAG System ready with phases: vector → enhanced → MADAM debate → internet"
         )
         print(
-            f"⏱️  Timeouts: Vector({self.vector_timeout}s) + Enhanced({self.enhanced_timeout}s) + "
+            f"[TIME]  Timeouts: Vector({self.vector_timeout}s) + Enhanced({self.enhanced_timeout}s) + "
             f"Debate({self.debate_timeout}s) + Internet({self.internet_timeout}s) = {self.total_timeout}s"
         )
 
@@ -152,9 +152,9 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         if debate_result:
             return debate_result
 
-        # 45 second gap after MADAM Debate (heavy phase with multiple LLM calls)
-        print("⏳ 45s gap after MADAM Debate phase (API recovery for debate calls)...")
-        time.sleep(45)
+        # Removed 45s delay for timing evaluation
+        # print("⏳ 45s gap after MADAM Debate phase (API recovery for debate calls)...")
+        # time.sleep(45)
 
         internet_result = self._run_internet_phase(question, phase_times, phase_log, start_time)
         if internet_result:
@@ -173,7 +173,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
             return result, quality, reason, elapsed
         except Exception as exc:
             elapsed = time.time() - start
-            print(f"❌ Vector phase error: {exc}")
+            print(f"[FAIL] Vector phase error: {exc}")
             return None, 0.0, "phase_error", elapsed
 
     def _run_enhanced_phase(
@@ -190,7 +190,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
             return result, quality, reason, elapsed, expanded_query, documents
         except Exception as exc:
             elapsed = time.time() - start
-            print(f"❌ Enhanced phase error: {exc}")
+            print(f"[FAIL] Enhanced phase error: {exc}")
             return None, 0.0, "phase_error", elapsed, expanded_query, documents
 
     def _run_madam_debate_phase(
@@ -204,11 +204,11 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         base_quality: float,
     ) -> Optional[Dict[str, Any]]:
         if not self.debate_available:
-            print("⚠️  MADAM debate skipped: module unavailable")
+            print("[WARN]  MADAM debate skipped: module unavailable")
             phase_log.append({"phase": "madam_debate", "skipped": True})
             return None
         if not documents:
-            print("⚠️  MADAM debate skipped: no documents available")
+            print("[WARN]  MADAM debate skipped: no documents available")
             phase_log.append({"phase": "madam_debate", "skipped": True, "reason": "no_documents"})
             return None
 
@@ -223,7 +223,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         except Exception as exc:
             elapsed = time.time() - debate_start
             phase_times["madam_debate"] = f"{elapsed:.2f}s"
-            print(f"❌ MADAM debate failed: {exc}")
+            print(f"[FAIL] MADAM debate failed: {exc}")
             phase_log.append({"phase": "madam_debate", "error": str(exc)})
             return None
 
@@ -231,7 +231,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         phase_times["madam_debate"] = f"{elapsed:.2f}s"
         final_aggregation = records.get("final_aggregation", "") if isinstance(records, dict) else ""
         if not final_aggregation or "unknown" in final_aggregation.lower():
-            print("⚠️  MADAM debate produced unknown answer")
+            print("[WARN]  MADAM debate produced unknown answer")
             phase_log.append(
                 {
                     "phase": "madam_debate",
@@ -294,7 +294,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
             elapsed = time.time() - internet_start
             phase_times["internet_fallback"] = f"{elapsed:.2f}s"
             if not internet_results:
-                print("❌ No internet results found")
+                print("[FAIL] No internet results found")
                 phase_log.append({"phase": "internet_fallback", "result": "no_results"})
                 return None
 
@@ -340,7 +340,7 @@ class MadamHybridRAGSystem(HybridRAGSystem):
         except Exception as exc:
             elapsed = time.time() - internet_start
             phase_times["internet_fallback"] = f"{elapsed:.2f}s"
-            print(f"❌ Internet fallback failed: {exc}")
+            print(f"[FAIL] Internet fallback failed: {exc}")
             phase_log.append({"phase": "internet_fallback", "error": str(exc)})
             return None
 

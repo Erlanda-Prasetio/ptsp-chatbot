@@ -37,10 +37,10 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY") or os.getenv("SUPABASE_KEY")
 
 if not SUPABASE_URL:
-    print("❌ ERROR: SUPABASE_URL not found in .env")
+    print("[FAIL] ERROR: SUPABASE_URL not found in .env")
     sys.exit(1)
 if not SUPABASE_KEY:
-    print("❌ ERROR: SUPABASE_SERVICE_KEY or SUPABASE_KEY not found in .env")
+    print("[FAIL] ERROR: SUPABASE_SERVICE_KEY or SUPABASE_KEY not found in .env")
     sys.exit(1)
 
 
@@ -50,7 +50,7 @@ def load_documents_from_dir(directory):
     directory = Path(directory)
     
     if not directory.exists():
-        print(f"⚠️  Directory not found: {directory}")
+        print(f"[WARN]  Directory not found: {directory}")
         return documents
     
     # Handle old dataset (PDF, DOCX, XLSX files structure)
@@ -58,7 +58,7 @@ def load_documents_from_dir(directory):
         files_dir = directory / 'files'
         if files_dir.exists():
             # Load PDF files
-            print(f"  📁 Loading PDF files from {files_dir}...")
+            print(f"  [FILE] Loading PDF files from {files_dir}...")
             for pdf_file in files_dir.glob('*.pdf'):
                 try:
                     reader = PdfReader(pdf_file)
@@ -79,7 +79,7 @@ def load_documents_from_dir(directory):
                     pass  # Silent fail for corrupted PDFs
             
             # Load DOCX files
-            print(f"  📁 Loading DOCX files from {files_dir}...")
+            print(f"  [FILE] Loading DOCX files from {files_dir}...")
             for docx_file in files_dir.glob('*.docx'):
                 try:
                     doc = Document(docx_file)
@@ -94,10 +94,10 @@ def load_documents_from_dir(directory):
                             'file': docx_file.name,
                         })
                 except Exception as e:
-                    print(f"    ❌ Error reading {docx_file.name}: {e}")
+                    print(f"    [FAIL] Error reading {docx_file.name}: {e}")
             
             # Load XLSX files
-            print(f"  📁 Loading XLSX files from {files_dir}...")
+            print(f"  [FILE] Loading XLSX files from {files_dir}...")
             for xlsx_file in files_dir.glob('*.xlsx'):
                 try:
                     workbook = openpyxl.load_workbook(xlsx_file)
@@ -117,10 +117,10 @@ def load_documents_from_dir(directory):
                             'file': xlsx_file.name,
                         })
                 except Exception as e:
-                    print(f"    ❌ Error reading {xlsx_file.name}: {e}")
+                    print(f"    [FAIL] Error reading {xlsx_file.name}: {e}")
             
             # Load DOC files (legacy format)
-            print(f"  📁 Loading DOC files from {files_dir}...")
+            print(f"  [FILE] Loading DOC files from {files_dir}...")
             for doc_file in files_dir.glob('*.doc'):
                 try:
                     # DOC files are binary and harder to parse, try basic extraction
@@ -141,7 +141,7 @@ def load_documents_from_dir(directory):
                     pass  # Silent fail for DOC files
             
             # Also check for HTML files
-            print(f"  📁 Loading HTML files from {files_dir}...")
+            print(f"  [FILE] Loading HTML files from {files_dir}...")
             for html_file in files_dir.glob('*.html'):
                 try:
                     with open(html_file, 'r', encoding='utf-8') as f:
@@ -158,14 +158,14 @@ def load_documents_from_dir(directory):
                                 'file': html_file.name,
                             })
                 except Exception as e:
-                    print(f"    ❌ Error reading {html_file.name}: {e}")
+                    print(f"    [FAIL] Error reading {html_file.name}: {e}")
 
 
     
     # Handle new dataset (NDJSON files)
     else:
         for json_file in directory.rglob('*.ndjson'):
-            print(f"  📁 Loading {json_file}...")
+            print(f"  [FILE] Loading {json_file}...")
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     for line in f:
@@ -179,12 +179,12 @@ def load_documents_from_dir(directory):
                                     'category': doc.get('category', 'General'),
                                 })
             except Exception as e:
-                print(f"    ❌ Error reading {json_file}: {e}")
+                print(f"    [FAIL] Error reading {json_file}: {e}")
         
         # Also check for regular JSON files
         for json_file in directory.rglob('*.json'):
             if json_file.name != 'crawl_summary.json':
-                print(f"  📁 Loading {json_file}...")
+                print(f"  [FILE] Loading {json_file}...")
                 try:
                     with open(json_file, 'r', encoding='utf-8') as f:
                         data = json.load(f)
@@ -198,7 +198,7 @@ def load_documents_from_dir(directory):
                                 for item in data if isinstance(item, dict)
                             ])
                 except Exception as e:
-                    print(f"    ❌ Error reading {json_file}: {e}")
+                    print(f"    [FAIL] Error reading {json_file}: {e}")
     
     return documents
 
@@ -216,37 +216,37 @@ def ingest_dataset(dataset_type: DatasetType):
     print()
     
     # Load all documents
-    print("\n📚 Loading documents from sources...")
+    print("\n Loading documents from sources...")
     all_documents = []
     for source_dir in config.source_dirs:
         print(f"\n  Processing {source_dir}...")
         docs = load_documents_from_dir(source_dir)
         all_documents.extend(docs)
-        print(f"    ✅ Loaded {len(docs)} documents")
+        print(f"    [OK] Loaded {len(docs)} documents")
     
     total_docs = len(all_documents)
-    print(f"\n✅ Total documents loaded: {total_docs}")
+    print(f"\n[OK] Total documents loaded: {total_docs}")
     
     if total_docs == 0:
-        print("❌ No documents found to ingest!")
+        print("[FAIL] No documents found to ingest!")
         return False
     
     # Initialize Supabase
-    print("\n🔌 Initializing Supabase connection...")
+    print("\n[CONNECT] Initializing Supabase connection...")
     from supabase import create_client
     supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
     
     # Check if table exists
-    print(f"📊 Checking if table '{config.table_name}' exists...")
+    print(f"[STATS] Checking if table '{config.table_name}' exists...")
     try:
         result = supabase.table(config.table_name).select('id').limit(1).execute()
-        print(f"   ✅ Table exists")
+        print(f"   [OK] Table exists")
     except Exception as e:
-        print(f"   ⚠️  Table may not exist yet: {e}")
+        print(f"   [WARN]  Table may not exist yet: {e}")
         print(f"   Will create on first insert")
     
     # Ingest documents
-    print(f"\n🚀 Ingesting {total_docs} documents...")
+    print(f"\n[START] Ingesting {total_docs} documents...")
     batch_size = 10
     successful = 0
     failed = 0
@@ -263,7 +263,7 @@ def ingest_dataset(dataset_type: DatasetType):
         try:
             batch_embeddings = embed_texts(batch_texts)
         except Exception as e:
-            print(f"    ❌ Error generating embeddings for batch: {e}")
+            print(f"    [FAIL] Error generating embeddings for batch: {e}")
             failed += len(batch)
             continue
         
@@ -286,11 +286,11 @@ def ingest_dataset(dataset_type: DatasetType):
                 # Insert into Supabase
                 result = supabase.table(config.table_name).insert(doc_data).execute()
                 successful += 1
-                print(f"    ✅ {j}. {doc['title'][:50]}")
+                print(f"    [OK] {j}. {doc['title'][:50]}")
                 
             except Exception as e:
                 failed += 1
-                print(f"    ❌ {j}. {doc['title'][:50]}: {str(e)[:50]}")
+                print(f"    [FAIL] {j}. {doc['title'][:50]}: {str(e)[:50]}")
         
         # Rate limiting
         if batch_num < total_batches:
@@ -300,10 +300,10 @@ def ingest_dataset(dataset_type: DatasetType):
     print("\n" + "="*70)
     print("INGESTION COMPLETE")
     print("="*70)
-    print(f"✅ Successful: {successful}")
-    print(f"❌ Failed: {failed}")
-    print(f"📊 Total: {total_docs}")
-    print(f"📍 Table: {config.table_name}")
+    print(f"[OK] Successful: {successful}")
+    print(f"[FAIL] Failed: {failed}")
+    print(f"[STATS] Total: {total_docs}")
+    print(f" Table: {config.table_name}")
     print("="*70 + "\n")
     
     return failed == 0

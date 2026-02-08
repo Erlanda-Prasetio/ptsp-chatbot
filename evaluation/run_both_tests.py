@@ -24,7 +24,7 @@ from pathlib import Path
 def run_command(cmd: list, description: str):
     """Run a command and handle errors"""
     print("=" * 70)
-    print(f"🚀 {description}")
+    print(f"[START] {description}")
     print("=" * 70)
     print(f"Command: {' '.join(cmd)}")
     print()
@@ -32,10 +32,10 @@ def run_command(cmd: list, description: str):
     result = subprocess.run(cmd, capture_output=False)
     
     if result.returncode != 0:
-        print(f"\n❌ {description} failed with exit code {result.returncode}")
+        print(f"\n[FAIL] {description} failed with exit code {result.returncode}")
         return False
     
-    print(f"\n✅ {description} completed successfully!")
+    print(f"\n[OK] {description} completed successfully!")
     return True
 
 
@@ -83,17 +83,17 @@ def main():
     # Validate sample files exist
     if not args.skip_retrieval:
         if not Path(args.retrieval_sample).exists():
-            print(f"❌ Retrieval sample file not found: {args.retrieval_sample}")
+            print(f"[FAIL] Retrieval sample file not found: {args.retrieval_sample}")
             sys.exit(1)
     
     if not args.skip_generative:
         if not Path(args.generative_sample).exists():
-            print(f"❌ Generative sample file not found: {args.generative_sample}")
+            print(f"[FAIL] Generative sample file not found: {args.generative_sample}")
             sys.exit(1)
     
     print()
     print("=" * 70)
-    print("🧪 RUNNING BOTH TESTS")
+    print("[TEST] RUNNING BOTH TESTS")
     print("=" * 70)
     print(f"Base name: {args.name}")
     if not args.skip_retrieval:
@@ -116,7 +116,7 @@ def main():
         
         if not run_command(retrieval_cmd, "RETRIEVAL TEST"):
             success = False
-            print("\n⚠️  Retrieval test failed, continuing with generative test...")
+            print("\n[WARN]  Retrieval test failed, continuing with generative test...")
         
         print()
     
@@ -137,12 +137,12 @@ def main():
     print()
     print("=" * 70)
     if success:
-        print("✅ ALL TESTS COMPLETED SUCCESSFULLY!")
+        print("[OK] ALL TESTS COMPLETED SUCCESSFULLY!")
     else:
-        print("⚠️  SOME TESTS FAILED - CHECK LOGS ABOVE")
+        print("[WARN]  SOME TESTS FAILED - CHECK LOGS ABOVE")
     print("=" * 70)
     print()
-    print("📁 Results saved to:")
+    print("[FILE] Results saved to:")
     if not args.skip_retrieval:
         print(f"   - evaluation/raw_results/{args.name}_retrieval.json")
     if not args.skip_generative:
@@ -150,7 +150,7 @@ def main():
     print()
     
     if not args.skip_generative:
-        print("📝 Next steps:")
+        print(" Next steps:")
         print(f"   1. Review analysis output above")
         print(f"   2. Do manual scoring: python evaluation/manual_scoring.py --file evaluation/raw_results/{args.name}_generative.json")
         print()

@@ -21,13 +21,13 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY") or os.getenv("SUPABASE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    print("❌ ERROR: SUPABASE credentials not found")
+    print("[FAIL] ERROR: SUPABASE credentials not found")
     sys.exit(1)
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 print("\n" + "="*80)
-print("🔧 FIX CHUNK TEST CSV - VALIDATE AND POPULATE CHUNK IDs")
+print(" FIX CHUNK TEST CSV - VALIDATE AND POPULATE CHUNK IDs")
 print("="*80)
 print()
 
@@ -36,7 +36,7 @@ with open('evaluation/chunk_test_old_dataset_metrics.csv', 'r', encoding='utf-8'
     reader = csv.DictReader(f)
     rows = list(reader)
 
-print(f"📂 Loaded {len(rows)} rows from chunk_test_old_dataset_metrics.csv")
+print(f"[DIR] Loaded {len(rows)} rows from chunk_test_old_dataset_metrics.csv")
 print()
 
 # Process each row - populate chunk IDs and validate "not found" results
@@ -97,33 +97,33 @@ for i, row in enumerate(rows, 1):
             row['chunk5_id'] = chunk_ids[4] if len(chunk_ids) > 4 else ''
             
             if chunk_ids:
-                print(f"[{i}/50] ✅ {query_id}: Found {len(chunk_ids)} chunks - {', '.join(chunk_ids[:3])}...")
+                print(f"[{i}/50] [OK] {query_id}: Found {len(chunk_ids)} chunks - {', '.join(chunk_ids[:3])}...")
                 found_with_chunks += 1
             else:
-                print(f"[{i}/50] ⚠️  {query_id}: Verified NO chunks found (genuine)")
+                print(f"[{i}/50] [WARN]  {query_id}: Verified NO chunks found (genuine)")
                 found_no_chunks += 1
             
             validated += 1
             
         except Exception as e:
-            print(f"[{i}/50] ❌ {query_id}: ERROR - {str(e)[:60]}")
+            print(f"[{i}/50] [FAIL] {query_id}: ERROR - {str(e)[:60]}")
             errors.append((query_id, str(e)))
     else:
         # Already marked as no chunks found
-        print(f"[{i}/50] ⚠️  {query_id}: Already marked no chunks (from original test)")
+        print(f"[{i}/50] [WARN]  {query_id}: Already marked no chunks (from original test)")
         found_no_chunks += 1
         validated += 1
 
 print()
 print("="*80)
-print("📊 VALIDATION RESULTS")
+print("[STATS] VALIDATION RESULTS")
 print("="*80)
 print()
-print(f"✅ Validated: {validated}/{len(rows)}")
+print(f"[OK] Validated: {validated}/{len(rows)}")
 print(f"   With chunks found: {found_with_chunks}")
 print(f"   Genuine 'not found': {found_no_chunks}")
 if errors:
-    print(f"   ❌ Errors: {len(errors)}")
+    print(f"   [FAIL] Errors: {len(errors)}")
     for query_id, error in errors[:3]:
         print(f"      - {query_id}: {error[:50]}")
 print()
@@ -137,7 +137,7 @@ with open(output_path, 'w', newline='', encoding='utf-8') as f:
         writer.writeheader()
         writer.writerows(rows)
 
-print(f"💾 Fixed CSV saved to: {output_path}")
+print(f"[SAVE] Fixed CSV saved to: {output_path}")
 print()
-print("✅ Chunk test CSV validation complete!")
+print("[OK] Chunk test CSV validation complete!")
 print()

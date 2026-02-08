@@ -12,7 +12,7 @@ import sys
 try:
     import requests
 except ImportError:
-    print("⚠️ requests library not found, installing...")
+    print("[WARN] requests library not found, installing...")
     import subprocess
     subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
     import requests
@@ -100,10 +100,10 @@ def test_retrieval(question: str) -> Dict[str, Any]:
 def main():
     """Run retrieval tests on baseline CSV"""
     print("=" * 80)
-    print("🔍 MADAM Hybrid RAG System - Retrieval Test")
+    print("[SEARCH] MADAM Hybrid RAG System - Retrieval Test")
     print("=" * 80)
-    print(f"📂 Input: {CSV_FILE}")
-    print(f"📊 Output: {RESULTS_FILE}")
+    print(f"[DIR] Input: {CSV_FILE}")
+    print(f"[STATS] Output: {RESULTS_FILE}")
     print()
     
     # Read CSV
@@ -112,9 +112,9 @@ def main():
         with open(CSV_FILE, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             rows = list(reader)
-        print(f"✅ Loaded {len(rows)} queries from CSV\n")
+        print(f"[OK] Loaded {len(rows)} queries from CSV\n")
     except FileNotFoundError:
-        print(f"❌ CSV file not found: {CSV_FILE}")
+        print(f"[FAIL] CSV file not found: {CSV_FILE}")
         return
     
     results = []
@@ -142,7 +142,7 @@ def main():
         test_result = test_retrieval(question)
         
         if not test_result["success"]:
-            print(f"❌ FAILED - {test_result['error'][:40]}")
+            print(f"[FAIL] FAILED - {test_result['error'][:40]}")
             failed_tests += 1
             results.append({
                 "query_id": query_id,
@@ -168,7 +168,7 @@ def main():
         successful_tests += 1
         
         # Print status
-        status = "✅" if metrics["f1"] > 0.5 else "⚠️" if metrics["f1"] > 0.2 else "❌"
+        status = "[OK]" if metrics["f1"] > 0.5 else "[WARN]" if metrics["f1"] > 0.2 else "[FAIL]"
         print(f"{status} Prec={metrics['precision']:.2f} Rec={metrics['recall']:.2f} F1={metrics['f1']:.2f}")
         
         results.append({
@@ -205,17 +205,17 @@ def main():
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(results)
-        print(f"\n✅ Results saved to {RESULTS_FILE}")
+        print(f"\n[OK] Results saved to {RESULTS_FILE}")
     except Exception as exc:
-        print(f"\n❌ Failed to save results: {exc}")
+        print(f"\n[FAIL] Failed to save results: {exc}")
     
     # Print summary
     print("\n" + "=" * 80)
-    print("📊 SUMMARY")
+    print("[STATS] SUMMARY")
     print("=" * 80)
     print(f"Total Tests:        {len(rows)}")
-    print(f"Successful:         {successful_tests} ✅")
-    print(f"Failed:             {failed_tests} ❌")
+    print(f"Successful:         {successful_tests} [OK]")
+    print(f"Failed:             {failed_tests} [FAIL]")
     print()
     print(f"Average Precision:  {avg_precision:.3f}")
     print(f"Average Recall:     {avg_recall:.3f}")

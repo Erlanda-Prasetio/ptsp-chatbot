@@ -44,12 +44,12 @@ class ChunkConfidenceAnalyzer:
         self.queries = []
         
         # Load sample queries
-        print(f"📂 Loading sample from: {sample_file}")
+        print(f"[DIR] Loading sample from: {sample_file}")
         with open(sample_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             self.queries = data if isinstance(data, list) else data.get('queries', [])
         
-        print(f"✅ Loaded {len(self.queries)} queries")
+        print(f"[OK] Loaded {len(self.queries)} queries")
         old_count = sum(1 for q in self.queries if q.get('dataset_source') == 'OLD')
         new_count = sum(1 for q in self.queries if q.get('dataset_source') == 'NEW')
         print(f"   Old Dataset: {old_count}")
@@ -58,23 +58,23 @@ class ChunkConfidenceAnalyzer:
     
     def test_api_connection(self) -> bool:
         """Test if RAG API is reachable"""
-        print(f"🔌 Testing connection to {self.api_url}...")
+        print(f"[CONNECT] Testing connection to {self.api_url}...")
         try:
             response = requests.get(f"{self.api_url}/health", timeout=5)
             if response.status_code == 200:
                 data = response.json()
-                print("✅ API is healthy")
+                print("[OK] API is healthy")
                 print(f"   Backend: {data.get('vector_backend', 'unknown')}")
                 print(f"   Chunks: {data.get('database_chunks', 'unknown')}")
                 print()
                 return True
             else:
-                print(f"❌ API returned status {response.status_code}")
+                print(f"[FAIL] API returned status {response.status_code}")
                 return False
         except requests.exceptions.RequestException as e:
-            print(f"❌ Cannot connect to API at {self.api_url}")
+            print(f"[FAIL] Cannot connect to API at {self.api_url}")
             print(f"   Error: {e}")
-            print("\n💡 Make sure rag_api.py is running:")
+            print("\n[INFO] Make sure rag_api.py is running:")
             print("   python rag_api.py")
             return False
     
@@ -148,14 +148,14 @@ class ChunkConfidenceAnalyzer:
             return {
                 "level": "low",
                 "label": "Low Confidence",
-                "emoji": "🔴",
+                "emoji": "",
                 "description": "Weak chunk coverage"
             }
         else:
             return {
                 "level": "very_low",
                 "label": "Very Low Confidence",
-                "emoji": "⚫",
+                "emoji": "",
                 "description": "Poor chunk coverage"
             }
     
@@ -167,7 +167,7 @@ class ChunkConfidenceAnalyzer:
             raise RuntimeError("Cannot connect to RAG API")
         
         print("=" * 70)
-        print("🔍 CHUNK CONFIDENCE ANALYSIS")
+        print("[SEARCH] CHUNK CONFIDENCE ANALYSIS")
         print("=" * 70)
         print()
         
@@ -237,7 +237,7 @@ class ChunkConfidenceAnalyzer:
         """
         print()
         print("=" * 70)
-        print("📊 CHUNK CONFIDENCE REPORT")
+        print("[STATS] CHUNK CONFIDENCE REPORT")
         print("=" * 70)
         print()
         
@@ -277,18 +277,18 @@ class ChunkConfidenceAnalyzer:
             category_stats[cat]['confidence_dist'][r['confidence_level']] += 1
         
         # Print report
-        print(f"✅ Overall Statistics:")
+        print(f"[OK] Overall Statistics:")
         print(f"   Total Queries: {total_queries}")
         print(f"   Successful: {successful}")
         print(f"   Failed: {total_queries - successful}")
         print()
         
-        print(f"🎯 Average Similarity Scores:")
+        print(f"[TARGET] Average Similarity Scores:")
         print(f"   Top Score (best match): {avg_top_score:.3f}")
         print(f"   Average Score (all chunks): {avg_avg_score:.3f}")
         print()
         
-        print(f"📊 Confidence Distribution:")
+        print(f"[STATS] Confidence Distribution:")
         for level in ['high', 'good', 'moderate', 'low', 'very_low']:
             count = confidence_dist.get(level, 0)
             pct = (count / total_queries * 100) if total_queries > 0 else 0
@@ -303,16 +303,16 @@ class ChunkConfidenceAnalyzer:
                 emoji = "🟠"
                 threshold = "0.5-0.6"
             elif level == 'low':
-                emoji = "🔴"
+                emoji = ""
                 threshold = "0.4-0.5"
             else:
-                emoji = "⚫"
+                emoji = ""
                 threshold = "<0.4"
             
             print(f"   {emoji} {level:12s} ({threshold:8s}): {count:3d} ({pct:5.1f}%)")
         print()
         
-        print(f"📋 Dataset Breakdown:")
+        print(f" Dataset Breakdown:")
         for ds in ['OLD', 'NEW', 'unknown']:
             if ds not in dataset_confidence:
                 continue
@@ -325,7 +325,7 @@ class ChunkConfidenceAnalyzer:
                     print(f"      {level:12s}: {count:3d} ({pct:5.1f}%)")
         print()
         
-        print(f"📊 Performance by Category:")
+        print(f"[STATS] Performance by Category:")
         for cat, stats in sorted(category_stats.items(), key=lambda x: sum(x[1]['top_scores'])/len(x[1]['top_scores']) if x[1]['top_scores'] else 0, reverse=True):
             avg_score = sum(stats['top_scores']) / len(stats['top_scores']) if stats['top_scores'] else 0
             high_conf = stats['confidence_dist'].get('high', 0) + stats['confidence_dist'].get('good', 0)
@@ -334,7 +334,7 @@ class ChunkConfidenceAnalyzer:
         print()
         
         # Problem areas
-        print(f"⚠️  Problem Areas (Low Confidence):")
+        print(f"[WARN]  Problem Areas (Low Confidence):")
         low_confidence = [r for r in results if r['confidence_level'] in ['low', 'very_low']]
         if low_confidence:
             print(f"   Found {len(low_confidence)} questions with low confidence:")
@@ -345,11 +345,11 @@ class ChunkConfidenceAnalyzer:
                 conf = r.get('confidence_emoji', '?')
                 print(f"      {conf} [{q_id}] score={score:.3f}: {question}...")
         else:
-            print(f"   ✅ No low confidence questions!")
+            print(f"   [OK] No low confidence questions!")
         print()
         
         # Best matches
-        print(f"🏆 Best Matches (High Confidence):")
+        print(f" Best Matches (High Confidence):")
         high_confidence = sorted([r for r in results if r['confidence_level'] in ['high', 'good']], 
                                 key=lambda x: x['top_similarity_score'], reverse=True)[:10]
         if high_confidence:
@@ -380,11 +380,11 @@ class ChunkConfidenceAnalyzer:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         
         print("=" * 70)
-        print(f"✅ ANALYSIS COMPLETE!")
+        print(f"[OK] ANALYSIS COMPLETE!")
         print("=" * 70)
-        print(f"📁 Detailed results saved to: {output_file}")
+        print(f"[FILE] Detailed results saved to: {output_file}")
         print()
-        print("📊 Summary:")
+        print("[STATS] Summary:")
         print(f"   Average Top Score: {avg_top_score:.3f}")
         high_good = confidence_dist.get('high', 0) + confidence_dist.get('good', 0)
         high_good_pct = (high_good / total_queries * 100) if total_queries > 0 else 0
@@ -444,7 +444,7 @@ def main():
         if not args.no_export:
             print()
             print("=" * 70)
-            print("📤 AUTO-EXPORTING TO CSV FOR RETRIEVAL TEST")
+            print(" AUTO-EXPORTING TO CSV FOR RETRIEVAL TEST")
             print("=" * 70)
             print()
             
@@ -459,15 +459,15 @@ def main():
             
             result = subprocess.run(export_cmd, capture_output=False)
             if result.returncode == 0:
-                print(f"✅ CSV exported successfully to: {args.export_csv}")
+                print(f"[OK] CSV exported successfully to: {args.export_csv}")
             else:
-                print(f"⚠️  CSV export failed (you can run export manually)")
+                print(f"[WARN]  CSV export failed (you can run export manually)")
         
     except KeyboardInterrupt:
-        print("\n⚠️  Analysis interrupted by user")
+        print("\n[WARN]  Analysis interrupted by user")
         sys.exit(1)
     except Exception as e:
-        print(f"\n❌ Analysis failed: {e}")
+        print(f"\n[FAIL] Analysis failed: {e}")
         import traceback
         traceback.print_exc()
         sys.exit(1)

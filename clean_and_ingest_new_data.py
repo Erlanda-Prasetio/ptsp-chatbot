@@ -20,14 +20,14 @@ def clean_guide_text(text: str) -> str:
     # Find where actual steps start (after metadata)
     step_start = 0
     for i, line in enumerate(lines):
-        if line.strip().startswith('═'):
+        if line.strip().startswith(''):
             step_start = i + 1
             break
     
     # Find where images section starts
     image_start = len(lines)
     for i, line in enumerate(lines):
-        if 'IMAGES' in line or line.strip().startswith('═') and i > step_start + 5:
+        if 'IMAGES' in line or line.strip().startswith('') and i > step_start + 5:
             image_start = i
             break
     
@@ -126,7 +126,7 @@ def process_folder(folder_path: Path, clean_guides: bool = False) -> List[Dict]:
             
             documents.append(doc)
     
-    print(f"✅ Processed {len(documents)} documents from {folder_path.name}")
+    print(f"[OK] Processed {len(documents)} documents from {folder_path.name}")
     return documents
 
 
@@ -221,7 +221,7 @@ def chunk_document(doc: Dict, chunk_size: int = 800, overlap: int = 100) -> List
 def main():
     """Main ingestion workflow"""
     print("="*80)
-    print("🚀 CLEANING AND INGESTING NEW OSS DATA")
+    print("[START] CLEANING AND INGESTING NEW OSS DATA")
     print("="*80)
     
     # Paths
@@ -231,30 +231,30 @@ def main():
     investment_path = data_oss_path / 'investment_guides'
     
     # Step 1: Process all folders
-    print("\n📂 Step 1: Reading documents...")
+    print("\n[DIR] Step 1: Reading documents...")
     
     faq_docs = process_folder(faq_path, clean_guides=False)
     investment_docs = process_folder(investment_path, clean_guides=False)
     guides_docs = process_folder(guides_path, clean_guides=True)
     
     all_docs = faq_docs + investment_docs + guides_docs
-    print(f"\n📊 Total documents: {len(all_docs)}")
+    print(f"\n[STATS] Total documents: {len(all_docs)}")
     print(f"   - FAQ: {len(faq_docs)}")
     print(f"   - Investment: {len(investment_docs)}")
     print(f"   - Guides (cleaned): {len(guides_docs)}")
     
     # Step 2: Chunk documents
-    print("\n✂️  Step 2: Chunking documents...")
+    print("\n  Step 2: Chunking documents...")
     all_chunks = []
     for doc in all_docs:
         doc_chunks = chunk_document(doc, chunk_size=800, overlap=100)
         all_chunks.extend(doc_chunks)
     
-    print(f"✅ Created {len(all_chunks)} chunks")
+    print(f"[OK] Created {len(all_chunks)} chunks")
     
     # Step 3: Save for review
     output_file = 'data/new_oss_chunks_preview.json'
-    print(f"\n💾 Step 3: Saving preview to {output_file}...")
+    print(f"\n[SAVE] Step 3: Saving preview to {output_file}...")
     
     preview_data = {
         'total_documents': len(all_docs),
@@ -275,14 +275,14 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(preview_data, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ Preview saved!")
+    print(f"[OK] Preview saved!")
     print(f"\nChunk size stats:")
     print(f"   Min: {preview_data['chunk_size_stats']['min']} chars")
     print(f"   Max: {preview_data['chunk_size_stats']['max']} chars")
     print(f"   Avg: {preview_data['chunk_size_stats']['avg']} chars")
     
     # Step 4: Embed and ingest to Supabase
-    print("\n🔄 Step 4: Embedding and ingesting to Supabase...")
+    print("\n Step 4: Embedding and ingesting to Supabase...")
     print("This will take a while for 496 documents...")
     
     try:
@@ -327,12 +327,12 @@ def main():
             print(f"    Ingesting final {len(chunks_to_ingest)} chunks...")
             store.add_chunks(chunks_to_ingest)
         
-        print("\n✅ INGESTION COMPLETE!")
+        print("\n[OK] INGESTION COMPLETE!")
         print(f"   Total chunks ingested: {len(all_chunks)}")
         print(f"   Ready for Experiment 2 evaluation!")
         
     except Exception as e:
-        print(f"\n❌ Error during ingestion: {e}")
+        print(f"\n[FAIL] Error during ingestion: {e}")
         print("Chunks are saved in preview file for manual inspection")
         return False
     
@@ -343,7 +343,7 @@ if __name__ == '__main__':
     success = main()
     if success:
         print("\n" + "="*80)
-        print("🎉 NEW DATASET READY FOR EXPERIMENT 2!")
+        print(" NEW DATASET READY FOR EXPERIMENT 2!")
         print("="*80)
         print("\nNext steps:")
         print("1. Verify data in Supabase")
