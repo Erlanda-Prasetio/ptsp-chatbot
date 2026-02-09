@@ -1,0 +1,28 @@
+[2026-02-08 22:00:18] === MAF-RAG Phase Latency Test (FORCED EVR) ===
+[2026-02-08 22:00:18] Demonstrating Phase 2: Enhanced Vector Retrieval (Natural Trigger)...
+[2026-02-08 22:00:31] System configured for Natural EVR Flow:
+[2026-02-08 22:00:31] -> VOR Threshold: 0.75 (Default)
+[2026-02-08 22:00:31] -> EVR Threshold: 0.6 (Default)
+[2026-02-08 22:00:31] 
+Test Query: 'Saya dapat peringatan masalah zonasi saat mendaftar'
+[2026-02-08 22:00:31] (Intention: Vague phrasing to cause VOR < 0.75, but valid semantic match for EVR > 0.60)
+[2026-02-08 22:00:54] 
+=== LATENCY BREAKDOWN ===
+[2026-02-08 22:00:54] [Phase 1] Vector Retrieval: 5.84s (Threshold not met)
+[2026-02-08 22:00:54] [Phase 2] Enhanced Retrieval: 4.82s
+[2026-02-08 22:00:54] ------------------------------
+[2026-02-08 22:00:54] Total Wall Time: 22.59s
+[2026-02-08 22:00:54] Final Method Used: internet_fallback
+[2026-02-08 22:00:54] 
+=== QUALITY CHECKS ===
+[2026-02-08 22:00:54] vector_only: 0.5
+[2026-02-08 22:00:54] enhanced_vector: 0.5
+[2026-02-08 22:00:54] madam_debate: N/A
+[2026-02-08 22:00:54] internet_fallback: 0.55
+[2026-02-08 22:00:54] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-08 22:00:54] Saya memahami bahwa Anda mengalami masalah zonasi saat mendaftar. Namun, perlu diingat bahwa konteks yang Anda berikan lebih terkait dengan sistem zonasi dalam pendidikan, seperti PPDB (Penerimaan Peserta Didik Baru) dan pemerataan fasilitas serta mutu sekolah.
+
+Dalam konteks DPMPTSP (Dinas Penanama...
+[2026-02-08 22:00:54] 
+=== Test Complete ===

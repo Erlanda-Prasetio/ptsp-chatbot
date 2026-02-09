@@ -1,0 +1,30 @@
+[2026-02-08 21:41:21] === MAF-RAG Phase Latency Test ===
+[2026-02-08 21:41:21] Configuring system with IMPOSSIBLE thresholds to force all phases...
+[2026-02-08 21:41:39] System initialized.
+[2026-02-08 21:41:39] Vector Threshold: 2.0 (Forced Fail)
+[2026-02-08 21:41:39] Enhanced Threshold: 2.0 (Forced Fail)
+[2026-02-08 21:41:39] Debate Rounds: 1
+[2026-02-08 21:41:39] 
+Test Query: 'Apa persyaratan pengajuan Surat Izin Usaha Perdagangan (SIUP) Mikro?'
+[2026-02-08 21:42:01] 
+=== LATENCY BREAKDOWN ===
+[2026-02-08 21:42:01] [Phase 1] Vector Retrieval: 5.56s
+[2026-02-08 21:42:01] [Phase 2] Enhanced Retrieval: 5.54s
+[2026-02-08 21:42:01] [Phase 3] MADAM Debate:     7.51s
+[2026-02-08 21:42:01] [Phase 4] Internet Fallback: 1.84s
+[2026-02-08 21:42:01] ------------------------------
+[2026-02-08 21:42:01] Total Wall Time: 22.44s
+[2026-02-08 21:42:01] Final Method Used: internet_fallback
+[2026-02-08 21:42:01] 
+=== QUALITY CHECKS ===
+[2026-02-08 21:42:01] vector_only: Score 0.5
+[2026-02-08 21:42:01] enhanced_vector: Score 0.5
+[2026-02-08 21:42:01] madam_debate: Score N/A
+[2026-02-08 21:42:01] internet_fallback: Score 0.55
+[2026-02-08 21:42:01] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-08 21:42:01] Untuk mengajukan Surat Izin Usaha Perdagangan (SIUP) Mikro, ada beberapa persyaratan yang perlu dipenuhi. Berdasarkan informasi yang tersedia, berikut adalah beberapa persyaratan yang umum diperlukan:
+
+1. **Foto copy Kartu Tanda Penduduk (KTP)**: Pastikan KTP masih berlaku dan merupakan identitas re...
+[2026-02-08 21:42:01] 
+=== Test Complete ===

@@ -1,0 +1,22 @@
+[2026-02-08 21:51:00] === MAF-RAG Phase Latency Test (REAL VOR SUCCESS) ===
+[2026-02-08 21:51:00] Selecting a random query to verify VOR success naturally...
+[2026-02-08 21:51:13] System initialized with DEFAULT thresholds.
+[2026-02-08 21:51:13] Vector Threshold: 0.75
+[2026-02-08 21:51:13] 
+Random Test Query: 'Bagaimana cara ubah NPWP jika data salah/berubah?'
+[2026-02-08 21:51:17] 
+=== LATENCY BREAKDOWN ===
+[2026-02-08 21:51:17] [Phase 1] Vector Retrieval: 4.12s
+[2026-02-08 21:51:17] ------------------------------
+[2026-02-08 21:51:17] Total Wall Time: 4.12s
+[2026-02-08 21:51:17] Final Method Used: vector_only
+[2026-02-08 21:51:17] 
+=== QUALITY CHECKS ===
+[2026-02-08 21:51:17] vector_only: Score 0.8
+[2026-02-08 21:51:17] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-08 21:51:17] Untuk melakukan perubahan NPWP (Nomor Pokok Wajib Pajak) jika data salah atau berubah, Anda dapat mengikuti langkah-langkah berikut:
+
+1. **Masuk ke Website OSS**: Pertama, Anda perlu mengunjungi website Online Single Submission (OSS) di https://oss.go.id/. Pastikan Anda memiliki akun dan dapat login...
+[2026-02-08 21:51:17] 
+=== Test Complete ===

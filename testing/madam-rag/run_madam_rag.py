@@ -122,6 +122,12 @@ Agent responses:
 
 def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: int = 3):
     """Multi-agent debate with comprehensive logging."""
+    if documents is None:
+        logger.error("Received None for documents")
+        return {}
+    if query is None:
+        query = "Unknown Query"
+        
     records = {}
     num_agents = len(documents)
     agent_outputs = []
@@ -141,11 +147,14 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
     
     round1_start = time.time()
     for i, doc in enumerate(documents):
+        if doc is None:
+            doc = ""
+            
         agent_start = time.time()
         logger.info(f"\n  Agent {i+1}/{num_agents}")
         logger.info(f"     Document: {doc[:80]}..." if len(doc) > 80 else f"     Document: {doc}")
         
-        response = agent_response(query, doc, generator)
+        response = agent_response(query, doc, generator) or "Unknown response"
         agent_elapsed = time.time() - agent_start
         
         answer = response[response.find("Answer: ") + len("Answer: "):response.find("Explanation")].strip()
@@ -178,9 +187,11 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
     
     round1_elapsed = time.time() - round1_start
     logger.info(f"\n  Round 1 Total Time: {round1_elapsed:.2f}s")
+    
+    # Initialize final_aggregation with Round 1 result in case strict loop condition met or num_rounds=1
+    final_aggregation = records['round1']['aggregation']
 
     # Additional rounds with convergence checking
-    final_aggregation = None
     for t in range(1, num_rounds):
         round_key = f"round{t+1}"
         logger.info(f"\n{round_key.upper()} - Iterative Refinement")
@@ -267,7 +278,10 @@ def multi_agent_debate(query: str, documents: List[str], generator, num_rounds: 
     logger.info(f"\n{'='*80}")
     logger.info(f"[DONE] MADAM DEBATE COMPLETED")
     logger.info(f"Time: {debate_elapsed:.2f}s ({debate_elapsed/60:.1f} minutes)")
-    logger.info(f"Final Answer: {final_aggregation[:200]}..." if len(final_aggregation) > 200 else f"Final Answer: {final_aggregation}")
+    if final_aggregation:
+        logger.info(f"Final Answer: {final_aggregation[:200]}..." if len(final_aggregation) > 200 else f"Final Answer: {final_aggregation}")
+    else:
+        logger.info("Final Answer: None/Empty (Debate Failed to Aggregate)")
     logger.info(f"{'='*80}\n")
     
     return records

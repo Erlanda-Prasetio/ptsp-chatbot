@@ -1,0 +1,26 @@
+[2026-02-08 21:44:14] === MAF-RAG Phase Latency Test (VOR SUCCESS CASE) ===
+[2026-02-08 21:44:14] Configuring system with LOW thresholds to ensure VOR success...
+[2026-02-08 21:44:28] System initialized.
+[2026-02-08 21:44:28] Vector Threshold: 0.1 (Forced Success)
+[2026-02-08 21:44:28] Enhanced Threshold: 0.6
+[2026-02-08 21:44:28] 
+Test Query: 'Apa persyaratan pengajuan Surat Izin Usaha Perdagangan (SIUP) Mikro?'
+[2026-02-08 21:44:33] 
+=== LATENCY BREAKDOWN ===
+[2026-02-08 21:44:33] [Phase 1] Vector Retrieval: 4.59s
+[2026-02-08 21:44:33] [Phase 2] Enhanced Retrieval: N/A
+[2026-02-08 21:44:33] [Phase 3] MADAM Debate:     N/A
+[2026-02-08 21:44:33] [Phase 4] Internet Fallback: N/A
+[2026-02-08 21:44:33] ------------------------------
+[2026-02-08 21:44:33] Total Wall Time: 4.59s
+[2026-02-08 21:44:33] Final Method Used: vector_only
+[2026-02-08 21:44:33] 
+=== QUALITY CHECKS ===
+[2026-02-08 21:44:33] vector_only: Score 0.5
+[2026-02-08 21:44:33] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-08 21:44:33] Untuk mengajukan Surat Izin Usaha Perdagangan (SIUP) Mikro, ada beberapa persyaratan yang perlu dipenuhi dan langkah-langkah yang perlu diikuti. Berikut adalah penjelasan lengkap tentang persyaratan dan prosedur pengajuan SIUP Mikro:
+
+1. **Pastikan Anda memiliki hak akses OSS terbaru**: Sebelum memu...
+[2026-02-08 21:44:33] 
+=== Test Complete ===

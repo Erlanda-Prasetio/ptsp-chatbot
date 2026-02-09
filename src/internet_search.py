@@ -50,99 +50,6 @@ class EnhancedInternetSearch:
             
         return enhanced
     
-    def search_duckduckgo_instant(self, query: str) -> List[Dict[str, any]]:
-        """Search using DuckDuckGo Instant Answer API (free, no API key needed)"""
-        try:
-            enhanced_query = self.enhance_query_for_ptsp(query)
-            
-            url = "https://api.duckduckgo.com/"
-            params = {
-                'q': enhanced_query,
-                'format': 'json',
-                'no_html': '1',
-                'skip_disambig': '1'
-            }
-            
-            # Try with shorter timeout first
-            response = requests.get(url, params=params, timeout=3)
-            response.raise_for_status()
-            
-            data = response.json()
-            results = []
-            
-            # Extract abstract if available
-            if data.get('Abstract') and len(data.get('Abstract', '')) > 50:
-                results.append({
-                    'title': data.get('AbstractSource', 'DuckDuckGo Knowledge'),
-                    'content': data.get('Abstract'),
-                    'url': data.get('AbstractURL', ''),
-                    'source': 'duckduckgo_abstract',
-                    'relevance_score': 0.8  # High relevance for abstracts
-                })
-            
-            # Extract related topics
-            for topic in data.get('RelatedTopics', [])[:3]:
-                if topic.get('Text') and len(topic.get('Text', '')) > 30:
-                    results.append({
-                        'title': self._extract_title_from_url(topic.get('FirstURL', '')),
-                        'content': topic.get('Text'),
-                        'url': topic.get('FirstURL', ''),
-                        'source': 'duckduckgo_related',
-                        'relevance_score': 0.6
-                    })
-            
-            # If no results, try fallback
-            if not results:
-                print(f"[WARN]  DuckDuckGo returned 0 results, trying fallback...")
-                return self.search_simple_web(query)
-            
-            return results
-            
-        except Exception as e:
-            print(f"[WARN]  DuckDuckGo search failed: {e}")
-            # Fallback to simple web search
-            return self.search_simple_web(query)
-    
-    def search_simple_web(self, query: str) -> List[Dict[str, any]]:
-        """Simple web search fallback using basic HTTP requests"""
-        try:
-            enhanced_query = self.enhance_query_for_ptsp(query)
-            
-            # Use DuckDuckGo HTML interface as fallback
-            url = "https://html.duckduckgo.com/html/"
-            params = {
-                'q': enhanced_query
-            }
-            
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            }
-            
-            response = requests.get(url, params=params, headers=headers, timeout=8)
-            response.raise_for_status()
-            
-            # For now, return a generic helpful response if we can connect
-            if response.status_code == 200:
-                return [{
-                    'title': 'Web Search Results',
-                    'content': f'Based on your query "{query}", you may find relevant information by contacting DPMPTSP Jawa Tengah directly or visiting their official website.',
-                    'url': 'https://dpmptsp.jatengprov.go.id',
-                    'source': 'fallback_web',
-                    'relevance_score': 0.4
-                }]
-            
-        except Exception as e:
-            print(f"[WARN]  Simple web search also failed: {e}")
-            
-        # Final fallback - return helpful generic response
-        return [{
-            'title': 'DPMPTSP Information',
-            'content': f'Untuk pertanyaan "{query}", Anda dapat menghubungi DPMPTSP Jawa Tengah langsung di (024) 3569961 atau mengunjungi website resmi dpmptsp.jatengprov.go.id untuk informasi terkini.',
-            'url': 'https://dpmptsp.jatengprov.go.id',
-            'source': 'fallback_info',
-            'relevance_score': 0.3
-        }]
-    
     def search_serper_google(self, query: str) -> List[Dict[str, any]]:
         """Search using Serper API (Google Search)"""
         if not self.serper_key:
@@ -235,22 +142,32 @@ class EnhancedInternetSearch:
         
         print(f"[SEARCH] Internet search for: {query}")
         
-        # DuckDuckGo (always available, free)
-        ddg_results = self.search_duckduckgo_instant(query)
-        all_results.extend(ddg_results)
-        print(f" DuckDuckGo: {len(ddg_results)} results")
-        
         # Serper (if API key available)
         if self.serper_key:
             serper_results = self.search_serper_google(query)
             all_results.extend(serper_results)
             print(f" Serper: {len(serper_results)} results")
         
+        # If no results from Serper or no key, return generic fallback
+        if not all_results:
+            print(f"[WARN]  No API results, using fallback info...")
+            return self._get_generic_fallback(query)
+            
         # Remove duplicates and sort by relevance
         unique_results = self._deduplicate_and_rank(all_results)
         
         print(f"[TARGET] Final results: {len(unique_results)}")
         return unique_results
+
+    def _get_generic_fallback(self, query: str) -> List[Dict[str, any]]:
+        """Return generic contact info when all searches fail"""
+        return [{
+            'title': 'DPMPTSP Information',
+            'content': f'Untuk pertanyaan "{query}", Anda dapat menghubungi DPMPTSP Jawa Tengah langsung di (024) 3569961 atau mengunjungi website resmi dpmptsp.jatengprov.go.id untuk informasi terkini.',
+            'url': 'https://dpmptsp.jatengprov.go.id',
+            'source': 'fallback_info',
+            'relevance_score': 0.3
+        }]
     
     def _deduplicate_and_rank(self, results: List[Dict[str, any]]) -> List[Dict[str, any]]:
         """Remove duplicates and rank results by relevance"""

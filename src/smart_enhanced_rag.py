@@ -161,13 +161,12 @@ class SmartEnhancedRAG:
             return self._no_results_response(start_time)
             
         # Enhanced prompt for better responses
-        enhanced_prompt = f"""
-        Berdasarkan konteks dokumen pemerintah Jawa Tengah tentang DPMPTSP dan pelayanan publik,
-        jawab pertanyaan berikut dengan lengkap dan akurat:
-        
-        Pertanyaan: {question}
-        
-        Berikan jawaban yaRAG_PROMPT_TEMPLATE.format(question=question)rocess sources with enhanced scoring info
+        enhanced_prompt = RAG_PROMPT_TEMPLATE.format(question=question)
+
+        llm_result = query_llm(enhanced_prompt, context)
+        answer = llm_result.get('text', '') if isinstance(llm_result, dict) else llm_result
+
+        # Process sources with enhanced scoring info
         sources = self._process_sources_enhanced(final_hits[:5])
         
         response_time = time.time() - start_time
@@ -216,18 +215,16 @@ class SmartEnhancedRAG:
         response_time = time.time() - start_time
         
         return {
-            "answer": f"""
-            Maaf, pertanyaan Anda tentang "{question}" berada di luar cakupan sistem informasi DPMPTSP Jawa Tengah.
-            
-            Saya dapat membantu Anda dengan informasi tentang:
-            • Layanan dan prosedur DPMPTSP
-            • Perizinan dan investasi di Jawa Tengah
-            • Persyaratan dan dokumen yang diperlukan
-            • Kebijakan pemerintah Provinsi Jawa Tengah
-            • Prosedur pelayanan terpadu satu pintu
-            
-            Silakan ajukan pertanyaan yang berkaitan dengan topik-topik tersebut.
-            """,
+            "answer": (
+                f"Maaf, pertanyaan Anda tentang \"{question}\" berada di luar cakupan sistem informasi DPMPTSP Jawa Tengah.\n\n"
+                "Saya dapat membantu Anda dengan informasi tentang:\n"
+                "- Layanan dan prosedur DPMPTSP\n"
+                "- Perizinan dan investasi di Jawa Tengah\n"
+                "- Persyaratan dan dokumen yang diperlukan\n"
+                "- Kebijakan pemerintah Provinsi Jawa Tengah\n"
+                "- Prosedur pelayanan terpadu satu pintu\n\n"
+                "Silakan ajukan pertanyaan yang berkaitan dengan topik-topik tersebut."
+            ),
             "sources": [],
             "total_sources": 0,
             "enhanced_features": {

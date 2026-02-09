@@ -1,0 +1,122 @@
+[2026-02-08 21:13:38] === Starting Internet Fallback Demo ===
+[2026-02-08 21:13:38] Initializing EnhancedInternetSearch...
+[2026-02-08 21:13:38] Initialization successful.
+[2026-02-08 21:13:38] Test Query: 'syarat izin usaha laundry di jawa tengah'
+[2026-02-08 21:13:38] 
+[Logic Check] Step 1: Enhancing Query...
+[2026-02-08 21:13:38] Original Query: syarat izin usaha laundry di jawa tengah
+[2026-02-08 21:13:38] Enhanced Query: syarat izin usaha laundry di jawa tengah
+[2026-02-08 21:13:38] (This enhancement ensures generic queries target the specific domain)
+[2026-02-08 21:13:38] 
+[Execution] Step 2: Running Multi-Engine Search...
+[2026-02-08 21:13:38] Engines: DuckDuckGo (Instant & Web), Serper (Google) if key present
+[2026-02-08 21:13:51] Search completed in 13.04 seconds.
+[2026-02-08 21:13:51] Found 5 raw results (before deduplication/ranking).
+[2026-02-08 21:13:51] 
+[Analysis] Step 3: Analyzing Top 5 Results...
+[2026-02-08 21:13:51] 
+--- Result 1 Source: serper_google ---
+[2026-02-08 21:13:51] Title: Mengurus izin usaha laundry ? Yuk belajar bareng!
+[2026-02-08 21:13:51] URL: https://peralatanlaundry.com/mengurus-izin-usaha-laundry-yuk-belajar-bareng/
+[2026-02-08 21:13:51] Relevance Score: 0.4 (Boosted for .go.id/keywords)
+[2026-02-08 21:13:51] Snippet: 1. SIUP (Surat Izin Usaha Perdagangan) · 2. SITU (Surat Izin Tempat Usaha) · 3. Surat Pernyataan · 4. Izin Pembuangan Air Buangan ke aliran sumber air...
+[2026-02-08 21:13:51] 
+--- Result 2 Source: serper_google ---
+[2026-02-08 21:13:51] Title: Cara Mudah Mengurus Izin Usaha Laundry secara Mandiri
+[2026-02-08 21:13:51] URL: https://mebiso.com/wiki/izin-usaha-laundry/
+[2026-02-08 21:13:51] Relevance Score: 0.4 (Boosted for .go.id/keywords)
+[2026-02-08 21:13:51] Snippet: 1. Siapkan Dokumen Awal ... Pengumpulan berkas di awal akan mempersingkat alur, sehingga kamu tidak akan kelabakan ketika sedang mengurusnya.
+[2026-02-08 21:13:51] 
+--- Result 3 Source: serper_google ---
+[2026-02-08 21:13:51] Title: 👋🏻Hallo Laundrypreneur!👋🏻 Dalam hal menjalankan ...
+[2026-02-08 21:13:51] URL: https://www.instagram.com/p/DFKG9u0vHA9/
+[2026-02-08 21:13:51] Relevance Score: 0.4 (Boosted for .go.id/keywords)
+[2026-02-08 21:13:51] Snippet: 1️⃣ Nomor Induk Berusaha. Perhatikan NIB ( Nomor Induk Berusaha ) sebelum anda membuka bisnis laundry anda. 2️⃣ Izin Lingkungan. Perhatikan izin ...
+[2026-02-08 21:13:51] 
+--- Result 4 Source: fallback_info ---
+[2026-02-08 21:13:51] Title: DPMPTSP Information
+[2026-02-08 21:13:51] URL: https://dpmptsp.jatengprov.go.id
+[2026-02-08 21:13:51] Relevance Score: 0.3 (Boosted for .go.id/keywords)
+[2026-02-08 21:13:51] Snippet: Untuk pertanyaan "syarat izin usaha laundry di jawa tengah", Anda dapat menghubungi DPMPTSP Jawa Tengah langsung di (024) 3569961 atau mengunjungi web...
+[2026-02-08 21:13:51] 
+--- Result 5 Source: serper_google ---
+[2026-02-08 21:13:51] Title: Legalitas Usaha Laundry - Windi Berlianti
+[2026-02-08 21:13:51] URL: https://windiberlianti.com/legalitas-usaha-laundry/
+[2026-02-08 21:13:51] Relevance Score: 0.3 (Boosted for .go.id/keywords)
+[2026-02-08 21:13:51] Snippet: Nomor KTP atau NIK; · Akta Pendirian Perusahaan dan SK Kemenkumham (jika pelaku usaha berbadan hukum) · NPWP Pribadi / Perusahaan; · Sketsa Lokasi ...
+[2026-02-08 21:13:51] 
+[Final Output] Step 4: Formatting content for RAG context...
+[2026-02-08 21:13:51] ----------------------------------------
+[2026-02-08 21:13:51] CONTEXT PASSED TO LLM:
+[2026-02-08 21:13:51] ----------------------------------------
+[2026-02-08 21:13:52] [Web Source 1] Mengurus izin usaha laundry ? Yuk belajar bareng! (Score: 0.40)
+1. SIUP (Surat Izin Usaha Perdagangan) · 2. SITU (Surat Izin Tempat Usaha) · 3. Surat Pernyataan · 4. Izin Pembuangan Air Buangan ke aliran sumber air.
+ Source: https://peralatanlaundry.com/mengurus-izin-usaha-laundry-yuk-belajar-bareng/
+
+[Web Source 2] Cara Mudah Mengurus Izin Usaha Laundry secara Mandiri (Score: 0.40)
+1. Siapkan Dokumen Awal ... Pengumpulan berkas di awal akan mempersingkat alur, sehingga kamu tidak akan kelabakan ketika sedang mengurusnya.
+ Source: https://mebiso.com/wiki/izin-usaha-laundry/
+
+[Web Source 3] 👋🏻Hallo Laundrypreneur!👋🏻 Dalam hal menjalankan ... (Score: 0.40)
+1️⃣ Nomor Induk Berusaha. Perhatikan NIB ( Nomor Induk Berusaha ) sebelum anda membuka bisnis laundry anda. 2️⃣ Izin Lingkungan. Perhatikan izin ...
+ Source: https://www.instagram.com/p/DFKG9u0vHA9/
+
+[Web Source 4] DPMPTSP Information (Score: 0.30)
+Untuk pertanyaan "syarat izin usaha laundry di jawa tengah", Anda dapat menghubungi DPMPTSP Jawa Tengah langsung di (024) 3569961 atau mengunjungi website resmi dpmptsp.jatengprov.go.id untuk informasi terkini.
+ Official Source: https://dpmptsp.jatengprov.go.id
+
+[Web Source 5] Legalitas Usaha Laundry - Windi Berlianti (Score: 0.30)
+Nomor KTP atau NIK; · Akta Pendirian Perusahaan dan SK Kemenkumham (jika pelaku usaha berbadan hukum) · NPWP Pribadi / Perusahaan; · Sketsa Lokasi ...
+ Source: https://windiberlianti.com/legalitas-usaha-laundry/
+[2026-02-08 21:13:52] ----------------------------------------
+[2026-02-08 21:13:52] 
+=== Demo Complete ===
+[2026-02-08 21:22:50] === Starting Internet Fallback Demo ===
+[2026-02-08 21:22:50] Initializing EnhancedInternetSearch...
+[2026-02-08 21:22:50] Initialization successful.
+[2026-02-08 21:22:50] Test Query: 'Apa kode KBLI untuk usaha laundry?'
+[2026-02-08 21:22:50] 
+[Logic Check] Step 1: Enhancing Query...
+[2026-02-08 21:22:50] Original Query: Apa kode KBLI untuk usaha laundry?
+[2026-02-08 21:22:50] Enhanced Query: Apa kode KBLI untuk usaha laundry? DPMPTSP Provinsi Jawa Tengah
+[2026-02-08 21:22:50] 
+[Execution] Step 2: Running Multi-Engine Search...
+[2026-02-08 21:22:51] Search completed in 1.63 seconds.
+[2026-02-08 21:22:51] Found 5 results.
+[2026-02-08 21:22:51] 
+[Processing] Step 3: Formatting context for LLM...
+[2026-02-08 21:22:51] 
+[Generation] Step 4: Generating Answer using LLM...
+[2026-02-08 21:22:51] generation failed: query_llm() got an unexpected keyword argument 'system_instruction'
+[2026-02-08 21:22:51] 
+=== Demo Complete ===
+[2026-02-08 21:26:59] === Starting Internet Fallback Demo ===
+[2026-02-08 21:26:59] Initializing EnhancedInternetSearch...
+[2026-02-08 21:26:59] Initialization successful.
+[2026-02-08 21:26:59] Test Query: 'Apa kode KBLI untuk usaha laundry?'
+[2026-02-08 21:26:59] 
+[Logic Check] Step 1: Enhancing Query...
+[2026-02-08 21:26:59] Original Query: Apa kode KBLI untuk usaha laundry?
+[2026-02-08 21:26:59] Enhanced Query: Apa kode KBLI untuk usaha laundry? DPMPTSP Provinsi Jawa Tengah
+[2026-02-08 21:26:59] 
+[Execution] Step 2: Running Multi-Engine Search...
+[2026-02-08 21:27:01] Search completed in 1.84 seconds.
+[2026-02-08 21:27:01] Found 5 results.
+[2026-02-08 21:27:01] 
+[Processing] Step 3: Formatting context for LLM...
+[2026-02-08 21:27:01] 
+[Generation] Step 4: Generating Answer using LLM...
+[2026-02-08 21:27:01] Calling query_llm(question='Apa kode KBLI untuk usaha laundry?', context=...)
+[2026-02-08 21:27:03] ----------------------------------------
+[2026-02-08 21:27:03] FINAL LLM ANSWER:
+[2026-02-08 21:27:03] ----------------------------------------
+[2026-02-08 21:27:03] Kode KBLI untuk usaha laundry adalah 96200, yang mencakup aktivitas penatu, pencucian, penyetrikaan, serta dry cleaning untuk berbagai jenis pakaian dan tekstil. Kode KBLI ini sangat penting karena diperlukan untuk mengurus legalitas usaha, seperti izin usaha dan lain-lain.
+
+Dengan menggunakan kode KBLI 96200, Anda dapat memastikan bahwa usaha laundry Anda terdaftar dan diakui oleh pemerintah, sehingga Anda dapat menjalankan usaha dengan lebih mudah dan aman. Selain itu, kode KBLI ini juga membantu Anda dalam mengurus pajak dan lain-lain kegiatan administratif yang terkait dengan usaha Anda.
+
+Jadi, jika Anda ingin membuka usaha laundry, pastikan Anda untuk menggunakan kode KBLI 96200 agar usaha Anda dapat berjalan dengan lancar dan sesuai dengan regulasi yang berlaku.
+[2026-02-08 21:27:03] ----------------------------------------
+[2026-02-08 21:27:03] Generation time: 1.60s
+[2026-02-08 21:27:03] Model used: llama-3.3-70b-versatile
+[2026-02-08 21:27:03] 
+=== Demo Complete ===

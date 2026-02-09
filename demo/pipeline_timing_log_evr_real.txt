@@ -1,0 +1,26 @@
+[2026-02-08 22:13:37] === MAF-RAG Phase Latency Test (REAL EVR SUCCESS) ===
+[2026-02-08 22:13:37] Demonstrating Phase 2: Enhanced Vector Retrieval (Natural Trigger)...
+[2026-02-08 22:13:51] System configured for Natural EVR Flow:
+[2026-02-08 22:13:51] -> VOR Threshold: 0.75 (Default)
+[2026-02-08 22:13:51] -> EVR Threshold: 0.6 (Default)
+[2026-02-08 22:13:51] 
+Test Query: 'Apa yang dimaksud dengan proses penapisan perizinan lingkungan?'
+[2026-02-08 22:13:51] (Source: ID new_263 - Proven to trigger Enhanced Vector Retrieval naturally)
+[2026-02-08 22:14:02] 
+=== LATENCY BREAKDOWN ===
+[2026-02-08 22:14:02] [Phase 1] Vector Retrieval: 5.36s
+[2026-02-08 22:14:02] [Phase 2] Enhanced Retrieval: 5.82s
+[2026-02-08 22:14:02] ------------------------------
+[2026-02-08 22:14:02] Total Wall Time: 11.19s
+[2026-02-08 22:14:02] Final Method Used: enhanced_vector
+[2026-02-08 22:14:02] 
+=== QUALITY CHECKS ===
+[2026-02-08 22:14:02] vector_only: 0.65
+[2026-02-08 22:14:02] enhanced_vector: 0.65
+[2026-02-08 22:14:02] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-08 22:14:02] Proses penapisan perizinan lingkungan adalah suatu proses yang dilakukan untuk menentukan apakah suatu rencana kegiatan usaha wajib menyusun Analisis Mengenai Dampak Lingkungan (Amdal) atau tidak. Proses penapisan ini hanya berlaku untuk usaha dengan tingkat risiko menengah tinggi dan tinggi.
+
+Dalam...
+[2026-02-08 22:14:02] 
+=== Test Complete ===

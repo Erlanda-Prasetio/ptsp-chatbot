@@ -1,0 +1,27 @@
+[2026-02-09 16:19:40] === MAF-RAG Phase Latency Test  ===
+[2026-02-09 16:19:40] Demonstrating Phase 3: MAF-RAG Multi-Agent Debate...
+[2026-02-09 16:19:55] System configured for Natural Debate Flow:
+[2026-02-09 16:19:55] -> VOR Threshold: 0.75 (Default)
+[2026-02-09 16:19:55] -> EVR Threshold: 0.6 (Default)
+[2026-02-09 16:19:55] 
+Test Query: 'Bagaimana cara mengurus izin untuk usaha penyewaan alat berat?'
+[2026-02-09 16:19:55] (Source: ID old_304 - Proven to trigger MAF-RAG Debate naturally)
+[2026-02-09 16:20:13] 
+=== LATENCY BREAKDOWN ===
+[2026-02-09 16:20:13] [Phase 1] Vector Retrieval: 5.11s
+[2026-02-09 16:20:13] [Phase 2] Enhanced Retrieval: 4.91s
+[2026-02-09 16:20:13] ------------------------------
+[2026-02-09 16:20:13] Total Wall Time: 17.62s
+[2026-02-09 16:20:13] Final Method Used: madam_debate
+[2026-02-09 16:20:13] 
+=== QUALITY CHECKS ===
+[2026-02-09 16:20:13] vector_only: 0.5
+[2026-02-09 16:20:13] enhanced_vector: 0.5
+[2026-02-09 16:20:13] madam_debate: 0.65
+[2026-02-09 16:20:13] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-09 16:20:13] Jawaban akhir MADAM-RAG: ["Tidak ada informasi yang tersedia"]
+
+Penjelasan: Semua agen (Agent 1, Agent 2, dan Agent 3) menyatakan bahwa tidak ada informasi yang tersedia tentang cara mengurus izin untuk usaha penyewaan alat berat berdasarkan dokumen yang disediakan. Mereka menjelaskan bahwa dokumen ...
+[2026-02-09 16:20:13] 
+=== Test Complete ===

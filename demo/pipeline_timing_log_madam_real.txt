@@ -1,0 +1,29 @@
+[2026-02-08 22:16:37] === MAF-RAG Phase Latency Test (REAL DEBATE) ===
+[2026-02-08 22:16:37] Demonstrating Phase 3: MADAM Multi-Agent Debate...
+[2026-02-08 22:16:52] System configured for Natural Debate Flow:
+[2026-02-08 22:16:52] -> VOR Threshold: 0.75 (Default)
+[2026-02-08 22:16:52] -> EVR Threshold: 0.6 (Default)
+[2026-02-08 22:16:52] 
+Test Query: 'Bagaimana cara mengurus izin untuk usaha penyewaan alat berat?'
+[2026-02-08 22:16:52] (Source: ID old_304 - Proven to trigger MADAM Debate naturally)
+[2026-02-08 22:17:19] 
+=== LATENCY BREAKDOWN ===
+[2026-02-08 22:17:19] [Phase 1] Vector Retrieval: 7.50s
+[2026-02-08 22:17:19] [Phase 2] Enhanced Retrieval: 7.43s
+[2026-02-08 22:17:19] [Phase 3] MADAM Debate: 7.54s
+[2026-02-08 22:17:19] ------------------------------
+[2026-02-08 22:17:19] Total Wall Time: 27.18s
+[2026-02-08 22:17:19] Final Method Used: internet_fallback
+[2026-02-08 22:17:19] 
+=== QUALITY CHECKS ===
+[2026-02-08 22:17:19] vector_only: 0.5
+[2026-02-08 22:17:19] enhanced_vector: 0.5
+[2026-02-08 22:17:19] madam_debate: N/A
+[2026-02-08 22:17:19] internet_fallback: 0.55
+[2026-02-08 22:17:19] 
+=== FINAL ANSWER SNIPPET ===
+[2026-02-08 22:17:19] Untuk mengurus izin usaha penyewaan alat berat, Anda dapat mengikuti langkah-langkah berikut:
+
+1. **Mendaftar dan Memperoleh Nomor Induk Berusaha (NIB)**: Pertama, pastikan Anda memiliki NIB yang diperlukan untuk semua jenis usaha, termasuk usaha penyewaan alat berat. NIB ini dapat diperoleh melalui...
+[2026-02-08 22:17:19] 
+=== Test Complete ===
